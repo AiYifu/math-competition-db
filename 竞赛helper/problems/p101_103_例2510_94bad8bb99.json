@@ -1,0 +1,63 @@
+{
+  "uid": "p101_103_例2510_94bad8bb99",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.10",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Algebraic Inequalities",
+  "source_pages": [
+    101,
+    102,
+    103
+  ],
+  "source_images": [
+    "page-101.jpg",
+    "page-102.jpg",
+    "page-103.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，证明\n$$a_1^n+a_2^n+\\cdots+a_n^n+n(n-1)a_1a_2\\cdots a_n$$\n$$\\geqslant a_1a_2\\cdots a_n(a_1+a_2+\\cdots+a_n)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)$$",
+  "solution_md": "用归纳法证明这个不等式。当 $n=3$ 时，不等式变成了著名的 Schur 不等式。假设不等式对 $n-1$ 个正实数是成立的。记 $S=\\sum_{i=1}^n a_i$，则不等式等价于\n$$\\sum_{i=1}^n a_i^n+n(n-2)\\prod_{i=1}^n a_i\\geqslant \\sum_{i=1}^n\\left[(S-a_i)\\prod_{j=1,j\\neq i}^n a_j\\right]$$\n上述不等式两边取全导数，得到下列不等式\n$$n\\sum_{i=1}^n a_i^{n-1}+n(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant (n-1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_i\\right)+\\sum_{i=1}^n\\left[(S-a_i)\\sum_{j=1,j\\neq i}\\left(\\prod_{k=1,k\\neq i,k\\neq j}^n a_k\\right)\\right]$$\n或\n$$n\\sum_{i=1}^n a_i^{n-1}+(n^2-3n+1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)\\quad(*)$$\n利用归纳假设，我们对 $n$ 个序列 $(a_1,a_2,\\cdots,a_{n-1}),(a_2,a_3,\\cdots,a_n),\\cdots$，构造 $n$ 个不等式，并将其相加，有\n$$(n-1)\\sum_{i=1}^{n-1}a_i^{n-1}+(n-1)(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)$$\n另外，注意到（由 AM-GM 不等式可得）\n$$\\sum_{i=1}^{n-1}a_i^{n-1}\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n所以，不等式 $(*)$（原不等式两边求全导数得到的不等式）成立。因此可见，只需在条件 $a_1a_2\\cdots a_n=0$ 下，证明原不等式成立即可。不失一般性，设 $a_n=0$。则原不等式变成\n$$a_1^n+a_2^n+\\cdots+a_{n-1}^n\\geqslant a_1a_2\\cdots a_{n-1}(a_1+a_2+\\cdots+a_{n-1})$$\n这由 AM-GM 不等式很易证明，等号成立的条件是 $a_1=a_2=\\cdots=a_n$ 或 $a_1=a_2=\\cdots=a_{n-1},a_n=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.10(Vasile Cirtoaje, Algebraic Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，证明\n$$a_1^n+a_2^n+\\cdots+a_n^n+n(n-1)a_1a_2\\cdots a_n$$\n$$\\geqslant a_1a_2\\cdots a_n(a_1+a_2+\\cdots+a_n)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)$$\n证明 用归纳法证明这个不等式。当 $n=3$ 时，不等式变成了著名的 Schur 不等式。假设不等式对 $n-1$ 个正实数是成立的。记 $S=\\sum_{i=1}^n a_i$，则不等式等价于\n$$\\sum_{i=1}^n a_i^n+n(n-2)\\prod_{i=1}^n a_i\\geqslant \\sum_{i=1}^n\\left[(S-a_i)\\prod_{j=1,j\\neq i}^n a_j\\right]$$\n上述不等式两边取全导数，得到下列不等式\n$$n\\sum_{i=1}^n a_i^{n-1}+n(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant (n-1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_i\\right)+\\sum_{i=1}^n\\left[(S-a_i)\\sum_{j=1,j\\neq i}\\left(\\prod_{k=1,k\\neq i,k\\neq j}^n a_k\\right)\\right]$$\n或\n$$n\\sum_{i=1}^n a_i^{n-1}+(n^2-3n+1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)\\quad(*)$$\n利用归纳假设，我们对 $n$ 个序列 $(a_1,a_2,\\cdots,a_{n-1}),(a_2,a_3,\\cdots,a_n),\\cdots$，构造 $n$ 个不等式，并将其相加，有\n$$(n-1)\\sum_{i=1}^{n-1}a_i^{n-1}+(n-1)(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)$$\n另外，注意到（由 AM-GM 不等式可得）\n$$\\sum_{i=1}^{n-1}a_i^{n-1}\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n所以，不等式 $(*)$（原不等式两边求全导数得到的不等式）成立。因此可见，只需在条件 $a_1a_2\\cdots a_n=0$ 下，证明原不等式成立即可。不失一般性，设 $a_n=0$。则原不等式变成\n$$a_1^n+a_2^n+\\cdots+a_{n-1}^n\\geqslant a_1a_2\\cdots a_{n-1}(a_1+a_2+\\cdots+a_{n-1})$$\n这由 AM-GM 不等式很易证明，等号成立的条件是 $a_1=a_2=\\cdots=a_n$ 或 $a_1=a_2=\\cdots=a_{n-1},a_n=0$ 及其轮换。",
+  "tags": [
+    "Vasile Cirtoaje",
+    "归纳法",
+    "全导数",
+    "Schur不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "94bad8bb99f734230053485e3ff767cc0b93fa43",
+  "raw_problem": {
+    "problem_id": "例2.5.10",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": "Vasile Cirtoaje, Algebraic Inequalities",
+    "source_pages": [
+      101,
+      102,
+      103
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，证明\n$$a_1^n+a_2^n+\\cdots+a_n^n+n(n-1)a_1a_2\\cdots a_n$$\n$$\\geqslant a_1a_2\\cdots a_n(a_1+a_2+\\cdots+a_n)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)$$",
+    "solution_md": "用归纳法证明这个不等式。当 $n=3$ 时，不等式变成了著名的 Schur 不等式。假设不等式对 $n-1$ 个正实数是成立的。记 $S=\\sum_{i=1}^n a_i$，则不等式等价于\n$$\\sum_{i=1}^n a_i^n+n(n-2)\\prod_{i=1}^n a_i\\geqslant \\sum_{i=1}^n\\left[(S-a_i)\\prod_{j=1,j\\neq i}^n a_j\\right]$$\n上述不等式两边取全导数，得到下列不等式\n$$n\\sum_{i=1}^n a_i^{n-1}+n(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant (n-1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_i\\right)+\\sum_{i=1}^n\\left[(S-a_i)\\sum_{j=1,j\\neq i}\\left(\\prod_{k=1,k\\neq i,k\\neq j}^n a_k\\right)\\right]$$\n或\n$$n\\sum_{i=1}^n a_i^{n-1}+(n^2-3n+1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)\\quad(*)$$\n利用归纳假设，我们对 $n$ 个序列 $(a_1,a_2,\\cdots,a_{n-1}),(a_2,a_3,\\cdots,a_n),\\cdots$，构造 $n$ 个不等式，并将其相加，有\n$$(n-1)\\sum_{i=1}^{n-1}a_i^{n-1}+(n-1)(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)$$\n另外，注意到（由 AM-GM 不等式可得）\n$$\\sum_{i=1}^{n-1}a_i^{n-1}\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n所以，不等式 $(*)$（原不等式两边求全导数得到的不等式）成立。因此可见，只需在条件 $a_1a_2\\cdots a_n=0$ 下，证明原不等式成立即可。不失一般性，设 $a_n=0$。则原不等式变成\n$$a_1^n+a_2^n+\\cdots+a_{n-1}^n\\geqslant a_1a_2\\cdots a_{n-1}(a_1+a_2+\\cdots+a_{n-1})$$\n这由 AM-GM 不等式很易证明，等号成立的条件是 $a_1=a_2=\\cdots=a_n$ 或 $a_1=a_2=\\cdots=a_{n-1},a_n=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.10(Vasile Cirtoaje, Algebraic Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，证明\n$$a_1^n+a_2^n+\\cdots+a_n^n+n(n-1)a_1a_2\\cdots a_n$$\n$$\\geqslant a_1a_2\\cdots a_n(a_1+a_2+\\cdots+a_n)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)$$\n证明 用归纳法证明这个不等式。当 $n=3$ 时，不等式变成了著名的 Schur 不等式。假设不等式对 $n-1$ 个正实数是成立的。记 $S=\\sum_{i=1}^n a_i$，则不等式等价于\n$$\\sum_{i=1}^n a_i^n+n(n-2)\\prod_{i=1}^n a_i\\geqslant \\sum_{i=1}^n\\left[(S-a_i)\\prod_{j=1,j\\neq i}^n a_j\\right]$$\n上述不等式两边取全导数，得到下列不等式\n$$n\\sum_{i=1}^n a_i^{n-1}+n(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant (n-1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_i\\right)+\\sum_{i=1}^n\\left[(S-a_i)\\sum_{j=1,j\\neq i}\\left(\\prod_{k=1,k\\neq i,k\\neq j}^n a_k\\right)\\right]$$\n或\n$$n\\sum_{i=1}^n a_i^{n-1}+(n^2-3n+1)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)\\quad(*)$$\n利用归纳假设，我们对 $n$ 个序列 $(a_1,a_2,\\cdots,a_{n-1}),(a_2,a_3,\\cdots,a_n),\\cdots$，构造 $n$ 个不等式，并将其相加，有\n$$(n-1)\\sum_{i=1}^{n-1}a_i^{n-1}+(n-1)(n-2)\\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n$$\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)\\left(\\sum_{j=1,j\\neq i} a_j\\right)\\left(\\sum_{j=1,j\\neq i}\\frac{1}{a_j}\\right)$$\n另外，注意到（由 AM-GM 不等式可得）\n$$\\sum_{i=1}^{n-1}a_i^{n-1}\\geqslant \\sum_{i=1}^n\\left(\\prod_{j=1,j\\neq i}^n a_j\\right)$$\n所以，不等式 $(*)$（原不等式两边求全导数得到的不等式）成立。因此可见，只需在条件 $a_1a_2\\cdots a_n=0$ 下，证明原不等式成立即可。不失一般性，设 $a_n=0$。则原不等式变成\n$$a_1^n+a_2^n+\\cdots+a_{n-1}^n\\geqslant a_1a_2\\cdots a_{n-1}(a_1+a_2+\\cdots+a_{n-1})$$\n这由 AM-GM 不等式很易证明，等号成立的条件是 $a_1=a_2=\\cdots=a_n$ 或 $a_1=a_2=\\cdots=a_{n-1},a_n=0$ 及其轮换。",
+    "tags": [
+      "Vasile Cirtoaje",
+      "归纳法",
+      "全导数",
+      "Schur不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

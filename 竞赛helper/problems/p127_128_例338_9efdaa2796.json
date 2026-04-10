@@ -1,0 +1,58 @@
+{
+  "uid": "p127_128_例338_9efdaa2796",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章",
+  "section": "3.3",
+  "problem_id": "例3.3.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    127,
+    128
+  ],
+  "source_images": [
+    "page-127.jpg",
+    "page-128.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是凸四边形的四边长，证明\n$$\\sqrt{\\frac{a}{b+c+d}}+\\sqrt{\\frac{b}{c+d+a}}+\\sqrt{\\frac{c}{d+a+b}}+\\sqrt{\\frac{d}{a+b+c}}\\leqslant 1+\\frac{3}{\\sqrt{5}}$$",
+  "solution_md": "设 $x,y,z,t$ 分别表示上述不等式左边的依次的四项，则 $x,y,z,t\\leqslant 1$，且易证\n$$\\sum\\frac{1}{1+\\frac{1}{x^2}}=\\sum\\frac{1}{1+\\frac{b+c+d}{a}}=1\\Rightarrow\\sum\\frac{x^2}{1+x^2}=1\\Rightarrow\\sum\\frac{1}{1+x^2}=3$$\n\n另外，如果 $a\\geqslant b\\geqslant c\\geqslant d$，则 $x\\geqslant y\\geqslant z\\geqslant t$，这就意味着\n$$y+t\\leqslant\\sqrt{\\frac{b}{b+2d}}+\\sqrt{\\frac{d}{d+2b}}\\leqslant\\frac{2}{\\sqrt{3}}$$\n\n在这个关系的基础上，我们来证明反转问题。\n\n如果 $1\\geqslant x\\geqslant y\\geqslant z\\geqslant t$，$y+t\\leqslant\\frac{2}{\\sqrt{3}}$，且 $x+y+z+t=1+\\frac{3}{\\sqrt{5}}$，则\n$$\\frac{1}{x^2+1}+\\frac{1}{y^2+1}+\\frac{1}{z^2+1}+\\frac{1}{t^2+1}\\leqslant 3$$\n\n因为 $y+t\\leqslant\\frac{2}{\\sqrt{3}}$，我们有，$y^2+t^2+4yt\\leqslant\\frac{3}{2}(y+t)^2\\leqslant 2$，所以\n$$\\frac{1}{y^2+1}+\\frac{1}{t^2+1}-\\frac{2}{1+\\left(\\frac{y+t}{2}\\right)^2}=\\frac{(y^2+t^2+4yt-2)(y-t)^2}{(y^2+1)(t^2+1)[4+(y+t)^2]}\\leqslant 0$$\n\n由 SMV 定理，我们只需证明，在条件 $x=y=z=u\\leqslant 1$ 下，不等式成立即可，即\n$$\\frac{3}{1+u^2}+\\frac{1}{1+t^2}\\leqslant 3$$\n$$\\Leftrightarrow 3u^2t^2+2u^2-1\\geqslant 0$$\n\n由于 $x+y+z+t=1+\\frac{3}{\\sqrt{5}}\\Rightarrow t=1+\\frac{3}{\\sqrt{5}}-3u$，则上述不等式变成\n$$f(u)=3u^2\\left(1+\\frac{3}{5}\\sqrt{5}-3u\\right)^2+2u^2-1\\geqslant 0\\quad\\left(\\frac{1}{\\sqrt{5}}\\leqslant u\\leqslant 1\\right)$$\n\n用求极值的方法，可以证明，当 $\\frac{1}{\\sqrt{5}}\\leqslant u\\leqslant 1$ 时，$f(u)\\geqslant 0$，不等式得证。等号成立的条件是 $(a,b,c,d)\\sim(3,1,1,1)$。",
+  "answer_md": "",
+  "hints_md": "Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 3.3.8(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是凸四边形的四边长，证明\n$$\\sqrt{\\frac{a}{b+c+d}}+\\sqrt{\\frac{b}{c+d+a}}+\\sqrt{\\frac{c}{d+a+b}}+\\sqrt{\\frac{d}{a+b+c}}\\leqslant 1+\\frac{3}{\\sqrt{5}}$$\n证明 设 $x,y,z,t$ 分别表示上述不等式左边的依次的四项，则 $x,y,z,t\\leqslant 1$，且易证\n$$\\sum\\frac{1}{1+\\frac{1}{x^2}}=\\sum\\frac{1}{1+\\frac{b+c+d}{a}}=1\\Rightarrow\\sum\\frac{x^2}{1+x^2}=1\\Rightarrow\\sum\\frac{1}{1+x^2}=3$$\n另外，如果 $a\\geqslant b\\geqslant c\\geqslant d$，则 $x\\geqslant y\\geqslant z\\geqslant t$，这就意味着\n$$y+t\\leqslant\\sqrt{\\frac{b}{b+2d}}+\\sqrt{\\frac{d}{d+2b}}\\leqslant\\frac{2}{\\sqrt{3}}$$\n在这个关系的基础上，我们来证明反转问题。",
+  "tags": [
+    "凸四边形",
+    "根式不等式",
+    "SMV定理",
+    "反转问题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "9efdaa27960140e54732cd1c5724394a52e96c0a",
+  "raw_problem": {
+    "problem_id": "例3.3.8",
+    "problem_type": "example",
+    "chapter": "第3章",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      127,
+      128
+    ],
+    "stem_md": "设 $a,b,c,d$ 是凸四边形的四边长，证明\n$$\\sqrt{\\frac{a}{b+c+d}}+\\sqrt{\\frac{b}{c+d+a}}+\\sqrt{\\frac{c}{d+a+b}}+\\sqrt{\\frac{d}{a+b+c}}\\leqslant 1+\\frac{3}{\\sqrt{5}}$$",
+    "solution_md": "设 $x,y,z,t$ 分别表示上述不等式左边的依次的四项，则 $x,y,z,t\\leqslant 1$，且易证\n$$\\sum\\frac{1}{1+\\frac{1}{x^2}}=\\sum\\frac{1}{1+\\frac{b+c+d}{a}}=1\\Rightarrow\\sum\\frac{x^2}{1+x^2}=1\\Rightarrow\\sum\\frac{1}{1+x^2}=3$$\n\n另外，如果 $a\\geqslant b\\geqslant c\\geqslant d$，则 $x\\geqslant y\\geqslant z\\geqslant t$，这就意味着\n$$y+t\\leqslant\\sqrt{\\frac{b}{b+2d}}+\\sqrt{\\frac{d}{d+2b}}\\leqslant\\frac{2}{\\sqrt{3}}$$\n\n在这个关系的基础上，我们来证明反转问题。\n\n如果 $1\\geqslant x\\geqslant y\\geqslant z\\geqslant t$，$y+t\\leqslant\\frac{2}{\\sqrt{3}}$，且 $x+y+z+t=1+\\frac{3}{\\sqrt{5}}$，则\n$$\\frac{1}{x^2+1}+\\frac{1}{y^2+1}+\\frac{1}{z^2+1}+\\frac{1}{t^2+1}\\leqslant 3$$\n\n因为 $y+t\\leqslant\\frac{2}{\\sqrt{3}}$，我们有，$y^2+t^2+4yt\\leqslant\\frac{3}{2}(y+t)^2\\leqslant 2$，所以\n$$\\frac{1}{y^2+1}+\\frac{1}{t^2+1}-\\frac{2}{1+\\left(\\frac{y+t}{2}\\right)^2}=\\frac{(y^2+t^2+4yt-2)(y-t)^2}{(y^2+1)(t^2+1)[4+(y+t)^2]}\\leqslant 0$$\n\n由 SMV 定理，我们只需证明，在条件 $x=y=z=u\\leqslant 1$ 下，不等式成立即可，即\n$$\\frac{3}{1+u^2}+\\frac{1}{1+t^2}\\leqslant 3$$\n$$\\Leftrightarrow 3u^2t^2+2u^2-1\\geqslant 0$$\n\n由于 $x+y+z+t=1+\\frac{3}{\\sqrt{5}}\\Rightarrow t=1+\\frac{3}{\\sqrt{5}}-3u$，则上述不等式变成\n$$f(u)=3u^2\\left(1+\\frac{3}{5}\\sqrt{5}-3u\\right)^2+2u^2-1\\geqslant 0\\quad\\left(\\frac{1}{\\sqrt{5}}\\leqslant u\\leqslant 1\\right)$$\n\n用求极值的方法，可以证明，当 $\\frac{1}{\\sqrt{5}}\\leqslant u\\leqslant 1$ 时，$f(u)\\geqslant 0$，不等式得证。等号成立的条件是 $(a,b,c,d)\\sim(3,1,1,1)$。",
+    "answer_md": "",
+    "hints_md": "Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 3.3.8(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是凸四边形的四边长，证明\n$$\\sqrt{\\frac{a}{b+c+d}}+\\sqrt{\\frac{b}{c+d+a}}+\\sqrt{\\frac{c}{d+a+b}}+\\sqrt{\\frac{d}{a+b+c}}\\leqslant 1+\\frac{3}{\\sqrt{5}}$$\n证明 设 $x,y,z,t$ 分别表示上述不等式左边的依次的四项，则 $x,y,z,t\\leqslant 1$，且易证\n$$\\sum\\frac{1}{1+\\frac{1}{x^2}}=\\sum\\frac{1}{1+\\frac{b+c+d}{a}}=1\\Rightarrow\\sum\\frac{x^2}{1+x^2}=1\\Rightarrow\\sum\\frac{1}{1+x^2}=3$$\n另外，如果 $a\\geqslant b\\geqslant c\\geqslant d$，则 $x\\geqslant y\\geqslant z\\geqslant t$，这就意味着\n$$y+t\\leqslant\\sqrt{\\frac{b}{b+2d}}+\\sqrt{\\frac{d}{d+2b}}\\leqslant\\frac{2}{\\sqrt{3}}$$\n在这个关系的基础上，我们来证明反转问题。",
+    "tags": [
+      "凸四边形",
+      "根式不等式",
+      "SMV定理",
+      "反转问题"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

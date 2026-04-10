@@ -1,0 +1,53 @@
+{
+  "uid": "p028_028_推论2基本表示_b16b0d7e72",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.2",
+  "problem_id": "推论2(基本表示)",
+  "problem_type": "theorem",
+  "title": "基本表示",
+  "source_pages": [
+    28
+  ],
+  "source_images": [
+    "page-028.jpg"
+  ],
+  "stem_md": "**推论 2（基本表示）** 设 $\\alpha,\\beta,\\gamma$ 是和为 $3k$ 的有理数，则存在一个标准表示\n$$f_k(a,b,c)=\\sum a^{\\alpha'}b^{\\beta'}c^{\\gamma'}-6a^kb^kc^k$$\n其中的和是对所有 $\\alpha,\\beta,\\gamma$ 的排列 $\\alpha',\\beta',\\gamma'$ 进行的。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "推论 2（基本表示）设 $\\alpha,\\beta,\\gamma$ 是和为 $3k$ 的有理数，则存在一个标准表示\n$$f_k(a,b,c)=\\sum a^{\\alpha'}b^{\\beta'}c^{\\gamma'}-6a^kb^kc^k$$\n其中的和是对所有 $\\alpha,\\beta,\\gamma$ 的排列 $\\alpha',\\beta',\\gamma'$ 进行的。",
+  "tags": [
+    "推论",
+    "基本表示",
+    "SOS标准表示"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "b16b0d7e72aff740f5eadbf27f800c0a2bf625c1",
+  "raw_problem": {
+    "problem_id": "推论2(基本表示)",
+    "problem_type": "theorem",
+    "chapter": "1",
+    "section": "1.2",
+    "title": "基本表示",
+    "source_pages": [
+      28
+    ],
+    "stem_md": "**推论 2（基本表示）** 设 $\\alpha,\\beta,\\gamma$ 是和为 $3k$ 的有理数，则存在一个标准表示\n$$f_k(a,b,c)=\\sum a^{\\alpha'}b^{\\beta'}c^{\\gamma'}-6a^kb^kc^k$$\n其中的和是对所有 $\\alpha,\\beta,\\gamma$ 的排列 $\\alpha',\\beta',\\gamma'$ 进行的。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "推论 2（基本表示）设 $\\alpha,\\beta,\\gamma$ 是和为 $3k$ 的有理数，则存在一个标准表示\n$$f_k(a,b,c)=\\sum a^{\\alpha'}b^{\\beta'}c^{\\gamma'}-6a^kb^kc^k$$\n其中的和是对所有 $\\alpha,\\beta,\\gamma$ 的排列 $\\alpha',\\beta',\\gamma'$ 进行的。",
+    "tags": [
+      "推论",
+      "基本表示",
+      "SOS标准表示"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

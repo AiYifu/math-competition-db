@@ -1,0 +1,55 @@
+{
+  "uid": "p028_028_例118_28a3196574",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例1.1.8",
+  "problem_type": "example",
+  "title": "Iran TST 1996",
+  "source_pages": [
+    28
+  ],
+  "source_images": [
+    "page-028.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是非负实数，证明\n$$\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2} \\geqslant \\frac{9}{4(xy+yz+zx)}$$",
+  "solution_md": "**证明** 设 $a=y+z,b=z+x,c=x+y$，则不等式变成\n$$(2ab+2bc+2ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right) \\geqslant 9$$\n$$\\Leftrightarrow \\sum\\left(\\frac{2a}{b}+\\frac{2b}{a}-4\\right) \\geqslant \\sum\\left(\\frac{a^2}{c^2}+\\frac{b^2}{c^2}-\\frac{2ab}{c^2}\\right) \\Leftrightarrow \\sum\\left(\\frac{2}{ab}-\\frac{1}{c^2}\\right)(b-c)^2 \\geqslant 0$$\n\n因此，我们有 $S_a=\\frac{2}{bc}-\\frac{1}{a^2},S_b,S_c$ 类似可得。假设 $a \\geqslant b \\geqslant c$，则显然有 $S_a \\geqslant 0$，且 $S_a \\geqslant S_b \\geqslant S_c$，使用 SOS 定理的条件(5)，我们只需证明\n$$b^2S_b+c^2S_c \\geqslant 0$$\n即 $b^3+c^3 \\geqslant abc$，这是显然成立的，因为\n$$b^3+c^3 \\geqslant bc(b+c) \\geqslant abc$$\n\n等号成立的条件是 $a=b=c$ 和 $a=b,c=0$ 及其轮换。证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.8（Iran TST 1996）设 $x,y,z$ 是非负实数，证明\n$$\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2} \\geqslant \\frac{9}{4(xy+yz+zx)}$$\n\n证明 设 $a=y+z,b=z+x,c=x+y$，则不等式变成\n$$(2ab+2bc+2ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right) \\geqslant 9$$\n$$\\Leftrightarrow \\sum\\left(\\frac{2a}{b}+\\frac{2b}{a}-4\\right) \\geqslant \\sum\\left(\\frac{a^2}{c^2}+\\frac{b^2}{c^2}-\\frac{2ab}{c^2}\\right) \\Leftrightarrow \\sum\\left(\\frac{2}{ab}-\\frac{1}{c^2}\\right)(b-c)^2 \\geqslant 0$$\n\n因此，我们有 $S_a=\\frac{2}{bc}-\\frac{1}{a^2},S_b,S_c$ 类似可得。假设 $a \\geqslant b \\geqslant c$，则显然有 $S_a \\geqslant 0$，且 $S_a \\geqslant S_b \\geqslant S_c$，使用 SOS 定理的条件(5)，我们只需证明\n$$b^2S_b+c^2S_c \\geqslant 0$$\n即 $b^3+c^3 \\geqslant abc$，这是显然成立的，因为\n$$b^3+c^3 \\geqslant bc(b+c) \\geqslant abc$$\n\n等号成立的条件是 $a=b=c$ 和 $a=b,c=0$ 及其轮换。证毕。",
+  "tags": [
+    "SOS方法",
+    "Iran TST 1996",
+    "非负实数",
+    "著名不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "28a3196574e4cc82f8771c2154ab3f33537dbed9",
+  "raw_problem": {
+    "problem_id": "例1.1.8",
+    "problem_type": "example",
+    "chapter": "1",
+    "section": "1.1",
+    "title": "Iran TST 1996",
+    "source_pages": [
+      28
+    ],
+    "stem_md": "设 $x,y,z$ 是非负实数，证明\n$$\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2} \\geqslant \\frac{9}{4(xy+yz+zx)}$$",
+    "solution_md": "**证明** 设 $a=y+z,b=z+x,c=x+y$，则不等式变成\n$$(2ab+2bc+2ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right) \\geqslant 9$$\n$$\\Leftrightarrow \\sum\\left(\\frac{2a}{b}+\\frac{2b}{a}-4\\right) \\geqslant \\sum\\left(\\frac{a^2}{c^2}+\\frac{b^2}{c^2}-\\frac{2ab}{c^2}\\right) \\Leftrightarrow \\sum\\left(\\frac{2}{ab}-\\frac{1}{c^2}\\right)(b-c)^2 \\geqslant 0$$\n\n因此，我们有 $S_a=\\frac{2}{bc}-\\frac{1}{a^2},S_b,S_c$ 类似可得。假设 $a \\geqslant b \\geqslant c$，则显然有 $S_a \\geqslant 0$，且 $S_a \\geqslant S_b \\geqslant S_c$，使用 SOS 定理的条件(5)，我们只需证明\n$$b^2S_b+c^2S_c \\geqslant 0$$\n即 $b^3+c^3 \\geqslant abc$，这是显然成立的，因为\n$$b^3+c^3 \\geqslant bc(b+c) \\geqslant abc$$\n\n等号成立的条件是 $a=b=c$ 和 $a=b,c=0$ 及其轮换。证毕。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.1.8（Iran TST 1996）设 $x,y,z$ 是非负实数，证明\n$$\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2} \\geqslant \\frac{9}{4(xy+yz+zx)}$$\n\n证明 设 $a=y+z,b=z+x,c=x+y$，则不等式变成\n$$(2ab+2bc+2ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right) \\geqslant 9$$\n$$\\Leftrightarrow \\sum\\left(\\frac{2a}{b}+\\frac{2b}{a}-4\\right) \\geqslant \\sum\\left(\\frac{a^2}{c^2}+\\frac{b^2}{c^2}-\\frac{2ab}{c^2}\\right) \\Leftrightarrow \\sum\\left(\\frac{2}{ab}-\\frac{1}{c^2}\\right)(b-c)^2 \\geqslant 0$$\n\n因此，我们有 $S_a=\\frac{2}{bc}-\\frac{1}{a^2},S_b,S_c$ 类似可得。假设 $a \\geqslant b \\geqslant c$，则显然有 $S_a \\geqslant 0$，且 $S_a \\geqslant S_b \\geqslant S_c$，使用 SOS 定理的条件(5)，我们只需证明\n$$b^2S_b+c^2S_c \\geqslant 0$$\n即 $b^3+c^3 \\geqslant abc$，这是显然成立的，因为\n$$b^3+c^3 \\geqslant bc(b+c) \\geqslant abc$$\n\n等号成立的条件是 $a=b=c$ 和 $a=b,c=0$ 及其轮换。证毕。",
+    "tags": [
+      "SOS方法",
+      "Iran TST 1996",
+      "非负实数",
+      "著名不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

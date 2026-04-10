@@ -1,0 +1,51 @@
+{
+  "uid": "p059_059_习题21_3290da98df",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    59
+  ],
+  "source_images": [
+    "page-059.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=1$，对于 $k\\geqslant 2+\\sqrt{3}$，证明\n$$\\frac{1+ab}{kc^2+ab}+\\frac{1+bc}{ka^2+bc}+\\frac{1+ca}{kb^2+ca}\\geqslant\\frac{12}{k+1}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "21.(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=1$，对于 $k\\geqslant 2+\\sqrt{3}$，证明\n$$\\frac{1+ab}{kc^2+ab}+\\frac{1+bc}{ka^2+bc}+\\frac{1+ca}{kb^2+ca}\\geqslant\\frac{12}{k+1}$$",
+  "tags": [
+    "条件不等式",
+    "参数不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "3290da98df1ae9702f15b2e0290fc18188b502e8",
+  "raw_problem": {
+    "problem_id": "习题21",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      59
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=1$，对于 $k\\geqslant 2+\\sqrt{3}$，证明\n$$\\frac{1+ab}{kc^2+ab}+\\frac{1+bc}{ka^2+bc}+\\frac{1+ca}{kb^2+ca}\\geqslant\\frac{12}{k+1}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "21.(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=1$，对于 $k\\geqslant 2+\\sqrt{3}$，证明\n$$\\frac{1+ab}{kc^2+ab}+\\frac{1+bc}{ka^2+bc}+\\frac{1+ca}{kb^2+ca}\\geqslant\\frac{12}{k+1}$$",
+    "tags": [
+      "条件不等式",
+      "参数不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

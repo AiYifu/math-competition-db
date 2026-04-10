@@ -1,0 +1,53 @@
+{
+  "uid": "p097_097_例254_1a07038c96",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    97
+  ],
+  "source_images": [
+    "page-097.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d\\geqslant 0, a+b+c+d=4$，证明：\n(1) $a^2bc+b^2cd+c^2da+d^2ab\\leqslant 4$。（Park Doo Sung, Mathlinks）\n(2) $a^3b+b^3c+c^3d+d^3a+23abcd\\leqslant 4$。（Pham Kim Hung, Mathlinks）",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.4 设 $a,b,c,d\\geqslant 0, a+b+c+d=4$，证明：\n(1)$a^2bc+b^2cd+c^2da+d^2ab\\leqslant 4$。(Park Doo Sung,Mathlinks)\n(2)$a^3b+b^3c+c^3d+d^3a+23abcd\\leqslant 4$。(Pham Kim Hung.Mathlinks)",
+  "tags": [
+    "全导数",
+    "四元不等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "1a07038c966afae4c4e87e04a5d14ec351d0fc8c",
+  "raw_problem": {
+    "problem_id": "例2.5.4",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      97
+    ],
+    "stem_md": "设 $a,b,c,d\\geqslant 0, a+b+c+d=4$，证明：\n(1) $a^2bc+b^2cd+c^2da+d^2ab\\leqslant 4$。（Park Doo Sung, Mathlinks）\n(2) $a^3b+b^3c+c^3d+d^3a+23abcd\\leqslant 4$。（Pham Kim Hung, Mathlinks）",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.4 设 $a,b,c,d\\geqslant 0, a+b+c+d=4$，证明：\n(1)$a^2bc+b^2cd+c^2da+d^2ab\\leqslant 4$。(Park Doo Sung,Mathlinks)\n(2)$a^3b+b^3c+c^3d+d^3a+23abcd\\leqslant 4$。(Pham Kim Hung.Mathlinks)",
+    "tags": [
+      "全导数",
+      "四元不等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

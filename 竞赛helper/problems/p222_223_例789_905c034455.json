@@ -1,0 +1,58 @@
+{
+  "uid": "p222_223_例789_905c034455",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    222,
+    223
+  ],
+  "source_images": [
+    "page-222.jpg",
+    "page-223.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{3(a^3+b^3+c^3)}{(a^2+b^2+c^2)(a+b+c)}+4\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 7$$",
+  "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式变成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{2(a+b)}{(a^2+b^2+c^2)(a+b+c)}-\\frac{2(c-a)(c-b)}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n$$N=\\frac{a+b+2c}{(a^2+b^2+c^2)(a+b+c)}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n容易证明 $M\\geqslant 0$。下面证明 $N\\geqslant 0$。注意到\n$$N\\geqslant\\frac{1}{a^2+b^2+c^2}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n所以\n$$(a^2+b^2+c^2)(a+b)(b+c)(c+a)N$$\n$$\\geqslant(a+b)(b+c)(c+a)+2(a-b)(a^2+b^2+c^2)+2(a+b)(a-b)^2$$\n$$=3a^3+ab^2-3a^2b+(a+b)c^2+c(a+b)^2+2ac^2-2bc^2$$\n$$\\geqslant 3a^3+ab^2-3a^2b=3a\\left(a-\\frac{b}{2}\\right)^2+\\frac{ab^2}{4}\\geqslant 0$$\n\n从而，原不等式成立；当且仅当 $a=b=c$，等号成立。\n\n注 使用相同的方法，我们可以证明下列类似的不等式。\n\n(Nguyen Vu Tuan,Bach Ngoc Thanh Cong,CPR) 对所有非负实数 $a,b,c$，有：\n\n当 $k=2\\sqrt{3}$ 时，证明\n$$\\frac{3(a^2+b^2+c^2)}{(a+b+c)^2}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=2\\sqrt{9+6\\sqrt{3}}$ 时，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{3(a+b)(b+c)(c+a)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=20.99105140$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{(ab+bc+ca)(a+b+c)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18.93660543$ 时，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.9(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{3(a^3+b^3+c^3)}{(a^2+b^2+c^2)(a+b+c)}+4\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 7$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式变成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{2(a+b)}{(a^2+b^2+c^2)(a+b+c)}-\\frac{2(c-a)(c-b)}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n$$N=\\frac{a+b+2c}{(a^2+b^2+c^2)(a+b+c)}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n容易证明 $M\\geqslant 0$。下面证明 $N\\geqslant 0$。注意到\n$$N\\geqslant\\frac{1}{a^2+b^2+c^2}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n所以\n$$(a^2+b^2+c^2)(a+b)(b+c)(c+a)N$$\n$$\\geqslant(a+b)(b+c)(c+a)+2(a-b)(a^2+b^2+c^2)+2(a+b)(a-b)^2$$\n$$=3a^3+ab^2-3a^2b+(a+b)c^2+c(a+b)^2+2ac^2-2bc^2$$\n$$\\geqslant 3a^3+ab^2-3a^2b=3a\\left(a-\\frac{b}{2}\\right)^2+\\frac{ab^2}{4}\\geqslant 0$$\n\n从而，原不等式成立；当且仅当 $a=b=c$，等号成立。\n\n注 使用相同的方法，我们可以证明下列类似的不等式。\n\n(Nguyen Vu Tuan,Bach Ngoc Thanh Cong,CPR) 对所有非负实数 $a,b,c$，有：\n\n当 $k=2\\sqrt{3}$ 时，证明\n$$\\frac{3(a^2+b^2+c^2)}{(a+b+c)^2}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=2\\sqrt{9+6\\sqrt{3}}$ 时，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{3(a+b)(b+c)(c+a)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=20.99105140$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{(ab+bc+ca)(a+b+c)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18.93660543$ 时，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "循环不等式",
+    "推广"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "905c0344556f55880a30854c22faf5e014e96537",
+  "raw_problem": {
+    "problem_id": "例7.8.9",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      222,
+      223
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{3(a^3+b^3+c^3)}{(a^2+b^2+c^2)(a+b+c)}+4\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 7$$",
+    "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式变成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{2(a+b)}{(a^2+b^2+c^2)(a+b+c)}-\\frac{2(c-a)(c-b)}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n$$N=\\frac{a+b+2c}{(a^2+b^2+c^2)(a+b+c)}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n容易证明 $M\\geqslant 0$。下面证明 $N\\geqslant 0$。注意到\n$$N\\geqslant\\frac{1}{a^2+b^2+c^2}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n所以\n$$(a^2+b^2+c^2)(a+b)(b+c)(c+a)N$$\n$$\\geqslant(a+b)(b+c)(c+a)+2(a-b)(a^2+b^2+c^2)+2(a+b)(a-b)^2$$\n$$=3a^3+ab^2-3a^2b+(a+b)c^2+c(a+b)^2+2ac^2-2bc^2$$\n$$\\geqslant 3a^3+ab^2-3a^2b=3a\\left(a-\\frac{b}{2}\\right)^2+\\frac{ab^2}{4}\\geqslant 0$$\n\n从而，原不等式成立；当且仅当 $a=b=c$，等号成立。\n\n注 使用相同的方法，我们可以证明下列类似的不等式。\n\n(Nguyen Vu Tuan,Bach Ngoc Thanh Cong,CPR) 对所有非负实数 $a,b,c$，有：\n\n当 $k=2\\sqrt{3}$ 时，证明\n$$\\frac{3(a^2+b^2+c^2)}{(a+b+c)^2}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=2\\sqrt{9+6\\sqrt{3}}$ 时，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{3(a+b)(b+c)(c+a)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=20.99105140$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{(ab+bc+ca)(a+b+c)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18.93660543$ 时，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.9(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{3(a^3+b^3+c^3)}{(a^2+b^2+c^2)(a+b+c)}+4\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 7$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式变成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{2(a+b)}{(a^2+b^2+c^2)(a+b+c)}-\\frac{2(c-a)(c-b)}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n$$N=\\frac{a+b+2c}{(a^2+b^2+c^2)(a+b+c)}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n容易证明 $M\\geqslant 0$。下面证明 $N\\geqslant 0$。注意到\n$$N\\geqslant\\frac{1}{a^2+b^2+c^2}+\\frac{2(a-b)}{(a+b)(b+c)(c+a)}+\\frac{2(a-b)^2}{(a^2+b^2+c^2)(a+c)(b+c)}$$\n\n所以\n$$(a^2+b^2+c^2)(a+b)(b+c)(c+a)N$$\n$$\\geqslant(a+b)(b+c)(c+a)+2(a-b)(a^2+b^2+c^2)+2(a+b)(a-b)^2$$\n$$=3a^3+ab^2-3a^2b+(a+b)c^2+c(a+b)^2+2ac^2-2bc^2$$\n$$\\geqslant 3a^3+ab^2-3a^2b=3a\\left(a-\\frac{b}{2}\\right)^2+\\frac{ab^2}{4}\\geqslant 0$$\n\n从而，原不等式成立；当且仅当 $a=b=c$，等号成立。\n\n注 使用相同的方法，我们可以证明下列类似的不等式。\n\n(Nguyen Vu Tuan,Bach Ngoc Thanh Cong,CPR) 对所有非负实数 $a,b,c$，有：\n\n当 $k=2\\sqrt{3}$ 时，证明\n$$\\frac{3(a^2+b^2+c^2)}{(a+b+c)^2}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=2\\sqrt{9+6\\sqrt{3}}$ 时，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{3(a+b)(b+c)(c+a)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=20.99105140$ 时，证明\n$$\\frac{8(a^3+b^3+c^3)}{(ab+bc+ca)(a+b+c)}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$\n\n当 $k=18.93660543$ 时，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}\\right)\\geqslant 1+\\frac{3}{2}k$$",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "循环不等式",
+      "推广"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

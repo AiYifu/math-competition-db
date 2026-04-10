@@ -1,0 +1,55 @@
+{
+  "uid": "p082_083_例232_25df6917a8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.3",
+  "problem_id": "例2.3.2",
+  "problem_type": "example",
+  "title": "Turkevici's Inequality",
+  "source_pages": [
+    82,
+    83
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$a^4+b^4+c^4+d^4+2abcd \\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=\\sum_{\\text{sym}}a^4+2abcd-\\sum_{\\text{sym}}a^2b^2$$\n$$=\\sum a^4+2abcd-a^2c^2-b^2d^2-(a^2+c^2)(b^2+d^2)$$\n则有\n$$f(a,b,c,d)-f(\\sqrt{ac},b,\\sqrt{ac},d)=(a^2-c^2)^2-(b^2+d^2)(a-c)^2 \\geqslant 0$$\n依据 SMV 定理以及对序列 $(a,b,c)$ 进行 $\\triangle$ 变换，我们有\n$$f(a,b,c,d) \\geqslant f(\\sqrt[3]{abc},\\sqrt[3]{abc},\\sqrt[3]{abc},d)$$\n余下的只需证明不等式在 $a=b=c=t$ 的条件下成立即可. 即\n$$3t^4+d^4+2t^3d \\geqslant 3t^4+3t^2d^2 \\Leftrightarrow d^4+2t^3d \\geqslant 3t^2d^2$$\n由 AM-GM 不等式可知，最后的不等式是成立的，等号成立的条件是 $a=b=c=d$ 和 $a=b=c,d=0$ 及其轮换.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.2(Turkevici's Inequality) 设 $a,b,c,d$ 是非负实数，证明\n$$a^4+b^4+c^4+d^4+2abcd \\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$\n\n证明 不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=\\sum_{\\text{sym}}a^4+2abcd-\\sum_{\\text{sym}}a^2b^2$$\n$$=\\sum a^4+2abcd-a^2c^2-b^2d^2-(a^2+c^2)(b^2+d^2)$$\n则有\n$$f(a,b,c,d)-f(\\sqrt{ac},b,\\sqrt{ac},d)=(a^2-c^2)^2-(b^2+d^2)(a-c)^2 \\geqslant 0$$\n依据 SMV 定理以及对序列 $(a,b,c)$ 进行 $\\triangle$ 变换，我们有\n$$f(a,b,c,d) \\geqslant f(\\sqrt[3]{abc},\\sqrt[3]{abc},\\sqrt[3]{abc},d)$$\n余下的只需证明不等式在 $a=b=c=t$ 的条件下成立即可. 即\n$$3t^4+d^4+2t^3d \\geqslant 3t^4+3t^2d^2 \\Leftrightarrow d^4+2t^3d \\geqslant 3t^2d^2$$\n由 AM-GM 不等式可知，最后的不等式是成立的，等号成立的条件是 $a=b=c=d$ 和 $a=b=c,d=0$ 及其轮换.",
+  "tags": [
+    "SMV定理",
+    "Turkevici不等式",
+    "四元不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009",
+  "raw_response_file": "raw/chunk-0009.response.txt",
+  "raw_api_file": "raw/chunk-0009.api.json",
+  "fingerprint": "25df6917a8919a3538e7aa8f7f8b53dbe2417dea",
+  "raw_problem": {
+    "problem_id": "例2.3.2",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.3",
+    "title": "Turkevici's Inequality",
+    "source_pages": [
+      82,
+      83
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$a^4+b^4+c^4+d^4+2abcd \\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=\\sum_{\\text{sym}}a^4+2abcd-\\sum_{\\text{sym}}a^2b^2$$\n$$=\\sum a^4+2abcd-a^2c^2-b^2d^2-(a^2+c^2)(b^2+d^2)$$\n则有\n$$f(a,b,c,d)-f(\\sqrt{ac},b,\\sqrt{ac},d)=(a^2-c^2)^2-(b^2+d^2)(a-c)^2 \\geqslant 0$$\n依据 SMV 定理以及对序列 $(a,b,c)$ 进行 $\\triangle$ 变换，我们有\n$$f(a,b,c,d) \\geqslant f(\\sqrt[3]{abc},\\sqrt[3]{abc},\\sqrt[3]{abc},d)$$\n余下的只需证明不等式在 $a=b=c=t$ 的条件下成立即可. 即\n$$3t^4+d^4+2t^3d \\geqslant 3t^4+3t^2d^2 \\Leftrightarrow d^4+2t^3d \\geqslant 3t^2d^2$$\n由 AM-GM 不等式可知，最后的不等式是成立的，等号成立的条件是 $a=b=c=d$ 和 $a=b=c,d=0$ 及其轮换.",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.2(Turkevici's Inequality) 设 $a,b,c,d$ 是非负实数，证明\n$$a^4+b^4+c^4+d^4+2abcd \\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$\n\n证明 不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=\\sum_{\\text{sym}}a^4+2abcd-\\sum_{\\text{sym}}a^2b^2$$\n$$=\\sum a^4+2abcd-a^2c^2-b^2d^2-(a^2+c^2)(b^2+d^2)$$\n则有\n$$f(a,b,c,d)-f(\\sqrt{ac},b,\\sqrt{ac},d)=(a^2-c^2)^2-(b^2+d^2)(a-c)^2 \\geqslant 0$$\n依据 SMV 定理以及对序列 $(a,b,c)$ 进行 $\\triangle$ 变换，我们有\n$$f(a,b,c,d) \\geqslant f(\\sqrt[3]{abc},\\sqrt[3]{abc},\\sqrt[3]{abc},d)$$\n余下的只需证明不等式在 $a=b=c=t$ 的条件下成立即可. 即\n$$3t^4+d^4+2t^3d \\geqslant 3t^4+3t^2d^2 \\Leftrightarrow d^4+2t^3d \\geqslant 3t^2d^2$$\n由 AM-GM 不等式可知，最后的不等式是成立的，等号成立的条件是 $a=b=c=d$ 和 $a=b=c,d=0$ 及其轮换.",
+    "tags": [
+      "SMV定理",
+      "Turkevici不等式",
+      "四元不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

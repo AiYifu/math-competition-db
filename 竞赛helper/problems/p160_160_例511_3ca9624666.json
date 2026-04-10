@@ -1,0 +1,53 @@
+{
+  "uid": "p160_160_例511_3ca9624666",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "例5.1.1",
+  "problem_type": "example",
+  "title": "例5.1.1",
+  "source_pages": [
+    160
+  ],
+  "source_images": [
+    "page-160.jpg"
+  ],
+  "stem_md": "(Sung Yoon Kim, Mathlinks) 设 $a,b,c$ 是实数，证明\n$$a^6+b^6+c^6-3a^2b^2c^2 \\geqslant \\frac{1}{2}(a-b)^2(b-c)^2(c-a)^2$$",
+  "solution_md": "不等式改写成如下形式\n$$(a^2+b^2+c^2)[(a^2-b^2)^2+(b^2-c^2)^2+(c^2-a^2)^2] \\geqslant (a-b)^2(b-c)^2(c-a)^2$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$\\sum a^2 \\cdot \\sum (b^2-c^2)^2 \\geqslant [\\sum a(b^2-c^2)]^2 = (a-b)^2(b-c)^2(c-a)^2$$\n\n不等式得证，等号成立的条件是 $(a,b,c) \\sim (1,1,0), (-1,1,0)$ 或 $(1,1,1)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.1(Sung Yoon Kim, Mathlinks) 设 $a,b,c$ 是实数，证明\n$$a^6+b^6+c^6-3a^2b^2c^2 \\geqslant \\frac{1}{2}(a-b)^2(b-c)^2(c-a)^2$$\n\n证明 不等式改写成如下形式\n$$(a^2+b^2+c^2)[(a^2-b^2)^2+(b^2-c^2)^2+(c^2-a^2)^2] \\geqslant (a-b)^2(b-c)^2(c-a)^2$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$\\sum a^2 \\cdot \\sum (b^2-c^2)^2 \\geqslant [\\sum a(b^2-c^2)]^2 = (a-b)^2(b-c)^2(c-a)^2$$\n\n不等式得证，等号成立的条件是 $(a,b,c) \\sim (1,1,0), (-1,1,0)$ 或 $(1,1,1)$。",
+  "tags": [
+    "例题",
+    "Cauchy-Schwarz不等式",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "3ca962466603d67c4871bd8ad2f76961bf84b158",
+  "raw_problem": {
+    "problem_id": "例5.1.1",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "例5.1.1",
+    "source_pages": [
+      160
+    ],
+    "stem_md": "(Sung Yoon Kim, Mathlinks) 设 $a,b,c$ 是实数，证明\n$$a^6+b^6+c^6-3a^2b^2c^2 \\geqslant \\frac{1}{2}(a-b)^2(b-c)^2(c-a)^2$$",
+    "solution_md": "不等式改写成如下形式\n$$(a^2+b^2+c^2)[(a^2-b^2)^2+(b^2-c^2)^2+(c^2-a^2)^2] \\geqslant (a-b)^2(b-c)^2(c-a)^2$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$\\sum a^2 \\cdot \\sum (b^2-c^2)^2 \\geqslant [\\sum a(b^2-c^2)]^2 = (a-b)^2(b-c)^2(c-a)^2$$\n\n不等式得证，等号成立的条件是 $(a,b,c) \\sim (1,1,0), (-1,1,0)$ 或 $(1,1,1)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.1(Sung Yoon Kim, Mathlinks) 设 $a,b,c$ 是实数，证明\n$$a^6+b^6+c^6-3a^2b^2c^2 \\geqslant \\frac{1}{2}(a-b)^2(b-c)^2(c-a)^2$$\n\n证明 不等式改写成如下形式\n$$(a^2+b^2+c^2)[(a^2-b^2)^2+(b^2-c^2)^2+(c^2-a^2)^2] \\geqslant (a-b)^2(b-c)^2(c-a)^2$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$\\sum a^2 \\cdot \\sum (b^2-c^2)^2 \\geqslant [\\sum a(b^2-c^2)]^2 = (a-b)^2(b-c)^2(c-a)^2$$\n\n不等式得证，等号成立的条件是 $(a,b,c) \\sim (1,1,0), (-1,1,0)$ 或 $(1,1,1)$。",
+    "tags": [
+      "例题",
+      "Cauchy-Schwarz不等式",
+      "实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

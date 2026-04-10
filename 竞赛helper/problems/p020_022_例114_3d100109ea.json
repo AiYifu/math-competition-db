@@ -1,0 +1,61 @@
+{
+  "uid": "p020_022_例114_3d100109ea",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章 平方分析法",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    20,
+    21,
+    22
+  ],
+  "source_images": [
+    "page-020.jpg",
+    "page-021.jpg",
+    "page-022.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$",
+  "solution_md": "**证明及分析** 作为标题，SOS 表示\"平方和\"，因此，第一步也是最重要的一步，是把不等式表示成某些项的平方和的形式。\n\n下面两个表示都是已知的\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$\n和\n$$ab(a+b)+bc(b+c)+ca(c+a)-6abc$$\n$$=a(b-c)^2+b(c-a)^2+c(a-b)^2$$\n因此不等式等价于\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2\\geqslant 0$$\n\n可是，这不是我们之前所希望的，$(a-b)^2,(b-c)^2,(c-a)^2$ 的系数并不总是非负。这个古老经典的方法似乎出问题了，是否有一个创新的想法，来处理这个问题呢？请稍后，让我们来开动开动脑筋。\n\n曾记得，我们在证明对称不等式的时候，通常使用\"重排变量次序\"的方法，那么，对于这个问题，当然，我们也可以这样做。不失一般性，设 $a\\geqslant b\\geqslant c$，在 $(a+b-c)(a-b)^2,(b+c-a)(b-c)^2,(c+a-b)(c-a)^2$ 这三项中，至少有一项是负的，即 $(b+c-a)(b-c)^2$（当然，如果这个项是非负的，不等式得证）。假设 $r=(b+c-a)(b-c)^2\\leqslant 0$，对于其他两个非负项 $(a+b-c)(a-b)^2$ 和 $(c+a-b)(c-a)^2$ 之间，我们注意到 $(b+c-a)(b-c)^2$ 和 $r$ 相比较是非常大的，这是什么原因呢？简单地，我们有\n$$a+c-b\\geqslant |b+c-a|$$\n$$(a-c)^2\\geqslant (b-c)^2$$\n结果是 $(c+a-b)(a-c)^2\\geqslant |r|$。最后，我们可以推出\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2$$\n$$\\geqslant (c+a-b)(c-a)^2+r\\geqslant 0$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.4 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$\n证明及分析 作为标题，SOS 表示\"平方和\"，因此，第一步也是最重要的一步，是把不等式表示成某些项的平方和的形式。\n\n下面两个表示都是已知的\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$\n和\n$$ab(a+b)+bc(b+c)+ca(c+a)-6abc$$\n$$=a(b-c)^2+b(c-a)^2+c(a-b)^2$$\n因此不等式等价于\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2\\geqslant 0$$\n\n可是，这不是我们之前所希望的，$(a-b)^2,(b-c)^2,(c-a)^2$ 的系数并不总是非负。这个古老经典的方法似乎出问题了，是否有一个创新的想法，来处理这个问题呢？请稍后，让我们来开动开动脑筋。\n\n曾记得，我们在证明对称不等式的时候，通常使用\"重排变量次序\"的方法，那么，对于这个问题，当然，我们也可以这样做。不失一般性，设 $a\\geqslant b\\geqslant c$，在 $(a+b-c)(a-b)^2,(b+c-a)(b-c)^2,(c+a-b)(c-a)^2$ 这三项中，至少有一项是负的，即 $(b+c-a)(b-c)^2$（当然，如果这个项是非负的，不等式得证）。假设 $r=(b+c-a)(b-c)^2\\leqslant 0$，对于其他两个非负项 $(a+b-c)(a-b)^2$ 和 $(c+a-b)(c-a)^2$ 之间，我们注意到 $(b+c-a)(b-c)^2$ 和 $r$ 相比较是非常大的，这是什么原因呢？简单地，我们有\n$$a+c-b\\geqslant |b+c-a|$$\n$$(a-c)^2\\geqslant (b-c)^2$$\n结果是 $(c+a-b)(a-c)^2\\geqslant |r|$。最后，我们可以推出\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2$$\n$$\\geqslant (c+a-b)(c-a)^2+r\\geqslant 0$$",
+  "tags": [
+    "平方分析法",
+    "SOS",
+    "重排变量",
+    "Schur不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003",
+  "raw_response_file": "raw/chunk-0003.response.txt",
+  "raw_api_file": "raw/chunk-0003.api.json",
+  "fingerprint": "3d100109eaf1b62facd3e3e935ca2ba76305e1bc",
+  "raw_problem": {
+    "problem_id": "例1.1.4",
+    "problem_type": "example",
+    "chapter": "第1章 平方分析法",
+    "section": "1.1 起步",
+    "title": null,
+    "source_pages": [
+      20,
+      21,
+      22
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$",
+    "solution_md": "**证明及分析** 作为标题，SOS 表示\"平方和\"，因此，第一步也是最重要的一步，是把不等式表示成某些项的平方和的形式。\n\n下面两个表示都是已知的\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$\n和\n$$ab(a+b)+bc(b+c)+ca(c+a)-6abc$$\n$$=a(b-c)^2+b(c-a)^2+c(a-b)^2$$\n因此不等式等价于\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2\\geqslant 0$$\n\n可是，这不是我们之前所希望的，$(a-b)^2,(b-c)^2,(c-a)^2$ 的系数并不总是非负。这个古老经典的方法似乎出问题了，是否有一个创新的想法，来处理这个问题呢？请稍后，让我们来开动开动脑筋。\n\n曾记得，我们在证明对称不等式的时候，通常使用\"重排变量次序\"的方法，那么，对于这个问题，当然，我们也可以这样做。不失一般性，设 $a\\geqslant b\\geqslant c$，在 $(a+b-c)(a-b)^2,(b+c-a)(b-c)^2,(c+a-b)(c-a)^2$ 这三项中，至少有一项是负的，即 $(b+c-a)(b-c)^2$（当然，如果这个项是非负的，不等式得证）。假设 $r=(b+c-a)(b-c)^2\\leqslant 0$，对于其他两个非负项 $(a+b-c)(a-b)^2$ 和 $(c+a-b)(c-a)^2$ 之间，我们注意到 $(b+c-a)(b-c)^2$ 和 $r$ 相比较是非常大的，这是什么原因呢？简单地，我们有\n$$a+c-b\\geqslant |b+c-a|$$\n$$(a-c)^2\\geqslant (b-c)^2$$\n结果是 $(c+a-b)(a-c)^2\\geqslant |r|$。最后，我们可以推出\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2$$\n$$\\geqslant (c+a-b)(c-a)^2+r\\geqslant 0$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.1.4 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$\n证明及分析 作为标题，SOS 表示\"平方和\"，因此，第一步也是最重要的一步，是把不等式表示成某些项的平方和的形式。\n\n下面两个表示都是已知的\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$\n和\n$$ab(a+b)+bc(b+c)+ca(c+a)-6abc$$\n$$=a(b-c)^2+b(c-a)^2+c(a-b)^2$$\n因此不等式等价于\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2\\geqslant 0$$\n\n可是，这不是我们之前所希望的，$(a-b)^2,(b-c)^2,(c-a)^2$ 的系数并不总是非负。这个古老经典的方法似乎出问题了，是否有一个创新的想法，来处理这个问题呢？请稍后，让我们来开动开动脑筋。\n\n曾记得，我们在证明对称不等式的时候，通常使用\"重排变量次序\"的方法，那么，对于这个问题，当然，我们也可以这样做。不失一般性，设 $a\\geqslant b\\geqslant c$，在 $(a+b-c)(a-b)^2,(b+c-a)(b-c)^2,(c+a-b)(c-a)^2$ 这三项中，至少有一项是负的，即 $(b+c-a)(b-c)^2$（当然，如果这个项是非负的，不等式得证）。假设 $r=(b+c-a)(b-c)^2\\leqslant 0$，对于其他两个非负项 $(a+b-c)(a-b)^2$ 和 $(c+a-b)(c-a)^2$ 之间，我们注意到 $(b+c-a)(b-c)^2$ 和 $r$ 相比较是非常大的，这是什么原因呢？简单地，我们有\n$$a+c-b\\geqslant |b+c-a|$$\n$$(a-c)^2\\geqslant (b-c)^2$$\n结果是 $(c+a-b)(a-c)^2\\geqslant |r|$。最后，我们可以推出\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2$$\n$$\\geqslant (c+a-b)(c-a)^2+r\\geqslant 0$$",
+    "tags": [
+      "平方分析法",
+      "SOS",
+      "重排变量",
+      "Schur不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

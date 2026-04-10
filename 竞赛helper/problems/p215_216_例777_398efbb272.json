@@ -1,0 +1,56 @@
+{
+  "uid": "p215_216_例777_398efbb272",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.7",
+  "problem_type": "example",
+  "title": "Bach Ngoc Thanh Cong, CPR",
+  "source_pages": [
+    215,
+    216
+  ],
+  "source_images": [
+    "page-215.jpg",
+    "page-216.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，常数 $k\\in\\left[\\frac{1}{4},\\frac{1}{2}\\right]$，证明\n\n$$k\\left[\\frac{3(a^2b+b^2c+c^2a)}{(ab+bc+ca)(a+b+c)}-1\\right]\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$",
+  "solution_md": "**证明** 不失一般性，假设 $c=\\min\\{a,b,c\\}$，则我们有\n\n$$\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}=\\frac{(a-b)(c-a)(c-b)}{2(a+b)(b+c)(c+a)}$$\n\n$$\\frac{3(a^2b+b^2c+c^2a)}{(ab+bc+ca)(a+b+c)}-1$$\n\n$$=\\frac{c(a-b)^2}{(ab+bc+ca)(a+b+c)}+\\frac{(2a-b)(c-a)(c-b)}{(ab+bc+ca)(a+b+c)}$$\n\n不等式改写成SOS-Schur形式 $M(a-b)^2+N(c-a)(c-b)\\geqslant 0$，其中\n\n$$M=\\frac{kc}{(ab+bc+ca)(a+b+c)}\\geqslant 0$$\n\n$$N=\\frac{k(2a-b)}{(ab+bc+ca)(a+b+c)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}$$\n\n所以，只需证明 $N\\geqslant 0$ 即可。事实上，设\n\n$$f(k)=\\frac{k(2a-b)}{(ab+bc+ca)(a+b+c)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}$$\n\n由于 $f(k)$ 是 $k$ 的线性函数，注意到 $k\\in\\left[\\frac{1}{4},\\frac{1}{2}\\right]$。所以，只需证明\n\n$$f\\left(\\frac{1}{4}\\right)=\\frac{b[a^2(b-c)+b^2(c+a)+c^2(a+b)+4abc]}{4(ab+bc+ca)(a+b+c)(a+b)(b+c)(c+a)}\\geqslant 0$$\n\n$$f\\left(\\frac{1}{2}\\right)=\\frac{a[b^2(a+2c)+a^2(b+c)+c^2(a+b)+abc]}{2(ab+bc+ca)(a+b+c)(a+b)(b+c)(c+a)}\\geqslant 0$$\n\n由于 $c=\\min\\{a,b,c\\}$，所以，这是显然成立的，从而 $N\\geqslant 0$。\n\n不等式得证，等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.7(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，常数 $k\\in\\left[\\frac{1}{4},\\frac{1}{2}\\right]$，证明\n$$k\\left[\\frac{3(a^2b+b^2c+c^2a)}{(ab+bc+ca)(a+b+c)}-1\\right]\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$\n证明 不失一般性，假设 $c=\\min\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "参数范围",
+    "线性函数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "398efbb272ec02e68e50879c247269c2d98503dc",
+  "raw_problem": {
+    "problem_id": "例7.7.7",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": "Bach Ngoc Thanh Cong, CPR",
+    "source_pages": [
+      215,
+      216
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，常数 $k\\in\\left[\\frac{1}{4},\\frac{1}{2}\\right]$，证明\n\n$$k\\left[\\frac{3(a^2b+b^2c+c^2a)}{(ab+bc+ca)(a+b+c)}-1\\right]\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$",
+    "solution_md": "**证明** 不失一般性，假设 $c=\\min\\{a,b,c\\}$，则我们有\n\n$$\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}=\\frac{(a-b)(c-a)(c-b)}{2(a+b)(b+c)(c+a)}$$\n\n$$\\frac{3(a^2b+b^2c+c^2a)}{(ab+bc+ca)(a+b+c)}-1$$\n\n$$=\\frac{c(a-b)^2}{(ab+bc+ca)(a+b+c)}+\\frac{(2a-b)(c-a)(c-b)}{(ab+bc+ca)(a+b+c)}$$\n\n不等式改写成SOS-Schur形式 $M(a-b)^2+N(c-a)(c-b)\\geqslant 0$，其中\n\n$$M=\\frac{kc}{(ab+bc+ca)(a+b+c)}\\geqslant 0$$\n\n$$N=\\frac{k(2a-b)}{(ab+bc+ca)(a+b+c)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}$$\n\n所以，只需证明 $N\\geqslant 0$ 即可。事实上，设\n\n$$f(k)=\\frac{k(2a-b)}{(ab+bc+ca)(a+b+c)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}$$\n\n由于 $f(k)$ 是 $k$ 的线性函数，注意到 $k\\in\\left[\\frac{1}{4},\\frac{1}{2}\\right]$。所以，只需证明\n\n$$f\\left(\\frac{1}{4}\\right)=\\frac{b[a^2(b-c)+b^2(c+a)+c^2(a+b)+4abc]}{4(ab+bc+ca)(a+b+c)(a+b)(b+c)(c+a)}\\geqslant 0$$\n\n$$f\\left(\\frac{1}{2}\\right)=\\frac{a[b^2(a+2c)+a^2(b+c)+c^2(a+b)+abc]}{2(ab+bc+ca)(a+b+c)(a+b)(b+c)(c+a)}\\geqslant 0$$\n\n由于 $c=\\min\\{a,b,c\\}$，所以，这是显然成立的，从而 $N\\geqslant 0$。\n\n不等式得证，等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.7(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，常数 $k\\in\\left[\\frac{1}{4},\\frac{1}{2}\\right]$，证明\n$$k\\left[\\frac{3(a^2b+b^2c+c^2a)}{(ab+bc+ca)(a+b+c)}-1\\right]\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$\n证明 不失一般性，假设 $c=\\min\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "参数范围",
+      "线性函数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

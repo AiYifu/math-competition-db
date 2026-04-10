@@ -1,0 +1,51 @@
+{
+  "uid": "p032_032_例124_954374472a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2",
+  "section": null,
+  "problem_id": "例1.2.4",
+  "problem_type": "example",
+  "title": "求出下列表达式的SOS标准表示",
+  "source_pages": [
+    32
+  ],
+  "source_images": [
+    "page-032.jpg"
+  ],
+  "stem_md": "求出下列表达式的SOS标准表示\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$",
+  "solution_md": "设 $s=k-1, M=a^2+b^2+c^2$，则\n$$2(a^2+b^2+kc^2)-2(k+2)ab=(k+2)(a-b)^2+k(c^2-a^2)+k(c^2-b^2)$$\n因此，我们可以对表达式进行分组\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2+k(c^2-a^2+c^2-b^2)}{M+sc^2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}-\\sum\\frac{k(c^2-b^2)}{2(s+3)}(\\frac{1}{M+sc^2}-\\frac{1}{M+sb^2})$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}+\\sum\\frac{ks(b^2-c^2)^2}{2(k+3)(M+sb^2)(M+sc^2)}$$\n这样，得到表达式的SOS标准形式，如下\n$$\\sum\\left[-\\frac{k+2}{M+sc^2}+\\frac{ks(a+b)^2}{(M+sa^2)(M+sb^2)}\\right](a-b)^2$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.2.4 求出下列表达式的 SOS 标准表示\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$\n解 设 $s=k-1, M=a^2+b^2+c^2$，则\n$$2(a^2+b^2+kc^2)-2(k+2)ab=(k+2)(a-b)^2+k(c^2-a^2)+k(c^2-b^2)$$\n因此，我们可以对表达式进行分组\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2+k(c^2-a^2+c^2-b^2)}{M+sc^2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}-\\sum\\frac{k(c^2-b^2)}{2(s+3)}(\\frac{1}{M+sc^2}-\\frac{1}{M+sb^2})$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}+\\sum\\frac{ks(b^2-c^2)^2}{2(k+3)(M+sb^2)(M+sc^2)}$$\n这样，得到表达式的SOS标准形式，如下\n$$\\sum\\left[-\\frac{k+2}{M+sc^2}+\\frac{ks(a+b)^2}{(M+sa^2)(M+sb^2)}\\right](a-b)^2$$",
+  "tags": [
+    "SOS",
+    "恒等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004",
+  "raw_response_file": "raw/chunk-0004.response.txt",
+  "raw_api_file": "raw/chunk-0004.api.json",
+  "fingerprint": "954374472ac94f9fc61e545fc431d16dda44ba88",
+  "raw_problem": {
+    "problem_id": "例1.2.4",
+    "problem_type": "example",
+    "chapter": "1.2",
+    "section": null,
+    "title": "求出下列表达式的SOS标准表示",
+    "source_pages": [
+      32
+    ],
+    "stem_md": "求出下列表达式的SOS标准表示\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$",
+    "solution_md": "设 $s=k-1, M=a^2+b^2+c^2$，则\n$$2(a^2+b^2+kc^2)-2(k+2)ab=(k+2)(a-b)^2+k(c^2-a^2)+k(c^2-b^2)$$\n因此，我们可以对表达式进行分组\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2+k(c^2-a^2+c^2-b^2)}{M+sc^2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}-\\sum\\frac{k(c^2-b^2)}{2(s+3)}(\\frac{1}{M+sc^2}-\\frac{1}{M+sb^2})$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}+\\sum\\frac{ks(b^2-c^2)^2}{2(k+3)(M+sb^2)(M+sc^2)}$$\n这样，得到表达式的SOS标准形式，如下\n$$\\sum\\left[-\\frac{k+2}{M+sc^2}+\\frac{ks(a+b)^2}{(M+sa^2)(M+sb^2)}\\right](a-b)^2$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.2.4 求出下列表达式的 SOS 标准表示\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$\n解 设 $s=k-1, M=a^2+b^2+c^2$，则\n$$2(a^2+b^2+kc^2)-2(k+2)ab=(k+2)(a-b)^2+k(c^2-a^2)+k(c^2-b^2)$$\n因此，我们可以对表达式进行分组\n$$\\frac{ab}{a^2+b^2+kc^2}+\\frac{bc}{b^2+c^2+ka^2}+\\frac{ca}{c^2+a^2+kb^2}-\\frac{3}{k+2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2+k(c^2-a^2+c^2-b^2)}{M+sc^2}$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}-\\sum\\frac{k(c^2-b^2)}{2(s+3)}(\\frac{1}{M+sc^2}-\\frac{1}{M+sb^2})$$\n$$=-\\frac{1}{2(s+3)}\\sum\\frac{(k+2)(a-b)^2}{M+sc^2}+\\sum\\frac{ks(b^2-c^2)^2}{2(k+3)(M+sb^2)(M+sc^2)}$$\n这样，得到表达式的SOS标准形式，如下\n$$\\sum\\left[-\\frac{k+2}{M+sc^2}+\\frac{ks(a+b)^2}{(M+sa^2)(M+sb^2)}\\right](a-b)^2$$",
+    "tags": [
+      "SOS",
+      "恒等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

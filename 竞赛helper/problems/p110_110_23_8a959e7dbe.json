@@ -1,0 +1,53 @@
+{
+  "uid": "p110_110_23_8a959e7dbe",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "23",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "23. (Vasile Cirtoaje, Algebraic Inequalities) 设 $a,b,c$ 是正实数，且满足 $a+b+c=3$，证明\n$$8\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)+9 \\geqslant 10(a^2+b^2+c^2)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "23. (Vasile Cirtoaje, Algebraic Inequalities) 设 $a,b,c$ 是正实数，且满足 $a+b+c=3$，证明\n$$8\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)+9\\geqslant 10(a^2+b^2+c^2)$$",
+  "tags": [
+    "Vasile Cirtoaje",
+    "Algebraic Inequalities",
+    "a+b+c=3"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "8a959e7dbe5e82b54091f5e3cbd657c0d41a8a14",
+  "raw_problem": {
+    "problem_id": "23",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "23. (Vasile Cirtoaje, Algebraic Inequalities) 设 $a,b,c$ 是正实数，且满足 $a+b+c=3$，证明\n$$8\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)+9 \\geqslant 10(a^2+b^2+c^2)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "23. (Vasile Cirtoaje, Algebraic Inequalities) 设 $a,b,c$ 是正实数，且满足 $a+b+c=3$，证明\n$$8\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)+9\\geqslant 10(a^2+b^2+c^2)$$",
+    "tags": [
+      "Vasile Cirtoaje",
+      "Algebraic Inequalities",
+      "a+b+c=3"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

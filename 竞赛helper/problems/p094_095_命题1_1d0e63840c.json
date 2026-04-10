@@ -1,0 +1,56 @@
+{
+  "uid": "p094_095_命题1_1d0e63840c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "命题1",
+  "problem_type": "theorem",
+  "title": "全导数的性质",
+  "source_pages": [
+    94,
+    95
+  ],
+  "source_images": [
+    "page-094.jpg",
+    "page-095.jpg"
+  ],
+  "stem_md": "假设 $[f]$ 表示多元函数 $f(x_1,x_2,\\cdots,x_n)$ 的全导数，则有（和经典导数的求导公式是一样的）：\n(1) $[x^n]=nx^{n-1}$；\n(2) $[af+bg]=a[f]+b[g]$；\n(3) $[fg]=[f]g+f[g]$；\n(4) $[f(g)]=[f]g[g]$；\n(5) $\\left[\\frac{f}{g}\\right]=\\frac{[f]g-f[g]}{g^2}$。",
+  "solution_md": "为证明这些性质，对于 $n$ 个变量 $x_1,x_2,\\cdots,x_n$ 的多元函数 $f(x_1,x_2,\\cdots,x_n)$，则其全导数有如下计算公式\n$$[f]=[f(x_1,x_2,\\cdots,x_n)]=f'_t(x_1+t,x_2+t,\\cdots,x_n+t)\\big|_{t=0}$$\n（即 $f(x_1+t,x_2+t,\\cdots,x_n+t)$ 关于 $t$ 的一元函数在 $t=0$ 的导数值）。\n\n使用这个公式，我们很容易证明这些性质。例如，(2) 成立时由于（使用正常导数的性质）\n$$af'_t(x_1+t,x_2+t,\\cdots,x_n+t)+ag'_t(x_1+t,x_2+t,\\cdots,x_n+t)$$\n$$=(af+bg)'_t(x_1+t,x_2+t,\\cdots,x_n+t)$$\n$$\\Rightarrow a[f]+b[g]=[af+bg]$$\n\n另外，全导数有一个特别的情况：$[x-y]=0$。\n\n对于任意三个变量 $x,y,z$，下面的例子可以帮助你熟悉全导数的计算：\n$[x-y]=0$；\n$[xy]=x+y$；\n$[x^2+y^2]=2x^2y+2xy^2$；\n$[xyz]=xy+yz+zx$；\n$[x^2+y^2+z^2]=2(x+y+z)$；\n$[x^2-y^2]=2(x-y)$；\n$[x^2y^2z^2]=2xyz(xy+yz+zx)$；\n$[x(y+z)+y(z+x)+z(x+y)]=4(x+y+z)$；\n$[xyz(x+y+z)]=(x+y+z)(xy+yz+zx)+3xyz$；\n$[x^2y+y^2z+z^2x]=x^2+y^2+z^2+2xy+2yz+2zx$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "命题 1 假设 $[f]$ 表示多元函数 $f(x_1,x_2,\\cdots,x_n)$ 的全导数，则有（和经典导数的求导公式是一样的）：\n(1)$[x^n]=nx^{n-1}$；\n(2)$[af+bg]=a[f]+b[g]$；\n(3)$[fg]=[f]g+f[g]$；\n(4)$[f(g)]=[f]g[g]$；\n(5)$\\left[\\frac{f}{g}\\right]=\\frac{[f]g-f[g]}{g^2}$。",
+  "tags": [
+    "全导数",
+    "性质",
+    "命题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "1d0e63840c4d51cae3d8d09abd4cb64e39d25f3d",
+  "raw_problem": {
+    "problem_id": "命题1",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.5",
+    "title": "全导数的性质",
+    "source_pages": [
+      94,
+      95
+    ],
+    "stem_md": "假设 $[f]$ 表示多元函数 $f(x_1,x_2,\\cdots,x_n)$ 的全导数，则有（和经典导数的求导公式是一样的）：\n(1) $[x^n]=nx^{n-1}$；\n(2) $[af+bg]=a[f]+b[g]$；\n(3) $[fg]=[f]g+f[g]$；\n(4) $[f(g)]=[f]g[g]$；\n(5) $\\left[\\frac{f}{g}\\right]=\\frac{[f]g-f[g]}{g^2}$。",
+    "solution_md": "为证明这些性质，对于 $n$ 个变量 $x_1,x_2,\\cdots,x_n$ 的多元函数 $f(x_1,x_2,\\cdots,x_n)$，则其全导数有如下计算公式\n$$[f]=[f(x_1,x_2,\\cdots,x_n)]=f'_t(x_1+t,x_2+t,\\cdots,x_n+t)\\big|_{t=0}$$\n（即 $f(x_1+t,x_2+t,\\cdots,x_n+t)$ 关于 $t$ 的一元函数在 $t=0$ 的导数值）。\n\n使用这个公式，我们很容易证明这些性质。例如，(2) 成立时由于（使用正常导数的性质）\n$$af'_t(x_1+t,x_2+t,\\cdots,x_n+t)+ag'_t(x_1+t,x_2+t,\\cdots,x_n+t)$$\n$$=(af+bg)'_t(x_1+t,x_2+t,\\cdots,x_n+t)$$\n$$\\Rightarrow a[f]+b[g]=[af+bg]$$\n\n另外，全导数有一个特别的情况：$[x-y]=0$。\n\n对于任意三个变量 $x,y,z$，下面的例子可以帮助你熟悉全导数的计算：\n$[x-y]=0$；\n$[xy]=x+y$；\n$[x^2+y^2]=2x^2y+2xy^2$；\n$[xyz]=xy+yz+zx$；\n$[x^2+y^2+z^2]=2(x+y+z)$；\n$[x^2-y^2]=2(x-y)$；\n$[x^2y^2z^2]=2xyz(xy+yz+zx)$；\n$[x(y+z)+y(z+x)+z(x+y)]=4(x+y+z)$；\n$[xyz(x+y+z)]=(x+y+z)(xy+yz+zx)+3xyz$；\n$[x^2y+y^2z+z^2x]=x^2+y^2+z^2+2xy+2yz+2zx$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "命题 1 假设 $[f]$ 表示多元函数 $f(x_1,x_2,\\cdots,x_n)$ 的全导数，则有（和经典导数的求导公式是一样的）：\n(1)$[x^n]=nx^{n-1}$；\n(2)$[af+bg]=a[f]+b[g]$；\n(3)$[fg]=[f]g+f[g]$；\n(4)$[f(g)]=[f]g[g]$；\n(5)$\\left[\\frac{f}{g}\\right]=\\frac{[f]g-f[g]}{g^2}$。",
+    "tags": [
+      "全导数",
+      "性质",
+      "命题"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

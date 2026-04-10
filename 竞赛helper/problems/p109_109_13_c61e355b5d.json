@@ -1,0 +1,53 @@
+{
+  "uid": "p109_109_13_c61e355b5d",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "13",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "13. (Pham Kim Hung, Mathlinks) 设 $x,y,z$ 是非负实数，且满足 $x+y+z=1$，证明\n$$\\frac{x-y}{\\sqrt{x+y}}+\\frac{y-z}{\\sqrt{y+z}}+\\frac{z-x}{\\sqrt{z+x}} \\leqslant \\sqrt{\\frac{21-17\\sqrt{17}}{32}}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "13. (Pham Kim Hung, Mathlinks) 设 $x,y,z$ 是非负实数，且满足 $x+y+z=1$，证明\n$$\\frac{x-y}{\\sqrt{x+y}}+\\frac{y-z}{\\sqrt{y+z}}+\\frac{z-x}{\\sqrt{z+x}}\\leqslant\\sqrt{\\frac{21-17\\sqrt{17}}{32}}$$",
+  "tags": [
+    "Pham Kim Hung",
+    "Mathlinks",
+    "x+y+z=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "c61e355b5ddb42818d4b7177912dda7dc5d8eb73",
+  "raw_problem": {
+    "problem_id": "13",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "13. (Pham Kim Hung, Mathlinks) 设 $x,y,z$ 是非负实数，且满足 $x+y+z=1$，证明\n$$\\frac{x-y}{\\sqrt{x+y}}+\\frac{y-z}{\\sqrt{y+z}}+\\frac{z-x}{\\sqrt{z+x}} \\leqslant \\sqrt{\\frac{21-17\\sqrt{17}}{32}}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "13. (Pham Kim Hung, Mathlinks) 设 $x,y,z$ 是非负实数，且满足 $x+y+z=1$，证明\n$$\\frac{x-y}{\\sqrt{x+y}}+\\frac{y-z}{\\sqrt{y+z}}+\\frac{z-x}{\\sqrt{z+x}}\\leqslant\\sqrt{\\frac{21-17\\sqrt{17}}{32}}$$",
+    "tags": [
+      "Pham Kim Hung",
+      "Mathlinks",
+      "x+y+z=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

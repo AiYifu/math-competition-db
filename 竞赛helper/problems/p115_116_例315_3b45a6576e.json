@@ -1,0 +1,58 @@
+{
+  "uid": "p115_116_例315_3b45a6576e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": "3.1 起步",
+  "problem_id": "例3.1.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    115,
+    116
+  ],
+  "source_images": [
+    "page-115.jpg",
+    "page-116.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\sqrt{\\frac{a}{1+2b}}+\\sqrt{\\frac{b}{1+2c}}+\\sqrt{\\frac{c}{1+2a}} \\geqslant \\sqrt{3}$$",
+  "solution_md": "**证明及分析** 通过变换这个不等式，不仅可以除去平方根式，而且还可以把循环不等式转换成对称不等式。事实上，设\n$$x=\\sqrt{\\frac{a}{1+2b}}, \\quad y=\\sqrt{\\frac{b}{1+2c}}, \\quad z=\\sqrt{\\frac{c}{1+2a}}$$\n我们来证明\n$$x+y+z \\geqslant \\sqrt{3}$$\n三个新变量 $x,y,z$，由下列方程组来定义\n$$\\begin{cases} x^2(1+2b)=a \\\\ y^2(1+2c)=b \\\\ z^2(1+2a)=c \\end{cases}$$\n解这个方程组，我们有\n$$\\begin{cases} a=\\dfrac{x^2(1+2y^2+4y^2z^2)}{1-8z^2x^2y^2} \\\\ b=\\dfrac{y^2(1+2z^2+4z^2x^2)}{1-8z^2x^2y^2} \\\\ c=\\dfrac{z^2(1+2x^2+4y^2x^2)}{1-8z^2x^2y^2} \\end{cases}$$\n根据假设，我们有\n$$\\sum a=3$$\n$$\\Rightarrow \\sum x^2(1+2y^2+4y^2z^2)=3(1-8x^2y^2z^2)$$\n$$\\Rightarrow \\sum x^2+2\\sum x^2y^2+36x^2y^2z^2=3 \\quad (*)$$\n我们需要在条件 $(*)$ 下，来证明 $x+y+z \\geqslant \\sqrt{3}$。这个方程的形式和例 3.1.3 非常相似。促使我们想到了反证法。\n\n显然，根据反证法，只需证明反转不等式，如果 $x,y,z \\geqslant 0$，且满足 $x+y+z=\\sqrt{3}$，则\n$$\\sum x^2+2\\sum x^2y^2+36x^2y^2z^2 \\leqslant 3$$\n令 $m=\\sqrt{3}x, n=\\sqrt{3}y, p=\\sqrt{3}z$，则 $m+n+p=3$，我们来证明\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2 \\leqslant 27$$\n注意到 $mn+np+pm \\leqslant 3, mnp \\leqslant 1$，所以\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2-3(m+n+p)^2$$\n$$=2\\sum m^2n^2+12m^2n^2p^2-6\\sum mn$$\n$$=2(mn+np+pm)^2-6(mn+np+pm)-12mnp+12m^2n^2p^2 \\leqslant 0$$\n反转不等式得证。从而，原不等式成立。等号成立的条件是（原不等式）$a=b=c$ 或 $a=3,b=c=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.1.5 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\sqrt{\\frac{a}{1+2b}}+\\sqrt{\\frac{b}{1+2c}}+\\sqrt{\\frac{c}{1+2a}}\\geqslant\\sqrt{3}$$\n\n**证明及分析** 通过变换这个不等式，不仅可以除去平方根式，而且还可以把循环不等式转换成对称不等式。事实上，设\n$$x=\\sqrt{\\frac{a}{1+2b}},y=\\sqrt{\\frac{b}{1+2c}},z=\\sqrt{\\frac{c}{1+2a}}$$\n我们来证明\n$$x+y+z\\geqslant\\sqrt{3}$$\n三个新变量 $x,y,z$，由下列方程组来定义\n$$\\begin{cases}x^2(1+2b)=a\\\\y^2(1+2c)=b\\\\z^2(1+2a)=c\\end{cases}$$\n解这个方程组，我们有\n$$\\begin{cases}a=\\dfrac{x^2(1+2y^2+4y^2z^2)}{1-8z^2x^2y^2}\\\\b=\\dfrac{y^2(1+2z^2+4z^2x^2)}{1-8z^2x^2y^2}\\\\c=\\dfrac{z^2(1+2x^2+4y^2x^2)}{1-8z^2x^2y^2}\\end{cases}$$\n根据假设，我们有\n$$\\sum a=3$$\n$$\\Rightarrow\\sum x^2(1+2y^2+4y^2z^2)=3(1-8x^2y^2z^2)$$\n$$\\Rightarrow\\sum x^2+2\\sum x^2y^2+36x^2y^2z^2=3\\quad(*)$$\n我们需要在条件 $(*)$ 下，来证明 $x+y+z\\geqslant\\sqrt{3}$。这个方程的形式和例 3.1.3 非常相似。促使我们想到了反证法。\n\n显然，根据反证法，只需证明反转不等式，如果 $x,y,z\\geqslant 0$，且满足 $x+y+z=\\sqrt{3}$，则\n$$\\sum x^2+2\\sum x^2y^2+36x^2y^2z^2\\leqslant 3$$\n令 $m=\\sqrt{3}x,n=\\sqrt{3}y,p=\\sqrt{3}z$，则 $m+n+p=3$，我们来证明\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2\\leqslant 27$$\n注意到 $mn+np+pm\\leqslant 3,mnp\\leqslant 1$，所以\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2-3(m+n+p)^2$$\n$$=2\\sum m^2n^2+12m^2n^2p^2-6\\sum mn$$\n$$=2(mn+np+pm)^2-6(mn+np+pm)-12mnp+12m^2n^2p^2\\leqslant 0$$\n反转不等式得证。从而，原不等式成立。等号成立的条件是（原不等式）$a=b=c$ 或 $a=3,b=c=0$ 或其轮换。",
+  "tags": [
+    "反证法",
+    "a+b+c=3",
+    "反转不等式",
+    "起步"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "3b45a6576e2ec37ec5b8185bac838ed22ab60f2d",
+  "raw_problem": {
+    "problem_id": "例3.1.5",
+    "problem_type": "example",
+    "chapter": "第3章 反证法",
+    "section": "3.1 起步",
+    "title": null,
+    "source_pages": [
+      115,
+      116
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\sqrt{\\frac{a}{1+2b}}+\\sqrt{\\frac{b}{1+2c}}+\\sqrt{\\frac{c}{1+2a}} \\geqslant \\sqrt{3}$$",
+    "solution_md": "**证明及分析** 通过变换这个不等式，不仅可以除去平方根式，而且还可以把循环不等式转换成对称不等式。事实上，设\n$$x=\\sqrt{\\frac{a}{1+2b}}, \\quad y=\\sqrt{\\frac{b}{1+2c}}, \\quad z=\\sqrt{\\frac{c}{1+2a}}$$\n我们来证明\n$$x+y+z \\geqslant \\sqrt{3}$$\n三个新变量 $x,y,z$，由下列方程组来定义\n$$\\begin{cases} x^2(1+2b)=a \\\\ y^2(1+2c)=b \\\\ z^2(1+2a)=c \\end{cases}$$\n解这个方程组，我们有\n$$\\begin{cases} a=\\dfrac{x^2(1+2y^2+4y^2z^2)}{1-8z^2x^2y^2} \\\\ b=\\dfrac{y^2(1+2z^2+4z^2x^2)}{1-8z^2x^2y^2} \\\\ c=\\dfrac{z^2(1+2x^2+4y^2x^2)}{1-8z^2x^2y^2} \\end{cases}$$\n根据假设，我们有\n$$\\sum a=3$$\n$$\\Rightarrow \\sum x^2(1+2y^2+4y^2z^2)=3(1-8x^2y^2z^2)$$\n$$\\Rightarrow \\sum x^2+2\\sum x^2y^2+36x^2y^2z^2=3 \\quad (*)$$\n我们需要在条件 $(*)$ 下，来证明 $x+y+z \\geqslant \\sqrt{3}$。这个方程的形式和例 3.1.3 非常相似。促使我们想到了反证法。\n\n显然，根据反证法，只需证明反转不等式，如果 $x,y,z \\geqslant 0$，且满足 $x+y+z=\\sqrt{3}$，则\n$$\\sum x^2+2\\sum x^2y^2+36x^2y^2z^2 \\leqslant 3$$\n令 $m=\\sqrt{3}x, n=\\sqrt{3}y, p=\\sqrt{3}z$，则 $m+n+p=3$，我们来证明\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2 \\leqslant 27$$\n注意到 $mn+np+pm \\leqslant 3, mnp \\leqslant 1$，所以\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2-3(m+n+p)^2$$\n$$=2\\sum m^2n^2+12m^2n^2p^2-6\\sum mn$$\n$$=2(mn+np+pm)^2-6(mn+np+pm)-12mnp+12m^2n^2p^2 \\leqslant 0$$\n反转不等式得证。从而，原不等式成立。等号成立的条件是（原不等式）$a=b=c$ 或 $a=3,b=c=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.1.5 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\sqrt{\\frac{a}{1+2b}}+\\sqrt{\\frac{b}{1+2c}}+\\sqrt{\\frac{c}{1+2a}}\\geqslant\\sqrt{3}$$\n\n**证明及分析** 通过变换这个不等式，不仅可以除去平方根式，而且还可以把循环不等式转换成对称不等式。事实上，设\n$$x=\\sqrt{\\frac{a}{1+2b}},y=\\sqrt{\\frac{b}{1+2c}},z=\\sqrt{\\frac{c}{1+2a}}$$\n我们来证明\n$$x+y+z\\geqslant\\sqrt{3}$$\n三个新变量 $x,y,z$，由下列方程组来定义\n$$\\begin{cases}x^2(1+2b)=a\\\\y^2(1+2c)=b\\\\z^2(1+2a)=c\\end{cases}$$\n解这个方程组，我们有\n$$\\begin{cases}a=\\dfrac{x^2(1+2y^2+4y^2z^2)}{1-8z^2x^2y^2}\\\\b=\\dfrac{y^2(1+2z^2+4z^2x^2)}{1-8z^2x^2y^2}\\\\c=\\dfrac{z^2(1+2x^2+4y^2x^2)}{1-8z^2x^2y^2}\\end{cases}$$\n根据假设，我们有\n$$\\sum a=3$$\n$$\\Rightarrow\\sum x^2(1+2y^2+4y^2z^2)=3(1-8x^2y^2z^2)$$\n$$\\Rightarrow\\sum x^2+2\\sum x^2y^2+36x^2y^2z^2=3\\quad(*)$$\n我们需要在条件 $(*)$ 下，来证明 $x+y+z\\geqslant\\sqrt{3}$。这个方程的形式和例 3.1.3 非常相似。促使我们想到了反证法。\n\n显然，根据反证法，只需证明反转不等式，如果 $x,y,z\\geqslant 0$，且满足 $x+y+z=\\sqrt{3}$，则\n$$\\sum x^2+2\\sum x^2y^2+36x^2y^2z^2\\leqslant 3$$\n令 $m=\\sqrt{3}x,n=\\sqrt{3}y,p=\\sqrt{3}z$，则 $m+n+p=3$，我们来证明\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2\\leqslant 27$$\n注意到 $mn+np+pm\\leqslant 3,mnp\\leqslant 1$，所以\n$$3\\sum m^2+2\\sum m^2n^2+12m^2n^2p^2-3(m+n+p)^2$$\n$$=2\\sum m^2n^2+12m^2n^2p^2-6\\sum mn$$\n$$=2(mn+np+pm)^2-6(mn+np+pm)-12mnp+12m^2n^2p^2\\leqslant 0$$\n反转不等式得证。从而，原不等式成立。等号成立的条件是（原不等式）$a=b=c$ 或 $a=3,b=c=0$ 或其轮换。",
+    "tags": [
+      "反证法",
+      "a+b+c=3",
+      "反转不等式",
+      "起步"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

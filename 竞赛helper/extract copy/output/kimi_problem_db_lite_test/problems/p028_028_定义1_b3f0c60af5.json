@@ -1,0 +1,53 @@
+{
+  "uid": "p028_028_定义1_b3f0c60af5",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.2",
+  "problem_id": "定义1",
+  "problem_type": "definition",
+  "title": "对称分式与标准对称分式",
+  "source_pages": [
+    28
+  ],
+  "source_images": [
+    "page-028.jpg"
+  ],
+  "stem_md": "**定义 1** 一个分式 $F(a,b,c)$ 称为对称的，当且仅当对所有的 $(a,b,c)$ 的排列 $(x,y,z)$ 都有 $F(a,b,c)=F(x,y,z)$。如果对任意实数 $x$，总有 $F(x,x,x)=0$，则称 $F(a,b,c)$ 为标准对称分式。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定义 1 一个分式 $F(a,b,c)$ 称为对称的，当且仅当对所有的 $(a,b,c)$ 的排列 $(x,y,z)$ 都有 $F(a,b,c)=F(x,y,z)$。如果对任意实数 $x$，总有 $F(x,x,x)=0$，则称 $F(a,b,c)$ 为标准对称分式。",
+  "tags": [
+    "定义",
+    "对称分式",
+    "标准对称分式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "b3f0c60af584e68c990cf01b0d8d4d4016177693",
+  "raw_problem": {
+    "problem_id": "定义1",
+    "problem_type": "definition",
+    "chapter": "1",
+    "section": "1.2",
+    "title": "对称分式与标准对称分式",
+    "source_pages": [
+      28
+    ],
+    "stem_md": "**定义 1** 一个分式 $F(a,b,c)$ 称为对称的，当且仅当对所有的 $(a,b,c)$ 的排列 $(x,y,z)$ 都有 $F(a,b,c)=F(x,y,z)$。如果对任意实数 $x$，总有 $F(x,x,x)=0$，则称 $F(a,b,c)$ 为标准对称分式。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定义 1 一个分式 $F(a,b,c)$ 称为对称的，当且仅当对所有的 $(a,b,c)$ 的排列 $(x,y,z)$ 都有 $F(a,b,c)=F(x,y,z)$。如果对任意实数 $x$，总有 $F(x,x,x)=0$，则称 $F(a,b,c)$ 为标准对称分式。",
+    "tags": [
+      "定义",
+      "对称分式",
+      "标准对称分式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

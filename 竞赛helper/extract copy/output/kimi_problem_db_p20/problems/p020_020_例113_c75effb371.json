@@ -1,0 +1,25 @@
+{
+  "uid": "p020_020_例113_c75effb371",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.1 平方分析法",
+  "section": null,
+  "problem_id": "例1.1.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    20
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$(a+b)(b+c)(c+a) \\geqslant 8abc$$",
+  "solution_md": "**证明及分析** 显然，不等式等价于\n$$ab(a+b)+bc(b+c)+ca(c+a) \\geqslant 6abc$$\n可以改写成\n$$a(b^2+c^2-2bc)+b(c^2+a^2-2ca)+c(a^2+b^2-2ab) \\geqslant 0$$\n或\n$$a(b-c)^2+b(c-a)^2+c(a-b)^2 \\geqslant 0$$\n这是显然成立的。证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "SOS方法",
+    "平方分析法",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "c75effb3715d5171ef509a4ebc486765f7ebf389"
+}

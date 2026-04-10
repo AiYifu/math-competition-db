@@ -1,0 +1,63 @@
+{
+  "uid": "p187_189_例5412_cf7d4f3136",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    187,
+    188,
+    189
+  ],
+  "source_images": [
+    "page-187.jpg",
+    "page-188.jpg",
+    "page-189.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$",
+  "solution_md": "设 $ab=m^2,a=\\frac{mx}{y},b=\\frac{my}{x}(m,x,y>0)$，则\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}=\\frac{y}{mx\\left(1+\\frac{my}{x}\\right)}+\\frac{x}{my\\left(1+\\frac{mx}{y}\\right)}$$\n$$=\\frac{y}{mx+m^2y}+\\frac{x}{my+m^2x}$$\n$$\\geqslant \\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}$$\n如果 $m\\geqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{1}{m^2}$$\n否则，如果 $m\\leqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{2}{m+m^2}$$\n因此，我们得到\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}\\geqslant \\min\\left\\{\\frac{1}{m^2},\\frac{2}{m+m^2}\\right\\}$$\n类似地，设 $cd=n^2(n\\geqslant 0)$，则\n$$\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\min\\left\\{\\frac{1}{n^2},\\frac{2}{n+n^2}\\right\\}$$\n所以，只需证明下面两个不等式\n$$\\frac{2}{m+m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (1)$$\n$$\\frac{1}{m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (2)$$\n易证不等式 (1) 是成立的。因为其去分母之后变成\n$$m+n+m^2+n^2+4mn(m-n)^2+4mn(m^2+n^2)\\geqslant 8mn$$\n由于 $4mn^3+n\\geqslant 3mn,4nm^3+n\\geqslant 3mn,m^2+n^2\\geqslant 2mn$，所以 (1) 成立，或者\n$$\\begin{aligned}(1)\\Leftrightarrow& (4+32mn)\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)^2+\\\\&2(4\\sqrt{mn}+1+32mn\\sqrt{mn})\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)+\\\\&2\\sqrt{mn}(\\sqrt{mn}+1)(2\\sqrt{mn}-1)^2\\geqslant 0\\end{aligned}$$\n下面来证明 (2)，去分母之后，(2) 变成\n$$8mn(m-n)^2+8mn^2+8m^3n+2m^2+n^2+n\\geqslant 16m^2n$$\n由于\n$$8m^3n+8mn\\geqslant 16m^2n,\\quad m^2+n^2\\geqslant 2mn,\\quad m^2+n+8mn^2\\geqslant 6mn$$\n所以，(2) 也成立。\n由 (1)(2) 以及 $\\frac{1}{m^2}+\\frac{1}{n^2}\\geqslant \\frac{16}{1+8mn},\\forall m,n>0$ 可知，原不等式成立。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+  "answer_md": "",
+  "hints_md": "Vasile Cirtoaje, Mathlinks",
+  "original_text_md": "例 5.4.12(Vasile Cirtoaje,Mathlinks) 设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$\n证明 设 $ab=m^2,a=\\frac{mx}{y},b=\\frac{my}{x}(m,x,y>0)$，则\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}=\\frac{y}{mx\\left(1+\\frac{my}{x}\\right)}+\\frac{x}{my\\left(1+\\frac{mx}{y}\\right)}$$\n$$=\\frac{y}{mx+m^2y}+\\frac{x}{my+m^2x}$$\n$$\\geqslant \\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}$$\n如果 $m\\geqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{1}{m^2}$$\n否则，如果 $m\\leqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{2}{m+m^2}$$\n因此，我们得到\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}\\geqslant \\min\\left\\{\\frac{1}{m^2},\\frac{2}{m+m^2}\\right\\}$$\n类似地，设 $cd=n^2(n\\geqslant 0)$，则\n$$\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\min\\left\\{\\frac{1}{n^2},\\frac{2}{n+n^2}\\right\\}$$\n所以，只需证明下面两个不等式\n$$\\frac{2}{m+m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (1)$$\n$$\\frac{1}{m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (2)$$\n易证不等式 (1) 是成立的。因为其去分母之后变成\n$$m+n+m^2+n^2+4mn(m-n)^2+4mn(m^2+n^2)\\geqslant 8mn$$\n由于 $4mn^3+n\\geqslant 3mn,4nm^3+n\\geqslant 3mn,m^2+n^2\\geqslant 2mn$，所以 (1) 成立，或者\n$$\\begin{aligned}(1)\\Leftrightarrow& (4+32mn)\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)^2+\\\\&2(4\\sqrt{mn}+1+32mn\\sqrt{mn})\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)+\\\\&2\\sqrt{mn}(\\sqrt{mn}+1)(2\\sqrt{mn}-1)^2\\geqslant 0\\end{aligned}$$\n下面来证明 (2)，去分母之后，(2) 变成\n$$8mn(m-n)^2+8mn^2+8m^3n+2m^2+n^2+n\\geqslant 16m^2n$$\n由于\n$$8m^3n+8mn\\geqslant 16m^2n,\\quad m^2+n^2\\geqslant 2mn,\\quad m^2+n+8mn^2\\geqslant 6mn$$\n所以，(2) 也成立。\n由 (1)(2) 以及 $\\frac{1}{m^2}+\\frac{1}{n^2}\\geqslant \\frac{16}{1+8mn},\\forall m,n>0$ 可知，原不等式成立。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+  "tags": [
+    "非齐次不等式",
+    "变量替换",
+    "正实数",
+    "四元",
+    "min函数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "cf7d4f3136ba45df28a27d6c990aaff71bf2775f",
+  "raw_problem": {
+    "problem_id": "例5.4.12",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      187,
+      188,
+      189
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$",
+    "solution_md": "设 $ab=m^2,a=\\frac{mx}{y},b=\\frac{my}{x}(m,x,y>0)$，则\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}=\\frac{y}{mx\\left(1+\\frac{my}{x}\\right)}+\\frac{x}{my\\left(1+\\frac{mx}{y}\\right)}$$\n$$=\\frac{y}{mx+m^2y}+\\frac{x}{my+m^2x}$$\n$$\\geqslant \\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}$$\n如果 $m\\geqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{1}{m^2}$$\n否则，如果 $m\\leqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{2}{m+m^2}$$\n因此，我们得到\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}\\geqslant \\min\\left\\{\\frac{1}{m^2},\\frac{2}{m+m^2}\\right\\}$$\n类似地，设 $cd=n^2(n\\geqslant 0)$，则\n$$\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\min\\left\\{\\frac{1}{n^2},\\frac{2}{n+n^2}\\right\\}$$\n所以，只需证明下面两个不等式\n$$\\frac{2}{m+m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (1)$$\n$$\\frac{1}{m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (2)$$\n易证不等式 (1) 是成立的。因为其去分母之后变成\n$$m+n+m^2+n^2+4mn(m-n)^2+4mn(m^2+n^2)\\geqslant 8mn$$\n由于 $4mn^3+n\\geqslant 3mn,4nm^3+n\\geqslant 3mn,m^2+n^2\\geqslant 2mn$，所以 (1) 成立，或者\n$$\\begin{aligned}(1)\\Leftrightarrow& (4+32mn)\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)^2+\\\\&2(4\\sqrt{mn}+1+32mn\\sqrt{mn})\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)+\\\\&2\\sqrt{mn}(\\sqrt{mn}+1)(2\\sqrt{mn}-1)^2\\geqslant 0\\end{aligned}$$\n下面来证明 (2)，去分母之后，(2) 变成\n$$8mn(m-n)^2+8mn^2+8m^3n+2m^2+n^2+n\\geqslant 16m^2n$$\n由于\n$$8m^3n+8mn\\geqslant 16m^2n,\\quad m^2+n^2\\geqslant 2mn,\\quad m^2+n+8mn^2\\geqslant 6mn$$\n所以，(2) 也成立。\n由 (1)(2) 以及 $\\frac{1}{m^2}+\\frac{1}{n^2}\\geqslant \\frac{16}{1+8mn},\\forall m,n>0$ 可知，原不等式成立。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+    "answer_md": "",
+    "hints_md": "Vasile Cirtoaje, Mathlinks",
+    "original_text_md": "例 5.4.12(Vasile Cirtoaje,Mathlinks) 设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$\n证明 设 $ab=m^2,a=\\frac{mx}{y},b=\\frac{my}{x}(m,x,y>0)$，则\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}=\\frac{y}{mx\\left(1+\\frac{my}{x}\\right)}+\\frac{x}{my\\left(1+\\frac{mx}{y}\\right)}$$\n$$=\\frac{y}{mx+m^2y}+\\frac{x}{my+m^2x}$$\n$$\\geqslant \\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}$$\n如果 $m\\geqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{1}{m^2}$$\n否则，如果 $m\\leqslant 1$，则\n$$\\frac{(x+y)^2}{2mxy+m^2(x^2+y^2)}\\geqslant \\frac{2}{m+m^2}$$\n因此，我们得到\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+a)}\\geqslant \\min\\left\\{\\frac{1}{m^2},\\frac{2}{m+m^2}\\right\\}$$\n类似地，设 $cd=n^2(n\\geqslant 0)$，则\n$$\\frac{1}{c(1+d)}+\\frac{1}{d(1+c)}\\geqslant \\min\\left\\{\\frac{1}{n^2},\\frac{2}{n+n^2}\\right\\}$$\n所以，只需证明下面两个不等式\n$$\\frac{2}{m+m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (1)$$\n$$\\frac{1}{m^2}+\\frac{2}{n+n^2}\\geqslant \\frac{16}{1+8mn}\\quad (2)$$\n易证不等式 (1) 是成立的。因为其去分母之后变成\n$$m+n+m^2+n^2+4mn(m-n)^2+4mn(m^2+n^2)\\geqslant 8mn$$\n由于 $4mn^3+n\\geqslant 3mn,4nm^3+n\\geqslant 3mn,m^2+n^2\\geqslant 2mn$，所以 (1) 成立，或者\n$$\\begin{aligned}(1)\\Leftrightarrow& (4+32mn)\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)^2+\\\\&2(4\\sqrt{mn}+1+32mn\\sqrt{mn})\\left(\\frac{m+n}{2}-\\sqrt{mn}\\right)+\\\\&2\\sqrt{mn}(\\sqrt{mn}+1)(2\\sqrt{mn}-1)^2\\geqslant 0\\end{aligned}$$\n下面来证明 (2)，去分母之后，(2) 变成\n$$8mn(m-n)^2+8mn^2+8m^3n+2m^2+n^2+n\\geqslant 16m^2n$$\n由于\n$$8m^3n+8mn\\geqslant 16m^2n,\\quad m^2+n^2\\geqslant 2mn,\\quad m^2+n+8mn^2\\geqslant 6mn$$\n所以，(2) 也成立。\n由 (1)(2) 以及 $\\frac{1}{m^2}+\\frac{1}{n^2}\\geqslant \\frac{16}{1+8mn},\\forall m,n>0$ 可知，原不等式成立。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+    "tags": [
+      "非齐次不等式",
+      "变量替换",
+      "正实数",
+      "四元",
+      "min函数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

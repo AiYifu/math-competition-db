@@ -1,0 +1,60 @@
+{
+  "uid": "p116_117_例316_0710f46a08",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": "3.1 起步",
+  "problem_id": "例3.1.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    116,
+    117
+  ],
+  "source_images": [
+    "page-116.jpg",
+    "page-117.jpg"
+  ],
+  "stem_md": "(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 正实数，其积为 1，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n} \\leqslant 1$$",
+  "solution_md": "**证明及分析** 很明显，我们只需证明\n$$x_1+x_2+\\cdots+x_n \\leqslant 1$$\n其中 $x_i=\\dfrac{1}{n-1+a_i}, i \\in \\{1,2,\\cdots,n\\}$。题设条件 $a_1a_2\\cdots a_n=1$ 变成\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right)=1$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n > 1$。我们来寻找和题设 $a_1a_2\\cdots a_n=1$ 的某些矛盾之处。如果 $x_1+x_2+\\cdots+x_n > 1$，我们可以减少 $x_i$ 到 $tx_i$（$i \\in \\{1,2,\\cdots,n\\}$，$t$ 是正实数），满足\n$$tx_1+tx_2+\\cdots+tx_n=1 \\quad (t < 1)$$\n令 $c_i=tx_i, i \\in \\{1,2,\\cdots,n\\}$，则 $c_1+c_2+\\cdots+c_n=1$，且\n$$\\left(\\frac{1}{c_1}-n+1\\right)\\left(\\frac{1}{c_2}-n+1\\right)\\cdots\\left(\\frac{1}{c_n}-n+1\\right) > 1$$\n不管怎样，我们将证明（由下面的引理可知），这是不可能的。\n\n**引理 1** 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=1, 0 < x_i \\leqslant \\dfrac{1}{n-1}, \\forall i \\in \\{1,2,\\cdots,n\\}$，则\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right) \\leqslant 1$$\n\n**证明** 不等式等价于\n$$[1-(n-1)x_1][1-(n-1)x_2]\\cdots[1-(n-1)x_n] \\leqslant x_1x_2\\cdots x_n$$\n对 $n-1$ 个数，应用 AM-GM 不等式，我们有\n$$\\prod_{j \\neq i}[1-(n-1)x_j] \\leqslant \\left\\{\\frac{\\sum_{j \\neq i}[1-(n-1)x_j]}{n-1}\\right\\}^{n-1}=x_i^{n-1}$$\n令 $i=1,2,\\cdots,n$，这些不等式相乘，有\n$$\\prod_{i=1}^{n}\\prod_{j \\neq i}[1-(n-1)x_j] \\leqslant \\prod_{i=1}^{n}x_i^{n-1}$$\n$$\\Leftrightarrow \\prod_{i=1}^{n}[1-(n-1)x_i]^{n-1} \\leqslant \\prod_{i=1}^{n}x_i^{n-1}$$\n$$\\Leftrightarrow \\prod_{i=1}^{n}[1-(n-1)x_i] \\leqslant \\prod_{i=1}^{n}x_i$$\n引理得证（这其中蕴含着原不等式）。\n\n这个问题，采用反证法的另一个证法如下。\n\n事实上，不难证明，原不等式等价于下列问题（以引理的形式给出）。\n\n**引理 2** 设 $a_1,a_2,\\cdots,a_n$ 是正实数，如果\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}=1$$\n则\n$$a_1a_2\\cdots a_n \\leqslant 1$$\n\n**证明** 令 $b_i=\\dfrac{n-1}{a_i}, i \\in \\{1,2,\\cdots,n\\}$，则\n$$\\sum_{i=1}^{n}\\frac{1}{n-1+\\frac{n-1}{a_i}}=1 \\Rightarrow \\sum_{i=1}^{n}\\frac{b_i}{1+b_i}=n-1 \\Rightarrow \\sum_{i=1}^{n}\\frac{1}{1+b_i}=1$$\n应用 AM-GM 不等式，我们有\n$$\\frac{b_i}{1+b_i}=\\sum_{j=1,j \\neq i}^{n}\\frac{1}{1+b_j} \\geqslant (n-1)\\sqrt[n-1]{\\frac{1}{\\prod_{j=1,j \\neq i}^{n}(1+b_j)}}$$\n$$\\Rightarrow \\prod_{i=1}^{n}b_i \\geqslant (n-1)^{n-1} \\Rightarrow \\prod_{i=1}^{n}a_i \\leqslant 1$$\n所以\n$$\\prod_{i=1}^{n}\\frac{b_i}{1+b_i} \\geqslant (n-1)^{n-1}\\prod_{i=1}^{n}\\sqrt[n-1]{\\frac{1}{\\prod_{j=1,j \\neq i}^{n}(1+b_j)}}=(n-1)^{n-1}\\prod_{i=1}^{n}\\frac{1}{1+b_i}$$\n引理 2 得证，从而原不等式得证。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.1.6(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 正实数，其积为 1，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots\\frac{1}{n-1+a_n}\\leqslant 1$$\n\n**证明及分析** 很明显，我们只需证明\n$$x_1+x_2+\\cdots+x_n\\leqslant 1$$\n其中 $x_i=\\dfrac{1}{n-1+a_i},i\\in\\{1,2,\\cdots,n\\}$。题设条件 $a_1a_2\\cdots a_n=1$ 变成\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right)=1$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n>1$。我们来寻找和题设 $a_1a_2\\cdots a_n=1$ 的某些矛盾之处。如果 $x_1+x_2+\\cdots+x_n>1$，我们可以减少 $x_i$ 到 $tx_i$（$i\\in\\{1,2,\\cdots,n\\}$，$t$ 是正实数），满足\n$$tx_1+tx_2+\\cdots+tx_n=1\\quad(t<1)$$\n令 $c_i=tx_i,i\\in\\{1,2,\\cdots,n\\}$，则 $c_1+c_2+\\cdots+c_n=1$，且\n$$\\left(\\frac{1}{c_1}-n+1\\right)\\left(\\frac{1}{c_2}-n+1\\right)\\cdots\\left(\\frac{1}{c_n}-n+1\\right)>1$$\n不管怎样，我们将证明（由下面的引理可知），这是不可能的。\n\n**引理 1** 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=1,0<x_i\\leqslant\\dfrac{1}{n-1},\\forall i\\in\\{1,2,\\cdots,n\\}$，则\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right)\\leqslant 1$$\n\n**证明** 不等式等价于\n$$[1-(n-1)x_1][1-(n-1)x_2]\\cdots[1-(n-1)x_n]\\leqslant x_1x_2\\cdots x_n$$\n对 $n-1$ 个数，应用 AM-GM 不等式，我们有\n$$\\prod_{j\\neq i}[1-(n-1)x_j]\\leqslant\\left\\{\\frac{\\sum_{j\\neq i}[1-(n-1)x_j]}{n-1}\\right\\}^{n-1}=x_i^{n-1}$$\n令 $i=1,2,\\cdots,n$，这些不等式相乘，有",
+  "tags": [
+    "反证法",
+    "Romania TST 1998",
+    "n元不等式",
+    "引理",
+    "起步"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "0710f46a086a992500919e7b33f43f5fadf27006",
+  "raw_problem": {
+    "problem_id": "例3.1.6",
+    "problem_type": "example",
+    "chapter": "第3章 反证法",
+    "section": "3.1 起步",
+    "title": null,
+    "source_pages": [
+      116,
+      117
+    ],
+    "stem_md": "(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 正实数，其积为 1，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n} \\leqslant 1$$",
+    "solution_md": "**证明及分析** 很明显，我们只需证明\n$$x_1+x_2+\\cdots+x_n \\leqslant 1$$\n其中 $x_i=\\dfrac{1}{n-1+a_i}, i \\in \\{1,2,\\cdots,n\\}$。题设条件 $a_1a_2\\cdots a_n=1$ 变成\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right)=1$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n > 1$。我们来寻找和题设 $a_1a_2\\cdots a_n=1$ 的某些矛盾之处。如果 $x_1+x_2+\\cdots+x_n > 1$，我们可以减少 $x_i$ 到 $tx_i$（$i \\in \\{1,2,\\cdots,n\\}$，$t$ 是正实数），满足\n$$tx_1+tx_2+\\cdots+tx_n=1 \\quad (t < 1)$$\n令 $c_i=tx_i, i \\in \\{1,2,\\cdots,n\\}$，则 $c_1+c_2+\\cdots+c_n=1$，且\n$$\\left(\\frac{1}{c_1}-n+1\\right)\\left(\\frac{1}{c_2}-n+1\\right)\\cdots\\left(\\frac{1}{c_n}-n+1\\right) > 1$$\n不管怎样，我们将证明（由下面的引理可知），这是不可能的。\n\n**引理 1** 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=1, 0 < x_i \\leqslant \\dfrac{1}{n-1}, \\forall i \\in \\{1,2,\\cdots,n\\}$，则\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right) \\leqslant 1$$\n\n**证明** 不等式等价于\n$$[1-(n-1)x_1][1-(n-1)x_2]\\cdots[1-(n-1)x_n] \\leqslant x_1x_2\\cdots x_n$$\n对 $n-1$ 个数，应用 AM-GM 不等式，我们有\n$$\\prod_{j \\neq i}[1-(n-1)x_j] \\leqslant \\left\\{\\frac{\\sum_{j \\neq i}[1-(n-1)x_j]}{n-1}\\right\\}^{n-1}=x_i^{n-1}$$\n令 $i=1,2,\\cdots,n$，这些不等式相乘，有\n$$\\prod_{i=1}^{n}\\prod_{j \\neq i}[1-(n-1)x_j] \\leqslant \\prod_{i=1}^{n}x_i^{n-1}$$\n$$\\Leftrightarrow \\prod_{i=1}^{n}[1-(n-1)x_i]^{n-1} \\leqslant \\prod_{i=1}^{n}x_i^{n-1}$$\n$$\\Leftrightarrow \\prod_{i=1}^{n}[1-(n-1)x_i] \\leqslant \\prod_{i=1}^{n}x_i$$\n引理得证（这其中蕴含着原不等式）。\n\n这个问题，采用反证法的另一个证法如下。\n\n事实上，不难证明，原不等式等价于下列问题（以引理的形式给出）。\n\n**引理 2** 设 $a_1,a_2,\\cdots,a_n$ 是正实数，如果\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}=1$$\n则\n$$a_1a_2\\cdots a_n \\leqslant 1$$\n\n**证明** 令 $b_i=\\dfrac{n-1}{a_i}, i \\in \\{1,2,\\cdots,n\\}$，则\n$$\\sum_{i=1}^{n}\\frac{1}{n-1+\\frac{n-1}{a_i}}=1 \\Rightarrow \\sum_{i=1}^{n}\\frac{b_i}{1+b_i}=n-1 \\Rightarrow \\sum_{i=1}^{n}\\frac{1}{1+b_i}=1$$\n应用 AM-GM 不等式，我们有\n$$\\frac{b_i}{1+b_i}=\\sum_{j=1,j \\neq i}^{n}\\frac{1}{1+b_j} \\geqslant (n-1)\\sqrt[n-1]{\\frac{1}{\\prod_{j=1,j \\neq i}^{n}(1+b_j)}}$$\n$$\\Rightarrow \\prod_{i=1}^{n}b_i \\geqslant (n-1)^{n-1} \\Rightarrow \\prod_{i=1}^{n}a_i \\leqslant 1$$\n所以\n$$\\prod_{i=1}^{n}\\frac{b_i}{1+b_i} \\geqslant (n-1)^{n-1}\\prod_{i=1}^{n}\\sqrt[n-1]{\\frac{1}{\\prod_{j=1,j \\neq i}^{n}(1+b_j)}}=(n-1)^{n-1}\\prod_{i=1}^{n}\\frac{1}{1+b_i}$$\n引理 2 得证，从而原不等式得证。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.1.6(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 正实数，其积为 1，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots\\frac{1}{n-1+a_n}\\leqslant 1$$\n\n**证明及分析** 很明显，我们只需证明\n$$x_1+x_2+\\cdots+x_n\\leqslant 1$$\n其中 $x_i=\\dfrac{1}{n-1+a_i},i\\in\\{1,2,\\cdots,n\\}$。题设条件 $a_1a_2\\cdots a_n=1$ 变成\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right)=1$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n>1$。我们来寻找和题设 $a_1a_2\\cdots a_n=1$ 的某些矛盾之处。如果 $x_1+x_2+\\cdots+x_n>1$，我们可以减少 $x_i$ 到 $tx_i$（$i\\in\\{1,2,\\cdots,n\\}$，$t$ 是正实数），满足\n$$tx_1+tx_2+\\cdots+tx_n=1\\quad(t<1)$$\n令 $c_i=tx_i,i\\in\\{1,2,\\cdots,n\\}$，则 $c_1+c_2+\\cdots+c_n=1$，且\n$$\\left(\\frac{1}{c_1}-n+1\\right)\\left(\\frac{1}{c_2}-n+1\\right)\\cdots\\left(\\frac{1}{c_n}-n+1\\right)>1$$\n不管怎样，我们将证明（由下面的引理可知），这是不可能的。\n\n**引理 1** 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=1,0<x_i\\leqslant\\dfrac{1}{n-1},\\forall i\\in\\{1,2,\\cdots,n\\}$，则\n$$\\left(\\frac{1}{x_1}-n+1\\right)\\left(\\frac{1}{x_2}-n+1\\right)\\cdots\\left(\\frac{1}{x_n}-n+1\\right)\\leqslant 1$$\n\n**证明** 不等式等价于\n$$[1-(n-1)x_1][1-(n-1)x_2]\\cdots[1-(n-1)x_n]\\leqslant x_1x_2\\cdots x_n$$\n对 $n-1$ 个数，应用 AM-GM 不等式，我们有\n$$\\prod_{j\\neq i}[1-(n-1)x_j]\\leqslant\\left\\{\\frac{\\sum_{j\\neq i}[1-(n-1)x_j]}{n-1}\\right\\}^{n-1}=x_i^{n-1}$$\n令 $i=1,2,\\cdots,n$，这些不等式相乘，有",
+    "tags": [
+      "反证法",
+      "Romania TST 1998",
+      "n元不等式",
+      "引理",
+      "起步"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

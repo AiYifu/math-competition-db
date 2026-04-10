@@ -1,0 +1,55 @@
+{
+  "uid": "p100_100_例258_56227c14ac",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.8",
+  "problem_type": "example",
+  "title": "Suranyi's inequality",
+  "source_pages": [
+    100
+  ],
+  "source_images": [
+    "page-100.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$2(a^4+b^4+c^4+d^4)+4abcd$$\n$$\\geqslant a^3(b+c+d)+b^3(c+d+a)+c^3(d+a+b)+d^3(a+b+c)$$",
+  "solution_md": "注意到 Suranyi's 不等式比 Turkevici's 不等式更强，但两者的证明是类似的。由 Suranyi's 不等式两边取全导数，有\n$$5\\sum a^3+4\\sum abc\\geqslant 3\\sum a^2(b+c+d)\\quad(*)$$\n再取全导数，有\n$$15\\sum a^2+4\\sum(ab+bc+ca)\\geqslant 9\\sum a^2+6\\sum a(b+c+d)$$\n$$\\Leftrightarrow 3\\sum a^2\\geqslant 2\\sum ab\\Leftrightarrow \\sum(a-b)^2\\geqslant 0$$\n所以，我们只需证明 $(*)$ 在条件 $\\min\\{a,b,c,d\\}=0$ 下成立即可。不失一般性，设 $d=0$，则 $(*)$ 变成\n$$5(a^3+b^3+c^3)+4abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n这是成立的。实际上，可由 Schur 不等式和 AM-GM 不等式得到\n$$3(a^3+b^3+c^3)+9abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n$$2(a^3+b^3+c^3)\\geqslant 6abc\\geqslant 5abc$$\n所以，不等式 $(*)$ 成立。因此可见，只需在条件 $\\min\\{a,b,c,d\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $d=0$，则原不等式变成\n$$2(a^4+b^4+c^4)\\geqslant a^3(b+c)+b^3(c+a)+c^3(a+b)$$\n由 AM-GM 不等式可知，这是成立的。证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.8(Suranyi's inequality) 设 $a,b,c,d$ 是非负实数，证明\n$$2(a^4+b^4+c^4+d^4)+4abcd$$\n$$\\geqslant a^3(b+c+d)+b^3(c+d+a)+c^3(d+a+b)+d^3(a+b+c)$$\n证明 注意到 Suranyi's 不等式比 Turkevici's 不等式更强，但两者的证明是类似的。由 Suranyi's 不等式两边取全导数，有\n$$5\\sum a^3+4\\sum abc\\geqslant 3\\sum a^2(b+c+d)\\quad(*)$$\n再取全导数，有\n$$15\\sum a^2+4\\sum(ab+bc+ca)\\geqslant 9\\sum a^2+6\\sum a(b+c+d)$$\n$$\\Leftrightarrow 3\\sum a^2\\geqslant 2\\sum ab\\Leftrightarrow \\sum(a-b)^2\\geqslant 0$$\n所以，我们只需证明 $(*)$ 在条件 $\\min\\{a,b,c,d\\}=0$ 下成立即可。不失一般性，设 $d=0$，则 $(*)$ 变成\n$$5(a^3+b^3+c^3)+4abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n这是成立的。实际上，可由 Schur 不等式和 AM-GM 不等式得到\n$$3(a^3+b^3+c^3)+9abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n$$2(a^3+b^3+c^3)\\geqslant 6abc\\geqslant 5abc$$\n所以，不等式 $(*)$ 成立。因此可见，只需在条件 $\\min\\{a,b,c,d\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $d=0$，则原不等式变成\n$$2(a^4+b^4+c^4)\\geqslant a^3(b+c)+b^3(c+a)+c^3(a+b)$$\n由 AM-GM 不等式可知，这是成立的。证毕。",
+  "tags": [
+    "Suranyi's inequality",
+    "全导数",
+    "Schur不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "56227c14acd127da0061e1e0db18876ab0b61c20",
+  "raw_problem": {
+    "problem_id": "例2.5.8",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": "Suranyi's inequality",
+    "source_pages": [
+      100
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$2(a^4+b^4+c^4+d^4)+4abcd$$\n$$\\geqslant a^3(b+c+d)+b^3(c+d+a)+c^3(d+a+b)+d^3(a+b+c)$$",
+    "solution_md": "注意到 Suranyi's 不等式比 Turkevici's 不等式更强，但两者的证明是类似的。由 Suranyi's 不等式两边取全导数，有\n$$5\\sum a^3+4\\sum abc\\geqslant 3\\sum a^2(b+c+d)\\quad(*)$$\n再取全导数，有\n$$15\\sum a^2+4\\sum(ab+bc+ca)\\geqslant 9\\sum a^2+6\\sum a(b+c+d)$$\n$$\\Leftrightarrow 3\\sum a^2\\geqslant 2\\sum ab\\Leftrightarrow \\sum(a-b)^2\\geqslant 0$$\n所以，我们只需证明 $(*)$ 在条件 $\\min\\{a,b,c,d\\}=0$ 下成立即可。不失一般性，设 $d=0$，则 $(*)$ 变成\n$$5(a^3+b^3+c^3)+4abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n这是成立的。实际上，可由 Schur 不等式和 AM-GM 不等式得到\n$$3(a^3+b^3+c^3)+9abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n$$2(a^3+b^3+c^3)\\geqslant 6abc\\geqslant 5abc$$\n所以，不等式 $(*)$ 成立。因此可见，只需在条件 $\\min\\{a,b,c,d\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $d=0$，则原不等式变成\n$$2(a^4+b^4+c^4)\\geqslant a^3(b+c)+b^3(c+a)+c^3(a+b)$$\n由 AM-GM 不等式可知，这是成立的。证毕。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.8(Suranyi's inequality) 设 $a,b,c,d$ 是非负实数，证明\n$$2(a^4+b^4+c^4+d^4)+4abcd$$\n$$\\geqslant a^3(b+c+d)+b^3(c+d+a)+c^3(d+a+b)+d^3(a+b+c)$$\n证明 注意到 Suranyi's 不等式比 Turkevici's 不等式更强，但两者的证明是类似的。由 Suranyi's 不等式两边取全导数，有\n$$5\\sum a^3+4\\sum abc\\geqslant 3\\sum a^2(b+c+d)\\quad(*)$$\n再取全导数，有\n$$15\\sum a^2+4\\sum(ab+bc+ca)\\geqslant 9\\sum a^2+6\\sum a(b+c+d)$$\n$$\\Leftrightarrow 3\\sum a^2\\geqslant 2\\sum ab\\Leftrightarrow \\sum(a-b)^2\\geqslant 0$$\n所以，我们只需证明 $(*)$ 在条件 $\\min\\{a,b,c,d\\}=0$ 下成立即可。不失一般性，设 $d=0$，则 $(*)$ 变成\n$$5(a^3+b^3+c^3)+4abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n这是成立的。实际上，可由 Schur 不等式和 AM-GM 不等式得到\n$$3(a^3+b^3+c^3)+9abc\\geqslant 3a^2(b+c)+3b^2(c+a)+3c^2(a+b)$$\n$$2(a^3+b^3+c^3)\\geqslant 6abc\\geqslant 5abc$$\n所以，不等式 $(*)$ 成立。因此可见，只需在条件 $\\min\\{a,b,c,d\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $d=0$，则原不等式变成\n$$2(a^4+b^4+c^4)\\geqslant a^3(b+c)+b^3(c+a)+c^3(a+b)$$\n由 AM-GM 不等式可知，这是成立的。证毕。",
+    "tags": [
+      "Suranyi's inequality",
+      "全导数",
+      "Schur不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

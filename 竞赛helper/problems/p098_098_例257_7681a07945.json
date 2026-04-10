@@ -1,0 +1,53 @@
+{
+  "uid": "p098_098_例257_7681a07945",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.7",
+  "problem_type": "example",
+  "title": "Turkevici's inequality",
+  "source_pages": [
+    98
+  ],
+  "source_images": [
+    "page-098.jpg"
+  ],
+  "stem_md": "（Turkevici's inequality）设 $a,b,c,d\\geqslant 0$，证明\n$$a^4+b^4+c^4+d^4+2abcd\\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$",
+  "solution_md": "不等式两边取全导数，有\n$$2\\sum a^3+\\sum abc\\geqslant \\sum a^2(b+c+d)\\quad(*)$$\n\n再对 $(*)$ 两边取全导数，有\n$$6\\sum a^2+\\sum(ab+bc+ca)\\geqslant 2\\sum a(b+c+d)+3\\sum a^2$$\n$$\\Leftrightarrow 3\\sum a^2\\geqslant 2\\sum ab\\Leftrightarrow \\sum(a-b)^2\\geqslant 0$$\n\n这是显然成立的，所以，我们只需证明，在 $abcd=0$ 下，$(*)$ 成立即可。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.7(Turkevici's inequality) 设 $a,b,c,d\\geqslant 0$，证明\n$$a^4+b^4+c^4+d^4+2abcd\\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$\n证明 不等式两边取全导数，有\n$$2\\sum a^3+\\sum abc\\geqslant \\sum a^2(b+c+d)\\quad(*)$$",
+  "tags": [
+    "全导数",
+    "Turkevici不等式",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "7681a07945ccc61e8266922c870e235614767ca3",
+  "raw_problem": {
+    "problem_id": "例2.5.7",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": "Turkevici's inequality",
+    "source_pages": [
+      98
+    ],
+    "stem_md": "（Turkevici's inequality）设 $a,b,c,d\\geqslant 0$，证明\n$$a^4+b^4+c^4+d^4+2abcd\\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$",
+    "solution_md": "不等式两边取全导数，有\n$$2\\sum a^3+\\sum abc\\geqslant \\sum a^2(b+c+d)\\quad(*)$$\n\n再对 $(*)$ 两边取全导数，有\n$$6\\sum a^2+\\sum(ab+bc+ca)\\geqslant 2\\sum a(b+c+d)+3\\sum a^2$$\n$$\\Leftrightarrow 3\\sum a^2\\geqslant 2\\sum ab\\Leftrightarrow \\sum(a-b)^2\\geqslant 0$$\n\n这是显然成立的，所以，我们只需证明，在 $abcd=0$ 下，$(*)$ 成立即可。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.7(Turkevici's inequality) 设 $a,b,c,d\\geqslant 0$，证明\n$$a^4+b^4+c^4+d^4+2abcd\\geqslant a^2b^2+b^2c^2+c^2d^2+d^2a^2+a^2c^2+b^2d^2$$\n证明 不等式两边取全导数，有\n$$2\\sum a^3+\\sum abc\\geqslant \\sum a^2(b+c+d)\\quad(*)$$",
+    "tags": [
+      "全导数",
+      "Turkevici不等式",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

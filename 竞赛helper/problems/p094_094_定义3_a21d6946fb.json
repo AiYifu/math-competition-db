@@ -1,0 +1,51 @@
+{
+  "uid": "p094_094_定义3_a21d6946fb",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "定义3",
+  "problem_type": "definition",
+  "title": "全导数",
+  "source_pages": [
+    94
+  ],
+  "source_images": [
+    "page-094.jpg"
+  ],
+  "stem_md": "设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，$f$ 的全导数记为 $[f]$，其定义式为\n$$[f]=\\sum_{i=1}^{n}D_if$$\n其中 $D_if$ 是 $f$ 对变量 $x_i$ 的偏导数。换句话说，多元函数的全导数就是其所有偏导数之和：$[f]=\\sum_{i=1}^{n}\\frac{\\partial f}{\\partial x_i}$。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定义 3 设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，$f$ 的全导数记为 $[f]$，其定义式为\n$$[f]=\\sum_{i=1}^{n}D_if$$\n其中 $D_if$ 是 $f$ 对变量 $x_i$ 的偏导数。",
+  "tags": [
+    "全导数",
+    "定义"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "a21d6946fbe90dc61b5e06e111f868a98ae96e35",
+  "raw_problem": {
+    "problem_id": "定义3",
+    "problem_type": "definition",
+    "chapter": "2",
+    "section": "2.5",
+    "title": "全导数",
+    "source_pages": [
+      94
+    ],
+    "stem_md": "设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，$f$ 的全导数记为 $[f]$，其定义式为\n$$[f]=\\sum_{i=1}^{n}D_if$$\n其中 $D_if$ 是 $f$ 对变量 $x_i$ 的偏导数。换句话说，多元函数的全导数就是其所有偏导数之和：$[f]=\\sum_{i=1}^{n}\\frac{\\partial f}{\\partial x_i}$。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定义 3 设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，$f$ 的全导数记为 $[f]$，其定义式为\n$$[f]=\\sum_{i=1}^{n}D_if$$\n其中 $D_if$ 是 $f$ 对变量 $x_i$ 的偏导数。",
+    "tags": [
+      "全导数",
+      "定义"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

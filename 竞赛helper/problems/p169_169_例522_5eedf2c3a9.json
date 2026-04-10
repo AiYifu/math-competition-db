@@ -1,0 +1,53 @@
+{
+  "uid": "p169_169_例522_5eedf2c3a9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    169
+  ],
+  "source_images": [
+    "page-169.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}+\\frac{b^5-b^2}{b^5+c^2+a^2}+\\frac{c^5-c^2}{c^5+a^2+b^2}\\geqslant0$$",
+  "solution_md": "首先，我们来证明，对所有正实数 $a,b,c$，有\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}$$\n实际上，上面的不等式等价于\n$$(a^5-a^2)(a^2+b^2+c^2)\\geqslant(a^5+b^2+c^2)\\left(a^2-\\frac{1}{a}\\right)\\Leftrightarrow\\frac{1}{a}(a^3-1)^2(b^2+c^2)\\geqslant0$$\n所以，我们有（注意到 $abc=1$）\n$$\\sum\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\sum\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}=\\frac{a^2+b^2+c^2-(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant0$$\n等号成立的条件是 $a=b=c=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.2(IMO 2005) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}+\\frac{b^5-b^2}{b^5+c^2+a^2}+\\frac{c^5-c^2}{c^5+a^2+b^2}\\geqslant0$$\n证明 首先，我们来证明，对所有正实数 $a,b,c$，有\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}$$\n实际上，上面的不等式等价于\n$$(a^5-a^2)(a^2+b^2+c^2)\\geqslant(a^5+b^2+c^2)\\left(a^2-\\frac{1}{a}\\right)\\Leftrightarrow\\frac{1}{a}(a^3-1)^2(b^2+c^2)\\geqslant0$$\n所以，我们有（注意到 $abc=1$）\n$$\\sum\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\sum\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}=\\frac{a^2+b^2+c^2-(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant0$$\n等号成立的条件是 $a=b=c=1$。",
+  "tags": [
+    "IMO 2005",
+    "分离技巧",
+    "条件abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "5eedf2c3a9afeb4d45d981a88baed2837e4633cd",
+  "raw_problem": {
+    "problem_id": "例5.2.2",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": null,
+    "source_pages": [
+      169
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}+\\frac{b^5-b^2}{b^5+c^2+a^2}+\\frac{c^5-c^2}{c^5+a^2+b^2}\\geqslant0$$",
+    "solution_md": "首先，我们来证明，对所有正实数 $a,b,c$，有\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}$$\n实际上，上面的不等式等价于\n$$(a^5-a^2)(a^2+b^2+c^2)\\geqslant(a^5+b^2+c^2)\\left(a^2-\\frac{1}{a}\\right)\\Leftrightarrow\\frac{1}{a}(a^3-1)^2(b^2+c^2)\\geqslant0$$\n所以，我们有（注意到 $abc=1$）\n$$\\sum\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\sum\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}=\\frac{a^2+b^2+c^2-(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant0$$\n等号成立的条件是 $a=b=c=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.2(IMO 2005) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}+\\frac{b^5-b^2}{b^5+c^2+a^2}+\\frac{c^5-c^2}{c^5+a^2+b^2}\\geqslant0$$\n证明 首先，我们来证明，对所有正实数 $a,b,c$，有\n$$\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}$$\n实际上，上面的不等式等价于\n$$(a^5-a^2)(a^2+b^2+c^2)\\geqslant(a^5+b^2+c^2)\\left(a^2-\\frac{1}{a}\\right)\\Leftrightarrow\\frac{1}{a}(a^3-1)^2(b^2+c^2)\\geqslant0$$\n所以，我们有（注意到 $abc=1$）\n$$\\sum\\frac{a^5-a^2}{a^5+b^2+c^2}\\geqslant\\sum\\frac{a^2-\\frac{1}{a}}{a^2+b^2+c^2}=\\frac{a^2+b^2+c^2-(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant0$$\n等号成立的条件是 $a=b=c=1$。",
+    "tags": [
+      "IMO 2005",
+      "分离技巧",
+      "条件abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "uid": "p038_038_注例137后_d8dc4508ac",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.3",
+  "section": null,
+  "problem_id": "注（例1.3.7后）",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    38
+  ],
+  "source_images": [
+    "page-038.jpg"
+  ],
+  "stem_md": "使用同样的方法，我们可以证明下列不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\frac{2c^2+5ab}{(a+b)^2}+\\frac{2a^2+5bc}{(b+c)^2}+\\frac{2b^2+5ca}{(c+a)^2}\\geqslant\\frac{21}{4}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "使用同样的方法",
+  "original_text_md": "注 使用同样的方法，我们可以证明下列不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\frac{2c^2+5ab}{(a+b)^2}+\\frac{2a^2+5bc}{(b+c)^2}+\\frac{2b^2+5ca}{(c+a)^2}\\geqslant\\frac{21}{4}$$",
+  "tags": [
+    "SOS方法",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0005",
+  "raw_response_file": "raw/chunk-0005.response.txt",
+  "raw_api_file": "raw/chunk-0005.api.json",
+  "fingerprint": "d8dc4508ac34c61baadfe6c2191e12c68ad5c7c9",
+  "raw_problem": {
+    "problem_id": "注（例1.3.7后）",
+    "problem_type": "exercise",
+    "chapter": "1.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      38
+    ],
+    "stem_md": "使用同样的方法，我们可以证明下列不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\frac{2c^2+5ab}{(a+b)^2}+\\frac{2a^2+5bc}{(b+c)^2}+\\frac{2b^2+5ca}{(c+a)^2}\\geqslant\\frac{21}{4}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "使用同样的方法",
+    "original_text_md": "注 使用同样的方法，我们可以证明下列不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\frac{2c^2+5ab}{(a+b)^2}+\\frac{2a^2+5bc}{(b+c)^2}+\\frac{2b^2+5ca}{(c+a)^2}\\geqslant\\frac{21}{4}$$",
+    "tags": [
+      "SOS方法",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "uid": "p175_175_例_536_c1f89d67c1",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.6",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    175
+  ],
+  "source_images": [
+    "page-175.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=2$，证明\n$$(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)\\leqslant 3$$",
+  "solution_md": "我们有\n$$\\begin{aligned}&3(a+b+c)^4-16[(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)]\\\\=&3[\\sum a^4+4\\sum a^3(b+c)+6\\sum a^2b^2+12\\sum a^2bc]-\\\\&16[\\sum a^2b^2+\\sum a^3(b+c)+\\sum a^2bc]\\\\=&3\\sum a^4-4\\sum a^3(b+c)+2\\sum a^2b^2+20\\sum a^2bc\\\\=&16\\sum a^2bc+\\sum(a+b-c)^2(c+a-b)^2\\geqslant 0\\end{aligned}$$\n不等式得证，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.6(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=2$，证明\n$$(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)\\leqslant 3$$\n证明 我们有\n$$3(a+b+c)^4-16[(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)]$$\n$$=3[\\sum a^4+4\\sum a^3(b+c)+6\\sum a^2b^2+12\\sum a^2bc]-$$\n$$16[\\sum a^2b^2+\\sum a^3(b+c)+\\sum a^2bc]$$\n$$=3\\sum a^4-4\\sum a^3(b+c)+2\\sum a^2b^2+20\\sum a^2bc$$\n$$=16\\sum a^2bc+\\sum(a+b-c)^2(c+a-b)^2\\geqslant 0$$\n不等式得证，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。",
+  "tags": [
+    "条件不等式",
+    "对称不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "c1f89d67c1864c38b721393640ebaf2f1f7e97ca",
+  "raw_problem": {
+    "problem_id": "例 5.3.6",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      175
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=2$，证明\n$$(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)\\leqslant 3$$",
+    "solution_md": "我们有\n$$\\begin{aligned}&3(a+b+c)^4-16[(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)]\\\\=&3[\\sum a^4+4\\sum a^3(b+c)+6\\sum a^2b^2+12\\sum a^2bc]-\\\\&16[\\sum a^2b^2+\\sum a^3(b+c)+\\sum a^2bc]\\\\=&3\\sum a^4-4\\sum a^3(b+c)+2\\sum a^2b^2+20\\sum a^2bc\\\\=&16\\sum a^2bc+\\sum(a+b-c)^2(c+a-b)^2\\geqslant 0\\end{aligned}$$\n不等式得证，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.6(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=2$，证明\n$$(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)\\leqslant 3$$\n证明 我们有\n$$3(a+b+c)^4-16[(a^2+bc)(b^2+ca)+(b^2+ca)(c^2+ab)+(c^2+ab)(a^2+bc)]$$\n$$=3[\\sum a^4+4\\sum a^3(b+c)+6\\sum a^2b^2+12\\sum a^2bc]-$$\n$$16[\\sum a^2b^2+\\sum a^3(b+c)+\\sum a^2bc]$$\n$$=3\\sum a^4-4\\sum a^3(b+c)+2\\sum a^2b^2+20\\sum a^2bc$$\n$$=16\\sum a^2bc+\\sum(a+b-c)^2(c+a-b)^2\\geqslant 0$$\n不等式得证，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。",
+    "tags": [
+      "条件不等式",
+      "对称不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

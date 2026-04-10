@@ -1,0 +1,49 @@
+{
+  "uid": "p110_110_习题5_fd1b8df3ef",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.6",
+  "problem_id": "习题5",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=3$，对所有正数 $k$，证明\n$$a+b+c+kabc\\geqslant \\min\\{3+k,2\\sqrt{3}\\}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "5.设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=3$，对所有正数 $k$，证明\n$$a+b+c+kabc\\geqslant \\min\\{3+k,2\\sqrt{3}\\}$$",
+  "tags": [
+    "ab+bc+ca=3",
+    "参数k"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "fd1b8df3ef575ef071e623aedd37bd5efe0c716b",
+  "raw_problem": {
+    "problem_id": "习题5",
+    "problem_type": "exercise",
+    "chapter": "2",
+    "section": "2.6",
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=3$，对所有正数 $k$，证明\n$$a+b+c+kabc\\geqslant \\min\\{3+k,2\\sqrt{3}\\}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "5.设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=3$，对所有正数 $k$，证明\n$$a+b+c+kabc\\geqslant \\min\\{3+k,2\\sqrt{3}\\}$$",
+    "tags": [
+      "ab+bc+ca=3",
+      "参数k"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

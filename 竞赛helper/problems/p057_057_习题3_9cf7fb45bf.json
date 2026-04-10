@@ -1,0 +1,51 @@
+{
+  "uid": "p057_057_习题3_9cf7fb45bf",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "source_images": [
+    "page-057.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 对于正实数 $a,b,c$，求满足下列不等式\n$$\\frac{8abc}{(a+b)(b+c)(c+a)}+\\frac{k(a^2+b^2+c^2)}{(a+b+c)^2}\\geqslant 1+\\frac{k}{3}$$\n的最小正常数 $k$。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3.(Pham Kim Hung, Mathlinks) 对于正实数 $a,b,c$，求满足下列不等式\n$$\\frac{8abc}{(a+b)(b+c)(c+a)}+\\frac{k(a^2+b^2+c^2)}{(a+b+c)^2}\\geqslant 1+\\frac{k}{3}$$\n的最小正常数 $k$。",
+  "tags": [
+    "求最佳常数",
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "9cf7fb45bf479df4a42269e7e8100dfc7908f292",
+  "raw_problem": {
+    "problem_id": "习题3",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      57
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 对于正实数 $a,b,c$，求满足下列不等式\n$$\\frac{8abc}{(a+b)(b+c)(c+a)}+\\frac{k(a^2+b^2+c^2)}{(a+b+c)^2}\\geqslant 1+\\frac{k}{3}$$\n的最小正常数 $k$。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "3.(Pham Kim Hung, Mathlinks) 对于正实数 $a,b,c$，求满足下列不等式\n$$\\frac{8abc}{(a+b)(b+c)(c+a)}+\\frac{k(a^2+b^2+c^2)}{(a+b+c)^2}\\geqslant 1+\\frac{k}{3}$$\n的最小正常数 $k$。",
+    "tags": [
+      "求最佳常数",
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

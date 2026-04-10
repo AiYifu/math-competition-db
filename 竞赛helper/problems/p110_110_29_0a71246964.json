@@ -1,0 +1,51 @@
+{
+  "uid": "p110_110_29_0a71246964",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "29",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "29. 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$a^3+b^3+c^3+d^3+10(ab+bc+cd+da+ac+bd) \\leqslant 64$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "29. 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$a^3+b^3+c^3+d^3+10(ab+bc+cd+da+ac+bd)\\leqslant 64$$",
+  "tags": [
+    "a+b+c+d=4",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "0a71246964c82a881c9b0c9e3160c711bec55bb2",
+  "raw_problem": {
+    "problem_id": "29",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "29. 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$a^3+b^3+c^3+d^3+10(ab+bc+cd+da+ac+bd) \\leqslant 64$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "29. 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$a^3+b^3+c^3+d^3+10(ab+bc+cd+da+ac+bd)\\leqslant 64$$",
+    "tags": [
+      "a+b+c+d=4",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

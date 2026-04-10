@@ -1,0 +1,53 @@
+{
+  "uid": "p172_172_例_5210_d3f07c9276",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.2.10",
+  "problem_type": "example",
+  "title": "Romania TST 1998",
+  "source_pages": [
+    172
+  ],
+  "source_images": [
+    "page-172.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$",
+  "solution_md": "在前面，这个不等式采用许多方法证明过，看看下面这个意想不到的证明。\n\n设 $a_i=x_i^n,i\\in\\{1,2,\\cdots,n\\}$，由 AM-GM 不等式，有\n$$\\begin{aligned}\\frac{n-1}{n-1+a_i}&=1-\\frac{a_i}{n-1+a_i}=1-\\frac{x_i^n}{x_i^n+(n-1)x_1x_2\\cdots x_n}\\\\&=1-\\frac{x_i^{n-1}}{x_i^{n-1}+(n-1)x_1x_2\\cdots x_{i-1}x_{i+1}\\cdots x_n}\\\\&\\leqslant 1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}\\end{aligned}$$\n所以，我们有\n$$\\sum_{i=1}^n\\frac{n-1}{n-1+a_i}\\leqslant\\sum_{i=1}^n\\left(1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}\\right)=n-1$$\n$$\\Rightarrow\\sum_{i=1}^n\\frac{1}{n-1+a_i}\\leqslant 1$$\n不等式得证，等号成立的条件是 $x_1=x_2=\\cdots=x_n=1$ 或 $a_1=a_2=\\cdots=a_n=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.10(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$\n证明 在前面，这个不等式采用许多方法证明过，看看下面这个意想不到的证明。\n设 $a_i=x_i^n,i\\in\\{1,2,\\cdots,n\\}$，由 AM-GM 不等式，有\n$$\\frac{n-1}{n-1+a_i}=1-\\frac{a_i}{n-1+a_i}=1-\\frac{x_i^n}{x_i^n+(n-1)x_1x_2\\cdots x_n}$$\n$$=1-\\frac{x_i^{n-1}}{x_i^{n-1}+(n-1)x_1x_2\\cdots x_{i-1}x_{i+1}\\cdots x_n}$$\n$$\\leqslant 1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}$$\n所以，我们有\n$$\\sum_{i=1}^n\\frac{n-1}{n-1+a_i}\\leqslant\\sum_{i=1}^n\\left(1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}\\right)=n-1$$\n$$\\Rightarrow\\sum_{i=1}^n\\frac{1}{n-1+a_i}\\leqslant 1$$\n不等式得证，等号成立的条件是 $x_1=x_2=\\cdots=x_n=1$ 或 $a_1=a_2=\\cdots=a_n=1$。",
+  "tags": [
+    "AM-GM不等式",
+    "代换法",
+    "Romania TST"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "d3f07c927697b248abe95ad80cc00cc3a9e04dad",
+  "raw_problem": {
+    "problem_id": "例 5.2.10",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Romania TST 1998",
+    "source_pages": [
+      172
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$",
+    "solution_md": "在前面，这个不等式采用许多方法证明过，看看下面这个意想不到的证明。\n\n设 $a_i=x_i^n,i\\in\\{1,2,\\cdots,n\\}$，由 AM-GM 不等式，有\n$$\\begin{aligned}\\frac{n-1}{n-1+a_i}&=1-\\frac{a_i}{n-1+a_i}=1-\\frac{x_i^n}{x_i^n+(n-1)x_1x_2\\cdots x_n}\\\\&=1-\\frac{x_i^{n-1}}{x_i^{n-1}+(n-1)x_1x_2\\cdots x_{i-1}x_{i+1}\\cdots x_n}\\\\&\\leqslant 1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}\\end{aligned}$$\n所以，我们有\n$$\\sum_{i=1}^n\\frac{n-1}{n-1+a_i}\\leqslant\\sum_{i=1}^n\\left(1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}\\right)=n-1$$\n$$\\Rightarrow\\sum_{i=1}^n\\frac{1}{n-1+a_i}\\leqslant 1$$\n不等式得证，等号成立的条件是 $x_1=x_2=\\cdots=x_n=1$ 或 $a_1=a_2=\\cdots=a_n=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.10(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$\n证明 在前面，这个不等式采用许多方法证明过，看看下面这个意想不到的证明。\n设 $a_i=x_i^n,i\\in\\{1,2,\\cdots,n\\}$，由 AM-GM 不等式，有\n$$\\frac{n-1}{n-1+a_i}=1-\\frac{a_i}{n-1+a_i}=1-\\frac{x_i^n}{x_i^n+(n-1)x_1x_2\\cdots x_n}$$\n$$=1-\\frac{x_i^{n-1}}{x_i^{n-1}+(n-1)x_1x_2\\cdots x_{i-1}x_{i+1}\\cdots x_n}$$\n$$\\leqslant 1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}$$\n所以，我们有\n$$\\sum_{i=1}^n\\frac{n-1}{n-1+a_i}\\leqslant\\sum_{i=1}^n\\left(1-\\frac{x_i^{n-1}}{x_1^{n-1}+x_2^{n-1}+\\cdots+x_n^{n-1}}\\right)=n-1$$\n$$\\Rightarrow\\sum_{i=1}^n\\frac{1}{n-1+a_i}\\leqslant 1$$\n不等式得证，等号成立的条件是 $x_1=x_2=\\cdots=x_n=1$ 或 $a_1=a_2=\\cdots=a_n=1$。",
+    "tags": [
+      "AM-GM不等式",
+      "代换法",
+      "Romania TST"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

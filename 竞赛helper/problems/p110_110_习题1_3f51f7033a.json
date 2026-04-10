@@ -1,0 +1,49 @@
+{
+  "uid": "p110_110_习题1_3f51f7033a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.6",
+  "problem_id": "习题1",
+  "problem_type": "exercise",
+  "title": "China Northern Mathematical Olympiad",
+  "source_pages": [
+    110
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，且 $a+b+c=3$，求\n$$a^2+b^2+c^2+\\frac{4}{3}abc$$\n的最小值。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "1.(China Northern Mathematical Olympiad)设 $a,b,c$ 是某三角形的三边长，且 $a+b+c=3$，求\n$$a^2+b^2+c^2+\\frac{4}{3}abc$$\n的最小值。",
+  "tags": [
+    "三角形边长",
+    "最小值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "3f51f7033ae776eac373343ad4348e3961a68982",
+  "raw_problem": {
+    "problem_id": "习题1",
+    "problem_type": "exercise",
+    "chapter": "2",
+    "section": "2.6",
+    "title": "China Northern Mathematical Olympiad",
+    "source_pages": [
+      110
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，且 $a+b+c=3$，求\n$$a^2+b^2+c^2+\\frac{4}{3}abc$$\n的最小值。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "1.(China Northern Mathematical Olympiad)设 $a,b,c$ 是某三角形的三边长，且 $a+b+c=3$，求\n$$a^2+b^2+c^2+\\frac{4}{3}abc$$\n的最小值。",
+    "tags": [
+      "三角形边长",
+      "最小值"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

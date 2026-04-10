@@ -1,0 +1,56 @@
+{
+  "uid": "p210_211_例771_a86e6843c0",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.1",
+  "problem_type": "example",
+  "title": "Nguyen Van Thach, Mathlinks",
+  "source_pages": [
+    210,
+    211
+  ],
+  "source_images": [
+    "page-210.jpg",
+    "page-211.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{3(ab+bc+ca)}{(a+b+c)^2}\\geqslant 4$$",
+  "solution_md": "**证明** 不失一般性，假设 $c=\\min\\{a,b,c\\}$，根据下列恒等式\n\n$$\\sum\\frac{a+b}{b+c}-3=\\frac{(a-b)^2}{(a+c)(b+c)}+\\frac{(c-a)(c-b)}{(a+b)(b+c)}$$\n\n$$3(ab+bc+ca)-(a+b+c)^2=-(a-b)^2-(c-a)(c-b)$$\n\n我们有\n\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{1}{(a+b+c)^2}\\geqslant 0$$\n\n$$N=\\frac{1}{(a+b)(b+c)}-\\frac{1}{(a+b+c)^2}\\geqslant 0$$\n\n当且仅当 $a=b=c$ 时，等号成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.1(Nguyen Van Thach,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{3(ab+bc+ca)}{(a+b+c)^2}\\geqslant 4$$\n证明 不失一般性，假设 $c=\\min\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "分式不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "a86e6843c07abb09688389568b3f10402334dafa",
+  "raw_problem": {
+    "problem_id": "例7.7.1",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": "Nguyen Van Thach, Mathlinks",
+    "source_pages": [
+      210,
+      211
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{3(ab+bc+ca)}{(a+b+c)^2}\\geqslant 4$$",
+    "solution_md": "**证明** 不失一般性，假设 $c=\\min\\{a,b,c\\}$，根据下列恒等式\n\n$$\\sum\\frac{a+b}{b+c}-3=\\frac{(a-b)^2}{(a+c)(b+c)}+\\frac{(c-a)(c-b)}{(a+b)(b+c)}$$\n\n$$3(ab+bc+ca)-(a+b+c)^2=-(a-b)^2-(c-a)(c-b)$$\n\n我们有\n\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{1}{(a+b+c)^2}\\geqslant 0$$\n\n$$N=\\frac{1}{(a+b)(b+c)}-\\frac{1}{(a+b+c)^2}\\geqslant 0$$\n\n当且仅当 $a=b=c$ 时，等号成立。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.1(Nguyen Van Thach,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{3(ab+bc+ca)}{(a+b+c)^2}\\geqslant 4$$\n证明 不失一般性，假设 $c=\\min\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "分式不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

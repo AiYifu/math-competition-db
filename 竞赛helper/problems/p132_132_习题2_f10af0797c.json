@@ -1,0 +1,51 @@
+{
+  "uid": "p132_132_习题2_f10af0797c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章",
+  "section": "3.4",
+  "problem_id": "习题2",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    132
+  ],
+  "source_images": [
+    "page-132.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=3$，证明\n$$\\frac{1}{\\sqrt{a+b}}+\\frac{1}{\\sqrt{b+c}}+\\frac{1}{\\sqrt{c+a}}\\geqslant\\frac{3}{\\sqrt{2}}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "2. 设 $a,b,c$ 是正实数，且满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=3$，证明\n$$\\frac{1}{\\sqrt{a+b}}+\\frac{1}{\\sqrt{b+c}}+\\frac{1}{\\sqrt{c+a}}\\geqslant\\frac{3}{\\sqrt{2}}$$",
+  "tags": [
+    "正实数",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "f10af0797c8e937e2100a6eb2c9158a114353184",
+  "raw_problem": {
+    "problem_id": "习题2",
+    "problem_type": "exercise",
+    "chapter": "第3章",
+    "section": "3.4",
+    "title": null,
+    "source_pages": [
+      132
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=3$，证明\n$$\\frac{1}{\\sqrt{a+b}}+\\frac{1}{\\sqrt{b+c}}+\\frac{1}{\\sqrt{c+a}}\\geqslant\\frac{3}{\\sqrt{2}}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "2. 设 $a,b,c$ 是正实数，且满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=3$，证明\n$$\\frac{1}{\\sqrt{a+b}}+\\frac{1}{\\sqrt{b+c}}+\\frac{1}{\\sqrt{c+a}}\\geqslant\\frac{3}{\\sqrt{2}}$$",
+    "tags": [
+      "正实数",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

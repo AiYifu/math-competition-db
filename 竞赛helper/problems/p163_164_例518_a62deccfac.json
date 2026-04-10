@@ -1,0 +1,56 @@
+{
+  "uid": "p163_164_例518_a62deccfac",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    163,
+    164
+  ],
+  "source_images": [
+    "page-163.jpg",
+    "page-164.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，其和为 1，证明\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant1-\\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}$$",
+  "solution_md": "设 $x,y,z$ 是 $a,b,c$ 的满足条件 $x\\geqslant y\\geqslant z$ 的一个排列。显然\n$$x+y\\geqslant x+z\\geqslant y+z$$\n$$x(y+z)\\geqslant y(z+x)\\geqslant z(x+y)$$\n由排序不等式，我们有\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant\\frac{x(y+z)}{x+y}+\\frac{y(x+z)}{x+z}+\\frac{z(x+y)}{y+z}$$\n所以，只需证明\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}\\geqslant x+z-(x-z)^2$$\n实际上\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}-(x+z)=\\frac{x(z-x)}{x+y}+\\frac{z(x-z)}{y+z}$$\n$$=\\frac{-y(x-z)^2}{(x+y)(y+z)}$$\n$$\\geqslant-(x-z)^2$$\n不等式得证。等号成立的条件是 $a=b=c$ 或 $c=0,a=\\max\\{a,b,c\\}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.8(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是非负实数，其和为 1，证明\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant1-\\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}$$\n证明 设 $x,y,z$ 是 $a,b,c$ 的满足条件 $x\\geqslant y\\geqslant z$ 的一个排列。显然\n$$x+y\\geqslant x+z\\geqslant y+z$$\n$$x(y+z)\\geqslant y(z+x)\\geqslant z(x+y)$$\n由排序不等式，我们有\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant\\frac{x(y+z)}{x+y}+\\frac{y(x+z)}{x+z}+\\frac{z(x+y)}{y+z}$$\n所以，只需证明\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}\\geqslant x+z-(x-z)^2$$\n实际上\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}-(x+z)=\\frac{x(z-x)}{x+y}+\\frac{z(x-z)}{y+z}$$\n$$=\\frac{-y(x-z)^2}{(x+y)(y+z)}$$\n$$\\geqslant-(x-z)^2$$\n不等式得证。等号成立的条件是 $a=b=c$ 或 $c=0,a=\\max\\{a,b,c\\}$。",
+  "tags": [
+    "排序不等式",
+    "非负实数",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "a62deccfac8c99c4311f9337c3a9889451e42bae",
+  "raw_problem": {
+    "problem_id": "例5.1.8",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      163,
+      164
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，其和为 1，证明\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant1-\\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}$$",
+    "solution_md": "设 $x,y,z$ 是 $a,b,c$ 的满足条件 $x\\geqslant y\\geqslant z$ 的一个排列。显然\n$$x+y\\geqslant x+z\\geqslant y+z$$\n$$x(y+z)\\geqslant y(z+x)\\geqslant z(x+y)$$\n由排序不等式，我们有\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant\\frac{x(y+z)}{x+y}+\\frac{y(x+z)}{x+z}+\\frac{z(x+y)}{y+z}$$\n所以，只需证明\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}\\geqslant x+z-(x-z)^2$$\n实际上\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}-(x+z)=\\frac{x(z-x)}{x+y}+\\frac{z(x-z)}{y+z}$$\n$$=\\frac{-y(x-z)^2}{(x+y)(y+z)}$$\n$$\\geqslant-(x-z)^2$$\n不等式得证。等号成立的条件是 $a=b=c$ 或 $c=0,a=\\max\\{a,b,c\\}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.8(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是非负实数，其和为 1，证明\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant1-\\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}$$\n证明 设 $x,y,z$ 是 $a,b,c$ 的满足条件 $x\\geqslant y\\geqslant z$ 的一个排列。显然\n$$x+y\\geqslant x+z\\geqslant y+z$$\n$$x(y+z)\\geqslant y(z+x)\\geqslant z(x+y)$$\n由排序不等式，我们有\n$$\\frac{a(b+c)}{c+a}+\\frac{b(c+a)}{a+b}+\\frac{c(a+b)}{b+c}\\geqslant\\frac{x(y+z)}{x+y}+\\frac{y(x+z)}{x+z}+\\frac{z(x+y)}{y+z}$$\n所以，只需证明\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}\\geqslant x+z-(x-z)^2$$\n实际上\n$$\\frac{x(y+z)}{x+y}+\\frac{z(x+y)}{y+z}-(x+z)=\\frac{x(z-x)}{x+y}+\\frac{z(x-z)}{y+z}$$\n$$=\\frac{-y(x-z)^2}{(x+y)(y+z)}$$\n$$\\geqslant-(x-z)^2$$\n不等式得证。等号成立的条件是 $a=b=c$ 或 $c=0,a=\\max\\{a,b,c\\}$。",
+    "tags": [
+      "排序不等式",
+      "非负实数",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "uid": "p173_173_例_532_77b27b9d7b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.2",
+  "problem_type": "example",
+  "title": "Vietnam TST 1991",
+  "source_pages": [
+    173
+  ],
+  "source_images": [
+    "page-173.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是任意实数，证明\n$$(a+b)^4+(b+c)^4+(c+a)^4\\geqslant\\frac{4}{7}(a^4+b^4+c^4)$$",
+  "solution_md": "令 $a+b=2x,b+c=2y,c+a=2z$，则不等式变成\n$$\\sum a^4=\\sum(z+x-y)^4=4\\left(\\sum x^2\\right)^2+16\\sum x^2y^2-\\left(\\sum x\\right)^4\\leqslant 28\\sum x^4$$\n这是成立的，因为\n$$\\sum x^2y^2\\leqslant\\sum x^4,\\left(\\sum x^2\\right)^2\\leqslant 3\\sum x^4$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.2(Vietnam TST 1991) 设 $a,b,c$ 是任意实数，证明\n$$(a+b)^4+(b+c)^4+(c+a)^4\\geqslant\\frac{4}{7}(a^4+b^4+c^4)$$\n证明 令 $a+b=2x,b+c=2y,c+a=2z$，则不等式变成\n$$\\sum a^4=\\sum(z+x-y)^4=4\\left(\\sum x^2\\right)^2+16\\sum x^2y^2-\\left(\\sum x\\right)^4\\leqslant 28\\sum x^4$$\n这是成立的，因为\n$$\\sum x^2y^2\\leqslant\\sum x^4,\\left(\\sum x^2\\right)^2\\leqslant 3\\sum x^4$$",
+  "tags": [
+    "代换法",
+    "Vietnam TST",
+    "四次不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "77b27b9d7b7f14cbc9dba62766bfb950ab0ed631",
+  "raw_problem": {
+    "problem_id": "例 5.3.2",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Vietnam TST 1991",
+    "source_pages": [
+      173
+    ],
+    "stem_md": "设 $a,b,c$ 是任意实数，证明\n$$(a+b)^4+(b+c)^4+(c+a)^4\\geqslant\\frac{4}{7}(a^4+b^4+c^4)$$",
+    "solution_md": "令 $a+b=2x,b+c=2y,c+a=2z$，则不等式变成\n$$\\sum a^4=\\sum(z+x-y)^4=4\\left(\\sum x^2\\right)^2+16\\sum x^2y^2-\\left(\\sum x\\right)^4\\leqslant 28\\sum x^4$$\n这是成立的，因为\n$$\\sum x^2y^2\\leqslant\\sum x^4,\\left(\\sum x^2\\right)^2\\leqslant 3\\sum x^4$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.2(Vietnam TST 1991) 设 $a,b,c$ 是任意实数，证明\n$$(a+b)^4+(b+c)^4+(c+a)^4\\geqslant\\frac{4}{7}(a^4+b^4+c^4)$$\n证明 令 $a+b=2x,b+c=2y,c+a=2z$，则不等式变成\n$$\\sum a^4=\\sum(z+x-y)^4=4\\left(\\sum x^2\\right)^2+16\\sum x^2y^2-\\left(\\sum x\\right)^4\\leqslant 28\\sum x^4$$\n这是成立的，因为\n$$\\sum x^2y^2\\leqslant\\sum x^4,\\left(\\sum x^2\\right)^2\\leqslant 3\\sum x^4$$",
+    "tags": [
+      "代换法",
+      "Vietnam TST",
+      "四次不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

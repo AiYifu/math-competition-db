@@ -1,0 +1,32 @@
+{
+  "choices": [
+    {
+      "message": {
+        "content": "```json\n{\n  \"chunk_id\": \"chunk-0001\",\n  \"book_title\": \"不等式的秘密 第1卷 第2版\",\n  \"page_range\": \"1-9\",\n  \"problems\": [],\n  \"notes_md\": \"本批次包含封面、封底、书脊、致谢、前言以及缩写和记号说明页，均为书籍的前置内容，未包含具体数学题目。主要内容包括：\\n\\n1. **封面信息**：书名《不等式的秘密（第二卷）——高级不等式》，作者[越南]范建熊，译者隋振林，哈尔滨工业大学出版社出版。\\n\\n2. **致谢（第1-2页）**：作者Pham Kim Hung感谢斯坦福大学数学教授Ravi Vakil和Rafe Mazzeo的支持，感谢越南国家科学院的Nguyen Duy Tien、Pham Van Hung和Nguyen Vu Luong等教授，以及众多学生和朋友对本书的贡献。特别感谢不等式专家Vasile Cirtoaje、Michael Rozenberg、Gabriel Dospinescu和Mircea Lascu提供的资料。\\n\\n3. **前言（第1-2页）**：介绍本书是关于高级不等式的话题，包含五个重要方法：整合变量法、平方法、反证法、一般归纳法和经典不等式法。提到原书第六章（约100多页）因篇幅原因仅保留标题，完整内容可在www.gil.ro/eng/sii下载。\\n\\n4. **缩写和记号（第1页）**：列出本书使用的缩写和数学记号，包括：\\n   - 缩写：IMO（国际数学奥林匹克）、TST（IMO选拔考试）、APMO（亚洲太平洋地区数学奥林匹克）、MO（国家数学奥林匹克）、MYM（数学和越南青年杂志）、SOS（平方和方法）、MV（整合变量法）、SMV（强整合变量法）、WLOG（不失一般性）、CPR（读者私下发给作者的问题）。\\n   - 记号：N（自然数集）、N*（自然数集，0除外）、Z（整数集）、Z+（正整数集）、Q（有理数集）、R（实数集）、R+（正实数集）。\\n   - 轮换和记号说明：三变量和四变量的轮换和定义。\"\n}\n```",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 38236,
+    "completion_tokens": 487,
+    "total_tokens": 38723,
+    "completion_tokens_details": {
+      "text_tokens": 487
+    },
+    "prompt_tokens_details": {
+      "image_tokens": 37595,
+      "text_tokens": 641,
+      "cached_tokens": 0
+    }
+  },
+  "created": 1775563776,
+  "system_fingerprint": null,
+  "model": "kimi-k2.5",
+  "id": "chatcmpl-1d5a5313-1b3d-97f8-bc48-41e8270f38fe"
+}

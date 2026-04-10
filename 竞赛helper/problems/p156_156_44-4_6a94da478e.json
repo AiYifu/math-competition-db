@@ -1,0 +1,53 @@
+{
+  "uid": "p156_156_44-4_6a94da478e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-4",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    156
+  ],
+  "source_images": [
+    "page-156.jpg"
+  ],
+  "stem_md": "(Vasile Cirtoaje, Crux) 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，且满足\n$$x_1x_2\\cdots x_n < 1$$\n$$\\frac{x_1+x_2+\\cdots+x_n}{n} = r \\geqslant \\frac{1}{\\frac{n}{n-1}+\\sqrt{\\frac{n}{n-1}}+1}$$\n证明下列不等式\n$$\\frac{\\sqrt{x_1}}{1-x_1} + \\frac{\\sqrt{x_2}}{1-x_2} + \\cdots + \\frac{\\sqrt{x_n}}{1-x_n} \\geqslant \\frac{n\\sqrt{r}}{1-r}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "4.(Vasile Cirtoaje, Crux) 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，且满足\n$$x_1x_2\\cdots x_n < 1$$\n$$\\frac{x_1+x_2+\\cdots+x_n}{n} = r \\geqslant \\frac{1}{\\frac{n}{n-1}+\\sqrt{\\frac{n}{n-1}}+1}$$\n证明下列不等式\n$$\\frac{\\sqrt{x_1}}{1-x_1} + \\frac{\\sqrt{x_2}}{1-x_2} + \\cdots + \\frac{\\sqrt{x_n}}{1-x_n} \\geqslant \\frac{n\\sqrt{r}}{1-r}$$",
+  "tags": [
+    "练习",
+    "非负实数",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "6a94da478e999c424ab3cd42fa89a962f87abc9d",
+  "raw_problem": {
+    "problem_id": "4.4-4",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      156
+    ],
+    "stem_md": "(Vasile Cirtoaje, Crux) 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，且满足\n$$x_1x_2\\cdots x_n < 1$$\n$$\\frac{x_1+x_2+\\cdots+x_n}{n} = r \\geqslant \\frac{1}{\\frac{n}{n-1}+\\sqrt{\\frac{n}{n-1}}+1}$$\n证明下列不等式\n$$\\frac{\\sqrt{x_1}}{1-x_1} + \\frac{\\sqrt{x_2}}{1-x_2} + \\cdots + \\frac{\\sqrt{x_n}}{1-x_n} \\geqslant \\frac{n\\sqrt{r}}{1-r}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "4.(Vasile Cirtoaje, Crux) 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，且满足\n$$x_1x_2\\cdots x_n < 1$$\n$$\\frac{x_1+x_2+\\cdots+x_n}{n} = r \\geqslant \\frac{1}{\\frac{n}{n-1}+\\sqrt{\\frac{n}{n-1}}+1}$$\n证明下列不等式\n$$\\frac{\\sqrt{x_1}}{1-x_1} + \\frac{\\sqrt{x_2}}{1-x_2} + \\cdots + \\frac{\\sqrt{x_n}}{1-x_n} \\geqslant \\frac{n\\sqrt{r}}{1-r}$$",
+    "tags": [
+      "练习",
+      "非负实数",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

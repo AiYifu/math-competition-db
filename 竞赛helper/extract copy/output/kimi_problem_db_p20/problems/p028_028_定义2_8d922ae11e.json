@@ -1,0 +1,25 @@
+{
+  "uid": "p028_028_定义2_8d922ae11e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2 标准表示",
+  "section": null,
+  "problem_id": "定义2",
+  "problem_type": "definition",
+  "title": "半对称分式与标准半对称分式",
+  "source_pages": [
+    28
+  ],
+  "stem_md": "**定义2** 一个分式 $F(a,b,c)$ 称为半对称的，当且仅当对所有的实数 $a,b,c$ 都有 $F(a,b,c)=F(a,c,b)$。如果对所有的正实数 $x,y$，总有 $F(x,y,y)=0$，则称 $F(a,b,c)$ 为标准半对称分式。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "定义",
+    "半对称分式",
+    "标准表示"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "8d922ae11e9f9a00657a4a5c0d5ff8c1b3a245c6"
+}

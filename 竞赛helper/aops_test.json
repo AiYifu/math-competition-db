@@ -1,0 +1,20 @@
+[
+  {
+    "problem_num": 1,
+    "source": "2024 AMC 12A Problems/Problem 1",
+    "statement": "What is the value of <math>9901\\cdot101-99\\cdot10101?</math> \n\n<math>\\textbf{(A)}~2\\qquad\\textbf{(B)}~20\\qquad\\textbf{(C)}~200\\qquad\\textbf{(D)}~202\\qquad\\textbf{(E)}~2020</math>",
+    "solution": "https://youtu.be/wf0fYx7KYeI"
+  },
+  {
+    "problem_num": 2,
+    "source": "2024 AMC 12A Problems/Problem 2",
+    "statement": "A model used to estimate the time it will take to hike to the top of the mountain on a trail is of the form <math>T=aL+bG,</math> where <math>a</math> and <math>b</math> are constants, <math>T</math> is the time in minutes, <math>L</math> is the length of the trail in miles, and <math>G</math> is the altitude gain in feet. The model estimates that it will take <math>69</math> minutes to hike to the top if a trail is <math>1.5</math> miles long and ascends <math>800</math> feet, as well as if a t",
+    "solution": "https://youtu.be/BXW1b0xFKC4"
+  },
+  {
+    "problem_num": 3,
+    "source": "2024 AMC 12A Problems/Problem 3",
+    "statement": "The number <math>2024</math> is written as the sum of not necessarily distinct two-digit numbers. What is the least number of two-digit numbers needed to write this sum?\n\n<math>\\textbf{(A) }20\\qquad\\textbf{(B) }21\\qquad\\textbf{(C) }22\\qquad\\textbf{(D) }23\\qquad\\textbf{(E) }24</math>",
+    "solution": "https://youtu.be/TjfB5ieoaEc"
+  }
+]

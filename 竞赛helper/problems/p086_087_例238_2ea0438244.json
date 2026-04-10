@@ -1,0 +1,58 @@
+{
+  "uid": "p086_087_例238_2ea0438244",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    86,
+    87
+  ],
+  "source_images": [
+    "page-086.jpg",
+    "page-087.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数且 $abcd=1$，证明\n$$\\frac{1}{3+a}+\\frac{1}{3+b}+\\frac{1}{3+c}+\\frac{1}{3+d} \\geqslant \\frac{1}{1+S-a}+\\frac{1}{1+S-b}+\\frac{1}{1+S-c}+\\frac{1}{1+S-d}$$\n其中 $S=a+b+c+d$。",
+  "solution_md": "不失一般性，设 $a \\leqslant b \\leqslant c \\leqslant d$，记\n$$s=b+d, t=\\frac{a+c}{2}$$\n$$f(a,b,c,d)=\\sum\\frac{1}{3+a}-\\sum\\frac{1}{1+a+b+c}$$\n则我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=\\frac{1}{3+a}+\\frac{1}{3+b}-\\frac{2}{3+t}+\\frac{2}{1+s+t}-\\frac{1}{1+s+a}-\\frac{1}{1+s+c}$$\n$$=\\frac{2(t^2-ac)}{(3+a)(3+c)(3+t)}-\\frac{2(t^2-ac)}{(1+s+t)(1+s+a)(1+s+c)}$$\n另外，由于 $a \\leqslant b \\leqslant c \\leqslant d$，可见 $b+d \\geqslant \\frac{1}{2}(a+b+c+d) \\geqslant 2$，所以\n$$(3+a)(3+c)(3+t) \\leqslant (1+s+t)(1+s+a)(1+s+c)$$\n于是，我们有\n$$f(a,b,c,d) \\geqslant f\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理，有\n$$f(a,b,c,d) \\geqslant f(x,x,x,y) \\quad x=\\frac{a+b+c}{3}, y=d$$\n所以，只需证明\n$$f(x,x,x,y)=\\frac{3}{3+x}+\\frac{1}{1+y}-\\frac{1}{1+3x}+\\frac{3}{1+2x+y} \\geqslant 0$$\n去分母，得到等价的不等式\n$$3x^3+5x^2y+22x^2+4xy^2+6xy \\geqslant 25x+3y+12 \\quad (*)$$\n我们来证明，在 $x \\leqslant y, x^3y \\geqslant 1$ 的条件下，不等式 $(*)$ 成立。记\n$$g(x)=3x^3+5x^2y+22x^2+4xy^2+6xy-25x-3y-12$$\n注意到，$y^2 \\geqslant xy \\geqslant 1$，则\n$$g'(x)=9x^2+44x+10xy+4y^2+6y-25$$\n$$=(9x^2+4y^2)+(44x+6y)+10xy-25$$\n$$\\geqslant 2\\sqrt{9x^2 \\cdot 4y^2}+2\\sqrt{44x \\cdot 6y}+10xy-25$$\n$$\\geqslant 12+4\\sqrt{66}+10-25$$\n$$=4\\sqrt{66}-3 > 0$$\n所以，$g(x)$ 是 $x$ 的增函数。由此，为证明 $g(x) \\geqslant 0$，只需证明 $g\\left(\\frac{1}{\\sqrt[3]{y}}\\right) \\geqslant 0$，换句话说，我们只需证明不等式 $(*)$ 在 $x \\leqslant y, x^3y=1$ 的条件下成立即可。此时，不等式变成(用 $\\frac{1}{x^3}$ 替换 $y$)\n$$3x^3+\\frac{5}{x}+22x^2+\\frac{4}{x^5}+\\frac{6}{x^2} \\geqslant 25x+\\frac{3}{x^2}+12$$\n由 AM-GM 不等式，有 $\\frac{4}{x^5}+\\frac{4}{x} \\geqslant \\frac{8}{x^3}$，余下的只需证明\n$$3x^3+\\frac{1}{x}+22x^2+\\frac{5}{x^3}+\\frac{6}{x^2} \\geqslant 25x+12$$\n$$\\Leftrightarrow \\frac{1}{x^3}(x-1)^2(3x^4+28x^3+28x^2+16x+5) \\geqslant 0$$\n这是显然成立的，从而原不等式成立。等号成立的条件是 $a=b=c=d=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.8(Pham Kim Hung,Soarer,Mathlinks) 设 $a,b,c,d$ 是正实数且 $abcd=1$,证明\n$$\\frac{1}{3+a}+\\frac{1}{3+b}+\\frac{1}{3+c}+\\frac{1}{3+d} \\geqslant \\frac{1}{1+S-a}+\\frac{1}{1+S-b}+\\frac{1}{1+S-c}+\\frac{1}{1+S-d}$$\n其中 $S=a+b+c+d$.\n证明 不失一般性,设 $a \\leqslant b \\leqslant c \\leqslant d$,记\n$$s=b+d,t=\\frac{a+c}{2}$$\n$$f(a,b,c,d)=\\sum\\frac{1}{3+a}-\\sum\\frac{1}{1+a+b+c}$$\n则我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=\\frac{1}{3+a}+\\frac{1}{3+b}-\\frac{2}{3+t}+\\frac{2}{1+s+t}-\\frac{1}{1+s+a}-\\frac{1}{1+s+c}$$\n$$=\\frac{2(t^2-ac)}{(3+a)(3+c)(3+t)}-\\frac{2(t^2-ac)}{(1+s+t)(1+s+a)(1+s+c)}$$\n另外,由于 $a \\leqslant b \\leqslant c \\leqslant d$,可见 $b+d \\geqslant \\frac{1}{2}(a+b+c+d) \\geqslant 2$,所以\n$$(3+a)(3+c)(3+t) \\leqslant (1+s+t)(1+s+a)(1+s+c)$$\n于是,我们有\n$$f(a,b,c,d) \\geqslant f\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理,有\n$$f(a,b,c,d) \\geqslant f(x,x,x,y) \\quad x=\\frac{a+b+c}{3},y=d$$\n所以,只需证明\n$$f(x,x,x,y)=\\frac{3}{3+x}+\\frac{1}{1+y}-\\frac{1}{1+3x}+\\frac{3}{1+2x+y} \\geqslant 0$$\n去分母,得到等价的不等式\n$$3x^3+5x^2y+22x^2+4xy^2+6xy \\geqslant 25x+3y+12 \\quad (*)$$\n我们来证明,在 $x \\leqslant y,x^3y \\geqslant 1$ 的条件下,不等式 $(*)$ 成立.记\n$$g(x)=3x^3+5x^2y+22x^2+4xy^2+6xy-25x-3y-12$$\n注意到,$y^2 \\geqslant xy \\geqslant 1$,则\n$$g'(x)=9x^2+44x+10xy+4y^2+6y-25$$\n$$=(9x^2+4y^2)+(44x+6y)+10xy-25$$\n$$\\geqslant 2\\sqrt{9x^2 \\cdot 4y^2}+2\\sqrt{44x \\cdot 6y}+10xy-25$$\n$$\\geqslant 12+4\\sqrt{66}+10-25$$\n$$=4\\sqrt{66}-3 > 0$$\n所以,$g(x)$ 是 $x$ 的增函数.由此,为证明 $g(x) \\geqslant 0$,只需证明 $g\\left(\\frac{1}{\\sqrt[3]{y}}\\right) \\geqslant 0$,换句话说,我们只需证明不等式 $(*)$ 在 $x \\leqslant y,x^3y=1$ 的条件下成立即可.此时,不等式变成(用 $\\frac{1}{x^3}$ 替换 $y$)\n$$3x^3+\\frac{5}{x}+22x^2+\\frac{4}{x^5}+\\frac{6}{x^2} \\geqslant 25x+\\frac{3}{x^2}+12$$\n由 AM-GM 不等式,有 $\\frac{4}{x^5}+\\frac{4}{x} \\geqslant \\frac{8}{x^3}$,余下的只需证明\n$$3x^3+\\frac{1}{x}+22x^2+\\frac{5}{x^3}+\\frac{6}{x^2} \\geqslant 25x+12$$\n$$\\Leftrightarrow \\frac{1}{x^3}(x-1)^2(3x^4+28x^3+28x^2+16x+5) \\geqslant 0$$\n这是显然成立的,从而原不等式成立.等号成立的条件是 $a=b=c=d=1$.",
+  "tags": [
+    "SMV定理",
+    "四元不等式",
+    "条件不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "2ea0438244986acfafff06e473e98133a9156a8b",
+  "raw_problem": {
+    "problem_id": "例2.3.8",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      86,
+      87
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数且 $abcd=1$，证明\n$$\\frac{1}{3+a}+\\frac{1}{3+b}+\\frac{1}{3+c}+\\frac{1}{3+d} \\geqslant \\frac{1}{1+S-a}+\\frac{1}{1+S-b}+\\frac{1}{1+S-c}+\\frac{1}{1+S-d}$$\n其中 $S=a+b+c+d$。",
+    "solution_md": "不失一般性，设 $a \\leqslant b \\leqslant c \\leqslant d$，记\n$$s=b+d, t=\\frac{a+c}{2}$$\n$$f(a,b,c,d)=\\sum\\frac{1}{3+a}-\\sum\\frac{1}{1+a+b+c}$$\n则我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=\\frac{1}{3+a}+\\frac{1}{3+b}-\\frac{2}{3+t}+\\frac{2}{1+s+t}-\\frac{1}{1+s+a}-\\frac{1}{1+s+c}$$\n$$=\\frac{2(t^2-ac)}{(3+a)(3+c)(3+t)}-\\frac{2(t^2-ac)}{(1+s+t)(1+s+a)(1+s+c)}$$\n另外，由于 $a \\leqslant b \\leqslant c \\leqslant d$，可见 $b+d \\geqslant \\frac{1}{2}(a+b+c+d) \\geqslant 2$，所以\n$$(3+a)(3+c)(3+t) \\leqslant (1+s+t)(1+s+a)(1+s+c)$$\n于是，我们有\n$$f(a,b,c,d) \\geqslant f\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理，有\n$$f(a,b,c,d) \\geqslant f(x,x,x,y) \\quad x=\\frac{a+b+c}{3}, y=d$$\n所以，只需证明\n$$f(x,x,x,y)=\\frac{3}{3+x}+\\frac{1}{1+y}-\\frac{1}{1+3x}+\\frac{3}{1+2x+y} \\geqslant 0$$\n去分母，得到等价的不等式\n$$3x^3+5x^2y+22x^2+4xy^2+6xy \\geqslant 25x+3y+12 \\quad (*)$$\n我们来证明，在 $x \\leqslant y, x^3y \\geqslant 1$ 的条件下，不等式 $(*)$ 成立。记\n$$g(x)=3x^3+5x^2y+22x^2+4xy^2+6xy-25x-3y-12$$\n注意到，$y^2 \\geqslant xy \\geqslant 1$，则\n$$g'(x)=9x^2+44x+10xy+4y^2+6y-25$$\n$$=(9x^2+4y^2)+(44x+6y)+10xy-25$$\n$$\\geqslant 2\\sqrt{9x^2 \\cdot 4y^2}+2\\sqrt{44x \\cdot 6y}+10xy-25$$\n$$\\geqslant 12+4\\sqrt{66}+10-25$$\n$$=4\\sqrt{66}-3 > 0$$\n所以，$g(x)$ 是 $x$ 的增函数。由此，为证明 $g(x) \\geqslant 0$，只需证明 $g\\left(\\frac{1}{\\sqrt[3]{y}}\\right) \\geqslant 0$，换句话说，我们只需证明不等式 $(*)$ 在 $x \\leqslant y, x^3y=1$ 的条件下成立即可。此时，不等式变成(用 $\\frac{1}{x^3}$ 替换 $y$)\n$$3x^3+\\frac{5}{x}+22x^2+\\frac{4}{x^5}+\\frac{6}{x^2} \\geqslant 25x+\\frac{3}{x^2}+12$$\n由 AM-GM 不等式，有 $\\frac{4}{x^5}+\\frac{4}{x} \\geqslant \\frac{8}{x^3}$，余下的只需证明\n$$3x^3+\\frac{1}{x}+22x^2+\\frac{5}{x^3}+\\frac{6}{x^2} \\geqslant 25x+12$$\n$$\\Leftrightarrow \\frac{1}{x^3}(x-1)^2(3x^4+28x^3+28x^2+16x+5) \\geqslant 0$$\n这是显然成立的，从而原不等式成立。等号成立的条件是 $a=b=c=d=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.8(Pham Kim Hung,Soarer,Mathlinks) 设 $a,b,c,d$ 是正实数且 $abcd=1$,证明\n$$\\frac{1}{3+a}+\\frac{1}{3+b}+\\frac{1}{3+c}+\\frac{1}{3+d} \\geqslant \\frac{1}{1+S-a}+\\frac{1}{1+S-b}+\\frac{1}{1+S-c}+\\frac{1}{1+S-d}$$\n其中 $S=a+b+c+d$.\n证明 不失一般性,设 $a \\leqslant b \\leqslant c \\leqslant d$,记\n$$s=b+d,t=\\frac{a+c}{2}$$\n$$f(a,b,c,d)=\\sum\\frac{1}{3+a}-\\sum\\frac{1}{1+a+b+c}$$\n则我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=\\frac{1}{3+a}+\\frac{1}{3+b}-\\frac{2}{3+t}+\\frac{2}{1+s+t}-\\frac{1}{1+s+a}-\\frac{1}{1+s+c}$$\n$$=\\frac{2(t^2-ac)}{(3+a)(3+c)(3+t)}-\\frac{2(t^2-ac)}{(1+s+t)(1+s+a)(1+s+c)}$$\n另外,由于 $a \\leqslant b \\leqslant c \\leqslant d$,可见 $b+d \\geqslant \\frac{1}{2}(a+b+c+d) \\geqslant 2$,所以\n$$(3+a)(3+c)(3+t) \\leqslant (1+s+t)(1+s+a)(1+s+c)$$\n于是,我们有\n$$f(a,b,c,d) \\geqslant f\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理,有\n$$f(a,b,c,d) \\geqslant f(x,x,x,y) \\quad x=\\frac{a+b+c}{3},y=d$$\n所以,只需证明\n$$f(x,x,x,y)=\\frac{3}{3+x}+\\frac{1}{1+y}-\\frac{1}{1+3x}+\\frac{3}{1+2x+y} \\geqslant 0$$\n去分母,得到等价的不等式\n$$3x^3+5x^2y+22x^2+4xy^2+6xy \\geqslant 25x+3y+12 \\quad (*)$$\n我们来证明,在 $x \\leqslant y,x^3y \\geqslant 1$ 的条件下,不等式 $(*)$ 成立.记\n$$g(x)=3x^3+5x^2y+22x^2+4xy^2+6xy-25x-3y-12$$\n注意到,$y^2 \\geqslant xy \\geqslant 1$,则\n$$g'(x)=9x^2+44x+10xy+4y^2+6y-25$$\n$$=(9x^2+4y^2)+(44x+6y)+10xy-25$$\n$$\\geqslant 2\\sqrt{9x^2 \\cdot 4y^2}+2\\sqrt{44x \\cdot 6y}+10xy-25$$\n$$\\geqslant 12+4\\sqrt{66}+10-25$$\n$$=4\\sqrt{66}-3 > 0$$\n所以,$g(x)$ 是 $x$ 的增函数.由此,为证明 $g(x) \\geqslant 0$,只需证明 $g\\left(\\frac{1}{\\sqrt[3]{y}}\\right) \\geqslant 0$,换句话说,我们只需证明不等式 $(*)$ 在 $x \\leqslant y,x^3y=1$ 的条件下成立即可.此时,不等式变成(用 $\\frac{1}{x^3}$ 替换 $y$)\n$$3x^3+\\frac{5}{x}+22x^2+\\frac{4}{x^5}+\\frac{6}{x^2} \\geqslant 25x+\\frac{3}{x^2}+12$$\n由 AM-GM 不等式,有 $\\frac{4}{x^5}+\\frac{4}{x} \\geqslant \\frac{8}{x^3}$,余下的只需证明\n$$3x^3+\\frac{1}{x}+22x^2+\\frac{5}{x^3}+\\frac{6}{x^2} \\geqslant 25x+12$$\n$$\\Leftrightarrow \\frac{1}{x^3}(x-1)^2(3x^4+28x^3+28x^2+16x+5) \\geqslant 0$$\n这是显然成立的,从而原不等式成立.等号成立的条件是 $a=b=c=d=1$.",
+    "tags": [
+      "SMV定理",
+      "四元不等式",
+      "条件不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

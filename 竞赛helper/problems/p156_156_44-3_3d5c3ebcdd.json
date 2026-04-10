@@ -1,0 +1,53 @@
+{
+  "uid": "p156_156_44-3_3d5c3ebcdd",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    156
+  ],
+  "source_images": [
+    "page-156.jpg"
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，对于 $p = \\frac{\\sqrt{n-1}}{\\sqrt{n}-\\sqrt{n-1}}$，证明\n$$\\frac{1}{(p+a_1)^2} + \\frac{1}{(p+a_2)^2} + \\cdots + \\frac{1}{(p+a_n)^2} \\leqslant \\frac{n}{(p+1)^2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3. 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，对于 $p = \\frac{\\sqrt{n-1}}{\\sqrt{n}-\\sqrt{n-1}}$，证明\n$$\\frac{1}{(p+a_1)^2} + \\frac{1}{(p+a_2)^2} + \\cdots + \\frac{1}{(p+a_n)^2} \\leqslant \\frac{n}{(p+1)^2}$$",
+  "tags": [
+    "练习",
+    "正实数",
+    "分式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "3d5c3ebcdd18ca5ce86b0ee68797282818e356f2",
+  "raw_problem": {
+    "problem_id": "4.4-3",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      156
+    ],
+    "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，对于 $p = \\frac{\\sqrt{n-1}}{\\sqrt{n}-\\sqrt{n-1}}$，证明\n$$\\frac{1}{(p+a_1)^2} + \\frac{1}{(p+a_2)^2} + \\cdots + \\frac{1}{(p+a_n)^2} \\leqslant \\frac{n}{(p+1)^2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "3. 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，对于 $p = \\frac{\\sqrt{n-1}}{\\sqrt{n}-\\sqrt{n-1}}$，证明\n$$\\frac{1}{(p+a_1)^2} + \\frac{1}{(p+a_2)^2} + \\cdots + \\frac{1}{(p+a_n)^2} \\leqslant \\frac{n}{(p+1)^2}$$",
+    "tags": [
+      "练习",
+      "正实数",
+      "分式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

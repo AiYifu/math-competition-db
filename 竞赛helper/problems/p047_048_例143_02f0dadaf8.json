@@ -1,0 +1,54 @@
+{
+  "uid": "p047_048_例143_02f0dadaf8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    47,
+    48
+  ],
+  "source_images": [
+    "page-047.jpg",
+    "page-048.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\geqslant\\frac{6(a^2+b^2+c^2)}{a+b+c}$$",
+  "solution_md": "显然，我们有\n$$\\sum\\frac{a^2}{b}+\\sum a-\\frac{6(a^2+b^2+c^2)}{a+b+c}$$\n$$=\\sum\\left(\\frac{a^2}{b}+b-2a\\right)-2\\sum\\frac{(a-b)^2}{a+b+c}$$\n$$=\\sum\\left(\\frac{1}{b}-\\frac{2}{a+b+c}\\right)(a-b)^2$$\n\n依据 SOS 定理之条件(6)可知，只需证明\n$$\\sum\\left(\\frac{1}{b}-\\frac{2}{a+b+c}\\right)\\left(\\frac{1}{c}-\\frac{2}{a+b+c}\\right)\\geqslant0$$\n$$\\Leftrightarrow(a+b+c)\\sum\\frac{1}{bc}+\\frac{12}{a+b+c}\\geqslant\\sum\\frac{4}{a}$$\n$$\\Leftrightarrow\\sum\\frac{a}{bc}+\\frac{12}{a+b+c}\\geqslant\\sum\\frac{2}{a}$$\n\n这最后的不等式直接由 Schur 不等式可得。实际上\n$$\\sum a^2+\\frac{9abc}{a+b+c}\\geqslant2\\sum ab$$\n\n等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.3 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\geqslant\\frac{6(a^2+b^2+c^2)}{a+b+c}$$\n证明 显然，我们有...",
+  "tags": [
+    "SOS方法",
+    "Schur不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "02f0dadaf8086cece023ceb18e143bf6120f2707",
+  "raw_problem": {
+    "problem_id": "例1.4.3",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      47,
+      48
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\geqslant\\frac{6(a^2+b^2+c^2)}{a+b+c}$$",
+    "solution_md": "显然，我们有\n$$\\sum\\frac{a^2}{b}+\\sum a-\\frac{6(a^2+b^2+c^2)}{a+b+c}$$\n$$=\\sum\\left(\\frac{a^2}{b}+b-2a\\right)-2\\sum\\frac{(a-b)^2}{a+b+c}$$\n$$=\\sum\\left(\\frac{1}{b}-\\frac{2}{a+b+c}\\right)(a-b)^2$$\n\n依据 SOS 定理之条件(6)可知，只需证明\n$$\\sum\\left(\\frac{1}{b}-\\frac{2}{a+b+c}\\right)\\left(\\frac{1}{c}-\\frac{2}{a+b+c}\\right)\\geqslant0$$\n$$\\Leftrightarrow(a+b+c)\\sum\\frac{1}{bc}+\\frac{12}{a+b+c}\\geqslant\\sum\\frac{4}{a}$$\n$$\\Leftrightarrow\\sum\\frac{a}{bc}+\\frac{12}{a+b+c}\\geqslant\\sum\\frac{2}{a}$$\n\n这最后的不等式直接由 Schur 不等式可得。实际上\n$$\\sum a^2+\\frac{9abc}{a+b+c}\\geqslant2\\sum ab$$\n\n等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.3 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\geqslant\\frac{6(a^2+b^2+c^2)}{a+b+c}$$\n证明 显然，我们有...",
+    "tags": [
+      "SOS方法",
+      "Schur不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

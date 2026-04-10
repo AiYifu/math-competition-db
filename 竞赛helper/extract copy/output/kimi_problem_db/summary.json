@@ -1,0 +1,33 @@
+{
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "input_dir": "data/secret",
+  "output_dir": "output/kimi_problem_db",
+  "model": "kimi-k2.5",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "chunk_size": 9,
+  "total_chunks": 1,
+  "completed_chunks": 1,
+  "failed_chunks": 0,
+  "total_problems": 0,
+  "fts_enabled": true,
+  "duration_seconds": 39.86,
+  "chunks": [
+    {
+      "chunk_id": "chunk-0001",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "ok",
+      "problem_count": 0,
+      "duplicate_skipped": 0
+    }
+  ]
+}

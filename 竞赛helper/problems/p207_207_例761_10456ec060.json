@@ -1,0 +1,53 @@
+{
+  "uid": "p207_207_例761_10456ec060",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.6",
+  "problem_id": "例7.6.1",
+  "problem_type": "example",
+  "title": "SOS-Schur表示",
+  "source_pages": [
+    207
+  ],
+  "source_images": [
+    "page-207.jpg"
+  ],
+  "stem_md": "证明：对所有正实数 $a,b,c$，有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant \\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}$$",
+  "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，对所有正实数 $a,b,c$，我们总有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3=\\frac{1}{ab}(a-b)^2+\\frac{1}{ca}(c-a)(c-b)$$\n\n所以，原不等式可以写成如下形式\n$$\\left[\\frac{1}{ab}-\\frac{1}{(a+c)(b+c)}\\right](a-b)^2+\\left[\\frac{1}{ca}-\\frac{1}{(a+b)(a+c)}\\right](c-a)(c-b)\\geqslant 0$$\n\n这是显然成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.6.1(Mathlinks,eontest) 证明：对所有正实数 $a,b,c$，有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant \\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，对所有正实数 $a,b,c$，我们总有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3=\\frac{1}{ab}(a-b)^2+\\frac{1}{ca}(c-a)(c-b)$$\n所以，原不等式可以写成如下形式\n$$\\left[\\frac{1}{ab}-\\frac{1}{(a+c)(b+c)}\\right](a-b)^2+\\left[\\frac{1}{ca}-\\frac{1}{(a+b)(a+c)}\\right](c-a)(c-b)\\geqslant 0$$\n这是显然成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$。",
+  "tags": [
+    "SOS-Schur方法",
+    "三变量",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "10456ec060b2da84f89150cce48e5b8d4ab4bba8",
+  "raw_problem": {
+    "problem_id": "例7.6.1",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.6",
+    "title": "SOS-Schur表示",
+    "source_pages": [
+      207
+    ],
+    "stem_md": "证明：对所有正实数 $a,b,c$，有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant \\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}$$",
+    "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，对所有正实数 $a,b,c$，我们总有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3=\\frac{1}{ab}(a-b)^2+\\frac{1}{ca}(c-a)(c-b)$$\n\n所以，原不等式可以写成如下形式\n$$\\left[\\frac{1}{ab}-\\frac{1}{(a+c)(b+c)}\\right](a-b)^2+\\left[\\frac{1}{ca}-\\frac{1}{(a+b)(a+c)}\\right](c-a)(c-b)\\geqslant 0$$\n\n这是显然成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.6.1(Mathlinks,eontest) 证明：对所有正实数 $a,b,c$，有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant \\frac{c+a}{a+b}+\\frac{a+b}{b+c}+\\frac{b+c}{c+a}$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，对所有正实数 $a,b,c$，我们总有\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3=\\frac{1}{ab}(a-b)^2+\\frac{1}{ca}(c-a)(c-b)$$\n所以，原不等式可以写成如下形式\n$$\\left[\\frac{1}{ab}-\\frac{1}{(a+c)(b+c)}\\right](a-b)^2+\\left[\\frac{1}{ca}-\\frac{1}{(a+b)(a+c)}\\right](c-a)(c-b)\\geqslant 0$$\n这是显然成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$。",
+    "tags": [
+      "SOS-Schur方法",
+      "三变量",
+      "正实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

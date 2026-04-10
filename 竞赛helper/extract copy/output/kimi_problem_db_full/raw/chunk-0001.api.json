@@ -1,0 +1,32 @@
+{
+  "choices": [
+    {
+      "message": {
+        "content": "```json\n{\n  \"chunk_id\": \"chunk-0001\",\n  \"book_title\": \"不等式的秘密 第1卷 第2版\",\n  \"page_range\": \"1-9\",\n  \"problems\": [],\n  \"notes_md\": \"本批次包含封面、封底、书脊、致谢、前言、使用说明以及缩写和记号说明页，均为书籍的前置内容，未包含具体数学题目。\\n\\n**第1页（封面）**：显示书名为《不等式的秘密（第二卷）——高级不等式》，英文标题 Secrets in Inequalities (volume II) — Senior Inequality，作者[越南]范建熊，译者隋振林，哈尔滨工业大学出版社。\\n\\n**第2页（封底）**：包含刘培杰数学工作室信息、ISBN 978-7-5603-4220-7，定价38.00元。\\n\\n**第3页（书脊）**：显示书名、作者、译者及出版社信息。\\n\\n**第4-5页（致谢）**：作者Pham Kim Hung感谢多位教授、朋友及数学论坛成员对本书的贡献。\\n\\n**第6-7页（前言）**：介绍本书是关于高级不等式的话题，包含五个方法：整合变量法、平方法、反证法、一般归纳法和经典不等式法。\\n\\n**第8-9页（缩写和记号）**：列出本书使用的缩写（IMO, TST, APMO, MO, MYM, SOS, MV, SMV, WLOG, CPR）和数学记号（N, N*, Z, Z+, Q, R, R+），并说明轮换和记号∑的使用方法。\"\n}\n```",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 38285,
+    "completion_tokens": 360,
+    "total_tokens": 38645,
+    "completion_tokens_details": {
+      "text_tokens": 360
+    },
+    "prompt_tokens_details": {
+      "image_tokens": 37595,
+      "text_tokens": 690,
+      "cached_tokens": 0
+    }
+  },
+  "created": 1775569117,
+  "system_fingerprint": null,
+  "model": "kimi-k2.5",
+  "id": "chatcmpl-62d9905d-b7be-9a59-96c4-7425ae554a7e"
+}

@@ -1,0 +1,61 @@
+{
+  "uid": "p084_086_例237_85be14c2d8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    84,
+    85,
+    86
+  ],
+  "source_images": [
+    "page-084.jpg",
+    "page-085.jpg",
+    "page-086.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，且其和为 $4$，$k$ 是一个正的实常数，求下列表达式\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n的最大值。",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，考虑下列几种情况。\n\n(1) 第一种情况(这是最重要的情况) $1 \\leqslant k \\leqslant 3$。\n\n设 $t=\\frac{a+c}{2}, u=\\frac{a-c}{2}$，则\n$$a=t+u, c=t-u$$\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k=(b^k+d^k)(ac)^k+(bd)^k(a^k+c^k)$$\n令 $s=b^{-k}+d^{-k}$，考察函数\n$$f(u)=s(ac)^k+a^k+c^k=s(t^2-u^2)^k+(t+u)^k+(t-u)^k$$\n不难计算\n$$f'(u)=ku(t^2-u^2)^{k-1}\\left[-2s+\\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u}\\right]$$\n由于 $a \\geqslant b \\geqslant c \\geqslant d$，可见 $d \\leqslant t-u$。另一方面，因为 $k \\leqslant 3$，且 $\\delta(x)=x^{-k+1}$ 是 $x$ 的减函数，由 Lagrange 中值定理可知，存在一个实数 $\\alpha \\in [t-u,t+u]$，满足\n$$\\delta(t+u)-\\delta(t-u)=2u\\delta'(\\alpha)$$\n注意到，$\\alpha \\in [t-u,t+u]$，所以，我们有\n$$\\delta'(\\alpha)=(-k+1)\\alpha^{-k} \\geqslant (-k+1)(t-u)^{-k}$$\n所以\n$$\\delta(t+u)-\\delta(t-u) \\leqslant 2(k-1)u(t-u)^k$$\n$$\\Rightarrow \\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u} \\leqslant \\frac{k-1}{(t-u)^k} \\leqslant \\frac{2}{d^k} \\leqslant 2s$$\n因此 $f(u) \\leqslant f(0)$，这就是说，如果设\n$$F(a,b,c,d)=(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n则\n$$F(a,b,c,d) \\geqslant F\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理，只需求在 $a=b=c=t \\geqslant d=4-3t$ 的情况下，原表达式的最大值即可。此时，有\n$$\\sum (abc)^k=t^{3k}+3t^{2k}(4-3t)^k=g(t)$$\n$g(t)$ 的一阶导数是\n$$g'(t)=3kt^{3k-1}+6kt^{2k-1}(4-3t)^k-9kt^{2k}(4-3t)^{k-1}$$\n所以，$g'(t)=0 \\Leftrightarrow t^k+2(4-3t)^k=3t(4-3t)^k$。因此可见，$g'(t)$ 的符号和下列函数的符号是一样的\n$$P(t)=\\left(\\frac{t}{4-3t}\\right)^k+2-\\frac{3t}{4-3t}$$\n令 $r=r(t)=t(4-3t)^{-1}$，显然，$r(t)$ 在 $t \\in \\left[1,\\frac{4}{3}\\right)$ 上是严格增函数。另外，因为方程 $r^k+2=3r$ 没有多于 2 个的正实根，且 $g'(1)=0$，所以，我们得到方程 $g'(t)=0$ 也没有多于 2 个的正实根，这表明\n$$g(t) \\leqslant \\max\\left\\{g(1),g\\left(\\frac{4}{3}\\right)\\right\\}=\\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$\n\n(2) 第二种情况 $k \\leqslant 1$。根据(1)已证明的结果(取 $k=1$)，我们有\n$$abc+bcd+cda+dab \\leqslant 4$$\n如果 $k$ 是一个小于 1 的正实数，则下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant 4$$\n\n(3) 第三种情况 $k \\geqslant 3$。\n\n注意到，$(c+d)^k-c^k-d^k \\geqslant kc^{k-1} \\geqslant 2c^k, 2(ab)^k \\geqslant (a^k+b^k)d^k$，所以\n$$(ab)^k[(c+d)^k-c^k-d^k] \\geqslant (a^k+b^k)c^kd^k$$\n$$\\Rightarrow (abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant (ab)^k(c+d)^k$$\n最后，由 AM-GM 不等式，有\n$$(ab)^k(c+d)^k \\leqslant \\left(\\frac{a+b+c+d}{3}\\right)^{3k}=\\left(\\frac{4}{3}\\right)^{3k}$$\n\n(4) 结论。\n\n对于每一个正实数 $k$，下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant \\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$",
+  "answer_md": "$\\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$",
+  "hints_md": "",
+  "original_text_md": "例 2.3.7(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数,且其和为 $4$,$k$ 是一个正的实常数,求下列表达式\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n的最大值.\n解 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,考虑下列几种情况.\n(1) 第一种情况(这是最重要的情况)$1 \\leqslant k \\leqslant 3$.\n设 $t=\\frac{a+c}{2},u=\\frac{a-c}{2}$,则\n$$a=t+u,c=t-u$$\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k=(b^k+d^k)(ac)^k+(bd)^k(a^k+c^k)$$\n令 $s=b^{-k}+d^{-k}$,考察函数\n$$f(u)=s(ac)^k+a^k+c^k=s(t^2-u^2)^k+(t+u)^k+(t-u)^k$$\n不难计算\n$$f'(u)=ku(t^2-u^2)^{k-1}\\left[-2s+\\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u}\\right]$$\n由于 $a \\geqslant b \\geqslant c \\geqslant d$,可见 $d \\leqslant t-u$.另一方面,因为 $k \\leqslant 3$,且 $\\delta(x)=x^{-k+1}$ 是 $x$ 的减函数,由 Lagrange 中值定理可知,存在一个实数 $\\alpha \\in [t-u,t+u]$,满足\n$$\\delta(t+u)-\\delta(t-u)=2u\\delta'(\\alpha)$$\n注意到,$\\alpha \\in [t-u,t+u]$,所以,我们有\n$$\\delta'(\\alpha)=(-k+1)\\alpha^{-k} \\geqslant (-k+1)(t-u)^{-k}$$\n所以\n$$\\delta(t+u)-\\delta(t-u) \\leqslant 2(k-1)u(t-u)^k$$\n$$\\Rightarrow \\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u} \\leqslant \\frac{k-1}{(t-u)^k} \\leqslant \\frac{2}{d^k} \\leqslant 2s$$\n因此 $f(u) \\leqslant f(0)$,这就是说,如果设\n$$F(a,b,c,d)=(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n则\n$$F(a,b,c,d) \\geqslant F\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理,只需求在 $a=b=c=t \\geqslant d=4-3t$ 的情况下,原表达式的最大值即可.此时,有\n$$\\sum (abc)^k=t^{3k}+3t^{2k}(4-3t)^k=g(t)$$\n$g(t)$ 的一阶导数是\n$$g'(t)=3kt^{3k-1}+6kt^{2k-1}(4-3t)^k-9kt^{2k}(4-3t)^{k-1}$$\n所以,$g'(t)=0 \\Leftrightarrow t^k+2(4-3t)^k=3t(4-3t)^k$.因此可见,$g'(t)$ 的符号和下列函数的符号是一样的\n$$P(t)=\\left(\\frac{t}{4-3t}\\right)^k+2-\\frac{3t}{4-3t}$$\n令 $r=r(t)=t(4-3t)^{-1}$,显然,$r(t)$ 在 $t \\in \\left[1,\\frac{4}{3}\\right)$ 上是严格增函数.另外,因为方程 $r^k+2=3r$ 没有多于 2 个的正实根,且 $g'(1)=0$,所以,我们得到方程 $g'(t)=0$ 也没有多于 2 个的正实根,这表明\n$$g(t) \\leqslant \\max\\left\\{g(1),g\\left(\\frac{4}{3}\\right)\\right\\}=\\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$\n(2) 第二种情况 $k \\leqslant 1$.根据(1)已证明的结果(取 $k=1$),我们有\n$$abc+bcd+cda+dab \\leqslant 4$$\n如果 $k$ 是一个小于 1 的正实数,则下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant 4$$\n(3) 第三种情况 $k \\geqslant 3$.\n注意到,$(c+d)^k-c^k-d^k \\geqslant kc^{k-1} \\geqslant 2c^k,2(ab)^k \\geqslant (a^k+b^k)d^k$,所以\n$$(ab)^k[(c+d)^k-c^k-d^k] \\geqslant (a^k+b^k)c^kd^k$$\n$$\\Rightarrow (abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant (ab)^k(c+d)^k$$\n最后,由 AM-GM 不等式,有\n$$(ab)^k(c+d)^k \\leqslant \\left(\\frac{a+b+c+d}{3}\\right)^{3k}=\\left(\\frac{4}{3}\\right)^{3k}$$\n(4) 结论.\n对于每一个正实数 $k$,下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant \\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$",
+  "tags": [
+    "SMV定理",
+    "四元不等式",
+    "最值问题",
+    "Lagrange中值定理"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "85be14c2d8bc75baa58ebb0ba538adad512dba97",
+  "raw_problem": {
+    "problem_id": "例2.3.7",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      84,
+      85,
+      86
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，且其和为 $4$，$k$ 是一个正的实常数，求下列表达式\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n的最大值。",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，考虑下列几种情况。\n\n(1) 第一种情况(这是最重要的情况) $1 \\leqslant k \\leqslant 3$。\n\n设 $t=\\frac{a+c}{2}, u=\\frac{a-c}{2}$，则\n$$a=t+u, c=t-u$$\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k=(b^k+d^k)(ac)^k+(bd)^k(a^k+c^k)$$\n令 $s=b^{-k}+d^{-k}$，考察函数\n$$f(u)=s(ac)^k+a^k+c^k=s(t^2-u^2)^k+(t+u)^k+(t-u)^k$$\n不难计算\n$$f'(u)=ku(t^2-u^2)^{k-1}\\left[-2s+\\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u}\\right]$$\n由于 $a \\geqslant b \\geqslant c \\geqslant d$，可见 $d \\leqslant t-u$。另一方面，因为 $k \\leqslant 3$，且 $\\delta(x)=x^{-k+1}$ 是 $x$ 的减函数，由 Lagrange 中值定理可知，存在一个实数 $\\alpha \\in [t-u,t+u]$，满足\n$$\\delta(t+u)-\\delta(t-u)=2u\\delta'(\\alpha)$$\n注意到，$\\alpha \\in [t-u,t+u]$，所以，我们有\n$$\\delta'(\\alpha)=(-k+1)\\alpha^{-k} \\geqslant (-k+1)(t-u)^{-k}$$\n所以\n$$\\delta(t+u)-\\delta(t-u) \\leqslant 2(k-1)u(t-u)^k$$\n$$\\Rightarrow \\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u} \\leqslant \\frac{k-1}{(t-u)^k} \\leqslant \\frac{2}{d^k} \\leqslant 2s$$\n因此 $f(u) \\leqslant f(0)$，这就是说，如果设\n$$F(a,b,c,d)=(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n则\n$$F(a,b,c,d) \\geqslant F\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理，只需求在 $a=b=c=t \\geqslant d=4-3t$ 的情况下，原表达式的最大值即可。此时，有\n$$\\sum (abc)^k=t^{3k}+3t^{2k}(4-3t)^k=g(t)$$\n$g(t)$ 的一阶导数是\n$$g'(t)=3kt^{3k-1}+6kt^{2k-1}(4-3t)^k-9kt^{2k}(4-3t)^{k-1}$$\n所以，$g'(t)=0 \\Leftrightarrow t^k+2(4-3t)^k=3t(4-3t)^k$。因此可见，$g'(t)$ 的符号和下列函数的符号是一样的\n$$P(t)=\\left(\\frac{t}{4-3t}\\right)^k+2-\\frac{3t}{4-3t}$$\n令 $r=r(t)=t(4-3t)^{-1}$，显然，$r(t)$ 在 $t \\in \\left[1,\\frac{4}{3}\\right)$ 上是严格增函数。另外，因为方程 $r^k+2=3r$ 没有多于 2 个的正实根，且 $g'(1)=0$，所以，我们得到方程 $g'(t)=0$ 也没有多于 2 个的正实根，这表明\n$$g(t) \\leqslant \\max\\left\\{g(1),g\\left(\\frac{4}{3}\\right)\\right\\}=\\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$\n\n(2) 第二种情况 $k \\leqslant 1$。根据(1)已证明的结果(取 $k=1$)，我们有\n$$abc+bcd+cda+dab \\leqslant 4$$\n如果 $k$ 是一个小于 1 的正实数，则下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant 4$$\n\n(3) 第三种情况 $k \\geqslant 3$。\n\n注意到，$(c+d)^k-c^k-d^k \\geqslant kc^{k-1} \\geqslant 2c^k, 2(ab)^k \\geqslant (a^k+b^k)d^k$，所以\n$$(ab)^k[(c+d)^k-c^k-d^k] \\geqslant (a^k+b^k)c^kd^k$$\n$$\\Rightarrow (abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant (ab)^k(c+d)^k$$\n最后，由 AM-GM 不等式，有\n$$(ab)^k(c+d)^k \\leqslant \\left(\\frac{a+b+c+d}{3}\\right)^{3k}=\\left(\\frac{4}{3}\\right)^{3k}$$\n\n(4) 结论。\n\n对于每一个正实数 $k$，下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant \\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$",
+    "answer_md": "$\\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$",
+    "hints_md": "",
+    "original_text_md": "例 2.3.7(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数,且其和为 $4$,$k$ 是一个正的实常数,求下列表达式\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n的最大值.\n解 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,考虑下列几种情况.\n(1) 第一种情况(这是最重要的情况)$1 \\leqslant k \\leqslant 3$.\n设 $t=\\frac{a+c}{2},u=\\frac{a-c}{2}$,则\n$$a=t+u,c=t-u$$\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k=(b^k+d^k)(ac)^k+(bd)^k(a^k+c^k)$$\n令 $s=b^{-k}+d^{-k}$,考察函数\n$$f(u)=s(ac)^k+a^k+c^k=s(t^2-u^2)^k+(t+u)^k+(t-u)^k$$\n不难计算\n$$f'(u)=ku(t^2-u^2)^{k-1}\\left[-2s+\\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u}\\right]$$\n由于 $a \\geqslant b \\geqslant c \\geqslant d$,可见 $d \\leqslant t-u$.另一方面,因为 $k \\leqslant 3$,且 $\\delta(x)=x^{-k+1}$ 是 $x$ 的减函数,由 Lagrange 中值定理可知,存在一个实数 $\\alpha \\in [t-u,t+u]$,满足\n$$\\delta(t+u)-\\delta(t-u)=2u\\delta'(\\alpha)$$\n注意到,$\\alpha \\in [t-u,t+u]$,所以,我们有\n$$\\delta'(\\alpha)=(-k+1)\\alpha^{-k} \\geqslant (-k+1)(t-u)^{-k}$$\n所以\n$$\\delta(t+u)-\\delta(t-u) \\leqslant 2(k-1)u(t-u)^k$$\n$$\\Rightarrow \\frac{(t-u)^{-k+1}-(t+u)^{-k+1}}{2u} \\leqslant \\frac{k-1}{(t-u)^k} \\leqslant \\frac{2}{d^k} \\leqslant 2s$$\n因此 $f(u) \\leqslant f(0)$,这就是说,如果设\n$$F(a,b,c,d)=(abc)^k+(bcd)^k+(cda)^k+(dab)^k$$\n则\n$$F(a,b,c,d) \\geqslant F\\left(\\frac{a+c}{2},b,\\frac{a+c}{2},d\\right)$$\n根据 SMV 定理,只需求在 $a=b=c=t \\geqslant d=4-3t$ 的情况下,原表达式的最大值即可.此时,有\n$$\\sum (abc)^k=t^{3k}+3t^{2k}(4-3t)^k=g(t)$$\n$g(t)$ 的一阶导数是\n$$g'(t)=3kt^{3k-1}+6kt^{2k-1}(4-3t)^k-9kt^{2k}(4-3t)^{k-1}$$\n所以,$g'(t)=0 \\Leftrightarrow t^k+2(4-3t)^k=3t(4-3t)^k$.因此可见,$g'(t)$ 的符号和下列函数的符号是一样的\n$$P(t)=\\left(\\frac{t}{4-3t}\\right)^k+2-\\frac{3t}{4-3t}$$\n令 $r=r(t)=t(4-3t)^{-1}$,显然,$r(t)$ 在 $t \\in \\left[1,\\frac{4}{3}\\right)$ 上是严格增函数.另外,因为方程 $r^k+2=3r$ 没有多于 2 个的正实根,且 $g'(1)=0$,所以,我们得到方程 $g'(t)=0$ 也没有多于 2 个的正实根,这表明\n$$g(t) \\leqslant \\max\\left\\{g(1),g\\left(\\frac{4}{3}\\right)\\right\\}=\\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$\n(2) 第二种情况 $k \\leqslant 1$.根据(1)已证明的结果(取 $k=1$),我们有\n$$abc+bcd+cda+dab \\leqslant 4$$\n如果 $k$ 是一个小于 1 的正实数,则下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant 4$$\n(3) 第三种情况 $k \\geqslant 3$.\n注意到,$(c+d)^k-c^k-d^k \\geqslant kc^{k-1} \\geqslant 2c^k,2(ab)^k \\geqslant (a^k+b^k)d^k$,所以\n$$(ab)^k[(c+d)^k-c^k-d^k] \\geqslant (a^k+b^k)c^kd^k$$\n$$\\Rightarrow (abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant (ab)^k(c+d)^k$$\n最后,由 AM-GM 不等式,有\n$$(ab)^k(c+d)^k \\leqslant \\left(\\frac{a+b+c+d}{3}\\right)^{3k}=\\left(\\frac{4}{3}\\right)^{3k}$$\n(4) 结论.\n对于每一个正实数 $k$,下列不等式成立\n$$(abc)^k+(bcd)^k+(cda)^k+(dab)^k \\leqslant \\max\\left\\{4,\\left(\\frac{4}{3}\\right)^{3k}\\right\\}$$",
+    "tags": [
+      "SMV定理",
+      "四元不等式",
+      "最值问题",
+      "Lagrange中值定理"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "uid": "p172_173_例_531_c21d04a1bd",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.1",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    172,
+    173
+  ],
+  "source_images": [
+    "page-172.jpg",
+    "page-173.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(c+1)^2}+\\frac{1}{1+a+b+c}\\geqslant 1$$",
+  "solution_md": "使用下列恒等式（注意条件 $abc=1$）\n$$\\sum\\frac{1}{(1+a)^2}+\\frac{2}{(1+a)(1+b)(1+c)}-1=\\frac{a^2+b^2+c^2-3}{(1+a)^2(1+b)^2(1+c)^2}$$\n$$\\frac{1}{1+a+b+c}-\\frac{2}{(1+a)(1+b)(1+c)}=\\frac{ab+bc+ca-a-b-c}{(1+a)(1+b)(1+c)(1+a+b+c)}$$\n\n所以，我们有\n$$\\begin{aligned}&\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{1+a+b+c}-1\\\\=&\\frac{(a^2+b^2+c^2-3)(a+b+c)+a^2b^2+b^2c^2+c^2a^2-3}{(1+a)^2(1+b)^2(1+c)^2(1+a+b+c)}\\geqslant 0\\end{aligned}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.1(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(c+1)^2}+\\frac{1}{1+a+b+c}\\geqslant 1$$\n证明 使用下列恒等式（注意条件 $abc=1$）\n$$\\sum\\frac{1}{(1+a)^2}+\\frac{2}{(1+a)(1+b)(1+c)}-1=\\frac{a^2+b^2+c^2-3}{(1+a)^2(1+b)^2(1+c)^2}$$\n$$\\frac{1}{1+a+b+c}-\\frac{2}{(1+a)(1+b)(1+c)}=\\frac{ab+bc+ca-a-b-c}{(1+a)(1+b)(1+c)(1+a+b+c)}$$\n所以，我们有\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{1+a+b+c}-1$$\n$$=\\frac{(a^2+b^2+c^2-3)(a+b+c)+a^2b^2+b^2c^2+c^2a^2-3}{(1+a)^2(1+b)^2(1+c)^2(1+a+b+c)}\\geqslant 0$$",
+  "tags": [
+    "恒等式",
+    "条件不等式",
+    "abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "c21d04a1bdf08dd716f0f2b8c60c2e74b634b900",
+  "raw_problem": {
+    "problem_id": "例 5.3.1",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      172,
+      173
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(c+1)^2}+\\frac{1}{1+a+b+c}\\geqslant 1$$",
+    "solution_md": "使用下列恒等式（注意条件 $abc=1$）\n$$\\sum\\frac{1}{(1+a)^2}+\\frac{2}{(1+a)(1+b)(1+c)}-1=\\frac{a^2+b^2+c^2-3}{(1+a)^2(1+b)^2(1+c)^2}$$\n$$\\frac{1}{1+a+b+c}-\\frac{2}{(1+a)(1+b)(1+c)}=\\frac{ab+bc+ca-a-b-c}{(1+a)(1+b)(1+c)(1+a+b+c)}$$\n\n所以，我们有\n$$\\begin{aligned}&\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{1+a+b+c}-1\\\\=&\\frac{(a^2+b^2+c^2-3)(a+b+c)+a^2b^2+b^2c^2+c^2a^2-3}{(1+a)^2(1+b)^2(1+c)^2(1+a+b+c)}\\geqslant 0\\end{aligned}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.1(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(c+1)^2}+\\frac{1}{1+a+b+c}\\geqslant 1$$\n证明 使用下列恒等式（注意条件 $abc=1$）\n$$\\sum\\frac{1}{(1+a)^2}+\\frac{2}{(1+a)(1+b)(1+c)}-1=\\frac{a^2+b^2+c^2-3}{(1+a)^2(1+b)^2(1+c)^2}$$\n$$\\frac{1}{1+a+b+c}-\\frac{2}{(1+a)(1+b)(1+c)}=\\frac{ab+bc+ca-a-b-c}{(1+a)(1+b)(1+c)(1+a+b+c)}$$\n所以，我们有\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{1+a+b+c}-1$$\n$$=\\frac{(a^2+b^2+c^2-3)(a+b+c)+a^2b^2+b^2c^2+c^2a^2-3}{(1+a)^2(1+b)^2(1+c)^2(1+a+b+c)}\\geqslant 0$$",
+    "tags": [
+      "恒等式",
+      "条件不等式",
+      "abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

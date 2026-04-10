@@ -1,0 +1,61 @@
+{
+  "uid": "p219_221_例787_de034d6a56",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    219,
+    220,
+    221
+  ],
+  "source_images": [
+    "page-219.jpg",
+    "page-220.jpg",
+    "page-221.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{2\\sqrt{2}-1}{2}$，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}\\geqslant k\\left(\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1\\right)+\\frac{3}{2}$$",
+  "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，把不等式写成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(ab+b^2+5ca)(c-a)(c-b)}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n$$N=\\frac{a+b+2c}{2(a+b)(b+c)(c+a)}+\\frac{k(b-a)}{ab^2+bc^2+ca^2}+$$\n$$\\frac{(ab+b^2+5ca)(a-b)^2}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n\n当然\n$$M(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)$$\n$$=(a+b)(ab^2+bc^2+ca^2)-(ab+b^2+5ac)(c-a)(c-b)$$\n$$=c(a^3+b^3-3a^2b+2ab^3)+5ac^2(b-c)+5a^2c^2$$\n$$\\geqslant c(a^3+b^3-3a^2b+2ab^3)\\geqslant 0$$\n\n令 $t=\\frac{b}{a}$，如果 $t\\geqslant 1$，则显然 $N\\geqslant 0$。考虑 $0<t\\leqslant 1$ 的情况，则\n$$2(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)N$$\n$$=(a+b+2c)(ab^2+bc^2+ca^2)+2k(b^2-a^2)(a+c)(b+c)+$$\n$$2(ab+b^2+5ca)(a-b)^2$$\n$$=(a+b)[ab^2+2kab(b-a)+2b(a-b)^2]+$$\n$$[2bc^3+2c^2a^2+abc^2+b^2c^2+2kc^2(b^2-a^2)]+$$\n$$c[2ab^2+a^3+a^2b+2k(b^2-a^2)(a+b)+10a(a-b)^2]$$\n$$\\geqslant c[(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3]+$$\n$$b(a+b)[(2-2k)a^2+(2k-3)ab+2b^2]$$\n\n设\n$$P=(2-2k)a^2+(2k-3)ab+2b^2=a^2[(2-2k)+(2k-3)t+2t^2]=a^2g(t)$$\n通过对函数 $g(t)$，求导数等运算，我们得到\n$$\\min_{t\\in[0,1]}g(t)=g\\left(\\frac{3-2k}{4}\\right)=g\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right)=0$$\n\n设\n$$Q=(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3$$\n$$=a^3[(11-2k)-(2k+19)t+(2k+12)t^2+2kt^3]=a^3h(t)$$\n容易证明，当 $t\\in[0,1]$ 时，$h(t)\\geqslant 0$，所以，$Q\\geqslant 0\\Rightarrow N\\geqslant 0$。\n\n所以，原不等式成立。等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim\\left(1,\\frac{\\sqrt{2}-1}{\\sqrt{2}},0\\right)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.7(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{2\\sqrt{2}-1}{2}$，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}\\geqslant k\\left(\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1\\right)+\\frac{3}{2}$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，把不等式写成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(ab+b^2+5ca)(c-a)(c-b)}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n$$N=\\frac{a+b+2c}{2(a+b)(b+c)(c+a)}+\\frac{k(b-a)}{ab^2+bc^2+ca^2}+$$\n$$\\frac{(ab+b^2+5ca)(a-b)^2}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n\n当然\n$$M(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)$$\n$$=(a+b)(ab^2+bc^2+ca^2)-(ab+b^2+5ac)(c-a)(c-b)$$\n$$=c(a^3+b^3-3a^2b+2ab^3)+5ac^2(b-c)+5a^2c^2$$\n$$\\geqslant c(a^3+b^3-3a^2b+2ab^3)\\geqslant 0$$\n\n令 $t=\\frac{b}{a}$，如果 $t\\geqslant 1$，则显然 $N\\geqslant 0$。考虑 $0<t\\leqslant 1$ 的情况，则\n$$2(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)N$$\n$$=(a+b+2c)(ab^2+bc^2+ca^2)+2k(b^2-a^2)(a+c)(b+c)+$$\n$$2(ab+b^2+5ca)(a-b)^2$$\n$$=(a+b)[ab^2+2kab(b-a)+2b(a-b)^2]+$$\n$$[2bc^3+2c^2a^2+abc^2+b^2c^2+2kc^2(b^2-a^2)]+$$\n$$c[2ab^2+a^3+a^2b+2k(b^2-a^2)(a+b)+10a(a-b)^2]$$\n$$\\geqslant c[(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3]+$$\n$$b(a+b)[(2-2k)a^2+(2k-3)ab+2b^2]$$\n\n设\n$$P=(2-2k)a^2+(2k-3)ab+2b^2=a^2[(2-2k)+(2k-3)t+2t^2]=a^2g(t)$$\n通过对函数 $g(t)$，求导数等运算，我们得到\n$$\\min_{t\\in[0,1]}g(t)=g\\left(\\frac{3-2k}{4}\\right)=g\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right)=0$$\n\n设\n$$Q=(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3$$\n$$=a^3[(11-2k)-(2k+19)t+(2k+12)t^2+2kt^3]=a^3h(t)$$\n容易证明，当 $t\\in[0,1]$ 时，$h(t)\\geqslant 0$，所以，$Q\\geqslant 0\\Rightarrow N\\geqslant 0$。\n\n所以，原不等式成立。等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim\\left(1,\\frac{\\sqrt{2}-1}{\\sqrt{2}},0\\right)$。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "Nesbitt型不等式",
+    "最佳常数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "de034d6a56d9c5ae035ff74a0c52512263ff7138",
+  "raw_problem": {
+    "problem_id": "例7.8.7",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      219,
+      220,
+      221
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{2\\sqrt{2}-1}{2}$，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}\\geqslant k\\left(\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1\\right)+\\frac{3}{2}$$",
+    "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，把不等式写成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(ab+b^2+5ca)(c-a)(c-b)}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n$$N=\\frac{a+b+2c}{2(a+b)(b+c)(c+a)}+\\frac{k(b-a)}{ab^2+bc^2+ca^2}+$$\n$$\\frac{(ab+b^2+5ca)(a-b)^2}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n\n当然\n$$M(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)$$\n$$=(a+b)(ab^2+bc^2+ca^2)-(ab+b^2+5ac)(c-a)(c-b)$$\n$$=c(a^3+b^3-3a^2b+2ab^3)+5ac^2(b-c)+5a^2c^2$$\n$$\\geqslant c(a^3+b^3-3a^2b+2ab^3)\\geqslant 0$$\n\n令 $t=\\frac{b}{a}$，如果 $t\\geqslant 1$，则显然 $N\\geqslant 0$。考虑 $0<t\\leqslant 1$ 的情况，则\n$$2(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)N$$\n$$=(a+b+2c)(ab^2+bc^2+ca^2)+2k(b^2-a^2)(a+c)(b+c)+$$\n$$2(ab+b^2+5ca)(a-b)^2$$\n$$=(a+b)[ab^2+2kab(b-a)+2b(a-b)^2]+$$\n$$[2bc^3+2c^2a^2+abc^2+b^2c^2+2kc^2(b^2-a^2)]+$$\n$$c[2ab^2+a^3+a^2b+2k(b^2-a^2)(a+b)+10a(a-b)^2]$$\n$$\\geqslant c[(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3]+$$\n$$b(a+b)[(2-2k)a^2+(2k-3)ab+2b^2]$$\n\n设\n$$P=(2-2k)a^2+(2k-3)ab+2b^2=a^2[(2-2k)+(2k-3)t+2t^2]=a^2g(t)$$\n通过对函数 $g(t)$，求导数等运算，我们得到\n$$\\min_{t\\in[0,1]}g(t)=g\\left(\\frac{3-2k}{4}\\right)=g\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right)=0$$\n\n设\n$$Q=(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3$$\n$$=a^3[(11-2k)-(2k+19)t+(2k+12)t^2+2kt^3]=a^3h(t)$$\n容易证明，当 $t\\in[0,1]$ 时，$h(t)\\geqslant 0$，所以，$Q\\geqslant 0\\Rightarrow N\\geqslant 0$。\n\n所以，原不等式成立。等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim\\left(1,\\frac{\\sqrt{2}-1}{\\sqrt{2}},0\\right)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.7(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{2\\sqrt{2}-1}{2}$，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}\\geqslant k\\left(\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1\\right)+\\frac{3}{2}$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，把不等式写成如下形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(ab+b^2+5ca)(c-a)(c-b)}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n$$N=\\frac{a+b+2c}{2(a+b)(b+c)(c+a)}+\\frac{k(b-a)}{ab^2+bc^2+ca^2}+$$\n$$\\frac{(ab+b^2+5ca)(a-b)^2}{(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)}$$\n\n当然\n$$M(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)$$\n$$=(a+b)(ab^2+bc^2+ca^2)-(ab+b^2+5ac)(c-a)(c-b)$$\n$$=c(a^3+b^3-3a^2b+2ab^3)+5ac^2(b-c)+5a^2c^2$$\n$$\\geqslant c(a^3+b^3-3a^2b+2ab^3)\\geqslant 0$$\n\n令 $t=\\frac{b}{a}$，如果 $t\\geqslant 1$，则显然 $N\\geqslant 0$。考虑 $0<t\\leqslant 1$ 的情况，则\n$$2(ab^2+bc^2+ca^2)(a+b)(b+c)(c+a)N$$\n$$=(a+b+2c)(ab^2+bc^2+ca^2)+2k(b^2-a^2)(a+c)(b+c)+$$\n$$2(ab+b^2+5ca)(a-b)^2$$\n$$=(a+b)[ab^2+2kab(b-a)+2b(a-b)^2]+$$\n$$[2bc^3+2c^2a^2+abc^2+b^2c^2+2kc^2(b^2-a^2)]+$$\n$$c[2ab^2+a^3+a^2b+2k(b^2-a^2)(a+b)+10a(a-b)^2]$$\n$$\\geqslant c[(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3]+$$\n$$b(a+b)[(2-2k)a^2+(2k-3)ab+2b^2]$$\n\n设\n$$P=(2-2k)a^2+(2k-3)ab+2b^2=a^2[(2-2k)+(2k-3)t+2t^2]=a^2g(t)$$\n通过对函数 $g(t)$，求导数等运算，我们得到\n$$\\min_{t\\in[0,1]}g(t)=g\\left(\\frac{3-2k}{4}\\right)=g\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right)=0$$\n\n设\n$$Q=(11-2k)a^3-(2k+19)a^2b+(2k+12)ab^2+2kb^3$$\n$$=a^3[(11-2k)-(2k+19)t+(2k+12)t^2+2kt^3]=a^3h(t)$$\n容易证明，当 $t\\in[0,1]$ 时，$h(t)\\geqslant 0$，所以，$Q\\geqslant 0\\Rightarrow N\\geqslant 0$。\n\n所以，原不等式成立。等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim\\left(1,\\frac{\\sqrt{2}-1}{\\sqrt{2}},0\\right)$。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "Nesbitt型不等式",
+      "最佳常数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "uid": "p171_171_例528_e8c2b98b60",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    171
+  ],
+  "source_images": [
+    "page-171.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}+\\sqrt[3]{\\frac{b^3+c^3}{2}}+\\sqrt[3]{\\frac{c^3+d^3}{2}}+\\sqrt[3]{\\frac{d^3+a^3}{2}}\\leqslant2(a+b+c+d)-4$$",
+  "solution_md": "首先证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}\\leqslant\\frac{a^2+b^2}{a+b}$$\n事实上，上面的不等式等价于\n$$(a+b)^3(a^3+b^3)\\leqslant2(a^2+b^2)^3\\Leftrightarrow(a-b)^4(a^2+ab+b^2)\\geqslant0$$\n回到原问题，我们只需证明\n$$\\sum\\frac{a^2+b^2}{a+b}\\leqslant2(a+b+c+d)-4$$\n$$\\Leftrightarrow\\sum\\left(a+b-\\frac{ab}{a+b}\\right)\\geqslant4$$\n$$\\Leftrightarrow\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\geqslant2$$\n由 Cauchy-Schwarz 不等式，并注意条件 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，则\n$$8\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}=\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\cdot\\sum\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\geqslant16$$\n所以，原不等式成立，等号成立的条件是 $a=b=c=d=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.8(Poland MO 2007) 设 $a,b,c,d$ 是正实数，满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}+\\sqrt[3]{\\frac{b^3+c^3}{2}}+\\sqrt[3]{\\frac{c^3+d^3}{2}}+\\sqrt[3]{\\frac{d^3+a^3}{2}}\\leqslant2(a+b+c+d)-4$$\n证明 首先证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}\\leqslant\\frac{a^2+b^2}{a+b}$$\n事实上，上面的不等式等价于\n$$(a+b)^3(a^3+b^3)\\leqslant2(a^2+b^2)^3\\Leftrightarrow(a-b)^4(a^2+ab+b^2)\\geqslant0$$\n回到原问题，我们只需证明\n$$\\sum\\frac{a^2+b^2}{a+b}\\leqslant2(a+b+c+d)-4$$\n$$\\Leftrightarrow\\sum\\left(a+b-\\frac{ab}{a+b}\\right)\\geqslant4$$\n$$\\Leftrightarrow\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\geqslant2$$\n由 Cauchy-Schwarz 不等式，并注意条件 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，则\n$$8\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}=\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\cdot\\sum\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\geqslant16$$\n所以，原不等式成立，等号成立的条件是 $a=b=c=d=1$。",
+  "tags": [
+    "Poland MO 2007",
+    "Cauchy-Schwarz不等式",
+    "分离技巧",
+    "四变量不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "e8c2b98b6054a73fb5fc7023f8e71b7dbe2b4ae8",
+  "raw_problem": {
+    "problem_id": "例5.2.8",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": null,
+    "source_pages": [
+      171
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}+\\sqrt[3]{\\frac{b^3+c^3}{2}}+\\sqrt[3]{\\frac{c^3+d^3}{2}}+\\sqrt[3]{\\frac{d^3+a^3}{2}}\\leqslant2(a+b+c+d)-4$$",
+    "solution_md": "首先证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}\\leqslant\\frac{a^2+b^2}{a+b}$$\n事实上，上面的不等式等价于\n$$(a+b)^3(a^3+b^3)\\leqslant2(a^2+b^2)^3\\Leftrightarrow(a-b)^4(a^2+ab+b^2)\\geqslant0$$\n回到原问题，我们只需证明\n$$\\sum\\frac{a^2+b^2}{a+b}\\leqslant2(a+b+c+d)-4$$\n$$\\Leftrightarrow\\sum\\left(a+b-\\frac{ab}{a+b}\\right)\\geqslant4$$\n$$\\Leftrightarrow\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\geqslant2$$\n由 Cauchy-Schwarz 不等式，并注意条件 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，则\n$$8\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}=\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\cdot\\sum\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\geqslant16$$\n所以，原不等式成立，等号成立的条件是 $a=b=c=d=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.8(Poland MO 2007) 设 $a,b,c,d$ 是正实数，满足 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}+\\sqrt[3]{\\frac{b^3+c^3}{2}}+\\sqrt[3]{\\frac{c^3+d^3}{2}}+\\sqrt[3]{\\frac{d^3+a^3}{2}}\\leqslant2(a+b+c+d)-4$$\n证明 首先证明\n$$\\sqrt[3]{\\frac{a^3+b^3}{2}}\\leqslant\\frac{a^2+b^2}{a+b}$$\n事实上，上面的不等式等价于\n$$(a+b)^3(a^3+b^3)\\leqslant2(a^2+b^2)^3\\Leftrightarrow(a-b)^4(a^2+ab+b^2)\\geqslant0$$\n回到原问题，我们只需证明\n$$\\sum\\frac{a^2+b^2}{a+b}\\leqslant2(a+b+c+d)-4$$\n$$\\Leftrightarrow\\sum\\left(a+b-\\frac{ab}{a+b}\\right)\\geqslant4$$\n$$\\Leftrightarrow\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\geqslant2$$\n由 Cauchy-Schwarz 不等式，并注意条件 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}=1$，则\n$$8\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}=\\sum\\frac{1}{\\frac{1}{a}+\\frac{1}{b}}\\cdot\\sum\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\geqslant16$$\n所以，原不等式成立，等号成立的条件是 $a=b=c=d=1$。",
+    "tags": [
+      "Poland MO 2007",
+      "Cauchy-Schwarz不等式",
+      "分离技巧",
+      "四变量不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

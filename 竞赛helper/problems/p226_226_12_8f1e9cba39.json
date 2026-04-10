@@ -1,0 +1,57 @@
+{
+  "uid": "p226_226_12_8f1e9cba39",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "source_images": [
+    "page-226.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung) 设 $a,b,c$ 是 $\\left[1,\\dfrac{8}{3}\\right]$ 上的实数，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "12.(Pham Kim Hung) 设 $a,b,c$ 是 $\\left[1,\\dfrac{8}{3}\\right]$ 上的实数，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+  "tags": [
+    "inequality",
+    "cyclic",
+    "fractions",
+    "Pham Kim Hung",
+    "constrained"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026",
+  "raw_response_file": "raw/chunk-0026.response.txt",
+  "raw_api_file": "raw/chunk-0026.api.json",
+  "fingerprint": "8f1e9cba3985e67889f00264bae4d3bb41d49b68",
+  "raw_problem": {
+    "problem_id": "12",
+    "problem_type": "exercise",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      226
+    ],
+    "stem_md": "(Pham Kim Hung) 设 $a,b,c$ 是 $\\left[1,\\dfrac{8}{3}\\right]$ 上的实数，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "12.(Pham Kim Hung) 设 $a,b,c$ 是 $\\left[1,\\dfrac{8}{3}\\right]$ 上的实数，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+    "tags": [
+      "inequality",
+      "cyclic",
+      "fractions",
+      "Pham Kim Hung",
+      "constrained"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

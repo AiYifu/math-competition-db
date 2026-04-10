@@ -1,0 +1,32 @@
+{
+  "choices": [
+    {
+      "message": {
+        "content": "```json\n{\n  \"chunk_id\": \"chunk-0002\",\n  \"book_title\": \"不等式的秘密 第1卷 第2版\",\n  \"page_range\": \"10-18\",\n  \"problems\": [],\n  \"notes_md\": \"本批次包含的页面主要为术语定义、图书目录和目录页，没有具体的数学题目和解答。\\n\\n**第10页（图片第1页）**：术语定义页，包含轮换和、轮换积、对称和的定义与记号说明。\\n\\n**第11页（图片第2页）**：术语定义页，包含AM-GM不等式、加权AM-GM不等式、Cauchy-Schwarz不等式、Hölder不等式、Chebyshev不等式、Jensen不等式、Schur不等式、Suranyi不等式、Schur不等式的扩展等经典不等式的定义。\\n\\n**第12页（图片第3页）**：术语定义页，包含Schur不等式扩展的完整公式和对称优超原则的定义。\\n\\n**第13-17页（图片第4-8页）**：哈尔滨工业大学出版社刘培杰数学工作室已出版（即将出版）图书目录，包含各类数学书籍的书名、出版时间、定价和编号信息。\\n\\n**第18页（图片第9页）**：本书目录页，包含第1-7章的章节结构及页码信息。\"\n}\n```",
+        "reasoning_content": "",
+        "role": "assistant"
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "object": "chat.completion",
+  "usage": {
+    "prompt_tokens": 38391,
+    "completion_tokens": 296,
+    "total_tokens": 38687,
+    "completion_tokens_details": {
+      "text_tokens": 296
+    },
+    "prompt_tokens_details": {
+      "image_tokens": 37701,
+      "text_tokens": 690,
+      "cached_tokens": 0
+    }
+  },
+  "created": 1775569162,
+  "system_fingerprint": null,
+  "model": "kimi-k2.5",
+  "id": "chatcmpl-2d5207c0-ac46-900a-b602-4bdd7989408f"
+}

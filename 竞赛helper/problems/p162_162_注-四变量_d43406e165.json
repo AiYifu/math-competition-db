@@ -1,0 +1,51 @@
+{
+  "uid": "p162_162_注-四变量_d43406e165",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "注-四变量",
+  "problem_type": "remark",
+  "title": "注",
+  "source_pages": [
+    162
+  ],
+  "source_images": [
+    "page-162.jpg"
+  ],
+  "stem_md": "使用同样的方法，我们得到四变量的类似的不等式：\n\n设 $a,b,c,d$ 是正实数，且满足 $a^2+b^2+c^2+d^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-cd} + \\frac{1}{1-da} + \\frac{1}{1-ac} + \\frac{1}{1-bd} \\leqslant 8$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "注 使用同样的方法，我们得到四变量的类似的不等式：\n\n设 $a,b,c,d$ 是正实数，且满足 $a^2+b^2+c^2+d^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-cd} + \\frac{1}{1-da} + \\frac{1}{1-ac} + \\frac{1}{1-bd} \\leqslant 8$$",
+  "tags": [
+    "注",
+    "四变量推广"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "d43406e1657d2c259a89f21f54b5499cb8813ff9",
+  "raw_problem": {
+    "problem_id": "注-四变量",
+    "problem_type": "remark",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "注",
+    "source_pages": [
+      162
+    ],
+    "stem_md": "使用同样的方法，我们得到四变量的类似的不等式：\n\n设 $a,b,c,d$ 是正实数，且满足 $a^2+b^2+c^2+d^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-cd} + \\frac{1}{1-da} + \\frac{1}{1-ac} + \\frac{1}{1-bd} \\leqslant 8$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "注 使用同样的方法，我们得到四变量的类似的不等式：\n\n设 $a,b,c,d$ 是正实数，且满足 $a^2+b^2+c^2+d^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-cd} + \\frac{1}{1-da} + \\frac{1}{1-ac} + \\frac{1}{1-bd} \\leqslant 8$$",
+    "tags": [
+      "注",
+      "四变量推广"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

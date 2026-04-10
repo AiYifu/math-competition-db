@@ -1,0 +1,54 @@
+{
+  "uid": "p205_206_例745_f6f3f8920e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "例7.4.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    205,
+    206
+  ],
+  "source_images": [
+    "page-205.jpg",
+    "page-206.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$\\sum a(a-1)^2+2\\left(1+\\sqrt{\\frac{32}{27}}\\right)\\geqslant \\sum a^2-\\sum abc$$",
+  "solution_md": "因为不等式是三次对称不等式，所以，我们只考虑下列情况：\n\n(1) 第一种情况 $a=b=c=d=t$，此时，不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=4t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-4t^2+4t^3\\\\&=\\left[4\\left(t-\\frac{9+\\sqrt{6}}{12}\\right)^2+\\frac{1+2\\sqrt{6}}{4}\\right]\\left(2t+\\frac{\\sqrt{6}}{3}\\right)\\geqslant 0\\end{aligned}$$\n显然成立。\n\n(2) 第二种情况 $a=b=c=t,d=0$，此时，不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=3t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-3t^2+t^3\\\\&=\\left(\\frac{7+3\\sqrt{5}}{2}t+\\frac{9+5\\sqrt{5}}{8}\\right)[(3-\\sqrt{5})t-1]^2+\\\\&\\quad\\frac{7-5\\sqrt{5}}{8}+\\frac{8\\sqrt{6}}{9}\\geqslant 0\\end{aligned}$$\n显然成立。\n\n(3) 第三种情况 $a=b=t,c=d=0$，此时，不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=2t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-2t^2\\\\&=\\frac{2}{27}(3t+2\\sqrt{6}-3)(-3t+3+\\sqrt{6})^2\\geqslant 0\\end{aligned}$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。\n\n(4) 第四种情况 $a=t,b=c=d=0$，此时不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-t^2\\\\&=\\left(\\frac{5+2\\sqrt{6}}{3}t+\\frac{9+4\\sqrt{6}}{9}\\right)[(3-\\sqrt{6})t-1]^2+1+\\frac{4}{9}\\sqrt{6}\\geqslant 0\\end{aligned}$$\n\n综上所述，原不等式成立。等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.4.5(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是非负实数，证明\n$$\\sum a(a-1)^2+2\\left(1+\\sqrt{\\frac{32}{27}}\\right)\\geqslant \\sum a^2-\\sum abc$$\n证明 因为不等式是三次对称不等式，所以，我们只考虑下列情况：\n(1) 第一种情况 $a=b=c=d=t$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=4t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-4t^2+4t^3$$\n$$=\\left[4\\left(t-\\frac{9+\\sqrt{6}}{12}\\right)^2+\\frac{1+2\\sqrt{6}}{4}\\right]\\left(2t+\\frac{\\sqrt{6}}{3}\\right)\\geqslant 0$$\n显然成立。\n(2) 第二种情况 $a=b=c=t,d=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=3t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-3t^2+t^3$$\n$$=\\left(\\frac{7+3\\sqrt{5}}{2}t+\\frac{9+5\\sqrt{5}}{8}\\right)[(3-\\sqrt{5})t-1]^2+$$\n$$\\frac{7-5\\sqrt{5}}{8}+\\frac{8\\sqrt{6}}{9}\\geqslant 0$$\n显然成立。\n(3) 第三种情况 $a=b=t,c=d=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=2t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-2t^2$$\n$$=\\frac{2}{27}(3t+2\\sqrt{6}-3)(-3t+3+\\sqrt{6})^2\\geqslant 0$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。\n(4) 第四种情况 $a=t,b=c=d=0$，此时不等式变成\n$$\\text{LHS}-\\text{RHS}=t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-t^2$$\n$$=\\left(\\frac{5+2\\sqrt{6}}{3}t+\\frac{9+4\\sqrt{6}}{9}\\right)[(3-\\sqrt{6})t-1]^2+1+\\frac{4}{9}\\sqrt{6}\\geqslant 0$$\n综上所述，原不等式成立。等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。",
+  "tags": [
+    "三次对称不等式",
+    "四变量"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "f6f3f8920ea167abe619a63a0847ca2e5da6f08c",
+  "raw_problem": {
+    "problem_id": "例7.4.5",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.4",
+    "title": null,
+    "source_pages": [
+      205,
+      206
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$\\sum a(a-1)^2+2\\left(1+\\sqrt{\\frac{32}{27}}\\right)\\geqslant \\sum a^2-\\sum abc$$",
+    "solution_md": "因为不等式是三次对称不等式，所以，我们只考虑下列情况：\n\n(1) 第一种情况 $a=b=c=d=t$，此时，不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=4t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-4t^2+4t^3\\\\&=\\left[4\\left(t-\\frac{9+\\sqrt{6}}{12}\\right)^2+\\frac{1+2\\sqrt{6}}{4}\\right]\\left(2t+\\frac{\\sqrt{6}}{3}\\right)\\geqslant 0\\end{aligned}$$\n显然成立。\n\n(2) 第二种情况 $a=b=c=t,d=0$，此时，不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=3t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-3t^2+t^3\\\\&=\\left(\\frac{7+3\\sqrt{5}}{2}t+\\frac{9+5\\sqrt{5}}{8}\\right)[(3-\\sqrt{5})t-1]^2+\\\\&\\quad\\frac{7-5\\sqrt{5}}{8}+\\frac{8\\sqrt{6}}{9}\\geqslant 0\\end{aligned}$$\n显然成立。\n\n(3) 第三种情况 $a=b=t,c=d=0$，此时，不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=2t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-2t^2\\\\&=\\frac{2}{27}(3t+2\\sqrt{6}-3)(-3t+3+\\sqrt{6})^2\\geqslant 0\\end{aligned}$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。\n\n(4) 第四种情况 $a=t,b=c=d=0$，此时不等式变成\n$$\\begin{aligned}\\text{LHS}-\\text{RHS}&=t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-t^2\\\\&=\\left(\\frac{5+2\\sqrt{6}}{3}t+\\frac{9+4\\sqrt{6}}{9}\\right)[(3-\\sqrt{6})t-1]^2+1+\\frac{4}{9}\\sqrt{6}\\geqslant 0\\end{aligned}$$\n\n综上所述，原不等式成立。等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.4.5(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是非负实数，证明\n$$\\sum a(a-1)^2+2\\left(1+\\sqrt{\\frac{32}{27}}\\right)\\geqslant \\sum a^2-\\sum abc$$\n证明 因为不等式是三次对称不等式，所以，我们只考虑下列情况：\n(1) 第一种情况 $a=b=c=d=t$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=4t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-4t^2+4t^3$$\n$$=\\left[4\\left(t-\\frac{9+\\sqrt{6}}{12}\\right)^2+\\frac{1+2\\sqrt{6}}{4}\\right]\\left(2t+\\frac{\\sqrt{6}}{3}\\right)\\geqslant 0$$\n显然成立。\n(2) 第二种情况 $a=b=c=t,d=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=3t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-3t^2+t^3$$\n$$=\\left(\\frac{7+3\\sqrt{5}}{2}t+\\frac{9+5\\sqrt{5}}{8}\\right)[(3-\\sqrt{5})t-1]^2+$$\n$$\\frac{7-5\\sqrt{5}}{8}+\\frac{8\\sqrt{6}}{9}\\geqslant 0$$\n显然成立。\n(3) 第三种情况 $a=b=t,c=d=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=2t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-2t^2$$\n$$=\\frac{2}{27}(3t+2\\sqrt{6}-3)(-3t+3+\\sqrt{6})^2\\geqslant 0$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。\n(4) 第四种情况 $a=t,b=c=d=0$，此时不等式变成\n$$\\text{LHS}-\\text{RHS}=t(t-1)^2+2+\\frac{8}{9}\\sqrt{6}-t^2$$\n$$=\\left(\\frac{5+2\\sqrt{6}}{3}t+\\frac{9+4\\sqrt{6}}{9}\\right)[(3-\\sqrt{6})t-1]^2+1+\\frac{4}{9}\\sqrt{6}\\geqslant 0$$\n综上所述，原不等式成立。等号成立的条件是 $a=b=1+\\frac{\\sqrt{6}}{3},c=d=0$ 及其轮换。",
+    "tags": [
+      "三次对称不等式",
+      "四变量"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

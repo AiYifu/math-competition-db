@@ -1,0 +1,51 @@
+{
+  "uid": "p032_032_例123_3261a3cc99",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2",
+  "section": null,
+  "problem_id": "例1.2.3",
+  "problem_type": "example",
+  "title": "求出下列表达式的SOS标准表示",
+  "source_pages": [
+    32
+  ],
+  "source_images": [
+    "page-032.jpg"
+  ],
+  "stem_md": "求出下列表达式的SOS标准表示\n$$\\frac{1}{2a^2+bc}+\\frac{1}{2b^2+ca}+\\frac{1}{2c^2+ab}-\\frac{3}{ab+bc+ca}$$",
+  "solution_md": "注意到\n$$\\frac{ab+bc+ca}{2a^2+bc}-1=\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n于是\n$$-3+\\sum\\frac{ab+bc+ca}{2a^2+bc}=\\sum\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n$$=\\sum(\\frac{b}{2b^2+ca}-\\frac{a}{2a^2+bc})(a-b)$$\n$$=\\sum\\frac{(2ab-ac-bc)(a-b)^2}{(2b^2+ca)(2a^2+bc)}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.2.3 求出下列表达式的 SOS 标准表示\n$$\\frac{1}{2a^2+bc}+\\frac{1}{2b^2+ca}+\\frac{1}{2c^2+ab}-\\frac{3}{ab+bc+ca}$$\n解 注意到\n$$\\frac{ab+bc+ca}{2a^2+bc}-1=\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n于是\n$$-3+\\sum\\frac{ab+bc+ca}{2a^2+bc}=\\sum\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n$$=\\sum(\\frac{b}{2b^2+ca}-\\frac{a}{2a^2+bc})(a-b)$$\n$$=\\sum\\frac{(2ab-ac-bc)(a-b)^2}{(2b^2+ca)(2a^2+bc)}$$",
+  "tags": [
+    "SOS",
+    "恒等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004",
+  "raw_response_file": "raw/chunk-0004.response.txt",
+  "raw_api_file": "raw/chunk-0004.api.json",
+  "fingerprint": "3261a3cc99ed0da3d5b092ca52296e60ea4ff05e",
+  "raw_problem": {
+    "problem_id": "例1.2.3",
+    "problem_type": "example",
+    "chapter": "1.2",
+    "section": null,
+    "title": "求出下列表达式的SOS标准表示",
+    "source_pages": [
+      32
+    ],
+    "stem_md": "求出下列表达式的SOS标准表示\n$$\\frac{1}{2a^2+bc}+\\frac{1}{2b^2+ca}+\\frac{1}{2c^2+ab}-\\frac{3}{ab+bc+ca}$$",
+    "solution_md": "注意到\n$$\\frac{ab+bc+ca}{2a^2+bc}-1=\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n于是\n$$-3+\\sum\\frac{ab+bc+ca}{2a^2+bc}=\\sum\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n$$=\\sum(\\frac{b}{2b^2+ca}-\\frac{a}{2a^2+bc})(a-b)$$\n$$=\\sum\\frac{(2ab-ac-bc)(a-b)^2}{(2b^2+ca)(2a^2+bc)}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.2.3 求出下列表达式的 SOS 标准表示\n$$\\frac{1}{2a^2+bc}+\\frac{1}{2b^2+ca}+\\frac{1}{2c^2+ab}-\\frac{3}{ab+bc+ca}$$\n解 注意到\n$$\\frac{ab+bc+ca}{2a^2+bc}-1=\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n于是\n$$-3+\\sum\\frac{ab+bc+ca}{2a^2+bc}=\\sum\\frac{a(b-a)+a(c-a)}{2a^2+bc}$$\n$$=\\sum(\\frac{b}{2b^2+ca}-\\frac{a}{2a^2+bc})(a-b)$$\n$$=\\sum\\frac{(2ab-ac-bc)(a-b)^2}{(2b^2+ca)(2a^2+bc)}$$",
+    "tags": [
+      "SOS",
+      "恒等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

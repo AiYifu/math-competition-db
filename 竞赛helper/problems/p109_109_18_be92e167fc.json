@@ -1,0 +1,49 @@
+{
+  "uid": "p109_109_18_be92e167fc",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "18",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "18. 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{\\frac{1-a}{1+a}}+\\sqrt{\\frac{1-b}{1+b}}+\\sqrt{\\frac{1-c}{1+c}} \\geqslant \\frac{2\\sqrt{3}+3}{3}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "18. 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{\\frac{1-a}{1+a}}+\\sqrt{\\frac{1-b}{1+b}}+\\sqrt{\\frac{1-c}{1+c}}\\geqslant\\frac{2\\sqrt{3}+3}{3}$$",
+  "tags": [
+    "a+b+c=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "be92e167fce8afc8be2a357cfb819ca26e33293d",
+  "raw_problem": {
+    "problem_id": "18",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "18. 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{\\frac{1-a}{1+a}}+\\sqrt{\\frac{1-b}{1+b}}+\\sqrt{\\frac{1-c}{1+c}} \\geqslant \\frac{2\\sqrt{3}+3}{3}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "18. 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{\\frac{1-a}{1+a}}+\\sqrt{\\frac{1-b}{1+b}}+\\sqrt{\\frac{1-c}{1+c}}\\geqslant\\frac{2\\sqrt{3}+3}{3}$$",
+    "tags": [
+      "a+b+c=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "uid": "p020_021_例114_ffd11efb84",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.1 平方分析法",
+  "section": null,
+  "problem_id": "例1.1.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    20,
+    21
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc \\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$",
+  "solution_md": "**证明及分析** 作为标题，SOS 表示\"平方和\"，因此，第一步也是最重要的一步，是把不等式表示成某些项的平方和的形式。\n\n下面两个表示都是已知的\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$\n和\n$$ab(a+b)+bc(b+c)+ca(c+a)-6abc$$\n$$=a(b-c)^2+b(c-a)^2+c(a-b)^2$$\n\n因此不等式等价于\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2 \\geqslant 0$$\n\n可是，这不是我们之前所希望的，$(a-b)^2,(b-c)^2,(c-a)^2$ 的系数并不总是非负。这个古老经典的方法似乎出问题了，是否有一个创新的想法，来处理这个问题呢？请稍后，让我们来开动开动脑筋。\n\n曾记得，我们在证明对称不等式的时候，通常使用\"重排变量次序\"的方法，那么，对于这个问题，当然，我们也可以这样做。不失一般性，设 $a \\geqslant b \\geqslant c$，在 $(a+b-c)(a-b)^2,(b+c-a)(b-c)^2,(c+a-b)(c-a)^2$ 这三项中，至少有一项是负的，即 $(b+c-a)(b-c)^2$（当然，如果这个项是非负的，不等式得证）。假设 $r=(b+c-a)(b-c)^2 \\leqslant 0$，对于其他两个非负项 $(a+b-c)(a-b)^2$ 和 $(c+a-b)(c-a)^2$ 之间，我们注意到 $(b+c-a)(b-c)^2$ 和 $r$ 相比较是非常大的，这是什么原因呢？简单地，我们有\n$$a+c-b \\geqslant |b+c-a|$$\n$$(a-c)^2 \\geqslant (b-c)^2$$\n\n结果是 $(c+a-b)(a-c)^2 \\geqslant |r|$。最后，我们可以推出\n$$(a+b-c)(a-b)^2+(b+c-a)(b-c)^2+(c+a-b)(c-a)^2$$\n$$\\geqslant (c+a-b)(c-a)^2+r \\geqslant 0$$\n\n在这个解答中，有不同寻常的东西，不同于先前的解答。我发现两个问题：首先，重排变量的次序是非常必要的一步，因为，由这一步，我们可以确定 $\\alpha,\\beta,\\gamma$ 的非负性；第二，概括出\"很大的非负项\"和\"很小的负项\"，从而得到一个非负数的一步是最重要的过程，因为，这完成了整个证明。在这里，我们感受到了 SOS 方法的神奇。",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "SOS方法",
+    "平方分析法",
+    "重排变量",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "ffd11efb84d3ec106bf878f023bffb63ad713b6f"
+}

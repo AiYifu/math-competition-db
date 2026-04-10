@@ -1,0 +1,51 @@
+{
+  "uid": "p057_058_例149_3e21b4e7da",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    57,
+    58
+  ],
+  "source_images": [],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$(ab+bc+ca)(a^2+b^2+c^2)\\leqslant3(a^3b+cb^3+ac^3)$$",
+  "solution_md": "我们有\n$$3\\sum a^3b-(ab+bc+ca)\\sum a^2$$\n$$=2\\sum a^3b-\\sum ab^3-\\sum a^2bc$$\n$$=\\frac{1}{2}\\left(\\sum a^3b+\\sum ab^3-2\\sum a^2bc\\right)+\\frac{3}{2}\\left(\\sum a^3b-\\sum ab^3\\right)$$\n$$=\\frac{1}{2}\\sum(ab+c^2)(a-b)^2+\\frac{3}{2}(a+b+c)(a-b)(b-c)(a-c)$$\n$$=\\frac{1}{2}\\sum(c^2+b^2-a^2+cb-ca+ab)(a-b)^2$$\n$$=\\frac{1}{2}\\sum(b^2-a^2+2cb)(a-b)^2$$\n\n由于 $a,b,c$ 是某三角形的三边长，所以，可以设 $a=y+z,b=z+x,c=x+y$，则不等式变成\n$$\\sum(3x^2+4xz+2xy-y^2)(x-y)^2\\geqslant0$$\n\n只需证明不等式在 $a\\leqslant b\\leqslant c$ 或者 $x\\geqslant y\\geqslant z$ 的情况下成立即可。\n\n记\n$$S_x=3y^2+4xy+2yz-z^2$$\n$$S_y=3z^2+4yz+2zx-x^2$$\n$$S_z=3x^2+4zx+2xy-y^2$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.9(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$(ab+bc+ca)(a^2+b^2+c^2)\\leqslant3(a^3b+cb^3+ac^3)$$\n证明 我们有...",
+  "tags": [
+    "SOS方法",
+    "三角形边长"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "3e21b4e7daa3f5273aa56c2cc3f982e2fb14ce6a",
+  "raw_problem": {
+    "problem_id": "例1.4.9",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      57,
+      58
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$(ab+bc+ca)(a^2+b^2+c^2)\\leqslant3(a^3b+cb^3+ac^3)$$",
+    "solution_md": "我们有\n$$3\\sum a^3b-(ab+bc+ca)\\sum a^2$$\n$$=2\\sum a^3b-\\sum ab^3-\\sum a^2bc$$\n$$=\\frac{1}{2}\\left(\\sum a^3b+\\sum ab^3-2\\sum a^2bc\\right)+\\frac{3}{2}\\left(\\sum a^3b-\\sum ab^3\\right)$$\n$$=\\frac{1}{2}\\sum(ab+c^2)(a-b)^2+\\frac{3}{2}(a+b+c)(a-b)(b-c)(a-c)$$\n$$=\\frac{1}{2}\\sum(c^2+b^2-a^2+cb-ca+ab)(a-b)^2$$\n$$=\\frac{1}{2}\\sum(b^2-a^2+2cb)(a-b)^2$$\n\n由于 $a,b,c$ 是某三角形的三边长，所以，可以设 $a=y+z,b=z+x,c=x+y$，则不等式变成\n$$\\sum(3x^2+4xz+2xy-y^2)(x-y)^2\\geqslant0$$\n\n只需证明不等式在 $a\\leqslant b\\leqslant c$ 或者 $x\\geqslant y\\geqslant z$ 的情况下成立即可。\n\n记\n$$S_x=3y^2+4xy+2yz-z^2$$\n$$S_y=3z^2+4yz+2zx-x^2$$\n$$S_z=3x^2+4zx+2xy-y^2$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.9(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$(ab+bc+ca)(a^2+b^2+c^2)\\leqslant3(a^3b+cb^3+ac^3)$$\n证明 我们有...",
+    "tags": [
+      "SOS方法",
+      "三角形边长"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

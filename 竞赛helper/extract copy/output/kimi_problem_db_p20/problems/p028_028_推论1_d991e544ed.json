@@ -1,0 +1,25 @@
+{
+  "uid": "p028_028_推论1_d991e544ed",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2 标准表示",
+  "section": null,
+  "problem_id": "推论1",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    28
+  ],
+  "stem_md": "**推论1** 假设 $M(a,b,c)$ 和 $N(a,b,c)$ 是两个对称多项式，且满足对所有正实数 $x$，$\\frac{M(x,x,x)}{N(x,x,x)}$ 等于一个常数 $t$，则存在一个半对称多项式 $G(a,b,c)$，满足\n$$F(a,b,c)=\\frac{M(a,b,c)}{N(a,b,c)}+\\frac{M(b,c,a)}{N(b,c,a)}+\\frac{M(c,a,b)}{N(c,a,b)}-3t$$\n$$=G(a,b,c)(b-c)^2+G(b,c,a)(c-a)^2+G(c,a,b)(a-b)^2$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "推论",
+    "SOS标准表示",
+    "标准表示"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "d991e544ed726cab0eeb03b2846c181f08ab6c67"
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "p110_110_习题2_fcfbadfa22",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.6",
+  "problem_id": "习题2",
+  "problem_type": "exercise",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    110
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$a^3+b^3+c^3+9\\geqslant 4(ab+bc+ca)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "2.(Pham Kim Hung, Mathlinks)设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$a^3+b^3+c^3+9\\geqslant 4(ab+bc+ca)$$",
+  "tags": [
+    "Pham Kim Hung",
+    "abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "fcfbadfa22ff0e648e01756449de13a0374c23e7",
+  "raw_problem": {
+    "problem_id": "习题2",
+    "problem_type": "exercise",
+    "chapter": "2",
+    "section": "2.6",
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      110
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$a^3+b^3+c^3+9\\geqslant 4(ab+bc+ca)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "2.(Pham Kim Hung, Mathlinks)设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$a^3+b^3+c^3+9\\geqslant 4(ab+bc+ca)$$",
+    "tags": [
+      "Pham Kim Hung",
+      "abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

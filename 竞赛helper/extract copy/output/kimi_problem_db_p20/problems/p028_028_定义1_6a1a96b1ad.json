@@ -1,0 +1,25 @@
+{
+  "uid": "p028_028_定义1_6a1a96b1ad",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2 标准表示",
+  "section": null,
+  "problem_id": "定义1",
+  "problem_type": "definition",
+  "title": "对称分式与标准对称分式",
+  "source_pages": [
+    28
+  ],
+  "stem_md": "**定义1** 一个分式 $F(a,b,c)$ 称为对称的，当且仅当对所有的 $(a,b,c)$ 的排列 $(x,y,z)$ 都有 $F(a,b,c)=F(x,y,z)$。如果对任意实数 $x$，总有 $F(x,x,x)=0$，则称 $F(a,b,c)$ 为标准对称分式。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "定义",
+    "对称分式",
+    "标准表示"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "6a1a96b1ad42be63bb99bb9e3e9a20066bf6145b"
+}

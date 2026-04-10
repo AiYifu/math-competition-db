@@ -1,0 +1,25 @@
+{
+  "uid": "p028_028_定理2_b389bfabcc",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2 标准表示",
+  "section": null,
+  "problem_id": "定理2",
+  "problem_type": "theorem",
+  "title": "SOS标准表示",
+  "source_pages": [
+    28
+  ],
+  "stem_md": "**定理2（SOS标准表示）** 设 $F(a,b,c)$ 是一个标准对称多项式，则存在一个标准半对称多项式 $G(a,b,c)$，使得\n$$F(a,b,c)=G(a,b,c)(b-c)^2+G(b,c,a)(c-a)^2+G(c,a,b)(a-b)^2$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "定理",
+    "SOS标准表示",
+    "标准表示"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "b389bfabccfd4b75730207f1afec1dac458a22f1"
+}

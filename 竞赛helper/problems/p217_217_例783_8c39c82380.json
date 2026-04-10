@@ -1,0 +1,51 @@
+{
+  "uid": "p217_217_例783_8c39c82380",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.3",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    217
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+  "solution_md": "**证明** 注意到\n\n$$\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}-3=\\frac{2(a-b)^2}{(a+c)(b+c)}+\\frac{(a+b+2c)(c-a)(c-b)}{(a+b)(b+c)(c+a)}$$\n\n所以，我们可以把不等式写成如下形式\n\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M_1=\\frac{1}{ab}-\\frac{2}{(a+c)(b+c)}, N_1=\\frac{1}{ac}-\\frac{a+b+2c}{(a+b)(b+c)(c+a)}$$\n\n不失一般性，设 $c=\\min\\{a,b,c\\}$。由于\n\n$$(c-a)(c-b)(a-b)^2-(a-b)^2(c-a)(c-b)=0$$\n\n所以，不等式等价于\n\n$$\\left[M_1+\\frac{(c-a)(c-b)}{ab(a+c)(b+c)}\\right](a-b)^2+\\left[N_1-\\frac{(a-b)^2}{ab(a+c)(b+c)}\\right](c-a)(c-b)\\geqslant 0$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.3(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$\n证明 注意到...",
+  "tags": [
+    "特别技术",
+    "三角形边长",
+    "恒等式变形"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "8c39c823803aaf32e07065ed70e2180b9fc20c43",
+  "raw_problem": {
+    "problem_id": "例7.8.3",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      217
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+    "solution_md": "**证明** 注意到\n\n$$\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}-3=\\frac{2(a-b)^2}{(a+c)(b+c)}+\\frac{(a+b+2c)(c-a)(c-b)}{(a+b)(b+c)(c+a)}$$\n\n所以，我们可以把不等式写成如下形式\n\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M_1=\\frac{1}{ab}-\\frac{2}{(a+c)(b+c)}, N_1=\\frac{1}{ac}-\\frac{a+b+2c}{(a+b)(b+c)(c+a)}$$\n\n不失一般性，设 $c=\\min\\{a,b,c\\}$。由于\n\n$$(c-a)(c-b)(a-b)^2-(a-b)^2(c-a)(c-b)=0$$\n\n所以，不等式等价于\n\n$$\\left[M_1+\\frac{(c-a)(c-b)}{ab(a+c)(b+c)}\\right](a-b)^2+\\left[N_1-\\frac{(a-b)^2}{ab(a+c)(b+c)}\\right](c-a)(c-b)\\geqslant 0$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.3(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$\n证明 注意到...",
+    "tags": [
+      "特别技术",
+      "三角形边长",
+      "恒等式变形"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

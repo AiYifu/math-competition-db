@@ -1,0 +1,58 @@
+{
+  "uid": "p027_028_例117_7d25732129",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例1.1.7",
+  "problem_type": "example",
+  "title": "Hoo Jo Lee, IMO 2005",
+  "source_pages": [
+    27,
+    28
+  ],
+  "source_images": [
+    "page-027.jpg",
+    "page-028.jpg"
+  ],
+  "stem_md": "设正实数 $x,y,z$ 满足 $xyz \\geqslant 1$，证明\n$$\\frac{x^5-x^2}{x^5+y^2+z^2}+\\frac{y^5-y^2}{y^5+z^2+x^2}+\\frac{z^5-z^2}{z^5+x^2+y^2} \\geqslant 0$$",
+  "solution_md": "**证明** 注意到，$y^2+z^2 \\geqslant 2yz$，则\n$$\\frac{x^5-x^2}{x^5+y^2+z^2} \\geqslant \\frac{x^5-x^2 \\cdot xyz}{x^5+(y^2+z^2) \\cdot xyz}=\\frac{x^4-x^2yz}{x^4+yz(y^2+z^2)}$$\n$$\\geqslant \\frac{2x^4-x^2(y^2+z^2)}{2x^4+(y^2+z^2)^2}$$\n\n设 $a=x^2,b=y^2,c=z^2$，则只需证明\n$$\\sum\\frac{2c^2-a(b+c)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c(c-a)+c(c-b)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum(a-b)\\left[\\frac{a}{2a^2+(b+c)^2}-\\frac{b}{2b^2+(c+a)^2}\\right] \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c^2+c(a+b)+a^2-ab+b^2}{[2a^2+(b+c)^2][2b^2+(c+a)^2]} \\cdot (a-b)^2 \\geqslant 0$$\n\n这最后的不等式是显然成立的，等号成立的条件是 $x=y=z=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.7（Hoo Jo Lee, IMO 2005）设正实数 $x,y,z$ 满足 $xyz \\geqslant 1$，证明\n$$\\frac{x^5-x^2}{x^5+y^2+z^2}+\\frac{y^5-y^2}{y^5+z^2+x^2}+\\frac{z^5-z^2}{z^5+x^2+y^2} \\geqslant 0$$\n\n证明 注意到，$y^2+z^2 \\geqslant 2yz$，则\n$$\\frac{x^5-x^2}{x^5+y^2+z^2} \\geqslant \\frac{x^5-x^2 \\cdot xyz}{x^5+(y^2+z^2) \\cdot xyz}=\\frac{x^4-x^2yz}{x^4+yz(y^2+z^2)}$$\n$$\\geqslant \\frac{2x^4-x^2(y^2+z^2)}{2x^4+(y^2+z^2)^2}$$\n\n设 $a=x^2,b=y^2,c=z^2$，则只需证明\n$$\\sum\\frac{2c^2-a(b+c)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c(c-a)+c(c-b)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum(a-b)\\left[\\frac{a}{2a^2+(b+c)^2}-\\frac{b}{2b^2+(c+a)^2}\\right] \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c^2+c(a+b)+a^2-ab+b^2}{[2a^2+(b+c)^2][2b^2+(c+a)^2]} \\cdot (a-b)^2 \\geqslant 0$$\n\n这最后的不等式是显然成立的，等号成立的条件是 $x=y=z=1$。",
+  "tags": [
+    "SOS方法",
+    "IMO 2005",
+    "正实数",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "7d25732129c07d32447ad1ea7d322a68e7ad6c07",
+  "raw_problem": {
+    "problem_id": "例1.1.7",
+    "problem_type": "example",
+    "chapter": "1",
+    "section": "1.1",
+    "title": "Hoo Jo Lee, IMO 2005",
+    "source_pages": [
+      27,
+      28
+    ],
+    "stem_md": "设正实数 $x,y,z$ 满足 $xyz \\geqslant 1$，证明\n$$\\frac{x^5-x^2}{x^5+y^2+z^2}+\\frac{y^5-y^2}{y^5+z^2+x^2}+\\frac{z^5-z^2}{z^5+x^2+y^2} \\geqslant 0$$",
+    "solution_md": "**证明** 注意到，$y^2+z^2 \\geqslant 2yz$，则\n$$\\frac{x^5-x^2}{x^5+y^2+z^2} \\geqslant \\frac{x^5-x^2 \\cdot xyz}{x^5+(y^2+z^2) \\cdot xyz}=\\frac{x^4-x^2yz}{x^4+yz(y^2+z^2)}$$\n$$\\geqslant \\frac{2x^4-x^2(y^2+z^2)}{2x^4+(y^2+z^2)^2}$$\n\n设 $a=x^2,b=y^2,c=z^2$，则只需证明\n$$\\sum\\frac{2c^2-a(b+c)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c(c-a)+c(c-b)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum(a-b)\\left[\\frac{a}{2a^2+(b+c)^2}-\\frac{b}{2b^2+(c+a)^2}\\right] \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c^2+c(a+b)+a^2-ab+b^2}{[2a^2+(b+c)^2][2b^2+(c+a)^2]} \\cdot (a-b)^2 \\geqslant 0$$\n\n这最后的不等式是显然成立的，等号成立的条件是 $x=y=z=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.1.7（Hoo Jo Lee, IMO 2005）设正实数 $x,y,z$ 满足 $xyz \\geqslant 1$，证明\n$$\\frac{x^5-x^2}{x^5+y^2+z^2}+\\frac{y^5-y^2}{y^5+z^2+x^2}+\\frac{z^5-z^2}{z^5+x^2+y^2} \\geqslant 0$$\n\n证明 注意到，$y^2+z^2 \\geqslant 2yz$，则\n$$\\frac{x^5-x^2}{x^5+y^2+z^2} \\geqslant \\frac{x^5-x^2 \\cdot xyz}{x^5+(y^2+z^2) \\cdot xyz}=\\frac{x^4-x^2yz}{x^4+yz(y^2+z^2)}$$\n$$\\geqslant \\frac{2x^4-x^2(y^2+z^2)}{2x^4+(y^2+z^2)^2}$$\n\n设 $a=x^2,b=y^2,c=z^2$，则只需证明\n$$\\sum\\frac{2c^2-a(b+c)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c(c-a)+c(c-b)}{2c^2+(a+b)^2} \\geqslant 0$$\n$$\\Leftrightarrow \\sum(a-b)\\left[\\frac{a}{2a^2+(b+c)^2}-\\frac{b}{2b^2+(c+a)^2}\\right] \\geqslant 0$$\n$$\\Leftrightarrow \\sum\\frac{c^2+c(a+b)+a^2-ab+b^2}{[2a^2+(b+c)^2][2b^2+(c+a)^2]} \\cdot (a-b)^2 \\geqslant 0$$\n\n这最后的不等式是显然成立的，等号成立的条件是 $x=y=z=1$。",
+    "tags": [
+      "SOS方法",
+      "IMO 2005",
+      "正实数",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

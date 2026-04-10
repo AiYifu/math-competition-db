@@ -1,0 +1,53 @@
+{
+  "uid": "p132_134_例437_f3043fb59e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4",
+  "section": "4.3",
+  "problem_id": "例4.3.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    132,
+    133,
+    134
+  ],
+  "source_images": [],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+\\frac{2n\\sqrt{n-1}}{x_1^2+x_2^2+\\cdots+x_n^2}\\geqslant n+2\\sqrt{n-1}$$",
+  "solution_md": "令 $k_n=2\\sqrt{n-1}$，我们采用归纳法证明下列不等式\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+\\frac{nk_n}{x_1^2+x_2^2+\\cdots+x_n^2}\\geqslant n+k_n\\quad (1)$$\n当 $n=2$ 时，我们有\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\frac{2k_2}{x_1^2+x_2^2}=\\frac{2}{x_1x_2}+\\frac{2}{2-x_1x_2}-4\\geqslant 0$$\n假设 (1) 对 $n$ 个正数成立，我们来证明它对 $n+1$ 个数也成立，即\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_{n+1}}+\\frac{k(n+1)}{x_1^2+x_2^2+\\cdots+x_{n+1}^2}\\geqslant n+1+k\\quad (2)$$\n其中 $k=k_{n+1}=2\\sqrt{n}$。不失一般性，设 $x_1\\leqslant x_2\\leqslant \\cdots\\leqslant x_{n+1}$，令 $t=\\frac{x_1+x_2+\\cdots+x_n}{n}\\leqslant 1$，对每一个 $i\\in\\{1,2,\\cdots,n\\}$，令 $y_i=\\frac{x_i}{t}$，则\n$$y_1+y_2+\\cdots+y_n=n$$\n对于 $p=2\\sqrt{n-1}$，根据归纳假设，我们有\n$$\\frac{1}{y_1}+\\frac{1}{y_2}+\\cdots+\\frac{1}{y_n}+\\frac{np}{y_1^2+y_2^2+\\cdots+y_n^2}\\geqslant n+p$$\n$$\\Rightarrow \\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+\\frac{pnt}{x_1^2+x_2^2+\\cdots+x_n^2}\\geqslant \\frac{n}{t}+\\frac{p}{t}$$\n设 $A=x_1^2+x_2^2+\\cdots+x_n^2, a=x_{n+1}$，则只需证明\n$$\\sum_{i=1}^{n+1}\\frac{1}{x_i}+\\frac{k(n+1)}{A+a^2}\\geqslant \\frac{n+p}{t}+\\frac{1}{a}-\\frac{pnt}{A}+\\frac{k(n+1)}{A+a^2}\\quad (3)$$\n接下来，我们要证明（为使每个 $x_i, i\\in\\{1,2,\\cdots,n\\}$ 都等于 $t$）\n$$-\\frac{pnt}{A}+\\frac{k(n+1)}{A+a^2}\\geqslant -\\frac{pnt}{nt^2}+\\frac{k(n+1)}{nt^2+a^2}\\quad (4)$$\n事实上，这个条件等价于（注意到 $A\\geqslant nt^2$）\n$$ktA(n+1)\\leqslant p(A+a^2)(nt^2+a^2)$$\n由于 $A+a^2\\geqslant \\frac{n+1}{n}\\cdot A, nt^2+a^2\\geqslant n+1\\geqslant (n+1)t$，因此\n$$p(A+a^2)(nt^2+a^2)$$\n$$\\geqslant \\frac{2(n+1)^2At\\sqrt{n-1}}{n}$$\n$$\\geqslant 2(n+1)At\\sqrt{n}\\geqslant (n+1)Atk$$\n从而 (3) 成立。根据 (3) 和 (4)，我们有\n$$\\sum_{i=1}^{n+1}\\frac{1}{x_i}+\\frac{k(n+1)}{A+a^2}\\geqslant \\frac{n+p}{t}+\\frac{1}{a}+\\left[-\\frac{pnt}{nt^2}+\\frac{k(n+1)}{nt^2+a^2}\\right]=\\frac{n}{t}+\\frac{1}{a}+\\frac{k(n+1)}{nt^2+a^2}$$\n注意到 $a=n+1-nt$，所以\n$$\\frac{n}{t}+\\frac{1}{a}+\\frac{k(n+1)}{nt^2+a^2}-(n+1)-k$$\n$$=\\left(\\frac{n}{t}+\\frac{1}{n+1-nt}-n-1\\right)+k\\left[\\frac{n+1}{nt^2+(n+1-nt)^2}-1\\right]$$\n$$=n(n+1)(t-1)^2\\left[\\frac{1}{t(n+1-nt)}-\\frac{2\\sqrt{n}}{nt^2+(n+1-nt)^2}\\right]$$\n$$=n(n+1)(t-1)^2\\cdot\\frac{(n+1-nt-t\\sqrt{n})^2}{t(n+1-nt)[nt^2+(n+1-nt)^2]}\\geqslant 0$$\n不等式得证。等号成立的条件是\n$$x_1=x_2=\\cdots=x_n=1$$\n和\n$$x_1=x_2=\\cdots=x_{n-1}=\\frac{n}{\\sqrt{n-1}+n-1}, x_n=\\frac{n\\sqrt{n-1}}{\\sqrt{n-1}+n-1}$$\n或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.7(Pham Kim Hung,Mathlinks) 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=n$，证明...",
+  "tags": [
+    "归纳法",
+    "Cauchy-Schwarz不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0017",
+  "raw_response_file": "raw/chunk-0017.response.txt",
+  "raw_api_file": "raw/chunk-0017.api.json",
+  "fingerprint": "f3043fb59eec558ae1945126d74d41b35e5dea94",
+  "raw_problem": {
+    "problem_id": "例4.3.7",
+    "problem_type": "example",
+    "chapter": "4",
+    "section": "4.3",
+    "title": null,
+    "source_pages": [
+      132,
+      133,
+      134
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+\\frac{2n\\sqrt{n-1}}{x_1^2+x_2^2+\\cdots+x_n^2}\\geqslant n+2\\sqrt{n-1}$$",
+    "solution_md": "令 $k_n=2\\sqrt{n-1}$，我们采用归纳法证明下列不等式\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+\\frac{nk_n}{x_1^2+x_2^2+\\cdots+x_n^2}\\geqslant n+k_n\\quad (1)$$\n当 $n=2$ 时，我们有\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\frac{2k_2}{x_1^2+x_2^2}=\\frac{2}{x_1x_2}+\\frac{2}{2-x_1x_2}-4\\geqslant 0$$\n假设 (1) 对 $n$ 个正数成立，我们来证明它对 $n+1$ 个数也成立，即\n$$\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_{n+1}}+\\frac{k(n+1)}{x_1^2+x_2^2+\\cdots+x_{n+1}^2}\\geqslant n+1+k\\quad (2)$$\n其中 $k=k_{n+1}=2\\sqrt{n}$。不失一般性，设 $x_1\\leqslant x_2\\leqslant \\cdots\\leqslant x_{n+1}$，令 $t=\\frac{x_1+x_2+\\cdots+x_n}{n}\\leqslant 1$，对每一个 $i\\in\\{1,2,\\cdots,n\\}$，令 $y_i=\\frac{x_i}{t}$，则\n$$y_1+y_2+\\cdots+y_n=n$$\n对于 $p=2\\sqrt{n-1}$，根据归纳假设，我们有\n$$\\frac{1}{y_1}+\\frac{1}{y_2}+\\cdots+\\frac{1}{y_n}+\\frac{np}{y_1^2+y_2^2+\\cdots+y_n^2}\\geqslant n+p$$\n$$\\Rightarrow \\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+\\frac{pnt}{x_1^2+x_2^2+\\cdots+x_n^2}\\geqslant \\frac{n}{t}+\\frac{p}{t}$$\n设 $A=x_1^2+x_2^2+\\cdots+x_n^2, a=x_{n+1}$，则只需证明\n$$\\sum_{i=1}^{n+1}\\frac{1}{x_i}+\\frac{k(n+1)}{A+a^2}\\geqslant \\frac{n+p}{t}+\\frac{1}{a}-\\frac{pnt}{A}+\\frac{k(n+1)}{A+a^2}\\quad (3)$$\n接下来，我们要证明（为使每个 $x_i, i\\in\\{1,2,\\cdots,n\\}$ 都等于 $t$）\n$$-\\frac{pnt}{A}+\\frac{k(n+1)}{A+a^2}\\geqslant -\\frac{pnt}{nt^2}+\\frac{k(n+1)}{nt^2+a^2}\\quad (4)$$\n事实上，这个条件等价于（注意到 $A\\geqslant nt^2$）\n$$ktA(n+1)\\leqslant p(A+a^2)(nt^2+a^2)$$\n由于 $A+a^2\\geqslant \\frac{n+1}{n}\\cdot A, nt^2+a^2\\geqslant n+1\\geqslant (n+1)t$，因此\n$$p(A+a^2)(nt^2+a^2)$$\n$$\\geqslant \\frac{2(n+1)^2At\\sqrt{n-1}}{n}$$\n$$\\geqslant 2(n+1)At\\sqrt{n}\\geqslant (n+1)Atk$$\n从而 (3) 成立。根据 (3) 和 (4)，我们有\n$$\\sum_{i=1}^{n+1}\\frac{1}{x_i}+\\frac{k(n+1)}{A+a^2}\\geqslant \\frac{n+p}{t}+\\frac{1}{a}+\\left[-\\frac{pnt}{nt^2}+\\frac{k(n+1)}{nt^2+a^2}\\right]=\\frac{n}{t}+\\frac{1}{a}+\\frac{k(n+1)}{nt^2+a^2}$$\n注意到 $a=n+1-nt$，所以\n$$\\frac{n}{t}+\\frac{1}{a}+\\frac{k(n+1)}{nt^2+a^2}-(n+1)-k$$\n$$=\\left(\\frac{n}{t}+\\frac{1}{n+1-nt}-n-1\\right)+k\\left[\\frac{n+1}{nt^2+(n+1-nt)^2}-1\\right]$$\n$$=n(n+1)(t-1)^2\\left[\\frac{1}{t(n+1-nt)}-\\frac{2\\sqrt{n}}{nt^2+(n+1-nt)^2}\\right]$$\n$$=n(n+1)(t-1)^2\\cdot\\frac{(n+1-nt-t\\sqrt{n})^2}{t(n+1-nt)[nt^2+(n+1-nt)^2]}\\geqslant 0$$\n不等式得证。等号成立的条件是\n$$x_1=x_2=\\cdots=x_n=1$$\n和\n$$x_1=x_2=\\cdots=x_{n-1}=\\frac{n}{\\sqrt{n-1}+n-1}, x_n=\\frac{n\\sqrt{n-1}}{\\sqrt{n-1}+n-1}$$\n或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.3.7(Pham Kim Hung,Mathlinks) 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1+x_2+\\cdots+x_n=n$，证明...",
+    "tags": [
+      "归纳法",
+      "Cauchy-Schwarz不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

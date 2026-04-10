@@ -1,0 +1,65 @@
+{
+  "uid": "p185_187_例5411_13742634a4",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.11",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    185,
+    186,
+    187
+  ],
+  "source_images": [
+    "page-185.jpg",
+    "page-186.jpg",
+    "page-187.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+c)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+a)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$",
+  "solution_md": "设 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kt}{z},d=\\frac{kx}{t}$，则不等式变成\n$$\\frac{1}{\\frac{ky}{x}\\cdot\\left(1+\\frac{kz}{y}\\right)}+\\frac{1}{\\frac{kz}{y}\\cdot\\left(1+\\frac{kt}{z}\\right)}+\\frac{1}{\\frac{kt}{z}\\cdot\\left(1+\\frac{kx}{t}\\right)}+\\frac{1}{\\frac{kx}{t}\\cdot\\left(1+\\frac{ky}{x}\\right)}$$\n$$\\geqslant \\frac{16}{1+8k^2}\\Leftrightarrow \\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{16k}{8k^2+1}$$\n由 Cauchy-Schwarz 不等式，我们有\n$$\\begin{aligned}&\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\\\=&\\frac{x^2}{xy+kzx}+\\frac{y^2}{yz+kyt}+\\frac{z^2}{zt+kxz}+\\frac{t^2}{xt+kyt}\\\\\\geqslant&\\frac{(x+y+z+t)^2}{(x+z)(y+t)+2k(xz+yt)}\\end{aligned}$$\n(1) 第一种情况 $k\\leqslant 1$。我们有\n$$\\begin{aligned}&(x+z)(y+t)+2k(xz+yt)\\\\\\leqslant& (x+z)(y+t)+\\frac{k}{2}(x+z)^2+\\frac{k}{2}(y+t)^2\\\\=&\\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\\\leqslant& \\frac{k}{2}(x+y+z+t)^2+\\frac{1-k}{4}(x+y+z+t)^2\\\\=&\\left(\\frac{k}{2}+\\frac{1-k}{4}\\right)(x+y+z+t)^2=\\frac{1+k}{4}(x+y+z+t)^2\\end{aligned}$$\n而且\n$$\\frac{4}{k+1}-\\frac{16k}{8k^2+1}=\\frac{4(2k-1)^2}{(k+1)(8k^2+1)}\\geqslant 0$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{4}{1+k}\\geqslant \\frac{16k}{8k^2+1}$$\n(2) 第二种情况 $k\\geqslant 1$。类似地，我们有\n$$\\begin{aligned}(x+z)(y+t)+2k(xz+yt)&\\leqslant \\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\&\\leqslant \\frac{k}{2}(x+y+z+t)^2\\end{aligned}$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}-\\frac{16k}{8k^2+1}\\geqslant \\frac{2}{k}-\\frac{16k}{8k^2+1}=\\frac{2}{k(8k^2+1)}>0$$\n综上所述，不等式得证。",
+  "answer_md": "",
+  "hints_md": "Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 5.4.11(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+c)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+a)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$\n证明 设 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kt}{z},d=\\frac{kx}{t}$，则不等式变成\n$$\\frac{1}{\\frac{ky}{x}\\cdot\\left(1+\\frac{kz}{y}\\right)}+\\frac{1}{\\frac{kz}{y}\\cdot\\left(1+\\frac{kt}{z}\\right)}+\\frac{1}{\\frac{kt}{z}\\cdot\\left(1+\\frac{kx}{t}\\right)}+\\frac{1}{\\frac{kx}{t}\\cdot\\left(1+\\frac{ky}{x}\\right)}$$\n$$\\geqslant \\frac{16}{1+8k^2}\\Leftrightarrow \\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{16k}{8k^2+1}$$\n由 Cauchy-Schwarz 不等式，我们有\n$$\\begin{aligned}&\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\\\=&\\frac{x^2}{xy+kzx}+\\frac{y^2}{yz+kyt}+\\frac{z^2}{zt+kxz}+\\frac{t^2}{xt+kyt}\\\\\\geqslant&\\frac{(x+y+z+t)^2}{(x+z)(y+t)+2k(xz+yt)}\\end{aligned}$$\n(1) 第一种情况 $k\\leqslant 1$。我们有\n$$\\begin{aligned}&(x+z)(y+t)+2k(xz+yt)\\\\\\leqslant& (x+z)(y+t)+\\frac{k}{2}(x+z)^2+\\frac{k}{2}(y+t)^2\\\\=&\\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\\\leqslant& \\frac{k}{2}(x+y+z+t)^2+\\frac{1-k}{4}(x+y+z+t)^2\\\\=&\\left(\\frac{k}{2}+\\frac{1-k}{4}\\right)(x+y+z+t)^2=\\frac{1+k}{4}(x+y+z+t)^2\\end{aligned}$$\n而且\n$$\\frac{4}{k+1}-\\frac{16k}{8k^2+1}=\\frac{4(2k-1)^2}{(k+1)(8k^2+1)}\\geqslant 0$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{4}{1+k}\\geqslant \\frac{16k}{8k^2+1}$$\n(2) 第二种情况 $k\\geqslant 1$。类似地，我们有\n$$\\begin{aligned}(x+z)(y+t)+2k(xz+yt)&\\leqslant \\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\&\\leqslant \\frac{k}{2}(x+y+z+t)^2\\end{aligned}$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}-\\frac{16k}{8k^2+1}\\geqslant \\frac{2}{k}-\\frac{16k}{8k^2+1}=\\frac{2}{k(8k^2+1)}>0$$\n综上所述，不等式得证。",
+  "tags": [
+    "非齐次不等式",
+    "变量替换",
+    "Cauchy-Schwarz",
+    "正实数",
+    "四元",
+    "分类讨论"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "13742634a48dac8f8ebaaf61937733c8272fc058",
+  "raw_problem": {
+    "problem_id": "例5.4.11",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      185,
+      186,
+      187
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+c)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+a)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$",
+    "solution_md": "设 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kt}{z},d=\\frac{kx}{t}$，则不等式变成\n$$\\frac{1}{\\frac{ky}{x}\\cdot\\left(1+\\frac{kz}{y}\\right)}+\\frac{1}{\\frac{kz}{y}\\cdot\\left(1+\\frac{kt}{z}\\right)}+\\frac{1}{\\frac{kt}{z}\\cdot\\left(1+\\frac{kx}{t}\\right)}+\\frac{1}{\\frac{kx}{t}\\cdot\\left(1+\\frac{ky}{x}\\right)}$$\n$$\\geqslant \\frac{16}{1+8k^2}\\Leftrightarrow \\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{16k}{8k^2+1}$$\n由 Cauchy-Schwarz 不等式，我们有\n$$\\begin{aligned}&\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\\\=&\\frac{x^2}{xy+kzx}+\\frac{y^2}{yz+kyt}+\\frac{z^2}{zt+kxz}+\\frac{t^2}{xt+kyt}\\\\\\geqslant&\\frac{(x+y+z+t)^2}{(x+z)(y+t)+2k(xz+yt)}\\end{aligned}$$\n(1) 第一种情况 $k\\leqslant 1$。我们有\n$$\\begin{aligned}&(x+z)(y+t)+2k(xz+yt)\\\\\\leqslant& (x+z)(y+t)+\\frac{k}{2}(x+z)^2+\\frac{k}{2}(y+t)^2\\\\=&\\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\\\leqslant& \\frac{k}{2}(x+y+z+t)^2+\\frac{1-k}{4}(x+y+z+t)^2\\\\=&\\left(\\frac{k}{2}+\\frac{1-k}{4}\\right)(x+y+z+t)^2=\\frac{1+k}{4}(x+y+z+t)^2\\end{aligned}$$\n而且\n$$\\frac{4}{k+1}-\\frac{16k}{8k^2+1}=\\frac{4(2k-1)^2}{(k+1)(8k^2+1)}\\geqslant 0$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{4}{1+k}\\geqslant \\frac{16k}{8k^2+1}$$\n(2) 第二种情况 $k\\geqslant 1$。类似地，我们有\n$$\\begin{aligned}(x+z)(y+t)+2k(xz+yt)&\\leqslant \\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\&\\leqslant \\frac{k}{2}(x+y+z+t)^2\\end{aligned}$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}-\\frac{16k}{8k^2+1}\\geqslant \\frac{2}{k}-\\frac{16k}{8k^2+1}=\\frac{2}{k(8k^2+1)}>0$$\n综上所述，不等式得证。",
+    "answer_md": "",
+    "hints_md": "Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 5.4.11(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是正实数，证明\n$$\\frac{1}{a(1+b)}+\\frac{1}{b(1+c)}+\\frac{1}{c(1+d)}+\\frac{1}{d(1+a)}\\geqslant \\frac{16}{1+8\\sqrt{abcd}}$$\n证明 设 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kt}{z},d=\\frac{kx}{t}$，则不等式变成\n$$\\frac{1}{\\frac{ky}{x}\\cdot\\left(1+\\frac{kz}{y}\\right)}+\\frac{1}{\\frac{kz}{y}\\cdot\\left(1+\\frac{kt}{z}\\right)}+\\frac{1}{\\frac{kt}{z}\\cdot\\left(1+\\frac{kx}{t}\\right)}+\\frac{1}{\\frac{kx}{t}\\cdot\\left(1+\\frac{ky}{x}\\right)}$$\n$$\\geqslant \\frac{16}{1+8k^2}\\Leftrightarrow \\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{16k}{8k^2+1}$$\n由 Cauchy-Schwarz 不等式，我们有\n$$\\begin{aligned}&\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\\\=&\\frac{x^2}{xy+kzx}+\\frac{y^2}{yz+kyt}+\\frac{z^2}{zt+kxz}+\\frac{t^2}{xt+kyt}\\\\\\geqslant&\\frac{(x+y+z+t)^2}{(x+z)(y+t)+2k(xz+yt)}\\end{aligned}$$\n(1) 第一种情况 $k\\leqslant 1$。我们有\n$$\\begin{aligned}&(x+z)(y+t)+2k(xz+yt)\\\\\\leqslant& (x+z)(y+t)+\\frac{k}{2}(x+z)^2+\\frac{k}{2}(y+t)^2\\\\=&\\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\\\leqslant& \\frac{k}{2}(x+y+z+t)^2+\\frac{1-k}{4}(x+y+z+t)^2\\\\=&\\left(\\frac{k}{2}+\\frac{1-k}{4}\\right)(x+y+z+t)^2=\\frac{1+k}{4}(x+y+z+t)^2\\end{aligned}$$\n而且\n$$\\frac{4}{k+1}-\\frac{16k}{8k^2+1}=\\frac{4(2k-1)^2}{(k+1)(8k^2+1)}\\geqslant 0$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}\\geqslant \\frac{4}{1+k}\\geqslant \\frac{16k}{8k^2+1}$$\n(2) 第二种情况 $k\\geqslant 1$。类似地，我们有\n$$\\begin{aligned}(x+z)(y+t)+2k(xz+yt)&\\leqslant \\frac{k}{2}(x+y+z+t)^2+(1-k)(x+z)(y+t)\\\\&\\leqslant \\frac{k}{2}(x+y+z+t)^2\\end{aligned}$$\n所以\n$$\\frac{x}{y+kz}+\\frac{y}{z+kt}+\\frac{z}{t+kx}+\\frac{t}{x+ky}-\\frac{16k}{8k^2+1}\\geqslant \\frac{2}{k}-\\frac{16k}{8k^2+1}=\\frac{2}{k(8k^2+1)}>0$$\n综上所述，不等式得证。",
+    "tags": [
+      "非齐次不等式",
+      "变量替换",
+      "Cauchy-Schwarz",
+      "正实数",
+      "四元",
+      "分类讨论"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "uid": "p063_063_例214_7226a57f5b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第2章 整合变量法",
+  "section": "2.1 起步",
+  "problem_id": "例2.1.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    63
+  ],
+  "source_images": [
+    "page-063.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明\n$$a^2+b^2+c^2+d^2-4\\geqslant 2(a-1)(b-1)(c-1)(d-1)$$",
+  "solution_md": "由 AM-GM 不等式，我们有\n$$a^2+b^2+c^2+d^2\\geqslant 4$$\n\n所以，我们只需证明不等式在 $(a-1)(b-1)(c-1)(d-1)\\geqslant 0$ 的条件下成立即可。由于 $abcd=1$，所以，只需考虑 $a\\geqslant b\\geqslant 1\\geqslant c\\geqslant d$ 的情况，此时，尝试整合变量 $a$ 和 $b$，$c$ 和 $d$。事实上，在 $abcd=1$ 的条件下，最好的选择是整合 $a$ 和 $b$ 变成 $\\sqrt{ab}$，$c$ 和 $d$ 变成 $\\sqrt{cd}$。因为\n$$(a-1)(b-1)\\leqslant(\\sqrt{ab}-1)^2$$\n$$(c-1)(d-1)\\leqslant(\\sqrt{cd}-1)^2$$\n\n因此（我们把 $a,b$ 变成 $\\sqrt{ab}$，$c,d$ 变成 $\\sqrt{cd}$）\n$$(a-1)(b-1)(c-1)(d-1)\\leqslant(\\sqrt{ab}-1)^2(\\sqrt{cd}-1)^2$$\n\n另外\n$$a^2+b^2+c^2+d^2\\geqslant 2(ab+cd)$$\n\n所以，余下只需证明\n$$2(ab+cd)-4\\geqslant 2(\\sqrt{ab}-1)^2(\\sqrt{cd}-1)^2$$\n$$\\Leftrightarrow(\\sqrt{ab}-\\sqrt{cd})^2\\geqslant(\\sqrt{ab}-1)^2(\\sqrt{cd}-1)^2$$\n$$\\Leftrightarrow\\sqrt{ab}-\\sqrt{cd}\\geqslant(\\sqrt{ab}-1)(\\sqrt{cd}-1)$$\n$$\\Leftrightarrow -2\\sqrt{cd}\\geqslant -1-\\sqrt{abcd}$$\n$$\\Leftrightarrow cd\\leqslant 1$$\n\n这是显然成立的，因为假设条件 $a\\geqslant b\\geqslant 1\\geqslant c\\geqslant d$。等号成立的条件是\n$$a=b=c=d=1$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.1.4(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明\n$$a^2+b^2+c^2+d^2-4\\geqslant 2(a-1)(b-1)(c-1)(d-1)$$\n\n证明及分析 由 AM-GM 不等式，我们有...\n\n所以，我们只需证明不等式在 $(a-1)(b-1)(c-1)(d-1)\\geqslant 0$ 的条件下成立即可...\n\n因此（我们把 $a,b$ 变成 $\\sqrt{ab}$，$c,d$ 变成 $\\sqrt{cd}$）...\n\n所以，余下只需证明...",
+  "tags": [
+    "整合变量法",
+    "四元不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "7226a57f5b32baca633c2f4ad0f77ab8aca6f9e9",
+  "raw_problem": {
+    "problem_id": "例2.1.4",
+    "problem_type": "example",
+    "chapter": "第2章 整合变量法",
+    "section": "2.1 起步",
+    "title": null,
+    "source_pages": [
+      63
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明\n$$a^2+b^2+c^2+d^2-4\\geqslant 2(a-1)(b-1)(c-1)(d-1)$$",
+    "solution_md": "由 AM-GM 不等式，我们有\n$$a^2+b^2+c^2+d^2\\geqslant 4$$\n\n所以，我们只需证明不等式在 $(a-1)(b-1)(c-1)(d-1)\\geqslant 0$ 的条件下成立即可。由于 $abcd=1$，所以，只需考虑 $a\\geqslant b\\geqslant 1\\geqslant c\\geqslant d$ 的情况，此时，尝试整合变量 $a$ 和 $b$，$c$ 和 $d$。事实上，在 $abcd=1$ 的条件下，最好的选择是整合 $a$ 和 $b$ 变成 $\\sqrt{ab}$，$c$ 和 $d$ 变成 $\\sqrt{cd}$。因为\n$$(a-1)(b-1)\\leqslant(\\sqrt{ab}-1)^2$$\n$$(c-1)(d-1)\\leqslant(\\sqrt{cd}-1)^2$$\n\n因此（我们把 $a,b$ 变成 $\\sqrt{ab}$，$c,d$ 变成 $\\sqrt{cd}$）\n$$(a-1)(b-1)(c-1)(d-1)\\leqslant(\\sqrt{ab}-1)^2(\\sqrt{cd}-1)^2$$\n\n另外\n$$a^2+b^2+c^2+d^2\\geqslant 2(ab+cd)$$\n\n所以，余下只需证明\n$$2(ab+cd)-4\\geqslant 2(\\sqrt{ab}-1)^2(\\sqrt{cd}-1)^2$$\n$$\\Leftrightarrow(\\sqrt{ab}-\\sqrt{cd})^2\\geqslant(\\sqrt{ab}-1)^2(\\sqrt{cd}-1)^2$$\n$$\\Leftrightarrow\\sqrt{ab}-\\sqrt{cd}\\geqslant(\\sqrt{ab}-1)(\\sqrt{cd}-1)$$\n$$\\Leftrightarrow -2\\sqrt{cd}\\geqslant -1-\\sqrt{abcd}$$\n$$\\Leftrightarrow cd\\leqslant 1$$\n\n这是显然成立的，因为假设条件 $a\\geqslant b\\geqslant 1\\geqslant c\\geqslant d$。等号成立的条件是\n$$a=b=c=d=1$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.1.4(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明\n$$a^2+b^2+c^2+d^2-4\\geqslant 2(a-1)(b-1)(c-1)(d-1)$$\n\n证明及分析 由 AM-GM 不等式，我们有...\n\n所以，我们只需证明不等式在 $(a-1)(b-1)(c-1)(d-1)\\geqslant 0$ 的条件下成立即可...\n\n因此（我们把 $a,b$ 变成 $\\sqrt{ab}$，$c,d$ 变成 $\\sqrt{cd}$）...\n\n所以，余下只需证明...",
+    "tags": [
+      "整合变量法",
+      "四元不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

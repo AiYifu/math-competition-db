@@ -1,0 +1,53 @@
+{
+  "uid": "p158_158_44-12_c5dfb92728",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    158
+  ],
+  "source_images": [
+    "page-158.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$n^{2n-2}(1+a_1^2)(1+a_2^2)\\cdots(1+a_n^2) \\leqslant 2^n(a_1+a_2+\\cdots+a_n)^{2n-2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "12.(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$n^{2n-2}(1+a_1^2)(1+a_2^2)\\cdots(1+a_n^2) \\leqslant 2^n(a_1+a_2+\\cdots+a_n)^{2n-2}$$",
+  "tags": [
+    "练习",
+    "正实数",
+    "乘积不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "c5dfb92728ed51fb09575d9135cda11954356a9d",
+  "raw_problem": {
+    "problem_id": "4.4-12",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      158
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$n^{2n-2}(1+a_1^2)(1+a_2^2)\\cdots(1+a_n^2) \\leqslant 2^n(a_1+a_2+\\cdots+a_n)^{2n-2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "12.(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$n^{2n-2}(1+a_1^2)(1+a_2^2)\\cdots(1+a_n^2) \\leqslant 2^n(a_1+a_2+\\cdots+a_n)^{2n-2}$$",
+    "tags": [
+      "练习",
+      "正实数",
+      "乘积不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

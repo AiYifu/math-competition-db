@@ -1,0 +1,53 @@
+{
+  "uid": "p028_028_定义2_22740c1781",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.2",
+  "problem_id": "定义2",
+  "problem_type": "definition",
+  "title": "半对称分式与标准半对称分式",
+  "source_pages": [
+    28
+  ],
+  "source_images": [
+    "page-028.jpg"
+  ],
+  "stem_md": "**定义 2** 一个分式 $F(a,b,c)$ 称为半对称的，当且仅当对所有的实数 $a,b,c$ 都有 $F(a,b,c)=F(a,c,b)$。如果对所有的正实数 $x,y$，总有 $F(x,y,y)=0$，则称 $F(a,b,c)$ 为标准半对称分式。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定义 2 一个分式 $F(a,b,c)$ 称为半对称的，当且仅当对所有的实数 $a,b,c$ 都有 $F(a,b,c)=F(a,c,b)$。如果对所有的正实数 $x,y$，总有 $F(x,y,y)=0$，则称 $F(a,b,c)$ 为标准半对称分式。",
+  "tags": [
+    "定义",
+    "半对称分式",
+    "标准半对称分式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "22740c17819adb0121320002f58c62ba3f3c94a3",
+  "raw_problem": {
+    "problem_id": "定义2",
+    "problem_type": "definition",
+    "chapter": "1",
+    "section": "1.2",
+    "title": "半对称分式与标准半对称分式",
+    "source_pages": [
+      28
+    ],
+    "stem_md": "**定义 2** 一个分式 $F(a,b,c)$ 称为半对称的，当且仅当对所有的实数 $a,b,c$ 都有 $F(a,b,c)=F(a,c,b)$。如果对所有的正实数 $x,y$，总有 $F(x,y,y)=0$，则称 $F(a,b,c)$ 为标准半对称分式。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定义 2 一个分式 $F(a,b,c)$ 称为半对称的，当且仅当对所有的实数 $a,b,c$ 都有 $F(a,b,c)=F(a,c,b)$。如果对所有的正实数 $x,y$，总有 $F(x,y,y)=0$，则称 $F(a,b,c)$ 为标准半对称分式。",
+    "tags": [
+      "定义",
+      "半对称分式",
+      "标准半对称分式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

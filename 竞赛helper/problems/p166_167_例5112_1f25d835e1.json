@@ -1,0 +1,56 @@
+{
+  "uid": "p166_167_例5112_1f25d835e1",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    166,
+    167
+  ],
+  "source_images": [
+    "page-166.jpg",
+    "page-167.jpg"
+  ],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=n$，证明下列不等式\n$$\\frac{x_1^3}{x_2^2+x_3^2+\\cdots+x_{n-1}^2}+\\frac{x_2^3}{x_3^2+x_4^2+\\cdots+x_n^2}+\\cdots+\\frac{x_n^3}{x_1^2+x_2^2+\\cdots+x_{n-2}^2}\\geqslant\\frac{n}{n-2}$$",
+  "solution_md": "设 $S$ 表示不等式左边的表达式\n$$P=x_1(x_2^2+x_3^2+\\cdots+x_{n-1}^2)+x_2(x_3^2+x_4^2+\\cdots+x_n^2)+\\cdots+$$\n$$x_n(x_1^2+x_2^2+\\cdots+x_{n-2}^2)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$S\\cdot P\\geqslant(x_1^2+x_2^2+\\cdots+x_n^2)^2\\quad(*)$$\n另外，$P$ 可以表示成如下形式\n$$P=\\sum_{k=1}^nx_k\\cdot\\sum_{k=1}^nx_k^2-\\sum_{k=1}^nx_k^3-\\sum_{k=1}^nx_k^2x_{k+1}=\\sum_{k=1}^nx_k^2\\left(\\sum_{j=1,j\\neq k,k+1}^nx_j\\right)$$\n其中 $x_{n+i}$ 表示 $x_i$。再次应用 Cauchy-Schwarz 不等式，有\n$$P^2\\leqslant\\sum_{k=1}^nx_k^2\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}x_j\\right)^2\\right]$$\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j\\right)^2\\leqslant(n-2)\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)\\right]$$\n$$\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\geqslant\\frac{4}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n利用上述不等式，我们有\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)=\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)$$\n$$\\leqslant\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\frac{1}{2}\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\leqslant\\frac{n-2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n所以 $P^2\\leqslant\\frac{(n-2)^2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^3$，由 $(*)$ 立即可得\n$$S\\geqslant\\frac{n}{n-2}\\sqrt{\\frac{x_1^2+x_2^2+\\cdots+x_n^2}{n}}=\\frac{n}{n-2}$$\n当且仅当 $x_1=x_2=\\cdots=x_n=1$ 时，成立等号。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.12 设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=n$，证明下列不等式\n$$\\frac{x_1^3}{x_2^2+x_3^2+\\cdots+x_{n-1}^2}+\\frac{x_2^3}{x_3^2+x_4^2+\\cdots+x_n^2}+\\cdots+\\frac{x_n^3}{x_1^2+x_2^2+\\cdots+x_{n-2}^2}\\geqslant\\frac{n}{n-2}$$\n证明 设 $S$ 表示不等式左边的表达式\n$$P=x_1(x_2^2+x_3^2+\\cdots+x_{n-1}^2)+x_2(x_3^2+x_4^2+\\cdots+x_n^2)+\\cdots+$$\n$$x_n(x_1^2+x_2^2+\\cdots+x_{n-2}^2)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$S\\cdot P\\geqslant(x_1^2+x_2^2+\\cdots+x_n^2)^2\\quad(*)$$\n另外，$P$ 可以表示成如下形式\n$$P=\\sum_{k=1}^nx_k\\cdot\\sum_{k=1}^nx_k^2-\\sum_{k=1}^nx_k^3-\\sum_{k=1}^nx_k^2x_{k+1}=\\sum_{k=1}^nx_k^2\\left(\\sum_{j=1,j\\neq k,k+1}^nx_j\\right)$$\n其中 $x_{n+i}$ 表示 $x_i$。再次应用 Cauchy-Schwarz 不等式，有\n$$P^2\\leqslant\\sum_{k=1}^nx_k^2\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}x_j\\right)^2\\right]$$\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j\\right)^2\\leqslant(n-2)\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)\\right]$$\n$$\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\geqslant\\frac{4}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n利用上述不等式，我们有\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)=\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)$$\n$$\\leqslant\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\frac{1}{2}\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\leqslant\\frac{n-2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n所以 $P^2\\leqslant\\frac{(n-2)^2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^3$，由 $(*)$ 立即可得\n$$S\\geqslant\\frac{n}{n-2}\\sqrt{\\frac{x_1^2+x_2^2+\\cdots+x_n^2}{n}}=\\frac{n}{n-2}$$\n当且仅当 $x_1=x_2=\\cdots=x_n=1$ 时，成立等号。",
+  "tags": [
+    "Cauchy-Schwarz不等式",
+    "n变量不等式",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "1f25d835e1a8c5b62e8f7adb2fe8051e428e5455",
+  "raw_problem": {
+    "problem_id": "例5.1.12",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      166,
+      167
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=n$，证明下列不等式\n$$\\frac{x_1^3}{x_2^2+x_3^2+\\cdots+x_{n-1}^2}+\\frac{x_2^3}{x_3^2+x_4^2+\\cdots+x_n^2}+\\cdots+\\frac{x_n^3}{x_1^2+x_2^2+\\cdots+x_{n-2}^2}\\geqslant\\frac{n}{n-2}$$",
+    "solution_md": "设 $S$ 表示不等式左边的表达式\n$$P=x_1(x_2^2+x_3^2+\\cdots+x_{n-1}^2)+x_2(x_3^2+x_4^2+\\cdots+x_n^2)+\\cdots+$$\n$$x_n(x_1^2+x_2^2+\\cdots+x_{n-2}^2)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$S\\cdot P\\geqslant(x_1^2+x_2^2+\\cdots+x_n^2)^2\\quad(*)$$\n另外，$P$ 可以表示成如下形式\n$$P=\\sum_{k=1}^nx_k\\cdot\\sum_{k=1}^nx_k^2-\\sum_{k=1}^nx_k^3-\\sum_{k=1}^nx_k^2x_{k+1}=\\sum_{k=1}^nx_k^2\\left(\\sum_{j=1,j\\neq k,k+1}^nx_j\\right)$$\n其中 $x_{n+i}$ 表示 $x_i$。再次应用 Cauchy-Schwarz 不等式，有\n$$P^2\\leqslant\\sum_{k=1}^nx_k^2\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}x_j\\right)^2\\right]$$\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j\\right)^2\\leqslant(n-2)\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)\\right]$$\n$$\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\geqslant\\frac{4}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n利用上述不等式，我们有\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)=\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)$$\n$$\\leqslant\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\frac{1}{2}\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\leqslant\\frac{n-2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n所以 $P^2\\leqslant\\frac{(n-2)^2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^3$，由 $(*)$ 立即可得\n$$S\\geqslant\\frac{n}{n-2}\\sqrt{\\frac{x_1^2+x_2^2+\\cdots+x_n^2}{n}}=\\frac{n}{n-2}$$\n当且仅当 $x_1=x_2=\\cdots=x_n=1$ 时，成立等号。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.12 设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=n$，证明下列不等式\n$$\\frac{x_1^3}{x_2^2+x_3^2+\\cdots+x_{n-1}^2}+\\frac{x_2^3}{x_3^2+x_4^2+\\cdots+x_n^2}+\\cdots+\\frac{x_n^3}{x_1^2+x_2^2+\\cdots+x_{n-2}^2}\\geqslant\\frac{n}{n-2}$$\n证明 设 $S$ 表示不等式左边的表达式\n$$P=x_1(x_2^2+x_3^2+\\cdots+x_{n-1}^2)+x_2(x_3^2+x_4^2+\\cdots+x_n^2)+\\cdots+$$\n$$x_n(x_1^2+x_2^2+\\cdots+x_{n-2}^2)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$S\\cdot P\\geqslant(x_1^2+x_2^2+\\cdots+x_n^2)^2\\quad(*)$$\n另外，$P$ 可以表示成如下形式\n$$P=\\sum_{k=1}^nx_k\\cdot\\sum_{k=1}^nx_k^2-\\sum_{k=1}^nx_k^3-\\sum_{k=1}^nx_k^2x_{k+1}=\\sum_{k=1}^nx_k^2\\left(\\sum_{j=1,j\\neq k,k+1}^nx_j\\right)$$\n其中 $x_{n+i}$ 表示 $x_i$。再次应用 Cauchy-Schwarz 不等式，有\n$$P^2\\leqslant\\sum_{k=1}^nx_k^2\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}x_j\\right)^2\\right]$$\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j\\right)^2\\leqslant(n-2)\\left[\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)\\right]$$\n$$\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\geqslant\\frac{4}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n利用上述不等式，我们有\n$$\\sum_{k=1}^nx_k^2\\cdot\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)=\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\sum_{k=1}^nx_k^2\\left(\\sum_{j\\neq k,k+1}^nx_j^2\\right)$$\n$$\\leqslant\\left(\\sum_{k=1}^nx_k^2\\right)^2-\\frac{1}{2}\\sum_{k=1}^n(x_k^2+x_{k+1}^2)^2\\leqslant\\frac{n-2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^2$$\n所以 $P^2\\leqslant\\frac{(n-2)^2}{n}\\left(\\sum_{k=1}^nx_k^2\\right)^3$，由 $(*)$ 立即可得\n$$S\\geqslant\\frac{n}{n-2}\\sqrt{\\frac{x_1^2+x_2^2+\\cdots+x_n^2}{n}}=\\frac{n}{n-2}$$\n当且仅当 $x_1=x_2=\\cdots=x_n=1$ 时，成立等号。",
+    "tags": [
+      "Cauchy-Schwarz不等式",
+      "n变量不等式",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

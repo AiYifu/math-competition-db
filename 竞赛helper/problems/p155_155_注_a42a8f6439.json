@@ -1,0 +1,51 @@
+{
+  "uid": "p155_155_注_a42a8f6439",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": null,
+  "problem_id": "注",
+  "problem_type": "remark",
+  "title": "注",
+  "source_pages": [
+    155
+  ],
+  "source_images": [
+    "page-155.jpg"
+  ],
+  "stem_md": "根据这个证明，我们建立了一个漂亮的不等式，如下：\n\n设 $x_1, x_2, \\cdots, x_n$ 是正实数，满足 $x_1x_2\\cdots x_n = 1$，$a$ 和 $k$ 是正常数，且 $a \\leqslant 1$，则\n$$\\frac{1}{(1+x_1)^k} + \\frac{1}{(1+x_2)^k} + \\cdots + \\frac{1}{(1+x_n)^k} \\geqslant \\min\\left\\{1, \\frac{n}{2^k}\\right\\}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "注 根据这个证明，我们建立了一个漂亮的不等式，如下：\n\n设 $x_1, x_2, \\cdots, x_n$ 是正实数，满足 $x_1x_2\\cdots x_n = 1$，$a$ 和 $k$ 是正常数，且 $a \\leqslant 1$，则\n$$\\frac{1}{(1+x_1)^k} + \\frac{1}{(1+x_2)^k} + \\cdots + \\frac{1}{(1+x_n)^k} \\geqslant \\min\\left\\{1, \\frac{n}{2^k}\\right\\}$$",
+  "tags": [
+    "注",
+    "推论"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "a42a8f6439e82a34e7c6187ad7907acf6621f83f",
+  "raw_problem": {
+    "problem_id": "注",
+    "problem_type": "remark",
+    "chapter": "第4章",
+    "section": null,
+    "title": "注",
+    "source_pages": [
+      155
+    ],
+    "stem_md": "根据这个证明，我们建立了一个漂亮的不等式，如下：\n\n设 $x_1, x_2, \\cdots, x_n$ 是正实数，满足 $x_1x_2\\cdots x_n = 1$，$a$ 和 $k$ 是正常数，且 $a \\leqslant 1$，则\n$$\\frac{1}{(1+x_1)^k} + \\frac{1}{(1+x_2)^k} + \\cdots + \\frac{1}{(1+x_n)^k} \\geqslant \\min\\left\\{1, \\frac{n}{2^k}\\right\\}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "注 根据这个证明，我们建立了一个漂亮的不等式，如下：\n\n设 $x_1, x_2, \\cdots, x_n$ 是正实数，满足 $x_1x_2\\cdots x_n = 1$，$a$ 和 $k$ 是正常数，且 $a \\leqslant 1$，则\n$$\\frac{1}{(1+x_1)^k} + \\frac{1}{(1+x_2)^k} + \\cdots + \\frac{1}{(1+x_n)^k} \\geqslant \\min\\left\\{1, \\frac{n}{2^k}\\right\\}$$",
+    "tags": [
+      "注",
+      "推论"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

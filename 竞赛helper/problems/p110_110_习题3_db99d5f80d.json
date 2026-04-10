@@ -1,0 +1,49 @@
+{
+  "uid": "p110_110_习题3_db99d5f80d",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.6",
+  "problem_id": "习题3",
+  "problem_type": "exercise",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    110
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$3(a^2+b^2+c^2)\\geqslant 3+2(a^2b^2+b^2c^2+c^2a^2)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3.(Pham Kim Hung, Mathlinks)设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$3(a^2+b^2+c^2)\\geqslant 3+2(a^2b^2+b^2c^2+c^2a^2)$$",
+  "tags": [
+    "Pham Kim Hung",
+    "a+b+c=3"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "db99d5f80df98e01273ef1a70b7cf56efb9296cb",
+  "raw_problem": {
+    "problem_id": "习题3",
+    "problem_type": "exercise",
+    "chapter": "2",
+    "section": "2.6",
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      110
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$3(a^2+b^2+c^2)\\geqslant 3+2(a^2b^2+b^2c^2+c^2a^2)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "3.(Pham Kim Hung, Mathlinks)设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$3(a^2+b^2+c^2)\\geqslant 3+2(a^2b^2+b^2c^2+c^2a^2)$$",
+    "tags": [
+      "Pham Kim Hung",
+      "a+b+c=3"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

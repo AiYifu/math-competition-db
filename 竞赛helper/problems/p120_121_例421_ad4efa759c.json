@@ -1,0 +1,55 @@
+{
+  "uid": "p120_121_例421_ad4efa759c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4.2 循序渐进",
+  "section": null,
+  "problem_id": "例4.2.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    120,
+    121
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ $(n\\geqslant 4)$ 是非负实数，其和为 $n$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant\\frac{3}{n}(a_1^2+a_2^2+\\cdots+a_n^2-n)$$",
+  "solution_md": "**证明及分析** 对这个问题构建一个好的一般问题还是相当简单的。实际上，对于某个序列 $\\{d_n\\}$（或增或减）一般问题的形式为\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant d_n(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n\n首先，我们推出序列 $\\{d_n\\}$ 必须是下降的。因为，如果不等式对 $d_n$ 成立，那么它对所有 $d\\leqslant d_n$ 也应成立。另外，根据原问题，$d_n$ 必须大于或等于 $\\frac{3}{n}$，为确定序列 $\\{d_n\\}$ 的确切的值及其变化情况，我们可以使用传统的方法：令 $n-1$ 个变量相等，在此情况下，假设 $a_1=a_2=\\cdots=a_{n-1}=s,a_n=n-(n-1)s$，则不等式变成\n$$\\frac{n-1}{s}+\\frac{1}{n-(n-1)s}-n\\geqslant d_n\\{(n-1)s^2+[n-(n-1)s]^2-n\\}$$\n$$\\Leftrightarrow\\frac{n(n-1)(s-1)^2}{s[n-(n-1)s]}\\geqslant n(n-1)(s-1)^2d_n$$\n$$\\Leftrightarrow d_n\\leqslant\\frac{1}{s[n-(n-1)s]}$$\n\n那么 $d_n$ 最好可能（最大值）的值是\n$$\\min_{0<s<\\frac{n}{n-1}}\\left\\{\\frac{1}{s[n-(n-1)s]}\\right\\}=\\frac{4(n-1)}{n^2}$$\n\n所以，我们就选择 $d_n=\\frac{4(n-1)}{n^2}$，并证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant d(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n\n对所有 $d\\leqslant d_n$ 成立。这就意味着，原不等式是成立的，因为 $\\frac{4(n-1)}{n^2}\\geqslant\\frac{3}{n}$。为了构建齐次函数，对于每一个变量 $a_1,a_2,\\cdots,a_n$，我们需要把不等式分离成一个变量的函数，$f_1(x)=\\frac{1}{x}-dx^2$。\n\n为得到齐次函数，我们简单地选择 $c=\\frac{1}{\\sqrt[3]{d}}$，因此\n$$f(c,x)=cf_1(x)=\\frac{1}{\\sqrt[3]{d}x}-\\frac{dx^2}{\\sqrt[3]{d}}=\\frac{c}{x}-\\frac{x^2}{c^2}$$\n\n现在，令 $c_n=\\sqrt[3]{\\frac{n}{3}}$，则 $\\{c_n\\}$ 是增加序列，我们来证明\n$$\\sum_{i=1}^nf_1(a_1)=\\frac{1}{c}\\sum_{i=1}^nf(c,a_i)\\geqslant\\frac{nf(c,1)}{c}\\quad(*)$$\n$$\\Leftrightarrow\\sum_{i=1}^nf(c,a_i)\\geqslant nf(c,1)\\quad\\forall c\\geqslant c_n$$\n\n函数 $f(c,x)$ 是齐次的，且序列 $\\{c_n\\}$ 是增加的，满足 GI 定理的条件，所以，我们只需证明 $(*)$ 在 $c=c_n,a_1=a_2=\\cdots=a_{n-1}=s$ 的条件下成立即可，这我们已经证明了。由 GI 定理立得结论。在原不等式中，等号成立的条件是\n$$a_1=a_2=\\cdots=a_n=1$$",
+  "answer_md": "",
+  "hints_md": "**注** 本题更强的不等式\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant\\frac{4(n-1)}{n^2}(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n等号成立的条件是 $a_1=a_2=\\cdots=a_{n-1}=\\frac{n}{2(n-1)},a_n=\\frac{n}{2}$。",
+  "original_text_md": "例 4.2.1(Vasile Cirtoaje,Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ $(n\\geqslant 4)$ 是非负实数，其和为 $n$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant\\frac{3}{n}(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n\n证明及分析 ...",
+  "tags": [
+    "GI定理",
+    "齐次函数",
+    "序列构造",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0016",
+  "raw_response_file": "raw/chunk-0016.response.txt",
+  "raw_api_file": "raw/chunk-0016.api.json",
+  "fingerprint": "ad4efa759c7f883de7d182913b48d81b82aecf3e",
+  "raw_problem": {
+    "problem_id": "例4.2.1",
+    "problem_type": "example",
+    "chapter": "4.2 循序渐进",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      120,
+      121
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ $(n\\geqslant 4)$ 是非负实数，其和为 $n$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant\\frac{3}{n}(a_1^2+a_2^2+\\cdots+a_n^2-n)$$",
+    "solution_md": "**证明及分析** 对这个问题构建一个好的一般问题还是相当简单的。实际上，对于某个序列 $\\{d_n\\}$（或增或减）一般问题的形式为\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant d_n(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n\n首先，我们推出序列 $\\{d_n\\}$ 必须是下降的。因为，如果不等式对 $d_n$ 成立，那么它对所有 $d\\leqslant d_n$ 也应成立。另外，根据原问题，$d_n$ 必须大于或等于 $\\frac{3}{n}$，为确定序列 $\\{d_n\\}$ 的确切的值及其变化情况，我们可以使用传统的方法：令 $n-1$ 个变量相等，在此情况下，假设 $a_1=a_2=\\cdots=a_{n-1}=s,a_n=n-(n-1)s$，则不等式变成\n$$\\frac{n-1}{s}+\\frac{1}{n-(n-1)s}-n\\geqslant d_n\\{(n-1)s^2+[n-(n-1)s]^2-n\\}$$\n$$\\Leftrightarrow\\frac{n(n-1)(s-1)^2}{s[n-(n-1)s]}\\geqslant n(n-1)(s-1)^2d_n$$\n$$\\Leftrightarrow d_n\\leqslant\\frac{1}{s[n-(n-1)s]}$$\n\n那么 $d_n$ 最好可能（最大值）的值是\n$$\\min_{0<s<\\frac{n}{n-1}}\\left\\{\\frac{1}{s[n-(n-1)s]}\\right\\}=\\frac{4(n-1)}{n^2}$$\n\n所以，我们就选择 $d_n=\\frac{4(n-1)}{n^2}$，并证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant d(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n\n对所有 $d\\leqslant d_n$ 成立。这就意味着，原不等式是成立的，因为 $\\frac{4(n-1)}{n^2}\\geqslant\\frac{3}{n}$。为了构建齐次函数，对于每一个变量 $a_1,a_2,\\cdots,a_n$，我们需要把不等式分离成一个变量的函数，$f_1(x)=\\frac{1}{x}-dx^2$。\n\n为得到齐次函数，我们简单地选择 $c=\\frac{1}{\\sqrt[3]{d}}$，因此\n$$f(c,x)=cf_1(x)=\\frac{1}{\\sqrt[3]{d}x}-\\frac{dx^2}{\\sqrt[3]{d}}=\\frac{c}{x}-\\frac{x^2}{c^2}$$\n\n现在，令 $c_n=\\sqrt[3]{\\frac{n}{3}}$，则 $\\{c_n\\}$ 是增加序列，我们来证明\n$$\\sum_{i=1}^nf_1(a_1)=\\frac{1}{c}\\sum_{i=1}^nf(c,a_i)\\geqslant\\frac{nf(c,1)}{c}\\quad(*)$$\n$$\\Leftrightarrow\\sum_{i=1}^nf(c,a_i)\\geqslant nf(c,1)\\quad\\forall c\\geqslant c_n$$\n\n函数 $f(c,x)$ 是齐次的，且序列 $\\{c_n\\}$ 是增加的，满足 GI 定理的条件，所以，我们只需证明 $(*)$ 在 $c=c_n,a_1=a_2=\\cdots=a_{n-1}=s$ 的条件下成立即可，这我们已经证明了。由 GI 定理立得结论。在原不等式中，等号成立的条件是\n$$a_1=a_2=\\cdots=a_n=1$$",
+    "answer_md": "",
+    "hints_md": "**注** 本题更强的不等式\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant\\frac{4(n-1)}{n^2}(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n等号成立的条件是 $a_1=a_2=\\cdots=a_{n-1}=\\frac{n}{2(n-1)},a_n=\\frac{n}{2}$。",
+    "original_text_md": "例 4.2.1(Vasile Cirtoaje,Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ $(n\\geqslant 4)$ 是非负实数，其和为 $n$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}-n\\geqslant\\frac{3}{n}(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n\n证明及分析 ...",
+    "tags": [
+      "GI定理",
+      "齐次函数",
+      "序列构造",
+      "不等式证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

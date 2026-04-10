@@ -1,0 +1,55 @@
+{
+  "uid": "p216_216_例781_40ac6ce5ee",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.1",
+  "problem_type": "example",
+  "title": "IMO 1986",
+  "source_pages": [
+    216
+  ],
+  "source_images": [
+    "page-216.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+  "solution_md": "**证明** 设 $c=\\max\\{a,b,c\\}$，我们有\n\n$$F=\\text{LHS}-\\text{RHS}=a^2b(a-b)+b^2c(b-c)+c^2a(c-a)$$\n\n$$=[a^2b(a-b)-ab^2(a-b)]+[ab^2(a-c)-ab^2(b-c)]+$$\n\n$$[b^2c(b-c)-c^2a(a-c)]$$\n\n$$=ab(a-b)^2+(ab+ac-b^2)(c-a)(c-b)$$\n\n根据恒等式\n\n$$(c-a)(c-b)(a-b)^2-(a-b)^2(c-a)(c-b)=0$$\n\n我们有\n\n$$F=[ab-(c-a)(c-b)](a-b)^2+[ab+ac-b^2+(a-b)^2](c-a)(c-b)$$\n\n$$=c(a+b-c)(a-b)^2+a(a+c-b)(c-a)(c-b)\\geqslant 0$$\n\n等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.1(IMO 1986) 设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$\n证明 设 $c=\\max\\{a,b,c\\}$...",
+  "tags": [
+    "特别技术",
+    "IMO 1986",
+    "三角形边长",
+    "恒等式变形"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "40ac6ce5ee169c038746550d3538726be93f1565",
+  "raw_problem": {
+    "problem_id": "例7.8.1",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": "IMO 1986",
+    "source_pages": [
+      216
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+    "solution_md": "**证明** 设 $c=\\max\\{a,b,c\\}$，我们有\n\n$$F=\\text{LHS}-\\text{RHS}=a^2b(a-b)+b^2c(b-c)+c^2a(c-a)$$\n\n$$=[a^2b(a-b)-ab^2(a-b)]+[ab^2(a-c)-ab^2(b-c)]+$$\n\n$$[b^2c(b-c)-c^2a(a-c)]$$\n\n$$=ab(a-b)^2+(ab+ac-b^2)(c-a)(c-b)$$\n\n根据恒等式\n\n$$(c-a)(c-b)(a-b)^2-(a-b)^2(c-a)(c-b)=0$$\n\n我们有\n\n$$F=[ab-(c-a)(c-b)](a-b)^2+[ab+ac-b^2+(a-b)^2](c-a)(c-b)$$\n\n$$=c(a+b-c)(a-b)^2+a(a+c-b)(c-a)(c-b)\\geqslant 0$$\n\n等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.1(IMO 1986) 设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$\n证明 设 $c=\\max\\{a,b,c\\}$...",
+    "tags": [
+      "特别技术",
+      "IMO 1986",
+      "三角形边长",
+      "恒等式变形"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

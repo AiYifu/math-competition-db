@@ -1,0 +1,49 @@
+{
+  "uid": "p110_110_习题8_4294b9fff8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.6",
+  "problem_id": "习题8",
+  "problem_type": "exercise",
+  "title": "Pham Sinh Tan, CPR",
+  "source_pages": [
+    110
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是实数，且满足 $a^2+b^2+c^2=1$，证明\n$$a^3+b^3+c^3+kabc\\leqslant \\max\\left\\{1,\\frac{a+3}{3\\sqrt{3}}\\right\\}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "8.(Pham Sinh Tan,CPR)设 $a,b,c$ 是实数，且满足 $a^2+b^2+c^2=1$，证明\n$$a^3+b^3+c^3+kabc\\leqslant \\max\\left\\{1,\\frac{a+3}{3\\sqrt{3}}\\right\\}$$",
+  "tags": [
+    "a²+b²+c²=1",
+    "参数k"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "4294b9fff8aadb33913966b51d7fc41d2c62ab8b",
+  "raw_problem": {
+    "problem_id": "习题8",
+    "problem_type": "exercise",
+    "chapter": "2",
+    "section": "2.6",
+    "title": "Pham Sinh Tan, CPR",
+    "source_pages": [
+      110
+    ],
+    "stem_md": "设 $a,b,c$ 是实数，且满足 $a^2+b^2+c^2=1$，证明\n$$a^3+b^3+c^3+kabc\\leqslant \\max\\left\\{1,\\frac{a+3}{3\\sqrt{3}}\\right\\}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "8.(Pham Sinh Tan,CPR)设 $a,b,c$ 是实数，且满足 $a^2+b^2+c^2=1$，证明\n$$a^3+b^3+c^3+kabc\\leqslant \\max\\left\\{1,\\frac{a+3}{3\\sqrt{3}}\\right\\}$$",
+    "tags": [
+      "a²+b²+c²=1",
+      "参数k"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

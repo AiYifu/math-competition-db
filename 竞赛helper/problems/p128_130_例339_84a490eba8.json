@@ -1,0 +1,59 @@
+{
+  "uid": "p128_130_例339_84a490eba8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章",
+  "section": "3.3",
+  "problem_id": "例3.3.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    128,
+    129,
+    130
+  ],
+  "source_images": [
+    "page-128.jpg",
+    "page-129.jpg",
+    "page-130.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$，证明不等式\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$",
+  "solution_md": "采用反证法。我们来构造并证明反转问题。\n\n如果 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}=1$$\n则总有\n$$a_1+a_2+\\cdots+a_n\\leqslant\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$$\n\n事实上，对于 $i\\in\\{1,2,\\cdots,n\\}$，令 $x_i=\\frac{1}{n-1+a_i}$，由假设，我们有\n$$x_1+x_2+\\cdots+x_n=1$$\n\n且\n$$a_ix_i=\\frac{a_i}{n-1+a_i}=1-\\frac{n-1}{n-1+a_i}=1-(n-1)x_i$$\n\n条件 $x_1+x_2+\\cdots+x_n=1$ 变形为\n$$(n-1)x_i=(n-1)\\left(x_i+1-\\sum_{i=1}^{n}x_i\\right)$$\n$$\\Leftrightarrow(n-1)x_i=(n-1)x_i-1+\\sum_{j=1}^{n}[1-(n-1)x_j]$$\n$$\\Leftrightarrow(n-1)x_i=-a_ix_i+\\sum_{j=1}^{n}a_jx_j$$\n$$\\Leftrightarrow\\frac{n-1}{a_i}=-1+\\sum_{j=1}^{n}\\frac{a_jx_j}{a_ix_i}$$\n\n因此\n$$(n-1)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)=\\sum_{i=1}^{n}a_ix_i\\left(-\\frac{1}{a_ix_i}+\\sum_{j=1}^{n}\\frac{1}{a_jx_j}\\right)$$\n\n根据 Cauchy-Schwarz 不等式，我们有\n$$-\\frac{1}{a_ix_i}+\\sum_{j=1}^{n}\\frac{1}{a_jx_j}\\geqslant\\frac{(n-1)^2}{-a_ix_i+\\sum_{j=1}^{n}a_jx_j}=\\frac{(n-1)^2}{(n-1)x_i}=\\frac{n-1}{x_i}$$\n\n所以\n$$(n-1)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)\\geqslant\\sum_{i=1}^{n}a_ix_i\\cdot\\frac{n-1}{x_i}=(n-1)\\sum_{i=1}^{n}a_i$$\n$$\\Leftrightarrow\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\geqslant a_1+a_2+\\cdots+a_n$$\n\n不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "answer_md": "",
+  "hints_md": "Vasile Cirtoaje, American Mathematics Monthly",
+  "original_text_md": "例 3.3.9(Vasile Cirtoaje,American Mathematics Monthly) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$，证明不等式\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$\n证明 采用反证法。我们来构造并证明反转问题。\n如果 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}=1$$\n则总有\n$$a_1+a_2+\\cdots+a_n\\leqslant\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$$",
+  "tags": [
+    "反证法",
+    "反转问题",
+    "Cauchy-Schwarz不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "84a490eba8558dc34fcee442d633153cd22c16b7",
+  "raw_problem": {
+    "problem_id": "例3.3.9",
+    "problem_type": "example",
+    "chapter": "第3章",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      128,
+      129,
+      130
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$，证明不等式\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$",
+    "solution_md": "采用反证法。我们来构造并证明反转问题。\n\n如果 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}=1$$\n则总有\n$$a_1+a_2+\\cdots+a_n\\leqslant\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$$\n\n事实上，对于 $i\\in\\{1,2,\\cdots,n\\}$，令 $x_i=\\frac{1}{n-1+a_i}$，由假设，我们有\n$$x_1+x_2+\\cdots+x_n=1$$\n\n且\n$$a_ix_i=\\frac{a_i}{n-1+a_i}=1-\\frac{n-1}{n-1+a_i}=1-(n-1)x_i$$\n\n条件 $x_1+x_2+\\cdots+x_n=1$ 变形为\n$$(n-1)x_i=(n-1)\\left(x_i+1-\\sum_{i=1}^{n}x_i\\right)$$\n$$\\Leftrightarrow(n-1)x_i=(n-1)x_i-1+\\sum_{j=1}^{n}[1-(n-1)x_j]$$\n$$\\Leftrightarrow(n-1)x_i=-a_ix_i+\\sum_{j=1}^{n}a_jx_j$$\n$$\\Leftrightarrow\\frac{n-1}{a_i}=-1+\\sum_{j=1}^{n}\\frac{a_jx_j}{a_ix_i}$$\n\n因此\n$$(n-1)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)=\\sum_{i=1}^{n}a_ix_i\\left(-\\frac{1}{a_ix_i}+\\sum_{j=1}^{n}\\frac{1}{a_jx_j}\\right)$$\n\n根据 Cauchy-Schwarz 不等式，我们有\n$$-\\frac{1}{a_ix_i}+\\sum_{j=1}^{n}\\frac{1}{a_jx_j}\\geqslant\\frac{(n-1)^2}{-a_ix_i+\\sum_{j=1}^{n}a_jx_j}=\\frac{(n-1)^2}{(n-1)x_i}=\\frac{n-1}{x_i}$$\n\n所以\n$$(n-1)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)\\geqslant\\sum_{i=1}^{n}a_ix_i\\cdot\\frac{n-1}{x_i}=(n-1)\\sum_{i=1}^{n}a_i$$\n$$\\Leftrightarrow\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\geqslant a_1+a_2+\\cdots+a_n$$\n\n不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "answer_md": "",
+    "hints_md": "Vasile Cirtoaje, American Mathematics Monthly",
+    "original_text_md": "例 3.3.9(Vasile Cirtoaje,American Mathematics Monthly) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$，证明不等式\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$\n证明 采用反证法。我们来构造并证明反转问题。\n如果 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}=1$$\n则总有\n$$a_1+a_2+\\cdots+a_n\\leqslant\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}$$",
+    "tags": [
+      "反证法",
+      "反转问题",
+      "Cauchy-Schwarz不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "uid": "p126_126_例336_4c11c9c592",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    126
+  ],
+  "source_images": [
+    "page-126.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{b+3c}}+\\sqrt{\\frac{b}{c+3a}}+\\sqrt{\\frac{c}{a+3b}} \\geqslant \\frac{3}{2}$$",
+  "solution_md": "设 $x=2\\sqrt{\\frac{a}{b+3c}}, y=2\\sqrt{\\frac{b}{c+3a}}, z=2\\sqrt{\\frac{c}{a+3b}}$，则我们有\n$$3\\sum x^2y^2+7x^2y^2z^2$$\n$$=3\\sum\\frac{16ab}{(b+3c)(c+3a)}+\\frac{7\\cdot 64abc}{(a+3b)(b+3c)(c+3a)}$$\n$$=\\frac{48ab(a+3b)+48bc(b+3c)+48ca(c+3a)+448abc}{(a+3b)(b+3c)(c+3a)}=16$$\n\n所以，只需证明反转问题。\n\n如果 $x,y,z \\geqslant 0$，且 $x+y+z=3$，则\n$$3\\sum x^2y^2+7x^2y^2z^2 \\leqslant 16$$\n\n照例，设 $p=xy+yz+zx, q=xyz$，则\n$$3\\sum x^2y^2+7x^2y^2z^2=3(p^2-6q)+7q^2=f(q)$$\n\n是 $q$ 的一个减函数。注意到，如果 $p \\leqslant 2.2$，则 $f(q) \\leqslant 3p^2-11q < 16$。\n\n另一方面，如果 $p \\geqslant 2.2$，由 Schur 不等式，有，$3q \\geqslant 4p-9$。所以\n$$f(q) \\leqslant f\\left(\\frac{4p}{3}-9\\right)=3p^2-6(4p-9)+\\frac{7}{9}(4p-9)^2$$\n$$=16+\\frac{1}{9}(p-3)(139p-303) \\leqslant 0$$\n\n最后，我们推出，$f(q) \\leqslant 12$，不等式得证。等号成立的条件是 $x=y=z=1$ 或等价于 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "来源：Pham Kim Hung, Vasile Cirtoaje, Mathlinks",
+  "original_text_md": "例 3.3.6(Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{b+3c}}+\\sqrt{\\frac{b}{c+3a}}+\\sqrt{\\frac{c}{a+3b}} \\geqslant \\frac{3}{2}$$\n\n证明 设 $x=2\\sqrt{\\frac{a}{b+3c}}, y=2\\sqrt{\\frac{b}{c+3a}}, z=2\\sqrt{\\frac{c}{a+3b}}$，则我们有\n$$3\\sum x^2y^2+7x^2y^2z^2$$\n$$=3\\sum\\frac{16ab}{(b+3c)(c+3a)}+\\frac{7\\cdot 64abc}{(a+3b)(b+3c)(c+3a)}$$\n$$=\\frac{48ab(a+3b)+48bc(b+3c)+48ca(c+3a)+448abc}{(a+3b)(b+3c)(c+3a)}=16$$\n\n所以，只需证明反转问题。\n\n如果 $x,y,z \\geqslant 0$，且 $x+y+z=3$，则\n$$3\\sum x^2y^2+7x^2y^2z^2 \\leqslant 16$$\n\n照例，设 $p=xy+yz+zx, q=xyz$，则\n$$3\\sum x^2y^2+7x^2y^2z^2=3(p^2-6q)+7q^2=f(q)$$\n\n是 $q$ 的一个减函数。注意到，如果 $p \\leqslant 2.2$，则 $f(q) \\leqslant 3p^2-11q < 16$。\n\n另一方面，如果 $p \\geqslant 2.2$，由 Schur 不等式，有，$3q \\geqslant 4p-9$。所以\n$$f(q) \\leqslant f\\left(\\frac{4p}{3}-9\\right)=3p^2-6(4p-9)+\\frac{7}{9}(4p-9)^2$$\n$$=16+\\frac{1}{9}(p-3)(139p-303) \\leqslant 0$$\n\n最后，我们推出，$f(q) \\leqslant 12$，不等式得证。等号成立的条件是 $x=y=z=1$ 或等价于 $a=b=c$。",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "Schur不等式",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "4c11c9c59299375ab7235d293bd990dba0cf6e5b",
+  "raw_problem": {
+    "problem_id": "例3.3.6",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      126
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{b+3c}}+\\sqrt{\\frac{b}{c+3a}}+\\sqrt{\\frac{c}{a+3b}} \\geqslant \\frac{3}{2}$$",
+    "solution_md": "设 $x=2\\sqrt{\\frac{a}{b+3c}}, y=2\\sqrt{\\frac{b}{c+3a}}, z=2\\sqrt{\\frac{c}{a+3b}}$，则我们有\n$$3\\sum x^2y^2+7x^2y^2z^2$$\n$$=3\\sum\\frac{16ab}{(b+3c)(c+3a)}+\\frac{7\\cdot 64abc}{(a+3b)(b+3c)(c+3a)}$$\n$$=\\frac{48ab(a+3b)+48bc(b+3c)+48ca(c+3a)+448abc}{(a+3b)(b+3c)(c+3a)}=16$$\n\n所以，只需证明反转问题。\n\n如果 $x,y,z \\geqslant 0$，且 $x+y+z=3$，则\n$$3\\sum x^2y^2+7x^2y^2z^2 \\leqslant 16$$\n\n照例，设 $p=xy+yz+zx, q=xyz$，则\n$$3\\sum x^2y^2+7x^2y^2z^2=3(p^2-6q)+7q^2=f(q)$$\n\n是 $q$ 的一个减函数。注意到，如果 $p \\leqslant 2.2$，则 $f(q) \\leqslant 3p^2-11q < 16$。\n\n另一方面，如果 $p \\geqslant 2.2$，由 Schur 不等式，有，$3q \\geqslant 4p-9$。所以\n$$f(q) \\leqslant f\\left(\\frac{4p}{3}-9\\right)=3p^2-6(4p-9)+\\frac{7}{9}(4p-9)^2$$\n$$=16+\\frac{1}{9}(p-3)(139p-303) \\leqslant 0$$\n\n最后，我们推出，$f(q) \\leqslant 12$，不等式得证。等号成立的条件是 $x=y=z=1$ 或等价于 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "来源：Pham Kim Hung, Vasile Cirtoaje, Mathlinks",
+    "original_text_md": "例 3.3.6(Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{b+3c}}+\\sqrt{\\frac{b}{c+3a}}+\\sqrt{\\frac{c}{a+3b}} \\geqslant \\frac{3}{2}$$\n\n证明 设 $x=2\\sqrt{\\frac{a}{b+3c}}, y=2\\sqrt{\\frac{b}{c+3a}}, z=2\\sqrt{\\frac{c}{a+3b}}$，则我们有\n$$3\\sum x^2y^2+7x^2y^2z^2$$\n$$=3\\sum\\frac{16ab}{(b+3c)(c+3a)}+\\frac{7\\cdot 64abc}{(a+3b)(b+3c)(c+3a)}$$\n$$=\\frac{48ab(a+3b)+48bc(b+3c)+48ca(c+3a)+448abc}{(a+3b)(b+3c)(c+3a)}=16$$\n\n所以，只需证明反转问题。\n\n如果 $x,y,z \\geqslant 0$，且 $x+y+z=3$，则\n$$3\\sum x^2y^2+7x^2y^2z^2 \\leqslant 16$$\n\n照例，设 $p=xy+yz+zx, q=xyz$，则\n$$3\\sum x^2y^2+7x^2y^2z^2=3(p^2-6q)+7q^2=f(q)$$\n\n是 $q$ 的一个减函数。注意到，如果 $p \\leqslant 2.2$，则 $f(q) \\leqslant 3p^2-11q < 16$。\n\n另一方面，如果 $p \\geqslant 2.2$，由 Schur 不等式，有，$3q \\geqslant 4p-9$。所以\n$$f(q) \\leqslant f\\left(\\frac{4p}{3}-9\\right)=3p^2-6(4p-9)+\\frac{7}{9}(4p-9)^2$$\n$$=16+\\frac{1}{9}(p-3)(139p-303) \\leqslant 0$$\n\n最后，我们推出，$f(q) \\leqslant 12$，不等式得证。等号成立的条件是 $x=y=z=1$ 或等价于 $a=b=c$。",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "Schur不等式",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

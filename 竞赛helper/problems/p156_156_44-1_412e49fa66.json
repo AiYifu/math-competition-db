@@ -1,0 +1,53 @@
+{
+  "uid": "p156_156_44-1_412e49fa66",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    156
+  ],
+  "source_images": [
+    "page-156.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Vasile Cirtoaje Mathlinks) 设 $a,b,c,d,e$ 是非负实数，满足 $a+b+c+d+e=5$，证明\n$$(1+a^2)(1+b^2)(1+c^2)(1+d^2)(1+e^2) \\geqslant (1+a)(1+b)(1+c)(1+d)(1+e)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "1.(Pham Kim Hung, Vasile Cirtoaje Mathlinks) 设 $a,b,c,d,e$ 是非负实数，满足 $a+b+c+d+e=5$，证明\n$$(1+a^2)(1+b^2)(1+c^2)(1+d^2)(1+e^2) \\geqslant (1+a)(1+b)(1+c)(1+d)(1+e)$$",
+  "tags": [
+    "练习",
+    "非负实数",
+    "乘积不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "412e49fa663ef2c9f4a179ad5faddadce7b68bc5",
+  "raw_problem": {
+    "problem_id": "4.4-1",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      156
+    ],
+    "stem_md": "(Pham Kim Hung, Vasile Cirtoaje Mathlinks) 设 $a,b,c,d,e$ 是非负实数，满足 $a+b+c+d+e=5$，证明\n$$(1+a^2)(1+b^2)(1+c^2)(1+d^2)(1+e^2) \\geqslant (1+a)(1+b)(1+c)(1+d)(1+e)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "1.(Pham Kim Hung, Vasile Cirtoaje Mathlinks) 设 $a,b,c,d,e$ 是非负实数，满足 $a+b+c+d+e=5$，证明\n$$(1+a^2)(1+b^2)(1+c^2)(1+d^2)(1+e^2) \\geqslant (1+a)(1+b)(1+c)(1+d)(1+e)$$",
+    "tags": [
+      "练习",
+      "非负实数",
+      "乘积不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

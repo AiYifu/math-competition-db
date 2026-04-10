@@ -1,0 +1,56 @@
+{
+  "uid": "p083_084_例235_9ead350d13",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    83,
+    84
+  ],
+  "source_images": [
+    "page-083.jpg",
+    "page-084.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=4$，证明\n$$ab+bc+cd+da+ac+bd \\leqslant 1+a+b+c+d+abcd$$",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=1+a+b+c+d+abcd-(ab+bc+cd+da+ac+bd)$$\n令 $t=\\sqrt{\\frac{a^2+c^2}{2}}$，则\n$$f(a,b,c,d)-f(t,b,t,d)=\\frac{1}{2}(1-bd)(a-c)^2+\\frac{(b+d-1)(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)} \\geqslant 0$$\n因为\n$$(1-bd)+(b+d-1)$$\n$$=b+d-bd \\geqslant 2\\sqrt{bd}-bd$$\n$$\\geqslant 2bd-bd \\geqslant 0$$\n所以，只需证明，当 $1 \\leqslant x \\leqslant \\sqrt{\\frac{4}{3}}$ 时，下列不等式成立\n$$3x^2+3x\\sqrt{4-3x^2} \\leqslant 1+3x+\\sqrt{4-3x^2}+x^3\\sqrt{4-3x^2} \\quad (1)$$\n由 AM-GM 不等式，有\n$$x^3\\sqrt{4-3x^2}+2\\sqrt{4-3x^2} \\geqslant 3x\\sqrt{4-3x^2} \\quad (2)$$\n而且\n$$1+3x-3x^2-\\sqrt{4-3x^2}$$\n$$=3x(1-x)+\\frac{3(x-1)(x+1)}{1+\\sqrt{4-3x^2}}$$\n$$=3x(1-x)\\left[\\frac{x+1}{1+\\sqrt{4-3x^2}}-1\\right] \\quad (3)$$\n$$=\\frac{12x(x-1)(x^2-1)}{(1+\\sqrt{4-3x^2})(x+\\sqrt{4-3x^2})} \\geqslant 0$$\n由式(2),(3)相加，即得式(1)，等号成立的条件是 $a=b=c=d=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.5(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数,且满足 $a^2+b^2+c^2+d^2=4$,证明\n$$ab+bc+cd+da+ac+bd \\leqslant 1+a+b+c+d+abcd$$\n证明 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,记\n$$f(a,b,c,d)=1+a+b+c+d+abcd-(ab+bc+cd+da+ac+bd)$$\n令 $t=\\sqrt{\\frac{a^2+c^2}{2}}$,则\n$$f(a,b,c,d)-f(t,b,t,d)=\\frac{1}{2}(1-bd)(a-c)^2+\\frac{(b+d-1)(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)} \\geqslant 0$$\n因为\n$$(1-bd)+(b+d-1)$$\n$$=b+d-bd \\geqslant 2\\sqrt{bd}-bd$$\n$$\\geqslant 2bd-bd \\geqslant 0$$\n所以,只需证明,当 $1 \\leqslant x \\leqslant \\sqrt{\\frac{4}{3}}$ 时,下列不等式成立\n$$3x^2+3x\\sqrt{4-3x^2} \\leqslant 1+3x+\\sqrt{4-3x^2}+x^3\\sqrt{4-3x^2} \\quad (1)$$\n由 AM-GM 不等式,有\n$$x^3\\sqrt{4-3x^2}+2\\sqrt{4-3x^2} \\geqslant 3x\\sqrt{4-3x^2} \\quad (2)$$\n而且\n$$1+3x-3x^2-\\sqrt{4-3x^2}$$\n$$=3x(1-x)+\\frac{3(x-1)(x+1)}{1+\\sqrt{4-3x^2}}$$\n$$=3x(1-x)\\left[\\frac{x+1}{1+\\sqrt{4-3x^2}}-1\\right] \\quad (3)$$\n$$=\\frac{12x(x-1)(x^2-1)}{(1+\\sqrt{4-3x^2})(x+\\sqrt{4-3x^2})} \\geqslant 0$$\n由式(2),(3)相加,即得式(1),等号成立的条件是 $a=b=c=d=1$.",
+  "tags": [
+    "SMV定理",
+    "四元不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "9ead350d13486acfa159c0f5b8f595f71ee69741",
+  "raw_problem": {
+    "problem_id": "例2.3.5",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      83,
+      84
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=4$，证明\n$$ab+bc+cd+da+ac+bd \\leqslant 1+a+b+c+d+abcd$$",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=1+a+b+c+d+abcd-(ab+bc+cd+da+ac+bd)$$\n令 $t=\\sqrt{\\frac{a^2+c^2}{2}}$，则\n$$f(a,b,c,d)-f(t,b,t,d)=\\frac{1}{2}(1-bd)(a-c)^2+\\frac{(b+d-1)(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)} \\geqslant 0$$\n因为\n$$(1-bd)+(b+d-1)$$\n$$=b+d-bd \\geqslant 2\\sqrt{bd}-bd$$\n$$\\geqslant 2bd-bd \\geqslant 0$$\n所以，只需证明，当 $1 \\leqslant x \\leqslant \\sqrt{\\frac{4}{3}}$ 时，下列不等式成立\n$$3x^2+3x\\sqrt{4-3x^2} \\leqslant 1+3x+\\sqrt{4-3x^2}+x^3\\sqrt{4-3x^2} \\quad (1)$$\n由 AM-GM 不等式，有\n$$x^3\\sqrt{4-3x^2}+2\\sqrt{4-3x^2} \\geqslant 3x\\sqrt{4-3x^2} \\quad (2)$$\n而且\n$$1+3x-3x^2-\\sqrt{4-3x^2}$$\n$$=3x(1-x)+\\frac{3(x-1)(x+1)}{1+\\sqrt{4-3x^2}}$$\n$$=3x(1-x)\\left[\\frac{x+1}{1+\\sqrt{4-3x^2}}-1\\right] \\quad (3)$$\n$$=\\frac{12x(x-1)(x^2-1)}{(1+\\sqrt{4-3x^2})(x+\\sqrt{4-3x^2})} \\geqslant 0$$\n由式(2),(3)相加，即得式(1)，等号成立的条件是 $a=b=c=d=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.5(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数,且满足 $a^2+b^2+c^2+d^2=4$,证明\n$$ab+bc+cd+da+ac+bd \\leqslant 1+a+b+c+d+abcd$$\n证明 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,记\n$$f(a,b,c,d)=1+a+b+c+d+abcd-(ab+bc+cd+da+ac+bd)$$\n令 $t=\\sqrt{\\frac{a^2+c^2}{2}}$,则\n$$f(a,b,c,d)-f(t,b,t,d)=\\frac{1}{2}(1-bd)(a-c)^2+\\frac{(b+d-1)(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)} \\geqslant 0$$\n因为\n$$(1-bd)+(b+d-1)$$\n$$=b+d-bd \\geqslant 2\\sqrt{bd}-bd$$\n$$\\geqslant 2bd-bd \\geqslant 0$$\n所以,只需证明,当 $1 \\leqslant x \\leqslant \\sqrt{\\frac{4}{3}}$ 时,下列不等式成立\n$$3x^2+3x\\sqrt{4-3x^2} \\leqslant 1+3x+\\sqrt{4-3x^2}+x^3\\sqrt{4-3x^2} \\quad (1)$$\n由 AM-GM 不等式,有\n$$x^3\\sqrt{4-3x^2}+2\\sqrt{4-3x^2} \\geqslant 3x\\sqrt{4-3x^2} \\quad (2)$$\n而且\n$$1+3x-3x^2-\\sqrt{4-3x^2}$$\n$$=3x(1-x)+\\frac{3(x-1)(x+1)}{1+\\sqrt{4-3x^2}}$$\n$$=3x(1-x)\\left[\\frac{x+1}{1+\\sqrt{4-3x^2}}-1\\right] \\quad (3)$$\n$$=\\frac{12x(x-1)(x^2-1)}{(1+\\sqrt{4-3x^2})(x+\\sqrt{4-3x^2})} \\geqslant 0$$\n由式(2),(3)相加,即得式(1),等号成立的条件是 $a=b=c=d=1$.",
+    "tags": [
+      "SMV定理",
+      "四元不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

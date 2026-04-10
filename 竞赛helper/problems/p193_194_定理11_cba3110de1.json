@@ -1,0 +1,56 @@
+{
+  "uid": "p193_194_定理11_cba3110de1",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.3 不确定整合变量法",
+  "problem_id": "定理11",
+  "problem_type": "theorem",
+  "title": "UMV定理",
+  "source_pages": [
+    193,
+    194
+  ],
+  "source_images": [
+    "page-193.jpg",
+    "page-194.jpg"
+  ],
+  "stem_md": "假设 $f$ 是定义在 $[a,b]^n \\subset \\mathbb{R}^n \\mapsto \\mathbb{R}$ 上的连续的对称函数，满足\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(x_1+x_2, 0, x_3, \\cdots, x_n)\\right\\}$$\n\n令 $s = x_1 + x_2 + \\cdots + x_n$，则\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min_{1 \\leqslant k \\leqslant n}\\left\\{f\\left(\\frac{s}{k}, \\frac{s}{k}, \\cdots, \\frac{s}{k}, 0, \\cdots, 0\\right)\\right\\}$$",
+  "solution_md": "为使用完全初等方法证明这个定理，在此，我们要使用一般整合变量法引理（在第2章关于整合变量法，参阅SMV定理一节）。考虑下列变换：\n\n(1) 从 $\\{x_1, x_2, \\cdots, x_n\\}$ 中选出最大值和最小值，分别记为 $\\alpha$ 和 $\\beta$。\n\n(2) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f\\left(\\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots\\right)$，我们用 $\\frac{\\alpha+\\beta}{2}$ 来替换 $\\alpha$ 和 $\\beta$，但不能改变它们在序列中的次序。\n\n(3) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f(\\cdots, 0, \\cdots, \\alpha+\\beta, \\cdots)$，则过程结束。\n\n如果这个过程永不终结，由一般整合变量法引理，我们推出，所有数 $x_i$ 趋于相同的极限 $x = \\frac{x_1+x_2+\\cdots+x_n}{n} = \\frac{s}{n}$。因此\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant f\\left(\\frac{s}{n}, \\frac{s}{n}, \\cdots, \\frac{s}{n}\\right)$$\n\n这就是我们所要的结果。如果这个过程有限步之后结束，我们可以把这种情况看作是在初始序列中有一个数等于0，重新考虑剩余的 $n-1$ 个数，借助于简单的归纳法，就可以得到我们所需要的结果。",
+  "answer_md": "",
+  "hints_md": "可以说UMV方法是两个整合变量经典方式的自然结合：中心整合变量法（整合变量到它的算术平均值）和外围整合变量法（整合变量到它的边界）。",
+  "original_text_md": "**定理 11(UMV定理)** 假设 $f$ 是定义在 $[a,b]^n \\subset \\mathbb{R}^n \\mapsto \\mathbb{R}$ 上的连续的对称函数，满足\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(x_1+x_2, 0, x_3, \\cdots, x_n)\\right\\}$$\n\n令 $s = x_1 + x_2 + \\cdots + x_n$，则\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min_{1 \\leqslant k \\leqslant n}\\left\\{f\\left(\\frac{s}{k}, \\frac{s}{k}, \\cdots, \\frac{s}{k}, 0, \\cdots, 0\\right)\\right\\}$$\n\n**证明** 为使用完全初等方法证明这个定理，在此，我们要使用一般整合变量法引理（在第2章关于整合变量法，参阅SMV定理一节）。考虑下列变换：\n\n(1) 从 $\\{x_1, x_2, \\cdots, x_n\\}$ 中选出最大值和最小值，分别记为 $\\alpha$ 和 $\\beta$。\n\n(2) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f\\left(\\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots\\right)$，我们用 $\\frac{\\alpha+\\beta}{2}$ 来替换 $\\alpha$ 和 $\\beta$，但不能改变它们在序列中的次序。\n\n(3) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f(\\cdots, 0, \\cdots, \\alpha+\\beta, \\cdots)$，则过程结束。\n\n如果这个过程永不终结，由一般整合变量法引理，我们推出，所有数 $x_i$ 趋于相同的极限 $x = \\frac{x_1+x_2+\\cdots+x_n}{n} = \\frac{s}{n}$。因此\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant f\\left(\\frac{s}{n}, \\frac{s}{n}, \\cdots, \\frac{s}{n}\\right)$$\n\n这就是我们所要的结果。如果这个过程有限步之后结束，我们可以把这种情况看作是在初始序列中有一个数等于0，重新考虑剩余的 $n-1$ 个数，借助于简单的归纳法，就可以得到我们所需要的结果。",
+  "tags": [
+    "UMV定理",
+    "整合变量法",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "cba3110de17aaa377619c69827dc45aa7478ffe8",
+  "raw_problem": {
+    "problem_id": "定理11",
+    "problem_type": "theorem",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.3 不确定整合变量法",
+    "title": "UMV定理",
+    "source_pages": [
+      193,
+      194
+    ],
+    "stem_md": "假设 $f$ 是定义在 $[a,b]^n \\subset \\mathbb{R}^n \\mapsto \\mathbb{R}$ 上的连续的对称函数，满足\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(x_1+x_2, 0, x_3, \\cdots, x_n)\\right\\}$$\n\n令 $s = x_1 + x_2 + \\cdots + x_n$，则\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min_{1 \\leqslant k \\leqslant n}\\left\\{f\\left(\\frac{s}{k}, \\frac{s}{k}, \\cdots, \\frac{s}{k}, 0, \\cdots, 0\\right)\\right\\}$$",
+    "solution_md": "为使用完全初等方法证明这个定理，在此，我们要使用一般整合变量法引理（在第2章关于整合变量法，参阅SMV定理一节）。考虑下列变换：\n\n(1) 从 $\\{x_1, x_2, \\cdots, x_n\\}$ 中选出最大值和最小值，分别记为 $\\alpha$ 和 $\\beta$。\n\n(2) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f\\left(\\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots\\right)$，我们用 $\\frac{\\alpha+\\beta}{2}$ 来替换 $\\alpha$ 和 $\\beta$，但不能改变它们在序列中的次序。\n\n(3) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f(\\cdots, 0, \\cdots, \\alpha+\\beta, \\cdots)$，则过程结束。\n\n如果这个过程永不终结，由一般整合变量法引理，我们推出，所有数 $x_i$ 趋于相同的极限 $x = \\frac{x_1+x_2+\\cdots+x_n}{n} = \\frac{s}{n}$。因此\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant f\\left(\\frac{s}{n}, \\frac{s}{n}, \\cdots, \\frac{s}{n}\\right)$$\n\n这就是我们所要的结果。如果这个过程有限步之后结束，我们可以把这种情况看作是在初始序列中有一个数等于0，重新考虑剩余的 $n-1$ 个数，借助于简单的归纳法，就可以得到我们所需要的结果。",
+    "answer_md": "",
+    "hints_md": "可以说UMV方法是两个整合变量经典方式的自然结合：中心整合变量法（整合变量到它的算术平均值）和外围整合变量法（整合变量到它的边界）。",
+    "original_text_md": "**定理 11(UMV定理)** 假设 $f$ 是定义在 $[a,b]^n \\subset \\mathbb{R}^n \\mapsto \\mathbb{R}$ 上的连续的对称函数，满足\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(x_1+x_2, 0, x_3, \\cdots, x_n)\\right\\}$$\n\n令 $s = x_1 + x_2 + \\cdots + x_n$，则\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant \\min_{1 \\leqslant k \\leqslant n}\\left\\{f\\left(\\frac{s}{k}, \\frac{s}{k}, \\cdots, \\frac{s}{k}, 0, \\cdots, 0\\right)\\right\\}$$\n\n**证明** 为使用完全初等方法证明这个定理，在此，我们要使用一般整合变量法引理（在第2章关于整合变量法，参阅SMV定理一节）。考虑下列变换：\n\n(1) 从 $\\{x_1, x_2, \\cdots, x_n\\}$ 中选出最大值和最小值，分别记为 $\\alpha$ 和 $\\beta$。\n\n(2) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f\\left(\\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots, \\frac{\\alpha+\\beta}{2}, \\cdots\\right)$，我们用 $\\frac{\\alpha+\\beta}{2}$ 来替换 $\\alpha$ 和 $\\beta$，但不能改变它们在序列中的次序。\n\n(3) 如果 $f(\\cdots, \\alpha, \\cdots, \\beta, \\cdots) \\geqslant f(\\cdots, 0, \\cdots, \\alpha+\\beta, \\cdots)$，则过程结束。\n\n如果这个过程永不终结，由一般整合变量法引理，我们推出，所有数 $x_i$ 趋于相同的极限 $x = \\frac{x_1+x_2+\\cdots+x_n}{n} = \\frac{s}{n}$。因此\n$$f(x_1, x_2, \\cdots, x_n) \\geqslant f\\left(\\frac{s}{n}, \\frac{s}{n}, \\cdots, \\frac{s}{n}\\right)$$\n\n这就是我们所要的结果。如果这个过程有限步之后结束，我们可以把这种情况看作是在初始序列中有一个数等于0，重新考虑剩余的 $n-1$ 个数，借助于简单的归纳法，就可以得到我们所需要的结果。",
+    "tags": [
+      "UMV定理",
+      "整合变量法",
+      "不等式证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

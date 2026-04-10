@@ -1,9 +1,8 @@
-# 共享组件
+"""共享组件
 
 包含所有服务共享的数据模型、工具和配置。
+"""
 
-## 安装
+from .models import Problem, SearchRequest, SearchResponse, SearchResult
 
-```bash
-pip install -e .
-```
+__all__ = ["Problem", "SearchRequest", "SearchResponse", "SearchResult"]

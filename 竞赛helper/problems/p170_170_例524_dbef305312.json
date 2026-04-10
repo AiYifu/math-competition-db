@@ -1,0 +1,53 @@
+{
+  "uid": "p170_170_例524_dbef305312",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    170
+  ],
+  "source_images": [
+    "page-170.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2=1$，证明不等式\n$$1\\leqslant\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\sqrt{2}$$",
+  "solution_md": "利用条件 $a^2+b^2+c^2=1$，我们来证明\n$$(a+b+c)^2\\leqslant2(1+bc)^2$$\n事实上，上面的不等式等价于\n$$2(ab+bc+ca)\\leqslant1+4bc+2b^2c^2$$\n$$\\Leftrightarrow2a(b+c)\\leqslant a^2+(b+c)^2+2b^2c^2$$\n$$\\Leftrightarrow(b+c-a)^2+2b^2c^2\\geqslant0$$\n这显然成立。因此，我们得到\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\frac{\\sqrt{2}a}{a+b+c}+\\frac{\\sqrt{2}b}{a+b+c}+\\frac{\\sqrt{2}c}{a+b+c}=\\sqrt{2}$$\n不等式右半部分得证，等号成立的条件是 $a=b=\\frac{1}{\\sqrt{2}},c=0$ 或其轮换。\n\n为证明不等式左半部分，注意到\n$$a+abc\\leqslant a+\\frac{a(b^2+c^2)}{2}=a+\\frac{a(1-a^2)}{2}=1-\\frac{(a-1)^2(a+2)}{2}\\leqslant1$$\n所以\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}=\\frac{a^2}{a+abc}+\\frac{b^2}{b+abc}+\\frac{c^2}{c+abc}\\geqslant a^2+b^2+c^2=1$$\n不等式左半部分得证，等号成立的条件是 $a=1,b=c=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.4(Faruk Zejnulahi,Crux) 设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2=1$，证明不等式\n$$1\\leqslant\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\sqrt{2}$$\n证明 利用条件 $a^2+b^2+c^2=1$，我们来证明\n$$(a+b+c)^2\\leqslant2(1+bc)^2$$\n事实上，上面的不等式等价于\n$$2(ab+bc+ca)\\leqslant1+4bc+2b^2c^2$$\n$$\\Leftrightarrow2a(b+c)\\leqslant a^2+(b+c)^2+2b^2c^2$$\n$$\\Leftrightarrow(b+c-a)^2+2b^2c^2\\geqslant0$$\n这显然成立。因此，我们得到\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\frac{\\sqrt{2}a}{a+b+c}+\\frac{\\sqrt{2}b}{a+b+c}+\\frac{\\sqrt{2}c}{a+b+c}=\\sqrt{2}$$\n不等式右半部分得证，等号成立的条件是 $a=b=\\frac{1}{\\sqrt{2}},c=0$ 或其轮换。\n\n为证明不等式左半部分，注意到\n$$a+abc\\leqslant a+\\frac{a(b^2+c^2)}{2}=a+\\frac{a(1-a^2)}{2}=1-\\frac{(a-1)^2(a+2)}{2}\\leqslant1$$\n所以\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}=\\frac{a^2}{a+abc}+\\frac{b^2}{b+abc}+\\frac{c^2}{c+abc}\\geqslant a^2+b^2+c^2=1$$\n不等式左半部分得证，等号成立的条件是 $a=1,b=c=0$ 或其轮换。",
+  "tags": [
+    "双向不等式",
+    "条件a²+b²+c²=1",
+    "分离技巧"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "dbef305312140e02284452b80d40fd71ab2cf1e1",
+  "raw_problem": {
+    "problem_id": "例5.2.4",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": null,
+    "source_pages": [
+      170
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2=1$，证明不等式\n$$1\\leqslant\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\sqrt{2}$$",
+    "solution_md": "利用条件 $a^2+b^2+c^2=1$，我们来证明\n$$(a+b+c)^2\\leqslant2(1+bc)^2$$\n事实上，上面的不等式等价于\n$$2(ab+bc+ca)\\leqslant1+4bc+2b^2c^2$$\n$$\\Leftrightarrow2a(b+c)\\leqslant a^2+(b+c)^2+2b^2c^2$$\n$$\\Leftrightarrow(b+c-a)^2+2b^2c^2\\geqslant0$$\n这显然成立。因此，我们得到\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\frac{\\sqrt{2}a}{a+b+c}+\\frac{\\sqrt{2}b}{a+b+c}+\\frac{\\sqrt{2}c}{a+b+c}=\\sqrt{2}$$\n不等式右半部分得证，等号成立的条件是 $a=b=\\frac{1}{\\sqrt{2}},c=0$ 或其轮换。\n\n为证明不等式左半部分，注意到\n$$a+abc\\leqslant a+\\frac{a(b^2+c^2)}{2}=a+\\frac{a(1-a^2)}{2}=1-\\frac{(a-1)^2(a+2)}{2}\\leqslant1$$\n所以\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}=\\frac{a^2}{a+abc}+\\frac{b^2}{b+abc}+\\frac{c^2}{c+abc}\\geqslant a^2+b^2+c^2=1$$\n不等式左半部分得证，等号成立的条件是 $a=1,b=c=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.4(Faruk Zejnulahi,Crux) 设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2=1$，证明不等式\n$$1\\leqslant\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\sqrt{2}$$\n证明 利用条件 $a^2+b^2+c^2=1$，我们来证明\n$$(a+b+c)^2\\leqslant2(1+bc)^2$$\n事实上，上面的不等式等价于\n$$2(ab+bc+ca)\\leqslant1+4bc+2b^2c^2$$\n$$\\Leftrightarrow2a(b+c)\\leqslant a^2+(b+c)^2+2b^2c^2$$\n$$\\Leftrightarrow(b+c-a)^2+2b^2c^2\\geqslant0$$\n这显然成立。因此，我们得到\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}\\leqslant\\frac{\\sqrt{2}a}{a+b+c}+\\frac{\\sqrt{2}b}{a+b+c}+\\frac{\\sqrt{2}c}{a+b+c}=\\sqrt{2}$$\n不等式右半部分得证，等号成立的条件是 $a=b=\\frac{1}{\\sqrt{2}},c=0$ 或其轮换。\n\n为证明不等式左半部分，注意到\n$$a+abc\\leqslant a+\\frac{a(b^2+c^2)}{2}=a+\\frac{a(1-a^2)}{2}=1-\\frac{(a-1)^2(a+2)}{2}\\leqslant1$$\n所以\n$$\\frac{a}{1+bc}+\\frac{b}{1+ca}+\\frac{c}{1+ab}=\\frac{a^2}{a+abc}+\\frac{b^2}{b+abc}+\\frac{c^2}{c+abc}\\geqslant a^2+b^2+c^2=1$$\n不等式左半部分得证，等号成立的条件是 $a=1,b=c=0$ 或其轮换。",
+    "tags": [
+      "双向不等式",
+      "条件a²+b²+c²=1",
+      "分离技巧"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

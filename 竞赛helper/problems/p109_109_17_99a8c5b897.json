@@ -1,0 +1,51 @@
+{
+  "uid": "p109_109_17_99a8c5b897",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "17",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "17. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\frac{ab+bc+ca}{a^2+b^2+c^2}+\\frac{(a+b)(b+c)(c+a)}{4\\sqrt{2}abc} \\geqslant 1+\\sqrt{2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "17. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\frac{ab+bc+ca}{a^2+b^2+c^2}+\\frac{(a+b)(b+c)(c+a)}{4\\sqrt{2}abc}\\geqslant 1+\\sqrt{2}$$",
+  "tags": [
+    "Pham Kim Hung",
+    "Mathlinks"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "99a8c5b897254757100a8147ce11d3fc461a4a37",
+  "raw_problem": {
+    "problem_id": "17",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "17. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\frac{ab+bc+ca}{a^2+b^2+c^2}+\\frac{(a+b)(b+c)(c+a)}{4\\sqrt{2}abc} \\geqslant 1+\\sqrt{2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "17. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\frac{ab+bc+ca}{a^2+b^2+c^2}+\\frac{(a+b)(b+c)(c+a)}{4\\sqrt{2}abc}\\geqslant 1+\\sqrt{2}$$",
+    "tags": [
+      "Pham Kim Hung",
+      "Mathlinks"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

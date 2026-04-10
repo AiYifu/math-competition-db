@@ -1,0 +1,58 @@
+{
+  "uid": "p223_224_例7810_9002a5909e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    223,
+    224
+  ],
+  "source_images": [
+    "page-223.jpg",
+    "page-224.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，对所有 $k\\geqslant\\frac{1}{2}$，证明\n$$\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\geqslant k\\left(\\frac{3abc}{a^2b+b^2c+c^2a}-1\\right)$$",
+  "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式改写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$N=\\frac{a-b}{2(a+b)(b+c)(c+a)}+\\frac{ka}{a^2b+b^2c+c^2a}+\\frac{kc(a-b)^2}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n\n显然\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$=\\frac{2kc^2(a+b)}{(a^2b+b^2c+c^2a)(c+a)(b+c)}\\geqslant 0$$\n\n为证明 $N\\geqslant 0$，注意到\n$$2(a^2b+b^2c+c^2a)(a+b)(b+c)(c+a)N$$\n$$=(a^2b+b^2c+c^2a)(a-b)+2ka(a+b)(b+c)(c+a)+2kc(a+b)(a-b)^2$$\n$$=(2k-1)(a^2b^2+abc^2+b^3c)+(2k+1)(a^3b+a^2c^2)+2ka^2bc+4ka^3c+ab^2c\\geqslant 0$$\n因此，$N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.10(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，对所有 $k\\geqslant\\frac{1}{2}$，证明\n$$\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\geqslant k\\left(\\frac{3abc}{a^2b+b^2c+c^2a}-1\\right)$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式改写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$N=\\frac{a-b}{2(a+b)(b+c)(c+a)}+\\frac{ka}{a^2b+b^2c+c^2a}+\\frac{kc(a-b)^2}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n\n显然\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$=\\frac{2kc^2(a+b)}{(a^2b+b^2c+c^2a)(c+a)(b+c)}\\geqslant 0$$\n\n为证明 $N\\geqslant 0$，注意到\n$$2(a^2b+b^2c+c^2a)(a+b)(b+c)(c+a)N$$\n$$=(a^2b+b^2c+c^2a)(a-b)+2ka(a+b)(b+c)(c+a)+2kc(a+b)(a-b)^2$$\n$$=(2k-1)(a^2b^2+abc^2+b^3c)+(2k+1)(a^3b+a^2c^2)+2ka^2bc+4ka^3c+ab^2c\\geqslant 0$$\n因此，$N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "循环不等式",
+    "参数不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "9002a5909eff6b737f7328a111b0108710e587ea",
+  "raw_problem": {
+    "problem_id": "例7.8.10",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      223,
+      224
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，对所有 $k\\geqslant\\frac{1}{2}$，证明\n$$\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\geqslant k\\left(\\frac{3abc}{a^2b+b^2c+c^2a}-1\\right)$$",
+    "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式改写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$N=\\frac{a-b}{2(a+b)(b+c)(c+a)}+\\frac{ka}{a^2b+b^2c+c^2a}+\\frac{kc(a-b)^2}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n\n显然\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$=\\frac{2kc^2(a+b)}{(a^2b+b^2c+c^2a)(c+a)(b+c)}\\geqslant 0$$\n\n为证明 $N\\geqslant 0$，注意到\n$$2(a^2b+b^2c+c^2a)(a+b)(b+c)(c+a)N$$\n$$=(a^2b+b^2c+c^2a)(a-b)+2ka(a+b)(b+c)(c+a)+2kc(a+b)(a-b)^2$$\n$$=(2k-1)(a^2b^2+abc^2+b^3c)+(2k+1)(a^3b+a^2c^2)+2ka^2bc+4ka^3c+ab^2c\\geqslant 0$$\n因此，$N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.10(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，对所有 $k\\geqslant\\frac{1}{2}$，证明\n$$\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\geqslant k\\left(\\frac{3abc}{a^2b+b^2c+c^2a}-1\\right)$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式改写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$N=\\frac{a-b}{2(a+b)(b+c)(c+a)}+\\frac{ka}{a^2b+b^2c+c^2a}+\\frac{kc(a-b)^2}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n\n显然\n$$M=\\frac{kc}{a^2b+b^2c+c^2a}-\\frac{kc(c-a)(c-b)}{(a^2b+b^2c+c^2a)(a+c)(b+c)}$$\n$$=\\frac{2kc^2(a+b)}{(a^2b+b^2c+c^2a)(c+a)(b+c)}\\geqslant 0$$\n\n为证明 $N\\geqslant 0$，注意到\n$$2(a^2b+b^2c+c^2a)(a+b)(b+c)(c+a)N$$\n$$=(a^2b+b^2c+c^2a)(a-b)+2ka(a+b)(b+c)(c+a)+2kc(a+b)(a-b)^2$$\n$$=(2k-1)(a^2b^2+abc^2+b^3c)+(2k+1)(a^3b+a^2c^2)+2ka^2bc+4ka^3c+ab^2c\\geqslant 0$$\n因此，$N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "循环不等式",
+      "参数不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

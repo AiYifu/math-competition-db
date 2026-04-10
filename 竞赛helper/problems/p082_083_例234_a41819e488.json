@@ -1,0 +1,56 @@
+{
+  "uid": "p082_083_例234_a41819e488",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    82,
+    83
+  ],
+  "source_images": [
+    "page-082.jpg",
+    "page-083.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=3$，证明\n$$ab+bc+cd+da+ac+bd \\leqslant a+b+c+d+2abcd$$",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，则 $b^2+d^2 \\leqslant 2, bd \\leqslant 1$。记 $t=\\sqrt{\\frac{a^2+c^2}{2}}$ 以及\n$$f(a,b,c,d)=a+b+c+d+2abcd-(ab+bc+cd+da+ac+bd)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=a+c-\\sqrt{2(a^2+c^2)}+2bd\\left(ac-\\frac{a^2+c^2}{2}\\right)-$$\n$$(b+d)\\left[a+c-\\sqrt{2(a^2+c^2)}\\right]-\\left(ac-\\frac{a^2+c^2}{2}\\right)$$\n$$=(1-2bd)\\left(\\frac{a^2+c^2}{2}-ac\\right)+(b+d-1)\\left[\\sqrt{2(a^2+c^2)}-(a+c)\\right]$$\n$$=\\frac{1}{2}(1-2bd)(a-c)^2+(b+d-1)\\cdot\\frac{(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)}$$\n$$=\\left[\\frac{1}{2}-bd+\\frac{b+d-1}{\\sqrt{2(a^2+c^2)}+(a+c)}\\right](a-c)^2 \\geqslant 0$$\n由 SMV 定理可知，只需证明，原不等式在 $a=b=c=x, d=\\sqrt{3-3x^2}$ 的条件下成立即可，即\n$$f(a,b,c,d)=f(x,x,x,\\sqrt{3-3x^2})$$\n$$=3x+\\sqrt{3-3x^2}+2x^3\\sqrt{3-3x^2}-3x^2-3\\sqrt{3-3x^2}x$$\n$$=(1-x)\\left[3x-(2x^2+2x-1)\\sqrt{3-3x^2}\\right] \\geqslant 0$$\n余下的只需证明\n$$3x \\geqslant (2x^2+2x-1)\\sqrt{3-3x^2}$$\n由于 $3 \\geqslant 2x^2+2x-1, x \\geqslant \\sqrt{3-3x^2}$，所以，不等式显然是成立的。等号成立的条件是 $a=b=c=1, d=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.4(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数,且满足 $a^2+b^2+c^2+d^2=3$,证明\n$$ab+bc+cd+da+ac+bd \\leqslant a+b+c+d+2abcd$$\n证明 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,则 $b^2+d^2 \\leqslant 2,bd \\leqslant 1$.记 $t=\\sqrt{\\frac{a^2+c^2}{2}}$ 以及\n$$f(a,b,c,d)=a+b+c+d+2abcd-(ab+bc+cd+da+ac+bd)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=a+c-\\sqrt{2(a^2+c^2)}+2bd\\left(ac-\\frac{a^2+c^2}{2}\\right)-$$\n$$(b+d)\\left[a+c-\\sqrt{2(a^2+c^2)}\\right]-\\left(ac-\\frac{a^2+c^2}{2}\\right)$$\n$$=(1-2bd)\\left(\\frac{a^2+c^2}{2}-ac\\right)+(b+d-1)\\left[\\sqrt{2(a^2+c^2)}-(a+c)\\right]$$\n$$=\\frac{1}{2}(1-2bd)(a-c)^2+(b+d-1)\\cdot\\frac{(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)}$$\n$$=\\left[\\frac{1}{2}-bd+\\frac{b+d-1}{\\sqrt{2(a^2+c^2)}+(a+c)}\\right](a-c)^2 \\geqslant 0$$\n由 SMV 定理可知,只需证明,原不等式在 $a=b=c=x,d=\\sqrt{3-3x^2}$ 的条件下成立即可,即\n$$f(a,b,c,d)=f(x,x,x,\\sqrt{3-3x^2})$$\n$$=3x+\\sqrt{3-3x^2}+2x^3\\sqrt{3-3x^2}-3x^2-3\\sqrt{3-3x^2}x$$\n$$=(1-x)\\left[3x-(2x^2+2x-1)\\sqrt{3-3x^2}\\right] \\geqslant 0$$\n余下的只需证明\n$$3x \\geqslant (2x^2+2x-1)\\sqrt{3-3x^2}$$\n由于 $3 \\geqslant 2x^2+2x-1,x \\geqslant \\sqrt{3-3x^2}$,所以,不等式显然是成立的.等号成立的条件是 $a=b=c=1,d=0$ 或其轮换.",
+  "tags": [
+    "SMV定理",
+    "四元不等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "a41819e488eda367463f1fbc2f6393aecc9b0543",
+  "raw_problem": {
+    "problem_id": "例2.3.4",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      82,
+      83
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=3$，证明\n$$ab+bc+cd+da+ac+bd \\leqslant a+b+c+d+2abcd$$",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，则 $b^2+d^2 \\leqslant 2, bd \\leqslant 1$。记 $t=\\sqrt{\\frac{a^2+c^2}{2}}$ 以及\n$$f(a,b,c,d)=a+b+c+d+2abcd-(ab+bc+cd+da+ac+bd)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=a+c-\\sqrt{2(a^2+c^2)}+2bd\\left(ac-\\frac{a^2+c^2}{2}\\right)-$$\n$$(b+d)\\left[a+c-\\sqrt{2(a^2+c^2)}\\right]-\\left(ac-\\frac{a^2+c^2}{2}\\right)$$\n$$=(1-2bd)\\left(\\frac{a^2+c^2}{2}-ac\\right)+(b+d-1)\\left[\\sqrt{2(a^2+c^2)}-(a+c)\\right]$$\n$$=\\frac{1}{2}(1-2bd)(a-c)^2+(b+d-1)\\cdot\\frac{(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)}$$\n$$=\\left[\\frac{1}{2}-bd+\\frac{b+d-1}{\\sqrt{2(a^2+c^2)}+(a+c)}\\right](a-c)^2 \\geqslant 0$$\n由 SMV 定理可知，只需证明，原不等式在 $a=b=c=x, d=\\sqrt{3-3x^2}$ 的条件下成立即可，即\n$$f(a,b,c,d)=f(x,x,x,\\sqrt{3-3x^2})$$\n$$=3x+\\sqrt{3-3x^2}+2x^3\\sqrt{3-3x^2}-3x^2-3\\sqrt{3-3x^2}x$$\n$$=(1-x)\\left[3x-(2x^2+2x-1)\\sqrt{3-3x^2}\\right] \\geqslant 0$$\n余下的只需证明\n$$3x \\geqslant (2x^2+2x-1)\\sqrt{3-3x^2}$$\n由于 $3 \\geqslant 2x^2+2x-1, x \\geqslant \\sqrt{3-3x^2}$，所以，不等式显然是成立的。等号成立的条件是 $a=b=c=1, d=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.4(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数,且满足 $a^2+b^2+c^2+d^2=3$,证明\n$$ab+bc+cd+da+ac+bd \\leqslant a+b+c+d+2abcd$$\n证明 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,则 $b^2+d^2 \\leqslant 2,bd \\leqslant 1$.记 $t=\\sqrt{\\frac{a^2+c^2}{2}}$ 以及\n$$f(a,b,c,d)=a+b+c+d+2abcd-(ab+bc+cd+da+ac+bd)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)$$\n$$=a+c-\\sqrt{2(a^2+c^2)}+2bd\\left(ac-\\frac{a^2+c^2}{2}\\right)-$$\n$$(b+d)\\left[a+c-\\sqrt{2(a^2+c^2)}\\right]-\\left(ac-\\frac{a^2+c^2}{2}\\right)$$\n$$=(1-2bd)\\left(\\frac{a^2+c^2}{2}-ac\\right)+(b+d-1)\\left[\\sqrt{2(a^2+c^2)}-(a+c)\\right]$$\n$$=\\frac{1}{2}(1-2bd)(a-c)^2+(b+d-1)\\cdot\\frac{(a-c)^2}{\\sqrt{2(a^2+c^2)}+(a+c)}$$\n$$=\\left[\\frac{1}{2}-bd+\\frac{b+d-1}{\\sqrt{2(a^2+c^2)}+(a+c)}\\right](a-c)^2 \\geqslant 0$$\n由 SMV 定理可知,只需证明,原不等式在 $a=b=c=x,d=\\sqrt{3-3x^2}$ 的条件下成立即可,即\n$$f(a,b,c,d)=f(x,x,x,\\sqrt{3-3x^2})$$\n$$=3x+\\sqrt{3-3x^2}+2x^3\\sqrt{3-3x^2}-3x^2-3\\sqrt{3-3x^2}x$$\n$$=(1-x)\\left[3x-(2x^2+2x-1)\\sqrt{3-3x^2}\\right] \\geqslant 0$$\n余下的只需证明\n$$3x \\geqslant (2x^2+2x-1)\\sqrt{3-3x^2}$$\n由于 $3 \\geqslant 2x^2+2x-1,x \\geqslant \\sqrt{3-3x^2}$,所以,不等式显然是成立的.等号成立的条件是 $a=b=c=1,d=0$ 或其轮换.",
+    "tags": [
+      "SMV定理",
+      "四元不等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

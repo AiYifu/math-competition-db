@@ -1,0 +1,53 @@
+{
+  "uid": "p073_073_例226_f1b0386f84",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.2",
+  "problem_id": "例2.2.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    73
+  ],
+  "source_images": [
+    "page-073.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=2$，证明\n$$(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2) \\leqslant 4$$",
+  "solution_md": "（外围整合变量法）不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2)$$\n我们有\n$$b^2+c^2+d^2 \\leqslant \\left(b+\\frac{c+d}{2}\\right)^2$$\n$$c^2+d^2+a^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+c^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+d^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n所以\n$$f(a,b,c,d) \\leqslant f\\left(a+\\frac{c+d}{2},b+\\frac{c+d}{2},0,0\\right)$$\n令 $x=a+\\frac{c+d}{2},y=b+\\frac{c+d}{2}$，则 $x+y=2$，且只需证明\n$$xy(x^2+y^2) \\leqslant 2$$\n由 AM-GM 不等式，有\n$$xy(x^2+y^2)=\\frac{1}{2}(x^2+y^2)(2xy) \\leqslant \\frac{1}{2}\\left(\\frac{x^2+y^2+2xy}{2}\\right)^2=\\frac{(x+y)^4}{8}=2$$\n不等式得证，等号成立的条件是 $a=b=1,c=d=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.2.6(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=2$，证明\n$$(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2) \\leqslant 4$$\n证明 （外围整合变量法）不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2)$$\n我们有\n$$b^2+c^2+d^2 \\leqslant \\left(b+\\frac{c+d}{2}\\right)^2$$\n$$c^2+d^2+a^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+c^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+d^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n所以\n$$f(a,b,c,d) \\leqslant f\\left(a+\\frac{c+d}{2},b+\\frac{c+d}{2},0,0\\right)$$\n令 $x=a+\\frac{c+d}{2},y=b+\\frac{c+d}{2}$，则 $x+y=2$，且只需证明\n$$xy(x^2+y^2) \\leqslant 2$$\n由 AM-GM 不等式，有\n$$xy(x^2+y^2)=\\frac{1}{2}(x^2+y^2)(2xy) \\leqslant \\frac{1}{2}\\left(\\frac{x^2+y^2+2xy}{2}\\right)^2=\\frac{(x+y)^4}{8}=2$$\n不等式得证，等号成立的条件是 $a=b=1,c=d=0$ 及其轮换。",
+  "tags": [
+    "外围整合变量法",
+    "AM-GM不等式",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009",
+  "raw_response_file": "raw/chunk-0009.response.txt",
+  "raw_api_file": "raw/chunk-0009.api.json",
+  "fingerprint": "f1b0386f8459052d0d44998334c8c27eb9087c0c",
+  "raw_problem": {
+    "problem_id": "例2.2.6",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.2",
+    "title": null,
+    "source_pages": [
+      73
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=2$，证明\n$$(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2) \\leqslant 4$$",
+    "solution_md": "（外围整合变量法）不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2)$$\n我们有\n$$b^2+c^2+d^2 \\leqslant \\left(b+\\frac{c+d}{2}\\right)^2$$\n$$c^2+d^2+a^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+c^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+d^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n所以\n$$f(a,b,c,d) \\leqslant f\\left(a+\\frac{c+d}{2},b+\\frac{c+d}{2},0,0\\right)$$\n令 $x=a+\\frac{c+d}{2},y=b+\\frac{c+d}{2}$，则 $x+y=2$，且只需证明\n$$xy(x^2+y^2) \\leqslant 2$$\n由 AM-GM 不等式，有\n$$xy(x^2+y^2)=\\frac{1}{2}(x^2+y^2)(2xy) \\leqslant \\frac{1}{2}\\left(\\frac{x^2+y^2+2xy}{2}\\right)^2=\\frac{(x+y)^4}{8}=2$$\n不等式得证，等号成立的条件是 $a=b=1,c=d=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.2.6(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=2$，证明\n$$(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2) \\leqslant 4$$\n证明 （外围整合变量法）不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记\n$$f(a,b,c,d)=(a^2+b^2+c^2)(b^2+c^2+d^2)(c^2+d^2+a^2)(d^2+a^2+b^2)$$\n我们有\n$$b^2+c^2+d^2 \\leqslant \\left(b+\\frac{c+d}{2}\\right)^2$$\n$$c^2+d^2+a^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+c^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n$$a^2+b^2+d^2 \\leqslant \\left(a+\\frac{c+d}{2}\\right)^2+\\left(b+\\frac{c+d}{2}\\right)^2$$\n所以\n$$f(a,b,c,d) \\leqslant f\\left(a+\\frac{c+d}{2},b+\\frac{c+d}{2},0,0\\right)$$\n令 $x=a+\\frac{c+d}{2},y=b+\\frac{c+d}{2}$，则 $x+y=2$，且只需证明\n$$xy(x^2+y^2) \\leqslant 2$$\n由 AM-GM 不等式，有\n$$xy(x^2+y^2)=\\frac{1}{2}(x^2+y^2)(2xy) \\leqslant \\frac{1}{2}\\left(\\frac{x^2+y^2+2xy}{2}\\right)^2=\\frac{(x+y)^4}{8}=2$$\n不等式得证，等号成立的条件是 $a=b=1,c=d=0$ 及其轮换。",
+    "tags": [
+      "外围整合变量法",
+      "AM-GM不等式",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

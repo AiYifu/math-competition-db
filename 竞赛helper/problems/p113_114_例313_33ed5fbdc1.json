@@ -1,0 +1,58 @@
+{
+  "uid": "p113_114_例313_33ed5fbdc1",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": "3.1 起步",
+  "problem_id": "例3.1.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    113,
+    114
+  ],
+  "source_images": [
+    "page-113.jpg",
+    "page-114.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2+abc=4$，证明\n$$a+b+c \\leqslant 3$$",
+  "solution_md": "**证明及分析** 题设条件 $a^2+b^2+c^2+abc=4$，似乎很难进行变换。但不管怎样，我们可以证明这个命题的等价命题（这是我们已经熟悉的问题）：\n\n如果 $a,b,c \\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc \\geqslant 4$。\n\n它们为什么等价呢？首先，我们来证明第二个问题蕴含着第一个问题。实际上，假设第二个命题成立，即\n\n如果 $a,b,c \\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc \\geqslant 4$。\n\n为了证明原命题，采用反证法。假设存在三个数 $a,b,c$，满足\n$$a,b,c \\geqslant 0, \\quad a^2+b^2+c^2+abc=4, \\quad \\text{则 } a+b+c > 3$$\n由于 $a+b+c > 3$，则必定存在一个实数 $t < 1$，满足 $ta+tb+tc=3$，应用第二个命题，我们有\n$$(ta)^2+(tb)^2+(tc)^2+ta \\cdot tb \\cdot tc \\geqslant 4$$\n所以（因为 $t < 1$），$a^2+b^2+c^2+abc > 4$，这和假设相矛盾。因此，我们就证明了第二个命题。从而推出了第一个命题。这第二个命题在例 2.1.2 中涉及了（整合变量的章节），所以，第一个命题也就证明了。基于同样的原因，我们可以证明第一个命题蕴含着第二个命题，因此两个命题是等价的。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.1.3 设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2+abc=4$，证明\n$$a+b+c\\leqslant 3$$\n\n**证明及分析** 题设条件 $a^2+b^2+c^2+abc=4$，似乎很难进行变换。但不管怎样，我们可以证明这个命题的等价命题（这是我们已经熟悉的问题）：\n\n如果 $a,b,c\\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc\\geqslant 4$。\n\n它们为什么等价呢？首先，我们来证明第二个问题蕴含着第一个问题。实际上，假设第二个命题成立，即\n\n如果 $a,b,c\\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc\\geqslant 4$。\n\n为了证明原命题，采用反证法。假设存在三个数 $a,b,c$，满足\n$$a,b,c\\geqslant 0,a^2+b^2+c^2+abc=4,\\text{则 }a+b+c>3$$\n由于 $a+b+c>3$，则必定存在一个实数 $t<1$，满足 $ta+tb+tc=3$，应用第二个命题，我们有\n$$(ta)^2+(tb)^2+(tc)^2+ta\\cdot tb\\cdot tc\\geqslant 4$$\n所以（因为 $t<1$），$a^2+b^2+c^2+abc>4$，这和假设相矛盾。因此，我们就证明了第二个命题。从而推出了第一个命题。这第二个命题在例 2.1.2 中涉及了（整合变量的章节），所以，第一个命题也就证明了。基于同样的原因，我们可以证明第一个命题蕴含着第二个命题，因此两个命题是等价的。",
+  "tags": [
+    "反证法",
+    "等价命题",
+    "a^2+b^2+c^2+abc=4",
+    "起步"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "33ed5fbdc19138008de96c9c4e716fdabc4882e9",
+  "raw_problem": {
+    "problem_id": "例3.1.3",
+    "problem_type": "example",
+    "chapter": "第3章 反证法",
+    "section": "3.1 起步",
+    "title": null,
+    "source_pages": [
+      113,
+      114
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2+abc=4$，证明\n$$a+b+c \\leqslant 3$$",
+    "solution_md": "**证明及分析** 题设条件 $a^2+b^2+c^2+abc=4$，似乎很难进行变换。但不管怎样，我们可以证明这个命题的等价命题（这是我们已经熟悉的问题）：\n\n如果 $a,b,c \\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc \\geqslant 4$。\n\n它们为什么等价呢？首先，我们来证明第二个问题蕴含着第一个问题。实际上，假设第二个命题成立，即\n\n如果 $a,b,c \\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc \\geqslant 4$。\n\n为了证明原命题，采用反证法。假设存在三个数 $a,b,c$，满足\n$$a,b,c \\geqslant 0, \\quad a^2+b^2+c^2+abc=4, \\quad \\text{则 } a+b+c > 3$$\n由于 $a+b+c > 3$，则必定存在一个实数 $t < 1$，满足 $ta+tb+tc=3$，应用第二个命题，我们有\n$$(ta)^2+(tb)^2+(tc)^2+ta \\cdot tb \\cdot tc \\geqslant 4$$\n所以（因为 $t < 1$），$a^2+b^2+c^2+abc > 4$，这和假设相矛盾。因此，我们就证明了第二个命题。从而推出了第一个命题。这第二个命题在例 2.1.2 中涉及了（整合变量的章节），所以，第一个命题也就证明了。基于同样的原因，我们可以证明第一个命题蕴含着第二个命题，因此两个命题是等价的。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.1.3 设 $a,b,c$ 是非负实数，满足 $a^2+b^2+c^2+abc=4$，证明\n$$a+b+c\\leqslant 3$$\n\n**证明及分析** 题设条件 $a^2+b^2+c^2+abc=4$，似乎很难进行变换。但不管怎样，我们可以证明这个命题的等价命题（这是我们已经熟悉的问题）：\n\n如果 $a,b,c\\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc\\geqslant 4$。\n\n它们为什么等价呢？首先，我们来证明第二个问题蕴含着第一个问题。实际上，假设第二个命题成立，即\n\n如果 $a,b,c\\geqslant 0$，且满足 $a+b+c=3$，则 $a^2+b^2+c^2+abc\\geqslant 4$。\n\n为了证明原命题，采用反证法。假设存在三个数 $a,b,c$，满足\n$$a,b,c\\geqslant 0,a^2+b^2+c^2+abc=4,\\text{则 }a+b+c>3$$\n由于 $a+b+c>3$，则必定存在一个实数 $t<1$，满足 $ta+tb+tc=3$，应用第二个命题，我们有\n$$(ta)^2+(tb)^2+(tc)^2+ta\\cdot tb\\cdot tc\\geqslant 4$$\n所以（因为 $t<1$），$a^2+b^2+c^2+abc>4$，这和假设相矛盾。因此，我们就证明了第二个命题。从而推出了第一个命题。这第二个命题在例 2.1.2 中涉及了（整合变量的章节），所以，第一个命题也就证明了。基于同样的原因，我们可以证明第一个命题蕴含着第二个命题，因此两个命题是等价的。",
+    "tags": [
+      "反证法",
+      "等价命题",
+      "a^2+b^2+c^2+abc=4",
+      "起步"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

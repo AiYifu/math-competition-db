@@ -1,0 +1,55 @@
+{
+  "uid": "p122_123_例423_3b563231b7",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4.2 循序渐进",
+  "section": null,
+  "problem_id": "例4.2.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    122,
+    123
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数序列且 $a_1a_2\\cdots a_n=1$，证明\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}(a_1+a_2+\\cdots+a_n-n)$$",
+  "solution_md": "**证明及分析** 考察不等式\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant c_n(a_1+a_2+\\cdots+a_n-n)$$\n\n由 AM-GM 不等式，有 $a_1+a_2+\\cdots+a_n-n\\geqslant 0$。所以，如果上面的不等式对 $c_n$ 成立，那么对所有 $c\\leqslant c_n$ 必定成立。因此，构建一般序列 $c_n=\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}$，且一般问题形式如下\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant c_n(a_1+a_2+\\cdots+a_n-n)\\quad(\\text{所有 }c\\leqslant c_n)$$\n\n很明显，$\\{c_n\\}$ 是递减序列，第一步（构建一个好的序列）完成。我们继续进行下一步：构造齐次函数，易见 $f(c,x)=x^2-cx$。那么问题变成\n$$f(c,a_1)+f(c,a_2)+\\cdots+f(c,a_n)\\geqslant nf(c,1)\\quad(c\\geqslant c_n)\\quad(*)$$\n\n最后一步，为了证明 $(*)$（根据 GI 定理），我们可以假设\n$$a_1=a_2=\\cdots=a_{n-1}=x$$\n\n当然只需考虑，当 $c=c_n$ 时，不等式 $(*)$ 成立即可。此时，不等式变成\n$$(n-1)x^2+a_n^2-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}[(n-1)x+a_n-n]$$\n\n由于 $a_1a_2\\cdots a_n=1$，所以，$a_n=\\frac{1}{x^{n-1}}$，则上述不等式变成\n$$(n-1)x^2+\\frac{1}{x^{2(n-1)}}-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}\\left[(n-1)x+\\frac{1}{x^{n-1}}-n\\right]$$\n\n令\n$$F(x)=(n-1)x^2+\\frac{1}{x^{2(n-1)}}-n-\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}\\left[(n-1)x+\\frac{1}{x^{n-1}}-n\\right]$$\n\n其导数是\n$$F'(x)=\\frac{2(x^n-1)}{x^n}\\left[\\frac{(x^n+1)(n-1)}{x^{n-1}}-n\\sqrt[n]{n-1}\\right]$$\n\n由 AM-GM 不等式，有\n$$\\frac{(x^n+1)(n-1)}{x^{n-1}}=\\underbrace{x+x+\\cdots+x}_{n-1}+\\frac{n-1}{x^{n-1}}\\geqslant n\\sqrt[n]{x^{n-1}\\cdot\\frac{n-1}{x^{n-1}}}=n\\sqrt[n]{n-1}$$\n\n所以，$F'(x)=0$ 当且仅当 $x=1$ 或 $x=\\sqrt[n]{n-1}$，即有\n$$F(x)\\geqslant\\min\\{F(1),\\lim_{x\\to+\\infty}F(x)\\}=0$$\n\n不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.2.3(Gabriel Dospinescu,Calin Popa,Old and New Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是正实数序列且 $a_1a_2\\cdots a_n=1$，证明\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}(a_1+a_2+\\cdots+a_n-n)$$\n\n证明及分析 ...",
+  "tags": [
+    "GI定理",
+    "AM-GM不等式",
+    "齐次函数",
+    "导数分析"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0016",
+  "raw_response_file": "raw/chunk-0016.response.txt",
+  "raw_api_file": "raw/chunk-0016.api.json",
+  "fingerprint": "3b563231b76255f4589f3b915a2585b749b38c43",
+  "raw_problem": {
+    "problem_id": "例4.2.3",
+    "problem_type": "example",
+    "chapter": "4.2 循序渐进",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      122,
+      123
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数序列且 $a_1a_2\\cdots a_n=1$，证明\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}(a_1+a_2+\\cdots+a_n-n)$$",
+    "solution_md": "**证明及分析** 考察不等式\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant c_n(a_1+a_2+\\cdots+a_n-n)$$\n\n由 AM-GM 不等式，有 $a_1+a_2+\\cdots+a_n-n\\geqslant 0$。所以，如果上面的不等式对 $c_n$ 成立，那么对所有 $c\\leqslant c_n$ 必定成立。因此，构建一般序列 $c_n=\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}$，且一般问题形式如下\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant c_n(a_1+a_2+\\cdots+a_n-n)\\quad(\\text{所有 }c\\leqslant c_n)$$\n\n很明显，$\\{c_n\\}$ 是递减序列，第一步（构建一个好的序列）完成。我们继续进行下一步：构造齐次函数，易见 $f(c,x)=x^2-cx$。那么问题变成\n$$f(c,a_1)+f(c,a_2)+\\cdots+f(c,a_n)\\geqslant nf(c,1)\\quad(c\\geqslant c_n)\\quad(*)$$\n\n最后一步，为了证明 $(*)$（根据 GI 定理），我们可以假设\n$$a_1=a_2=\\cdots=a_{n-1}=x$$\n\n当然只需考虑，当 $c=c_n$ 时，不等式 $(*)$ 成立即可。此时，不等式变成\n$$(n-1)x^2+a_n^2-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}[(n-1)x+a_n-n]$$\n\n由于 $a_1a_2\\cdots a_n=1$，所以，$a_n=\\frac{1}{x^{n-1}}$，则上述不等式变成\n$$(n-1)x^2+\\frac{1}{x^{2(n-1)}}-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}\\left[(n-1)x+\\frac{1}{x^{n-1}}-n\\right]$$\n\n令\n$$F(x)=(n-1)x^2+\\frac{1}{x^{2(n-1)}}-n-\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}\\left[(n-1)x+\\frac{1}{x^{n-1}}-n\\right]$$\n\n其导数是\n$$F'(x)=\\frac{2(x^n-1)}{x^n}\\left[\\frac{(x^n+1)(n-1)}{x^{n-1}}-n\\sqrt[n]{n-1}\\right]$$\n\n由 AM-GM 不等式，有\n$$\\frac{(x^n+1)(n-1)}{x^{n-1}}=\\underbrace{x+x+\\cdots+x}_{n-1}+\\frac{n-1}{x^{n-1}}\\geqslant n\\sqrt[n]{x^{n-1}\\cdot\\frac{n-1}{x^{n-1}}}=n\\sqrt[n]{n-1}$$\n\n所以，$F'(x)=0$ 当且仅当 $x=1$ 或 $x=\\sqrt[n]{n-1}$，即有\n$$F(x)\\geqslant\\min\\{F(1),\\lim_{x\\to+\\infty}F(x)\\}=0$$\n\n不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.2.3(Gabriel Dospinescu,Calin Popa,Old and New Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是正实数序列且 $a_1a_2\\cdots a_n=1$，证明\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant\\frac{2n}{n-1}\\cdot\\sqrt[n]{n-1}(a_1+a_2+\\cdots+a_n-n)$$\n\n证明及分析 ...",
+    "tags": [
+      "GI定理",
+      "AM-GM不等式",
+      "齐次函数",
+      "导数分析"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

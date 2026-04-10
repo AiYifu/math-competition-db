@@ -1,0 +1,57 @@
+{
+  "uid": "p225_225_例7812_85e9703163",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    225
+  ],
+  "source_images": [
+    "page-225.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，对所有 $k\\leqslant\\frac{4}{5}$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}-1\\geqslant k\\left(\\frac{a^2+b^2+c^2}{ab+bc+ca}-1\\right)$$",
+  "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}-\\frac{[(1-k)a+b+2c](c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}+\\frac{[(1-k)a+b+2c](a-b)^2}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n去分母，有\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)M$$\n$$=(a+b)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+$$\n$$[(1-k)a+b+2c](c-a)(c-b)$$\n$$=(2-k)(a^2+b^2+ab)c+(a+b-2c)c^2\\geqslant 0$$\n\n另外，设 $t=\\frac{a}{b}$，则\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)N$$\n$$=(b+c)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+[(1-k)a+b+2c](a-b)^2$$\n$$=[(1-k)a^3-(1-k)a^2b-kab^2+b^3]+$$\n$$c[2a^2+(3-k)b^2-2ab]+c^2[(1-k)a+b]$$\n$$\\geqslant b^3[(1-k)t^3-(1-k)t^2-kt+1]\\geqslant 0$$\n\n因为（直接利用导数检查函数）\n$$g(t)=(1-k)t^3-(1-k)t^2-kt+1\\geqslant 0$$\n所以，$N\\geqslant 0$。从而，原不等式得证。\n\n注 实际上，上面这个不等式的最佳常数 $k$ 的近似值为 $0.808397414$。这可以由上面的方法找到（但需要一定的计算量）。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.12(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，对所有 $k\\leqslant\\frac{4}{5}$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}-1\\geqslant k\\left(\\frac{a^2+b^2+c^2}{ab+bc+ca}-1\\right)$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}-\\frac{[(1-k)a+b+2c](c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}+\\frac{[(1-k)a+b+2c](a-b)^2}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n去分母，有\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)M$$\n$$=(a+b)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+$$\n$$[(1-k)a+b+2c](c-a)(c-b)$$\n$$=(2-k)(a^2+b^2+ab)c+(a+b-2c)c^2\\geqslant 0$$\n\n另外，设 $t=\\frac{a}{b}$，则\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)N$$\n$$=(b+c)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+[(1-k)a+b+2c](a-b)^2$$\n$$=[(1-k)a^3-(1-k)a^2b-kab^2+b^3]+$$\n$$c[2a^2+(3-k)b^2-2ab]+c^2[(1-k)a+b]$$\n$$\\geqslant b^3[(1-k)t^3-(1-k)t^2-kt+1]\\geqslant 0$$\n\n因为（直接利用导数检查函数）\n$$g(t)=(1-k)t^3-(1-k)t^2-kt+1\\geqslant 0$$\n所以，$N\\geqslant 0$。从而，原不等式得证。\n\n注 实际上，上面这个不等式的最佳常数 $k$ 的近似值为 $0.808397414$。这可以由上面的方法找到（但需要一定的计算量）。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "参数不等式",
+    "最佳常数",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "85e9703163e44ee17866be10a0ad79b5d4310d64",
+  "raw_problem": {
+    "problem_id": "例7.8.12",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      225
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，对所有 $k\\leqslant\\frac{4}{5}$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}-1\\geqslant k\\left(\\frac{a^2+b^2+c^2}{ab+bc+ca}-1\\right)$$",
+    "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}-\\frac{[(1-k)a+b+2c](c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}+\\frac{[(1-k)a+b+2c](a-b)^2}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n去分母，有\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)M$$\n$$=(a+b)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+$$\n$$[(1-k)a+b+2c](c-a)(c-b)$$\n$$=(2-k)(a^2+b^2+ab)c+(a+b-2c)c^2\\geqslant 0$$\n\n另外，设 $t=\\frac{a}{b}$，则\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)N$$\n$$=(b+c)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+[(1-k)a+b+2c](a-b)^2$$\n$$=[(1-k)a^3-(1-k)a^2b-kab^2+b^3]+$$\n$$c[2a^2+(3-k)b^2-2ab]+c^2[(1-k)a+b]$$\n$$\\geqslant b^3[(1-k)t^3-(1-k)t^2-kt+1]\\geqslant 0$$\n\n因为（直接利用导数检查函数）\n$$g(t)=(1-k)t^3-(1-k)t^2-kt+1\\geqslant 0$$\n所以，$N\\geqslant 0$。从而，原不等式得证。\n\n注 实际上，上面这个不等式的最佳常数 $k$ 的近似值为 $0.808397414$。这可以由上面的方法找到（但需要一定的计算量）。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.12(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，对所有 $k\\leqslant\\frac{4}{5}$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}-1\\geqslant k\\left(\\frac{a^2+b^2+c^2}{ab+bc+ca}-1\\right)$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}-\\frac{[(1-k)a+b+2c](c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{k}{ab+bc+ca}+\\frac{[(1-k)a+b+2c](a-b)^2}{(a^2b+b^2c+c^2a)(ab+bc+ca)}$$\n去分母，有\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)M$$\n$$=(a+b)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+$$\n$$[(1-k)a+b+2c](c-a)(c-b)$$\n$$=(2-k)(a^2+b^2+ab)c+(a+b-2c)c^2\\geqslant 0$$\n\n另外，设 $t=\\frac{a}{b}$，则\n$$(a^2b+b^2c+c^2a)(ab+bc+ca)N$$\n$$=(b+c)(ab+bc+ca)-k(a^2b+b^2c+c^2a)+[(1-k)a+b+2c](a-b)^2$$\n$$=[(1-k)a^3-(1-k)a^2b-kab^2+b^3]+$$\n$$c[2a^2+(3-k)b^2-2ab]+c^2[(1-k)a+b]$$\n$$\\geqslant b^3[(1-k)t^3-(1-k)t^2-kt+1]\\geqslant 0$$\n\n因为（直接利用导数检查函数）\n$$g(t)=(1-k)t^3-(1-k)t^2-kt+1\\geqslant 0$$\n所以，$N\\geqslant 0$。从而，原不等式得证。\n\n注 实际上，上面这个不等式的最佳常数 $k$ 的近似值为 $0.808397414$。这可以由上面的方法找到（但需要一定的计算量）。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "参数不等式",
+      "最佳常数",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

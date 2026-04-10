@@ -1,0 +1,29 @@
+{
+  "uid": "p023_025_例116_c69040fe14",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.1 平方分析法",
+  "section": null,
+  "problem_id": "例1.1.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    23,
+    24,
+    25
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2+b^2}{a+b}+\\frac{b^2+c^2}{b+c}+\\frac{c^2+a^2}{c+a} \\leqslant \\frac{3(a^2+b^2+c^2)}{a+b+c}$$",
+  "solution_md": "**证明及分析** 不等式等价于\n$$\\sum\\left(\\frac{a^2+b^2}{a+b}-\\frac{a+b}{2}\\right) \\leqslant \\frac{3(a^2+b^2+c^2)}{a+b+c}-\\sum a$$\n或\n$$\\sum\\frac{(a-b)^2}{2(a+b)} \\leqslant \\frac{(a-b)^2+(b-c)^2+(c-a)^2}{a+b+c}$$\n\n于是，我们得到\n$$S_c=\\frac{a+b+c}{a+b}-2=1-\\frac{c}{a+b}$$\n（当然，$S_a$ 和 $S_b$ 类似可得），不等式变成\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2 \\geqslant 0$$\n\n这样，我们就完成了第一步：把不等式写成平方和的形式；接下来是第二步：重排变量的次序，以确定 $S_a(b-c)^2,S_b(c-a)^2,S_c(a-b)^2$ 中的负项。不失一般性，设 $a \\geqslant b \\geqslant c$，则\n$$S_c=1-\\frac{c}{a+b} \\geqslant S_b=1-\\frac{b}{c+a} \\geqslant 0$$\n\n但 $S_a=1-\\frac{a}{b+c}$，并不总是非负。于是，我们尝试整合\"大的非负项 $S_b(c-a)^2$\"和\"可能的负项 $S_a(b-c)^2$\"，但到底是怎么回事？我说这很有趣。\n\n照例，我们由 $(a-c)^2 \\geqslant (b-c)^2$ 和 $S_a+S_b \\geqslant 0$，来证明 $S_a(b-c)^2+S_b(c-a)^2 \\geqslant 0$。第一个条件 $(a-c)^2 \\geqslant (b-c)^2$，当然成立；现考虑第二个条件 $S_a+S_b \\geqslant 0$，其等价于\n$$\\frac{a}{b+c}+\\frac{b}{c+a} \\leqslant 2$$\n\n稍等，这个不等式是不成立（选择 $a$ 足够大些，$b$ 和 $c$ 足够小些，如 $a=10,b=c=1$ 就可以验证）。是不是计算有错误（把不等式改写成平方和形式）？不是。第一步是非常清楚的，那么问题出在哪里？是不是 SOS 方法对这个问题不适用？是的，的确如此，SOS 方法从建立到现在遇到了困难，但是，困难总是激励创新，我们现在的工作就是要找到隐藏在这里的秘密。\n\n冥思苦想之后，你是否意识到 $(a-c)^2$ 比 $(b-c)^2$ 更大些，在上面的估计中，我们使用了不等式 $(a-c)^2 \\geqslant (b-c)^2$，在这个情况下，我们找到一个更好的估计，这就是\n$$\\frac{(a-c)^2}{(b-c)^2} \\geqslant \\frac{a^2}{b^2} \\text{ 或 } (a-c)^2 \\geqslant \\frac{a^2}{b^2}(b-c)^2$$\n\n因此，我们很容易完成证明，实际上\n$$S_a(b-c)^2+S_b(c-a)^2 \\geqslant S_a(b-c)^2+S_b \\cdot \\frac{a^2}{b^2}(b-c)^2$$\n\n余下的只需证明 $b^2S_a+a^2S_b \\geqslant 0$，这等价于\n$$a^2+b^2 \\geqslant \\frac{a^2b}{a+c}+\\frac{b^2a}{b+c}$$\n\n这个条件显然是成立的，因为 $\\text{RHS} \\leqslant 2ab \\leqslant a^2+b^2$，证明完成。等号成立的条件是 $a=b=c$，$a=b,c=0$ 或其轮换。\n\n**译者注** 本题的一个非负系数分拆 SOS 形式如下\n$$\\frac{3(a^2+b^2+c^2)}{a+b+c}-\\sum\\frac{a^2+b^2}{a+b}=\\sum\\frac{ab(a-b)^2}{(a+c)(b+c)(a+b+c)} \\geqslant 0$$",
+  "answer_md": "等号成立的条件是 $a=b=c$，$a=b,c=0$ 或其轮换。",
+  "hints_md": "",
+  "tags": [
+    "SOS方法",
+    "平方分析法",
+    "重排变量",
+    "非负实数",
+    "困难问题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "c69040fe1419b4e9a3b8161c1ad6fa13c583df5e"
+}

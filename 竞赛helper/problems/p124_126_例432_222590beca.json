@@ -1,0 +1,57 @@
+{
+  "uid": "p124_126_例432_222590beca",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4.3 典型应用",
+  "section": null,
+  "problem_id": "例4.3.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    124,
+    125,
+    126
+  ],
+  "source_images": [],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$\\frac{x_1}{k+x_1^2}+\\frac{x_2}{k+x_2^2}+\\cdots+\\frac{x_n}{k+x_n^2}\\leqslant\\frac{n}{k+1}$$\n\n其中\n$$k=\\begin{cases}\\frac{1}{3} & (n=2)\\\\ \\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2} & (n\\geqslant 3)\\end{cases}$$",
+  "solution_md": "**证明** 构造序列 $\\{c_n\\}$ 如下\n$$c_2=\\frac{1}{\\sqrt{3}}, c_n=\\sqrt{d_n}=\\sqrt{\\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}}\\quad(n\\geqslant 3)$$\n\n不难证明，$\\{c_n\\}$ 是递增序列。为证明，$\\sum_{i=1}^n\\frac{x_i}{d_n+x_i^2}\\leqslant\\frac{n}{d_n+1}$，我们要证明这个问题的一般情况如下\n$$\\sum_{i=1}^n\\frac{x_i}{c^2+x_i^2}\\leqslant\\frac{n}{c^2+1}\\quad\\forall c\\geqslant c_n\\quad(*)$$\n\n因为函数 $f(c,x)=\\frac{x}{c^2+x^2}$ 是齐次的，而且 $\\{c_n\\}$ 是递增序列，由 GI 定理，只需证明，在 $x_1=x_2=\\cdots=x_{n-1}=u,x_n=n-(n-1)u$ 条件下，$(*)$ 成立即可。此时，设\n$$k\\geqslant d_n=\\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}$$\n\n则不等式变成\n$$\\frac{(n-1)u}{k+u^2}+\\frac{n-(n-1)u}{k+[n-(n-1)u]^2}\\leqslant\\frac{n}{k+1}$$\n$$\\Leftrightarrow\\left[\\frac{(n-1)u}{k+u^2}-\\frac{n-1}{k+1}\\right]+\\left\\{\\frac{n-(n-1)u}{k+[n-(n-1)u]^2}-\\frac{1}{k+1}\\right\\}\\leqslant 0$$\n$$\\Leftrightarrow\\frac{(n-1)(1-u)(u-k)}{k+u^2}+\\frac{(n-1)(u-1)[n-(n-1)u-k]}{k+[n-(n-1)u]^2}\\leqslant 0$$\n$$\\Leftrightarrow(n-1)(1-u)\\{(n-k)[k+(n-(n-1)u)^2]-[n-(n-1)u-k](k+u^2)\\}\\leqslant 0$$\n$$\\Leftrightarrow n(n-1)(1-u)^2\\{u[n-(n-1)u]-k[n-(n-2)u]-k\\}\\leqslant 0$$\n\n令\n$$g(u)=u[n-(n-1)u]-k[n-(n-2)u]-k$$\n$$=-(n-1)u^2+[k(n-2)+n]u-k(n+1)$$\n\n我们要证明 $g(u)\\leqslant 0$，$\\forall u\\in\\left[0,\\frac{n}{n-1}\\right]$。如果 $n=2$，则\n$$g(u)=-u^2+2u-3k=-(u-1)^2+(1-3k)\\leqslant 0$$\n\n如果 $n\\geqslant 2$，容易计算\n$$\\Delta_k=[k(n-2)+n]^2-4k(n-1)(n+1)=(n-2)^2k^2-2(n^2+2n-2)k+n^2$$\n\n方程 $\\Delta_k=0$，有两个正根\n$$k_1=\\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}$$\n$$k_2=\\frac{n^2+2n-2+2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}$$\n\n注意到，$k\\geqslant k_1=d_n$，由假设即得，如果 $k\\leqslant k_2$，则 $\\Delta_k\\leqslant 0$。所以，$g(u)\\leqslant 0$，不等式得证。否则，假设 $k\\geqslant k_2$，由于 $k_2\\geqslant 1$，因此，$k\\geqslant 1$，且\n$$g(u)=u[n-(n-1)u]-[n-(n-2)u]\\leqslant 0$$\n\n我们证明了每一种情况，这就意味着，不等式已成功证明。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.2(Pham Kim Hung,Mathlinks) 设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$\\frac{x_1}{k+x_1^2}+\\frac{x_2}{k+x_2^2}+\\cdots+\\frac{x_n}{k+x_n^2}\\leqslant\\frac{n}{k+1}$$\n\n其中 ...",
+  "tags": [
+    "GI定理",
+    "齐次函数",
+    "二次方程",
+    "判别式分析"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0016",
+  "raw_response_file": "raw/chunk-0016.response.txt",
+  "raw_api_file": "raw/chunk-0016.api.json",
+  "fingerprint": "222590beca03b3a836cc7bd2ac0bb95c71a57ca0",
+  "raw_problem": {
+    "problem_id": "例4.3.2",
+    "problem_type": "example",
+    "chapter": "4.3 典型应用",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      124,
+      125,
+      126
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$\\frac{x_1}{k+x_1^2}+\\frac{x_2}{k+x_2^2}+\\cdots+\\frac{x_n}{k+x_n^2}\\leqslant\\frac{n}{k+1}$$\n\n其中\n$$k=\\begin{cases}\\frac{1}{3} & (n=2)\\\\ \\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2} & (n\\geqslant 3)\\end{cases}$$",
+    "solution_md": "**证明** 构造序列 $\\{c_n\\}$ 如下\n$$c_2=\\frac{1}{\\sqrt{3}}, c_n=\\sqrt{d_n}=\\sqrt{\\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}}\\quad(n\\geqslant 3)$$\n\n不难证明，$\\{c_n\\}$ 是递增序列。为证明，$\\sum_{i=1}^n\\frac{x_i}{d_n+x_i^2}\\leqslant\\frac{n}{d_n+1}$，我们要证明这个问题的一般情况如下\n$$\\sum_{i=1}^n\\frac{x_i}{c^2+x_i^2}\\leqslant\\frac{n}{c^2+1}\\quad\\forall c\\geqslant c_n\\quad(*)$$\n\n因为函数 $f(c,x)=\\frac{x}{c^2+x^2}$ 是齐次的，而且 $\\{c_n\\}$ 是递增序列，由 GI 定理，只需证明，在 $x_1=x_2=\\cdots=x_{n-1}=u,x_n=n-(n-1)u$ 条件下，$(*)$ 成立即可。此时，设\n$$k\\geqslant d_n=\\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}$$\n\n则不等式变成\n$$\\frac{(n-1)u}{k+u^2}+\\frac{n-(n-1)u}{k+[n-(n-1)u]^2}\\leqslant\\frac{n}{k+1}$$\n$$\\Leftrightarrow\\left[\\frac{(n-1)u}{k+u^2}-\\frac{n-1}{k+1}\\right]+\\left\\{\\frac{n-(n-1)u}{k+[n-(n-1)u]^2}-\\frac{1}{k+1}\\right\\}\\leqslant 0$$\n$$\\Leftrightarrow\\frac{(n-1)(1-u)(u-k)}{k+u^2}+\\frac{(n-1)(u-1)[n-(n-1)u-k]}{k+[n-(n-1)u]^2}\\leqslant 0$$\n$$\\Leftrightarrow(n-1)(1-u)\\{(n-k)[k+(n-(n-1)u)^2]-[n-(n-1)u-k](k+u^2)\\}\\leqslant 0$$\n$$\\Leftrightarrow n(n-1)(1-u)^2\\{u[n-(n-1)u]-k[n-(n-2)u]-k\\}\\leqslant 0$$\n\n令\n$$g(u)=u[n-(n-1)u]-k[n-(n-2)u]-k$$\n$$=-(n-1)u^2+[k(n-2)+n]u-k(n+1)$$\n\n我们要证明 $g(u)\\leqslant 0$，$\\forall u\\in\\left[0,\\frac{n}{n-1}\\right]$。如果 $n=2$，则\n$$g(u)=-u^2+2u-3k=-(u-1)^2+(1-3k)\\leqslant 0$$\n\n如果 $n\\geqslant 2$，容易计算\n$$\\Delta_k=[k(n-2)+n]^2-4k(n-1)(n+1)=(n-2)^2k^2-2(n^2+2n-2)k+n^2$$\n\n方程 $\\Delta_k=0$，有两个正根\n$$k_1=\\frac{n^2+2n-2-2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}$$\n$$k_2=\\frac{n^2+2n-2+2\\sqrt{(n^2-1)(2n-1)}}{(n-2)^2}$$\n\n注意到，$k\\geqslant k_1=d_n$，由假设即得，如果 $k\\leqslant k_2$，则 $\\Delta_k\\leqslant 0$。所以，$g(u)\\leqslant 0$，不等式得证。否则，假设 $k\\geqslant k_2$，由于 $k_2\\geqslant 1$，因此，$k\\geqslant 1$，且\n$$g(u)=u[n-(n-1)u]-[n-(n-2)u]\\leqslant 0$$\n\n我们证明了每一种情况，这就意味着，不等式已成功证明。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.3.2(Pham Kim Hung,Mathlinks) 设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$\\frac{x_1}{k+x_1^2}+\\frac{x_2}{k+x_2^2}+\\cdots+\\frac{x_n}{k+x_n^2}\\leqslant\\frac{n}{k+1}$$\n\n其中 ...",
+    "tags": [
+      "GI定理",
+      "齐次函数",
+      "二次方程",
+      "判别式分析"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

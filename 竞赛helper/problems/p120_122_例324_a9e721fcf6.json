@@ -1,0 +1,61 @@
+{
+  "uid": "p120_122_例324_a9e721fcf6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.2",
+  "problem_id": "例3.2.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    120,
+    121,
+    122
+  ],
+  "source_images": [
+    "page-120.jpg",
+    "page-121.jpg",
+    "page-122.jpg"
+  ],
+  "stem_md": "求最好的正常数 $k$，满足下列不等式\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$$\n对所有非负实数 $a,b,c$，且 $a+b+c=3$ 成立。",
+  "solution_md": "反转不等式应具有如下形式：\n\n设 $a,b,c$ 是正实数，求最好的正常数 $k$ 满足，如果\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k}=1$$\n则不等式 $a+b+c \\square 3$ 成立。\n\n由于原不等式是 $\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$，所以，我们可以增加 $a,b,c$ 使其等号成立。这个情况表明（因为 $a,b,c$ 是增加的），在 $\\square$ 中的符号必定是\"$\\geqslant$\".\n\n第二步，来证明我们刚刚构造的反转不等式。\n\n设 $\\frac{x}{x+y+z}=\\frac{1}{2+a^k}, \\frac{y}{x+y+z}=\\frac{1}{2+b^k}, \\frac{z}{x+y+z}=\\frac{1}{2+c^k}, r=\\frac{1}{k}$，则\n$$a^k=\\frac{y+z-x}{x}, b^k=\\frac{z+x-y}{y}, c^k=\\frac{x+y-z}{z}$$\n$$\\Rightarrow a=\\left(\\frac{y+z-x}{x}\\right)^r, b=\\left(\\frac{z+x-y}{y}\\right)^r, c=\\left(\\frac{x+y-z}{z}\\right)^r$$\n\n设 $m=y+z-x, n=z+x-y, p=x+y-z (m,n,p \\geqslant 0)$，则\n$$a=\\left(\\frac{2m}{n+p}\\right)^r, b=\\left(\\frac{2n}{p+m}\\right)^r, c=\\left(\\frac{2p}{m+n}\\right)^r$$\n\n我们要找到最好的正实常数 $k$ 满足\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant 3$$\n\n这正是例 6.4.1 中的结论（在第 6 章，用整合变量法证明的），即\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant \\min\\{3, 2^{1+r}\\}$$\n\n所以，正实数 $k=\\frac{1}{r}$ 必定满足\n$$3 \\leqslant 2^{1+r} \\Leftrightarrow k(\\ln 3-\\ln 2) \\leqslant \\ln 2 \\Leftrightarrow k \\leqslant \\frac{\\ln 2}{\\ln 3-\\ln 2} \\approx 1.709\\ 511\\ 290$$\n\n对于特殊的 $k$，我们得到了若干非常优美的不等式。令 $k=\\frac{3}{2}$，得到不等式（这个不等式在第一卷出现过）如下：\n\n(1) 设 $a,b,c$ 是非负实数，且满足 $a^2+b^2+c^2=3$，则\n$$\\frac{1}{2+a^3}+\\frac{1}{2+b^3}+\\frac{1}{2+c^3} \\geqslant 1$$\n\n令 $k=\\frac{5}{3}$，产生下列一个困难的不等式。\n\n(2) 设 $a,b,c$ 是非负实数，且满足 $a^3+b^3+c^3=3$，则\n$$\\frac{1}{2+a^5}+\\frac{1}{2+b^5}+\\frac{1}{2+c^5} \\geqslant 1$$",
+  "answer_md": "$k \\leqslant \\frac{\\ln 2}{\\ln 3-\\ln 2} \\approx 1.709\\ 511\\ 290$",
+  "hints_md": "来源：Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 3.2.4(Pham Kim Hung, Mathlinks) 求最好的正常数 $k$，满足下列不等式\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$$\n对所有非负实数 $a,b,c$，且 $a+b+c=3$ 成立。\n\n证明及分析 反转不等式应具有如下形式：\n\n设 $a,b,c$ 是正实数，求最好的正常数 $k$ 满足，如果\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k}=1$$\n则不等式 $a+b+c \\square 3$ 成立。\n\n由于原不等式是 $\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$，所以，我们可以增加 $a,b,c$ 使其等号成立。这个情况表明（因为 $a,b,c$ 是增加的），在 $\\square$ 中的符号必定是\"$\\geqslant$\".\n\n第二步，来证明我们刚刚构造的反转不等式。\n\n设 $\\frac{x}{x+y+z}=\\frac{1}{2+a^k}, \\frac{y}{x+y+z}=\\frac{1}{2+b^k}, \\frac{z}{x+y+z}=\\frac{1}{2+c^k}, r=\\frac{1}{k}$，则\n$$a^k=\\frac{y+z-x}{x}, b^k=\\frac{z+x-y}{y}, c^k=\\frac{x+y-z}{z}$$\n$$\\Rightarrow a=\\left(\\frac{y+z-x}{x}\\right)^r, b=\\left(\\frac{z+x-y}{y}\\right)^r, c=\\left(\\frac{x+y-z}{z}\\right)^r$$\n\n设 $m=y+z-x, n=z+x-y, p=x+y-z (m,n,p \\geqslant 0)$，则\n$$a=\\left(\\frac{2m}{n+p}\\right)^r, b=\\left(\\frac{2n}{p+m}\\right)^r, c=\\left(\\frac{2p}{m+n}\\right)^r$$\n\n我们要找到最好的正实常数 $k$ 满足\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant 3$$\n\n这正是例 6.4.1 中的结论（在第 6 章，用整合变量法证明的），即\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant \\min\\{3, 2^{1+r}\\}$$\n\n所以，正实数 $k=\\frac{1}{r}$ 必定满足\n$$3 \\leqslant 2^{1+r} \\Leftrightarrow k(\\ln 3-\\ln 2) \\leqslant \\ln 2 \\Leftrightarrow k \\leqslant \\frac{\\ln 2}{\\ln 3-\\ln 2} \\approx 1.709\\ 511\\ 290$$\n\n对于特殊的 $k$，我们得到了若干非常优美的不等式。令 $k=\\frac{3}{2}$，得到不等式（这个不等式在第一卷出现过）如下：\n\n(1) 设 $a,b,c$ 是非负实数，且满足 $a^2+b^2+c^2=3$，则\n$$\\frac{1}{2+a^3}+\\frac{1}{2+b^3}+\\frac{1}{2+c^3} \\geqslant 1$$\n\n令 $k=\\frac{5}{3}$，产生下列一个困难的不等式。\n\n(2) 设 $a,b,c$ 是非负实数，且满足 $a^3+b^3+c^3=3$，则\n$$\\frac{1}{2+a^5}+\\frac{1}{2+b^5}+\\frac{1}{2+c^5} \\geqslant 1$$",
+  "tags": [
+    "反证法",
+    "反转不等式",
+    "最佳常数",
+    "三元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "a9e721fcf6b6688b7dca8315a17ffd24eafd6961",
+  "raw_problem": {
+    "problem_id": "例3.2.4",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.2",
+    "title": null,
+    "source_pages": [
+      120,
+      121,
+      122
+    ],
+    "stem_md": "求最好的正常数 $k$，满足下列不等式\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$$\n对所有非负实数 $a,b,c$，且 $a+b+c=3$ 成立。",
+    "solution_md": "反转不等式应具有如下形式：\n\n设 $a,b,c$ 是正实数，求最好的正常数 $k$ 满足，如果\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k}=1$$\n则不等式 $a+b+c \\square 3$ 成立。\n\n由于原不等式是 $\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$，所以，我们可以增加 $a,b,c$ 使其等号成立。这个情况表明（因为 $a,b,c$ 是增加的），在 $\\square$ 中的符号必定是\"$\\geqslant$\".\n\n第二步，来证明我们刚刚构造的反转不等式。\n\n设 $\\frac{x}{x+y+z}=\\frac{1}{2+a^k}, \\frac{y}{x+y+z}=\\frac{1}{2+b^k}, \\frac{z}{x+y+z}=\\frac{1}{2+c^k}, r=\\frac{1}{k}$，则\n$$a^k=\\frac{y+z-x}{x}, b^k=\\frac{z+x-y}{y}, c^k=\\frac{x+y-z}{z}$$\n$$\\Rightarrow a=\\left(\\frac{y+z-x}{x}\\right)^r, b=\\left(\\frac{z+x-y}{y}\\right)^r, c=\\left(\\frac{x+y-z}{z}\\right)^r$$\n\n设 $m=y+z-x, n=z+x-y, p=x+y-z (m,n,p \\geqslant 0)$，则\n$$a=\\left(\\frac{2m}{n+p}\\right)^r, b=\\left(\\frac{2n}{p+m}\\right)^r, c=\\left(\\frac{2p}{m+n}\\right)^r$$\n\n我们要找到最好的正实常数 $k$ 满足\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant 3$$\n\n这正是例 6.4.1 中的结论（在第 6 章，用整合变量法证明的），即\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant \\min\\{3, 2^{1+r}\\}$$\n\n所以，正实数 $k=\\frac{1}{r}$ 必定满足\n$$3 \\leqslant 2^{1+r} \\Leftrightarrow k(\\ln 3-\\ln 2) \\leqslant \\ln 2 \\Leftrightarrow k \\leqslant \\frac{\\ln 2}{\\ln 3-\\ln 2} \\approx 1.709\\ 511\\ 290$$\n\n对于特殊的 $k$，我们得到了若干非常优美的不等式。令 $k=\\frac{3}{2}$，得到不等式（这个不等式在第一卷出现过）如下：\n\n(1) 设 $a,b,c$ 是非负实数，且满足 $a^2+b^2+c^2=3$，则\n$$\\frac{1}{2+a^3}+\\frac{1}{2+b^3}+\\frac{1}{2+c^3} \\geqslant 1$$\n\n令 $k=\\frac{5}{3}$，产生下列一个困难的不等式。\n\n(2) 设 $a,b,c$ 是非负实数，且满足 $a^3+b^3+c^3=3$，则\n$$\\frac{1}{2+a^5}+\\frac{1}{2+b^5}+\\frac{1}{2+c^5} \\geqslant 1$$",
+    "answer_md": "$k \\leqslant \\frac{\\ln 2}{\\ln 3-\\ln 2} \\approx 1.709\\ 511\\ 290$",
+    "hints_md": "来源：Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 3.2.4(Pham Kim Hung, Mathlinks) 求最好的正常数 $k$，满足下列不等式\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$$\n对所有非负实数 $a,b,c$，且 $a+b+c=3$ 成立。\n\n证明及分析 反转不等式应具有如下形式：\n\n设 $a,b,c$ 是正实数，求最好的正常数 $k$ 满足，如果\n$$\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k}=1$$\n则不等式 $a+b+c \\square 3$ 成立。\n\n由于原不等式是 $\\frac{1}{2+a^k}+\\frac{1}{2+b^k}+\\frac{1}{2+c^k} \\geqslant 1$，所以，我们可以增加 $a,b,c$ 使其等号成立。这个情况表明（因为 $a,b,c$ 是增加的），在 $\\square$ 中的符号必定是\"$\\geqslant$\".\n\n第二步，来证明我们刚刚构造的反转不等式。\n\n设 $\\frac{x}{x+y+z}=\\frac{1}{2+a^k}, \\frac{y}{x+y+z}=\\frac{1}{2+b^k}, \\frac{z}{x+y+z}=\\frac{1}{2+c^k}, r=\\frac{1}{k}$，则\n$$a^k=\\frac{y+z-x}{x}, b^k=\\frac{z+x-y}{y}, c^k=\\frac{x+y-z}{z}$$\n$$\\Rightarrow a=\\left(\\frac{y+z-x}{x}\\right)^r, b=\\left(\\frac{z+x-y}{y}\\right)^r, c=\\left(\\frac{x+y-z}{z}\\right)^r$$\n\n设 $m=y+z-x, n=z+x-y, p=x+y-z (m,n,p \\geqslant 0)$，则\n$$a=\\left(\\frac{2m}{n+p}\\right)^r, b=\\left(\\frac{2n}{p+m}\\right)^r, c=\\left(\\frac{2p}{m+n}\\right)^r$$\n\n我们要找到最好的正实常数 $k$ 满足\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant 3$$\n\n这正是例 6.4.1 中的结论（在第 6 章，用整合变量法证明的），即\n$$\\left(\\frac{2m}{n+p}\\right)^r+\\left(\\frac{2n}{p+m}\\right)^r+\\left(\\frac{2p}{m+n}\\right)^r \\geqslant \\min\\{3, 2^{1+r}\\}$$\n\n所以，正实数 $k=\\frac{1}{r}$ 必定满足\n$$3 \\leqslant 2^{1+r} \\Leftrightarrow k(\\ln 3-\\ln 2) \\leqslant \\ln 2 \\Leftrightarrow k \\leqslant \\frac{\\ln 2}{\\ln 3-\\ln 2} \\approx 1.709\\ 511\\ 290$$\n\n对于特殊的 $k$，我们得到了若干非常优美的不等式。令 $k=\\frac{3}{2}$，得到不等式（这个不等式在第一卷出现过）如下：\n\n(1) 设 $a,b,c$ 是非负实数，且满足 $a^2+b^2+c^2=3$，则\n$$\\frac{1}{2+a^3}+\\frac{1}{2+b^3}+\\frac{1}{2+c^3} \\geqslant 1$$\n\n令 $k=\\frac{5}{3}$，产生下列一个困难的不等式。\n\n(2) 设 $a,b,c$ 是非负实数，且满足 $a^3+b^3+c^3=3$，则\n$$\\frac{1}{2+a^5}+\\frac{1}{2+b^5}+\\frac{1}{2+c^5} \\geqslant 1$$",
+    "tags": [
+      "反证法",
+      "反转不等式",
+      "最佳常数",
+      "三元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "uid": "p203_203_例741_df3edc8388",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "例7.4.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    203
+  ],
+  "source_images": [
+    "page-203.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+1\\geqslant 2(a^2+b^2+c^2)+(-a+b+c)(a-b+c)(a+b-c)$$",
+  "solution_md": "由于这个不等式是三次对称非齐次，所以，我们只需考虑下列三种情况：\n\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n这由 AM-GM 不等式可知，显然成立。等号成立的条件是 $a=b=c=1$。\n\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n也是显然成立的。等号成立的条件是 $a=b=1,c=0$ 或其轮换。\n\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 2t^2$$\n由于 $2t^3+1=t^3+t^3+1\\geqslant 3t^2\\geqslant 2t^2$，所以 $2t^3+1\\geqslant 2t^2$。\n\n综上所述，原不等式成立。",
+  "answer_md": "",
+  "hints_md": "注 下面是一个更强的不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\sum a^3+\\sum ab+1\\geqslant 2\\sum a^2+\\left(1-\\frac{4\\sqrt{6}}{9}\\right)\\prod(a+b-c)+\\frac{4\\sqrt{6}}{9}abc$$\n这可由上面类似的证明方法得到。注意，不等式等号成立的条件有三种情况 $(a,b,c)=(1,1,1)$ 或 $(1,1,0)$ 或 $\\left(\\sqrt[3]{\\frac{9}{2\\sqrt{6}}},0,0\\right)$ 及其轮换。",
+  "original_text_md": "例 7.4.1(Sun Yoon Kim,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+1\\geqslant 2(a^2+b^2+c^2)+(-a+b+c)(a-b+c)(a+b-c)$$\n证明 由于这个不等式是三次对称非齐次，所以，我们只需考虑下列三种情况：\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n这由 AM-GM 不等式可知，显然成立。等号成立的条件是 $a=b=c=1$。\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n也是显然成立的。等号成立的条件是 $a=b=1,c=0$ 或其轮换。\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 2t^2$$\n由于 $2t^3+1=t^3+t^3+1\\geqslant 3t^2\\geqslant 2t^2$，所以 $2t^3+1\\geqslant 2t^2$。\n综上所述，原不等式成立。\n注 下面是一个更强的不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\sum a^3+\\sum ab+1\\geqslant 2\\sum a^2+\\left(1-\\frac{4\\sqrt{6}}{9}\\right)\\prod(a+b-c)+\\frac{4\\sqrt{6}}{9}abc$$\n这可由上面类似的证明方法得到。注意，不等式等号成立的条件有三种情况 $(a,b,c)=(1,1,1)$ 或 $(1,1,0)$ 或 $\\left(\\sqrt[3]{\\frac{9}{2\\sqrt{6}}},0,0\\right)$ 及其轮换。",
+  "tags": [
+    "三次对称非齐次不等式",
+    "三变量",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "df3edc838897ca1c740d7c4846d3ed6f37706b47",
+  "raw_problem": {
+    "problem_id": "例7.4.1",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.4",
+    "title": null,
+    "source_pages": [
+      203
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+1\\geqslant 2(a^2+b^2+c^2)+(-a+b+c)(a-b+c)(a+b-c)$$",
+    "solution_md": "由于这个不等式是三次对称非齐次，所以，我们只需考虑下列三种情况：\n\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n这由 AM-GM 不等式可知，显然成立。等号成立的条件是 $a=b=c=1$。\n\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n也是显然成立的。等号成立的条件是 $a=b=1,c=0$ 或其轮换。\n\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 2t^2$$\n由于 $2t^3+1=t^3+t^3+1\\geqslant 3t^2\\geqslant 2t^2$，所以 $2t^3+1\\geqslant 2t^2$。\n\n综上所述，原不等式成立。",
+    "answer_md": "",
+    "hints_md": "注 下面是一个更强的不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\sum a^3+\\sum ab+1\\geqslant 2\\sum a^2+\\left(1-\\frac{4\\sqrt{6}}{9}\\right)\\prod(a+b-c)+\\frac{4\\sqrt{6}}{9}abc$$\n这可由上面类似的证明方法得到。注意，不等式等号成立的条件有三种情况 $(a,b,c)=(1,1,1)$ 或 $(1,1,0)$ 或 $\\left(\\sqrt[3]{\\frac{9}{2\\sqrt{6}}},0,0\\right)$ 及其轮换。",
+    "original_text_md": "例 7.4.1(Sun Yoon Kim,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+1\\geqslant 2(a^2+b^2+c^2)+(-a+b+c)(a-b+c)(a+b-c)$$\n证明 由于这个不等式是三次对称非齐次，所以，我们只需考虑下列三种情况：\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n这由 AM-GM 不等式可知，显然成立。等号成立的条件是 $a=b=c=1$。\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 3t^2$$\n也是显然成立的。等号成立的条件是 $a=b=1,c=0$ 或其轮换。\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$2t^3+1\\geqslant 2t^2$$\n由于 $2t^3+1=t^3+t^3+1\\geqslant 3t^2\\geqslant 2t^2$，所以 $2t^3+1\\geqslant 2t^2$。\n综上所述，原不等式成立。\n注 下面是一个更强的不等式：\n设 $a,b,c$ 是非负实数，证明\n$$\\sum a^3+\\sum ab+1\\geqslant 2\\sum a^2+\\left(1-\\frac{4\\sqrt{6}}{9}\\right)\\prod(a+b-c)+\\frac{4\\sqrt{6}}{9}abc$$\n这可由上面类似的证明方法得到。注意，不等式等号成立的条件有三种情况 $(a,b,c)=(1,1,1)$ 或 $(1,1,0)$ 或 $\\left(\\sqrt[3]{\\frac{9}{2\\sqrt{6}}},0,0\\right)$ 及其轮换。",
+    "tags": [
+      "三次对称非齐次不等式",
+      "三变量",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

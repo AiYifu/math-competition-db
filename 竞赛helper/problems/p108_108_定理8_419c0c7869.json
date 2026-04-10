@@ -1,0 +1,53 @@
+{
+  "uid": "p108_108_定理8_419c0c7869",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "定理8",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    108
+  ],
+  "source_images": [
+    "page-108.jpg"
+  ],
+  "stem_md": "设 $f(x_1,x_2,\\cdots,x_n):\\mathbb{R}^n\\to\\mathbb{R}$ 是一个光滑的函数，令 $f_0=f,f_k=[f_{k-1}](k\\geqslant 1)$，则有下列恒等式\n$$f(x_1+t,x_2+t,\\cdots,x_n+t)=\\sum_{k=0}^{\\infty}\\frac{f_k(x_1,x_2,\\cdots,x_n)}{k!}t^k$$",
+  "solution_md": "设 $g(t)=f(x_1+t,x_2+t,\\cdots,x_n+t)$，则上面的恒等式正好是 Taylor 定理的推论。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定理 8 设 $f(x_1,x_2,\\cdots,x_n):\\mathbb{R}^n\\to\\mathbb{R}$ 是一个光滑的函数，令 $f_0=f,f_k=[f_{k-1}](k\\geqslant 1)$，则有下列恒等式\n$$f(x_1+t,x_2+t,\\cdots,x_n+t)=\\sum_{k=0}^{\\infty}\\frac{f_k(x_1,x_2,\\cdots,x_n)}{k!}t^k$$\n证明 设 $g(t)=f(x_1+t,x_2+t,\\cdots,x_n+t)$，则上面的恒等式正好是 Taylor 定理的推论。",
+  "tags": [
+    "Taylor定理",
+    "全导数",
+    "光滑函数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "419c0c78695e95252b5611bd24428ac331984550",
+  "raw_problem": {
+    "problem_id": "定理8",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      108
+    ],
+    "stem_md": "设 $f(x_1,x_2,\\cdots,x_n):\\mathbb{R}^n\\to\\mathbb{R}$ 是一个光滑的函数，令 $f_0=f,f_k=[f_{k-1}](k\\geqslant 1)$，则有下列恒等式\n$$f(x_1+t,x_2+t,\\cdots,x_n+t)=\\sum_{k=0}^{\\infty}\\frac{f_k(x_1,x_2,\\cdots,x_n)}{k!}t^k$$",
+    "solution_md": "设 $g(t)=f(x_1+t,x_2+t,\\cdots,x_n+t)$，则上面的恒等式正好是 Taylor 定理的推论。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定理 8 设 $f(x_1,x_2,\\cdots,x_n):\\mathbb{R}^n\\to\\mathbb{R}$ 是一个光滑的函数，令 $f_0=f,f_k=[f_{k-1}](k\\geqslant 1)$，则有下列恒等式\n$$f(x_1+t,x_2+t,\\cdots,x_n+t)=\\sum_{k=0}^{\\infty}\\frac{f_k(x_1,x_2,\\cdots,x_n)}{k!}t^k$$\n证明 设 $g(t)=f(x_1+t,x_2+t,\\cdots,x_n+t)$，则上面的恒等式正好是 Taylor 定理的推论。",
+    "tags": [
+      "Taylor定理",
+      "全导数",
+      "光滑函数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

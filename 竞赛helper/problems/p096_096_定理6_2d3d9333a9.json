@@ -1,0 +1,55 @@
+{
+  "uid": "p096_096_定理6_2d3d9333a9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "定理6",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    96
+  ],
+  "source_images": [
+    "page-096.jpg"
+  ],
+  "stem_md": "设 $P(a,b,c)$ 是 3 次齐次循环不等式，则不等式 $P\\geqslant 0$，对所有非负实数 $a,b,c$ 成立，当且仅当\n$$P(1,1,1)\\geqslant 0, P(a,b,0)\\geqslant 0\\quad\\forall a,b\\geqslant 0$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "这个定理是 3 次对称不等式的一个一般性定理，是由 Ho Joo Lee 介绍的。",
+  "original_text_md": "定理 6 设 $P(a,b,c)$ 是 3 次齐次循环不等式，则不等式 $P\\geqslant 0$，对所有非负实数 $a,b,c$ 成立，当且仅当\n$$P(1,1,1)\\geqslant 0, P(a,b,0)\\geqslant 0\\quad\\forall a,b\\geqslant 0$$",
+  "tags": [
+    "Ho Joo Lee",
+    "定理",
+    "循环不等式",
+    "3次齐次"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "2d3d9333a9962d7627ea19d61995d3a525af1302",
+  "raw_problem": {
+    "problem_id": "定理6",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      96
+    ],
+    "stem_md": "设 $P(a,b,c)$ 是 3 次齐次循环不等式，则不等式 $P\\geqslant 0$，对所有非负实数 $a,b,c$ 成立，当且仅当\n$$P(1,1,1)\\geqslant 0, P(a,b,0)\\geqslant 0\\quad\\forall a,b\\geqslant 0$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "这个定理是 3 次对称不等式的一个一般性定理，是由 Ho Joo Lee 介绍的。",
+    "original_text_md": "定理 6 设 $P(a,b,c)$ 是 3 次齐次循环不等式，则不等式 $P\\geqslant 0$，对所有非负实数 $a,b,c$ 成立，当且仅当\n$$P(1,1,1)\\geqslant 0, P(a,b,0)\\geqslant 0\\quad\\forall a,b\\geqslant 0$$",
+    "tags": [
+      "Ho Joo Lee",
+      "定理",
+      "循环不等式",
+      "3次齐次"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

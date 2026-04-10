@@ -1,0 +1,55 @@
+{
+  "uid": "p111_111_31_0b35fab0a6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "31",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    111
+  ],
+  "source_images": [
+    "page-111.jpg"
+  ],
+  "stem_md": "31. (Pham Kim Hung, Mathlinks) 设 $x,y,z,t$ 是正实数，且满足 $x+y+z+t=4$，证明\n$$\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}+\\frac{1}{t}+\\frac{13}{\\sqrt{x^2+y^2+z^2+t^2}} \\geqslant \\frac{21}{2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "31. (Pham Kim Hung, Mathlinks) 设 $x,y,z,t$ 是正实数，且满足 $x+y+z+t=4$，证明\n$$\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}+\\frac{1}{t}+\\frac{13}{\\sqrt{x^2+y^2+z^2+t^2}}\\geqslant\\frac{21}{2}$$",
+  "tags": [
+    "Pham Kim Hung",
+    "Mathlinks",
+    "x+y+z+t=4",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "0b35fab0a63ac6f1cf22ba9b612658b0f740839f",
+  "raw_problem": {
+    "problem_id": "31",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      111
+    ],
+    "stem_md": "31. (Pham Kim Hung, Mathlinks) 设 $x,y,z,t$ 是正实数，且满足 $x+y+z+t=4$，证明\n$$\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}+\\frac{1}{t}+\\frac{13}{\\sqrt{x^2+y^2+z^2+t^2}} \\geqslant \\frac{21}{2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "31. (Pham Kim Hung, Mathlinks) 设 $x,y,z,t$ 是正实数，且满足 $x+y+z+t=4$，证明\n$$\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}+\\frac{1}{t}+\\frac{13}{\\sqrt{x^2+y^2+z^2+t^2}}\\geqslant\\frac{21}{2}$$",
+    "tags": [
+      "Pham Kim Hung",
+      "Mathlinks",
+      "x+y+z+t=4",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

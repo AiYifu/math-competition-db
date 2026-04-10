@@ -1,0 +1,55 @@
+{
+  "uid": "p126_126_例337_d053ebfd6f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    126
+  ],
+  "source_images": [
+    "page-126.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{16a}{b+c+d}}+\\sqrt{1+\\frac{16b}{c+d+a}}+\\sqrt{1+\\frac{16c}{d+a+b}}+\\sqrt{1+\\frac{16d}{a+b+c}} \\geqslant 10$$",
+  "solution_md": "设 $x=\\sqrt{1+\\frac{16a}{b+c+d}}, y=\\sqrt{1+\\frac{16b}{c+d+a}}, z=\\sqrt{1+\\frac{16c}{d+a+b}}, t=\\sqrt{1+\\frac{16d}{a+b+c}}$，则\n$$\\frac{x^2-1}{x^2+15}+\\frac{y^2-1}{y^2+15}+\\frac{z^2-1}{z^2+15}+\\frac{t^2-1}{t^2+15}=\\sum\\frac{a}{a+b+c+d}=1$$\n$$\\Rightarrow \\frac{1}{x^2+15}+\\frac{1}{y^2+15}+\\frac{1}{z^2+15}+\\frac{1}{t^2+15}=\\frac{3}{16}$$",
+  "answer_md": "",
+  "hints_md": "来源：Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 3.3.7(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{16a}{b+c+d}}+\\sqrt{1+\\frac{16b}{c+d+a}}+\\sqrt{1+\\frac{16c}{d+a+b}}+\\sqrt{1+\\frac{16d}{a+b+c}} \\geqslant 10$$\n\n证明 设 $x=\\sqrt{1+\\frac{16a}{b+c+d}}, y=\\sqrt{1+\\frac{16b}{c+d+a}}, z=\\sqrt{1+\\frac{16c}{d+a+b}}, t=\\sqrt{1+\\frac{16d}{a+b+c}}$，则\n$$\\frac{x^2-1}{x^2+15}+\\frac{y^2-1}{y^2+15}+\\frac{z^2-1}{z^2+15}+\\frac{t^2-1}{t^2+15}=\\sum\\frac{a}{a+b+c+d}=1$$\n$$\\Rightarrow \\frac{1}{x^2+15}+\\frac{1}{y^2+15}+\\frac{1}{z^2+15}+\\frac{1}{t^2+15}=\\frac{3}{16}$$",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "四元不等式",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "d053ebfd6f218b35570263f4c4d0f607a26d4fca",
+  "raw_problem": {
+    "problem_id": "例3.3.7",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      126
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{16a}{b+c+d}}+\\sqrt{1+\\frac{16b}{c+d+a}}+\\sqrt{1+\\frac{16c}{d+a+b}}+\\sqrt{1+\\frac{16d}{a+b+c}} \\geqslant 10$$",
+    "solution_md": "设 $x=\\sqrt{1+\\frac{16a}{b+c+d}}, y=\\sqrt{1+\\frac{16b}{c+d+a}}, z=\\sqrt{1+\\frac{16c}{d+a+b}}, t=\\sqrt{1+\\frac{16d}{a+b+c}}$，则\n$$\\frac{x^2-1}{x^2+15}+\\frac{y^2-1}{y^2+15}+\\frac{z^2-1}{z^2+15}+\\frac{t^2-1}{t^2+15}=\\sum\\frac{a}{a+b+c+d}=1$$\n$$\\Rightarrow \\frac{1}{x^2+15}+\\frac{1}{y^2+15}+\\frac{1}{z^2+15}+\\frac{1}{t^2+15}=\\frac{3}{16}$$",
+    "answer_md": "",
+    "hints_md": "来源：Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 3.3.7(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{16a}{b+c+d}}+\\sqrt{1+\\frac{16b}{c+d+a}}+\\sqrt{1+\\frac{16c}{d+a+b}}+\\sqrt{1+\\frac{16d}{a+b+c}} \\geqslant 10$$\n\n证明 设 $x=\\sqrt{1+\\frac{16a}{b+c+d}}, y=\\sqrt{1+\\frac{16b}{c+d+a}}, z=\\sqrt{1+\\frac{16c}{d+a+b}}, t=\\sqrt{1+\\frac{16d}{a+b+c}}$，则\n$$\\frac{x^2-1}{x^2+15}+\\frac{y^2-1}{y^2+15}+\\frac{z^2-1}{z^2+15}+\\frac{t^2-1}{t^2+15}=\\sum\\frac{a}{a+b+c+d}=1$$\n$$\\Rightarrow \\frac{1}{x^2+15}+\\frac{1}{y^2+15}+\\frac{1}{z^2+15}+\\frac{1}{t^2+15}=\\frac{3}{16}$$",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "四元不等式",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "uid": "p224_225_例7811_e175f6b27f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.11",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    224,
+    225
+  ],
+  "source_images": [
+    "page-224.jpg",
+    "page-225.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{1}{4}$，证明\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$",
+  "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式变形为\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{ab}{4(a^2b^2+b^2c^2+c^2a^2)}-\\frac{(a+2c)(b+2c)(c-a)(c-b)}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n$$=\\frac{c^2(ca+bc+a^2+b^2-2c^2)}{2(a^2b^2+b^2c^2+c^2a^2)(c+a)(b+c)}$$\n$$N=\\frac{ab+ac-b^2}{4(a^2b^2+b^2c^2+c^2a^2)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}+$$\n$$\\frac{(a+2c)(b+2c)(a-b)^2}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n\n易证 $M\\geqslant 0$。下证不等式 $N\\geqslant 0$。注意到\n$$4(a^2b^2+b^2c^2+c^2a^2)(a+b)(b+c)(c+a)N$$\n$$=(ab+ac-c^2)\\prod(a+b)+2(b-a)\\sum a^2b^2+$$\n$$(a+b)(a+2c)(b+2c)(a-b)^2$$\n$$\\geqslant[(ab-b^2)(a+b)(b+c)(c+a)+2(b-a)a^2b^2+ab(a+b)(a-b)^2]+$$\n$$c[(ab-b^2)(a+b)^2+a(a+b)ab+2(a^2-b^2)^2]+$$\n$$c^2[(a+b)(ab-b^2)+a(a+b)^2+2(b-a)(a^2+b^2)+4(a+b)(a-b)^2]$$\n$$=a^2b(a-b)^2+c(2a^4+b^4+2a^3b-ab^3-2a^2b^2)+c^2(3a^3+5b^3+a^2b-5ab^2)$$\n$$\\geqslant\\frac{c}{2}[(2a^2-b^2)^2+b(a+b)(2a-b)^2+ab^3]+$$\n$$c[2a^3+4b^3+(a+3b)(a-b)^2]\\geqslant 0$$\n\n于是，$N\\geqslant 0$。原不等式得证，等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 或其轮换。\n\n注 容易证明，$k=\\frac{1}{4}$ 是本题不等式成立的最佳常数。类似地，我们有如下不等式（事实上，$k=1$ 是其最佳常数）\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.11(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{1}{4}$，证明\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式变形为\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{ab}{4(a^2b^2+b^2c^2+c^2a^2)}-\\frac{(a+2c)(b+2c)(c-a)(c-b)}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n$$=\\frac{c^2(ca+bc+a^2+b^2-2c^2)}{2(a^2b^2+b^2c^2+c^2a^2)(c+a)(b+c)}$$\n$$N=\\frac{ab+ac-b^2}{4(a^2b^2+b^2c^2+c^2a^2)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}+$$\n$$\\frac{(a+2c)(b+2c)(a-b)^2}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n\n易证 $M\\geqslant 0$。下证不等式 $N\\geqslant 0$。注意到\n$$4(a^2b^2+b^2c^2+c^2a^2)(a+b)(b+c)(c+a)N$$\n$$=(ab+ac-c^2)\\prod(a+b)+2(b-a)\\sum a^2b^2+$$\n$$(a+b)(a+2c)(b+2c)(a-b)^2$$\n$$\\geqslant[(ab-b^2)(a+b)(b+c)(c+a)+2(b-a)a^2b^2+ab(a+b)(a-b)^2]+$$\n$$c[(ab-b^2)(a+b)^2+a(a+b)ab+2(a^2-b^2)^2]+$$\n$$c^2[(a+b)(ab-b^2)+a(a+b)^2+2(b-a)(a^2+b^2)+4(a+b)(a-b)^2]$$\n$$=a^2b(a-b)^2+c(2a^4+b^4+2a^3b-ab^3-2a^2b^2)+c^2(3a^3+5b^3+a^2b-5ab^2)$$\n$$\\geqslant\\frac{c}{2}[(2a^2-b^2)^2+b(a+b)(2a-b)^2+ab^3]+$$\n$$c[2a^3+4b^3+(a+3b)(a-b)^2]\\geqslant 0$$\n\n于是，$N\\geqslant 0$。原不等式得证，等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 或其轮换。\n\n注 容易证明，$k=\\frac{1}{4}$ 是本题不等式成立的最佳常数。类似地，我们有如下不等式（事实上，$k=1$ 是其最佳常数）\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1$$",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "最佳常数",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "e175f6b27f4411524e0a20f588ca1b9530c8a5e1",
+  "raw_problem": {
+    "problem_id": "例7.8.11",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      224,
+      225
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{1}{4}$，证明\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$",
+    "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式变形为\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{ab}{4(a^2b^2+b^2c^2+c^2a^2)}-\\frac{(a+2c)(b+2c)(c-a)(c-b)}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n$$=\\frac{c^2(ca+bc+a^2+b^2-2c^2)}{2(a^2b^2+b^2c^2+c^2a^2)(c+a)(b+c)}$$\n$$N=\\frac{ab+ac-b^2}{4(a^2b^2+b^2c^2+c^2a^2)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}+$$\n$$\\frac{(a+2c)(b+2c)(a-b)^2}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n\n易证 $M\\geqslant 0$。下证不等式 $N\\geqslant 0$。注意到\n$$4(a^2b^2+b^2c^2+c^2a^2)(a+b)(b+c)(c+a)N$$\n$$=(ab+ac-c^2)\\prod(a+b)+2(b-a)\\sum a^2b^2+$$\n$$(a+b)(a+2c)(b+2c)(a-b)^2$$\n$$\\geqslant[(ab-b^2)(a+b)(b+c)(c+a)+2(b-a)a^2b^2+ab(a+b)(a-b)^2]+$$\n$$c[(ab-b^2)(a+b)^2+a(a+b)ab+2(a^2-b^2)^2]+$$\n$$c^2[(a+b)(ab-b^2)+a(a+b)^2+2(b-a)(a^2+b^2)+4(a+b)(a-b)^2]$$\n$$=a^2b(a-b)^2+c(2a^4+b^4+2a^3b-ab^3-2a^2b^2)+c^2(3a^3+5b^3+a^2b-5ab^2)$$\n$$\\geqslant\\frac{c}{2}[(2a^2-b^2)^2+b(a+b)(2a-b)^2+ab^3]+$$\n$$c[2a^3+4b^3+(a+3b)(a-b)^2]\\geqslant 0$$\n\n于是，$N\\geqslant 0$。原不等式得证，等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 或其轮换。\n\n注 容易证明，$k=\\frac{1}{4}$ 是本题不等式成立的最佳常数。类似地，我们有如下不等式（事实上，$k=1$ 是其最佳常数）\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.11(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{1}{4}$，证明\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式变形为\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{ab}{4(a^2b^2+b^2c^2+c^2a^2)}-\\frac{(a+2c)(b+2c)(c-a)(c-b)}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n$$=\\frac{c^2(ca+bc+a^2+b^2-2c^2)}{2(a^2b^2+b^2c^2+c^2a^2)(c+a)(b+c)}$$\n$$N=\\frac{ab+ac-b^2}{4(a^2b^2+b^2c^2+c^2a^2)}+\\frac{b-a}{2(a+b)(b+c)(c+a)}+$$\n$$\\frac{(a+2c)(b+2c)(a-b)^2}{4(a^2b^2+b^2c^2+c^2a^2)(a+c)(b+c)}$$\n\n易证 $M\\geqslant 0$。下证不等式 $N\\geqslant 0$。注意到\n$$4(a^2b^2+b^2c^2+c^2a^2)(a+b)(b+c)(c+a)N$$\n$$=(ab+ac-c^2)\\prod(a+b)+2(b-a)\\sum a^2b^2+$$\n$$(a+b)(a+2c)(b+2c)(a-b)^2$$\n$$\\geqslant[(ab-b^2)(a+b)(b+c)(c+a)+2(b-a)a^2b^2+ab(a+b)(a-b)^2]+$$\n$$c[(ab-b^2)(a+b)^2+a(a+b)ab+2(a^2-b^2)^2]+$$\n$$c^2[(a+b)(ab-b^2)+a(a+b)^2+2(b-a)(a^2+b^2)+4(a+b)(a-b)^2]$$\n$$=a^2b(a-b)^2+c(2a^4+b^4+2a^3b-ab^3-2a^2b^2)+c^2(3a^3+5b^3+a^2b-5ab^2)$$\n$$\\geqslant\\frac{c}{2}[(2a^2-b^2)^2+b(a+b)(2a-b)^2+ab^3]+$$\n$$c[2a^3+4b^3+(a+3b)(a-b)^2]\\geqslant 0$$\n\n于是，$N\\geqslant 0$。原不等式得证，等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 或其轮换。\n\n注 容易证明，$k=\\frac{1}{4}$ 是本题不等式成立的最佳常数。类似地，我们有如下不等式（事实上，$k=1$ 是其最佳常数）\n$$k\\left(\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}-1\\right)\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}-1$$",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "最佳常数",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

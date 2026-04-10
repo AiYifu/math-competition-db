@@ -1,0 +1,49 @@
+{
+  "uid": "p110_110_习题9_d4ff222870",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.6",
+  "problem_id": "习题9",
+  "problem_type": "exercise",
+  "title": "Vasile Cirtoaje, Mathlinks",
+  "source_pages": [
+    110
+  ],
+  "source_images": [],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$(a+b+c-3)(6-ab-bc-ca)\\leqslant 1$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "9.(Vasile Cirtoaje, Mathlinks)设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$(a+b+c-3)(6-ab-bc-ca)\\leqslant 1$$",
+  "tags": [
+    "Vasile Cirtoaje",
+    "abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "d4ff22287049d2c47d57e93d2c4ddf8b9b9e8cec",
+  "raw_problem": {
+    "problem_id": "习题9",
+    "problem_type": "exercise",
+    "chapter": "2",
+    "section": "2.6",
+    "title": "Vasile Cirtoaje, Mathlinks",
+    "source_pages": [
+      110
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$(a+b+c-3)(6-ab-bc-ca)\\leqslant 1$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "9.(Vasile Cirtoaje, Mathlinks)设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$(a+b+c-3)(6-ab-bc-ca)\\leqslant 1$$",
+    "tags": [
+      "Vasile Cirtoaje",
+      "abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

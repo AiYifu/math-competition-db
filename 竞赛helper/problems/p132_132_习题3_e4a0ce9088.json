@@ -1,0 +1,53 @@
+{
+  "uid": "p132_132_习题3_e4a0ce9088",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章",
+  "section": "3.4",
+  "problem_id": "习题3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    132
+  ],
+  "source_images": [
+    "page-132.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是正实数，且满足\n$$3(x+y+z)+28=xyz$$\n证明\n$$\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}+\\frac{1}{\\sqrt{z}}\\geqslant\\frac{3}{2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "Virgil Nicula, Mathlinks",
+  "original_text_md": "3. (Virgil Nicula,Mathlinks) 设 $x,y,z$ 是正实数，且满足\n$$3(x+y+z)+28=xyz$$\n证明\n$$\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}+\\frac{1}{\\sqrt{z}}\\geqslant\\frac{3}{2}$$",
+  "tags": [
+    "正实数",
+    "根式不等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "e4a0ce9088a4396d2aa717bb6b3227b414a5486d",
+  "raw_problem": {
+    "problem_id": "习题3",
+    "problem_type": "exercise",
+    "chapter": "第3章",
+    "section": "3.4",
+    "title": null,
+    "source_pages": [
+      132
+    ],
+    "stem_md": "设 $x,y,z$ 是正实数，且满足\n$$3(x+y+z)+28=xyz$$\n证明\n$$\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}+\\frac{1}{\\sqrt{z}}\\geqslant\\frac{3}{2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "Virgil Nicula, Mathlinks",
+    "original_text_md": "3. (Virgil Nicula,Mathlinks) 设 $x,y,z$ 是正实数，且满足\n$$3(x+y+z)+28=xyz$$\n证明\n$$\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}+\\frac{1}{\\sqrt{z}}\\geqslant\\frac{3}{2}$$",
+    "tags": [
+      "正实数",
+      "根式不等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

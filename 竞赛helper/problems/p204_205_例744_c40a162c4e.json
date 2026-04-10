@@ -1,0 +1,54 @@
+{
+  "uid": "p204_205_例744_c40a162c4e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "例7.4.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    204,
+    205
+  ],
+  "source_images": [
+    "page-204.jpg",
+    "page-205.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+2\\geqslant 2abc+a^2+b^2+c^2+a+b+c$$",
+  "solution_md": "我们只需考虑下列三种情况：\n\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-3t=(t+2)(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=2t^3+2-t^2-2t=2(t+1)(t-1)^2+t^2\\geqslant 0$$\n这显然成立，无等号成立的条件。\n\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-t^2-t=(t+1)(t-1)^2+1\\geqslant 0$$\n这显然成立，无等号成立的条件。\n\n综上所述，原不等式成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.4.4(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+2\\geqslant 2abc+a^2+b^2+c^2+a+b+c$$\n证明 我们只需考虑下列三种情况：\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-3t=(t+2)(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=2t^3+2-t^2-2t=2(t+1)(t-1)^2+t^2\\geqslant 0$$\n这显然成立，无等号成立的条件。\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-t^2-t=(t+1)(t-1)^2+1\\geqslant 0$$\n这显然成立，无等号成立的条件。\n综上所述，原不等式成立。",
+  "tags": [
+    "三次对称非齐次不等式",
+    "三变量"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "c40a162c4e28aabdc53bda5d22b811a997cfd2fa",
+  "raw_problem": {
+    "problem_id": "例7.4.4",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.4",
+    "title": null,
+    "source_pages": [
+      204,
+      205
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+2\\geqslant 2abc+a^2+b^2+c^2+a+b+c$$",
+    "solution_md": "我们只需考虑下列三种情况：\n\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-3t=(t+2)(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=2t^3+2-t^2-2t=2(t+1)(t-1)^2+t^2\\geqslant 0$$\n这显然成立，无等号成立的条件。\n\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-t^2-t=(t+1)(t-1)^2+1\\geqslant 0$$\n这显然成立，无等号成立的条件。\n\n综上所述，原不等式成立。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.4.4(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+ab+bc+ca+2\\geqslant 2abc+a^2+b^2+c^2+a+b+c$$\n证明 我们只需考虑下列三种情况：\n(1) 第一种情况 $a=b=c=t$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-3t=(t+2)(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=2t^3+2-t^2-2t=2(t+1)(t-1)^2+t^2\\geqslant 0$$\n这显然成立，无等号成立的条件。\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$\\text{LHS}-\\text{RHS}=t^3+2-t^2-t=(t+1)(t-1)^2+1\\geqslant 0$$\n这显然成立，无等号成立的条件。\n综上所述，原不等式成立。",
+    "tags": [
+      "三次对称非齐次不等式",
+      "三变量"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "p072_072_例224_aa6d15b448",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.2",
+  "problem_id": "例2.2.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    72
+  ],
+  "source_images": [
+    "page-072.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$a^6+b^6+c^6-3a^2b^2c^2\\geqslant 18(a^2-bc)(b^2-ca)(c^2-ab)$$",
+  "solution_md": "不失一般性，设 $a\\geqslant b\\geqslant c$，且 $abc=1$。令 $x=a^3$，$y=b^3$，$z=c^3$，则不等式变成\n$$x^2+y^2+z^2-3\\geqslant 18(x+y+z-xy-yz-zx)$$\n设 $t=\\sqrt{yz}$，由\n$$f(x,y,z)=x^2+y^2+z^2-3-18(x+y+z-xy-yz-zx)$$\n我们有（因为 $x\\geqslant 1$）\n$$f(x,y,z)-f(x,t,t)=(\\sqrt{y}-\\sqrt{z})^2[(\\sqrt{y}+\\sqrt{z})^2+18(x-1)]\\geqslant 0$$\n所以，只需证明，$f(x,t,t)\\geqslant 0$。实际上\n$$f(x,t,t)=x^2+20t^2-3-18x-36t+36tx$$\n$$=\\frac{1}{t^4}+20t^2-3-\\frac{18}{t^2}-36t+\\frac{36}{t}\\quad\\left(\\text{因为 }x=\\frac{1}{t^2}\\right)$$\n$$=\\frac{(t+1)(5t+1)(2t-1)^2(t-1)^2}{t^4}\\geqslant 0$$\n等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(2,1,1)$，证毕。",
+  "answer_md": "",
+  "hints_md": "Vasile Cirtoaje, Mathlinks",
+  "original_text_md": "例 2.2.4(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数,证明\n$$a^6+b^6+c^6-3a^2b^2c^2\\geqslant 18(a^2-bc)(b^2-ca)(c^2-ab)$$\n证明 不失一般性,设 $a\\geqslant b\\geqslant c$,且 $abc=1$.令 $x=a^3$,$y=b^3$,$z=c^3$,则不等式变成\n$$x^2+y^2+z^2-3\\geqslant 18(x+y+z-xy-yz-zx)$$\n设 $t=\\sqrt{yz}$,由\n$$f(x,y,z)=x^2+y^2+z^2-3-18(x+y+z-xy-yz-zx)$$\n我们有(因为 $x\\geqslant 1$)\n$$f(x,y,z)-f(x,t,t)=(\\sqrt{y}-\\sqrt{z})^2[(\\sqrt{y}+\\sqrt{z})^2+18(x-1)]\\geqslant 0$$\n所以,只需证明,$f(x,t,t)\\geqslant 0$.实际上\n$$f(x,t,t)=x^2+20t^2-3-18x-36t+36tx$$\n$$=\\frac{1}{t^4}+20t^2-3-\\frac{18}{t^2}-36t+\\frac{36}{t}\\quad\\left(\\text{因为 }x=\\frac{1}{t^2}\\right)$$\n$$=\\frac{(t+1)(5t+1)(2t-1)^2(t-1)^2}{t^4}\\geqslant 0$$\n等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(2,1,1)$,证毕.",
+  "tags": [
+    "整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "aa6d15b44855b2718ad20db1abbf307c875817b6",
+  "raw_problem": {
+    "problem_id": "例2.2.4",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.2",
+    "title": null,
+    "source_pages": [
+      72
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$a^6+b^6+c^6-3a^2b^2c^2\\geqslant 18(a^2-bc)(b^2-ca)(c^2-ab)$$",
+    "solution_md": "不失一般性，设 $a\\geqslant b\\geqslant c$，且 $abc=1$。令 $x=a^3$，$y=b^3$，$z=c^3$，则不等式变成\n$$x^2+y^2+z^2-3\\geqslant 18(x+y+z-xy-yz-zx)$$\n设 $t=\\sqrt{yz}$，由\n$$f(x,y,z)=x^2+y^2+z^2-3-18(x+y+z-xy-yz-zx)$$\n我们有（因为 $x\\geqslant 1$）\n$$f(x,y,z)-f(x,t,t)=(\\sqrt{y}-\\sqrt{z})^2[(\\sqrt{y}+\\sqrt{z})^2+18(x-1)]\\geqslant 0$$\n所以，只需证明，$f(x,t,t)\\geqslant 0$。实际上\n$$f(x,t,t)=x^2+20t^2-3-18x-36t+36tx$$\n$$=\\frac{1}{t^4}+20t^2-3-\\frac{18}{t^2}-36t+\\frac{36}{t}\\quad\\left(\\text{因为 }x=\\frac{1}{t^2}\\right)$$\n$$=\\frac{(t+1)(5t+1)(2t-1)^2(t-1)^2}{t^4}\\geqslant 0$$\n等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(2,1,1)$，证毕。",
+    "answer_md": "",
+    "hints_md": "Vasile Cirtoaje, Mathlinks",
+    "original_text_md": "例 2.2.4(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数,证明\n$$a^6+b^6+c^6-3a^2b^2c^2\\geqslant 18(a^2-bc)(b^2-ca)(c^2-ab)$$\n证明 不失一般性,设 $a\\geqslant b\\geqslant c$,且 $abc=1$.令 $x=a^3$,$y=b^3$,$z=c^3$,则不等式变成\n$$x^2+y^2+z^2-3\\geqslant 18(x+y+z-xy-yz-zx)$$\n设 $t=\\sqrt{yz}$,由\n$$f(x,y,z)=x^2+y^2+z^2-3-18(x+y+z-xy-yz-zx)$$\n我们有(因为 $x\\geqslant 1$)\n$$f(x,y,z)-f(x,t,t)=(\\sqrt{y}-\\sqrt{z})^2[(\\sqrt{y}+\\sqrt{z})^2+18(x-1)]\\geqslant 0$$\n所以,只需证明,$f(x,t,t)\\geqslant 0$.实际上\n$$f(x,t,t)=x^2+20t^2-3-18x-36t+36tx$$\n$$=\\frac{1}{t^4}+20t^2-3-\\frac{18}{t^2}-36t+\\frac{36}{t}\\quad\\left(\\text{因为 }x=\\frac{1}{t^2}\\right)$$\n$$=\\frac{(t+1)(5t+1)(2t-1)^2(t-1)^2}{t^4}\\geqslant 0$$\n等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(2,1,1)$,证毕.",
+    "tags": [
+      "整合变量法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

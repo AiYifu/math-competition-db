@@ -1,0 +1,56 @@
+{
+  "uid": "p079_080_引理_720f0af4c6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.3",
+  "problem_id": "引理",
+  "problem_type": "theorem",
+  "title": "一般整合变量引理",
+  "source_pages": [
+    79,
+    80
+  ],
+  "source_images": [
+    "page-079.jpg",
+    "page-080.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是任意实数列，进行如下变换：\n\n(1) 选择 $i,j \\in \\{1,2,\\cdots,n\\}$ 两个下标，满足\n$$a_i=\\min\\{a_1,a_2,\\cdots,a_n\\}, a_j=\\max\\{a_1,a_2,\\cdots,a_n\\}$$\n\n(2) 用 $\\frac{a_i+a_j}{2}$ 来替换 $a_i$ 和 $a_j$（但不能改变他们的次序）.\n\n把这种变换重复进行下去，则每一个数 $a_i$ 都具有相同的极限\n$$a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n\n往后，我们把这种变换称为 $\\triangle$ 变换.",
+  "solution_md": "记 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 是第一个序列，经过一个变换之后，产生新的序列，记为 $(a_1^2,a_2^2,\\cdots,a_n^2)$，类似地，由序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$，产生新的序列，记为 $(a_1^{k+1},a_2^{k+1},\\cdots,a_n^{k+1})$. 对于 $i \\in \\{1,2,\\cdots,n\\}$，我们来证明\n$$\\lim_{k \\to \\infty} a_i^k=a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n构造两个序列 $m_k=\\min\\{a_1^k,a_2^k,\\cdots,a_n^k\\},M_k=\\max\\{a_1^k,a_2^k,\\cdots,a_n^k\\}$，显然，经过 $\\triangle$ 变换之后，$M_k$ 不增加，$m_k$ 不减少. 由于 $m_1 \\leqslant m_k \\leqslant M_k \\leqslant M_1$，所以，必存在\n$$m=\\lim_{k \\to \\infty} m_k, M=\\lim_{k \\to \\infty} M_k$$\n令 $d_k=M_k-m_k$，我们有下面一个简单的引理.\n\n引理 假设若干 $\\triangle$ 变换之后，序列 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 变成 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 满足 $m_k=\\frac{M_1+m_1}{2}(k \\geqslant 2)$，则\n$$m_2=\\frac{M_1+m_1}{2}$$\n\n证明 假设 $M_1=a_1^1 \\geqslant a_2^1 \\geqslant \\cdots \\geqslant a_n^1=m_1$，用 $a_i$ 替换 $a_i^1$. 如果 $k$ 是 $i$ 满足 $m_k=\\frac{a_1+a_n}{2}$ 的最小下标，则我们有，$a_i^2 \\geqslant m_k=\\frac{a_1+a_n}{2},\\forall i=\\overline{1,n}$（因为 $\\{m_k\\}$ 是非减序列）. 注意到，$\\frac{a_1+a_n}{2}$ 是序列 $(a_1^2,a_2^2,\\cdots,a_n^2)$ 的一个项，所以，引理得证.\n\n这个性质表明了一个更重要的结果，如果我们令\n$$S=\\{k \\mid \\exists l>k, m_k+M_k=2m_l\\}$$\n$$P=\\{k \\mid \\exists l>k, m_k+M_k=2M_l\\}$$\n则（由该引理）我们有\n$$S=\\{k \\mid m_k+M_k=2m_{k+1}\\}$$\n$$P=\\{k \\mid m_k+M_k=2M_{k+1}\\}$$\n如果 $S$ 或 $P$ 有无限多个元素，不妨设 $|S|=\\infty$，则对每一个 $k \\in S$，都有\n$$d_{k+1}=M_{k+1}-m_{k+1}=M_{k+1}-\\frac{m_k+M_k}{2} \\leqslant \\frac{M_k-m_k}{2}=\\frac{1}{2}d_k$$\n因此可见，序列 $\\{d_r\\}_1^{+\\infty}$ 是一个递减序列，且 $|S|=\\infty$，所以，$\\lim_{r \\to \\infty} d_r=0$，这就是说，$M=m$，引理得证. 否则，必有 $|S|,|P|<+\\infty$. 事实上，我们可以假设 $|S|=|P|=0$，而不影响问题的结论. 在这种情况下，$\\frac{a_1+a_n}{2}$ 不能是序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 的最小数或最大数. 所以，我们可以考虑对 $n-1$ 个数时的结论，因为我们可以排除 $\\frac{a_1+a_n}{2}$，由简单的归纳法，即证明了引理.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "引理(一般整合变量引理) 设 $a_1,a_2,\\cdots,a_n$ 是任意实数列，进行如下变换：\n\n(1) 选择 $i,j \\in \\{1,2,\\cdots,n\\}$ 两个下标，满足\n$$a_i=\\min\\{a_1,a_2,\\cdots,a_n\\}, a_j=\\max\\{a_1,a_2,\\cdots,a_n\\}$$\n\n(2) 用 $\\frac{a_i+a_j}{2}$ 来替换 $a_i$ 和 $a_j$（但不能改变他们的次序）.\n\n把这种变换重复进行下去，则每一个数 $a_i$ 都具有相同的极限\n$$a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n\n往后，我们把这种变换称为 $\\triangle$ 变换.\n\n证明 记 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 是第一个序列，经过一个变换之后，产生新的序列，记为 $(a_1^2,a_2^2,\\cdots,a_n^2)$，类似地，由序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$，产生新的序列，记为 $(a_1^{k+1},a_2^{k+1},\\cdots,a_n^{k+1})$. 对于 $i \\in \\{1,2,\\cdots,n\\}$，我们来证明\n$$\\lim_{k \\to \\infty} a_i^k=a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n构造两个序列 $m_k=\\min\\{a_1^k,a_2^k,\\cdots,a_n^k\\},M_k=\\max\\{a_1^k,a_2^k,\\cdots,a_n^k\\}$，显然，经过 $\\triangle$ 变换之后，$M_k$ 不增加，$m_k$ 不减少. 由于 $m_1 \\leqslant m_k \\leqslant M_k \\leqslant M_1$，所以，必存在\n$$m=\\lim_{k \\to \\infty} m_k, M=\\lim_{k \\to \\infty} M_k$$\n令 $d_k=M_k-m_k$，我们有下面一个简单的引理.\n\n引理 假设若干 $\\triangle$ 变换之后，序列 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 变成 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 满足 $m_k=\\frac{M_1+m_1}{2}(k \\geqslant 2)$，则\n$$m_2=\\frac{M_1+m_1}{2}$$\n\n证明 假设 $M_1=a_1^1 \\geqslant a_2^1 \\geqslant \\cdots \\geqslant a_n^1=m_1$，用 $a_i$ 替换 $a_i^1$. 如果 $k$ 是 $i$ 满足 $m_k=\\frac{a_1+a_n}{2}$ 的最小下标，则我们有，$a_i^2 \\geqslant m_k=\\frac{a_1+a_n}{2},\\forall i=\\overline{1,n}$（因为 $\\{m_k\\}$ 是非减序列）. 注意到，$\\frac{a_1+a_n}{2}$ 是序列 $(a_1^2,a_2^2,\\cdots,a_n^2)$ 的一个项，所以，引理得证.\n\n这个性质表明了一个更重要的结果，如果我们令\n$$S=\\{k \\mid \\exists l>k, m_k+M_k=2m_l\\}$$\n$$P=\\{k \\mid \\exists l>k, m_k+M_k=2M_l\\}$$\n则（由该引理）我们有\n$$S=\\{k \\mid m_k+M_k=2m_{k+1}\\}$$\n$$P=\\{k \\mid m_k+M_k=2M_{k+1}\\}$$\n如果 $S$ 或 $P$ 有无限多个元素，不妨设 $|S|=\\infty$，则对每一个 $k \\in S$，都有\n$$d_{k+1}=M_{k+1}-m_{k+1}=M_{k+1}-\\frac{m_k+M_k}{2} \\leqslant \\frac{M_k-m_k}{2}=\\frac{1}{2}d_k$$\n因此可见，序列 $\\{d_r\\}_1^{+\\infty}$ 是一个递减序列，且 $|S|=\\infty$，所以，$\\lim_{r \\to \\infty} d_r=0$，这就是说，$M=m$，引理得证. 否则，必有 $|S|,|P|<+\\infty$. 事实上，我们可以假设 $|S|=|P|=0$，而不影响问题的结论. 在这种情况下，$\\frac{a_1+a_n}{2}$ 不能是序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 的最小数或最大数. 所以，我们可以考虑对 $n-1$ 个数时的结论，因为我们可以排除 $\\frac{a_1+a_n}{2}$，由简单的归纳法，即证明了引理.",
+  "tags": [
+    "强整合变量法",
+    "△变换",
+    "引理"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009",
+  "raw_response_file": "raw/chunk-0009.response.txt",
+  "raw_api_file": "raw/chunk-0009.api.json",
+  "fingerprint": "720f0af4c6a146e0368bfa47dbda033f9c60c38f",
+  "raw_problem": {
+    "problem_id": "引理",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.3",
+    "title": "一般整合变量引理",
+    "source_pages": [
+      79,
+      80
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是任意实数列，进行如下变换：\n\n(1) 选择 $i,j \\in \\{1,2,\\cdots,n\\}$ 两个下标，满足\n$$a_i=\\min\\{a_1,a_2,\\cdots,a_n\\}, a_j=\\max\\{a_1,a_2,\\cdots,a_n\\}$$\n\n(2) 用 $\\frac{a_i+a_j}{2}$ 来替换 $a_i$ 和 $a_j$（但不能改变他们的次序）.\n\n把这种变换重复进行下去，则每一个数 $a_i$ 都具有相同的极限\n$$a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n\n往后，我们把这种变换称为 $\\triangle$ 变换.",
+    "solution_md": "记 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 是第一个序列，经过一个变换之后，产生新的序列，记为 $(a_1^2,a_2^2,\\cdots,a_n^2)$，类似地，由序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$，产生新的序列，记为 $(a_1^{k+1},a_2^{k+1},\\cdots,a_n^{k+1})$. 对于 $i \\in \\{1,2,\\cdots,n\\}$，我们来证明\n$$\\lim_{k \\to \\infty} a_i^k=a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n构造两个序列 $m_k=\\min\\{a_1^k,a_2^k,\\cdots,a_n^k\\},M_k=\\max\\{a_1^k,a_2^k,\\cdots,a_n^k\\}$，显然，经过 $\\triangle$ 变换之后，$M_k$ 不增加，$m_k$ 不减少. 由于 $m_1 \\leqslant m_k \\leqslant M_k \\leqslant M_1$，所以，必存在\n$$m=\\lim_{k \\to \\infty} m_k, M=\\lim_{k \\to \\infty} M_k$$\n令 $d_k=M_k-m_k$，我们有下面一个简单的引理.\n\n引理 假设若干 $\\triangle$ 变换之后，序列 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 变成 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 满足 $m_k=\\frac{M_1+m_1}{2}(k \\geqslant 2)$，则\n$$m_2=\\frac{M_1+m_1}{2}$$\n\n证明 假设 $M_1=a_1^1 \\geqslant a_2^1 \\geqslant \\cdots \\geqslant a_n^1=m_1$，用 $a_i$ 替换 $a_i^1$. 如果 $k$ 是 $i$ 满足 $m_k=\\frac{a_1+a_n}{2}$ 的最小下标，则我们有，$a_i^2 \\geqslant m_k=\\frac{a_1+a_n}{2},\\forall i=\\overline{1,n}$（因为 $\\{m_k\\}$ 是非减序列）. 注意到，$\\frac{a_1+a_n}{2}$ 是序列 $(a_1^2,a_2^2,\\cdots,a_n^2)$ 的一个项，所以，引理得证.\n\n这个性质表明了一个更重要的结果，如果我们令\n$$S=\\{k \\mid \\exists l>k, m_k+M_k=2m_l\\}$$\n$$P=\\{k \\mid \\exists l>k, m_k+M_k=2M_l\\}$$\n则（由该引理）我们有\n$$S=\\{k \\mid m_k+M_k=2m_{k+1}\\}$$\n$$P=\\{k \\mid m_k+M_k=2M_{k+1}\\}$$\n如果 $S$ 或 $P$ 有无限多个元素，不妨设 $|S|=\\infty$，则对每一个 $k \\in S$，都有\n$$d_{k+1}=M_{k+1}-m_{k+1}=M_{k+1}-\\frac{m_k+M_k}{2} \\leqslant \\frac{M_k-m_k}{2}=\\frac{1}{2}d_k$$\n因此可见，序列 $\\{d_r\\}_1^{+\\infty}$ 是一个递减序列，且 $|S|=\\infty$，所以，$\\lim_{r \\to \\infty} d_r=0$，这就是说，$M=m$，引理得证. 否则，必有 $|S|,|P|<+\\infty$. 事实上，我们可以假设 $|S|=|P|=0$，而不影响问题的结论. 在这种情况下，$\\frac{a_1+a_n}{2}$ 不能是序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 的最小数或最大数. 所以，我们可以考虑对 $n-1$ 个数时的结论，因为我们可以排除 $\\frac{a_1+a_n}{2}$，由简单的归纳法，即证明了引理.",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "引理(一般整合变量引理) 设 $a_1,a_2,\\cdots,a_n$ 是任意实数列，进行如下变换：\n\n(1) 选择 $i,j \\in \\{1,2,\\cdots,n\\}$ 两个下标，满足\n$$a_i=\\min\\{a_1,a_2,\\cdots,a_n\\}, a_j=\\max\\{a_1,a_2,\\cdots,a_n\\}$$\n\n(2) 用 $\\frac{a_i+a_j}{2}$ 来替换 $a_i$ 和 $a_j$（但不能改变他们的次序）.\n\n把这种变换重复进行下去，则每一个数 $a_i$ 都具有相同的极限\n$$a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n\n往后，我们把这种变换称为 $\\triangle$ 变换.\n\n证明 记 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 是第一个序列，经过一个变换之后，产生新的序列，记为 $(a_1^2,a_2^2,\\cdots,a_n^2)$，类似地，由序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$，产生新的序列，记为 $(a_1^{k+1},a_2^{k+1},\\cdots,a_n^{k+1})$. 对于 $i \\in \\{1,2,\\cdots,n\\}$，我们来证明\n$$\\lim_{k \\to \\infty} a_i^k=a=\\frac{a_1+a_2+\\cdots+a_n}{n}$$\n构造两个序列 $m_k=\\min\\{a_1^k,a_2^k,\\cdots,a_n^k\\},M_k=\\max\\{a_1^k,a_2^k,\\cdots,a_n^k\\}$，显然，经过 $\\triangle$ 变换之后，$M_k$ 不增加，$m_k$ 不减少. 由于 $m_1 \\leqslant m_k \\leqslant M_k \\leqslant M_1$，所以，必存在\n$$m=\\lim_{k \\to \\infty} m_k, M=\\lim_{k \\to \\infty} M_k$$\n令 $d_k=M_k-m_k$，我们有下面一个简单的引理.\n\n引理 假设若干 $\\triangle$ 变换之后，序列 $(a_1^1,a_2^1,\\cdots,a_n^1)$ 变成 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 满足 $m_k=\\frac{M_1+m_1}{2}(k \\geqslant 2)$，则\n$$m_2=\\frac{M_1+m_1}{2}$$\n\n证明 假设 $M_1=a_1^1 \\geqslant a_2^1 \\geqslant \\cdots \\geqslant a_n^1=m_1$，用 $a_i$ 替换 $a_i^1$. 如果 $k$ 是 $i$ 满足 $m_k=\\frac{a_1+a_n}{2}$ 的最小下标，则我们有，$a_i^2 \\geqslant m_k=\\frac{a_1+a_n}{2},\\forall i=\\overline{1,n}$（因为 $\\{m_k\\}$ 是非减序列）. 注意到，$\\frac{a_1+a_n}{2}$ 是序列 $(a_1^2,a_2^2,\\cdots,a_n^2)$ 的一个项，所以，引理得证.\n\n这个性质表明了一个更重要的结果，如果我们令\n$$S=\\{k \\mid \\exists l>k, m_k+M_k=2m_l\\}$$\n$$P=\\{k \\mid \\exists l>k, m_k+M_k=2M_l\\}$$\n则（由该引理）我们有\n$$S=\\{k \\mid m_k+M_k=2m_{k+1}\\}$$\n$$P=\\{k \\mid m_k+M_k=2M_{k+1}\\}$$\n如果 $S$ 或 $P$ 有无限多个元素，不妨设 $|S|=\\infty$，则对每一个 $k \\in S$，都有\n$$d_{k+1}=M_{k+1}-m_{k+1}=M_{k+1}-\\frac{m_k+M_k}{2} \\leqslant \\frac{M_k-m_k}{2}=\\frac{1}{2}d_k$$\n因此可见，序列 $\\{d_r\\}_1^{+\\infty}$ 是一个递减序列，且 $|S|=\\infty$，所以，$\\lim_{r \\to \\infty} d_r=0$，这就是说，$M=m$，引理得证. 否则，必有 $|S|,|P|<+\\infty$. 事实上，我们可以假设 $|S|=|P|=0$，而不影响问题的结论. 在这种情况下，$\\frac{a_1+a_n}{2}$ 不能是序列 $(a_1^k,a_2^k,\\cdots,a_n^k)$ 的最小数或最大数. 所以，我们可以考虑对 $n-1$ 个数时的结论，因为我们可以排除 $\\frac{a_1+a_n}{2}$，由简单的归纳法，即证明了引理.",
+    "tags": [
+      "强整合变量法",
+      "△变换",
+      "引理"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

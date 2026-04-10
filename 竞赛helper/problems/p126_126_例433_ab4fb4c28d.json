@@ -1,0 +1,53 @@
+{
+  "uid": "p126_126_例433_ab4fb4c28d",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4.3 典型应用",
+  "section": null,
+  "problem_id": "例4.3.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    126
+  ],
+  "source_images": [],
+  "stem_md": "求最好的正实常数 $k=k_n$，满足下列不等式\n$$\\frac{1}{\\sqrt{1+k_nx_1}}+\\frac{1}{\\sqrt{1+k_nx_2}}+\\cdots+\\frac{1}{\\sqrt{1+k_nx_n}}\\leqslant n-1$$\n\n对所有满足 $x_1x_2\\cdots x_n=1$ 的正实数 $x_1,x_2,\\cdots,x_n$ 成立。",
+  "solution_md": "**证明** 设 $x_1=x_2=\\cdots=x_n=1$，则我们有\n$$\\frac{n}{\\sqrt{1+k_n}}\\leqslant n-1\\Leftrightarrow k_n\\geqslant\\frac{2n-1}{(n-1)^2}$$\n\n虽然，我们要证明不等式\n$$\\frac{1}{\\sqrt{1+\\frac{2n-1}{(n-1)^2}\\cdot x_1}}+\\frac{1}{\\sqrt{1+\\frac{2n-1}{(n-1)^2}\\cdot x_2}}+\\cdots+\\frac{1}{\\sqrt{1+\\frac{2n-1}{(n-1)^2}\\cdot x_n}}\\leqslant n-1$$\n\n或等价于 $\\left(c_n=\\frac{1}{k_n}=\\frac{(n-1)^2}{2n-1}\\right)$\n$$\\frac{1}{\\sqrt{c_n+x_1}}+\\frac{1}{\\sqrt{c_n+x_2}}+\\cdots+\\frac{1}{\\sqrt{c_n+x_n}}\\leqslant\\sqrt{2n-1}$$\n\n但是，我们可以证明一般问题，如下\n$$\\frac{1}{\\sqrt{c+x_1}}+\\frac{1}{\\sqrt{c+x_2}}+\\cdots+\\frac{1}{\\sqrt{c+x_n}}\\leqslant\\frac{n}{\\sqrt{c+1}}\\quad\\forall c\\geqslant c_n\\quad(*)$$",
+  "answer_md": "$k_n=\\frac{2n-1}{(n-1)^2}$",
+  "hints_md": "",
+  "original_text_md": "例 4.3.3(Gabriel Dospinescu,Mathlinks Contest) 求最好的正实常数 $k=k_n$，满足下列不等式\n$$\\frac{1}{\\sqrt{1+k_nx_1}}+\\frac{1}{\\sqrt{1+k_nx_2}}+\\cdots+\\frac{1}{\\sqrt{1+k_nx_n}}\\leqslant n-1$$\n\n对所有满足 $x_1x_2\\cdots x_n=1$ 的正实数 $x_1,x_2,\\cdots,x_n$ 成立。\n\n证明 ...",
+  "tags": [
+    "GI定理",
+    "最优常数",
+    "根式不等式",
+    "齐次函数"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0016",
+  "raw_response_file": "raw/chunk-0016.response.txt",
+  "raw_api_file": "raw/chunk-0016.api.json",
+  "fingerprint": "ab4fb4c28d2cc6e708ac5b389536d9c96240905a",
+  "raw_problem": {
+    "problem_id": "例4.3.3",
+    "problem_type": "example",
+    "chapter": "4.3 典型应用",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      126
+    ],
+    "stem_md": "求最好的正实常数 $k=k_n$，满足下列不等式\n$$\\frac{1}{\\sqrt{1+k_nx_1}}+\\frac{1}{\\sqrt{1+k_nx_2}}+\\cdots+\\frac{1}{\\sqrt{1+k_nx_n}}\\leqslant n-1$$\n\n对所有满足 $x_1x_2\\cdots x_n=1$ 的正实数 $x_1,x_2,\\cdots,x_n$ 成立。",
+    "solution_md": "**证明** 设 $x_1=x_2=\\cdots=x_n=1$，则我们有\n$$\\frac{n}{\\sqrt{1+k_n}}\\leqslant n-1\\Leftrightarrow k_n\\geqslant\\frac{2n-1}{(n-1)^2}$$\n\n虽然，我们要证明不等式\n$$\\frac{1}{\\sqrt{1+\\frac{2n-1}{(n-1)^2}\\cdot x_1}}+\\frac{1}{\\sqrt{1+\\frac{2n-1}{(n-1)^2}\\cdot x_2}}+\\cdots+\\frac{1}{\\sqrt{1+\\frac{2n-1}{(n-1)^2}\\cdot x_n}}\\leqslant n-1$$\n\n或等价于 $\\left(c_n=\\frac{1}{k_n}=\\frac{(n-1)^2}{2n-1}\\right)$\n$$\\frac{1}{\\sqrt{c_n+x_1}}+\\frac{1}{\\sqrt{c_n+x_2}}+\\cdots+\\frac{1}{\\sqrt{c_n+x_n}}\\leqslant\\sqrt{2n-1}$$\n\n但是，我们可以证明一般问题，如下\n$$\\frac{1}{\\sqrt{c+x_1}}+\\frac{1}{\\sqrt{c+x_2}}+\\cdots+\\frac{1}{\\sqrt{c+x_n}}\\leqslant\\frac{n}{\\sqrt{c+1}}\\quad\\forall c\\geqslant c_n\\quad(*)$$",
+    "answer_md": "$k_n=\\frac{2n-1}{(n-1)^2}$",
+    "hints_md": "",
+    "original_text_md": "例 4.3.3(Gabriel Dospinescu,Mathlinks Contest) 求最好的正实常数 $k=k_n$，满足下列不等式\n$$\\frac{1}{\\sqrt{1+k_nx_1}}+\\frac{1}{\\sqrt{1+k_nx_2}}+\\cdots+\\frac{1}{\\sqrt{1+k_nx_n}}\\leqslant n-1$$\n\n对所有满足 $x_1x_2\\cdots x_n=1$ 的正实数 $x_1,x_2,\\cdots,x_n$ 成立。\n\n证明 ...",
+    "tags": [
+      "GI定理",
+      "最优常数",
+      "根式不等式",
+      "齐次函数"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

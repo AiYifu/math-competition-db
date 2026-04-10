@@ -1,0 +1,53 @@
+{
+  "uid": "p109_109_11_04b9fdcff2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "11",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "11. (Pham Kim Hung, Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明：\n\n(1) $81(1+a^2)(1+b^2)(1+c^2) \\leqslant 8(a+b+c)^4$；\n\n(2) $64(1+a^3)(1+b^3)(1+c^3) \\leqslant (a+b+c)^6$。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "11. (Pham Kim Hung,Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明：\n\n(1)$81(1+a^2)(1+b^2)(1+c^2)\\leqslant 8(a+b+c)^4$；\n\n(2)$64(1+a^3)(1+b^3)(1+c^3)\\leqslant (a+b+c)^6$。",
+  "tags": [
+    "Pham Kim Hung",
+    "Sang Tao Bat Dang Thuc",
+    "abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "04b9fdcff26f68473c1ed5ef339dcb04e606e8bd",
+  "raw_problem": {
+    "problem_id": "11",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "11. (Pham Kim Hung, Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明：\n\n(1) $81(1+a^2)(1+b^2)(1+c^2) \\leqslant 8(a+b+c)^4$；\n\n(2) $64(1+a^3)(1+b^3)(1+c^3) \\leqslant (a+b+c)^6$。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "11. (Pham Kim Hung,Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明：\n\n(1)$81(1+a^2)(1+b^2)(1+c^2)\\leqslant 8(a+b+c)^4$；\n\n(2)$64(1+a^3)(1+b^3)(1+c^3)\\leqslant (a+b+c)^6$。",
+    "tags": [
+      "Pham Kim Hung",
+      "Sang Tao Bat Dang Thuc",
+      "abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

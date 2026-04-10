@@ -1,0 +1,53 @@
+{
+  "uid": "p180_180_例_5314_474fe4d591",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.14",
+  "problem_type": "example",
+  "title": "Pham Kim Hung Mathlinks",
+  "source_pages": [
+    180
+  ],
+  "source_images": [
+    "page-180.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是实数，且满足 $a+b+c+d=2$，证明\n$$a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)$$",
+  "solution_md": "使用下列恒等式\n$$\\begin{aligned}&2(a^4+b^4+c^4+d^4-4abcd)\\\\=&[(a-b)^2+(c-d)^2][(a+b)^2+(c+d)^2]+(a^2+b^2-c^2-d^2)^2\\end{aligned}$$\n由于 $a+b+c+d=2$，所以\n$$(a+b)^2+(c+d)^2\\geqslant\\frac{1}{2}(a+b+c+d)^2=2$$\n因此\n$$\\begin{aligned}&2(a^4+b^4+c^4+d^4-4abcd)\\\\\\geqslant& 2[(a-b)^2+(c-d)^2]\\geqslant 4(a-b)(c-d)\\\\\\Rightarrow& a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=d$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.14(Pham Kim Hung Mathlinks) 设 $a,b,c,d$ 是实数，且满足 $a+b+c+d=2$，证明\n$$a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)$$\n证明 使用下列恒等式\n$$2(a^4+b^4+c^4+d^4-4abcd)$$\n$$=[(a-b)^2+(c-d)^2][(a+b)^2+(c+d)^2]+(a^2+b^2-c^2-d^2)^2$$\n由于 $a+b+c+d=2$，所以\n$$(a+b)^2+(c+d)^2\\geqslant\\frac{1}{2}(a+b+c+d)^2=2$$\n因此\n$$2(a^4+b^4+c^4+d^4-4abcd)$$\n$$\\geqslant 2[(a-b)^2+(c-d)^2]\\geqslant 4(a-b)(c-d)$$\n$$\\Rightarrow a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)$$\n不等式得证，等号成立的条件是 $a=b=c=d$。",
+  "tags": [
+    "四元不等式",
+    "恒等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "474fe4d5917092722475723869941d5a39988ee9",
+  "raw_problem": {
+    "problem_id": "例 5.3.14",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Pham Kim Hung Mathlinks",
+    "source_pages": [
+      180
+    ],
+    "stem_md": "设 $a,b,c,d$ 是实数，且满足 $a+b+c+d=2$，证明\n$$a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)$$",
+    "solution_md": "使用下列恒等式\n$$\\begin{aligned}&2(a^4+b^4+c^4+d^4-4abcd)\\\\=&[(a-b)^2+(c-d)^2][(a+b)^2+(c+d)^2]+(a^2+b^2-c^2-d^2)^2\\end{aligned}$$\n由于 $a+b+c+d=2$，所以\n$$(a+b)^2+(c+d)^2\\geqslant\\frac{1}{2}(a+b+c+d)^2=2$$\n因此\n$$\\begin{aligned}&2(a^4+b^4+c^4+d^4-4abcd)\\\\\\geqslant& 2[(a-b)^2+(c-d)^2]\\geqslant 4(a-b)(c-d)\\\\\\Rightarrow& a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=d$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.14(Pham Kim Hung Mathlinks) 设 $a,b,c,d$ 是实数，且满足 $a+b+c+d=2$，证明\n$$a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)$$\n证明 使用下列恒等式\n$$2(a^4+b^4+c^4+d^4-4abcd)$$\n$$=[(a-b)^2+(c-d)^2][(a+b)^2+(c+d)^2]+(a^2+b^2-c^2-d^2)^2$$\n由于 $a+b+c+d=2$，所以\n$$(a+b)^2+(c+d)^2\\geqslant\\frac{1}{2}(a+b+c+d)^2=2$$\n因此\n$$2(a^4+b^4+c^4+d^4-4abcd)$$\n$$\\geqslant 2[(a-b)^2+(c-d)^2]\\geqslant 4(a-b)(c-d)$$\n$$\\Rightarrow a^4+b^4+c^4+d^4-4abcd\\geqslant 2(a-b)(c-d)$$\n不等式得证，等号成立的条件是 $a=b=c=d$。",
+    "tags": [
+      "四元不等式",
+      "恒等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

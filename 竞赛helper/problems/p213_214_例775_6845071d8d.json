@@ -1,0 +1,56 @@
+{
+  "uid": "p213_214_例775_6845071d8d",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.5",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Sang Tao Bat Dang Thuc",
+  "source_pages": [
+    213,
+    214
+  ],
+  "source_images": [
+    "page-213.jpg",
+    "page-214.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{(a+b)(b+c)(c+a)}{abc}+\\frac{4\\sqrt{2}(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 8+4\\sqrt{2}$$",
+  "solution_md": "**证明** 不失一般性，设 $c=\\max\\{a,b,c\\}$，我们有\n\n$$\\frac{(a+b)(b+c)(c+a)}{abc}-8=\\frac{2(a-b)^2}{ab}+\\frac{(a+b)(c-a)(c-b)}{abc}$$\n\n$$\\frac{ab+bc+ca}{a^2+b^2+c^2}-1=-\\frac{(a-b)^2}{a^2+b^2+c^2}-\\frac{(c-a)(c-b)}{a^2+b^2+c^2}$$\n\n于是，我们得到\n\n$$M=\\frac{1}{ab}-\\frac{4\\sqrt{2}}{a^2+b^2+c^2}, N=\\frac{a+b}{abc}-\\frac{4\\sqrt{2}}{a^2+b^2+c^2}$$\n\n根据AM-GM不等式，有\n\n$$2(a^2+b^2+c^2)\\geqslant 2(a^2+2b^2)\\geqslant 4\\sqrt{2}ab\\Rightarrow M\\geqslant 0$$\n\n$$(a+b)(a^2+b^2+c^2)\\geqslant 2\\sqrt{ab}(2ab+c^2)\\geqslant 2\\sqrt{ab}\\cdot 2\\sqrt{2abc^2}=4\\sqrt{2}abc\\Rightarrow N\\geqslant 0$$\n\n所以，不等式得证，等号成立的条件是 $a=b=c$ 或 $a=b=\\frac{c}{\\sqrt{2}}$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.5(Pham Kim Hung,Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{(a+b)(b+c)(c+a)}{abc}+\\frac{4\\sqrt{2}(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 8+4\\sqrt{2}$$\n证明 不失一般性，设 $c=\\max\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "AM-GM不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "6845071d8d9102ad295df256167dfedf546a0f66",
+  "raw_problem": {
+    "problem_id": "例7.7.5",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": "Pham Kim Hung, Sang Tao Bat Dang Thuc",
+    "source_pages": [
+      213,
+      214
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{(a+b)(b+c)(c+a)}{abc}+\\frac{4\\sqrt{2}(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 8+4\\sqrt{2}$$",
+    "solution_md": "**证明** 不失一般性，设 $c=\\max\\{a,b,c\\}$，我们有\n\n$$\\frac{(a+b)(b+c)(c+a)}{abc}-8=\\frac{2(a-b)^2}{ab}+\\frac{(a+b)(c-a)(c-b)}{abc}$$\n\n$$\\frac{ab+bc+ca}{a^2+b^2+c^2}-1=-\\frac{(a-b)^2}{a^2+b^2+c^2}-\\frac{(c-a)(c-b)}{a^2+b^2+c^2}$$\n\n于是，我们得到\n\n$$M=\\frac{1}{ab}-\\frac{4\\sqrt{2}}{a^2+b^2+c^2}, N=\\frac{a+b}{abc}-\\frac{4\\sqrt{2}}{a^2+b^2+c^2}$$\n\n根据AM-GM不等式，有\n\n$$2(a^2+b^2+c^2)\\geqslant 2(a^2+2b^2)\\geqslant 4\\sqrt{2}ab\\Rightarrow M\\geqslant 0$$\n\n$$(a+b)(a^2+b^2+c^2)\\geqslant 2\\sqrt{ab}(2ab+c^2)\\geqslant 2\\sqrt{ab}\\cdot 2\\sqrt{2abc^2}=4\\sqrt{2}abc\\Rightarrow N\\geqslant 0$$\n\n所以，不等式得证，等号成立的条件是 $a=b=c$ 或 $a=b=\\frac{c}{\\sqrt{2}}$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.5(Pham Kim Hung,Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{(a+b)(b+c)(c+a)}{abc}+\\frac{4\\sqrt{2}(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 8+4\\sqrt{2}$$\n证明 不失一般性，设 $c=\\max\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "AM-GM不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

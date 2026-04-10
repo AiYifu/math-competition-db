@@ -1,0 +1,53 @@
+{
+  "uid": "p164_164_例519_45e79ac6fe",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    164
+  ],
+  "source_images": [
+    "page-164.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，满足 $abcd=1$，证明\n$$2^8(a^2+1)(b^2+1)(c^2+1)(d^2+1)\\leqslant(a+b+c+d)^6$$",
+  "solution_md": "设 $a=x^2,b=y^2,c=z^2,d=t^2$，我们来证明\n$$2^8(x^4+1)(y^4+1)(z^4+1)(t^4+1)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n$$\\Leftrightarrow2^8(x^3+yzt)(y^3+zxt)(z^3+xyt)(t^3+xyz)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n由 AM-GM 不等式，我们有\n$$4(x^3+yzt)(y^3+zxt)\\leqslant(x^3+y^3+xzt+yzt)^2$$\n$$=(x+y)^2(x^2-xy+y^2+zt)^2$$\n$$4(t^3+xyz)(z^3+xyt)\\leqslant(z^3+t^3+xyz+xyt)^2$$\n$$=(z+t)^2(z^2-zt+t^2+xy)^2$$\n再次使用 AM-GM 不等式，我们有\n$$4(x^2-xy+y^2+zt)(z^2-zt+t^2+xy)\\leqslant(x^2+y^2+z^2+t^2)^2$$\n$$(x+y)(z+t)=xz+yt+xt+yz\\leqslant x^2+y^2+z^2+t^2$$\n组合上面的四个不等式，立即可得所要证明的不等式。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.9(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是正实数，满足 $abcd=1$，证明\n$$2^8(a^2+1)(b^2+1)(c^2+1)(d^2+1)\\leqslant(a+b+c+d)^6$$\n证明 设 $a=x^2,b=y^2,c=z^2,d=t^2$，我们来证明\n$$2^8(x^4+1)(y^4+1)(z^4+1)(t^4+1)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n$$\\Leftrightarrow2^8(x^3+yzt)(y^3+zxt)(z^3+xyt)(t^3+xyz)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n由 AM-GM 不等式，我们有\n$$4(x^3+yzt)(y^3+zxt)\\leqslant(x^3+y^3+xzt+yzt)^2$$\n$$=(x+y)^2(x^2-xy+y^2+zt)^2$$\n$$4(t^3+xyz)(z^3+xyt)\\leqslant(z^3+t^3+xyz+xyt)^2$$\n$$=(z+t)^2(z^2-zt+t^2+xy)^2$$\n再次使用 AM-GM 不等式，我们有\n$$4(x^2-xy+y^2+zt)(z^2-zt+t^2+xy)\\leqslant(x^2+y^2+z^2+t^2)^2$$\n$$(x+y)(z+t)=xz+yt+xt+yz\\leqslant x^2+y^2+z^2+t^2$$\n组合上面的四个不等式，立即可得所要证明的不等式。",
+  "tags": [
+    "AM-GM不等式",
+    "四变量不等式",
+    "条件abcd=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "45e79ac6fec9af58701830cfd6dbe36ed2a17453",
+  "raw_problem": {
+    "problem_id": "例5.1.9",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      164
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，满足 $abcd=1$，证明\n$$2^8(a^2+1)(b^2+1)(c^2+1)(d^2+1)\\leqslant(a+b+c+d)^6$$",
+    "solution_md": "设 $a=x^2,b=y^2,c=z^2,d=t^2$，我们来证明\n$$2^8(x^4+1)(y^4+1)(z^4+1)(t^4+1)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n$$\\Leftrightarrow2^8(x^3+yzt)(y^3+zxt)(z^3+xyt)(t^3+xyz)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n由 AM-GM 不等式，我们有\n$$4(x^3+yzt)(y^3+zxt)\\leqslant(x^3+y^3+xzt+yzt)^2$$\n$$=(x+y)^2(x^2-xy+y^2+zt)^2$$\n$$4(t^3+xyz)(z^3+xyt)\\leqslant(z^3+t^3+xyz+xyt)^2$$\n$$=(z+t)^2(z^2-zt+t^2+xy)^2$$\n再次使用 AM-GM 不等式，我们有\n$$4(x^2-xy+y^2+zt)(z^2-zt+t^2+xy)\\leqslant(x^2+y^2+z^2+t^2)^2$$\n$$(x+y)(z+t)=xz+yt+xt+yz\\leqslant x^2+y^2+z^2+t^2$$\n组合上面的四个不等式，立即可得所要证明的不等式。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.9(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是正实数，满足 $abcd=1$，证明\n$$2^8(a^2+1)(b^2+1)(c^2+1)(d^2+1)\\leqslant(a+b+c+d)^6$$\n证明 设 $a=x^2,b=y^2,c=z^2,d=t^2$，我们来证明\n$$2^8(x^4+1)(y^4+1)(z^4+1)(t^4+1)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n$$\\Leftrightarrow2^8(x^3+yzt)(y^3+zxt)(z^3+xyt)(t^3+xyz)\\leqslant(x^2+y^2+z^2+t^2)^6$$\n由 AM-GM 不等式，我们有\n$$4(x^3+yzt)(y^3+zxt)\\leqslant(x^3+y^3+xzt+yzt)^2$$\n$$=(x+y)^2(x^2-xy+y^2+zt)^2$$\n$$4(t^3+xyz)(z^3+xyt)\\leqslant(z^3+t^3+xyz+xyt)^2$$\n$$=(z+t)^2(z^2-zt+t^2+xy)^2$$\n再次使用 AM-GM 不等式，我们有\n$$4(x^2-xy+y^2+zt)(z^2-zt+t^2+xy)\\leqslant(x^2+y^2+z^2+t^2)^2$$\n$$(x+y)(z+t)=xz+yt+xt+yz\\leqslant x^2+y^2+z^2+t^2$$\n组合上面的四个不等式，立即可得所要证明的不等式。",
+    "tags": [
+      "AM-GM不等式",
+      "四变量不等式",
+      "条件abcd=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

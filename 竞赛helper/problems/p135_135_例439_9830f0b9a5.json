@@ -1,0 +1,51 @@
+{
+  "uid": "p135_135_例439_9830f0b9a5",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4",
+  "section": "4.3",
+  "problem_id": "例4.3.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    135
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，求最好的常数 $k$，满足下列不等式\n$$\\frac{1}{(1+a_1)^k}+\\frac{1}{(1+a_2)^k}+\\cdots+\\frac{1}{(1+a_n)^k}\\geqslant \\frac{n}{2^k}$$\n成立。",
+  "solution_md": "注意，这个不等式涉及下列许多著名的不等式。\n当 $n=4$ 时，是一个知名的不等式（China TST 2004）\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{(1+d)^2}\\geqslant 1\\quad (1)$$\n当 $n=3$ 时，这正好是越南 TST2005 的一个不等式\n$$\\frac{1}{(1+a)^3}+\\frac{1}{(1+b)^3}+\\frac{1}{(1+c)^3}\\geqslant \\frac{3}{8}\\quad (2)$$\n回到原问题。我们来求 $k$ 的最好可能值。令 $a_1\\to 0, a_k\\to +\\infty, \\forall k\\geqslant 2$，则",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.9 设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，求最好的常数 $k$，满足下列不等式...",
+  "tags": [
+    "最佳常数",
+    "China TST",
+    "越南TST"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0017",
+  "raw_response_file": "raw/chunk-0017.response.txt",
+  "raw_api_file": "raw/chunk-0017.api.json",
+  "fingerprint": "9830f0b9a510d7797047a0153b5503e0e459c7fc",
+  "raw_problem": {
+    "problem_id": "例4.3.9",
+    "problem_type": "example",
+    "chapter": "4",
+    "section": "4.3",
+    "title": null,
+    "source_pages": [
+      135
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，求最好的常数 $k$，满足下列不等式\n$$\\frac{1}{(1+a_1)^k}+\\frac{1}{(1+a_2)^k}+\\cdots+\\frac{1}{(1+a_n)^k}\\geqslant \\frac{n}{2^k}$$\n成立。",
+    "solution_md": "注意，这个不等式涉及下列许多著名的不等式。\n当 $n=4$ 时，是一个知名的不等式（China TST 2004）\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{(1+d)^2}\\geqslant 1\\quad (1)$$\n当 $n=3$ 时，这正好是越南 TST2005 的一个不等式\n$$\\frac{1}{(1+a)^3}+\\frac{1}{(1+b)^3}+\\frac{1}{(1+c)^3}\\geqslant \\frac{3}{8}\\quad (2)$$\n回到原问题。我们来求 $k$ 的最好可能值。令 $a_1\\to 0, a_k\\to +\\infty, \\forall k\\geqslant 2$，则",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.3.9 设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，求最好的常数 $k$，满足下列不等式...",
+    "tags": [
+      "最佳常数",
+      "China TST",
+      "越南TST"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "uid": "p110_110_24_7bf736b721",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "24",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "24. (Michael Rozenberg, Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$1+\\frac{8}{a+b+c} \\geqslant \\frac{11}{ab+bc+ca}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "24. (Michael Rozenberg,Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$1+\\frac{8}{a+b+c}\\geqslant\\frac{11}{ab+bc+ca}$$",
+  "tags": [
+    "Michael Rozenberg",
+    "Mathlinks",
+    "abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "7bf736b721449dfe424932ff267ff028ba2e4770",
+  "raw_problem": {
+    "problem_id": "24",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "24. (Michael Rozenberg, Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$1+\\frac{8}{a+b+c} \\geqslant \\frac{11}{ab+bc+ca}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "24. (Michael Rozenberg,Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，证明\n$$1+\\frac{8}{a+b+c}\\geqslant\\frac{11}{ab+bc+ca}$$",
+    "tags": [
+      "Michael Rozenberg",
+      "Mathlinks",
+      "abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,4 +1,3 @@
-from .problem import Problem, ProblemMetadata
-from .search import SearchRequest, SearchResult, SearchResponse
+from .problem import Problem, SearchRequest, SearchResponse, SearchResult
 
-__all__ = ["Problem", "ProblemMetadata", "SearchRequest", "SearchResult", "SearchResponse"]
+__all__ = ["Problem", "SearchRequest", "SearchResponse", "SearchResult"]

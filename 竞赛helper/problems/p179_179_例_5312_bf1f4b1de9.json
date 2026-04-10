@@ -1,0 +1,53 @@
+{
+  "uid": "p179_179_例_5312_bf1f4b1de9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    179
+  ],
+  "source_images": [
+    "page-179.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(a+b)^4+(b+c)^4+(c+d)^4+(d+a)^4+(a+c)^4+(d+b)^4\\leqslant 6$$",
+  "solution_md": "这个不等式，由下列恒等式直接得到\n$$\\sum_{\\text{sym}}(a+b)^4=6(a^2+b^2+c^2+d^2)^2-\\sum_{\\text{sym}}(a-b)^4$$\n等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.12 设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(a+b)^4+(b+c)^4+(c+d)^4+(d+a)^4+(a+c)^4+(d+b)^4\\leqslant 6$$\n证明 这个不等式，由下列恒等式直接得到\n$$\\sum_{\\text{sym}}(a+b)^4=6(a^2+b^2+c^2+d^2)^2-\\sum_{\\text{sym}}(a-b)^4$$\n等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+  "tags": [
+    "四元不等式",
+    "恒等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "bf1f4b1de96f15a3fdce5419e7e5b4a7d4b85aca",
+  "raw_problem": {
+    "problem_id": "例 5.3.12",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      179
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(a+b)^4+(b+c)^4+(c+d)^4+(d+a)^4+(a+c)^4+(d+b)^4\\leqslant 6$$",
+    "solution_md": "这个不等式，由下列恒等式直接得到\n$$\\sum_{\\text{sym}}(a+b)^4=6(a^2+b^2+c^2+d^2)^2-\\sum_{\\text{sym}}(a-b)^4$$\n等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.12 设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(a+b)^4+(b+c)^4+(c+d)^4+(d+a)^4+(a+c)^4+(d+b)^4\\leqslant 6$$\n证明 这个不等式，由下列恒等式直接得到\n$$\\sum_{\\text{sym}}(a+b)^4=6(a^2+b^2+c^2+d^2)^2-\\sum_{\\text{sym}}(a-b)^4$$\n等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+    "tags": [
+      "四元不等式",
+      "恒等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "uid": "p164_165_例5110_e49f718a29",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    164,
+    165
+  ],
+  "source_images": [
+    "page-164.jpg",
+    "page-165.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，满足 $a^2+b^2+c^2+d^2=4$，证明下列不等式\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab\\leqslant8$$",
+  "solution_md": "由 Cauchy-Schwarz 不等式，我们有\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab$$\n$$=a(a^2+bc)+b(b^2+cd)+c(c^2+da)+d(d^2+ab)$$\n$$\\leqslant\\sqrt{(a^2+b^2+c^2+d^2)[(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2]}$$\n接下来，我们来证明\n$$(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2\\leqslant(a^2+b^2+c^2+d^2)^2$$\n实际上，上面这个不等式等价于\n$$a^2b^2+b^2c^2+c^2d^2+d^2a^2+2a^2c^2+2b^2d^2$$\n$$\\geqslant2(a^2bc+b^2cd+c^2da+d^2ab)$$\n$$\\Leftrightarrow(ab-ac)^2+(bc-bd)^2+(cd-ca)^2+(da-db)^2\\geqslant0$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$ 和 $a=2,b=c=d=0$ 及其轮换。\n\n注 使用强大的 SOS 方法，也可以证明这个不等式。如下\n$$(a^2+b^2+c^2+d^2)^3-(a^3+b^3+c^3+d^3+abc+bcd+cda+dab)^2$$\n$$=3\\sum a^4(b^2+c^2+d^2)+5\\sum a^2b^2c^2-2\\sum a^4(bc+cd+da)-2\\sum a^3bcd-$$\n$$\\sum a^3(b^3+c^3+d^3)-abcd\\sum(ab+bc+ca)$$\n另外，有下列恒等式\n$$2\\sum a^4(b^2+c^2+d^2)-2\\sum a^4(bc+cd+db)=\\sum(c^4+d^4)(a-b)^2$$\n$$\\sum a^4(b^2+c^2+d^2)-\\sum a^3(b^3+c^3+d^3)=\\sum a^2b^2(a-b)^2$$\n$$abcd\\sum(a^2+b^2+c^2)-abcd\\sum(ab+bc+ca)=abcd\\sum(a-b)^2$$\n所以，不等式可以写成如下形式\n$$\\sum_{\\text{sym}}(a-b)^2S_{ab}+3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)\\geqslant0$$\n其中 $S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd$，类似地有 $S_{ac},S_{ad},S_{bc},S_{bd},S_{cd}$。\n由 AM-GM 不等式，有\n$$S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd\\geqslant2c^2d^2+a^2b^2-\\frac{2}{3}abcd\\geqslant\\left(2\\sqrt{2}-\\frac{2}{3}\\right)abcd\\geqslant0$$\n又\n$$3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)=\\sum_{\\text{sym}}a^2b^2(c-d)^2\\geqslant0$$\n所以，不等式得证。证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.10(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是非负实数，满足 $a^2+b^2+c^2+d^2=4$，证明下列不等式\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab\\leqslant8$$\n证明 由 Cauchy-Schwarz 不等式，我们有\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab$$\n$$=a(a^2+bc)+b(b^2+cd)+c(c^2+da)+d(d^2+ab)$$\n$$\\leqslant\\sqrt{(a^2+b^2+c^2+d^2)[(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2]}$$\n接下来，我们来证明\n$$(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2\\leqslant(a^2+b^2+c^2+d^2)^2$$\n实际上，上面这个不等式等价于\n$$a^2b^2+b^2c^2+c^2d^2+d^2a^2+2a^2c^2+2b^2d^2$$\n$$\\geqslant2(a^2bc+b^2cd+c^2da+d^2ab)$$\n$$\\Leftrightarrow(ab-ac)^2+(bc-bd)^2+(cd-ca)^2+(da-db)^2\\geqslant0$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$ 和 $a=2,b=c=d=0$ 及其轮换。\n\n注 使用强大的 SOS 方法，也可以证明这个不等式。如下\n$$(a^2+b^2+c^2+d^2)^3-(a^3+b^3+c^3+d^3+abc+bcd+cda+dab)^2$$\n$$=3\\sum a^4(b^2+c^2+d^2)+5\\sum a^2b^2c^2-2\\sum a^4(bc+cd+da)-2\\sum a^3bcd-$$\n$$\\sum a^3(b^3+c^3+d^3)-abcd\\sum(ab+bc+ca)$$\n另外，有下列恒等式\n$$2\\sum a^4(b^2+c^2+d^2)-2\\sum a^4(bc+cd+db)=\\sum(c^4+d^4)(a-b)^2$$\n$$\\sum a^4(b^2+c^2+d^2)-\\sum a^3(b^3+c^3+d^3)=\\sum a^2b^2(a-b)^2$$\n$$abcd\\sum(a^2+b^2+c^2)-abcd\\sum(ab+bc+ca)=abcd\\sum(a-b)^2$$\n所以，不等式可以写成如下形式\n$$\\sum_{\\text{sym}}(a-b)^2S_{ab}+3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)\\geqslant0$$\n其中 $S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd$，类似地有 $S_{ac},S_{ad},S_{bc},S_{bd},S_{cd}$。\n由 AM-GM 不等式，有\n$$S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd\\geqslant2c^2d^2+a^2b^2-\\frac{2}{3}abcd\\geqslant\\left(2\\sqrt{2}-\\frac{2}{3}\\right)abcd\\geqslant0$$\n又\n$$3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)=\\sum_{\\text{sym}}a^2b^2(c-d)^2\\geqslant0$$\n所以，不等式得证。证毕。",
+  "tags": [
+    "Cauchy-Schwarz不等式",
+    "SOS方法",
+    "四变量不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "e49f718a29c89907a9c1324d72b6b6db489ec858",
+  "raw_problem": {
+    "problem_id": "例5.1.10",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      164,
+      165
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，满足 $a^2+b^2+c^2+d^2=4$，证明下列不等式\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab\\leqslant8$$",
+    "solution_md": "由 Cauchy-Schwarz 不等式，我们有\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab$$\n$$=a(a^2+bc)+b(b^2+cd)+c(c^2+da)+d(d^2+ab)$$\n$$\\leqslant\\sqrt{(a^2+b^2+c^2+d^2)[(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2]}$$\n接下来，我们来证明\n$$(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2\\leqslant(a^2+b^2+c^2+d^2)^2$$\n实际上，上面这个不等式等价于\n$$a^2b^2+b^2c^2+c^2d^2+d^2a^2+2a^2c^2+2b^2d^2$$\n$$\\geqslant2(a^2bc+b^2cd+c^2da+d^2ab)$$\n$$\\Leftrightarrow(ab-ac)^2+(bc-bd)^2+(cd-ca)^2+(da-db)^2\\geqslant0$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$ 和 $a=2,b=c=d=0$ 及其轮换。\n\n注 使用强大的 SOS 方法，也可以证明这个不等式。如下\n$$(a^2+b^2+c^2+d^2)^3-(a^3+b^3+c^3+d^3+abc+bcd+cda+dab)^2$$\n$$=3\\sum a^4(b^2+c^2+d^2)+5\\sum a^2b^2c^2-2\\sum a^4(bc+cd+da)-2\\sum a^3bcd-$$\n$$\\sum a^3(b^3+c^3+d^3)-abcd\\sum(ab+bc+ca)$$\n另外，有下列恒等式\n$$2\\sum a^4(b^2+c^2+d^2)-2\\sum a^4(bc+cd+db)=\\sum(c^4+d^4)(a-b)^2$$\n$$\\sum a^4(b^2+c^2+d^2)-\\sum a^3(b^3+c^3+d^3)=\\sum a^2b^2(a-b)^2$$\n$$abcd\\sum(a^2+b^2+c^2)-abcd\\sum(ab+bc+ca)=abcd\\sum(a-b)^2$$\n所以，不等式可以写成如下形式\n$$\\sum_{\\text{sym}}(a-b)^2S_{ab}+3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)\\geqslant0$$\n其中 $S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd$，类似地有 $S_{ac},S_{ad},S_{bc},S_{bd},S_{cd}$。\n由 AM-GM 不等式，有\n$$S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd\\geqslant2c^2d^2+a^2b^2-\\frac{2}{3}abcd\\geqslant\\left(2\\sqrt{2}-\\frac{2}{3}\\right)abcd\\geqslant0$$\n又\n$$3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)=\\sum_{\\text{sym}}a^2b^2(c-d)^2\\geqslant0$$\n所以，不等式得证。证毕。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.10(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是非负实数，满足 $a^2+b^2+c^2+d^2=4$，证明下列不等式\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab\\leqslant8$$\n证明 由 Cauchy-Schwarz 不等式，我们有\n$$a^3+b^3+c^3+d^3+abc+bcd+cda+dab$$\n$$=a(a^2+bc)+b(b^2+cd)+c(c^2+da)+d(d^2+ab)$$\n$$\\leqslant\\sqrt{(a^2+b^2+c^2+d^2)[(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2]}$$\n接下来，我们来证明\n$$(a^2+bc)^2+(b^2+cd)^2+(c^2+da)^2+(d^2+ab)^2\\leqslant(a^2+b^2+c^2+d^2)^2$$\n实际上，上面这个不等式等价于\n$$a^2b^2+b^2c^2+c^2d^2+d^2a^2+2a^2c^2+2b^2d^2$$\n$$\\geqslant2(a^2bc+b^2cd+c^2da+d^2ab)$$\n$$\\Leftrightarrow(ab-ac)^2+(bc-bd)^2+(cd-ca)^2+(da-db)^2\\geqslant0$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$ 和 $a=2,b=c=d=0$ 及其轮换。\n\n注 使用强大的 SOS 方法，也可以证明这个不等式。如下\n$$(a^2+b^2+c^2+d^2)^3-(a^3+b^3+c^3+d^3+abc+bcd+cda+dab)^2$$\n$$=3\\sum a^4(b^2+c^2+d^2)+5\\sum a^2b^2c^2-2\\sum a^4(bc+cd+da)-2\\sum a^3bcd-$$\n$$\\sum a^3(b^3+c^3+d^3)-abcd\\sum(ab+bc+ca)$$\n另外，有下列恒等式\n$$2\\sum a^4(b^2+c^2+d^2)-2\\sum a^4(bc+cd+db)=\\sum(c^4+d^4)(a-b)^2$$\n$$\\sum a^4(b^2+c^2+d^2)-\\sum a^3(b^3+c^3+d^3)=\\sum a^2b^2(a-b)^2$$\n$$abcd\\sum(a^2+b^2+c^2)-abcd\\sum(ab+bc+ca)=abcd\\sum(a-b)^2$$\n所以，不等式可以写成如下形式\n$$\\sum_{\\text{sym}}(a-b)^2S_{ab}+3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)\\geqslant0$$\n其中 $S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd$，类似地有 $S_{ac},S_{ad},S_{bc},S_{bd},S_{cd}$。\n由 AM-GM 不等式，有\n$$S_{ab}=c^4+d^4+a^2b^2-\\frac{2}{3}abcd\\geqslant2c^2d^2+a^2b^2-\\frac{2}{3}abcd\\geqslant\\left(2\\sqrt{2}-\\frac{2}{3}\\right)abcd\\geqslant0$$\n又\n$$3\\sum a^2b^2c^2-2abcd\\sum(ab+bc+ca)=\\sum_{\\text{sym}}a^2b^2(c-d)^2\\geqslant0$$\n所以，不等式得证。证毕。",
+    "tags": [
+      "Cauchy-Schwarz不等式",
+      "SOS方法",
+      "四变量不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

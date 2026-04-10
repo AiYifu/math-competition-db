@@ -1,0 +1,55 @@
+{
+  "uid": "p126_126_例335_9410e07149",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    126
+  ],
+  "source_images": [
+    "page-126.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{48a}{b+c}}+\\sqrt{1+\\frac{48b}{c+a}}+\\sqrt{1+\\frac{48c}{a+b}} \\geqslant 15$$",
+  "solution_md": "设 $x=\\sqrt{1+\\frac{48a}{b+c}}, y=\\sqrt{1+\\frac{48b}{c+a}}, z=\\sqrt{1+\\frac{48c}{a+b}}$，则\n$$\\begin{cases}48a=(b+c)(x^2-1) \\\\ 48b=(c+a)(y^2-1) \\\\ 48c=(a+b)(z^2-1)\\end{cases} \\Rightarrow \\begin{cases}(x^2+47)a=(a+b+c)(x^2-1) \\\\ (y^2+47)b=(a+b+c)(y^2-1) \\\\ (z^2+47)c=(a+b+c)(z^2-1)\\end{cases}$$\n$$\\Rightarrow \\frac{x^2-1}{x^2+47}+\\frac{y^2-1}{y^2+47}+\\frac{z^2-1}{z^2+47}=1$$\n$$\\Rightarrow \\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47}=\\frac{1}{24}$$\n\n我们来证明 $x+y+z \\geqslant 15$。采用反证法，来证明反转问题。\n\n如果 $x,y,z \\geqslant 1, x+y+z=15$，则\n$$\\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47} \\geqslant \\frac{1}{24}$$\n\n采用整合变量法来证明这个不等式。不失一般性，假设 $x \\geqslant y \\geqslant z$，对每一个正实数 $k$ 有\n$$\\frac{1}{k+x^2}+\\frac{1}{k+y^2}-\\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}=\\frac{(x-y)^2(x^2+4xy+y^2-2k)}{(k+x^2)(k+y^2)(4k+x^2+2xy+y^2)}$$\n\n对 $k=47$，有\n$$x^2+4xy+y^2-2k \\geqslant (x+y)^2-2k \\geqslant 10^2-2k > 0$$\n$$\\Rightarrow \\frac{1}{k+x^2}+\\frac{1}{k+y^2} \\geqslant \\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}$$\n\n令 $t=\\frac{x+y}{2}$，则 $z=15-2t$，余下只需证明\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2} \\geqslant \\frac{1}{24}$$\n\n事实上，使用恒等式\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2}-\\frac{1}{24}=\\frac{1}{24}\\cdot\\frac{(t+2)(7-t)(t-5)^2}{(47+t^2)[47+(15-2t)^2]}$$\n\n注意到，$t \\leqslant 7$（因为 $c \\geqslant 1$），于是不等式得证。等号成立的条件是 $x=y=z=5$ 和 $(x,y,z) \\sim (7,7,1)$，这就意味着，原不等式等号成立的条件是 $a=b=c$ 和 $(a,b,c) \\sim (1,1,0)$。",
+  "answer_md": "",
+  "hints_md": "来源：Vasile Cirtoaje, Crux",
+  "original_text_md": "例 3.3.5(Vasile Cirtoaje, Crux) 设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{48a}{b+c}}+\\sqrt{1+\\frac{48b}{c+a}}+\\sqrt{1+\\frac{48c}{a+b}} \\geqslant 15$$\n\n证明 设 $x=\\sqrt{1+\\frac{48a}{b+c}}, y=\\sqrt{1+\\frac{48b}{c+a}}, z=\\sqrt{1+\\frac{48c}{a+b}}$，则\n$$\\begin{cases}48a=(b+c)(x^2-1) \\\\ 48b=(c+a)(y^2-1) \\\\ 48c=(a+b)(z^2-1)\\end{cases} \\Rightarrow \\begin{cases}(x^2+47)a=(a+b+c)(x^2-1) \\\\ (y^2+47)b=(a+b+c)(y^2-1) \\\\ (z^2+47)c=(a+b+c)(z^2-1)\\end{cases}$$\n$$\\Rightarrow \\frac{x^2-1}{x^2+47}+\\frac{y^2-1}{y^2+47}+\\frac{z^2-1}{z^2+47}=1$$\n$$\\Rightarrow \\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47}=\\frac{1}{24}$$\n\n我们来证明 $x+y+z \\geqslant 15$。采用反证法，来证明反转问题。\n\n如果 $x,y,z \\geqslant 1, x+y+z=15$，则\n$$\\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47} \\geqslant \\frac{1}{24}$$\n\n采用整合变量法来证明这个不等式。不失一般性，假设 $x \\geqslant y \\geqslant z$，对每一个正实数 $k$ 有\n$$\\frac{1}{k+x^2}+\\frac{1}{k+y^2}-\\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}=\\frac{(x-y)^2(x^2+4xy+y^2-2k)}{(k+x^2)(k+y^2)(4k+x^2+2xy+y^2)}$$\n\n对 $k=47$，有\n$$x^2+4xy+y^2-2k \\geqslant (x+y)^2-2k \\geqslant 10^2-2k > 0$$\n$$\\Rightarrow \\frac{1}{k+x^2}+\\frac{1}{k+y^2} \\geqslant \\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}$$\n\n令 $t=\\frac{x+y}{2}$，则 $z=15-2t$，余下只需证明\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2} \\geqslant \\frac{1}{24}$$\n\n事实上，使用恒等式\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2}-\\frac{1}{24}=\\frac{1}{24}\\cdot\\frac{(t+2)(7-t)(t-5)^2}{(47+t^2)[47+(15-2t)^2]}$$\n\n注意到，$t \\leqslant 7$（因为 $c \\geqslant 1$），于是不等式得证。等号成立的条件是 $x=y=z=5$ 和 $(x,y,z) \\sim (7,7,1)$，这就意味着，原不等式等号成立的条件是 $a=b=c$ 和 $(a,b,c) \\sim (1,1,0)$。",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "整合变量法",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "9410e07149b0150c61cf6c06bf67ea55885f973e",
+  "raw_problem": {
+    "problem_id": "例3.3.5",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      126
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{48a}{b+c}}+\\sqrt{1+\\frac{48b}{c+a}}+\\sqrt{1+\\frac{48c}{a+b}} \\geqslant 15$$",
+    "solution_md": "设 $x=\\sqrt{1+\\frac{48a}{b+c}}, y=\\sqrt{1+\\frac{48b}{c+a}}, z=\\sqrt{1+\\frac{48c}{a+b}}$，则\n$$\\begin{cases}48a=(b+c)(x^2-1) \\\\ 48b=(c+a)(y^2-1) \\\\ 48c=(a+b)(z^2-1)\\end{cases} \\Rightarrow \\begin{cases}(x^2+47)a=(a+b+c)(x^2-1) \\\\ (y^2+47)b=(a+b+c)(y^2-1) \\\\ (z^2+47)c=(a+b+c)(z^2-1)\\end{cases}$$\n$$\\Rightarrow \\frac{x^2-1}{x^2+47}+\\frac{y^2-1}{y^2+47}+\\frac{z^2-1}{z^2+47}=1$$\n$$\\Rightarrow \\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47}=\\frac{1}{24}$$\n\n我们来证明 $x+y+z \\geqslant 15$。采用反证法，来证明反转问题。\n\n如果 $x,y,z \\geqslant 1, x+y+z=15$，则\n$$\\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47} \\geqslant \\frac{1}{24}$$\n\n采用整合变量法来证明这个不等式。不失一般性，假设 $x \\geqslant y \\geqslant z$，对每一个正实数 $k$ 有\n$$\\frac{1}{k+x^2}+\\frac{1}{k+y^2}-\\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}=\\frac{(x-y)^2(x^2+4xy+y^2-2k)}{(k+x^2)(k+y^2)(4k+x^2+2xy+y^2)}$$\n\n对 $k=47$，有\n$$x^2+4xy+y^2-2k \\geqslant (x+y)^2-2k \\geqslant 10^2-2k > 0$$\n$$\\Rightarrow \\frac{1}{k+x^2}+\\frac{1}{k+y^2} \\geqslant \\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}$$\n\n令 $t=\\frac{x+y}{2}$，则 $z=15-2t$，余下只需证明\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2} \\geqslant \\frac{1}{24}$$\n\n事实上，使用恒等式\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2}-\\frac{1}{24}=\\frac{1}{24}\\cdot\\frac{(t+2)(7-t)(t-5)^2}{(47+t^2)[47+(15-2t)^2]}$$\n\n注意到，$t \\leqslant 7$（因为 $c \\geqslant 1$），于是不等式得证。等号成立的条件是 $x=y=z=5$ 和 $(x,y,z) \\sim (7,7,1)$，这就意味着，原不等式等号成立的条件是 $a=b=c$ 和 $(a,b,c) \\sim (1,1,0)$。",
+    "answer_md": "",
+    "hints_md": "来源：Vasile Cirtoaje, Crux",
+    "original_text_md": "例 3.3.5(Vasile Cirtoaje, Crux) 设 $a,b,c$ 是非负实数，证明\n$$\\sqrt{1+\\frac{48a}{b+c}}+\\sqrt{1+\\frac{48b}{c+a}}+\\sqrt{1+\\frac{48c}{a+b}} \\geqslant 15$$\n\n证明 设 $x=\\sqrt{1+\\frac{48a}{b+c}}, y=\\sqrt{1+\\frac{48b}{c+a}}, z=\\sqrt{1+\\frac{48c}{a+b}}$，则\n$$\\begin{cases}48a=(b+c)(x^2-1) \\\\ 48b=(c+a)(y^2-1) \\\\ 48c=(a+b)(z^2-1)\\end{cases} \\Rightarrow \\begin{cases}(x^2+47)a=(a+b+c)(x^2-1) \\\\ (y^2+47)b=(a+b+c)(y^2-1) \\\\ (z^2+47)c=(a+b+c)(z^2-1)\\end{cases}$$\n$$\\Rightarrow \\frac{x^2-1}{x^2+47}+\\frac{y^2-1}{y^2+47}+\\frac{z^2-1}{z^2+47}=1$$\n$$\\Rightarrow \\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47}=\\frac{1}{24}$$\n\n我们来证明 $x+y+z \\geqslant 15$。采用反证法，来证明反转问题。\n\n如果 $x,y,z \\geqslant 1, x+y+z=15$，则\n$$\\frac{1}{x^2+47}+\\frac{1}{y^2+47}+\\frac{1}{z^2+47} \\geqslant \\frac{1}{24}$$\n\n采用整合变量法来证明这个不等式。不失一般性，假设 $x \\geqslant y \\geqslant z$，对每一个正实数 $k$ 有\n$$\\frac{1}{k+x^2}+\\frac{1}{k+y^2}-\\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}=\\frac{(x-y)^2(x^2+4xy+y^2-2k)}{(k+x^2)(k+y^2)(4k+x^2+2xy+y^2)}$$\n\n对 $k=47$，有\n$$x^2+4xy+y^2-2k \\geqslant (x+y)^2-2k \\geqslant 10^2-2k > 0$$\n$$\\Rightarrow \\frac{1}{k+x^2}+\\frac{1}{k+y^2} \\geqslant \\frac{2}{k+\\left(\\frac{x+y}{2}\\right)^2}$$\n\n令 $t=\\frac{x+y}{2}$，则 $z=15-2t$，余下只需证明\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2} \\geqslant \\frac{1}{24}$$\n\n事实上，使用恒等式\n$$\\frac{2}{47+t^2}+\\frac{1}{47+(15-2t)^2}-\\frac{1}{24}=\\frac{1}{24}\\cdot\\frac{(t+2)(7-t)(t-5)^2}{(47+t^2)[47+(15-2t)^2]}$$\n\n注意到，$t \\leqslant 7$（因为 $c \\geqslant 1$），于是不等式得证。等号成立的条件是 $x=y=z=5$ 和 $(x,y,z) \\sim (7,7,1)$，这就意味着，原不等式等号成立的条件是 $a=b=c$ 和 $(a,b,c) \\sim (1,1,0)$。",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "整合变量法",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

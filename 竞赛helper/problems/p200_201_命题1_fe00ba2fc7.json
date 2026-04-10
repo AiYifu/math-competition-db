@@ -1,0 +1,56 @@
+{
+  "uid": "p200_201_命题1_fe00ba2fc7",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "命题1",
+  "problem_type": "theorem",
+  "title": "三次不等式的应用",
+  "source_pages": [
+    200,
+    201
+  ],
+  "source_images": [
+    "page-200.jpg",
+    "page-201.jpg"
+  ],
+  "stem_md": "设 $F$ 是一个变量为 $x_1,x_2,\\cdots,x_n$ 的齐次对称多项式，其次数不超过 3，证明：不等式 $F(x_1,x_2,\\cdots,x_n)\\geqslant 0$ 成立，当且仅当\n$$F(1,0,\\cdots,0)\\geqslant 0, F(1,1,\\cdots,0)\\geqslant 0,\\cdots, F(1,1,\\cdots,1,0)\\geqslant 0, F(1,1,\\cdots,1)\\geqslant 0$$",
+  "solution_md": "设 $t=\\frac{x_1+x_2}{2}, x=x_1, y=x_2$，且\n$$F(x_1,x_2,\\cdots,x_n)=a\\sum_{i=1}^{n}x_i^3+b\\sum_{i<j}x_ix_j(x_i+x_j)+c\\sum_{i<j<k}x_ix_jx_k$$\n\n令 $A=\\sum_{i=3}^{n}x_i, B=\\sum_{i=3}^{n}x_i^2, C=\\sum_{2<i<j}x_ix_j$，则我们有\n$$\\begin{aligned}&F(x_1,x_2,\\cdots,x_n)-F(2t,0,x_3,\\cdots,x_n)\\\\=&a[x^3+y^3-(x+y)^3]+bxy(x+y)+b[x^2+y^2-(x+y)^2]A+xyA\\\\=&xy[-3a(x+y)+b(x+y)-2bA+A]\\end{aligned}$$\n\n另外\n$$\\begin{aligned}&F(x_1,x_2,\\cdots,x_n)-F(t,t,x_3,\\cdots,x_n)\\\\=&a\\left[x^3+y^3-\\frac{(x+y)^3}{4}\\right]+b(x+y)\\left[xy-\\frac{(x+y)^2}{4}\\right]+\\\\&b\\left[x^2+y^2-\\frac{(x+y)^2}{2}\\right]A+\\left[xy-\\frac{(x+y)^2}{4}\\right]A\\\\=&\\frac{(x-y)^2}{4}[3a(x+y)-b(x+y)+2bA-A]\\end{aligned}$$\n\n根据上面两个关系式，我们可以推出，下面两个不等式至少有一个成立\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(2t,0,x_3,\\cdots,x_n)$$\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(t,t,x_3,\\cdots,x_n)$$\n\n令 $t=\\frac{x_1+x_2+\\cdots+x_n}{n}$，根据 UMV 定理，我们得到不等式\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant 0$$\n成立，当且仅当\n$$F\\left(\\frac{t}{n},0,\\cdots,0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,0\\right)\\geqslant 0$$\n$$\\vdots$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n},0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n}\\right)\\geqslant 0$$\n\n因为不等式是齐次的，令 $t=n$，即得我们所需的结果。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "命题 1 设 $F$ 是一个变量为 $x_1,x_2,\\cdots,x_n$ 的齐次对称多项式，其次数不超过 3，证明：不等式 $F(x_1,x_2,\\cdots,x_n)\\geqslant 0$ 成立，当且仅当\n$$F(1,0,\\cdots,0)\\geqslant 0, F(1,1,\\cdots,0)\\geqslant 0,\\cdots, F(1,1,\\cdots,1,0)\\geqslant 0, F(1,1,\\cdots,1)\\geqslant 0$$\n证明 设 $t=\\frac{x_1+x_2}{2}, x=x_1, y=x_2$，且\n$$F(x_1,x_2,\\cdots,x_n)=a\\sum_{i=1}^{n}x_i^3+b\\sum_{i<j}x_ix_j(x_i+x_j)+c\\sum_{i<j<k}x_ix_jx_k$$\n令 $A=\\sum_{i=3}^{n}x_i, B=\\sum_{i=3}^{n}x_i^2, C=\\sum_{2<i<j}x_ix_j$，则我们有\n$$F(x_1,x_2,\\cdots,x_n)-F(2t,0,x_3,\\cdots,x_n)$$\n$$=a[x^3+y^3-(x+y)^3]+bxy(x+y)+b[x^2+y^2-(x+y)^2]A+xyA$$\n$$=xy[-3a(x+y)+b(x+y)-2bA+A]$$\n另外\n$$F(x_1,x_2,\\cdots,x_n)-F(t,t,x_3,\\cdots,x_n)$$\n$$=a\\left[x^3+y^3-\\frac{(x+y)^3}{4}\\right]+b(x+y)\\left[xy-\\frac{(x+y)^2}{4}\\right]+$$\n$$b\\left[x^2+y^2-\\frac{(x+y)^2}{2}\\right]A+\\left[xy-\\frac{(x+y)^2}{4}\\right]A$$\n$$=\\frac{(x-y)^2}{4}[3a(x+y)-b(x+y)+2bA-A]$$\n根据上面两个关系式，我们可以推出，下面两个不等式至少有一个成立\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(2t,0,x_3,\\cdots,x_n)$$\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(t,t,x_3,\\cdots,x_n)$$\n令 $t=\\frac{x_1+x_2+\\cdots+x_n}{n}$，根据 UMV 定理，我们得到不等式\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant 0$$\n成立，当且仅当\n$$F\\left(\\frac{t}{n},0,\\cdots,0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,0\\right)\\geqslant 0$$\n$$\\vdots$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n},0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n}\\right)\\geqslant 0$$\n因为不等式是齐次的，令 $t=n$，即得我们所需的结果。",
+  "tags": [
+    "UMV定理",
+    "齐次对称多项式",
+    "三次不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "fe00ba2fc77a140c648cc662d738346694d4b8d7",
+  "raw_problem": {
+    "problem_id": "命题1",
+    "problem_type": "theorem",
+    "chapter": "7",
+    "section": "7.4",
+    "title": "三次不等式的应用",
+    "source_pages": [
+      200,
+      201
+    ],
+    "stem_md": "设 $F$ 是一个变量为 $x_1,x_2,\\cdots,x_n$ 的齐次对称多项式，其次数不超过 3，证明：不等式 $F(x_1,x_2,\\cdots,x_n)\\geqslant 0$ 成立，当且仅当\n$$F(1,0,\\cdots,0)\\geqslant 0, F(1,1,\\cdots,0)\\geqslant 0,\\cdots, F(1,1,\\cdots,1,0)\\geqslant 0, F(1,1,\\cdots,1)\\geqslant 0$$",
+    "solution_md": "设 $t=\\frac{x_1+x_2}{2}, x=x_1, y=x_2$，且\n$$F(x_1,x_2,\\cdots,x_n)=a\\sum_{i=1}^{n}x_i^3+b\\sum_{i<j}x_ix_j(x_i+x_j)+c\\sum_{i<j<k}x_ix_jx_k$$\n\n令 $A=\\sum_{i=3}^{n}x_i, B=\\sum_{i=3}^{n}x_i^2, C=\\sum_{2<i<j}x_ix_j$，则我们有\n$$\\begin{aligned}&F(x_1,x_2,\\cdots,x_n)-F(2t,0,x_3,\\cdots,x_n)\\\\=&a[x^3+y^3-(x+y)^3]+bxy(x+y)+b[x^2+y^2-(x+y)^2]A+xyA\\\\=&xy[-3a(x+y)+b(x+y)-2bA+A]\\end{aligned}$$\n\n另外\n$$\\begin{aligned}&F(x_1,x_2,\\cdots,x_n)-F(t,t,x_3,\\cdots,x_n)\\\\=&a\\left[x^3+y^3-\\frac{(x+y)^3}{4}\\right]+b(x+y)\\left[xy-\\frac{(x+y)^2}{4}\\right]+\\\\&b\\left[x^2+y^2-\\frac{(x+y)^2}{2}\\right]A+\\left[xy-\\frac{(x+y)^2}{4}\\right]A\\\\=&\\frac{(x-y)^2}{4}[3a(x+y)-b(x+y)+2bA-A]\\end{aligned}$$\n\n根据上面两个关系式，我们可以推出，下面两个不等式至少有一个成立\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(2t,0,x_3,\\cdots,x_n)$$\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(t,t,x_3,\\cdots,x_n)$$\n\n令 $t=\\frac{x_1+x_2+\\cdots+x_n}{n}$，根据 UMV 定理，我们得到不等式\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant 0$$\n成立，当且仅当\n$$F\\left(\\frac{t}{n},0,\\cdots,0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,0\\right)\\geqslant 0$$\n$$\\vdots$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n},0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n}\\right)\\geqslant 0$$\n\n因为不等式是齐次的，令 $t=n$，即得我们所需的结果。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "命题 1 设 $F$ 是一个变量为 $x_1,x_2,\\cdots,x_n$ 的齐次对称多项式，其次数不超过 3，证明：不等式 $F(x_1,x_2,\\cdots,x_n)\\geqslant 0$ 成立，当且仅当\n$$F(1,0,\\cdots,0)\\geqslant 0, F(1,1,\\cdots,0)\\geqslant 0,\\cdots, F(1,1,\\cdots,1,0)\\geqslant 0, F(1,1,\\cdots,1)\\geqslant 0$$\n证明 设 $t=\\frac{x_1+x_2}{2}, x=x_1, y=x_2$，且\n$$F(x_1,x_2,\\cdots,x_n)=a\\sum_{i=1}^{n}x_i^3+b\\sum_{i<j}x_ix_j(x_i+x_j)+c\\sum_{i<j<k}x_ix_jx_k$$\n令 $A=\\sum_{i=3}^{n}x_i, B=\\sum_{i=3}^{n}x_i^2, C=\\sum_{2<i<j}x_ix_j$，则我们有\n$$F(x_1,x_2,\\cdots,x_n)-F(2t,0,x_3,\\cdots,x_n)$$\n$$=a[x^3+y^3-(x+y)^3]+bxy(x+y)+b[x^2+y^2-(x+y)^2]A+xyA$$\n$$=xy[-3a(x+y)+b(x+y)-2bA+A]$$\n另外\n$$F(x_1,x_2,\\cdots,x_n)-F(t,t,x_3,\\cdots,x_n)$$\n$$=a\\left[x^3+y^3-\\frac{(x+y)^3}{4}\\right]+b(x+y)\\left[xy-\\frac{(x+y)^2}{4}\\right]+$$\n$$b\\left[x^2+y^2-\\frac{(x+y)^2}{2}\\right]A+\\left[xy-\\frac{(x+y)^2}{4}\\right]A$$\n$$=\\frac{(x-y)^2}{4}[3a(x+y)-b(x+y)+2bA-A]$$\n根据上面两个关系式，我们可以推出，下面两个不等式至少有一个成立\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(2t,0,x_3,\\cdots,x_n)$$\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant F(t,t,x_3,\\cdots,x_n)$$\n令 $t=\\frac{x_1+x_2+\\cdots+x_n}{n}$，根据 UMV 定理，我们得到不等式\n$$F(x_1,x_2,\\cdots,x_n)\\geqslant 0$$\n成立，当且仅当\n$$F\\left(\\frac{t}{n},0,\\cdots,0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,0\\right)\\geqslant 0$$\n$$\\vdots$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n},0\\right)\\geqslant 0$$\n$$F\\left(\\frac{t}{n},\\frac{t}{n},\\cdots,\\frac{t}{n}\\right)\\geqslant 0$$\n因为不等式是齐次的，令 $t=n$，即得我们所需的结果。",
+    "tags": [
+      "UMV定理",
+      "齐次对称多项式",
+      "三次不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "uid": "p025_027_定理1SOS定理_beceb2f54c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "定理1(SOS定理)",
+  "problem_type": "theorem",
+  "title": "SOS定理",
+  "source_pages": [
+    25,
+    26,
+    27
+  ],
+  "source_images": [
+    "page-025.jpg",
+    "page-026.jpg",
+    "page-027.jpg"
+  ],
+  "stem_md": "**定理 1（SOS 定理）** 考虑下列表达式\n$$S=f(a,b,c)=S_c(a-b)^2+S_b(c-a)^2+S_a(b-c)^2$$\n其中，$S_a,S_b,S_c$ 是关于变量 $a,b,c$ 的表达式，则如果下列条件中至少有一个成立，那么不等式 $S \\geqslant 0$ 成立。\n\n(1) $S_a \\geqslant 0,S_b \\geqslant 0,S_c \\geqslant 0$；\n\n(2) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_b+S_a \\geqslant 0,S_b+S_c \\geqslant 0$；\n\n(3) $a \\geqslant b \\geqslant c$ 且 $S_a \\geqslant 0,S_c \\geqslant 0,S_a+2S_b \\geqslant 0,S_c+2S_b \\geqslant 0$；\n\n(4) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_c \\geqslant 0,a^2S_b+b^2S_a \\geqslant 0$；\n\n(5) $a \\geqslant b \\geqslant c$ 是某三角形的三条边，且 $S_a \\geqslant 0,S_b \\geqslant 0,b^2S_b+c^2S_c \\geqslant 0$；\n\n(6) $S_a+S_b+S_c \\geqslant 0$ 且 $S_aS_b+S_bS_c+S_cS_a \\geqslant 0$。",
+  "solution_md": "**证明** 第(1)个条件是显然的。对于(2)，注意到\n$$(a-c)^2 \\geqslant (a-b)^2+(b-c)^2$$\n所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+S_b)(b-c)^2+(S_b+S_c)(a-b)^2 \\geqslant 0$$\n\n对于(3)，注意到 $(a-c)^2 \\leqslant 2(a-b)^2+2(b-c)^2$，所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+2S_b)(b-c)^2+(S_c+2S_b)(a-b)^2 \\geqslant 0$$\n\n对于(4)，注意到 $\\frac{a-c}{b-c} \\geqslant \\frac{a}{b}$，所以\n$$\\sum S_a(b-c)^2 \\geqslant S_a(b-c)^2+S_b(c-a)^2$$\n$$\\geqslant S_a(b-c)^2+\\frac{a^2(b-c)^2}{b^2}S_b$$\n$$=\\frac{b^2S_a+a^2S_b}{b^2} \\cdot (b-c)^2 \\geqslant 0$$\n\n(5) 的证明，类似于(4)。注意到，如果 $a,b,c$ 是某三角形的三条边，且 $a \\geqslant b \\geqslant c$，则容易证明 $\\frac{a-c}{a-b} \\geqslant \\frac{b}{c}$。\n\n对于(6)，注意到 $S_a+S_b+S_c \\geqslant 0$，因此可以假设，$S_a+S_b \\geqslant 0$，则\n$$\\sum S_a(b-c)^2=(S_a+S_b)(b-c)^2+2S_b(b-c)(a-b)+(S_b+S_c)(a-b)^2$$\n\n这是关于 $a-b,b-c$ 的二次型，其判别式\n$$\\Delta=S_b^2-(S_a+S_b)(S_b+S_c)=-(S_aS_b+S_bS_c+S_cS_a) \\leqslant 0$$\n\n至此，定理的各个部分全部证完。\n\n**注 1** 一般地，对于对称不等式，我们可以假设 $a \\geqslant b \\geqslant c$ 或者 $c \\geqslant b \\geqslant a$，而不失一般性。对于循环不等式，我们需要考虑 $a \\geqslant b \\geqslant c$ 和 $c \\geqslant b \\geqslant a$ 两种情况，来验证 SOS 定理中的条件。\n\n**注 2** 我们也可以把表达式 $S$ 写成如下的标准形式\n$$\\frac{S}{a^2b^2c^2}=\\sum\\frac{S_a}{a^2}\\left(\\frac{1}{b}-\\frac{1}{c}\\right)^2$$\n对新变量 $\\frac{1}{a},\\frac{1}{b},\\frac{1}{c}$，我们可以应用 SOS 定理的 6 个标准，进行结构改变成为或许是更强的其他标准。\n\n**注 3** 使用 SOS 方法的同时，抉择一种方式。\n\n上面提到的三个步骤：第一步是把不等式表示成 SOS 形式；第二步是重排变量的次序以确定负的系数；最后一步是从 SOS 方法的六个标准中，选择一个合适的标准以完成证明。在这些步骤中，前两步是非常机械的（关于第一步，在下一节中，我们将给出相关的定理），这最后一步需要动动脑筋。然而，如果你非常熟悉 SOS，那么 SOS 方法是非常容易的。\n\n为什么我说它变得非常容易呢？因为它实际上是一个机械化方法。例如，假设 $a \\geqslant b \\geqslant c$ 之后，如果得到 $S_b \\geqslant 0$，那么条件(2)和(4)是可用的。如果 $S_b \\leqslant 0$，那么条件(3)是可用的。对于某些困难的问题，尤其是循环不等式，我们不得不全面考虑这些条件。\n\n什么样的问题，SOS 方法是可以使用的呢？实际上它的应用是非常广泛的（对于大部分的三变量不等式）。第一件事情，你要检查当 $a=b=c$ 时，等号是否成立（如果这个情况不能使等号成立，那么 SOS 方法是不可用的），如果对于这个情况等号成立，那么我们就需要尝试给出使用 SOS 方法的一个明确的方式。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定理 1（SOS 定理）① 考虑下列表达式\n$$S=f(a,b,c)=S_c(a-b)^2+S_b(c-a)^2+S_a(b-c)^2$$\n其中，$S_a,S_b,S_c$ 是关于变量 $a,b,c$ 的表达式，则如果下列条件中至少有一个成立，那么不等式 $S \\geqslant 0$ 成立。\n\n(1) $S_a \\geqslant 0,S_b \\geqslant 0,S_c \\geqslant 0$；\n\n(2) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_b+S_a \\geqslant 0,S_b+S_c \\geqslant 0$；\n\n(3) $a \\geqslant b \\geqslant c$ 且 $S_a \\geqslant 0,S_c \\geqslant 0,S_a+2S_b \\geqslant 0,S_c+2S_b \\geqslant 0$；\n\n(4) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_c \\geqslant 0,a^2S_b+b^2S_a \\geqslant 0$；\n\n(5) $a \\geqslant b \\geqslant c$ 是某三角形的三条边，且 $S_a \\geqslant 0,S_b \\geqslant 0,b^2S_b+c^2S_c \\geqslant 0$；\n\n(6) $S_a+S_b+S_c \\geqslant 0$ 且 $S_aS_b+S_bS_c+S_cS_a \\geqslant 0$。\n\n证明 第(1)个条件是显然的。对于(2)，注意到\n$$(a-c)^2 \\geqslant (a-b)^2+(b-c)^2$$\n所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+S_b)(b-c)^2+(S_b+S_c)(a-b)^2 \\geqslant 0$$\n\n对于(3)，注意到 $(a-c)^2 \\leqslant 2(a-b)^2+2(b-c)^2$，所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+2S_b)(b-c)^2+(S_c+2S_b)(a-b)^2 \\geqslant 0$$\n\n对于(4)，注意到 $\\frac{a-c}{b-c} \\geqslant \\frac{a}{b}$，所以\n$$\\sum S_a(b-c)^2 \\geqslant S_a(b-c)^2+S_b(c-a)^2$$\n$$\\geqslant S_a(b-c)^2+\\frac{a^2(b-c)^2}{b^2}S_b$$\n$$=\\frac{b^2S_a+a^2S_b}{b^2} \\cdot (b-c)^2 \\geqslant 0$$\n\n(5) 的证明，类似于(4)。注意到，如果 $a,b,c$ 是某三角形的三条边，且 $a \\geqslant b \\geqslant c$，则容易证明 $\\frac{a-c}{a-b} \\geqslant \\frac{b}{c}$。\n\n对于(6)，注意到 $S_a+S_b+S_c \\geqslant 0$，因此可以假设，$S_a+S_b \\geqslant 0$，则\n$$\\sum S_a(b-c)^2=(S_a+S_b)(b-c)^2+2S_b(b-c)(a-b)+(S_b+S_c)(a-b)^2$$\n\n这是关于 $a-b,b-c$ 的二次型，其判别式\n$$\\Delta=S_b^2-(S_a+S_b)(S_b+S_c)=-(S_aS_b+S_bS_c+S_cS_a) \\leqslant 0$$\n\n至此，定理的各个部分全部证完。\n\n注 1 一般地，对于对称不等式，我们可以假设 $a \\geqslant b \\geqslant c$ 或者 $c \\geqslant b \\geqslant a$，而不失一般性。对于循环不等式，我们需要考虑 $a \\geqslant b \\geqslant c$ 和 $c \\geqslant b \\geqslant a$ 两种情况，来验证 SOS 定理中的条件。\n\n注 2 我们也可以把表达式 $S$ 写成如下的标准形式\n$$\\frac{S}{a^2b^2c^2}=\\sum\\frac{S_a}{a^2}\\left(\\frac{1}{b}-\\frac{1}{c}\\right)^2$$\n对新变量 $\\frac{1}{a},\\frac{1}{b},\\frac{1}{c}$，我们可以应用 SOS 定理的 6 个标准，进行结构改变成为或许是更强的其他标准。\n\n注 3 使用 SOS 方法的同时，抉择一种方式。\n\n上面提到的三个步骤：第一步是把不等式表示成 SOS 形式；第二步是重排变量的次序以确定负的系数；最后一步是从 SOS 方法的六个标准中，选择一个合适的标准以完成证明。在这些步骤中，前两步是非常机械的（关于第一步，在下一节中，我们将给出相关的定理），这最后一步需要动动脑筋。然而，如果你非常熟悉 SOS，那么 SOS 方法是非常容易的。\n\n为什么我说它变得非常容易呢？因为它实际上是一个机械化方法。例如，假设 $a \\geqslant b \\geqslant c$ 之后，如果得到 $S_b \\geqslant 0$，那么条件(2)和(4)是可用的。如果 $S_b \\leqslant 0$，那么条件(3)是可用的。对于某些困难的问题，尤其是循环不等式，我们不得不全面考虑这些条件。\n\n什么样的问题，SOS 方法是可以使用的呢？实际上它的应用是非常广泛的（对于大部分的三变量不等式）。第一件事情，你要检查当 $a=b=c$ 时，等号是否成立（如果这个情况不能使等号成立，那么 SOS 方法是不可用的），如果对于这个情况等号成立，那么我们就需要尝试给出使用 SOS 方法的一个明确的方式。",
+  "tags": [
+    "SOS定理",
+    "平方和",
+    "定理",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "beceb2f54c4ce9268ac87cf2e4d888d63b6337e2",
+  "raw_problem": {
+    "problem_id": "定理1(SOS定理)",
+    "problem_type": "theorem",
+    "chapter": "1",
+    "section": "1.1",
+    "title": "SOS定理",
+    "source_pages": [
+      25,
+      26,
+      27
+    ],
+    "stem_md": "**定理 1（SOS 定理）** 考虑下列表达式\n$$S=f(a,b,c)=S_c(a-b)^2+S_b(c-a)^2+S_a(b-c)^2$$\n其中，$S_a,S_b,S_c$ 是关于变量 $a,b,c$ 的表达式，则如果下列条件中至少有一个成立，那么不等式 $S \\geqslant 0$ 成立。\n\n(1) $S_a \\geqslant 0,S_b \\geqslant 0,S_c \\geqslant 0$；\n\n(2) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_b+S_a \\geqslant 0,S_b+S_c \\geqslant 0$；\n\n(3) $a \\geqslant b \\geqslant c$ 且 $S_a \\geqslant 0,S_c \\geqslant 0,S_a+2S_b \\geqslant 0,S_c+2S_b \\geqslant 0$；\n\n(4) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_c \\geqslant 0,a^2S_b+b^2S_a \\geqslant 0$；\n\n(5) $a \\geqslant b \\geqslant c$ 是某三角形的三条边，且 $S_a \\geqslant 0,S_b \\geqslant 0,b^2S_b+c^2S_c \\geqslant 0$；\n\n(6) $S_a+S_b+S_c \\geqslant 0$ 且 $S_aS_b+S_bS_c+S_cS_a \\geqslant 0$。",
+    "solution_md": "**证明** 第(1)个条件是显然的。对于(2)，注意到\n$$(a-c)^2 \\geqslant (a-b)^2+(b-c)^2$$\n所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+S_b)(b-c)^2+(S_b+S_c)(a-b)^2 \\geqslant 0$$\n\n对于(3)，注意到 $(a-c)^2 \\leqslant 2(a-b)^2+2(b-c)^2$，所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+2S_b)(b-c)^2+(S_c+2S_b)(a-b)^2 \\geqslant 0$$\n\n对于(4)，注意到 $\\frac{a-c}{b-c} \\geqslant \\frac{a}{b}$，所以\n$$\\sum S_a(b-c)^2 \\geqslant S_a(b-c)^2+S_b(c-a)^2$$\n$$\\geqslant S_a(b-c)^2+\\frac{a^2(b-c)^2}{b^2}S_b$$\n$$=\\frac{b^2S_a+a^2S_b}{b^2} \\cdot (b-c)^2 \\geqslant 0$$\n\n(5) 的证明，类似于(4)。注意到，如果 $a,b,c$ 是某三角形的三条边，且 $a \\geqslant b \\geqslant c$，则容易证明 $\\frac{a-c}{a-b} \\geqslant \\frac{b}{c}$。\n\n对于(6)，注意到 $S_a+S_b+S_c \\geqslant 0$，因此可以假设，$S_a+S_b \\geqslant 0$，则\n$$\\sum S_a(b-c)^2=(S_a+S_b)(b-c)^2+2S_b(b-c)(a-b)+(S_b+S_c)(a-b)^2$$\n\n这是关于 $a-b,b-c$ 的二次型，其判别式\n$$\\Delta=S_b^2-(S_a+S_b)(S_b+S_c)=-(S_aS_b+S_bS_c+S_cS_a) \\leqslant 0$$\n\n至此，定理的各个部分全部证完。\n\n**注 1** 一般地，对于对称不等式，我们可以假设 $a \\geqslant b \\geqslant c$ 或者 $c \\geqslant b \\geqslant a$，而不失一般性。对于循环不等式，我们需要考虑 $a \\geqslant b \\geqslant c$ 和 $c \\geqslant b \\geqslant a$ 两种情况，来验证 SOS 定理中的条件。\n\n**注 2** 我们也可以把表达式 $S$ 写成如下的标准形式\n$$\\frac{S}{a^2b^2c^2}=\\sum\\frac{S_a}{a^2}\\left(\\frac{1}{b}-\\frac{1}{c}\\right)^2$$\n对新变量 $\\frac{1}{a},\\frac{1}{b},\\frac{1}{c}$，我们可以应用 SOS 定理的 6 个标准，进行结构改变成为或许是更强的其他标准。\n\n**注 3** 使用 SOS 方法的同时，抉择一种方式。\n\n上面提到的三个步骤：第一步是把不等式表示成 SOS 形式；第二步是重排变量的次序以确定负的系数；最后一步是从 SOS 方法的六个标准中，选择一个合适的标准以完成证明。在这些步骤中，前两步是非常机械的（关于第一步，在下一节中，我们将给出相关的定理），这最后一步需要动动脑筋。然而，如果你非常熟悉 SOS，那么 SOS 方法是非常容易的。\n\n为什么我说它变得非常容易呢？因为它实际上是一个机械化方法。例如，假设 $a \\geqslant b \\geqslant c$ 之后，如果得到 $S_b \\geqslant 0$，那么条件(2)和(4)是可用的。如果 $S_b \\leqslant 0$，那么条件(3)是可用的。对于某些困难的问题，尤其是循环不等式，我们不得不全面考虑这些条件。\n\n什么样的问题，SOS 方法是可以使用的呢？实际上它的应用是非常广泛的（对于大部分的三变量不等式）。第一件事情，你要检查当 $a=b=c$ 时，等号是否成立（如果这个情况不能使等号成立，那么 SOS 方法是不可用的），如果对于这个情况等号成立，那么我们就需要尝试给出使用 SOS 方法的一个明确的方式。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定理 1（SOS 定理）① 考虑下列表达式\n$$S=f(a,b,c)=S_c(a-b)^2+S_b(c-a)^2+S_a(b-c)^2$$\n其中，$S_a,S_b,S_c$ 是关于变量 $a,b,c$ 的表达式，则如果下列条件中至少有一个成立，那么不等式 $S \\geqslant 0$ 成立。\n\n(1) $S_a \\geqslant 0,S_b \\geqslant 0,S_c \\geqslant 0$；\n\n(2) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_b+S_a \\geqslant 0,S_b+S_c \\geqslant 0$；\n\n(3) $a \\geqslant b \\geqslant c$ 且 $S_a \\geqslant 0,S_c \\geqslant 0,S_a+2S_b \\geqslant 0,S_c+2S_b \\geqslant 0$；\n\n(4) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0,S_c \\geqslant 0,a^2S_b+b^2S_a \\geqslant 0$；\n\n(5) $a \\geqslant b \\geqslant c$ 是某三角形的三条边，且 $S_a \\geqslant 0,S_b \\geqslant 0,b^2S_b+c^2S_c \\geqslant 0$；\n\n(6) $S_a+S_b+S_c \\geqslant 0$ 且 $S_aS_b+S_bS_c+S_cS_a \\geqslant 0$。\n\n证明 第(1)个条件是显然的。对于(2)，注意到\n$$(a-c)^2 \\geqslant (a-b)^2+(b-c)^2$$\n所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+S_b)(b-c)^2+(S_b+S_c)(a-b)^2 \\geqslant 0$$\n\n对于(3)，注意到 $(a-c)^2 \\leqslant 2(a-b)^2+2(b-c)^2$，所以\n$$\\sum S_a(b-c)^2 \\geqslant (S_a+2S_b)(b-c)^2+(S_c+2S_b)(a-b)^2 \\geqslant 0$$\n\n对于(4)，注意到 $\\frac{a-c}{b-c} \\geqslant \\frac{a}{b}$，所以\n$$\\sum S_a(b-c)^2 \\geqslant S_a(b-c)^2+S_b(c-a)^2$$\n$$\\geqslant S_a(b-c)^2+\\frac{a^2(b-c)^2}{b^2}S_b$$\n$$=\\frac{b^2S_a+a^2S_b}{b^2} \\cdot (b-c)^2 \\geqslant 0$$\n\n(5) 的证明，类似于(4)。注意到，如果 $a,b,c$ 是某三角形的三条边，且 $a \\geqslant b \\geqslant c$，则容易证明 $\\frac{a-c}{a-b} \\geqslant \\frac{b}{c}$。\n\n对于(6)，注意到 $S_a+S_b+S_c \\geqslant 0$，因此可以假设，$S_a+S_b \\geqslant 0$，则\n$$\\sum S_a(b-c)^2=(S_a+S_b)(b-c)^2+2S_b(b-c)(a-b)+(S_b+S_c)(a-b)^2$$\n\n这是关于 $a-b,b-c$ 的二次型，其判别式\n$$\\Delta=S_b^2-(S_a+S_b)(S_b+S_c)=-(S_aS_b+S_bS_c+S_cS_a) \\leqslant 0$$\n\n至此，定理的各个部分全部证完。\n\n注 1 一般地，对于对称不等式，我们可以假设 $a \\geqslant b \\geqslant c$ 或者 $c \\geqslant b \\geqslant a$，而不失一般性。对于循环不等式，我们需要考虑 $a \\geqslant b \\geqslant c$ 和 $c \\geqslant b \\geqslant a$ 两种情况，来验证 SOS 定理中的条件。\n\n注 2 我们也可以把表达式 $S$ 写成如下的标准形式\n$$\\frac{S}{a^2b^2c^2}=\\sum\\frac{S_a}{a^2}\\left(\\frac{1}{b}-\\frac{1}{c}\\right)^2$$\n对新变量 $\\frac{1}{a},\\frac{1}{b},\\frac{1}{c}$，我们可以应用 SOS 定理的 6 个标准，进行结构改变成为或许是更强的其他标准。\n\n注 3 使用 SOS 方法的同时，抉择一种方式。\n\n上面提到的三个步骤：第一步是把不等式表示成 SOS 形式；第二步是重排变量的次序以确定负的系数；最后一步是从 SOS 方法的六个标准中，选择一个合适的标准以完成证明。在这些步骤中，前两步是非常机械的（关于第一步，在下一节中，我们将给出相关的定理），这最后一步需要动动脑筋。然而，如果你非常熟悉 SOS，那么 SOS 方法是非常容易的。\n\n为什么我说它变得非常容易呢？因为它实际上是一个机械化方法。例如，假设 $a \\geqslant b \\geqslant c$ 之后，如果得到 $S_b \\geqslant 0$，那么条件(2)和(4)是可用的。如果 $S_b \\leqslant 0$，那么条件(3)是可用的。对于某些困难的问题，尤其是循环不等式，我们不得不全面考虑这些条件。\n\n什么样的问题，SOS 方法是可以使用的呢？实际上它的应用是非常广泛的（对于大部分的三变量不等式）。第一件事情，你要检查当 $a=b=c$ 时，等号是否成立（如果这个情况不能使等号成立，那么 SOS 方法是不可用的），如果对于这个情况等号成立，那么我们就需要尝试给出使用 SOS 方法的一个明确的方式。",
+    "tags": [
+      "SOS定理",
+      "平方和",
+      "定理",
+      "证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "uid": "p123_124_例431_568c4ed62f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4.3 典型应用",
+  "section": null,
+  "problem_id": "例4.3.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    123,
+    124
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$a_1^4+a_2^4+\\cdots+a_n^4-n\\geqslant k_n(a_1^3+a_2^3+\\cdots+a_n^3-n)$$\n\n其中 $k_n$ 是由下列表达式定义的\n$$k_2=2, k_3=2(\\sqrt{63}-7), k_n=1+\\frac{n^2}{(n-1)(2n-1)}\\quad(n\\geqslant 4)$$",
+  "solution_md": "**证明** 令 $c_n=k_n$，则容易证明 $c_n$ 是递减序列。我们来证明一个更强的不等式\n$$\\sum_{i=1}^na_i^4-n\\geqslant c\\left(\\sum_{i=1}^na_i^3-n\\right)\\quad\\forall c\\leqslant c_n$$\n\n在这个不等式中，为构造齐次函数，正好选择 $f(c,x)=x^4-cx^3$，我们来证明\n$$f(c,a_1)+f(c,a_2)+\\cdots+f(c,a_n)\\geqslant nf(c,1)\\quad\\forall c\\geqslant c_n\\quad(*)$$\n\n应用 GI 定理，我们知道，只需考虑在 $a_1=a_2=\\cdots=a_{n-1}=a,c=c_n$ 条件下，不等式 $(*)$ 成立即可。因此，我们有\n$$-n+\\sum_{i=1}^na_i^3=-n+(n-1)a^3+[n-(n-1)a]^3$$\n$$=n(n-1)(a-1)^2[n+1-(n-2)a]$$\n\n类似地\n$$-n+\\sum_{i=1}^na_i^4$$\n$$=-n+(n-1)a^4+[n-(n-1)a]^4$$\n$$=n(n-1)(a-1)^2[(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1]$$\n\n我们要证明\n$$(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1\\geqslant k[n+1-(n-2)a]$$\n\n直接求下列表达式 $g_n(a)$ 的最小值\n$$g_n(a)=\\frac{(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1}{n+1-(n-2)a}$$\n\n在 $n=2,3$ 时，我们计算出\n$$\\min g_2(a)=2$$\n$$\\min g_3(a)=2(\\sqrt{63}-7)$$\n\n对于 $n\\geqslant 4$，我们有\n$$k_n=1+\\frac{n^2}{(n-1)(2n-1)}$$\n\n$$f(a)=(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1-k[n+1-(n-2)a]$$\n$$=(n^2-3n+3)a^2+(2-2k+kn+2n-2n^2)a+n^2+n+1-k(n+1)$$\n\n其导数\n$$f'(a)=2(n^2-3n+3)a-[2n^2-2n-2+k(n-2)]$$\n$$\\leqslant 2(n^2-3n+3)\\cdot\\frac{n}{n-1}-\\left\\{2n^2-2n-2+\\left[1+\\frac{n^2}{(n-1)(2n-1)}\\right](n-2)\\right\\}$$\n$$=-\\frac{n^2(7n-23)+17n-4}{(n-1)(2n-1)}\\leqslant 0$$\n\n所以，$\\min g_n(a)=g\\left(\\frac{n}{n-1}\\right)=1+\\frac{n^2}{(n-1)(2n-1)}$，不等式得证。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.1(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$a_1^4+a_2^4+\\cdots+a_n^4-n\\geqslant k_n(a_1^3+a_2^3+\\cdots+a_n^3-n)$$\n\n其中 $k_n$ 是由下列表达式定义的\n$$k_2=2, k_3=2(\\sqrt{63}-7), k_n=1+\\frac{n^2}{(n-1)(2n-1)}\\quad(n\\geqslant 4)$$\n\n证明 ...",
+  "tags": [
+    "GI定理",
+    "齐次函数",
+    "导数分析",
+    "最小值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0016",
+  "raw_response_file": "raw/chunk-0016.response.txt",
+  "raw_api_file": "raw/chunk-0016.api.json",
+  "fingerprint": "568c4ed62f6829f276258ec459363c8c3c994bb7",
+  "raw_problem": {
+    "problem_id": "例4.3.1",
+    "problem_type": "example",
+    "chapter": "4.3 典型应用",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      123,
+      124
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$a_1^4+a_2^4+\\cdots+a_n^4-n\\geqslant k_n(a_1^3+a_2^3+\\cdots+a_n^3-n)$$\n\n其中 $k_n$ 是由下列表达式定义的\n$$k_2=2, k_3=2(\\sqrt{63}-7), k_n=1+\\frac{n^2}{(n-1)(2n-1)}\\quad(n\\geqslant 4)$$",
+    "solution_md": "**证明** 令 $c_n=k_n$，则容易证明 $c_n$ 是递减序列。我们来证明一个更强的不等式\n$$\\sum_{i=1}^na_i^4-n\\geqslant c\\left(\\sum_{i=1}^na_i^3-n\\right)\\quad\\forall c\\leqslant c_n$$\n\n在这个不等式中，为构造齐次函数，正好选择 $f(c,x)=x^4-cx^3$，我们来证明\n$$f(c,a_1)+f(c,a_2)+\\cdots+f(c,a_n)\\geqslant nf(c,1)\\quad\\forall c\\geqslant c_n\\quad(*)$$\n\n应用 GI 定理，我们知道，只需考虑在 $a_1=a_2=\\cdots=a_{n-1}=a,c=c_n$ 条件下，不等式 $(*)$ 成立即可。因此，我们有\n$$-n+\\sum_{i=1}^na_i^3=-n+(n-1)a^3+[n-(n-1)a]^3$$\n$$=n(n-1)(a-1)^2[n+1-(n-2)a]$$\n\n类似地\n$$-n+\\sum_{i=1}^na_i^4$$\n$$=-n+(n-1)a^4+[n-(n-1)a]^4$$\n$$=n(n-1)(a-1)^2[(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1]$$\n\n我们要证明\n$$(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1\\geqslant k[n+1-(n-2)a]$$\n\n直接求下列表达式 $g_n(a)$ 的最小值\n$$g_n(a)=\\frac{(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1}{n+1-(n-2)a}$$\n\n在 $n=2,3$ 时，我们计算出\n$$\\min g_2(a)=2$$\n$$\\min g_3(a)=2(\\sqrt{63}-7)$$\n\n对于 $n\\geqslant 4$，我们有\n$$k_n=1+\\frac{n^2}{(n-1)(2n-1)}$$\n\n$$f(a)=(n^2-3n+3)a^2-2(n^2-n-1)a+n^2+n+1-k[n+1-(n-2)a]$$\n$$=(n^2-3n+3)a^2+(2-2k+kn+2n-2n^2)a+n^2+n+1-k(n+1)$$\n\n其导数\n$$f'(a)=2(n^2-3n+3)a-[2n^2-2n-2+k(n-2)]$$\n$$\\leqslant 2(n^2-3n+3)\\cdot\\frac{n}{n-1}-\\left\\{2n^2-2n-2+\\left[1+\\frac{n^2}{(n-1)(2n-1)}\\right](n-2)\\right\\}$$\n$$=-\\frac{n^2(7n-23)+17n-4}{(n-1)(2n-1)}\\leqslant 0$$\n\n所以，$\\min g_n(a)=g\\left(\\frac{n}{n-1}\\right)=1+\\frac{n^2}{(n-1)(2n-1)}$，不等式得证。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.3.1(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$a_1^4+a_2^4+\\cdots+a_n^4-n\\geqslant k_n(a_1^3+a_2^3+\\cdots+a_n^3-n)$$\n\n其中 $k_n$ 是由下列表达式定义的\n$$k_2=2, k_3=2(\\sqrt{63}-7), k_n=1+\\frac{n^2}{(n-1)(2n-1)}\\quad(n\\geqslant 4)$$\n\n证明 ...",
+    "tags": [
+      "GI定理",
+      "齐次函数",
+      "导数分析",
+      "最小值"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

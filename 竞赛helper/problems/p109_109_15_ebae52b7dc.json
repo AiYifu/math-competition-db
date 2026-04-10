@@ -1,0 +1,51 @@
+{
+  "uid": "p109_109_15_ebae52b7dc",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "15. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{11a+9b+c}+\\frac{b}{11b+9c+a}+\\frac{c}{11c+9a+b} \\leqslant \\frac{1}{7}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "15. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{11a+9b+c}+\\frac{b}{11b+9c+a}+\\frac{c}{11c+9a+b}\\leqslant\\frac{1}{7}$$",
+  "tags": [
+    "Pham Kim Hung",
+    "Mathlinks"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "ebae52b7dc23ef0d4cf243d828c395c943ef0a6d",
+  "raw_problem": {
+    "problem_id": "15",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "15. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{11a+9b+c}+\\frac{b}{11b+9c+a}+\\frac{c}{11c+9a+b} \\leqslant \\frac{1}{7}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "15. (Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{11a+9b+c}+\\frac{b}{11b+9c+a}+\\frac{c}{11c+9a+b}\\leqslant\\frac{1}{7}$$",
+    "tags": [
+      "Pham Kim Hung",
+      "Mathlinks"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

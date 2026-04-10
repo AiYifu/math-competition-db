@@ -1,0 +1,56 @@
+{
+  "uid": "p055_056_例1410_001001de0c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.4",
+  "problem_id": "例1.4.10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    55,
+    56
+  ],
+  "source_images": [
+    "page-055.jpg",
+    "page-056.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{2a^2+b^2}+\\frac{b^3}{2b^2+c^2}+\\frac{c^3}{2c^2+a^2}\\geqslant\\frac{a+b+c}{3}$$",
+  "solution_md": "我们有\n$$\\frac{3a^3}{2a^2+b^2}-a=\\frac{a(a-b)(a+b)}{2a^2+b^2}$$\n$$\\Rightarrow\\frac{3a^3}{2a^2+b^2}-a-\\frac{2(a-b)}{3}$$\n$$=(a-b)\\left[\\frac{a(a+b)}{2a^2+b^2}-\\frac{2}{3}\\right]=\\frac{(2b-a)(a-b)^2}{3(2a^2+b^2)}$$\n\n则，不等式可以写成 $S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant 0$ 的形式，其中\n$$S_a=\\frac{2c-b}{2b^2+c^2}$$\n$$S_b=\\frac{2a-c}{2c^2+a^2}$$\n$$S_c=\\frac{2b-a}{2a^2+b^2}$$\n\n考虑下面两种情况：\n\n(1) $a\\geqslant b\\geqslant c$ 的情况。因为\n$$\\frac{4b}{2a^2+b^2}-\\frac{c}{2c^2+a^2}\\geqslant 0$$\n$$\\frac{-2a}{2a^2+b^2}+\\frac{2a}{2c^2+a^2}\\geqslant 0$$\n\n所以，$2S_c+S_b\\geqslant 0$。类似地，由\n$$\\frac{(4c-2b)b^2}{2b^2+c^2}+\\frac{(2a-c)a^2}{2c^2+a^2}=\\left(\\frac{2a^3}{2c^2+a^2}-\\frac{2b^3}{2b^2+c^2}\\right)+c\\left(\\frac{4b^2}{2b^2+c^2}-\\frac{a^2}{2c^2+a^2}\\right)\\geqslant 0$$\n\n我们得到 $2b^2S_a+a^2S_b\\geqslant 0$。因此\n$$2\\sum S_a(b-c)^2=[2S_a(b-c)^2+S_b(c-a)^2]+[S_b(c-a)^2+2S_c(a-b)^2]$$\n$$=\\frac{1}{(b-c)^2}\\left[2S_a+S_b\\left(\\frac{a-c}{b-c}\\right)^2\\right]+(S_b+2S_c)(a-b)^2$$\n$$\\geqslant\\frac{1}{(b-c)^2}\\left[2S_a+S_b\\left(\\frac{a}{b}\\right)^2\\right]=\\frac{b^2}{(b-c)^2}(2b^2S_a+a^2S_b)\\geqslant 0$$\n\n(2) $a\\leqslant b\\leqslant c$ 的情况。考虑两个小情况：\n\n① $2b\\geqslant a+c$ 的情况。我们来证明\n$$S_c+4S_b=\\frac{2b-a}{2a^2+b^2}+\\frac{4(2a-c)}{2c^2+a^2}\\geqslant 0\\quad(1)$$\n\n不等式(1)左边的表达式是 $c$ 的增函数，所以，只需检查(1)在 $c=b$ 的情况下成立即可，即\n$$\\frac{2b-a}{2a^2+b^2}+\\frac{4(2a-b)}{2b^2+a^2}\\geqslant 0\\Leftrightarrow\\frac{3a[(a-b)^2+b^2+4a^2]}{(2a^2+b^2)(2b^2+a^2)}\\geqslant 0$$\n\n这是显然成立的。由于 $(b-a)^2\\geqslant\\frac{1}{4}(c-a)^2$，所以\n$$\\sum S_a(b-c)^2\\geqslant\\frac{1}{4}S_c(a-b)^2+S_b(c-a)^2\\geqslant 0$$\n\n② $2b\\leqslant a+c$ 的情况。我们来证明\n$$S_c+3S_b=\\frac{2b-a^2}{2a^2+b^2}+\\frac{6a-3c}{2c^2+a^2}\\geqslant 0\\quad(2)$$\n\n不等式(2)左边的表达式是 $c$ 的增函数，所以，只需证明(2)在 $c=2b-a$ 的情况下成立即可。即\n$$\\frac{2b-a}{2a^2+b^2}+\\frac{9a-6b}{8b^2+3a^2-8ab}\\geqslant 0\\Leftrightarrow 10b^3-15ab^2+2a^2b+15a^3\\geqslant 0$$\n\n这可由 AM-GM 不等式得到，实际上\n$$10b^3-15ab^2+2a^2b+15a^3=5b^3+5b^3+15a^3-15ab^2+2a^2b$$\n$$\\geqslant 3\\sqrt[3]{5b^3\\cdot 5b^3\\cdot 15a^3}-15ab^2+2a^2b$$\n$$=(15\\sqrt[3]{3}-1)ab^2+2a^2b\\geqslant 0$$\n\n另外，不等式 $S_a+\\frac{3}{2}S_b\\geqslant 0$，等价于\n$$\\frac{2c-b}{2b^2+c^2}+\\frac{3}{2}\\cdot\\frac{2a-c}{2c^2+a^2}\\geqslant 0\\quad(3)$$\n\n不等式(3)左边的表达式是 $a$ 的增函数，所以，只需证明(3)在 $a=b$ 的情况下成立即可，即\n$$\\frac{2c-b}{2b^2+c^2}+\\frac{3}{2}\\cdot\\frac{2b-c}{2c^2+b^2}\\geqslant 0\\Leftrightarrow\\frac{3c^3+2c(c^2-b^2)+2bc^2+10b^3}{2(2b^2+c^2)(2c^2+b^2)}\\geqslant 0$$\n\n这是显然成立的。根据式(2)和式(3)，以及\n$$S_a,S_c\\geqslant 0,(c-a)^2\\leqslant 3(b-a)^2+\\frac{3}{2}(c-b)^2$$\n\n我们即得结论\n$$\\sum S_a(b-c)^2\\geqslant (S_c+3S_b)(a-b)^2+\\left(S_a+\\frac{3}{2}S_b\\right)(b-c)^2\\geqslant 0$$\n\n等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.10 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{2a^2+b^2}+\\frac{b^3}{2b^2+c^2}+\\frac{c^3}{2c^2+a^2}\\geqslant\\frac{a+b+c}{3}$$\n\n证明 我们有\n$$\\frac{3a^3}{2a^2+b^2}-a=\\frac{a(a-b)(a+b)}{2a^2+b^2}$$\n$$\\Rightarrow\\frac{3a^3}{2a^2+b^2}-a-\\frac{2(a-b)}{3}$$\n$$=(a-b)\\left[\\frac{a(a+b)}{2a^2+b^2}-\\frac{2}{3}\\right]=\\frac{(2b-a)(a-b)^2}{3(2a^2+b^2)}$$\n\n则，不等式可以写成 $S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant 0$ 的形式，其中\n$$S_a=\\frac{2c-b}{2b^2+c^2},\\quad S_b=\\frac{2a-c}{2c^2+a^2},\\quad S_c=\\frac{2b-a}{2a^2+b^2}$$\n\n考虑下面两种情况：\n(1) $a\\geqslant b\\geqslant c$ 的情况...\n(2) $a\\leqslant b\\leqslant c$ 的情况...",
+  "tags": [
+    "SOS方法",
+    "分式不等式",
+    "分类讨论"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "001001de0cb972300061403f550a0b23b34fb05b",
+  "raw_problem": {
+    "problem_id": "例1.4.10",
+    "problem_type": "example",
+    "chapter": "第1章",
+    "section": "1.4",
+    "title": null,
+    "source_pages": [
+      55,
+      56
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{2a^2+b^2}+\\frac{b^3}{2b^2+c^2}+\\frac{c^3}{2c^2+a^2}\\geqslant\\frac{a+b+c}{3}$$",
+    "solution_md": "我们有\n$$\\frac{3a^3}{2a^2+b^2}-a=\\frac{a(a-b)(a+b)}{2a^2+b^2}$$\n$$\\Rightarrow\\frac{3a^3}{2a^2+b^2}-a-\\frac{2(a-b)}{3}$$\n$$=(a-b)\\left[\\frac{a(a+b)}{2a^2+b^2}-\\frac{2}{3}\\right]=\\frac{(2b-a)(a-b)^2}{3(2a^2+b^2)}$$\n\n则，不等式可以写成 $S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant 0$ 的形式，其中\n$$S_a=\\frac{2c-b}{2b^2+c^2}$$\n$$S_b=\\frac{2a-c}{2c^2+a^2}$$\n$$S_c=\\frac{2b-a}{2a^2+b^2}$$\n\n考虑下面两种情况：\n\n(1) $a\\geqslant b\\geqslant c$ 的情况。因为\n$$\\frac{4b}{2a^2+b^2}-\\frac{c}{2c^2+a^2}\\geqslant 0$$\n$$\\frac{-2a}{2a^2+b^2}+\\frac{2a}{2c^2+a^2}\\geqslant 0$$\n\n所以，$2S_c+S_b\\geqslant 0$。类似地，由\n$$\\frac{(4c-2b)b^2}{2b^2+c^2}+\\frac{(2a-c)a^2}{2c^2+a^2}=\\left(\\frac{2a^3}{2c^2+a^2}-\\frac{2b^3}{2b^2+c^2}\\right)+c\\left(\\frac{4b^2}{2b^2+c^2}-\\frac{a^2}{2c^2+a^2}\\right)\\geqslant 0$$\n\n我们得到 $2b^2S_a+a^2S_b\\geqslant 0$。因此\n$$2\\sum S_a(b-c)^2=[2S_a(b-c)^2+S_b(c-a)^2]+[S_b(c-a)^2+2S_c(a-b)^2]$$\n$$=\\frac{1}{(b-c)^2}\\left[2S_a+S_b\\left(\\frac{a-c}{b-c}\\right)^2\\right]+(S_b+2S_c)(a-b)^2$$\n$$\\geqslant\\frac{1}{(b-c)^2}\\left[2S_a+S_b\\left(\\frac{a}{b}\\right)^2\\right]=\\frac{b^2}{(b-c)^2}(2b^2S_a+a^2S_b)\\geqslant 0$$\n\n(2) $a\\leqslant b\\leqslant c$ 的情况。考虑两个小情况：\n\n① $2b\\geqslant a+c$ 的情况。我们来证明\n$$S_c+4S_b=\\frac{2b-a}{2a^2+b^2}+\\frac{4(2a-c)}{2c^2+a^2}\\geqslant 0\\quad(1)$$\n\n不等式(1)左边的表达式是 $c$ 的增函数，所以，只需检查(1)在 $c=b$ 的情况下成立即可，即\n$$\\frac{2b-a}{2a^2+b^2}+\\frac{4(2a-b)}{2b^2+a^2}\\geqslant 0\\Leftrightarrow\\frac{3a[(a-b)^2+b^2+4a^2]}{(2a^2+b^2)(2b^2+a^2)}\\geqslant 0$$\n\n这是显然成立的。由于 $(b-a)^2\\geqslant\\frac{1}{4}(c-a)^2$，所以\n$$\\sum S_a(b-c)^2\\geqslant\\frac{1}{4}S_c(a-b)^2+S_b(c-a)^2\\geqslant 0$$\n\n② $2b\\leqslant a+c$ 的情况。我们来证明\n$$S_c+3S_b=\\frac{2b-a^2}{2a^2+b^2}+\\frac{6a-3c}{2c^2+a^2}\\geqslant 0\\quad(2)$$\n\n不等式(2)左边的表达式是 $c$ 的增函数，所以，只需证明(2)在 $c=2b-a$ 的情况下成立即可。即\n$$\\frac{2b-a}{2a^2+b^2}+\\frac{9a-6b}{8b^2+3a^2-8ab}\\geqslant 0\\Leftrightarrow 10b^3-15ab^2+2a^2b+15a^3\\geqslant 0$$\n\n这可由 AM-GM 不等式得到，实际上\n$$10b^3-15ab^2+2a^2b+15a^3=5b^3+5b^3+15a^3-15ab^2+2a^2b$$\n$$\\geqslant 3\\sqrt[3]{5b^3\\cdot 5b^3\\cdot 15a^3}-15ab^2+2a^2b$$\n$$=(15\\sqrt[3]{3}-1)ab^2+2a^2b\\geqslant 0$$\n\n另外，不等式 $S_a+\\frac{3}{2}S_b\\geqslant 0$，等价于\n$$\\frac{2c-b}{2b^2+c^2}+\\frac{3}{2}\\cdot\\frac{2a-c}{2c^2+a^2}\\geqslant 0\\quad(3)$$\n\n不等式(3)左边的表达式是 $a$ 的增函数，所以，只需证明(3)在 $a=b$ 的情况下成立即可，即\n$$\\frac{2c-b}{2b^2+c^2}+\\frac{3}{2}\\cdot\\frac{2b-c}{2c^2+b^2}\\geqslant 0\\Leftrightarrow\\frac{3c^3+2c(c^2-b^2)+2bc^2+10b^3}{2(2b^2+c^2)(2c^2+b^2)}\\geqslant 0$$\n\n这是显然成立的。根据式(2)和式(3)，以及\n$$S_a,S_c\\geqslant 0,(c-a)^2\\leqslant 3(b-a)^2+\\frac{3}{2}(c-b)^2$$\n\n我们即得结论\n$$\\sum S_a(b-c)^2\\geqslant (S_c+3S_b)(a-b)^2+\\left(S_a+\\frac{3}{2}S_b\\right)(b-c)^2\\geqslant 0$$\n\n等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.10 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{2a^2+b^2}+\\frac{b^3}{2b^2+c^2}+\\frac{c^3}{2c^2+a^2}\\geqslant\\frac{a+b+c}{3}$$\n\n证明 我们有\n$$\\frac{3a^3}{2a^2+b^2}-a=\\frac{a(a-b)(a+b)}{2a^2+b^2}$$\n$$\\Rightarrow\\frac{3a^3}{2a^2+b^2}-a-\\frac{2(a-b)}{3}$$\n$$=(a-b)\\left[\\frac{a(a+b)}{2a^2+b^2}-\\frac{2}{3}\\right]=\\frac{(2b-a)(a-b)^2}{3(2a^2+b^2)}$$\n\n则，不等式可以写成 $S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant 0$ 的形式，其中\n$$S_a=\\frac{2c-b}{2b^2+c^2},\\quad S_b=\\frac{2a-c}{2c^2+a^2},\\quad S_c=\\frac{2b-a}{2a^2+b^2}$$\n\n考虑下面两种情况：\n(1) $a\\geqslant b\\geqslant c$ 的情况...\n(2) $a\\leqslant b\\leqslant c$ 的情况...",
+    "tags": [
+      "SOS方法",
+      "分式不等式",
+      "分类讨论"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

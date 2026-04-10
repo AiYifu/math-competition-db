@@ -1,0 +1,55 @@
+{
+  "uid": "p111_111_34_23402bf974",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "34",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    111
+  ],
+  "source_images": [
+    "page-111.jpg"
+  ],
+  "stem_md": "34. (Bulgarian TST 2007 for Balkan MO) 设 $x_1,x_2,\\cdots,x_n$ 是 $(0,1)$ 上的实数，满足 $(1-x_i)(1-x_j) \\geqslant \\frac{1}{4}$，$\\forall 1 \\leqslant i < j \\leqslant n$，求最好的常数 $C_n$，满足\n$$\\sum_{i=1}^{n}x_i \\geqslant C_n \\sum_{1 \\leqslant i < j \\leqslant n}(2x_ix_j+\\sqrt{x_ix_j})$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "34. (Bulgarian TST 2007 for Balkan MO) 设 $x_1,x_2,\\cdots,x_n$ 是 $(0,1)$ 上的实数，满足 $(1-x_i)(1-x_j)\\geqslant\\frac{1}{4}$，$\\forall 1\\leqslant i<j\\leqslant n$，求最好的常数 $C_n$，满足\n$$\\sum_{i=1}^{n}x_i\\geqslant C_n\\sum_{1\\leqslant i<j\\leqslant n}(2x_ix_j+\\sqrt{x_ix_j})$$",
+  "tags": [
+    "Bulgarian TST 2007",
+    "Balkan MO",
+    "求最佳常数",
+    "n元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "23402bf9744e675eb574d5d7ee18aadb8d0450a6",
+  "raw_problem": {
+    "problem_id": "34",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      111
+    ],
+    "stem_md": "34. (Bulgarian TST 2007 for Balkan MO) 设 $x_1,x_2,\\cdots,x_n$ 是 $(0,1)$ 上的实数，满足 $(1-x_i)(1-x_j) \\geqslant \\frac{1}{4}$，$\\forall 1 \\leqslant i < j \\leqslant n$，求最好的常数 $C_n$，满足\n$$\\sum_{i=1}^{n}x_i \\geqslant C_n \\sum_{1 \\leqslant i < j \\leqslant n}(2x_ix_j+\\sqrt{x_ix_j})$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "34. (Bulgarian TST 2007 for Balkan MO) 设 $x_1,x_2,\\cdots,x_n$ 是 $(0,1)$ 上的实数，满足 $(1-x_i)(1-x_j)\\geqslant\\frac{1}{4}$，$\\forall 1\\leqslant i<j\\leqslant n$，求最好的常数 $C_n$，满足\n$$\\sum_{i=1}^{n}x_i\\geqslant C_n\\sum_{1\\leqslant i<j\\leqslant n}(2x_ix_j+\\sqrt{x_ix_j})$$",
+    "tags": [
+      "Bulgarian TST 2007",
+      "Balkan MO",
+      "求最佳常数",
+      "n元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

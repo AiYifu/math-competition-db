@@ -1,0 +1,28 @@
+{
+  "uid": "p021_023_例115_6bd2a3ec47",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.1 平方分析法",
+  "section": null,
+  "problem_id": "例1.1.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    21,
+    22,
+    23
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+\\frac{8abc}{(a+b)(b+c)(c+a)} \\geqslant 2$$",
+  "solution_md": "**证明及分析** 第一步，把不等式表示成平方和的形式。注意到，不等式左边第一项大于等于 1，另一项小于等于 1，因此，很自然地把不等式写成如下形式\n$$\\left(\\frac{a^2+b^2+c^2}{ab+bc+ca}-1\\right)+\\left[\\frac{8abc}{(a+b)(b+c)(c+a)}-1\\right] \\geqslant 0$$\n\n或\n$$\\frac{(a-b)^2+(b-c)^2+(c-a)^2}{2(ab+bc+ca)}-\\frac{c(a-b)^2+a(b-c)^2+b(c-a)^2}{(a+b)(b+c)(c+a)} \\geqslant 0$$\n\n于是，我们计算出\n$$\\alpha=\\frac{1}{ab+bc+ca}-\\frac{2a}{(a+b)(b+c)(c+a)}$$\n\n$\\beta$ 和 $\\gamma$ 类似给出。第二步，通常是重排变量的次序，也就是 $a \\geqslant b \\geqslant c$。那么 $\\alpha,\\beta$ 和 $\\gamma$ 中，哪些是负的呢？很容易得到\n$$\\gamma=\\frac{1}{ab+bc+ca}-\\frac{2c}{(a+b)(b+c)(c+a)}$$\n$$\\geqslant \\beta=\\frac{1}{ab+bc+ca}-\\frac{2b}{(a+b)(b+c)(c+a)} \\geqslant 0$$\n\n但是 $\\alpha$ 并不总是非负的（因为如果 $\\alpha$ 非负，不等式得证），于是，在最后一步，我们尝试整合\"大的非负项 $\\beta(c-a)^2$\"和\"小的负项 $\\alpha(b-c)^2$\"，这就是说，只需证明\n$$\\beta(c-a)^2+\\alpha(a-b)^2 \\geqslant 0$$\n\n我们看到，这是非常明显的，因为 $(a-c)^2 \\geqslant (a-b)^2$，从而\n$$\\beta+\\alpha=\\frac{2}{ab+bc+ca}-\\frac{2}{(b+c)(c+a)} \\geqslant 0$$\n\n所以，$\\beta(c-a)^2+\\alpha(a-b)^2 \\geqslant (\\beta+\\alpha)(a-b)^2 \\geqslant 0$，证毕。\n\n奇怪，怎么可能联结\"非负项 $\\gamma(a-b)^2$\"和\"非常小的负项 $\\alpha(b-c)^2$\"呢？请回答这个问题。实际上，我们不能做到这一点，因为不等式\n$$\\gamma(a-b)^2+\\alpha(b-c)^2 \\geqslant 0$$\n并不总是成立。例如 $a=10,b=9,c=0$，就是一个反例。无论如何，在这个细节上，你并不需要花费更多的心思，通常，我们不用 $\\gamma(a-b)^2$ 联结 $\\alpha(b-c)^2$，而是根据 $(a-c)^2$ 大于 $(b-c)^2$ 来使用 $\\beta(c-a)^2$ 来联结。但 $(a-b)^2$ 并不总是大于 $(b-c)^2$（注意到，在上面的分析中，我们总是使用 $a \\geqslant b \\geqslant c$ 这个条件）。\n\n从此以后，我们将用记号 $S_a,S_b,S_c$ 来代替记号 $\\alpha,\\beta,\\gamma$（因为使用老记号 $\\alpha,\\beta,\\gamma$，容易被误解为它们是常数，但实际上，它们是 $a,b,c$ 的函数）。",
+  "answer_md": "",
+  "hints_md": "",
+  "tags": [
+    "SOS方法",
+    "平方分析法",
+    "重排变量",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001",
+  "fingerprint": "6bd2a3ec474e5488174e4e39a4b57bb58b29e89e"
+}

@@ -1,0 +1,56 @@
+{
+  "uid": "p019_020_例112_6fb2aab039",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章 平方分析法",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    19,
+    20
+  ],
+  "source_images": [
+    "page-019.jpg",
+    "page-020.jpg"
+  ],
+  "stem_md": "证明：对于任何非负实数 $a,b,c$\n$$a^3+b^3+c^3\\geqslant 3abc$$",
+  "solution_md": "**证明及分析** 你可能想象到，这个不等式简单、经典，不太有趣。可你想过这个不等式的最佳证明吗？或许可能是基于两个实数的证明方法，或许是构建四个实数的解答方案，选择四数之一等于其他数的算术平均，这是一个好的想法。但是，下面给出的证法更直接、更自然，不失为一个好方法\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.2 证明：对于任何非负实数 $a,b,c$\n$$a^3+b^3+c^3\\geqslant 3abc$$\n证明及分析 你可能想象到，这个不等式简单、经典，不太有趣。可你想过这个不等式的最佳证明吗？或许可能是基于两个实数的证明方法，或许是构建四个实数的解答方案，选择四数之一等于其他数的算术平均，这是一个好的想法。但是，下面给出的证法更直接、更自然，不失为一个好方法\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$",
+  "tags": [
+    "平方分析法",
+    "SOS",
+    "因式分解"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003",
+  "raw_response_file": "raw/chunk-0003.response.txt",
+  "raw_api_file": "raw/chunk-0003.api.json",
+  "fingerprint": "6fb2aab039452b1c677ae8d6b300ccc13b8cc232",
+  "raw_problem": {
+    "problem_id": "例1.1.2",
+    "problem_type": "example",
+    "chapter": "第1章 平方分析法",
+    "section": "1.1 起步",
+    "title": null,
+    "source_pages": [
+      19,
+      20
+    ],
+    "stem_md": "证明：对于任何非负实数 $a,b,c$\n$$a^3+b^3+c^3\\geqslant 3abc$$",
+    "solution_md": "**证明及分析** 你可能想象到，这个不等式简单、经典，不太有趣。可你想过这个不等式的最佳证明吗？或许可能是基于两个实数的证明方法，或许是构建四个实数的解答方案，选择四数之一等于其他数的算术平均，这是一个好的想法。但是，下面给出的证法更直接、更自然，不失为一个好方法\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.1.2 证明：对于任何非负实数 $a,b,c$\n$$a^3+b^3+c^3\\geqslant 3abc$$\n证明及分析 你可能想象到，这个不等式简单、经典，不太有趣。可你想过这个不等式的最佳证明吗？或许可能是基于两个实数的证明方法，或许是构建四个实数的解答方案，选择四数之一等于其他数的算术平均，这是一个好的想法。但是，下面给出的证法更直接、更自然，不失为一个好方法\n$$a^3+b^3+c^3-3abc=\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$$",
+    "tags": [
+      "平方分析法",
+      "SOS",
+      "因式分解"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

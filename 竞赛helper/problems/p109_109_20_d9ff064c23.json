@@ -1,0 +1,53 @@
+{
+  "uid": "p109_109_20_d9ff064c23",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "20",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "20. (Vo Quoc Ba Can, CPR) 设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=1$，证明\n$$\\frac{1}{\\sqrt{1+(2a-b)^2}}+\\frac{1}{\\sqrt{1+(2b-c)^2}}+\\frac{1}{\\sqrt{1+(2c-a)^2}} \\leqslant \\frac{3\\sqrt{3}}{2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "20. (Vo Quoc Ba Can,CPR) 设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=1$，证明\n$$\\frac{1}{\\sqrt{1+(2a-b)^2}}+\\frac{1}{\\sqrt{1+(2b-c)^2}}+\\frac{1}{\\sqrt{1+(2c-a)^2}}\\leqslant\\frac{3\\sqrt{3}}{2}$$",
+  "tags": [
+    "Vo Quoc Ba Can",
+    "CPR",
+    "ab+bc+ca=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "d9ff064c23c9fd642af95a99d4caad4bb78ff218",
+  "raw_problem": {
+    "problem_id": "20",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "20. (Vo Quoc Ba Can, CPR) 设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=1$，证明\n$$\\frac{1}{\\sqrt{1+(2a-b)^2}}+\\frac{1}{\\sqrt{1+(2b-c)^2}}+\\frac{1}{\\sqrt{1+(2c-a)^2}} \\leqslant \\frac{3\\sqrt{3}}{2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "20. (Vo Quoc Ba Can,CPR) 设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=1$，证明\n$$\\frac{1}{\\sqrt{1+(2a-b)^2}}+\\frac{1}{\\sqrt{1+(2b-c)^2}}+\\frac{1}{\\sqrt{1+(2c-a)^2}}\\leqslant\\frac{3\\sqrt{3}}{2}$$",
+    "tags": [
+      "Vo Quoc Ba Can",
+      "CPR",
+      "ab+bc+ca=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

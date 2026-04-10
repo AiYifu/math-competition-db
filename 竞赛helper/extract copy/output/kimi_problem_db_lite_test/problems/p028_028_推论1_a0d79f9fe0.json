@@ -1,0 +1,53 @@
+{
+  "uid": "p028_028_推论1_a0d79f9fe0",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1",
+  "section": "1.2",
+  "problem_id": "推论1",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    28
+  ],
+  "source_images": [
+    "page-028.jpg"
+  ],
+  "stem_md": "**推论 1** 假设 $M(a,b,c)$ 和 $N(a,b,c)$ 是两个对称多项式，且满足对所有正实数 $x$，$\\frac{M(x,x,x)}{N(x,x,x)}$ 等于一个常数 $t$，则存在一个半对称多项式 $G(a,b,c)$，满足\n$$F(a,b,c)=\\frac{M(a,b,c)}{N(a,b,c)}+\\frac{M(b,c,a)}{N(b,c,a)}+\\frac{M(c,a,b)}{N(c,a,b)}-3t$$\n$$=G(a,b,c)(b-c)^2+G(b,c,a)(c-a)^2+G(c,a,b)(a-b)^2$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "推论 1 假设 $M(a,b,c)$ 和 $N(a,b,c)$ 是两个对称多项式，且满足对所有正实数 $x$，$\\frac{M(x,x,x)}{N(x,x,x)}$ 等于一个常数 $t$，则存在一个半对称多项式 $G(a,b,c)$，满足\n$$F(a,b,c)=\\frac{M(a,b,c)}{N(a,b,c)}+\\frac{M(b,c,a)}{N(b,c,a)}+\\frac{M(c,a,b)}{N(c,a,b)}-3t$$\n$$=G(a,b,c)(b-c)^2+G(b,c,a)(c-a)^2+G(c,a,b)(a-b)^2$$",
+  "tags": [
+    "推论",
+    "SOS标准表示",
+    "对称多项式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0001",
+  "raw_response_file": "raw/chunk-0001.response.txt",
+  "raw_api_file": "raw/chunk-0001.api.json",
+  "fingerprint": "a0d79f9fe08f79a3a1a01f7e9a1bcc43ef31724d",
+  "raw_problem": {
+    "problem_id": "推论1",
+    "problem_type": "theorem",
+    "chapter": "1",
+    "section": "1.2",
+    "title": null,
+    "source_pages": [
+      28
+    ],
+    "stem_md": "**推论 1** 假设 $M(a,b,c)$ 和 $N(a,b,c)$ 是两个对称多项式，且满足对所有正实数 $x$，$\\frac{M(x,x,x)}{N(x,x,x)}$ 等于一个常数 $t$，则存在一个半对称多项式 $G(a,b,c)$，满足\n$$F(a,b,c)=\\frac{M(a,b,c)}{N(a,b,c)}+\\frac{M(b,c,a)}{N(b,c,a)}+\\frac{M(c,a,b)}{N(c,a,b)}-3t$$\n$$=G(a,b,c)(b-c)^2+G(b,c,a)(c-a)^2+G(c,a,b)(a-b)^2$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "推论 1 假设 $M(a,b,c)$ 和 $N(a,b,c)$ 是两个对称多项式，且满足对所有正实数 $x$，$\\frac{M(x,x,x)}{N(x,x,x)}$ 等于一个常数 $t$，则存在一个半对称多项式 $G(a,b,c)$，满足\n$$F(a,b,c)=\\frac{M(a,b,c)}{N(a,b,c)}+\\frac{M(b,c,a)}{N(b,c,a)}+\\frac{M(c,a,b)}{N(c,a,b)}-3t$$\n$$=G(a,b,c)(b-c)^2+G(b,c,a)(c-a)^2+G(c,a,b)(a-b)^2$$",
+    "tags": [
+      "推论",
+      "SOS标准表示",
+      "对称多项式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

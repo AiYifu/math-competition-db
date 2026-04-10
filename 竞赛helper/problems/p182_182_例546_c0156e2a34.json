@@ -1,0 +1,53 @@
+{
+  "uid": "p182_182_例546_c0156e2a34",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    182
+  ],
+  "source_images": [
+    "page-182.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant ab+bc+ca$$",
+  "solution_md": "在三个数 $a-1,b-1,c-1$ 中，存在两个数，不妨设为 $a-1,b-1$，它们具有相同的符号，于是\n$$(a-1)(b-1)\\geqslant 0\\Rightarrow 1+ab\\geqslant a+b.$$\n由 Hölder 不等式，我们有\n$$\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}=\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant c+ab$$\n所以\n$$\\begin{aligned}abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}&\\geqslant abc+c+ab\\\\&=c(1+ab)+ab\\geqslant c(a+b)+ab\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=1$。",
+  "answer_md": "",
+  "hints_md": "Nguyen Thuc Vu Hoang, CPR",
+  "original_text_md": "例 5.4.6(Nguyen Thuc Vu Hoang,CPR) 设 $a,b,c$ 是正实数，证明\n$$abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant ab+bc+ca$$\n证明 在三个数 $a-1,b-1,c-1$ 中，存在两个数，不妨设为 $a-1,b-1$，它们具有相同的符号，于是\n$$(a-1)(b-1)\\geqslant 0\\Rightarrow 1+ab\\geqslant a+b.$$\n由 Hölder 不等式，我们有\n$$\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}=\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant c+ab$$\n所以\n$$\\begin{aligned}abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}&\\geqslant abc+c+ab\\\\&=c(1+ab)+ab\\geqslant c(a+b)+ab\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=1$。",
+  "tags": [
+    "非齐次不等式",
+    "Hölder不等式",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "c0156e2a34e887842c436b93f0b99dc763c0b659",
+  "raw_problem": {
+    "problem_id": "例5.4.6",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      182
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant ab+bc+ca$$",
+    "solution_md": "在三个数 $a-1,b-1,c-1$ 中，存在两个数，不妨设为 $a-1,b-1$，它们具有相同的符号，于是\n$$(a-1)(b-1)\\geqslant 0\\Rightarrow 1+ab\\geqslant a+b.$$\n由 Hölder 不等式，我们有\n$$\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}=\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant c+ab$$\n所以\n$$\\begin{aligned}abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}&\\geqslant abc+c+ab\\\\&=c(1+ab)+ab\\geqslant c(a+b)+ab\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=1$。",
+    "answer_md": "",
+    "hints_md": "Nguyen Thuc Vu Hoang, CPR",
+    "original_text_md": "例 5.4.6(Nguyen Thuc Vu Hoang,CPR) 设 $a,b,c$ 是正实数，证明\n$$abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant ab+bc+ca$$\n证明 在三个数 $a-1,b-1,c-1$ 中，存在两个数，不妨设为 $a-1,b-1$，它们具有相同的符号，于是\n$$(a-1)(b-1)\\geqslant 0\\Rightarrow 1+ab\\geqslant a+b.$$\n由 Hölder 不等式，我们有\n$$\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}=\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}\\geqslant c+ab$$\n所以\n$$\\begin{aligned}abc+\\sqrt[3]{(1+a^3)(1+b^3)(1+c^3)}&\\geqslant abc+c+ab\\\\&=c(1+ab)+ab\\geqslant c(a+b)+ab\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=1$。",
+    "tags": [
+      "非齐次不等式",
+      "Hölder不等式",
+      "正实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

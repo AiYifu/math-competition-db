@@ -1,0 +1,56 @@
+{
+  "uid": "p197_198_例733_053c9fad15",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.3 不确定整合变量法",
+  "problem_id": "例7.3.3",
+  "problem_type": "example",
+  "title": "Nguyen Minh Duc, IMO shortlist",
+  "source_pages": [
+    197,
+    198
+  ],
+  "source_images": [
+    "page-197.jpg",
+    "page-198.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=1$，证明\n$$abc + bcd + cda + dab \\leqslant \\frac{1}{27} + \\frac{176}{27}abcd$$",
+  "solution_md": "设\n$$f(a,b,c,d) = abc + bcd + cda + dab - \\frac{176}{27}abcd$$\n$$= ab(c+d) + cd(a+b) - \\frac{176}{27}abcd$$\n\n不等式 $f(a,b,c,d) \\leqslant f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right)$ 等价于\n$$(c+d)\\left[db - \\frac{(a+b)^2}{4}\\right] + \\frac{176}{27}cd\\left[\\frac{(a+b)^2}{4} - db\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{176}{27}cd \\leqslant c+d$$\n\n不等式 $f(a,b,c,d) \\leqslant f(0, a+b, c, d)$ 等价于\n$$ab(c+d - \\frac{176}{27}cd) \\leqslant 0 \\text{ 或者 } c+d \\leqslant \\frac{176}{27}cd$$\n\n由上面的结果，有\n$$f(a,b,c,d) \\leqslant \\max\\left\\{f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right), f(0, a+b, c, d)\\right\\}$$\n\n根据UMV定理，$f(a,b,c,d)$ 的最大值在 $a=b=c=d=\\frac{1}{4}$ 或四个数 $a,b,c,d$ 中有一个为0时达到。如果 $a=b=c=d=\\frac{1}{4}$，则不等式显然成立；另外，如果 $d=0$，则不等式变成\n$$abc \\leqslant \\frac{1}{27} \\quad (a+b+c=1)$$\n\n由AM-GM不等式，这也是成立的。从而原不等式得证。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "**例 7.3.3(Nguyen Minh Duc, IMO shortlist)** 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=1$，证明\n$$abc + bcd + cda + dab \\leqslant \\frac{1}{27} + \\frac{176}{27}abcd$$\n\n**证明** 设\n$$f(a,b,c,d) = abc + bcd + cda + dab - \\frac{176}{27}abcd$$\n$$= ab(c+d) + cd(a+b) - \\frac{176}{27}abcd$$\n\n不等式 $f(a,b,c,d) \\leqslant f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right)$ 等价于\n$$(c+d)\\left[db - \\frac{(a+b)^2}{4}\\right] + \\frac{176}{27}cd\\left[\\frac{(a+b)^2}{4} - db\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{176}{27}cd \\leqslant c+d$$\n\n不等式 $f(a,b,c,d) \\leqslant f(0, a+b, c, d)$ 等价于\n$$ab(c+d - \\frac{176}{27}cd) \\leqslant 0 \\text{ 或者 } c+d \\leqslant \\frac{176}{27}cd$$\n\n由上面的结果，有\n$$f(a,b,c,d) \\leqslant \\max\\left\\{f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right), f(0, a+b, c, d)\\right\\}$$\n\n根据UMV定理，$f(a,b,c,d)$ 的最大值在 $a=b=c=d=\\frac{1}{4}$ 或四个数 $a,b,c,d$ 中有一个为0时达到。如果 $a=b=c=d=\\frac{1}{4}$，则不等式显然成立；另外，如果 $d=0$，则不等式变成\n$$abc \\leqslant \\frac{1}{27} \\quad (a+b+c=1)$$\n\n由AM-GM不等式，这也是成立的。从而原不等式得证。",
+  "tags": [
+    "UMV方法",
+    "AM-GM不等式",
+    "IMO预选题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "053c9fad15354c9dae25279fc3ca13264a3f2640",
+  "raw_problem": {
+    "problem_id": "例7.3.3",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.3 不确定整合变量法",
+    "title": "Nguyen Minh Duc, IMO shortlist",
+    "source_pages": [
+      197,
+      198
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=1$，证明\n$$abc + bcd + cda + dab \\leqslant \\frac{1}{27} + \\frac{176}{27}abcd$$",
+    "solution_md": "设\n$$f(a,b,c,d) = abc + bcd + cda + dab - \\frac{176}{27}abcd$$\n$$= ab(c+d) + cd(a+b) - \\frac{176}{27}abcd$$\n\n不等式 $f(a,b,c,d) \\leqslant f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right)$ 等价于\n$$(c+d)\\left[db - \\frac{(a+b)^2}{4}\\right] + \\frac{176}{27}cd\\left[\\frac{(a+b)^2}{4} - db\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{176}{27}cd \\leqslant c+d$$\n\n不等式 $f(a,b,c,d) \\leqslant f(0, a+b, c, d)$ 等价于\n$$ab(c+d - \\frac{176}{27}cd) \\leqslant 0 \\text{ 或者 } c+d \\leqslant \\frac{176}{27}cd$$\n\n由上面的结果，有\n$$f(a,b,c,d) \\leqslant \\max\\left\\{f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right), f(0, a+b, c, d)\\right\\}$$\n\n根据UMV定理，$f(a,b,c,d)$ 的最大值在 $a=b=c=d=\\frac{1}{4}$ 或四个数 $a,b,c,d$ 中有一个为0时达到。如果 $a=b=c=d=\\frac{1}{4}$，则不等式显然成立；另外，如果 $d=0$，则不等式变成\n$$abc \\leqslant \\frac{1}{27} \\quad (a+b+c=1)$$\n\n由AM-GM不等式，这也是成立的。从而原不等式得证。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "**例 7.3.3(Nguyen Minh Duc, IMO shortlist)** 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=1$，证明\n$$abc + bcd + cda + dab \\leqslant \\frac{1}{27} + \\frac{176}{27}abcd$$\n\n**证明** 设\n$$f(a,b,c,d) = abc + bcd + cda + dab - \\frac{176}{27}abcd$$\n$$= ab(c+d) + cd(a+b) - \\frac{176}{27}abcd$$\n\n不等式 $f(a,b,c,d) \\leqslant f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right)$ 等价于\n$$(c+d)\\left[db - \\frac{(a+b)^2}{4}\\right] + \\frac{176}{27}cd\\left[\\frac{(a+b)^2}{4} - db\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{176}{27}cd \\leqslant c+d$$\n\n不等式 $f(a,b,c,d) \\leqslant f(0, a+b, c, d)$ 等价于\n$$ab(c+d - \\frac{176}{27}cd) \\leqslant 0 \\text{ 或者 } c+d \\leqslant \\frac{176}{27}cd$$\n\n由上面的结果，有\n$$f(a,b,c,d) \\leqslant \\max\\left\\{f\\left(\\frac{a+b}{2}, \\frac{a+b}{2}, c, d\\right), f(0, a+b, c, d)\\right\\}$$\n\n根据UMV定理，$f(a,b,c,d)$ 的最大值在 $a=b=c=d=\\frac{1}{4}$ 或四个数 $a,b,c,d$ 中有一个为0时达到。如果 $a=b=c=d=\\frac{1}{4}$，则不等式显然成立；另外，如果 $d=0$，则不等式变成\n$$abc \\leqslant \\frac{1}{27} \\quad (a+b+c=1)$$\n\n由AM-GM不等式，这也是成立的。从而原不等式得证。",
+    "tags": [
+      "UMV方法",
+      "AM-GM不等式",
+      "IMO预选题"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

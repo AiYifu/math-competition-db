@@ -1,0 +1,53 @@
+{
+  "uid": "p171_171_例529_9d0db8a83f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    171
+  ],
+  "source_images": [
+    "page-171.jpg"
+  ],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1x_2\\cdots x_n=1$，又设 $S=x_1+x_2+\\cdots+x_n$，证明\n$$\\frac{1}{1+S-x_1}+\\frac{1}{1+S-x_2}+\\cdots+\\frac{1}{1+S-x_n}\\leqslant1$$",
+  "solution_md": "令 $x_i=a_i^n,i\\in\\{1,2,\\cdots,n\\},S_n=a_1+a_2+\\cdots+a_n$，题设条件变成 $a_1a_2\\cdots a_n=1$。\n由 AM-GM 不等式，我们有\n$$1+S-x_i$$\n$$=1+x_1+x_2+\\cdots+x_{i-1}+x_{i+1}+\\cdots+x_n$$\n$$=a_1a_2\\cdots a_n+a_1^n+a_2^n+\\cdots+a_{i-1}^n+a_{i+1}^n+\\cdots+a_n^n$$\n$$\\geqslant a_1a_2\\cdots a_n+a_1a_2\\cdots a_{i-1}a_{i+1}\\cdots a_n(a_1+a_2+\\cdots+a_{i-1}+a_{i+1}+\\cdots+a_n)=\\frac{S_n}{a_i}$$\n所以",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.9 设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1x_2\\cdots x_n=1$，又设 $S=x_1+x_2+\\cdots+x_n$，证明\n$$\\frac{1}{1+S-x_1}+\\frac{1}{1+S-x_2}+\\cdots+\\frac{1}{1+S-x_n}\\leqslant1$$\n证明 令 $x_i=a_i^n,i\\in\\{1,2,\\cdots,n\\},S_n=a_1+a_2+\\cdots+a_n$，题设条件变成 $a_1a_2\\cdots a_n=1$。\n由 AM-GM 不等式，我们有\n$$1+S-x_i$$\n$$=1+x_1+x_2+\\cdots+x_{i-1}+x_{i+1}+\\cdots+x_n$$\n$$=a_1a_2\\cdots a_n+a_1^n+a_2^n+\\cdots+a_{i-1}^n+a_{i+1}^n+\\cdots+a_n^n$$\n$$\\geqslant a_1a_2\\cdots a_n+a_1a_2\\cdots a_{i-1}a_{i+1}\\cdots a_n(a_1+a_2+\\cdots+a_{i-1}+a_{i+1}+\\cdots+a_n)=\\frac{S_n}{a_i}$$\n所以",
+  "tags": [
+    "AM-GM不等式",
+    "n变量不等式",
+    "条件x1x2...xn=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "9d0db8a83f25ca42c0690cf770cfde78440467a3",
+  "raw_problem": {
+    "problem_id": "例5.2.9",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": null,
+    "source_pages": [
+      171
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1x_2\\cdots x_n=1$，又设 $S=x_1+x_2+\\cdots+x_n$，证明\n$$\\frac{1}{1+S-x_1}+\\frac{1}{1+S-x_2}+\\cdots+\\frac{1}{1+S-x_n}\\leqslant1$$",
+    "solution_md": "令 $x_i=a_i^n,i\\in\\{1,2,\\cdots,n\\},S_n=a_1+a_2+\\cdots+a_n$，题设条件变成 $a_1a_2\\cdots a_n=1$。\n由 AM-GM 不等式，我们有\n$$1+S-x_i$$\n$$=1+x_1+x_2+\\cdots+x_{i-1}+x_{i+1}+\\cdots+x_n$$\n$$=a_1a_2\\cdots a_n+a_1^n+a_2^n+\\cdots+a_{i-1}^n+a_{i+1}^n+\\cdots+a_n^n$$\n$$\\geqslant a_1a_2\\cdots a_n+a_1a_2\\cdots a_{i-1}a_{i+1}\\cdots a_n(a_1+a_2+\\cdots+a_{i-1}+a_{i+1}+\\cdots+a_n)=\\frac{S_n}{a_i}$$\n所以",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.9 设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $x_1x_2\\cdots x_n=1$，又设 $S=x_1+x_2+\\cdots+x_n$，证明\n$$\\frac{1}{1+S-x_1}+\\frac{1}{1+S-x_2}+\\cdots+\\frac{1}{1+S-x_n}\\leqslant1$$\n证明 令 $x_i=a_i^n,i\\in\\{1,2,\\cdots,n\\},S_n=a_1+a_2+\\cdots+a_n$，题设条件变成 $a_1a_2\\cdots a_n=1$。\n由 AM-GM 不等式，我们有\n$$1+S-x_i$$\n$$=1+x_1+x_2+\\cdots+x_{i-1}+x_{i+1}+\\cdots+x_n$$\n$$=a_1a_2\\cdots a_n+a_1^n+a_2^n+\\cdots+a_{i-1}^n+a_{i+1}^n+\\cdots+a_n^n$$\n$$\\geqslant a_1a_2\\cdots a_n+a_1a_2\\cdots a_{i-1}a_{i+1}\\cdots a_n(a_1+a_2+\\cdots+a_{i-1}+a_{i+1}+\\cdots+a_n)=\\frac{S_n}{a_i}$$\n所以",
+    "tags": [
+      "AM-GM不等式",
+      "n变量不等式",
+      "条件x1x2...xn=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

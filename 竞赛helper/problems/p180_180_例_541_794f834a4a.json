@@ -1,0 +1,53 @@
+{
+  "uid": "p180_180_例_541_794f834a4a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.4 系列问题 D:非齐次化",
+  "section": null,
+  "problem_id": "例 5.4.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    180
+  ],
+  "source_images": [
+    "page-180.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\geqslant\\frac{3}{abc(1+abc)}$$",
+  "solution_md": "注意到下面的变换\n$$\\frac{a^3b^3c^3+1}{a^3(1+b^3)}+1=\\frac{b^3(1+c^3)}{1+b^3}+\\frac{a^3+1}{a^3(1+b^3)}$$\n则由 AM-GM 不等式，我们有\n$$\\begin{aligned}&3+(a^3b^3c^3+1)\\left[\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\right]\\\\=&\\sum\\frac{a^3+1}{a^3(1+b^3)}+\\sum\\frac{b^3(1+c^3)}{1+b^3}\\geqslant\\frac{3}{abc}+3abc\\end{aligned}$$\n另一方面，显然有恒等式\n$$\\frac{a^3b^3c^3+1}{abc(abc+1)}=\\frac{1}{abc}+abc-1$$\n所以，不等式得证，等号成立的条件是 $a=b=c=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.4.1 设 $a,b,c$ 是正实数，证明\n$$\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\geqslant\\frac{3}{abc(1+abc)}$$\n证明 注意到下面的变换\n$$\\frac{a^3b^3c^3+1}{a^3(1+b^3)}+1=\\frac{b^3(1+c^3)}{1+b^3}+\\frac{a^3+1}{a^3(1+b^3)}$$\n则由 AM-GM 不等式，我们有\n$$3+(a^3b^3c^3+1)\\left[\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\right]$$\n$$=\\sum\\frac{a^3+1}{a^3(1+b^3)}+\\sum\\frac{b^3(1+c^3)}{1+b^3}\\geqslant\\frac{3}{abc}+3abc$$\n另一方面，显然有恒等式\n$$\\frac{a^3b^3c^3+1}{abc(abc+1)}=\\frac{1}{abc}+abc-1$$\n所以，不等式得证，等号成立的条件是 $a=b=c=1$。",
+  "tags": [
+    "非齐次不等式",
+    "AM-GM不等式",
+    "恒等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "794f834a4aae9abb2e9cdac1393dfa47b56de032",
+  "raw_problem": {
+    "problem_id": "例 5.4.1",
+    "problem_type": "example",
+    "chapter": "5.4 系列问题 D:非齐次化",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      180
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\geqslant\\frac{3}{abc(1+abc)}$$",
+    "solution_md": "注意到下面的变换\n$$\\frac{a^3b^3c^3+1}{a^3(1+b^3)}+1=\\frac{b^3(1+c^3)}{1+b^3}+\\frac{a^3+1}{a^3(1+b^3)}$$\n则由 AM-GM 不等式，我们有\n$$\\begin{aligned}&3+(a^3b^3c^3+1)\\left[\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\right]\\\\=&\\sum\\frac{a^3+1}{a^3(1+b^3)}+\\sum\\frac{b^3(1+c^3)}{1+b^3}\\geqslant\\frac{3}{abc}+3abc\\end{aligned}$$\n另一方面，显然有恒等式\n$$\\frac{a^3b^3c^3+1}{abc(abc+1)}=\\frac{1}{abc}+abc-1$$\n所以，不等式得证，等号成立的条件是 $a=b=c=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.4.1 设 $a,b,c$ 是正实数，证明\n$$\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\geqslant\\frac{3}{abc(1+abc)}$$\n证明 注意到下面的变换\n$$\\frac{a^3b^3c^3+1}{a^3(1+b^3)}+1=\\frac{b^3(1+c^3)}{1+b^3}+\\frac{a^3+1}{a^3(1+b^3)}$$\n则由 AM-GM 不等式，我们有\n$$3+(a^3b^3c^3+1)\\left[\\frac{1}{a^3(1+b^3)}+\\frac{1}{b^3(1+c^3)}+\\frac{1}{c^3(1+a^3)}\\right]$$\n$$=\\sum\\frac{a^3+1}{a^3(1+b^3)}+\\sum\\frac{b^3(1+c^3)}{1+b^3}\\geqslant\\frac{3}{abc}+3abc$$\n另一方面，显然有恒等式\n$$\\frac{a^3b^3c^3+1}{abc(abc+1)}=\\frac{1}{abc}+abc-1$$\n所以，不等式得证，等号成立的条件是 $a=b=c=1$。",
+    "tags": [
+      "非齐次不等式",
+      "AM-GM不等式",
+      "恒等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

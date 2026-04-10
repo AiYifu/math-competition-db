@@ -1,0 +1,54 @@
+{
+  "uid": "p046_047_例142_991be0fd0b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    46,
+    47
+  ],
+  "source_images": [
+    "page-046.jpg",
+    "page-047.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$",
+  "solution_md": "不等式改写成如下形式\n$$\\sum\\left(\\frac{a^2}{b}+b-2a\\right)\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}-(a+b+c)$$\n$$\\Leftrightarrow\\sum\\frac{(a-b)^2}{b}\\geqslant\\sum\\frac{(a+b)(a-b)^2}{a^2+b^2+c^2}$$\n$$\\Leftrightarrow\\sum\\left(\\frac{a^2+b^2+c^2}{b}-a-b\\right)(a-b)^2$$\n$$=\\sum\\left(\\frac{a^2+c^2}{b}-a\\right)(a-b)^2$$\n$$=\\sum S_a(b-c)^2\\geqslant0$$\n\n其中\n$$S_c=\\frac{a^2+c^2}{b}-a$$\n$$S_a=\\frac{a^2+b^2}{c}-b$$\n$$S_b=\\frac{b^2+c^2}{a}-c$$\n\n我们考虑下列两种情况。\n\n(1) $a\\geqslant b\\geqslant c$。显然，$S_a,S_c\\geqslant0$。另外\n$$S_a+2S_b=\\frac{a^2+b^2}{c}+\\frac{2b^2+2c^2}{a}-b-2c$$\n$$=\\left(\\frac{b^2}{c}-c\\right)+\\left(\\frac{a^2}{b}+\\frac{2b^2}{a}-b-c\\right)\\geqslant0$$\n$$S_c+2S_b=\\frac{a^2+c^2}{b}+\\frac{2b^2+2c^2}{a}-a-2c$$\n$$=\\left(\\frac{a^2}{b}+\\frac{b^2}{a}-a-b\\right)+\\left(\\frac{c^2}{b}+b-2c\\right)\\geqslant0$$\n\n因此，由 SOS 定理的条件(3)可知，不等式是成立的。\n\n(2) $a\\leqslant b\\leqslant c$。显然 $S_b,S_c\\geqslant0$，另外\n$$S_b+S_a=\\frac{a^2+b^2}{c}+\\frac{a^2+c^2}{b}-a-b\\geqslant\\frac{b^2}{c}+\\frac{c^2}{b}-b-c\\geqslant0$$\n\n于是，由 SOS 定理之条件(2)可知，不等式成立。\n\n综上所述，原不等式是成立的。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.2 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$\n证明 不等式改写成如下形式...",
+  "tags": [
+    "SOS方法",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "991be0fd0bd79aaac3a2336204f896f541bd271d",
+  "raw_problem": {
+    "problem_id": "例1.4.2",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      46,
+      47
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$",
+    "solution_md": "不等式改写成如下形式\n$$\\sum\\left(\\frac{a^2}{b}+b-2a\\right)\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}-(a+b+c)$$\n$$\\Leftrightarrow\\sum\\frac{(a-b)^2}{b}\\geqslant\\sum\\frac{(a+b)(a-b)^2}{a^2+b^2+c^2}$$\n$$\\Leftrightarrow\\sum\\left(\\frac{a^2+b^2+c^2}{b}-a-b\\right)(a-b)^2$$\n$$=\\sum\\left(\\frac{a^2+c^2}{b}-a\\right)(a-b)^2$$\n$$=\\sum S_a(b-c)^2\\geqslant0$$\n\n其中\n$$S_c=\\frac{a^2+c^2}{b}-a$$\n$$S_a=\\frac{a^2+b^2}{c}-b$$\n$$S_b=\\frac{b^2+c^2}{a}-c$$\n\n我们考虑下列两种情况。\n\n(1) $a\\geqslant b\\geqslant c$。显然，$S_a,S_c\\geqslant0$。另外\n$$S_a+2S_b=\\frac{a^2+b^2}{c}+\\frac{2b^2+2c^2}{a}-b-2c$$\n$$=\\left(\\frac{b^2}{c}-c\\right)+\\left(\\frac{a^2}{b}+\\frac{2b^2}{a}-b-c\\right)\\geqslant0$$\n$$S_c+2S_b=\\frac{a^2+c^2}{b}+\\frac{2b^2+2c^2}{a}-a-2c$$\n$$=\\left(\\frac{a^2}{b}+\\frac{b^2}{a}-a-b\\right)+\\left(\\frac{c^2}{b}+b-2c\\right)\\geqslant0$$\n\n因此，由 SOS 定理的条件(3)可知，不等式是成立的。\n\n(2) $a\\leqslant b\\leqslant c$。显然 $S_b,S_c\\geqslant0$，另外\n$$S_b+S_a=\\frac{a^2+b^2}{c}+\\frac{a^2+c^2}{b}-a-b\\geqslant\\frac{b^2}{c}+\\frac{c^2}{b}-b-c\\geqslant0$$\n\n于是，由 SOS 定理之条件(2)可知，不等式成立。\n\n综上所述，原不等式是成立的。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.2 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$\n证明 不等式改写成如下形式...",
+    "tags": [
+      "SOS方法",
+      "不等式证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}
