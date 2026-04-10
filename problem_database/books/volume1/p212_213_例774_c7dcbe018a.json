@@ -1,0 +1,56 @@
+{
+  "uid": "p212_213_例774_c7dcbe018a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    212,
+    213
+  ],
+  "source_images": [
+    "page-212.jpg",
+    "page-213.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$",
+  "solution_md": "**证明** 不失一般性，设 $c=\\min\\{a,b,c\\}$，我们有\n\n$$\\sum\\frac{a^2}{b}-\\sum a=\\sum\\frac{a^2-b^2}{b}=\\left(\\frac{a^2-b^2}{b}+\\frac{b^2-a^2}{a}\\right)+\\frac{b^2-c^2}{c}+\\frac{c^2-a^2}{a}-\\frac{b^2-a^2}{a}$$\n\n$$=\\frac{(a+b)(a-b)^2}{ab}+\\frac{(b+c)(c-a)(c-b)}{ca}$$\n\n类似地\n\n$$\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}-(a+b+c)=\\frac{2(a+b)(a-b)^2}{a^2+b^2+c^2}+\\frac{(a+b+2c)(c-a)(c-b)}{a^2+b^2+c^2}$$\n\n所以，不等式可以改写成\n\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M=\\frac{a+b}{ab}-\\frac{2(a+b)}{a^2+b^2+c^2}, N=\\frac{b+c}{ac}-\\frac{a+b+2c}{a^2+b^2+c^2}$$\n\n当然，$M\\geqslant 0$。另外，$N\\geqslant 0$。因为\n\n$$(a^2+b^2+c^2)(b+c)\\geqslant 2c(a^2+b^2+c^2)=c\\left[a^2+\\left(\\frac{a^2}{8}+2b^2\\right)+\\left(\\frac{a^2}{2}+2c^2\\right)+\\frac{3a^2}{8}\\right]$$\n\n$$\\geqslant c(a^2+ab+2ac)=ca(a+b+2c)$$\n\n所以，原不等式成立。当且仅当 $a=b=c$ 时，等号成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.4 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "分式不等式",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "c7dcbe018ad142752bcd4f04026a8aa9a2151784",
+  "raw_problem": {
+    "problem_id": "例7.7.4",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": null,
+    "source_pages": [
+      212,
+      213
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$",
+    "solution_md": "**证明** 不失一般性，设 $c=\\min\\{a,b,c\\}$，我们有\n\n$$\\sum\\frac{a^2}{b}-\\sum a=\\sum\\frac{a^2-b^2}{b}=\\left(\\frac{a^2-b^2}{b}+\\frac{b^2-a^2}{a}\\right)+\\frac{b^2-c^2}{c}+\\frac{c^2-a^2}{a}-\\frac{b^2-a^2}{a}$$\n\n$$=\\frac{(a+b)(a-b)^2}{ab}+\\frac{(b+c)(c-a)(c-b)}{ca}$$\n\n类似地\n\n$$\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}-(a+b+c)=\\frac{2(a+b)(a-b)^2}{a^2+b^2+c^2}+\\frac{(a+b+2c)(c-a)(c-b)}{a^2+b^2+c^2}$$\n\n所以，不等式可以改写成\n\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M=\\frac{a+b}{ab}-\\frac{2(a+b)}{a^2+b^2+c^2}, N=\\frac{b+c}{ac}-\\frac{a+b+2c}{a^2+b^2+c^2}$$\n\n当然，$M\\geqslant 0$。另外，$N\\geqslant 0$。因为\n\n$$(a^2+b^2+c^2)(b+c)\\geqslant 2c(a^2+b^2+c^2)=c\\left[a^2+\\left(\\frac{a^2}{8}+2b^2\\right)+\\left(\\frac{a^2}{2}+2c^2\\right)+\\frac{3a^2}{8}\\right]$$\n\n$$\\geqslant c(a^2+ab+2ac)=ca(a+b+2c)$$\n\n所以，原不等式成立。当且仅当 $a=b=c$ 时，等号成立。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.4 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\geqslant\\frac{3(a^3+b^3+c^3)}{a^2+b^2+c^2}$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "分式不等式",
+      "正实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

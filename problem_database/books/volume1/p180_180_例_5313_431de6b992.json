@@ -1,0 +1,53 @@
+{
+  "uid": "p180_180_例_5313_431de6b992",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.13",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    180
+  ],
+  "source_images": [
+    "page-180.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $(a+b+c+d)^2=3(a^2+b^2+c^2+d^2)$，证明下列不等式\n$$(a+b+c+d)^3\\leqslant 27(abc+bcd+cda+dab)$$",
+  "solution_md": "设 $m=a+b,n=c+d,x=ab,y=cd$，则\n$$(m+n)^2=3(m^2+n^2-2x-2y)\\Leftrightarrow 3(x+y)=m^2-mn+n^2$$\n因此\n$$\\begin{aligned}&a^3+b^3+c^3+d^3-3(abc+bcd+cda+dab)\\\\=&m^3+n^3-3(x+y)(m+n)\\\\=&m^3+n^3-(m^2-mn+n^2)(m+n)=0\\end{aligned}$$\n根据 Cauchy-Schwarz 不等式，我们有\n$$\\begin{aligned}&(a^3+b^3+c^3+d^3)(a+b+c+d)\\\\\\geqslant&(a^2+b^2+c^2+d^2)^2\\\\=&\\frac{1}{9}(a+b+c+d)^4\\\\\\Rightarrow&a^3+b^3+c^3+d^3\\\\\\geqslant&\\frac{1}{9}(a+b+c+d)^3\\\\\\Rightarrow&abc+bcd+cda+dab\\\\\\geqslant&\\frac{1}{27}(a+b+c+d)^3\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c,d=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.13(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $(a+b+c+d)^2=3(a^2+b^2+c^2+d^2)$，证明下列不等式\n$$(a+b+c+d)^3\\leqslant 27(abc+bcd+cda+dab)$$\n证明 设 $m=a+b,n=c+d,x=ab,y=cd$，则\n$$(m+n)^2=3(m^2+n^2-2x-2y)\\Leftrightarrow 3(x+y)=m^2-mn+n^2$$\n因此\n$$a^3+b^3+c^3+d^3-3(abc+bcd+cda+dab)$$\n$$=m^3+n^3-3(x+y)(m+n)$$\n$$=m^3+n^3-(m^2-mn+n^2)(m+n)=0$$\n根据 Cauchy-Schwarz 不等式，我们有\n$$(a^3+b^3+c^3+d^3)(a+b+c+d)$$\n$$\\geqslant(a^2+b^2+c^2+d^2)^2$$\n$$=\\frac{1}{9}(a+b+c+d)^4$$\n$$\\Rightarrow a^3+b^3+c^3+d^3$$\n$$\\geqslant\\frac{1}{9}(a+b+c+d)^3$$\n$$\\Rightarrow abc+bcd+cda+dab$$\n$$\\geqslant\\frac{1}{27}(a+b+c+d)^3$$\n不等式得证，等号成立的条件是 $a=b=c,d=0$ 或其轮换。",
+  "tags": [
+    "四元不等式",
+    "Cauchy-Schwarz",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "431de6b9923d95c3f762f93868b28cc0bd685d2d",
+  "raw_problem": {
+    "problem_id": "例 5.3.13",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      180
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $(a+b+c+d)^2=3(a^2+b^2+c^2+d^2)$，证明下列不等式\n$$(a+b+c+d)^3\\leqslant 27(abc+bcd+cda+dab)$$",
+    "solution_md": "设 $m=a+b,n=c+d,x=ab,y=cd$，则\n$$(m+n)^2=3(m^2+n^2-2x-2y)\\Leftrightarrow 3(x+y)=m^2-mn+n^2$$\n因此\n$$\\begin{aligned}&a^3+b^3+c^3+d^3-3(abc+bcd+cda+dab)\\\\=&m^3+n^3-3(x+y)(m+n)\\\\=&m^3+n^3-(m^2-mn+n^2)(m+n)=0\\end{aligned}$$\n根据 Cauchy-Schwarz 不等式，我们有\n$$\\begin{aligned}&(a^3+b^3+c^3+d^3)(a+b+c+d)\\\\\\geqslant&(a^2+b^2+c^2+d^2)^2\\\\=&\\frac{1}{9}(a+b+c+d)^4\\\\\\Rightarrow&a^3+b^3+c^3+d^3\\\\\\geqslant&\\frac{1}{9}(a+b+c+d)^3\\\\\\Rightarrow&abc+bcd+cda+dab\\\\\\geqslant&\\frac{1}{27}(a+b+c+d)^3\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c,d=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.13(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $(a+b+c+d)^2=3(a^2+b^2+c^2+d^2)$，证明下列不等式\n$$(a+b+c+d)^3\\leqslant 27(abc+bcd+cda+dab)$$\n证明 设 $m=a+b,n=c+d,x=ab,y=cd$，则\n$$(m+n)^2=3(m^2+n^2-2x-2y)\\Leftrightarrow 3(x+y)=m^2-mn+n^2$$\n因此\n$$a^3+b^3+c^3+d^3-3(abc+bcd+cda+dab)$$\n$$=m^3+n^3-3(x+y)(m+n)$$\n$$=m^3+n^3-(m^2-mn+n^2)(m+n)=0$$\n根据 Cauchy-Schwarz 不等式，我们有\n$$(a^3+b^3+c^3+d^3)(a+b+c+d)$$\n$$\\geqslant(a^2+b^2+c^2+d^2)^2$$\n$$=\\frac{1}{9}(a+b+c+d)^4$$\n$$\\Rightarrow a^3+b^3+c^3+d^3$$\n$$\\geqslant\\frac{1}{9}(a+b+c+d)^3$$\n$$\\Rightarrow abc+bcd+cda+dab$$\n$$\\geqslant\\frac{1}{27}(a+b+c+d)^3$$\n不等式得证，等号成立的条件是 $a=b=c,d=0$ 或其轮换。",
+    "tags": [
+      "四元不等式",
+      "Cauchy-Schwarz",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "uid": "p170_171_例525_97221601d6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    170,
+    171
+  ],
+  "source_images": [
+    "page-170.jpg",
+    "page-171.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}+\\sqrt{\\frac{b^3}{b^3+(c+a)^3}}+\\sqrt{\\frac{c^3}{c^3+(a+b)^3}}\\geqslant1$$",
+  "solution_md": "我们来证明，对所有正实数 $a,b,c$，有\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\frac{a^2}{a^2+b^2+c^2}$$\n事实上，这个不等式等价于\n$$\\frac{a^3}{a^3+(b+c)^3}\\geqslant\\frac{a^4}{(a^2+b^2+c^2)^2}$$\n$$\\Leftrightarrow2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant a(b+c)^3$$\n由于 $8(b^2+c^2)^3\\geqslant(b+c)^6$，所以\n$$2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant2\\sqrt{2a^2(b^2+c^2)^3}\\geqslant a(b+c)^3$$\n因此\n$$\\sum\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\sum\\frac{a^2}{a^2+b^2+c^2}=1$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.5 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}+\\sqrt{\\frac{b^3}{b^3+(c+a)^3}}+\\sqrt{\\frac{c^3}{c^3+(a+b)^3}}\\geqslant1$$\n证明 我们来证明，对所有正实数 $a,b,c$，有\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\frac{a^2}{a^2+b^2+c^2}$$\n事实上，这个不等式等价于\n$$\\frac{a^3}{a^3+(b+c)^3}\\geqslant\\frac{a^4}{(a^2+b^2+c^2)^2}$$\n$$\\Leftrightarrow2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant a(b+c)^3$$\n由于 $8(b^2+c^2)^3\\geqslant(b+c)^6$，所以\n$$2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant2\\sqrt{2a^2(b^2+c^2)^3}\\geqslant a(b+c)^3$$\n因此\n$$\\sum\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\sum\\frac{a^2}{a^2+b^2+c^2}=1$$",
+  "tags": [
+    "根式不等式",
+    "分离技巧"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "97221601d6be05b9aacb50e94aa2d700c4596a13",
+  "raw_problem": {
+    "problem_id": "例5.2.5",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": null,
+    "source_pages": [
+      170,
+      171
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}+\\sqrt{\\frac{b^3}{b^3+(c+a)^3}}+\\sqrt{\\frac{c^3}{c^3+(a+b)^3}}\\geqslant1$$",
+    "solution_md": "我们来证明，对所有正实数 $a,b,c$，有\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\frac{a^2}{a^2+b^2+c^2}$$\n事实上，这个不等式等价于\n$$\\frac{a^3}{a^3+(b+c)^3}\\geqslant\\frac{a^4}{(a^2+b^2+c^2)^2}$$\n$$\\Leftrightarrow2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant a(b+c)^3$$\n由于 $8(b^2+c^2)^3\\geqslant(b+c)^6$，所以\n$$2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant2\\sqrt{2a^2(b^2+c^2)^3}\\geqslant a(b+c)^3$$\n因此\n$$\\sum\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\sum\\frac{a^2}{a^2+b^2+c^2}=1$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.5 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}+\\sqrt{\\frac{b^3}{b^3+(c+a)^3}}+\\sqrt{\\frac{c^3}{c^3+(a+b)^3}}\\geqslant1$$\n证明 我们来证明，对所有正实数 $a,b,c$，有\n$$\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\frac{a^2}{a^2+b^2+c^2}$$\n事实上，这个不等式等价于\n$$\\frac{a^3}{a^3+(b+c)^3}\\geqslant\\frac{a^4}{(a^2+b^2+c^2)^2}$$\n$$\\Leftrightarrow2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant a(b+c)^3$$\n由于 $8(b^2+c^2)^3\\geqslant(b+c)^6$，所以\n$$2a^2(b^2+c^2)+(b^2+c^2)^2\\geqslant2\\sqrt{2a^2(b^2+c^2)^3}\\geqslant a(b+c)^3$$\n因此\n$$\\sum\\sqrt{\\frac{a^3}{a^3+(b+c)^3}}\\geqslant\\sum\\frac{a^2}{a^2+b^2+c^2}=1$$",
+    "tags": [
+      "根式不等式",
+      "分离技巧"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

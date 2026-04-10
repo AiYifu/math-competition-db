@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_32_f095a099fa",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "32",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "设 $x_{i} \\in \\mathbf{R} (i = 1, 2, \\cdots, n, n \\geqslant 3)$. 令 $p = \\sum_{i=1}^{n} x_{i}$, $q = \\sum_{1 \\leqslant i < j \\leqslant n} x_{i}x_{j}$, 求证: $\\frac{n-1}{n} p^{2} - 2q \\geqslant 0$; $\\left|x_{i} - \\frac{p}{n}\\right| \\leqslant \\frac{n-1}{n} \\sqrt{p^{2} - \\frac{2n}{n-1}q}$, $i = 1, 2, \\cdots, n$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_{i} \\in \\mathbf{R} (i = 1, 2, \\cdots, n, n \\geqslant 3)$. 令 $p = \\sum_{i=1}^{n} x_{i}$, $q = \\sum_{1 \\leqslant i < j \\leqslant n} x_{i}x_{j}$, 求证: $\\frac{n-1}{n} p^{2} - 2q \\geqslant 0$; $\\left|x_{i} - \\frac{p}{n}\\right| \\leqslant \\frac{n-1}{n} \\sqrt{p^{2} - \\frac{2n}{n-1}q}$, $i = 1, 2, \\cdots, n$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

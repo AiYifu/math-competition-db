@@ -1,0 +1,24 @@
+{
+  "uid": "p179_179_例5_3_14_883efdfba6",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "3",
+  "problem_id": "例5.3.14",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    179
+  ],
+  "stem_md": "设 $a, b, c, d$ 是实数, 且满足 $a+b+c+d=2$, 证明\n$a^{4}+b^{4}+c^{4}+d^{4}-4abcd \\geqslant 2(a-b)(c-d)$",
+  "solution_md": "使用下列恒等式\n$2(a^{4}+b^{4}+c^{4}+d^{4}-4abcd)$\n$=[(a-b)^{2}+(c-d)^{2}][(a+b)^{2}+(c+d)^{2}]+(a^{2}+b^{2}-c^{2}-d^{2})^{2}$\n由于 $a+b+c+d=2$, 所以\n$(a+b)^{2}+(c+d)^{2} \\geqslant \\frac{1}{2}(a+b+c+d)^{2}=2$\n因此\n$2(a^{4}+b^{4}+c^{4}+d^{4}-4abcd)$\n$\\geqslant 2[(a-b)(a+c)(a+d)+(a+b)(c+d)]$\n$\\Rightarrow a^{2}+1=\\frac{(a+c)(a+d)}{a+b+c+d}$\n$\\Rightarrow abc+bcd+cda+dab$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.14(Pham Kim Hung Mathlinks) 设 $a, b, c, d$ 是实数, 且满足 $a+b+c+d=2$, 证明\n$a^{4}+b^{4}+c^{4}+d^{4}-4abcd \\geqslant 2(a-b)(c-d)$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

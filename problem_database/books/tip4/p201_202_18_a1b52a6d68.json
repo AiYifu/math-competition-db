@@ -1,0 +1,25 @@
+{
+  "uid": "p201_202_18_a1b52a6d68",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "18",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    201,
+    202
+  ],
+  "stem_md": "如图所示, 在 $\\triangle ABC$ 中, 设 $AB = c$, $AC = b$, $BC = a$, 且 $\\angle BAC = \\alpha$, 考虑 $\\triangle ABC$ 的外接圆周上边 $BC$ 的对弧 $\\widehat{BAC}$, 因为弧的中点 $D$ 是弧上离弦 $BC$ 最远的点, 所以对 $\\triangle ABC$ 与 $\\triangle DBC$ 的高 $AH = h$ 与 $DK$, 有 $h \\leqslant DK = BK \\cdot \\cot \\frac{\\angle BDC}{2}$",
+  "solution_md": "$= \\frac{a}{2} \\cot \\frac{\\alpha}{2}$. 由平均值不等式, 得 $\\frac{ab + ac + bc}{4S} \\geq \\frac{3}{4S} \\sqrt[3]{a^2b^2c^2} = \\frac{3}{2} \\sqrt{\\frac{a^2b^2c^2}{\\left(\\frac{1}{2}bc \\sin \\alpha\\right)^2} \\cdot \\frac{1}{2}ah} = \\frac{3}{2} \\sqrt{\\frac{a}{h \\sin^2 \\alpha}} \\geq \\frac{3}{2} \\sqrt[3]{\\frac{2}{\\sin^2 \\alpha \\cot \\frac{\\alpha}{2}}}$. 令 $\\cos \\alpha = x$, 再由平均值不等式, 得 $\\frac{1}{2} \\sin^2 \\alpha \\cot \\frac{\\alpha}{2} = \\sin \\alpha \\cos^2 \\frac{\\alpha}{2} = \\frac{1}{2} \\sin \\alpha (1 + \\cos \\alpha) = \\frac{1}{2} \\sqrt{1 - x^2} (1 + x) = \\frac{1}{2} \\sqrt{(1 + x)^3 (1 - x)} = \\frac{1}{2} \\sqrt{27 \\left(\\frac{1 + x}{3}\\right)^3 (1 - x)} \\leq \\frac{1}{2} \\sqrt{27 \\left[\\frac{1}{4} \\left(3 \\cdot \\frac{1 + x}{3} + (1 - x)\\right)\\right]^2} = \\frac{1}{2} \\sqrt{27 \\left(\\frac{2}{4}\\right)^2} = \\left(\\frac{\\sqrt{3}}{2}\\right)^3$. 从而 $\\frac{ab + bc + ca}{4S} \\geq \\frac{3}{2} \\cdot \\frac{2}{\\sqrt{3}} = \\sqrt{3}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "如图所示, 在 $\\triangle ABC$ 中, 设 $AB = c$, $AC = b$, $BC = a$, 且 $\\angle BAC = \\alpha$, 考虑 $\\triangle ABC$ 的外接圆周上边 $BC$ 的对弧 $\\widehat{BAC}$, 因为弧的中点 $D$ 是弧上离弦 $BC$ 最远的点, 所以对 $\\triangle ABC$ 与 $\\triangle DBC$ 的高 $AH = h$ 与 $DK$, 有 $h \\leqslant DK = BK \\cdot \\cot \\frac{\\angle BDC}{2}$ $= \\frac{a}{2} \\cot \\frac{\\alpha}{2}$. 由平均值不等式, 得 $\\frac{ab + ac + bc}{4S} \\geq \\frac{3}{4S} \\sqrt[3]{a^2b^2c^2} = \\frac{3}{2} \\sqrt{\\frac{a^2b^2c^2}{\\left(\\frac{1}{2}bc \\sin \\alpha\\right)^2} \\cdot \\frac{1}{2}ah} = \\frac{3}{2} \\sqrt{\\frac{a}{h \\sin^2 \\alpha}} \\geq \\frac{3}{2} \\sqrt[3]{\\frac{2}{\\sin^2 \\alpha \\cot \\frac{\\alpha}{2}}}$. 令 $\\cos \\alpha = x$, 再由平均值不等式, 得 $\\frac{1}{2} \\sin^2 \\alpha \\cot \\frac{\\alpha}{2} = \\sin \\alpha \\cos^2 \\frac{\\alpha}{2} = \\frac{1}{2} \\sin \\alpha (1 + \\cos \\alpha) = \\frac{1}{2} \\sqrt{1 - x^2} (1 + x) = \\frac{1}{2} \\sqrt{(1 + x)^3 (1 - x)} = \\frac{1}{2} \\sqrt{27 \\left(\\frac{1 + x}{3}\\right)^3 (1 - x)} \\leq \\frac{1}{2} \\sqrt{27 \\left[\\frac{1}{4} \\left(3 \\cdot \\frac{1 + x}{3} + (1 - x)\\right)\\right]^2} = \\frac{1}{2} \\sqrt{27 \\left(\\frac{2}{4}\\right)^2} = \\left(\\frac{\\sqrt{3}}{2}\\right)^3$. 从而 $\\frac{ab + bc + ca}{4S} \\geq \\frac{3}{2} \\cdot \\frac{2}{\\sqrt{3}} = \\sqrt{3}$.",
+  "tags": [
+    "几何",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

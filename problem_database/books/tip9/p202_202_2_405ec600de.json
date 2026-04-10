@@ -1,0 +1,21 @@
+{
+  "uid": "p202_202_2_405ec600de",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "2",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202
+  ],
+  "stem_md": "2. 设 $(k - 1)(a_1 + a_3 + \\cdots + a_{2k - 1}) \\geqslant k(a_2 + a_4 + \\cdots + a_{2k - 2})$, 要证命题对 $n$ 成立, 只须证 $a_1 + a_2 + \\cdots + a_{2k - 1} + ka_{2k + 2} \\geqslant a_2 + a_4 + \\cdots + a_{2k - 2} + (k + 1)a_{2k}$, 即 $k(a_{2k + 1} - a_{2k}) \\geqslant (a_2 - a_1) + \\cdots + (a_{2k} - a_{2k - 1})$, 由条件 $a_{i + 2} - a_{i + 1} \\geqslant a_{i + 1} - a_i$, 这是显然的.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "2. 设 $(k - 1)(a_1 + a_3 + \\cdots + a_{2k - 1}) \\geqslant k(a_2 + a_4 + \\cdots + a_{2k - 2})$, 要证命题对 $n$ 成立, 只须证 $a_1 + a_2 + \\cdots + a_{2k - 1} + ka_{2k + 2} \\geqslant a_2 + a_4 + \\cdots + a_{2k - 2} + (k + 1)a_{2k}$, 即 $k(a_{2k + 1} - a_{2k}) \\geqslant (a_2 - a_1) + \\cdots + (a_{2k} - a_{2k - 1})$, 由条件 $a_{i + 2} - a_{i + 1} \\geqslant a_{i + 1} - a_i$, 这是显然的.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026"
+}

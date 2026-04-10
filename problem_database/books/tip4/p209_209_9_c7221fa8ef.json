@@ -1,0 +1,24 @@
+{
+  "uid": "p209_209_9_c7221fa8ef",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "9",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "记 $A=\\frac{a^2}{ab^2(4-ab)}+\\frac{b^2}{bc^2(4-bc)}+\\frac{c^2}{ca^2(4-ca)}$, $B=\\frac{b^2}{ab^2(4-ab)}+\\frac{c^2}{bc^2(4-bc)}+\\frac{a^2}{ca^2(4-ca)}$. 欲证明原不等式, 只需证明 $A\\geqslant1$, $B\\geqslant1$. 由柯西-施瓦兹不等式得 $\\left(\\frac{4-ab}{a}+\\frac{4-bc}{b}+\\frac{4-ac}{c}\\right)A\\geqslant\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^2$. 设 $k=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}$, 则 $A\\geqslant\\frac{k^2}{4k-3}$. 由 $(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\geqslant3^2\\Rightarrow k=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\geqslant3\\Rightarrow(k-3)(k-1)\\geqslant0\\Rightarrow k^2-4k+3\\geqslant0\\Rightarrow A=\\frac{k^2}{4k-3}\\geqslant1$. 又因为 $B=\\frac{1}{a(4-ab)}+\\frac{1}{b(4-bc)}+\\frac{1}{c(4-ca)}$, 则 $\\left(\\frac{4-ab}{a}+\\frac{4-bc}{b}+\\frac{4-ca}{c}\\right)B\\geqslant\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^2$. 故 $B\\geqslant\\frac{k^2}{4k-3}\\geqslant1$. 因此, $A+3B\\geqslant4$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "9. 记 $A=\\frac{a^2}{ab^2(4-ab)}+\\frac{b^2}{bc^2(4-bc)}+\\frac{c^2}{ca^2(4-ca)}$, $B=\\frac{b^2}{ab^2(4-ab)}+\\frac{c^2}{bc^2(4-bc)}+\\frac{a^2}{ca^2(4-ca)}$. 欲证明原不等式, 只需证明 $A\\geqslant1$, $B\\geqslant1$. 由柯西-施瓦兹不等式得 $\\left(\\frac{4-ab}{a}+\\frac{4-bc}{b}+\\frac{4-ac}{c}\\right)A\\geqslant\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^2$. 设 $k=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}$, 则 $A\\geqslant\\frac{k^2}{4k-3}$. 由 $(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\geqslant3^2\\Rightarrow k=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\geqslant3\\Rightarrow(k-3)(k-1)\\geqslant0\\Rightarrow k^2-4k+3\\geqslant0\\Rightarrow A=\\frac{k^2}{4k-3}\\geqslant1$. 又因为 $B=\\frac{1}{a(4-ab)}+\\frac{1}{b(4-bc)}+\\frac{1}{c(4-ca)}$, 则 $\\left(\\frac{4-ab}{a}+\\frac{4-bc}{b}+\\frac{4-ca}{c}\\right)B\\geqslant\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^2$. 故 $B\\geqslant\\frac{k^2}{4k-3}\\geqslant1$. 因此, $A+3B\\geqslant4$.",
+  "tags": [
+    "柯西不等式",
+    "施瓦兹不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

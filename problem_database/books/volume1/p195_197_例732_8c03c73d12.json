@@ -1,0 +1,59 @@
+{
+  "uid": "p195_197_例732_8c03c73d12",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.3 不确定整合变量法",
+  "problem_id": "例7.3.2",
+  "problem_type": "example",
+  "title": "Dinh Ngoc An, CPR",
+  "source_pages": [
+    195,
+    196,
+    197
+  ],
+  "source_images": [
+    "page-195.jpg",
+    "page-196.jpg",
+    "page-197.jpg"
+  ],
+  "stem_md": "求最好的正实常数 $k = k_m$，对所有非负实数 $x_1, x_2, \\cdots, x_n$，且满足 $x_1 + x_2 + \\cdots + x_n = n$，下列不等式\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_n) \\leqslant (m+1)^n + k_m(x_1 x_2 \\cdots x_n - 1)$$\n成立。",
+  "solution_md": "设\n$$f_m(x_1, x_2, \\cdots, x_n) = (1+mx_1)(1+mx_2)\\cdots(1+mx_n) - k_m x_1 x_2 \\cdots x_n$$\n\n令 $S_{ij} = \\prod_{l \\neq i,j}(1+mx_l)$，$T_{ij} = \\prod_{l \\neq i,j} x_l$，$i \\neq j \\in \\{1,2,\\cdots,n\\}$，为方便起见，记 $S = S_{ij}$，$T = T_{ij}$，则不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m\\left(\\frac{x_i+x_j}{2}\\right)^2\\right]\\right\\} + k_m T\\left[\\left(\\frac{x_i+x_j}{2}\\right)^2 - x_i x_j\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{-Sm^2}{4}(x_i-x_j)^2 + \\frac{k_m T}{4}(x_i-x_j)^2 \\leqslant 0$$\n$$\\Leftrightarrow k_m T \\leqslant Sm^2 \\quad (1)$$\n\n另一方面，不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m(x_i+x_j)\\right]\\right\\} - k_m T x_i x_j \\leqslant 0$$\n$$\\Leftrightarrow Sm^2 x_i x_j - k_m T x_i x_j \\leqslant 0 \\quad (2)$$\n$$\\Leftrightarrow k_m T \\geqslant Sm^2$$\n\n不等式(1)(2)至少有一个必定成立，所以，我们有\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n)$$\n$$\\leqslant \\max\\left\\{f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right), f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，我们有，表达式 $f_m(x_1, x_2, \\cdots, x_n)$ 的最大值，当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1, x_2, \\cdots, x_n$ 中至少有一个等于0时，达到。\n\n如果 $x_1 = x_2 = \\cdots = x_n$，则不等式显然成立。如果 $x_n = 0$，则不等式变成\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_{n-1}) \\leqslant (m+1)^n - k_m$$\n其中 $x_1 + x_2 + \\cdots + x_{n-1} = n$，上式表达式右边，由AM-GM不等式可知，其最大值是 $\\left(1+\\frac{mn}{n-1}\\right)^{n-1}$，所以，我们有\n$$\\max f_m(x_1, x_2, \\cdots, x_n) = \\max\\left\\{(m+1)^n - k_m, \\left(1+\\frac{mn}{n-1}\\right)^{n-1}\\right\\}$$\n\n$k_m$ 的最好可能值是 $(m+1)^n - \\left(1+\\frac{mn}{n-1}\\right)^{n-1}$。",
+  "answer_md": "$k_m = (m+1)^n - \\left(1+\\frac{mn}{n-1}\\right)^{n-1}$",
+  "hints_md": "注 对于 $n=4, m=3$，得到例2.3.3如下：\n设 $x,y,z,t$ 是非负实数，满足 $x+y+z+t=4$，则\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125 + 131xyzt$$",
+  "original_text_md": "**例 7.3.2(Dinh Ngoc An, CPR)** 求最好的正实常数 $k = k_m$，对所有非负实数 $x_1, x_2, \\cdots, x_n$，且满足 $x_1 + x_2 + \\cdots + x_n = n$，下列不等式\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_n) \\leqslant (m+1)^n + k_m(x_1 x_2 \\cdots x_n - 1)$$\n成立。\n\n**解** 设\n$$f_m(x_1, x_2, \\cdots, x_n) = (1+mx_1)(1+mx_2)\\cdots(1+mx_n) - k_m x_1 x_2 \\cdots x_n$$\n\n令 $S_{ij} = \\prod_{l \\neq i,j}(1+mx_l)$，$T_{ij} = \\prod_{l \\neq i,j} x_l$，$i \\neq j \\in \\{1,2,\\cdots,n\\}$，为方便起见，记 $S = S_{ij}$，$T = T_{ij}$，则不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m\\left(\\frac{x_i+x_j}{2}\\right)^2\\right]\\right\\} + k_m T\\left[\\left(\\frac{x_i+x_j}{2}\\right)^2 - x_i x_j\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{-Sm^2}{4}(x_i-x_j)^2 + \\frac{k_m T}{4}(x_i-x_j)^2 \\leqslant 0$$\n$$\\Leftrightarrow k_m T \\leqslant Sm^2 \\quad (1)$$\n\n另一方面，不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m(x_i+x_j)\\right]\\right\\} - k_m T x_i x_j \\leqslant 0$$\n$$\\Leftrightarrow Sm^2 x_i x_j - k_m T x_i x_j \\leqslant 0 \\quad (2)$$\n$$\\Leftrightarrow k_m T \\geqslant Sm^2$$\n\n不等式(1)(2)至少有一个必定成立，所以，我们有\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n)$$\n$$\\leqslant \\max\\left\\{f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right), f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，我们有，表达式 $f_m(x_1, x_2, \\cdots, x_n)$ 的最大值，当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1, x_2, \\cdots, x_n$ 中至少有一个等于0时，达到。\n\n如果 $x_1 = x_2 = \\cdots = x_n$，则不等式显然成立。如果 $x_n = 0$，则不等式变成\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_{n-1}) \\leqslant (m+1)^n - k_m$$\n其中 $x_1 + x_2 + \\cdots + x_{n-1} = n$，上式表达式右边，由AM-GM不等式可知，其最大值是 $\\left(1+\\frac{mn}{n-1}\\right)^{n-1}$，所以，我们有\n$$\\max f_m(x_1, x_2, \\cdots, x_n) = \\max\\left\\{(m+1)^n - k_m, \\left(1+\\frac{mn}{n-1}\\right)^{n-1}\\right\\}$$\n\n$k_m$ 的最好可能值是 $(m+1)^n - \\left(1+\\frac{mn}{n-1}\\right)^{n-1}$。\n\n**注** 对于 $n=4, m=3$，得到例2.3.3如下：\n设 $x,y,z,t$ 是非负实数，满足 $x+y+z+t=4$，则\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125 + 131xyzt$$",
+  "tags": [
+    "UMV方法",
+    "AM-GM不等式",
+    "最佳常数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "8c03c73d12c931de163fc7c30096227306764ca3",
+  "raw_problem": {
+    "problem_id": "例7.3.2",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.3 不确定整合变量法",
+    "title": "Dinh Ngoc An, CPR",
+    "source_pages": [
+      195,
+      196,
+      197
+    ],
+    "stem_md": "求最好的正实常数 $k = k_m$，对所有非负实数 $x_1, x_2, \\cdots, x_n$，且满足 $x_1 + x_2 + \\cdots + x_n = n$，下列不等式\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_n) \\leqslant (m+1)^n + k_m(x_1 x_2 \\cdots x_n - 1)$$\n成立。",
+    "solution_md": "设\n$$f_m(x_1, x_2, \\cdots, x_n) = (1+mx_1)(1+mx_2)\\cdots(1+mx_n) - k_m x_1 x_2 \\cdots x_n$$\n\n令 $S_{ij} = \\prod_{l \\neq i,j}(1+mx_l)$，$T_{ij} = \\prod_{l \\neq i,j} x_l$，$i \\neq j \\in \\{1,2,\\cdots,n\\}$，为方便起见，记 $S = S_{ij}$，$T = T_{ij}$，则不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m\\left(\\frac{x_i+x_j}{2}\\right)^2\\right]\\right\\} + k_m T\\left[\\left(\\frac{x_i+x_j}{2}\\right)^2 - x_i x_j\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{-Sm^2}{4}(x_i-x_j)^2 + \\frac{k_m T}{4}(x_i-x_j)^2 \\leqslant 0$$\n$$\\Leftrightarrow k_m T \\leqslant Sm^2 \\quad (1)$$\n\n另一方面，不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m(x_i+x_j)\\right]\\right\\} - k_m T x_i x_j \\leqslant 0$$\n$$\\Leftrightarrow Sm^2 x_i x_j - k_m T x_i x_j \\leqslant 0 \\quad (2)$$\n$$\\Leftrightarrow k_m T \\geqslant Sm^2$$\n\n不等式(1)(2)至少有一个必定成立，所以，我们有\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n)$$\n$$\\leqslant \\max\\left\\{f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right), f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，我们有，表达式 $f_m(x_1, x_2, \\cdots, x_n)$ 的最大值，当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1, x_2, \\cdots, x_n$ 中至少有一个等于0时，达到。\n\n如果 $x_1 = x_2 = \\cdots = x_n$，则不等式显然成立。如果 $x_n = 0$，则不等式变成\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_{n-1}) \\leqslant (m+1)^n - k_m$$\n其中 $x_1 + x_2 + \\cdots + x_{n-1} = n$，上式表达式右边，由AM-GM不等式可知，其最大值是 $\\left(1+\\frac{mn}{n-1}\\right)^{n-1}$，所以，我们有\n$$\\max f_m(x_1, x_2, \\cdots, x_n) = \\max\\left\\{(m+1)^n - k_m, \\left(1+\\frac{mn}{n-1}\\right)^{n-1}\\right\\}$$\n\n$k_m$ 的最好可能值是 $(m+1)^n - \\left(1+\\frac{mn}{n-1}\\right)^{n-1}$。",
+    "answer_md": "$k_m = (m+1)^n - \\left(1+\\frac{mn}{n-1}\\right)^{n-1}$",
+    "hints_md": "注 对于 $n=4, m=3$，得到例2.3.3如下：\n设 $x,y,z,t$ 是非负实数，满足 $x+y+z+t=4$，则\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125 + 131xyzt$$",
+    "original_text_md": "**例 7.3.2(Dinh Ngoc An, CPR)** 求最好的正实常数 $k = k_m$，对所有非负实数 $x_1, x_2, \\cdots, x_n$，且满足 $x_1 + x_2 + \\cdots + x_n = n$，下列不等式\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_n) \\leqslant (m+1)^n + k_m(x_1 x_2 \\cdots x_n - 1)$$\n成立。\n\n**解** 设\n$$f_m(x_1, x_2, \\cdots, x_n) = (1+mx_1)(1+mx_2)\\cdots(1+mx_n) - k_m x_1 x_2 \\cdots x_n$$\n\n令 $S_{ij} = \\prod_{l \\neq i,j}(1+mx_l)$，$T_{ij} = \\prod_{l \\neq i,j} x_l$，$i \\neq j \\in \\{1,2,\\cdots,n\\}$，为方便起见，记 $S = S_{ij}$，$T = T_{ij}$，则不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m\\left(\\frac{x_i+x_j}{2}\\right)^2\\right]\\right\\} + k_m T\\left[\\left(\\frac{x_i+x_j}{2}\\right)^2 - x_i x_j\\right] \\leqslant 0$$\n$$\\Leftrightarrow \\frac{-Sm^2}{4}(x_i-x_j)^2 + \\frac{k_m T}{4}(x_i-x_j)^2 \\leqslant 0$$\n$$\\Leftrightarrow k_m T \\leqslant Sm^2 \\quad (1)$$\n\n另一方面，不等式\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n) \\leqslant f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)$$\n成立，当且仅当\n$$S\\left\\{(1+mx_i)(1+mx_j) - \\left[1+m(x_i+x_j)\\right]\\right\\} - k_m T x_i x_j \\leqslant 0$$\n$$\\Leftrightarrow Sm^2 x_i x_j - k_m T x_i x_j \\leqslant 0 \\quad (2)$$\n$$\\Leftrightarrow k_m T \\geqslant Sm^2$$\n\n不等式(1)(2)至少有一个必定成立，所以，我们有\n$$f_m(x_1, \\cdots, x_i, \\cdots, x_j, \\cdots, x_n)$$\n$$\\leqslant \\max\\left\\{f_m\\left(x_1, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, \\frac{x_i+x_j}{2}, \\cdots, x_n\\right), f_m(x_1, \\cdots, 0, \\cdots, x_i+x_j, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，我们有，表达式 $f_m(x_1, x_2, \\cdots, x_n)$ 的最大值，当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1, x_2, \\cdots, x_n$ 中至少有一个等于0时，达到。\n\n如果 $x_1 = x_2 = \\cdots = x_n$，则不等式显然成立。如果 $x_n = 0$，则不等式变成\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_{n-1}) \\leqslant (m+1)^n - k_m$$\n其中 $x_1 + x_2 + \\cdots + x_{n-1} = n$，上式表达式右边，由AM-GM不等式可知，其最大值是 $\\left(1+\\frac{mn}{n-1}\\right)^{n-1}$，所以，我们有\n$$\\max f_m(x_1, x_2, \\cdots, x_n) = \\max\\left\\{(m+1)^n - k_m, \\left(1+\\frac{mn}{n-1}\\right)^{n-1}\\right\\}$$\n\n$k_m$ 的最好可能值是 $(m+1)^n - \\left(1+\\frac{mn}{n-1}\\right)^{n-1}$。\n\n**注** 对于 $n=4, m=3$，得到例2.3.3如下：\n设 $x,y,z,t$ 是非负实数，满足 $x+y+z+t=4$，则\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125 + 131xyzt$$",
+    "tags": [
+      "UMV方法",
+      "AM-GM不等式",
+      "最佳常数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

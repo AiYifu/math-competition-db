@@ -1,0 +1,53 @@
+{
+  "uid": "p109_109_14_0c92aa2e15",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "14",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "14. (Pham Kim Hung, Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$(a+b^2)(b+c^2)(c+a^2) \\leqslant 13$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "14. (Pham Kim Hung,Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$(a+b^2)(b+c^2)(c+a^2)\\leqslant 13$$",
+  "tags": [
+    "Pham Kim Hung",
+    "Sang Tao Bat Dang Thuc",
+    "a+b+c=3"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "0c92aa2e151cccd320638d455e5975ac2efaac4a",
+  "raw_problem": {
+    "problem_id": "14",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "14. (Pham Kim Hung, Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$(a+b^2)(b+c^2)(c+a^2) \\leqslant 13$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "14. (Pham Kim Hung,Sang Tao Bat Dang Thuc) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$(a+b^2)(b+c^2)(c+a^2)\\leqslant 13$$",
+    "tags": [
+      "Pham Kim Hung",
+      "Sang Tao Bat Dang Thuc",
+      "a+b+c=3"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

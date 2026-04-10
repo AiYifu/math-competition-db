@@ -1,0 +1,58 @@
+{
+  "uid": "p221_222_例788_49e5891d7d",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    221,
+    222
+  ],
+  "source_images": [
+    "page-221.jpg",
+    "page-222.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{3kabc}{ab^2+bc^2+ca^2}\\geqslant 1+k$$",
+  "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式改写成 SOS-Schur 形式如下\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{kc}{ab^2+bc^2+ca^2}-\\frac{(ab+b^2+4bc)(c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{kb}{ab^2+bc^2+ca^2}+\\frac{(ab+b^2+4bc)(a-b)^2}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n去分母，我们有\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)M$$\n$$=(a+b)(ab^2+bc^2+ca^2)+kc(a^2b+b^2c+c^2a)-$$\n$$(ab+b^2+4bc)(c-a)(c-b)$$\n$$=bc(a-b)^2+[(a^3c-kac^3)+(4-k)b^2c^2+(1-k)a^2bc]+$$\n$$4bc^2(a-c)\\geqslant 0$$\n\n类似地\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)N$$\n$$=(b+c)(ab^2+bc^2+ca^2)-kb(a^2b+b^2c+c^2a)+(ab+b^2+4bc)(a-b)^2$$\n$$=b[a^3+b^3-(k+1)a^2b]+c(a^2+b^2-kab)+bc[5a^2+(4-k)b^2-7ab]\\geqslant 0$$\n\n由 AM-GM 不等式，有\n$$\\frac{a^3}{2}+\\frac{a^3}{2}+b^3\\geqslant\\frac{3a^2b}{\\sqrt[3]{4}}=(k+1)a^2b$$\n$$a^2+b^2\\geqslant 2ab\\geqslant kab$$\n$$5a^2+(4-k)b^2\\geqslant 2\\sqrt{5(4-k)}ab\\geqslant 7ab$$\n\n将上述不等式相加，即得 $N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(\\sqrt[3]{2},1,0)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.8(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{3kabc}{ab^2+bc^2+ca^2}\\geqslant 1+k$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式改写成 SOS-Schur 形式如下\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{kc}{ab^2+bc^2+ca^2}-\\frac{(ab+b^2+4bc)(c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{kb}{ab^2+bc^2+ca^2}+\\frac{(ab+b^2+4bc)(a-b)^2}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n去分母，我们有\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)M$$\n$$=(a+b)(ab^2+bc^2+ca^2)+kc(a^2b+b^2c+c^2a)-$$\n$$(ab+b^2+4bc)(c-a)(c-b)$$\n$$=bc(a-b)^2+[(a^3c-kac^3)+(4-k)b^2c^2+(1-k)a^2bc]+$$\n$$4bc^2(a-c)\\geqslant 0$$\n\n类似地\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)N$$\n$$=(b+c)(ab^2+bc^2+ca^2)-kb(a^2b+b^2c+c^2a)+(ab+b^2+4bc)(a-b)^2$$\n$$=b[a^3+b^3-(k+1)a^2b]+c(a^2+b^2-kab)+bc[5a^2+(4-k)b^2-7ab]\\geqslant 0$$\n\n由 AM-GM 不等式，有\n$$\\frac{a^3}{2}+\\frac{a^3}{2}+b^3\\geqslant\\frac{3a^2b}{\\sqrt[3]{4}}=(k+1)a^2b$$\n$$a^2+b^2\\geqslant 2ab\\geqslant kab$$\n$$5a^2+(4-k)b^2\\geqslant 2\\sqrt{5(4-k)}ab\\geqslant 7ab$$\n\n将上述不等式相加，即得 $N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(\\sqrt[3]{2},1,0)$。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "AM-GM",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "49e5891d7d0cc39881f30abb3b982791def4e616",
+  "raw_problem": {
+    "problem_id": "例7.8.8",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      221,
+      222
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{3kabc}{ab^2+bc^2+ca^2}\\geqslant 1+k$$",
+    "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式改写成 SOS-Schur 形式如下\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{kc}{ab^2+bc^2+ca^2}-\\frac{(ab+b^2+4bc)(c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{kb}{ab^2+bc^2+ca^2}+\\frac{(ab+b^2+4bc)(a-b)^2}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n去分母，我们有\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)M$$\n$$=(a+b)(ab^2+bc^2+ca^2)+kc(a^2b+b^2c+c^2a)-$$\n$$(ab+b^2+4bc)(c-a)(c-b)$$\n$$=bc(a-b)^2+[(a^3c-kac^3)+(4-k)b^2c^2+(1-k)a^2bc]+$$\n$$4bc^2(a-c)\\geqslant 0$$\n\n类似地\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)N$$\n$$=(b+c)(ab^2+bc^2+ca^2)-kb(a^2b+b^2c+c^2a)+(ab+b^2+4bc)(a-b)^2$$\n$$=b[a^3+b^3-(k+1)a^2b]+c(a^2+b^2-kab)+bc[5a^2+(4-k)b^2-7ab]\\geqslant 0$$\n\n由 AM-GM 不等式，有\n$$\\frac{a^3}{2}+\\frac{a^3}{2}+b^3\\geqslant\\frac{3a^2b}{\\sqrt[3]{4}}=(k+1)a^2b$$\n$$a^2+b^2\\geqslant 2ab\\geqslant kab$$\n$$5a^2+(4-k)b^2\\geqslant 2\\sqrt{5(4-k)}ab\\geqslant 7ab$$\n\n将上述不等式相加，即得 $N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(\\sqrt[3]{2},1,0)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.8(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{3kabc}{ab^2+bc^2+ca^2}\\geqslant 1+k$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式改写成 SOS-Schur 形式如下\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{a+b}{a^2b+b^2c+c^2a}-\\frac{kc}{ab^2+bc^2+ca^2}-\\frac{(ab+b^2+4bc)(c-a)(c-b)}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n$$N=\\frac{b+c}{a^2b+b^2c+c^2a}-\\frac{kb}{ab^2+bc^2+ca^2}+\\frac{(ab+b^2+4bc)(a-b)^2}{(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)}$$\n去分母，我们有\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)M$$\n$$=(a+b)(ab^2+bc^2+ca^2)+kc(a^2b+b^2c+c^2a)-$$\n$$(ab+b^2+4bc)(c-a)(c-b)$$\n$$=bc(a-b)^2+[(a^3c-kac^3)+(4-k)b^2c^2+(1-k)a^2bc]+$$\n$$4bc^2(a-c)\\geqslant 0$$\n\n类似地\n$$(a^2b+b^2c+c^2a)(ab^2+bc^2+ca^2)N$$\n$$=(b+c)(ab^2+bc^2+ca^2)-kb(a^2b+b^2c+c^2a)+(ab+b^2+4bc)(a-b)^2$$\n$$=b[a^3+b^3-(k+1)a^2b]+c(a^2+b^2-kab)+bc[5a^2+(4-k)b^2-7ab]\\geqslant 0$$\n\n由 AM-GM 不等式，有\n$$\\frac{a^3}{2}+\\frac{a^3}{2}+b^3\\geqslant\\frac{3a^2b}{\\sqrt[3]{4}}=(k+1)a^2b$$\n$$a^2+b^2\\geqslant 2ab\\geqslant kab$$\n$$5a^2+(4-k)b^2\\geqslant 2\\sqrt{5(4-k)}ab\\geqslant 7ab$$\n\n将上述不等式相加，即得 $N\\geqslant 0$。所以，原不等式成立，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(\\sqrt[3]{2},1,0)$。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "AM-GM",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

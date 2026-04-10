@@ -1,0 +1,51 @@
+{
+  "uid": "p057_057_习题1_a67bb47dc2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "source_images": [
+    "page-057.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{abc}{2(a^3+b^3+c^3)}\\geqslant\\frac{5}{3}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "1.(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{abc}{2(a^3+b^3+c^3)}\\geqslant\\frac{5}{3}$$",
+  "tags": [
+    "Nesbitt不等式",
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "a67bb47dc2ea43dbd6fb799538bad71c26f428f9",
+  "raw_problem": {
+    "problem_id": "习题1",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      57
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{abc}{2(a^3+b^3+c^3)}\\geqslant\\frac{5}{3}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "1.(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{abc}{2(a^3+b^3+c^3)}\\geqslant\\frac{5}{3}$$",
+    "tags": [
+      "Nesbitt不等式",
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

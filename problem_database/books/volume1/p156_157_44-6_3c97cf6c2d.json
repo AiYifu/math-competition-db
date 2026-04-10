@@ -1,0 +1,56 @@
+{
+  "uid": "p156_157_44-6_3c97cf6c2d",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-6",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    156,
+    157
+  ],
+  "source_images": [
+    "page-156.jpg",
+    "page-157.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{8(n-1)}{n^2}(1-a_1a_2\\cdots a_n)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "6.(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{8(n-1)}{n^2}(1-a_1a_2\\cdots a_n)$$",
+  "tags": [
+    "练习",
+    "正实数",
+    "倒数不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "3c97cf6c2d69e52432c2dfb67784c1594b754e19",
+  "raw_problem": {
+    "problem_id": "4.4-6",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      156,
+      157
+    ],
+    "stem_md": "(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{8(n-1)}{n^2}(1-a_1a_2\\cdots a_n)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "6.(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_n$ 是正实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{8(n-1)}{n^2}(1-a_1a_2\\cdots a_n)$$",
+    "tags": [
+      "练习",
+      "正实数",
+      "倒数不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p072_072_例5_101ba81600",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2",
+  "section": "平均值不等式的应用",
+  "problem_id": "例5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    72
+  ],
+  "stem_md": "设 $x_{i} \\geqslant 1 (i = 1, 2, \\cdots, n)$, 证明: \n$$\n\\frac{\\prod (x_{i} - 1)}{\\prod x_{i}} = \\left(\\prod \\frac{x_{i} - 1}{x_{i}}\\right)^{\\frac{1}{n}} \\leqslant \\frac{1}{n} \\sum \\frac{x_{i} - 1}{x_{i}} = 1 - \\frac{1}{n} \\sum \\frac{1}{x_{i}}.\n$$\n以及\n$$\n\\frac{1}{n} \\sum \\frac{1}{x_{i}} \\geqslant \\frac{n}{\\sum x_{i}}.\n$$\n从而可知命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_{i} \\geqslant 1 (i = 1, 2, \\cdots, n)$, 证明: \n$$\n\\frac{\\prod (x_{i} - 1)}{\\prod x_{i}} = \\left(\\prod \\frac{x_{i} - 1}{x_{i}}\\right)^{\\frac{1}{n}} \\leqslant \\frac{1}{n} \\sum \\frac{x_{i} - 1}{x_{i}} = 1 - \\frac{1}{n} \\sum \\frac{1}{x_{i}}.\n$$\n以及\n$$\n\\frac{1}{n} \\sum \\frac{1}{x_{i}} \\geqslant \\frac{n}{\\sum x_{i}}.\n$$\n从而可知命题成立.",
+  "tags": [
+    "均值不等式",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

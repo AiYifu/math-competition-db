@@ -1,0 +1,55 @@
+{
+  "uid": "p110_110_26_68bc965676",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "26",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "26. (Vo Quoc Ba Can, Pham Thanh Nam, CPR) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{a+\\frac{1}{4}(b-c)^2}+\\sqrt{b+\\frac{1}{4}(c-a)^2}+\\sqrt{c+\\frac{1}{4}(a-b)^2}$$\n$$\\leqslant \\sqrt{3}+\\left(1-\\frac{\\sqrt{3}}{2}\\right)(|a-b|+|b-c|+|c-a|)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "26. (Vo Quoc Ba Can,Pham Thanh Nam,CPR) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{a+\\frac{1}{4}(b-c)^2}+\\sqrt{b+\\frac{1}{4}(c-a)^2}+\\sqrt{c+\\frac{1}{4}(a-b)^2}$$\n$$\\leqslant\\sqrt{3}+\\left(1-\\frac{\\sqrt{3}}{2}\\right)(|a-b|+|b-c|+|c-a|)$$",
+  "tags": [
+    "Vo Quoc Ba Can",
+    "Pham Thanh Nam",
+    "CPR",
+    "a+b+c=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "68bc965676bda01d2cdc1eb36cc026051e3eeb08",
+  "raw_problem": {
+    "problem_id": "26",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "26. (Vo Quoc Ba Can, Pham Thanh Nam, CPR) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{a+\\frac{1}{4}(b-c)^2}+\\sqrt{b+\\frac{1}{4}(c-a)^2}+\\sqrt{c+\\frac{1}{4}(a-b)^2}$$\n$$\\leqslant \\sqrt{3}+\\left(1-\\frac{\\sqrt{3}}{2}\\right)(|a-b|+|b-c|+|c-a|)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "26. (Vo Quoc Ba Can,Pham Thanh Nam,CPR) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，证明\n$$\\sqrt{a+\\frac{1}{4}(b-c)^2}+\\sqrt{b+\\frac{1}{4}(c-a)^2}+\\sqrt{c+\\frac{1}{4}(a-b)^2}$$\n$$\\leqslant\\sqrt{3}+\\left(1-\\frac{\\sqrt{3}}{2}\\right)(|a-b|+|b-c|+|c-a|)$$",
+    "tags": [
+      "Vo Quoc Ba Can",
+      "Pham Thanh Nam",
+      "CPR",
+      "a+b+c=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

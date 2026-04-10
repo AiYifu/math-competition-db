@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_16_2526b7bfa2",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "16",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $x_1, x_2, x_3 \\in \\mathbf{R}_+$, 证明: $$\\frac{x_2}{x_1} + \\frac{x_3}{x_2} + \\frac{x_1}{x_3} \\leqslant \\left(\\frac{x_1}{x_2}\\right)^2 + \\left(\\frac{x_2}{x_3}\\right)^2 + \\left(\\frac{x_3}{x_1}\\right)^2.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_1, x_2, x_3 \\in \\mathbf{R}_+$, 证明: $$\\frac{x_2}{x_1} + \\frac{x_3}{x_2} + \\frac{x_1}{x_3} \\leqslant \\left(\\frac{x_1}{x_2}\\right)^2 + \\left(\\frac{x_2}{x_3}\\right)^2 + \\left(\\frac{x_3}{x_1}\\right)^2.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

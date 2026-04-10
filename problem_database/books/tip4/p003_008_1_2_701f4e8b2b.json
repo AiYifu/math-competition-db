@@ -1,0 +1,30 @@
+{
+  "uid": "p003_008_1_2_701f4e8b2b",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "1 平均值不等式及其证明",
+  "section": "1.2 平均值不等式的证明",
+  "problem_id": "1.2",
+  "problem_type": "proof",
+  "title": null,
+  "source_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "stem_md": "证法一(归纳法)\n\n(1) 当 $n = 2$ 时, 已知结论成立.\n\n(2) 假设对 $n = k$ (正整数 $k \\geqslant 2$) 时命题成立, 即对于 $a_i > 0, i = 1, 2, \\cdots, k$, 有\n\n$$(a_1 a_2 \\cdots a_k)^{\\frac{1}{k}} \\leqslant \\frac{a_1 + a_2 + \\cdots + a_k}{k}.$$",
+  "solution_md": "那么, 当 $n = k + 1$ 时, 由于\n\n$$A_{k+1} = \\frac{a_1 + a_2 + \\cdots + a_{k+1}}{k+1}, G_{k+1} = \\sqrt[k+1]{a_1 a_2 \\cdots a_{k+1}},$$\n\n关于 $a_1, a_2, \\cdots, a_{k+1}$ 是对称的, 任意对调 $a_i$ 与 $a_j (i \\neq j)$, 即将 $a_i$ 写成 $a_j$, $a_j$ 写成 $a_i$, $A_{k+1}$ 和 $G_{k+1}$ 的值不改变, 因此不妨设 $a_1 = \\min\\{a_1, a_2, \\cdots, a_{k+1}\\}$, $a_{k+1} = \\max\\{a_1, a_2, \\cdots, a_{k+1}\\}$, 显然 $a_1 \\leqslant A_{k+1} \\leqslant a_{k+1}$, 以及\n\n$$A_{k+1} (a_1 + a_{k+1} - A_{k+1}) - a_1 a_{k+1} = (a_1 - A_{k+1})(A_{k+1} - a_{k+1}) \\geqslant 0,$$\n\n即\n\n$$A_{k+1} (a_1 + a_{k+1} - A_{k+1}) \\geqslant a_1 a_{k+1}.$$",
+  "answer_md": "",
+  "hints_md": "对 $k$ 个正数 $a_2, a_3, \\cdots, a_k, a_1 + a_{k+1} - A_{k+1}$, 由归纳假设, 得\n\n$$\\frac{a_2 + a_3 + \\cdots + a_k + (a_1 + a_{k+1} - A_{k+1})}{k} \\geqslant \\sqrt[k]{a_2 a_3 \\cdots a_k (a_1 + a_{k+1} - A_{k+1})}.$$",
+  "original_text_md": "证法一(归纳法)\n\n(1) 当 $n = 2$ 时, 已知结论成立.\n\n(2) 假设对 $n = k$ (正整数 $k \\geqslant 2$) 时命题成立, 即对于 $a_i > 0, i = 1, 2, \\cdots, k$, 有\n\n$$(a_1 a_2 \\cdots a_k)^{\\frac{1}{k}} \\leqslant \\frac{a_1 + a_2 + \\cdots + a_k}{k}.$$",
+  "tags": [
+    "平均值不等式",
+    "证明",
+    "归纳法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

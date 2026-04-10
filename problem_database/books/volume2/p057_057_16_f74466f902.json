@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_16_f74466f902",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "16",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "16. (Nguyen Viet Anh, Mathlinks) 设 $a, b, c$ 是任意非负实数, 证明\n$$\n\\frac{a^3}{2a^2-ab+2b^2}+\\frac{b^3}{2b^2-bc+2c^2}+\\frac{c^3}{2c^2-ca+2a^2} \\geqslant \\frac{a+b+c}{3}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "16. (Nguyen Viet Anh, Mathlinks) 设 $a, b, c$ 是任意非负实数, 证明\n$$\n\\frac{a^3}{2a^2-ab+2b^2}+\\frac{b^3}{2b^2-bc+2c^2}+\\frac{c^3}{2c^2-ca+2a^2} \\geqslant \\frac{a+b+c}{3}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

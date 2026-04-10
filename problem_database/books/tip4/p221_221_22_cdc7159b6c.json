@@ -1,0 +1,23 @@
+{
+  "uid": "p221_221_22_cdc7159b6c",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "22",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    221
+  ],
+  "stem_md": "22. 由柯西不等式得 $\\left(\\sum_{i=1}^{n}\\sqrt{a_{i}^{2}-i^{2}}\\right)^{2}\\leqslant\\sum_{i=1}^{n}(a_{i}+i)^{2}\\cdot\\sum_{i=1}^{n}(a_{i}-i)=\\left(\\sum_{i=1}^{n}a_{i}\\right)^{2}-\\frac{n^{2}(n+1)^{2}}{4}$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "22. 由柯西不等式得 $\\left(\\sum_{i=1}^{n}\\sqrt{a_{i}^{2}-i^{2}}\\right)^{2}\\leqslant\\sum_{i=1}^{n}(a_{i}+i)^{2}\\cdot\\sum_{i=1}^{n}(a_{i}-i)=\\left(\\sum_{i=1}^{n}a_{i}\\right)^{2}-\\frac{n^{2}(n+1)^{2}}{4}$",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0028"
+}

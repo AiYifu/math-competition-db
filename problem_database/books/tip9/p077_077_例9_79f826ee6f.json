@@ -1,0 +1,24 @@
+{
+  "uid": "p077_077_例9_79f826ee6f",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "4 反证法",
+  "section": null,
+  "problem_id": "例9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    77
+  ],
+  "stem_md": "将一些整数排在数轴的一切有理点上, 求证: 可以找到这样一个区间, 使这区间的两个端点上的数之和不大于区间中点上的数的 2 倍.",
+  "solution_md": "证明 用反证法. 设存在一些整数的这样的排列, 使得对于含中点 $C$ 的任意区间 $[A, B]$, 有不等式 $c < \\frac{a+b}{2}$ 成立, 其中 $a, b, c$ 分别表示置于 $A, B, C$ 上的整数.\n设 $A, B, C, A_n, B_n$ 分别代表数轴上的点 $-1, 1, 0, -\\frac{1}{2^n}$ 及 $\\frac{1}{2^n}$ ($n=1, 2, 3, \\cdots$), 并设置于它们上的整数分别为 $a, b, c, a_n, b_n$,\n同理, 有\n$$\na_1 < \\frac{a+c}{2}, a_2 < \\frac{a_1+c}{2},\n\\max\\{a_1, a_2\\} < \\max\\{a_3, a_4\\} > \\cdots,\n\\max\\{b, c\\} > \\max\\{b_1, b_2\\} > \\max\\{b_3, b_4\\} > \\cdots.\n$$\n所以存在 $m$, 使得\n$$\na_{2m} \\leqslant \\max\\{a, c\\} - m, b_{2m} \\leqslant \\max\\{b, c\\} - m.\n$$\n故\n$$\na_{2m} + b_{2m} \\leqslant 1 - 2m < 0.\n$$\n但 0 为区间 $[a_{2m}, b_{2m}]$ 的中点, 矛盾!",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例9 将一些整数排在数轴的一切有理点上, 求证: 可以找到这样一个区间, 使这区间的两个端点上的数之和不大于区间中点上的数的 2 倍.\n证明 用反证法. 设存在一些整数的这样的排列, 使得对于含中点 $C$ 的任意区间 $[A, B]$, 有不等式 $c < \\frac{a+b}{2}$ 成立, 其中 $a, b, c$ 分别表示置于 $A, B, C$ 上的整数.\n设 $A, B, C, A_n, B_n$ 分别代表数轴上的点 $-1, 1, 0, -\\frac{1}{2^n}$ 及 $\\frac{1}{2^n}$ ($n=1, 2, 3, \\cdots$), 并设置于它们上的整数分别为 $a, b, c, a_n, b_n$,\n同理, 有\n$$\na_1 < \\frac{a+c}{2}, a_2 < \\frac{a_1+c}{2},\n\\max\\{a_1, a_2\\} < \\max\\{a_3, a_4\\} > \\cdots,\n\\max\\{b, c\\} > \\max\\{b_1, b_2\\} > \\max\\{b_3, b_4\\} > \\cdots.\n$$\n所以存在 $m$, 使得\n$$\na_{2m} \\leqslant \\max\\{a, c\\} - m, b_{2m} \\leqslant \\max\\{b, c\\} - m.\n$$\n故\n$$\na_{2m} + b_{2m} \\leqslant 1 - 2m < 0.\n$$\n但 0 为区间 $[a_{2m}, b_{2m}]$ 的中点, 矛盾!",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

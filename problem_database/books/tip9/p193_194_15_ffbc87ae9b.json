@@ -1,0 +1,25 @@
+{
+  "uid": "p193_194_15_ffbc87ae9b",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193,
+    194
+  ],
+  "stem_md": "不妨设 $a_1 \\leqslant a_2 \\leqslant \\cdots \\leqslant a_n$.\n则 $A_3 = a_1^2 + a_2^2 + a_3^2 - a_1a_2 - a_2a_3 - a_3a_1 \\geqslant 0$.\n$A_5 = (a_1 - a_2)(a_1 - a_3)(a_1 - a_4)(a_1 - a_5) + (a_2 - a_1)(a_2 - a_3)(a_2 - a_4)(a_2 - a_5) + (a_3 - a_1)(a_3 - a_2)(a_3 - a_4)(a_3 - a_5) + (a_4 - a_1)(a_4 - a_2)(a_4 - a_3)(a_4 - a_5) + (a_5 - a_1)(a_5 - a_2)(a_5 - a_3)(a_5 - a_4)$.\n由于 $(a_3 - a_1)(a_3 - a_2)(a_3 - a_4)(a_3 - a_5) \\geqslant 0$，而 $A_5$ 前 2 项之和为 $(a_2 - a_1)[(a_3 - a_1)(a_4 - a_1)(a_5 - a_1) - (a_3 - a_2)(a_4 - a_2)(a_5 - a_2)] \\geqslant 0$，同理，$A_5$ 后 2 项之和也 $\\geqslant 0$，故 $A_5 \\geqslant 0$。\n当 $n \\geqslant 7$ 时，构造反例如下：令 $a_1 = a_2 = a_3 < a_4 < a_5 = a_6 = a_7 = \\cdots = a_n$，则 $A_n = (a_4 - a_1)(a_4 - a_2)(a_4 - a_3)(a_4 - a_5)(a_4 - a_6)\\cdots(a_4 - a_n) < 0$。\n因此结论成立。",
+  "solution_md": "当 $n \\geqslant 7$ 时，构造反例如下：令 $a_1 = a_2 = a_3 < a_4 < a_5 = a_6 = a_7 = \\cdots = a_n$，则 $A_n = (a_4 - a_1)(a_4 - a_2)(a_4 - a_3)(a_4 - a_5)(a_4 - a_6)\\cdots(a_4 - a_n) < 0$。\n因此结论成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "不妨设 $a_1 \\leqslant a_2 \\leqslant \\cdots \\leqslant a_n$.\n则 $A_3 = a_1^2 + a_2^2 + a_3^2 - a_1a_2 - a_2a_3 - a_3a_1 \\geqslant 0$.\n$A_5 = (a_1 - a_2)(a_1 - a_3)(a_1 - a_4)(a_1 - a_5) + (a_2 - a_1)(a_2 - a_3)(a_2 - a_4)(a_2 - a_5) + (a_3 - a_1)(a_3 - a_2)(a_3 - a_4)(a_3 - a_5) + (a_4 - a_1)(a_4 - a_2)(a_4 - a_3)(a_4 - a_5) + (a_5 - a_1)(a_5 - a_2)(a_5 - a_3)(a_5 - a_4)$.\n由于 $(a_3 - a_1)(a_3 - a_2)(a_3 - a_4)(a_3 - a_5) \\geqslant 0$，而 $A_5$ 前 2 项之和为 $(a_2 - a_1)[(a_3 - a_1)(a_4 - a_1)(a_5 - a_1) - (a_3 - a_2)(a_4 - a_2)(a_5 - a_2)] \\geqslant 0$，同理，$A_5$ 后 2 项之和也 $\\geqslant 0$，故 $A_5 \\geqslant 0$。\n当 $n \\geqslant 7$ 时，构造反例如下：令 $a_1 = a_2 = a_3 < a_4 < a_5 = a_6 = a_7 = \\cdots = a_n$，则 $A_n = (a_4 - a_1)(a_4 - a_2)(a_4 - a_3)(a_4 - a_5)(a_4 - a_6)\\cdots(a_4 - a_n) < 0$。\n因此结论成立。",
+  "tags": [
+    "不等式",
+    "构造法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

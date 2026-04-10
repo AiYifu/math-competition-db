@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_14_f4f256beb8",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "14",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $x_1, x_2 \\in \\mathbf{R}$, 且 $x_1^2 + x_2^2 \\leqslant 1$. 求证: 对任意 $y_1, y_2 \\in \\mathbf{R}$, 有 $$(x_1 y_1 + x_2 y_2 - 1)^2 \\geqslant (x_1^2 + x_2^2 - 1)(y_1^2 + y_2^2 - 1).$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_1, x_2 \\in \\mathbf{R}$, 且 $x_1^2 + x_2^2 \\leqslant 1$. 求证: 对任意 $y_1, y_2 \\in \\mathbf{R}$, 有 $$(x_1 y_1 + x_2 y_2 - 1)^2 \\geqslant (x_1^2 + x_2^2 - 1)(y_1^2 + y_2^2 - 1).$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

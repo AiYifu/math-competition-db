@@ -1,0 +1,61 @@
+{
+  "uid": "p087_089_例239_c461f56ec5",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    87,
+    88,
+    89
+  ],
+  "source_images": [
+    "page-087.jpg",
+    "page-088.jpg",
+    "page-089.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$ ($n \\geqslant 4$ 是自然数)，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n} \\geqslant n+3$$",
+  "solution_md": "不失一般性，设 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$，记\n$$f(a_1,a_2,\\cdots,a_n)=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n}$$\n则\n$$f(a_1,a_2,\\cdots,a_n)-f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n$$=\\left(\\frac{1}{\\sqrt{a_2}}-\\frac{1}{\\sqrt{a_n}}\\right)^2-\\frac{3n(\\sqrt{a_2}-\\sqrt{a_n})^2}{(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})}$$\n我们来证明\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1}) \\geqslant 3na_2a_n \\quad (*)$$\n因为 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$，如果 $n \\geqslant 4$，则\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})$$\n$$\\geqslant [2a_2+(n-2)a_n][a_2+2\\sqrt{a_2a_n}+(n-3)a_n]$$\n$$\\geqslant 2\\sqrt{2(n-2)}(2+2\\sqrt{n-3})a_2a_n \\geqslant 3na_2a_n$$\n注意到，式 $(*)$ 对于 $n=3$ 也成立，因为 $a_2 \\geqslant a_3$，所以\n$$(a_2+2\\sqrt{a_2a_3}+a_3)(2a_2+a_3) \\geqslant 9a_2a_3$$\n这样，我们就证明了不等式 $(*)$ 成立。从而有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n根据 SMV 定理，令 $b=\\sqrt[n-1]{a_2a_3\\cdots a_n}$，则有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,b,b,\\cdots,b)$$\n余下的只需证明 $g(b) \\geqslant n+4$，其中\n$$g(b)=b^n+\\frac{n}{b}+\\frac{3(n+1)}{nb+b^{-n}}=b^n+\\frac{n}{b}+\\frac{3(n+1)b^n}{nb^{n+1}+1}$$\n注意到，$g'(b)=nb^{n-1}-\\frac{n}{b^2}+\\frac{3n(n+1)(b^{n-1}-b^{2n})}{(nb^{n+1}+1)^2}$，因此，我们有\n$$g'(b)=0 \\Leftrightarrow (b^{n+1}-1)[(nb^{n+1}+1)^2-3(n+1)b^{n+1}]=0$$\n另外，由 AM-GM 不等式有，$(nb^{n+1}+1)^2 \\geqslant 4nb^{n+1} \\geqslant 3(n+1)b^{n+1}$，所以\n$$g'(b) \\leqslant 0 \\quad \\forall b \\leqslant 1$$\n由于 $g'(1)=0$，我们得到\n$$g(b) \\geqslant g(1)=n+4$$\n因此，原不等式成立，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。\n\n注 用同样的方法可以证明，下列稍强的不等式。\n设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{4(n-1)}{a_1+a_2+\\cdots+a_n} \\geqslant n+4-\\frac{4}{n}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.9(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是正实数,满足 $a_1a_2\\cdots a_n=1(n \\geqslant 4$ 是自然数),证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n} \\geqslant n+3$$\n证明 不失一般性,设 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$,记\n$$f(a_1,a_2,\\cdots,a_n)=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n}$$\n则\n$$f(a_1,a_2,\\cdots,a_n)-f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n$$=\\left(\\frac{1}{\\sqrt{a_2}}-\\frac{1}{\\sqrt{a_n}}\\right)^2-\\frac{3n(\\sqrt{a_2}-\\sqrt{a_n})^2}{(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})}$$\n我们来证明\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1}) \\geqslant 3na_2a_n \\quad (*)$$\n因为 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$,如果 $n \\geqslant 4$,则\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})$$\n$$\\geqslant [2a_2+(n-2)a_n][a_2+2\\sqrt{a_2a_n}+(n-3)a_n]$$\n$$\\geqslant 2\\sqrt{2(n-2)}(2+2\\sqrt{n-3})a_2a_n \\geqslant 3na_2a_n$$\n注意到,式 $(*)$ 对于 $n=3$ 也成立,因为 $a_2 \\geqslant a_3$,所以\n$$(a_2+2\\sqrt{a_2a_3}+a_3)(2a_2+a_3) \\geqslant 9a_2a_3$$\n这样,我们就证明了不等式 $(*)$ 成立.从而有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n根据 SMV 定理,令 $b=\\sqrt[n-1]{a_2a_3\\cdots a_n}$,则有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,b,b,\\cdots,b)$$\n余下的只需证明 $g(b) \\geqslant n+4$,其中\n$$g(b)=b^n+\\frac{n}{b}+\\frac{3(n+1)}{nb+b^{-n}}=b^n+\\frac{n}{b}+\\frac{3(n+1)b^n}{nb^{n+1}+1}$$\n注意到,$g'(b)=nb^{n-1}-\\frac{n}{b^2}+\\frac{3n(n+1)(b^{n-1}-b^{2n})}{(nb^{n+1}+1)^2}$,因此,我们有\n$$g'(b)=0 \\Leftrightarrow (b^{n+1}-1)[(nb^{n+1}+1)^2-3(n+1)b^{n+1}]=0$$\n另外,由 AM-GM 不等式有,$(nb^{n+1}+1)^2 \\geqslant 4nb^{n+1} \\geqslant 3(n+1)b^{n+1}$,所以\n$$g'(b) \\leqslant 0 \\quad \\forall b \\leqslant 1$$\n由于 $g'(1)=0$,我们得到\n$$g(b) \\geqslant g(1)=n+4$$\n因此,原不等式成立,等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$.\n注 用同样的方法可以证明,下列稍强的不等式.\n设 $a_1,a_2,\\cdots,a_n$ 是正实数,满足 $a_1a_2\\cdots a_n=1$,证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{4(n-1)}{a_1+a_2+\\cdots+a_n} \\geqslant n+4-\\frac{4}{n}$$",
+  "tags": [
+    "SMV定理",
+    "n元不等式",
+    "条件不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "c461f56ec5de4df2c3dfff3704c6d393cbdbcdcd",
+  "raw_problem": {
+    "problem_id": "例2.3.9",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      87,
+      88,
+      89
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$ ($n \\geqslant 4$ 是自然数)，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n} \\geqslant n+3$$",
+    "solution_md": "不失一般性，设 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$，记\n$$f(a_1,a_2,\\cdots,a_n)=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n}$$\n则\n$$f(a_1,a_2,\\cdots,a_n)-f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n$$=\\left(\\frac{1}{\\sqrt{a_2}}-\\frac{1}{\\sqrt{a_n}}\\right)^2-\\frac{3n(\\sqrt{a_2}-\\sqrt{a_n})^2}{(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})}$$\n我们来证明\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1}) \\geqslant 3na_2a_n \\quad (*)$$\n因为 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$，如果 $n \\geqslant 4$，则\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})$$\n$$\\geqslant [2a_2+(n-2)a_n][a_2+2\\sqrt{a_2a_n}+(n-3)a_n]$$\n$$\\geqslant 2\\sqrt{2(n-2)}(2+2\\sqrt{n-3})a_2a_n \\geqslant 3na_2a_n$$\n注意到，式 $(*)$ 对于 $n=3$ 也成立，因为 $a_2 \\geqslant a_3$，所以\n$$(a_2+2\\sqrt{a_2a_3}+a_3)(2a_2+a_3) \\geqslant 9a_2a_3$$\n这样，我们就证明了不等式 $(*)$ 成立。从而有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n根据 SMV 定理，令 $b=\\sqrt[n-1]{a_2a_3\\cdots a_n}$，则有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,b,b,\\cdots,b)$$\n余下的只需证明 $g(b) \\geqslant n+4$，其中\n$$g(b)=b^n+\\frac{n}{b}+\\frac{3(n+1)}{nb+b^{-n}}=b^n+\\frac{n}{b}+\\frac{3(n+1)b^n}{nb^{n+1}+1}$$\n注意到，$g'(b)=nb^{n-1}-\\frac{n}{b^2}+\\frac{3n(n+1)(b^{n-1}-b^{2n})}{(nb^{n+1}+1)^2}$，因此，我们有\n$$g'(b)=0 \\Leftrightarrow (b^{n+1}-1)[(nb^{n+1}+1)^2-3(n+1)b^{n+1}]=0$$\n另外，由 AM-GM 不等式有，$(nb^{n+1}+1)^2 \\geqslant 4nb^{n+1} \\geqslant 3(n+1)b^{n+1}$，所以\n$$g'(b) \\leqslant 0 \\quad \\forall b \\leqslant 1$$\n由于 $g'(1)=0$，我们得到\n$$g(b) \\geqslant g(1)=n+4$$\n因此，原不等式成立，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。\n\n注 用同样的方法可以证明，下列稍强的不等式。\n设 $a_1,a_2,\\cdots,a_n$ 是正实数，满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{4(n-1)}{a_1+a_2+\\cdots+a_n} \\geqslant n+4-\\frac{4}{n}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.9(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是正实数,满足 $a_1a_2\\cdots a_n=1(n \\geqslant 4$ 是自然数),证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n} \\geqslant n+3$$\n证明 不失一般性,设 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$,记\n$$f(a_1,a_2,\\cdots,a_n)=\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{3n}{a_1+a_2+\\cdots+a_n}$$\n则\n$$f(a_1,a_2,\\cdots,a_n)-f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n$$=\\left(\\frac{1}{\\sqrt{a_2}}-\\frac{1}{\\sqrt{a_n}}\\right)^2-\\frac{3n(\\sqrt{a_2}-\\sqrt{a_n})^2}{(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})}$$\n我们来证明\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1}) \\geqslant 3na_2a_n \\quad (*)$$\n因为 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$,如果 $n \\geqslant 4$,则\n$$(a_1+a_2+\\cdots+a_n)(a_1+2\\sqrt{a_2a_n}+a_3+\\cdots+a_{n-1})$$\n$$\\geqslant [2a_2+(n-2)a_n][a_2+2\\sqrt{a_2a_n}+(n-3)a_n]$$\n$$\\geqslant 2\\sqrt{2(n-2)}(2+2\\sqrt{n-3})a_2a_n \\geqslant 3na_2a_n$$\n注意到,式 $(*)$ 对于 $n=3$ 也成立,因为 $a_2 \\geqslant a_3$,所以\n$$(a_2+2\\sqrt{a_2a_3}+a_3)(2a_2+a_3) \\geqslant 9a_2a_3$$\n这样,我们就证明了不等式 $(*)$ 成立.从而有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,\\sqrt{a_2a_n},\\sqrt{a_2a_n},a_3,\\cdots,a_n)$$\n根据 SMV 定理,令 $b=\\sqrt[n-1]{a_2a_3\\cdots a_n}$,则有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a_1,b,b,\\cdots,b)$$\n余下的只需证明 $g(b) \\geqslant n+4$,其中\n$$g(b)=b^n+\\frac{n}{b}+\\frac{3(n+1)}{nb+b^{-n}}=b^n+\\frac{n}{b}+\\frac{3(n+1)b^n}{nb^{n+1}+1}$$\n注意到,$g'(b)=nb^{n-1}-\\frac{n}{b^2}+\\frac{3n(n+1)(b^{n-1}-b^{2n})}{(nb^{n+1}+1)^2}$,因此,我们有\n$$g'(b)=0 \\Leftrightarrow (b^{n+1}-1)[(nb^{n+1}+1)^2-3(n+1)b^{n+1}]=0$$\n另外,由 AM-GM 不等式有,$(nb^{n+1}+1)^2 \\geqslant 4nb^{n+1} \\geqslant 3(n+1)b^{n+1}$,所以\n$$g'(b) \\leqslant 0 \\quad \\forall b \\leqslant 1$$\n由于 $g'(1)=0$,我们得到\n$$g(b) \\geqslant g(1)=n+4$$\n因此,原不等式成立,等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$.\n注 用同样的方法可以证明,下列稍强的不等式.\n设 $a_1,a_2,\\cdots,a_n$ 是正实数,满足 $a_1a_2\\cdots a_n=1$,证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_n}+\\frac{4(n-1)}{a_1+a_2+\\cdots+a_n} \\geqslant n+4-\\frac{4}{n}$$",
+    "tags": [
+      "SMV定理",
+      "n元不等式",
+      "条件不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

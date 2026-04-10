@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_21_3adc835057",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "21. (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是非负实数, 且满足 $ab+bc+ca=1$, 证明\n$$\n(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geqslant 5+\\frac{4(a^2+b^2+c^2)}{ab+bc+ca}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "21. (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是非负实数, 且满足 $ab+bc+ca=1$, 证明\n$$\n(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geqslant 5+\\frac{4(a^2+b^2+c^2)}{ab+bc+ca}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

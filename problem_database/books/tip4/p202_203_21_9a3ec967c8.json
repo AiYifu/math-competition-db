@@ -1,0 +1,25 @@
+{
+  "uid": "p202_203_21_9a3ec967c8",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202,
+    203
+  ],
+  "stem_md": "如图所示, 知 $S_{\\triangle AB_2C_1} = S_{\\triangle BC_2A_1} = S_{\\triangle CA_2B_1} = S_{\\triangle ABC}$, 所以 $\\frac{G}{F} = \\frac{S_{\\triangle ABC_2C_1} + S_{\\triangle BCA_2A_2} + S_{\\triangle ACB_1B_2} + 4F}{F} = \\frac{S_{\\triangle AA_1A_2} + S_{\\triangle BB_1B_2} + S_{\\triangle CC_1C_2} + F}{F} = 1 + \\frac{(b + a)(c + a)}{bc} + \\frac{(a + b)(c + b)}{ac} + \\frac{(a + c)(b + c)}{ab} = 1 + 3 + \\frac{a}{b} + \\frac{a}{c} + \\frac{b}{a} + \\frac{b}{c} + \\frac{c}{a} + \\frac{c}{b} + \\frac{a^2}{bc} + \\frac{b^2}{ac} + \\frac{c^2}{ab} \\geq 4 + 9 \\sqrt[9]{\\frac{a}{b} \\cdot \\frac{a}{c} \\cdot \\frac{b}{a} \\cdot \\frac{c}{a} \\cdot \\frac{c}{b} \\cdot \\frac{a^2}{bc} \\cdot \\frac{b^2}{ac} \\cdot \\frac{c^2}{ab}} = 13$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "如图所示, 知 $S_{\\triangle AB_2C_1} = S_{\\triangle BC_2A_1} = S_{\\triangle CA_2B_1} = S_{\\triangle ABC}$, 所以 $\\frac{G}{F} = \\frac{S_{\\triangle ABC_2C_1} + S_{\\triangle BCA_2A_2} + S_{\\triangle ACB_1B_2} + 4F}{F} = \\frac{S_{\\triangle AA_1A_2} + S_{\\triangle BB_1B_2} + S_{\\triangle CC_1C_2} + F}{F} = 1 + \\frac{(b + a)(c + a)}{bc} + \\frac{(a + b)(c + b)}{ac} + \\frac{(a + c)(b + c)}{ab} = 1 + 3 + \\frac{a}{b} + \\frac{a}{c} + \\frac{b}{a} + \\frac{b}{c} + \\frac{c}{a} + \\frac{c}{b} + \\frac{a^2}{bc} + \\frac{b^2}{ac} + \\frac{c^2}{ab} \\geq 4 + 9 \\sqrt[9]{\\frac{a}{b} \\cdot \\frac{a}{c} \\cdot \\frac{b}{a} \\cdot \\frac{c}{a} \\cdot \\frac{c}{b} \\cdot \\frac{a^2}{bc} \\cdot \\frac{b^2}{ac} \\cdot \\frac{c^2}{ab}} = 13$.",
+  "tags": [
+    "几何",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

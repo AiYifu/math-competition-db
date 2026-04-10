@@ -1,0 +1,31 @@
+{
+  "uid": "p121_128_例9_41758da2d2",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128
+  ],
+  "stem_md": "定义数列 $x_1, x_2, \\cdots, x_n$ 如下: $x_1 \\in [0,1)$, 且 $$x_{n+1} = \\begin{cases} \\frac{1}{x_n} - \\left\\lfloor \\frac{1}{x_n} \\right\\rfloor, & \\text{若 } x_n \\neq 0, \\\\ 0, & \\text{若 } x_n = 0. \\end{cases}$$ 求证: 对一切正整数 $n$, 有 $$x_1 + x_2 + \\cdots + x_n < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_n}{f_{n+1}},$$ 其中 $\\{f_n\\}$ 为斐波那契(Fibonacci)数列, $f_1 = f_2 = 1$, $f_{n+2} = f_{n+1} + f_n$, $n \\in \\mathbf{N}_+$.",
+  "solution_md": "证法1 当 $n=1$ 时, 因为 $x_1 \\in [0,1)$, 所以 $x_1 < 1 = \\frac{f_1}{f_2}$, 故结论成立. 当 $n=2$ 时, 分两种情况讨论: (1) 如果 $x_1 \\leqslant \\frac{1}{2}$, 则 $x_1 + x_2 < \\frac{1}{2} + 1 = \\frac{3}{2} = \\frac{f_1}{f_2} + \\frac{f_2}{f_3}$; (2) 如果 $\\frac{1}{2} < x_1 < 1$, 则 $x_1 + x_2 = x_1 + \\frac{1}{x_1} - 1 < f\\left(\\frac{1}{2}\\right) - 1 = \\frac{3}{2}$. 令 $f(t) = t + \\frac{1}{t}$, 则 $f(t)$ 在 $\\left[\\frac{1}{2}, 1\\right)$ 上单调递减, 故 $x_1 + x_2 = f(x_1) - 1 < f\\left(\\frac{1}{2}\\right) - 1 = \\frac{3}{2}$. 因此当 $n=2$ 时结论成立. 假设当 $n=k$, $n=k+1$ 时结论均成立. 那么就有 (i) 如果 $x_1 > \\frac{f_{k+2}}{f_{k+3}}$, 那么由(1), 故 $x_2 + x_3 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_k}{f_{k+1}}$. 同样 $x_3 + x_4 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_{k+1}}{f_{k+2}}$. 所以结论对 $n=k+2$ 成立. 说明 本题也可用连分数的方法证明, 但较繁琐. 证法2 设 $f(x) = \\frac{1}{1+x}$, 令 $g_n(x) = x + f(x) + f^{(2)}(x) + \\cdots + f^{(n)}(x)$, $n=0,1,2,\\cdots$. 注意到 $\\frac{f_1}{f_2} = 1$, 且 $f\\left(\\frac{f_i}{f_{i+1}}\\right) = \\frac{1}{1 + \\frac{f_i}{f_{i+1}}} = \\frac{f_{i+1}}{f_{i+2}}$, 可得 $f^{(k)}(1) = f^{(k)}\\left(\\frac{f_1}{f_2}\\right) = f^{(k-1)}\\left(\\frac{f_1}{f_3}\\right) = \\cdots = f\\left(\\frac{f_k}{f_{k+1}}\\right) = \\frac{f_{k+1}}{f_{k+2}}$, $k=1,2,\\cdots$. 所以 $g_{n-1}(1) = \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_n}{f_{n+1}}$. 下面先证明一个引理: 引理: (I) 对任何 $x$, $y \\in [0,1]$, 若 $x \\neq y$, 则 $|f(x) - f(y)| < |x - y|$, 并且 $f(x) - f(y)$ 与 $x - y$ 符号相反. 故 $x_n + x_{n-1} + \\cdots + x_1$ $\\leqslant x_n + \\frac{1}{1+x_n} + \\frac{1}{1+\\frac{1}{1+x_n}} + \\cdots + \\frac{1}{1+\\frac{1}{1+\\frac{1}{1+x_n}}}$ $= g_{n-1}(x_n) < g_{n-1}(1)$ $= \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_n}{f_{n+1}}$. 不妨设 $a_1 \\leqslant a_2 \\leqslant \\cdots \\leqslant a_n$. 那么, 由归纳假设, $x_2 + x_3 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_{k+1}}{f_{k+2}}$. 当 $\\frac{1}{a_1} < 1$ 时, 正整数 $a_1 \\geqslant 2 = r_1$, 所以 $\\frac{1}{a_1} \\leqslant \\frac{1}{r_1}$. 正整数 $a_1, a_2, \\cdots, a_n$ 满足 $\\sum_{k=1}^{n} \\frac{1}{a_k} < 1$. 求证: $\\sum_{i=1}^{n} \\frac{1}{r_i} \\leqslant \\sum_{i=1}^{n} \\frac{1}{a_i}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定义数列 $x_1, x_2, \\cdots, x_n$ 如下: $x_1 \\in [0,1)$, 且 $$x_{n+1} = \\begin{cases} \\frac{1}{x_n} - \\left\\lfloor \\frac{1}{x_n} \\right\\rfloor, & \\text{若 } x_n \\neq 0, \\\\ 0, & \\text{若 } x_n = 0. \\end{cases}$$ 求证: 对一切正整数 $n$, 有 $$x_1 + x_2 + \\cdots + x_n < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_n}{f_{n+1}},$$ 其中 $\\{f_n\\}$ 为斐波那契(Fibonacci)数列, $f_1 = f_2 = 1$, $f_{n+2} = f_{n+1} + f_n$, $n \\in \\mathbf{N}_+$. 证法1 当 $n=1$ 时, 因为 $x_1 \\in [0,1)$, 所以 $x_1 < 1 = \\frac{f_1}{f_2}$, 故结论成立. 当 $n=2$ 时, 分两种情况讨论: (1) 如果 $x_1 \\leqslant \\frac{1}{2}$, 则 $x_1 + x_2 < \\frac{1}{2} + 1 = \\frac{3}{2} = \\frac{f_1}{f_2} + \\frac{f_2}{f_3}$; (2) 如果 $\\frac{1}{2} < x_1 < 1$, 则 $x_1 + x_2 = x_1 + \\frac{1}{x_1} - 1 < f\\left(\\frac{1}{2}\\right) - 1 = \\frac{3}{2}$. 令 $f(t) = t + \\frac{1}{t}$, 则 $f(t)$ 在 $\\left[\\frac{1}{2}, 1\\right)$ 上单调递减, 故 $x_1 + x_2 = f(x_1) - 1 < f\\left(\\frac{1}{2}\\right) - 1 = \\frac{3}{2}$. 因此当 $n=2$ 时结论成立. 假设当 $n=k$, $n=k+1$ 时结论均成立. 那么就有 (i) 如果 $x_1 > \\frac{f_{k+2}}{f_{k+3}}$, 那么由(1), 故 $x_2 + x_3 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_k}{f_{k+1}}$. 同样 $x_3 + x_4 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_{k+1}}{f_{k+2}}$. 所以结论对 $n=k+2$ 成立. 说明 本题也可用连分数的方法证明, 但较繁琐. 证法2 设 $f(x) = \\frac{1}{1+x}$, 令 $g_n(x) = x + f(x) + f^{(2)}(x) + \\cdots + f^{(n)}(x)$, $n=0,1,2,\\cdots$. 注意到 $\\frac{f_1}{f_2} = 1$, 且 $f\\left(\\frac{f_i}{f_{i+1}}\\right) = \\frac{1}{1 + \\frac{f_i}{f_{i+1}}} = \\frac{f_{i+1}}{f_{i+2}}$, 可得 $f^{(k)}(1) = f^{(k)}\\left(\\frac{f_1}{f_2}\\right) = f^{(k-1)}\\left(\\frac{f_1}{f_3}\\right) = \\cdots = f\\left(\\frac{f_k}{f_{k+1}}\\right) = \\frac{f_{k+1}}{f_{k+2}}$, $k=1,2,\\cdots$. 所以 $g_{n-1}(1) = \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_n}{f_{n+1}}$. 下面先证明一个引理: 引理: (I) 对任何 $x$, $y \\in [0,1]$, 若 $x \\neq y$, 则 $|f(x) - f(y)| < |x - y|$, 并且 $f(x) - f(y)$ 与 $x - y$ 符号相反. 故 $x_n + x_{n-1} + \\cdots + x_1$ $\\leqslant x_n + \\frac{1}{1+x_n} + \\frac{1}{1+\\frac{1}{1+x_n}} + \\cdots + \\frac{1}{1+\\frac{1}{1+\\frac{1}{1+x_n}}}$ $= g_{n-1}(x_n) < g_{n-1}(1)$ $= \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_n}{f_{n+1}}$. 不妨设 $a_1 \\leqslant a_2 \\leqslant \\cdots \\leqslant a_n$. 那么, 由归纳假设, $x_2 + x_3 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_{k+1}}{f_{k+2}}$. 当 $\\frac{1}{a_1} < 1$ 时, 正整数 $a_1 \\geqslant 2 = r_1$, 所以 $\\frac{1}{a_1} \\leqslant \\frac{1}{r_1}$. 正整数 $a_1, a_2, \\cdots, a_n$ 满足 $\\sum_{k=1}^{n} \\frac{1}{a_k} < 1$. 求证: $\\sum_{i=1}^{n} \\frac{1}{r_i} \\leqslant \\sum_{i=1}^{n} \\frac{1}{a_i}$.",
+  "tags": [
+    "数学归纳法",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0016"
+}

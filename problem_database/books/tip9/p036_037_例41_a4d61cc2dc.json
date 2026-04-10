@@ -1,0 +1,26 @@
+{
+  "uid": "p036_037_例41_a4d61cc2dc",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1.9",
+  "section": "琴生(Jensen)不等式",
+  "problem_id": "例41",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    36,
+    37
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n (n \\geqslant 2)$ 都是正数, 且 $\\sum_{i=1}^{n} x_i = 1$, 求证:\n$$\\sum_{i=1}^{n} \\frac{x_i}{\\sqrt{1 - x_i}} \\geqslant \\frac{\\sum_{i=1}^{n} \\sqrt{x_i}}{\\sqrt{n - 1}}.$$",
+  "solution_md": "证明 令 $f(x) = \\frac{x}{\\sqrt{1 - x}}$, $x \\in (0, 1)$. 由于 $f''(x) > 0 (x \\in (0, 1))$, 所以 $f(x)$ 在 $(0, 1)$ 上是向下凸的函数. 因此对于 $x_1, x_2, \\cdots, x_n$, 由琴生不等式有\n$$f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right) \\leqslant \\frac{1}{n} (f(x_1) + f(x_2) + \\cdots + f(x_n)),$$\n因而题中的不等式左边\n$$\\sum_{i=1}^{n} \\frac{x_i}{\\sqrt{1 - x_i}} = \\sum_{i=1}^{n} f(x_i) \\geqslant n \\cdot f\\left(\\frac{\\sum_{i=1}^{n} x_i}{n}\\right)$$\n$$= n \\cdot f\\left(\\frac{1}{n}\\right) = n \\cdot \\frac{1}{n} \\cdot \\frac{\\sqrt{n}}{\\sqrt{n - 1}}$$\n$$= \\frac{\\sqrt{n}}{\\sqrt{n - 1}} = \\text{右边}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例41 设 $x_1, x_2, \\cdots, x_n (n \\geqslant 2)$ 都是正数, 且 $\\sum_{i=1}^{n} x_i = 1$, 求证:\n$$\\sum_{i=1}^{n} \\frac{x_i}{\\sqrt{1 - x_i}} \\geqslant \\frac{\\sum_{i=1}^{n} \\sqrt{x_i}}{\\sqrt{n - 1}}.$$ 证明 令 $f(x) = \\frac{x}{\\sqrt{1 - x}}$, $x \\in (0, 1)$. 由于 $f''(x) > 0 (x \\in (0, 1))$, 所以 $f(x)$ 在 $(0, 1)$ 上是向下凸的函数. 因此对于 $x_1, x_2, \\cdots, x_n$, 由琴生不等式有\n$$f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right) \\leqslant \\frac{1}{n} (f(x_1) + f(x_2) + \\cdots + f(x_n)),$$\n因而题中的不等式左边\n$$\\sum_{i=1}^{n} \\frac{x_i}{\\sqrt{1 - x_i}} = \\sum_{i=1}^{n} f(x_i) \\geqslant n \\cdot f\\left(\\frac{\\sum_{i=1}^{n} x_i}{n}\\right)$$\n$$= n \\cdot f\\left(\\frac{1}{n}\\right) = n \\cdot \\frac{1}{n} \\cdot \\frac{\\sqrt{n}}{\\sqrt{n - 1}}$$\n$$= \\frac{\\sqrt{n}}{\\sqrt{n - 1}} = \\text{右边}.$$",
+  "tags": [
+    "正数",
+    "不等式",
+    "琴生不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005"
+}

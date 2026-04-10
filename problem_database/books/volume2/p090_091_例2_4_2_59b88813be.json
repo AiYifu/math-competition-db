@@ -1,0 +1,26 @@
+{
+  "uid": "p090_091_例2_4_2_59b88813be",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第2章",
+  "section": "2.4",
+  "problem_id": "例2.4.2",
+  "problem_type": "example",
+  "title": "Romania Junior Balkan TST 2007",
+  "source_pages": [
+    90,
+    91
+  ],
+  "stem_md": "证明: 对于所有非负实数 $a, b, c$ 有 $a^3 + b^3 + c^3 - 3abc \\geqslant 4(a - b)(b - c)(c - a)$",
+  "solution_md": "证明及分析 考察不等式右边出现的三个差项 $a - b, b - c, c - a$, 我们发现和前一个问题有类似的地方. 把不等式该写成如下形式 $(a + b + c)\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right] \\geqslant 8(a - b)(b - c)(c - a)$ 由 AM - GM 不等式, 我们有 $a^3 + b^3 \\geqslant 4ab(b - a)$ 等号成立的当且仅当 $a = b = c$, 证毕. 这个证明方法, 不仅仅适用于三元不等式, 对下面的四元不等式仍然有效. 给定非负实数 $a, b, c, d$, 证明 $a^4 + b^4 + c^4 + d^4 - 4abcd \\geqslant 2(a - b)(b - c)(c - d)(d - a)$ 在某些例子中, 当我们同时减少所有变量时, 不等式的两边都在改变 (或增加或减少), 在这种情况下, 可以在更深的意义上, 应用整合全部变量法. 考察下面的例子, 并尝试应用涉及的方法.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.4.2 (Romania Junior Balkan TST 2007) 证明: 对于所有非负实数 $a, b, c$ 有 $a^3 + b^3 + c^3 - 3abc \\geqslant 4(a - b)(b - c)(c - a)$ 证明及分析 考察不等式右边出现的三个差项 $a - b, b - c, c - a$, 我们发现和前一个问题有类似的地方. 把不等式该写成如下形式 $(a + b + c)\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right] \\geqslant 8(a - b)(b - c)(c - a)$ 由 AM - GM 不等式, 我们有 $a^3 + b^3 \\geqslant 4ab(b - a)$ 等号成立的当且仅当 $a = b = c$, 证毕. 这个证明方法, 不仅仅适用于三元不等式, 对下面的四元不等式仍然有效. 给定非负实数 $a, b, c, d$, 证明 $a^4 + b^4 + c^4 + d^4 - 4abcd \\geqslant 2(a - b)(b - c)(c - d)(d - a)$ 在某些例子中, 当我们同时减少所有变量时, 不等式的两边都在改变 (或增加或减少), 在这种情况下, 可以在更深的意义上, 应用整合全部变量法. 考察下面的例子, 并尝试应用涉及的方法.",
+  "tags": [
+    "不等式",
+    "证明",
+    "变换"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012"
+}

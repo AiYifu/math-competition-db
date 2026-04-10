@@ -1,0 +1,25 @@
+{
+  "uid": "p069_070_例2_2_2_fd08c69545",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "2",
+  "section": "2",
+  "problem_id": "例2.2.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    69,
+    70
+  ],
+  "stem_md": "设非负实数 $a, b, c$ 的和为 2, 证明\n$$a^2+ab+b^2\\geqslant 3r^2$$\n其中, $r=\\frac{b+c}{3}$, 所以, 只需证明\n$$a^2+3r^2+4(a-1)(b-1)(c-1)(d-1)\\geqslant 4$$\n当然, $b^2+c^2+d^2\\geqslant 3r^2$, 所以",
+  "solution_md": "证明 不失一般性, 设 $a\\geqslant b\\geqslant c\\geqslant d$, 因为 $a^2+b^2+c^2+d^2\\geqslant 4$, 所以只需考虑不等式在 $(a-1)(b-1)(c-1)(d-1)\\leqslant 0$ 的情况下成立即可. 考虑下列两种情况:\n(1) 第一种情况 $a\\geqslant b\\geqslant c\\geqslant 1\\geqslant d$.\n$$a^2+b^2+c^2+d^2+4(a-1)(b-1)(c-1)(d-1)\\geqslant 4$$\n$$\\Leftrightarrow(a-1)(b-1)(c-1)(d-1)\\leqslant 0$$\n(2) 第二种情况 $a\\geqslant 1\\geqslant b\\geqslant c\\geqslant d$.\n$$a^2+b^2+c^2+d^2+4(a-1)(b-1)(c-1)(d-1)\\geqslant 4$$\n$$\\Leftrightarrow(a-1)(b-1)(c-1)(d-1)\\leqslant 0$$\n综上所述, 原不等式成立, 等号成立的条件是 $a=b=c=d=1$ 或 $a=4, b=c=d=0$ 或其轮换.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.2.2 (Murray Klamkin, Crux) 设非负实数 $a, b, c, d$ 是非负实数, 且满足 $a+b+c+d=4$, 证明\n$$a^2+b^2+c^2+d^2+4(a-1)(b-1)(c-1)(d-1)\\geqslant 4$$\n证明 不失一般性, 设 $a\\geqslant b\\geqslant c\\geqslant d$, 因为 $a^2+b^2+c^2+d^2\\geqslant 4$, 所以只需考虑不等式在 $(a-1)(b-1)(c-1)(d-1)\\leqslant 0$ 的情况下成立即可. 考虑下列两种情况:\n(1) 第一种情况 $a\\geqslant b\\geqslant c\\geqslant 1\\geqslant d$.\n$$a^2+b^2+c^2+d^2+4(a-1)(b-1)(c-1)(d-1)\\geqslant 4$$\n$$\\Leftrightarrow(a-1)(b-1)(c-1)(d-1)\\leqslant 0$$\n(2) 第二种情况 $a\\geqslant 1\\geqslant b\\geqslant c\\geqslant d$.\n$$a^2+b^2+c^2+d^2+4(a-1)(b-1)(c-1)(d-1)\\geqslant 4$$\n$$\\Leftrightarrow(a-1)(b-1)(c-1)(d-1)\\leqslant 0$$\n综上所述, 原不等式成立, 等号成立的条件是 $a=b=c=d=1$ 或 $a=4, b=c=d=0$ 或其轮换.",
+  "tags": [
+    "不等式",
+    "分类讨论"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

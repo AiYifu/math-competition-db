@@ -1,0 +1,57 @@
+{
+  "uid": "p216_217_例782_5048d7a982",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.2",
+  "problem_type": "example",
+  "title": "Nguyen Vu Tuan, CPR",
+  "source_pages": [
+    216,
+    217
+  ],
+  "source_images": [
+    "page-216.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2(a^2+b^2+c^2)}{ab+bc+ca}+1$$",
+  "solution_md": "**证明** 容易把不等式改写成如下形式\n\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M_1=\\frac{1}{ab}-\\frac{2}{ab+bc+ca}, N_1=\\frac{1}{ac}-\\frac{2}{ab+bc+ca}$$\n\n所以\n\n$$M_1(a-b)^2+N_1(c-a)(c-b)=M(a-b)^2+N(c-a)(c-b)$$\n\n其中\n\n$$M=M_1+\\frac{(c-a)(c-b)}{ab(ab+bc+ca)}=\\frac{1}{ab}-\\frac{2}{ab+bc+ca}+\\frac{(c-a)(c-b)}{ab(ab+bc+ca)}$$\n\n$$=\\frac{c^2}{ab(ab+bc+ca)}$$\n\n$$N=N_1-\\frac{(a-b)^2}{ab(ab+bc+ca)}=\\frac{1}{ac}-\\frac{2}{ab+bc+ca}-\\frac{(a-b)^2}{ab(ab+bc+ca)}$$\n\n$$=\\frac{ab^2+abc-ca^2}{abc(ab+bc+ca)}$$\n\n不失一般性，设 $c=\\min\\{a,b,c\\}$，显然 $M\\geqslant 0$。另外，由于\n\n$$ab^2+abc=ab(b+c)>a^2b>a^2c$$\n\n所以，$N\\geqslant 0$。从而，不等式得证。等号成立的条件是 $a=b=c$。\n\n**注** 使用相同的条件，我们可以用同样的方法证明下列更强的不等式\n\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{9(a^2+b^2+c^2)}{4(ab+bc+ca)}+\\frac{3}{4}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.2(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2(a^2+b^2+c^2)}{ab+bc+ca}+1$$\n证明 容易把不等式改写成如下形式...",
+  "tags": [
+    "特别技术",
+    "三角形边长",
+    "恒等式变形",
+    "更强不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "5048d7a9822f65a0fc26837ec3d34898dffe2ae8",
+  "raw_problem": {
+    "problem_id": "例7.8.2",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": "Nguyen Vu Tuan, CPR",
+    "source_pages": [
+      216,
+      217
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2(a^2+b^2+c^2)}{ab+bc+ca}+1$$",
+    "solution_md": "**证明** 容易把不等式改写成如下形式\n\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M_1=\\frac{1}{ab}-\\frac{2}{ab+bc+ca}, N_1=\\frac{1}{ac}-\\frac{2}{ab+bc+ca}$$\n\n所以\n\n$$M_1(a-b)^2+N_1(c-a)(c-b)=M(a-b)^2+N(c-a)(c-b)$$\n\n其中\n\n$$M=M_1+\\frac{(c-a)(c-b)}{ab(ab+bc+ca)}=\\frac{1}{ab}-\\frac{2}{ab+bc+ca}+\\frac{(c-a)(c-b)}{ab(ab+bc+ca)}$$\n\n$$=\\frac{c^2}{ab(ab+bc+ca)}$$\n\n$$N=N_1-\\frac{(a-b)^2}{ab(ab+bc+ca)}=\\frac{1}{ac}-\\frac{2}{ab+bc+ca}-\\frac{(a-b)^2}{ab(ab+bc+ca)}$$\n\n$$=\\frac{ab^2+abc-ca^2}{abc(ab+bc+ca)}$$\n\n不失一般性，设 $c=\\min\\{a,b,c\\}$，显然 $M\\geqslant 0$。另外，由于\n\n$$ab^2+abc=ab(b+c)>a^2b>a^2c$$\n\n所以，$N\\geqslant 0$。从而，不等式得证。等号成立的条件是 $a=b=c$。\n\n**注** 使用相同的条件，我们可以用同样的方法证明下列更强的不等式\n\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{9(a^2+b^2+c^2)}{4(ab+bc+ca)}+\\frac{3}{4}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.2(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2(a^2+b^2+c^2)}{ab+bc+ca}+1$$\n证明 容易把不等式改写成如下形式...",
+    "tags": [
+      "特别技术",
+      "三角形边长",
+      "恒等式变形",
+      "更强不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

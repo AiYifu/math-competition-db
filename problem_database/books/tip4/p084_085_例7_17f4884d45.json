@@ -1,0 +1,25 @@
+{
+  "uid": "p084_085_例7_17f4884d45",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    84,
+    85
+  ],
+  "stem_md": "设整数 $n \\geqslant 2$, $a_i$, $b_i \\geqslant 0$, $1 \\leqslant i \\leqslant n$. 证明:\n$$\n\\left( \\frac{n}{n - 1} \\right)^{n - 1} \\left( \\frac{1}{n} \\sum_{i = 1}^{n} a_i^2 \\right) + \\left( \\frac{1}{n} \\sum_{i = 1}^{n} b_i \\right)^2 \\geqslant \\left[ (a_1^2 + b_1^2)(a_2^2 + b_2^2) \\cdots (a_n^2 + b_n^2) \\right]^{\\frac{1}{n}}.\n$$",
+  "solution_md": "证明 令 $\\lambda = \\left( \\frac{n}{n - 1} \\right)^{n - 1}$ 对 $i \\in \\{1, 2, \\cdots, n\\}$, 将 $a_j$, $b_j$, $j \\neq i$ 都固定, 同时固定 $p = a_i^2 + b_i^2$. 于是, 不等式左边为 $b_i$ 的二次函数 $b_i \\in [0, \\sqrt{p}]$, 其首项系数 $-\\frac{\\lambda}{n} + \\frac{1}{n^2} < 0$. 从而, 左边的最小值在端点取得, 即 $b_i = 0$ 或 $a_i = 0$.\n对每个 $i$, 进行上述调整, 假设 $a_i b_i = 0$, $1 \\leqslant i \\leqslant n$, 则由平均值不等式得\n$$\n\\left( \\frac{1}{n} \\sum_{i = 1}^{n} b_i \\right)^2 \\geqslant (b_1 b_2 \\cdots b_n)^{\\frac{2}{n}}.\n$$\n由于 $\\frac{\\lambda k}{n} a^2 + \\frac{(n - k)^2}{n^2} b^2 \\geqslant \\lambda^n a^n b^{\\frac{2k}{n}} \\cdot \\left( \\frac{n - k}{n} \\right)^{n - k} \\leqslant \\lambda^k$,\n所以, 只需证明 $\\lambda^{\\frac{k}{n}} \\left( \\frac{n - k}{n} \\right)^{\\frac{n - k}{n}} \\geqslant 1$, 即 $\\left( \\frac{n}{n - k} \\right)^{n - k} \\geqslant \\lambda^k$,\n由平均值不等式 $\\left( \\frac{n}{nk - n} \\right)^{n - k} < \\frac{1}{2^3}$, 矛盾.\n当 $k = 2$ 时, 取 $n = 1$, 则 $\\frac{4}{27} < \\frac{1}{8}$, 亦矛盾.\n因此 $k \\geqslant 4$. 下面证明 $k = 4$ 时命题成立, 即\n$$\n4^4 n^n (n + 1)^3 < (n + 4)^{n + 4}.\n$$\n当 $n = 1, 2, 3$ 时, 容易证明成立.\n当 $n \\geqslant 4$ 时, 再由平均值不等式, 得\n$$\nn + 4 = \\sqrt[n + 4]{4^4 n^n (n + 1)^3} = \\sqrt[n + 4]{16 (2n)(2n)(2n)n^{n - 4}(n + 1)^3} \\\\\n\\leqslant \\frac{16 + 8n + n(n - 4) + 3(n + 1)}{n + 4} \\\\\n= \\frac{n^2 + 7n + 19}{n + 4} < \\frac{n^2 + 8n + 16}{n + 4} = n + 4,\n$$\n故 $k$ 的最小值为 4.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例7 设整数 $n \\geqslant 2$, $a_i$, $b_i \\geqslant 0$, $1 \\leqslant i \\leqslant n$. 证明:\n$$\n\\left( \\frac{n}{n - 1} \\right)^{n - 1} \\left( \\frac{1}{n} \\sum_{i = 1}^{n} a_i^2 \\right) + \\left( \\frac{1}{n} \\sum_{i = 1}^{n} b_i \\right)^2 \\geqslant \\left[ (a_1^2 + b_1^2)(a_2^2 + b_2^2) \\cdots (a_n^2 + b_n^2) \\right]^{\\frac{1}{n}}.\n$$\n证明 令 $\\lambda = \\left( \\frac{n}{n - 1} \\right)^{n - 1}$ 对 $i \\in \\{1, 2, \\cdots, n\\}$, 将 $a_j$, $b_j$, $j \\neq i$ 都固定, 同时固定 $p = a_i^2 + b_i^2$. 于是, 不等式左边为 $b_i$ 的二次函数 $b_i \\in [0, \\sqrt{p}]$, 其首项系数 $-\\frac{\\lambda}{n} + \\frac{1}{n^2} < 0$. 从而, 左边的最小值在端点取得, 即 $b_i = 0$ 或 $a_i = 0$.\n对每个 $i$, 进行上述调整, 假设 $a_i b_i = 0$, $1 \\leqslant i \\leqslant n$, 则由平均值不等式得\n$$\n\\left( \\frac{1}{n} \\sum_{i = 1}^{n} b_i \\right)^2 \\geqslant (b_1 b_2 \\cdots b_n)^{\\frac{2}{n}}.\n$$\n由于 $\\frac{\\lambda k}{n} a^2 + \\frac{(n - k)^2}{n^2} b^2 \\geqslant \\lambda^n a^n b^{\\frac{2k}{n}} \\cdot \\left( \\frac{n - k}{n} \\right)^{n - k} \\leqslant \\lambda^k$,\n所以, 只需证明 $\\lambda^{\\frac{k}{n}} \\left( \\frac{n - k}{n} \\right)^{\\frac{n - k}{n}} \\geqslant 1$, 即 $\\left( \\frac{n}{n - k} \\right)^{n - k} \\geqslant \\lambda^k$,\n由平均值不等式 $\\left( \\frac{n}{nk - n} \\right)^{n - k} < \\frac{1}{2^3}$, 矛盾.\n当 $k = 2$ 时, 取 $n = 1$, 则 $\\frac{4}{27} < \\frac{1}{8}$, 亦矛盾.\n因此 $k \\geqslant 4$. 下面证明 $k = 4$ 时命题成立, 即\n$$\n4^4 n^n (n + 1)^3 < (n + 4)^{n + 4}.\n$$\n当 $n = 1, 2, 3$ 时, 容易证明成立.\n当 $n \\geqslant 4$ 时, 再由平均值不等式, 得\n$$\nn + 4 = \\sqrt[n + 4]{4^4 n^n (n + 1)^3} = \\sqrt[n + 4]{16 (2n)(2n)(2n)n^{n - 4}(n + 1)^3} \\\\\n\\leqslant \\frac{16 + 8n + n(n - 4) + 3(n + 1)}{n + 4} \\\\\n= \\frac{n^2 + 7n + 19}{n + 4} < \\frac{n^2 + 8n + 16}{n + 4} = n + 4,\n$$\n故 $k$ 的最小值为 4.",
+  "tags": [
+    "均值不等式",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011"
+}

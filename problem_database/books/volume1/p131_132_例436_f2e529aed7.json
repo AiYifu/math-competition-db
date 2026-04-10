@@ -1,0 +1,51 @@
+{
+  "uid": "p131_132_例436_f2e529aed7",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4",
+  "section": "4.3",
+  "problem_id": "例4.3.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    131,
+    132
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$(n-1)(a_1^2+a_2^2+\\cdots+a_n^2)+na_1a_2\\cdots a_n\\geqslant n^2$$",
+  "solution_md": "事实上，不等式可以写成下列形式\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant c(1-a_1a_2\\cdots a_n)\\quad \\forall c\\leqslant c_n=\\frac{n}{n-1}\\quad (1)$$\n当 $n=2$ 时，(1) 是一个等式。假设 (1) 对 $n$ 个数是成立的。由归纳法，我们来证明对 $n+1$ 个数 (1) 也成立，即\n$$a_1^2+a_2^2+\\cdots+a_{n+1}^2-(n+1)\\geqslant c(1-a_1a_2\\cdots a_{n+1})\\quad \\forall c\\leqslant c_{n+1}=1+\\frac{1}{n}\\quad (2)$$\n不失一般性，设 $a_1\\geqslant a_2\\geqslant \\cdots\\geqslant a_{n+1}$，令 $t=\\frac{a_1+a_2+\\cdots+a_n}{n}$，对每一个 $i\\in\\{1,2,\\cdots,n\\}$，设 $b_i=\\frac{a_i}{t}$，则 $t\\geqslant 1, b_1+b_2+\\cdots+b_n=n$，由归纳假设，我们有，对所有 $c'\\leqslant c_n$，则\n$$b_1^2+b_2^2+\\cdots+b_n^2-n\\geqslant c'(1-b_1b_2\\cdots b_n)$$\n将 $a_i=tb_i$ 代入上述不等式，有\n$$a_1^2+a_2^2+\\cdots+a_n^2-nt^2\\geqslant \\frac{c'}{t^{n-2}}(t^n-a_1a_2\\cdots a_n)\\quad (3)$$\n$$\\Rightarrow a_1^2+a_2^2+\\cdots+a_n^2+\\frac{c'a_1a_2\\cdots a_n}{t^{n-2}}\\geqslant c't^2+nt^2$$\n(2) 改写成如下形式\n$$(a_1^2+a_2^2+\\cdots+a_n^2+ca_{n+1}\\cdot a_1a_2\\cdots a_n)+(a_{n+1}^2-1)\\geqslant c+n\\quad (4)$$\n由假设条件 $a_1+a_2+\\cdots+a_{n+1}=n+1$，及 AM-GM 不等式，有\n$$a_{n+1}t^n=a_{n+1}\\left(\\frac{a_1+a_2+\\cdots+a_n}{n}\\right)^n\\leqslant \\left(\\frac{a_1+a_2+\\cdots+a_{n+1}}{n+1}\\right)^{n+1}=1$$\n所以\n$$ca_{n+1}t^{n-2}\\leqslant \\frac{c}{t^2}\\leqslant c\\leqslant c_{n+1}\\leqslant c_n$$\n这就是说，我们可以在 (4) 中使用 (3)，则只需证明\n$$nt^2+ca_{n+1}t^n+a_{n+1}^2\\geqslant c+n$$\n$$\\Leftrightarrow n[nt^2+(n+1-nt)^2-n]+c[(n+1-nt)t^n-1]\\geqslant 0$$\n事实上，只需证明，对 $c=c_{n+1}=1+\\frac{1}{n}$，即\n$$n[nt^2+(n+1-nt)^2]+nt^n(n+1-nt)-(n+1)^2\\geqslant 0$$\n$$\\Leftrightarrow (n+1-nt)[nt^{n+1}-(n+1)t+1]\\geqslant 0$$\n这是显然成立的，因为 $nt^{n+1}+1\\geqslant (n+1)t$（由 AM-GM 不等式）。这样，我们就证明了原不等式是成立的。等号成立的条件是所有数都等于 1 或一个数为 0，其他数都为 $\\frac{n}{n-1}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.6(Vasile Cirtoaje,Old and New Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明...",
+  "tags": [
+    "归纳法",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0017",
+  "raw_response_file": "raw/chunk-0017.response.txt",
+  "raw_api_file": "raw/chunk-0017.api.json",
+  "fingerprint": "f2e529aed7fcea89f5ab06f25eabcba582f68df6",
+  "raw_problem": {
+    "problem_id": "例4.3.6",
+    "problem_type": "example",
+    "chapter": "4",
+    "section": "4.3",
+    "title": null,
+    "source_pages": [
+      131,
+      132
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$(n-1)(a_1^2+a_2^2+\\cdots+a_n^2)+na_1a_2\\cdots a_n\\geqslant n^2$$",
+    "solution_md": "事实上，不等式可以写成下列形式\n$$a_1^2+a_2^2+\\cdots+a_n^2-n\\geqslant c(1-a_1a_2\\cdots a_n)\\quad \\forall c\\leqslant c_n=\\frac{n}{n-1}\\quad (1)$$\n当 $n=2$ 时，(1) 是一个等式。假设 (1) 对 $n$ 个数是成立的。由归纳法，我们来证明对 $n+1$ 个数 (1) 也成立，即\n$$a_1^2+a_2^2+\\cdots+a_{n+1}^2-(n+1)\\geqslant c(1-a_1a_2\\cdots a_{n+1})\\quad \\forall c\\leqslant c_{n+1}=1+\\frac{1}{n}\\quad (2)$$\n不失一般性，设 $a_1\\geqslant a_2\\geqslant \\cdots\\geqslant a_{n+1}$，令 $t=\\frac{a_1+a_2+\\cdots+a_n}{n}$，对每一个 $i\\in\\{1,2,\\cdots,n\\}$，设 $b_i=\\frac{a_i}{t}$，则 $t\\geqslant 1, b_1+b_2+\\cdots+b_n=n$，由归纳假设，我们有，对所有 $c'\\leqslant c_n$，则\n$$b_1^2+b_2^2+\\cdots+b_n^2-n\\geqslant c'(1-b_1b_2\\cdots b_n)$$\n将 $a_i=tb_i$ 代入上述不等式，有\n$$a_1^2+a_2^2+\\cdots+a_n^2-nt^2\\geqslant \\frac{c'}{t^{n-2}}(t^n-a_1a_2\\cdots a_n)\\quad (3)$$\n$$\\Rightarrow a_1^2+a_2^2+\\cdots+a_n^2+\\frac{c'a_1a_2\\cdots a_n}{t^{n-2}}\\geqslant c't^2+nt^2$$\n(2) 改写成如下形式\n$$(a_1^2+a_2^2+\\cdots+a_n^2+ca_{n+1}\\cdot a_1a_2\\cdots a_n)+(a_{n+1}^2-1)\\geqslant c+n\\quad (4)$$\n由假设条件 $a_1+a_2+\\cdots+a_{n+1}=n+1$，及 AM-GM 不等式，有\n$$a_{n+1}t^n=a_{n+1}\\left(\\frac{a_1+a_2+\\cdots+a_n}{n}\\right)^n\\leqslant \\left(\\frac{a_1+a_2+\\cdots+a_{n+1}}{n+1}\\right)^{n+1}=1$$\n所以\n$$ca_{n+1}t^{n-2}\\leqslant \\frac{c}{t^2}\\leqslant c\\leqslant c_{n+1}\\leqslant c_n$$\n这就是说，我们可以在 (4) 中使用 (3)，则只需证明\n$$nt^2+ca_{n+1}t^n+a_{n+1}^2\\geqslant c+n$$\n$$\\Leftrightarrow n[nt^2+(n+1-nt)^2-n]+c[(n+1-nt)t^n-1]\\geqslant 0$$\n事实上，只需证明，对 $c=c_{n+1}=1+\\frac{1}{n}$，即\n$$n[nt^2+(n+1-nt)^2]+nt^n(n+1-nt)-(n+1)^2\\geqslant 0$$\n$$\\Leftrightarrow (n+1-nt)[nt^{n+1}-(n+1)t+1]\\geqslant 0$$\n这是显然成立的，因为 $nt^{n+1}+1\\geqslant (n+1)t$（由 AM-GM 不等式）。这样，我们就证明了原不等式是成立的。等号成立的条件是所有数都等于 1 或一个数为 0，其他数都为 $\\frac{n}{n-1}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.3.6(Vasile Cirtoaje,Old and New Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数，满足 $a_1+a_2+\\cdots+a_n=n$，证明...",
+    "tags": [
+      "归纳法",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

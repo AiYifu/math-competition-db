@@ -1,0 +1,24 @@
+{
+  "uid": "p003_003_例1_5be80c870a",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例1",
+  "problem_type": "example",
+  "title": "比较法",
+  "source_pages": [
+    3
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 求证: \n$$\frac{a^2 + bc}{b + c} + \frac{b^2 + ca}{c + a} + \frac{c^2 + ab}{a + b} \\geq a + b + c.$$",
+  "solution_md": "证明 上式左边一右边\n$$\begin{aligned}&= \frac{a^2 + bc}{b + c} - a + \frac{b^2 + ca}{c + a} - b + \frac{c^2 + ab}{a + b} - c \\\n&= \frac{a^2 + bc - ab - ac}{b + c} + \frac{b^2 + ca - bc - ba}{c + a} + \frac{c^2 + ab - ca - cb}{a + b} \\\n&= \frac{(a - b)(a - c)}{b + c} + \frac{(b - c)(b - a)}{c + a} + \frac{(c - a)(c - b)}{a + b} \\\n&= \frac{(a^2 - b^2)(a^2 - c^2) + (b^2 - c^2)^2 + (c^2 - a^2)^2}{2(a + b)(b + c)(c + a)} \\geq 0,\n\\end{aligned}$$\n所以\n$$\frac{a^2 + bc}{b + c} + \frac{b^2 + ca}{c + a} + \frac{c^2 + ab}{a + b} \\geq a + b + c.$$",
+  "answer_md": "",
+  "hints_md": "说明 本题的拆项配方,有一定的技巧,需要有较强的观察能力.",
+  "original_text_md": "例1 设 $a, b, c$ 是正实数, 求证: \n$$\frac{a^2 + bc}{b + c} + \frac{b^2 + ca}{c + a} + \frac{c^2 + ab}{a + b} \\geq a + b + c.$$ \n证明 上式左边一右边\n$$\begin{aligned}&= \frac{a^2 + bc}{b + c} - a + \frac{b^2 + ca}{c + a} - b + \frac{c^2 + ab}{a + b} - c \\\n&= \frac{a^2 + bc - ab - ac}{b + c} + \frac{b^2 + ca - bc - ba}{c + a} + \frac{c^2 + ab - ca - cb}{a + b} \\\n&= \frac{(a - b)(a - c)}{b + c} + \frac{(b - c)(b - a)}{c + a} + \frac{(c - a)(c - b)}{a + b} \\\n&= \frac{(a^2 - b^2)(a^2 - c^2) + (b^2 - c^2)^2 + (c^2 - a^2)^2}{2(a + b)(b + c)(c + a)} \\geq 0,\n\\end{aligned}$$\n所以\n$$\frac{a^2 + bc}{b + c} + \frac{b^2 + ca}{c + a} + \frac{c^2 + ab}{a + b} \\geq a + b + c.$$ \n说明 本题的拆项配方,有一定的技巧,需要有较强的观察能力.",
+  "tags": [
+    "不等式证明",
+    "比较法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

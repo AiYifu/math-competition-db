@@ -1,0 +1,53 @@
+{
+  "uid": "p173_173_例_533_04deef1333",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.3",
+  "problem_type": "example",
+  "title": "Dao Hai Long, Mathematics & Youth Magazine",
+  "source_pages": [
+    173
+  ],
+  "source_images": [
+    "page-173.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\left(\\frac{a+b}{a-b}\\right)^2+\\left(\\frac{b+c}{b-c}\\right)^2+\\left(\\frac{c+a}{c-a}\\right)^2\\geqslant 2$$",
+  "solution_md": "设 $x=\\frac{a+b}{a-b},y=\\frac{b+c}{b-c},z=\\frac{c+a}{c-a}$，则\n$$(x+1)(y+1)(z+1)=(x-1)(y-1)(z-1)\\Leftrightarrow xy+yz+zx=-1$$\n所以\n$$x^2+y^2+z^2\\geqslant -2(xy+yz+zx)=2$$",
+  "answer_md": "",
+  "hints_md": "注 1. 类似地，我们可以证明下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{a^2}{(b-c)^2}+\\frac{b^2}{(c-a)^2}+\\frac{c^2}{(a-b)^2}\\geqslant 2$$\n事实上，令 $x=\\frac{a}{b-c},y=\\frac{b}{c-a},z=\\frac{c}{a-b}$，则\n$$(1+x)(1+y)(1+z)=-(1-x)(1-y)(1-z)$$\n$$\\Rightarrow xy+yz+zx=-1$$\n\n2. 原不等式的右边每一项都减去 1，得到下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{ab}{(a-b)^2}+\\frac{bc}{(b-c)^2}+\\frac{ca}{(c-a)^2}\\geqslant -\\frac{1}{4}$$\n所以，我们推出，对所有互不相等的实数 $a,b,c$，有\n$$\\frac{a^2+b^2}{(a-b)^2}+\\frac{b^2+c^2}{(b-c)^2}+\\frac{c^2+a^2}{(c-a)^2}\\geqslant\\frac{5}{4}$$",
+  "original_text_md": "例 5.3.3 (Dao Hai Long, Mathematics & Youth Magazine) 设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\left(\\frac{a+b}{a-b}\\right)^2+\\left(\\frac{b+c}{b-c}\\right)^2+\\left(\\frac{c+a}{c-a}\\right)^2\\geqslant 2$$\n证明 设 $x=\\frac{a+b}{a-b},y=\\frac{b+c}{b-c},z=\\frac{c+a}{c-a}$，则\n$$(x+1)(y+1)(z+1)=(x-1)(y-1)(z-1)\\Leftrightarrow xy+yz+zx=-1$$\n所以\n$$x^2+y^2+z^2\\geqslant -2(xy+yz+zx)=2$$\n注 1. 类似地，我们可以证明下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{a^2}{(b-c)^2}+\\frac{b^2}{(c-a)^2}+\\frac{c^2}{(a-b)^2}\\geqslant 2$$\n事实上，令 $x=\\frac{a}{b-c},y=\\frac{b}{c-a},z=\\frac{c}{a-b}$，则\n$$(1+x)(1+y)(1+z)=-(1-x)(1-y)(1-z)$$\n$$\\Rightarrow xy+yz+zx=-1$$\n2. 原不等式的右边每一项都减去 1，得到下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{ab}{(a-b)^2}+\\frac{bc}{(b-c)^2}+\\frac{ca}{(c-a)^2}\\geqslant -\\frac{1}{4}$$\n所以，我们推出，对所有互不相等的实数 $a,b,c$，有\n$$\\frac{a^2+b^2}{(a-b)^2}+\\frac{b^2+c^2}{(b-c)^2}+\\frac{c^2+a^2}{(c-a)^2}\\geqslant\\frac{5}{4}$$",
+  "tags": [
+    "恒等式",
+    "代换法",
+    "分式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "04deef13333d54f76dd933702404328c1e5869ed",
+  "raw_problem": {
+    "problem_id": "例 5.3.3",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Dao Hai Long, Mathematics & Youth Magazine",
+    "source_pages": [
+      173
+    ],
+    "stem_md": "设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\left(\\frac{a+b}{a-b}\\right)^2+\\left(\\frac{b+c}{b-c}\\right)^2+\\left(\\frac{c+a}{c-a}\\right)^2\\geqslant 2$$",
+    "solution_md": "设 $x=\\frac{a+b}{a-b},y=\\frac{b+c}{b-c},z=\\frac{c+a}{c-a}$，则\n$$(x+1)(y+1)(z+1)=(x-1)(y-1)(z-1)\\Leftrightarrow xy+yz+zx=-1$$\n所以\n$$x^2+y^2+z^2\\geqslant -2(xy+yz+zx)=2$$",
+    "answer_md": "",
+    "hints_md": "注 1. 类似地，我们可以证明下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{a^2}{(b-c)^2}+\\frac{b^2}{(c-a)^2}+\\frac{c^2}{(a-b)^2}\\geqslant 2$$\n事实上，令 $x=\\frac{a}{b-c},y=\\frac{b}{c-a},z=\\frac{c}{a-b}$，则\n$$(1+x)(1+y)(1+z)=-(1-x)(1-y)(1-z)$$\n$$\\Rightarrow xy+yz+zx=-1$$\n\n2. 原不等式的右边每一项都减去 1，得到下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{ab}{(a-b)^2}+\\frac{bc}{(b-c)^2}+\\frac{ca}{(c-a)^2}\\geqslant -\\frac{1}{4}$$\n所以，我们推出，对所有互不相等的实数 $a,b,c$，有\n$$\\frac{a^2+b^2}{(a-b)^2}+\\frac{b^2+c^2}{(b-c)^2}+\\frac{c^2+a^2}{(c-a)^2}\\geqslant\\frac{5}{4}$$",
+    "original_text_md": "例 5.3.3 (Dao Hai Long, Mathematics & Youth Magazine) 设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\left(\\frac{a+b}{a-b}\\right)^2+\\left(\\frac{b+c}{b-c}\\right)^2+\\left(\\frac{c+a}{c-a}\\right)^2\\geqslant 2$$\n证明 设 $x=\\frac{a+b}{a-b},y=\\frac{b+c}{b-c},z=\\frac{c+a}{c-a}$，则\n$$(x+1)(y+1)(z+1)=(x-1)(y-1)(z-1)\\Leftrightarrow xy+yz+zx=-1$$\n所以\n$$x^2+y^2+z^2\\geqslant -2(xy+yz+zx)=2$$\n注 1. 类似地，我们可以证明下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{a^2}{(b-c)^2}+\\frac{b^2}{(c-a)^2}+\\frac{c^2}{(a-b)^2}\\geqslant 2$$\n事实上，令 $x=\\frac{a}{b-c},y=\\frac{b}{c-a},z=\\frac{c}{a-b}$，则\n$$(1+x)(1+y)(1+z)=-(1-x)(1-y)(1-z)$$\n$$\\Rightarrow xy+yz+zx=-1$$\n2. 原不等式的右边每一项都减去 1，得到下列不等式：\n设 $a,b,c$ 是三个互不相等的实数，证明\n$$\\frac{ab}{(a-b)^2}+\\frac{bc}{(b-c)^2}+\\frac{ca}{(c-a)^2}\\geqslant -\\frac{1}{4}$$\n所以，我们推出，对所有互不相等的实数 $a,b,c$，有\n$$\\frac{a^2+b^2}{(a-b)^2}+\\frac{b^2+c^2}{(b-c)^2}+\\frac{c^2+a^2}{(c-a)^2}\\geqslant\\frac{5}{4}$$",
+    "tags": [
+      "恒等式",
+      "代换法",
+      "分式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

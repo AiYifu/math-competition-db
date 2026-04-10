@@ -1,0 +1,21 @@
+{
+  "uid": "p173_173_例2_9caa8e10f5",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4.6 利用平均值不等式与柯西不等式解题",
+  "section": null,
+  "problem_id": "例2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    173
+  ],
+  "stem_md": "求 $x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2}$ 的最大值.",
+  "solution_md": "解 由柯西不等式, 得 $$|x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2}| \\leqslant \\frac{x^2 + y^2}{2} + \\frac{1 + x^2 + 1 + y^2}{2} = 1.$$ 若 $x = \\frac{1}{2}$, $y = \\frac{\\sqrt{3}}{2}$, 则 $$x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2} = \\frac{1}{2} \\left(\\sqrt{yz} + \\sqrt{zx} + \\sqrt{xy}\\right) = \\frac{1}{2} \\left(2x^2 + 2y^2 + 2z^2\\right)^{\\frac{1}{2}} = \\frac{3}{2} \\sqrt{3}.$$ 于是所求的最大值为 1.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例2 求 $x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2}$ 的最大值. 解 由柯西不等式, 得 $$|x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2}| \\leqslant \\frac{x^2 + y^2}{2} + \\frac{1 + x^2 + 1 + y^2}{2} = 1.$$ 若 $x = \\frac{1}{2}$, $y = \\frac{\\sqrt{3}}{2}$, 则 $$x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2} = \\frac{1}{2} \\left(\\sqrt{yz} + \\sqrt{zx} + \\sqrt{xy}\\right) = \\frac{1}{2} \\left(2x^2 + 2y^2 + 2z^2\\right)^{\\frac{1}{2}} = \\frac{3}{2} \\sqrt{3}.$$ 于是所求的最大值为 1.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

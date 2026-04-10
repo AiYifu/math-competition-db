@@ -1,0 +1,24 @@
+{
+  "uid": "p032_032_例35_1f27be02b5",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例35",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    32
+  ],
+  "stem_md": "设 $x, y, z$ 满足: $x + y + z = 1$, 求证:\n$$\\frac{1 - 2x}{\\sqrt{x(1 - x)}} + \\frac{1 - 2y}{\\sqrt{y(1 - y)}} + \\frac{1 - 2z}{\\sqrt{z(1 - z)}} \\geqslant \\frac{4}{27}.$$",
+  "solution_md": "证明 由切比雪夫不等式, 得\n$$\\frac{1 - 2x}{\\sqrt{x(1 - x)}} + \\frac{1 - 2y}{\\sqrt{y(1 - y)}} + \\frac{1 - 2z}{\\sqrt{z(1 - z)}} \\geqslant \\frac{4}{27}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x, y, z$ 满足: $x + y + z = 1$, 求证:\n$$\\frac{1 - 2x}{\\sqrt{x(1 - x)}} + \\frac{1 - 2y}{\\sqrt{y(1 - y)}} + \\frac{1 - 2z}{\\sqrt{z(1 - z)}} \\geqslant \\frac{4}{27}.$$",
+  "tags": [
+    "不等式",
+    "切比雪夫不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

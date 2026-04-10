@@ -1,0 +1,25 @@
+{
+  "uid": "p014_015_例15_f4308dfbec",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例15",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    14,
+    15
+  ],
+  "stem_md": "已知 $a, b, c \\in \\mathbf{R}_+$，$abc = 1$。求证：\n$$(a + b)(b + c)(c + a) \\geqslant 4(a + b + c - 1).$$",
+  "solution_md": "分析 想法是把 $a$ 当作参数，将其看成是关于 $b + c$ 的一元二次方程，用判别式的方法来证明。\n证明 不妨设 $a \\geqslant 1$，则原不等式等价于\n$$2 + a(b^2 + c^2) + bc(b + c - 3)(b + c) + 6 \\geqslant 4a + 3(b + c),$$\n$$\\frac{a}{2}(b + c)^2 + (bc - 3)(b + c) + 2 \\geqslant 0.$$记\n$$f(x) = \\frac{a}{2} \\cdot x^2 + (bc - 3)x + 2,$$则其判别式\n$$\\Delta = (bc - 3)^2 - 4a \\leqslant 0,$$即\n$$1 - 6a + 9a^2 - 4a^3 \\leqslant 0,$$\n$$(a - 1)^2(4a - 1) \\geqslant 0.$$由 $a \\geqslant 1$，③显然成立，进而①成立。\n由上知等号在 $a = b = c = 1$ 时成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例15 已知 $a, b, c \\in \\mathbf{R}_+$，$abc = 1$。求证：\n$$(a + b)(b + c)(c + a) \\geqslant 4(a + b + c - 1).$$分析 想法是把 $a$ 当作参数，将其看成是关于 $b + c$ 的一元二次方程，用判别式的方法来证明。\n证明 不妨设 $a \\geqslant 1$，则原不等式等价于\n$$2 + a(b^2 + c^2) + bc(b + c - 3)(b + c) + 6 \\geqslant 4a + 3(b + c),$$\n$$\\frac{a}{2}(b + c)^2 + (bc - 3)(b + c) + 2 \\geqslant 0.$$记\n$$f(x) = \\frac{a}{2} \\cdot x^2 + (bc - 3)x + 2,$$则其判别式\n$$\\Delta = (bc - 3)^2 - 4a \\leqslant 0,$$即\n$$1 - 6a + 9a^2 - 4a^3 \\leqslant 0,$$\n$$(a - 1)^2(4a - 1) \\geqslant 0.$$由 $a \\geqslant 1$，③显然成立，进而①成立。\n由上知等号在 $a = b = c = 1$ 时成立。",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

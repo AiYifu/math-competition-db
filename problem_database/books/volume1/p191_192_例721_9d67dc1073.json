@@ -1,0 +1,56 @@
+{
+  "uid": "p191_192_例721_9d67dc1073",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.2 从一个简单的性质出发",
+  "problem_id": "例7.2.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    191,
+    192
+  ],
+  "source_images": [
+    "page-191.jpg",
+    "page-192.jpg"
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = (x_1 + x_2 + \\cdots + x_n)\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right)$$\n的最大值。",
+  "solution_md": "设 $S_i = \\sum_{j \\neq i} x_j$，$T_i = \\sum_{j \\neq i} \\frac{1}{x_j}$，$i \\in \\{1,2,\\cdots,n\\}$，则我们有\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (1 + S_i)(1 + T_i) = (x_i - 1)\\left(T_i - \\frac{S_i}{x_i}\\right)$$\n\n类似地\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (2 + S_i)\\left(\\frac{1}{2} + T_i\\right) = (x_i - 2)\\left(T_i - \\frac{S_i}{2x_i}\\right)$$\n\n很明显，下面两个不等式\n$$T_i \\leqslant \\frac{S_i}{x_i} \\quad (1)$$\n$$T_i \\geqslant \\frac{S_i}{2x_i} \\quad (2)$$\n至少有一个必定成立，所以\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n这一步意味着，我们尝试整合变量 $x_i$，$i \\in \\{1,2,\\cdots,n\\}$ 为 $1$ 和 $2$。所以，我们断定，存在 $a_1, a_2, \\cdots, a_n \\in \\{1,2\\}$，使得\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(a_1, a_2, \\cdots, a_n) \\quad \\forall x_1, x_2, \\cdots, x_n \\in [1,2]$$\n\n设 $t \\leqslant n$ 是序列 $a_1, a_2, \\cdots, a_n$ 中 $1$ 的个数，则\n$$f(a_1, a_2, \\cdots, a_n) = \\frac{1}{2}(2n-t)(n+t) = \\begin{cases} \\frac{9}{8}n^2 & (n \\text{ 是偶数}) \\\\ \\frac{9n^2-1}{8} & (n \\text{ 是奇数}) \\end{cases}$$",
+  "answer_md": "$\\max f = \\begin{cases} \\frac{9}{8}n^2 & (n \\text{ 是偶数}) \\\\ \\frac{9n^2-1}{8} & (n \\text{ 是奇数}) \\end{cases}$",
+  "hints_md": "",
+  "original_text_md": "**例 7.2.1** 设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = (x_1 + x_2 + \\cdots + x_n)\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right)$$\n的最大值。\n\n**解** 设 $S_i = \\sum_{j \\neq i} x_j$，$T_i = \\sum_{j \\neq i} \\frac{1}{x_j}$，$i \\in \\{1,2,\\cdots,n\\}$，则我们有\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (1 + S_i)(1 + T_i) = (x_i - 1)\\left(T_i - \\frac{S_i}{x_i}\\right)$$\n\n类似地\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (2 + S_i)\\left(\\frac{1}{2} + T_i\\right) = (x_i - 2)\\left(T_i - \\frac{S_i}{2x_i}\\right)$$\n\n很明显，下面两个不等式\n$$T_i \\leqslant \\frac{S_i}{x_i} \\quad (1)$$\n$$T_i \\geqslant \\frac{S_i}{2x_i} \\quad (2)$$\n至少有一个必定成立，所以\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n这一步意味着，我们尝试整合变量 $x_i$，$i \\in \\{1,2,\\cdots,n\\}$ 为 $1$ 和 $2$。所以，我们断定，存在 $a_1, a_2, \\cdots, a_n \\in \\{1,2\\}$，使得\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(a_1, a_2, \\cdots, a_n) \\quad \\forall x_1, x_2, \\cdots, x_n \\in [1,2]$$\n\n设 $t \\leqslant n$ 是序列 $a_1, a_2, \\cdots, a_n$ 中 $1$ 的个数，则\n$$f(a_1, a_2, \\cdots, a_n) = \\frac{1}{2}(2n-t)(n+t) = \\begin{cases} \\frac{9}{8}n^2 & (n \\text{ 是偶数}) \\\\ \\frac{9n^2-1}{8} & (n \\text{ 是奇数}) \\end{cases}$$",
+  "tags": [
+    "UMV方法",
+    "整合变量法",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "9d67dc107302cf412965fce4484bd76fb7d2ca66",
+  "raw_problem": {
+    "problem_id": "例7.2.1",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.2 从一个简单的性质出发",
+    "title": null,
+    "source_pages": [
+      191,
+      192
+    ],
+    "stem_md": "设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = (x_1 + x_2 + \\cdots + x_n)\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right)$$\n的最大值。",
+    "solution_md": "设 $S_i = \\sum_{j \\neq i} x_j$，$T_i = \\sum_{j \\neq i} \\frac{1}{x_j}$，$i \\in \\{1,2,\\cdots,n\\}$，则我们有\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (1 + S_i)(1 + T_i) = (x_i - 1)\\left(T_i - \\frac{S_i}{x_i}\\right)$$\n\n类似地\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (2 + S_i)\\left(\\frac{1}{2} + T_i\\right) = (x_i - 2)\\left(T_i - \\frac{S_i}{2x_i}\\right)$$\n\n很明显，下面两个不等式\n$$T_i \\leqslant \\frac{S_i}{x_i} \\quad (1)$$\n$$T_i \\geqslant \\frac{S_i}{2x_i} \\quad (2)$$\n至少有一个必定成立，所以\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n这一步意味着，我们尝试整合变量 $x_i$，$i \\in \\{1,2,\\cdots,n\\}$ 为 $1$ 和 $2$。所以，我们断定，存在 $a_1, a_2, \\cdots, a_n \\in \\{1,2\\}$，使得\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(a_1, a_2, \\cdots, a_n) \\quad \\forall x_1, x_2, \\cdots, x_n \\in [1,2]$$\n\n设 $t \\leqslant n$ 是序列 $a_1, a_2, \\cdots, a_n$ 中 $1$ 的个数，则\n$$f(a_1, a_2, \\cdots, a_n) = \\frac{1}{2}(2n-t)(n+t) = \\begin{cases} \\frac{9}{8}n^2 & (n \\text{ 是偶数}) \\\\ \\frac{9n^2-1}{8} & (n \\text{ 是奇数}) \\end{cases}$$",
+    "answer_md": "$\\max f = \\begin{cases} \\frac{9}{8}n^2 & (n \\text{ 是偶数}) \\\\ \\frac{9n^2-1}{8} & (n \\text{ 是奇数}) \\end{cases}$",
+    "hints_md": "",
+    "original_text_md": "**例 7.2.1** 设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = (x_1 + x_2 + \\cdots + x_n)\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right)$$\n的最大值。\n\n**解** 设 $S_i = \\sum_{j \\neq i} x_j$，$T_i = \\sum_{j \\neq i} \\frac{1}{x_j}$，$i \\in \\{1,2,\\cdots,n\\}$，则我们有\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (1 + S_i)(1 + T_i) = (x_i - 1)\\left(T_i - \\frac{S_i}{x_i}\\right)$$\n\n类似地\n$$f(x_1, x_2, \\cdots, x_n) - f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)$$\n$$= (x_i + S_i)\\left(T_i + \\frac{1}{x_i}\\right) - (2 + S_i)\\left(\\frac{1}{2} + T_i\\right) = (x_i - 2)\\left(T_i - \\frac{S_i}{2x_i}\\right)$$\n\n很明显，下面两个不等式\n$$T_i \\leqslant \\frac{S_i}{x_i} \\quad (1)$$\n$$T_i \\geqslant \\frac{S_i}{2x_i} \\quad (2)$$\n至少有一个必定成立，所以\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n这一步意味着，我们尝试整合变量 $x_i$，$i \\in \\{1,2,\\cdots,n\\}$ 为 $1$ 和 $2$。所以，我们断定，存在 $a_1, a_2, \\cdots, a_n \\in \\{1,2\\}$，使得\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(a_1, a_2, \\cdots, a_n) \\quad \\forall x_1, x_2, \\cdots, x_n \\in [1,2]$$\n\n设 $t \\leqslant n$ 是序列 $a_1, a_2, \\cdots, a_n$ 中 $1$ 的个数，则\n$$f(a_1, a_2, \\cdots, a_n) = \\frac{1}{2}(2n-t)(n+t) = \\begin{cases} \\frac{9}{8}n^2 & (n \\text{ 是偶数}) \\\\ \\frac{9n^2-1}{8} & (n \\text{ 是奇数}) \\end{cases}$$",
+    "tags": [
+      "UMV方法",
+      "整合变量法",
+      "最大值"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

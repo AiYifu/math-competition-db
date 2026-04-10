@@ -1,0 +1,24 @@
+{
+  "uid": "p003_003_例5_00d2b6cf2c",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例5",
+  "problem_type": "example",
+  "title": "比较法",
+  "source_pages": [
+    3
+  ],
+  "stem_md": "设 $a, b, c \\in \\mathbf{R}_+$, $a^2 + b^2 + c^2 = 1$, 求\n$$S = \\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} - 3 - \\frac{2(a^3 + b^3 + c^3)}{abc}$$\n的最小值.",
+  "solution_md": "解 当 $a = b = c$ 时, $S = 3$. 猜测: $S \\geq 3$.\n事实上,\n$$\\begin{aligned}S - 3 &= \\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} - 3 - \\frac{2(a^3 + b^3 + c^3)}{abc} \\\n&= \\frac{a^2 + b^2 + c^2}{a^2} + \\frac{a^2 + b^2 + c^2}{b^2} + \\frac{a^2 + b^2 + c^2}{c^2} - 3 - 2\\left(\\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}\\right) \\\n&= a^2\\left(\\frac{1}{b^2} + \\frac{1}{c^2}\\right) + b^2\\left(\\frac{1}{a^2} + \\frac{1}{c^2}\\right) + c^2\\left(\\frac{1}{a^2} + \\frac{1}{b^2}\\right) - 2\\left(\\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}\\right) \\\n&= a^2\\left(\\frac{1}{b} - \\frac{1}{c}\\right)^2 + b^2\\left(\\frac{1}{c} - \\frac{1}{a}\\right)^2 + c^2\\left(\\frac{1}{a} - \\frac{1}{b}\\right)^2 \\geq 0.\n\\end{aligned}$$\n综上所述, $S$ 的最小值为 3.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例5 设 $a, b, c \\in \\mathbf{R}_+$, $a^2 + b^2 + c^2 = 1$, 求\n$$S = \\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} - 3 - \\frac{2(a^3 + b^3 + c^3)}{abc}$$\n的最小值.\n解 当 $a = b = c$ 时, $S = 3$. 猜测: $S \\geq 3$.\n事实上,\n$$\\begin{aligned}S - 3 &= \\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} - 3 - \\frac{2(a^3 + b^3 + c^3)}{abc} \\\n&= \\frac{a^2 + b^2 + c^2}{a^2} + \\frac{a^2 + b^2 + c^2}{b^2} + \\frac{a^2 + b^2 + c^2}{c^2} - 3 - 2\\left(\\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}\\right) \\\n&= a^2\\left(\\frac{1}{b^2} + \\frac{1}{c^2}\\right) + b^2\\left(\\frac{1}{a^2} + \\frac{1}{c^2}\\right) + c^2\\left(\\frac{1}{a^2} + \\frac{1}{b^2}\\right) - 2\\left(\\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}\\right) \\\n&= a^2\\left(\\frac{1}{b} - \\frac{1}{c}\\right)^2 + b^2\\left(\\frac{1}{c} - \\frac{1}{a}\\right)^2 + c^2\\left(\\frac{1}{a} - \\frac{1}{b}\\right)^2 \\geq 0.\n\\end{aligned}$$\n综上所述, $S$ 的最小值为 3.",
+  "tags": [
+    "不等式证明",
+    "比较法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

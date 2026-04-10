@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_10_5cca9e3e21",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "10",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c > 0$ 且 $a^2 + b^2 + c^2 + (a + b + c)^2 \\leqslant 4$. 求证: $$\\frac{ab + 1}{(a + b)^2} + \\frac{bc + 1}{(b + c)^2} + \\frac{ca + 1}{(c + a)^2} \\geqslant 3.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c > 0$ 且 $a^2 + b^2 + c^2 + (a + b + c)^2 \\leqslant 4$. 求证: $$\\frac{ab + 1}{(a + b)^2} + \\frac{bc + 1}{(b + c)^2} + \\frac{ca + 1}{(c + a)^2} \\geqslant 3.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

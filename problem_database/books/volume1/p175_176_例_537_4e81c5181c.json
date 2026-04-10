@@ -1,0 +1,56 @@
+{
+  "uid": "p175_176_例_537_4e81c5181c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.7",
+  "problem_type": "example",
+  "title": "Vasile, Cirtoaje, Algebraic Inequalities",
+  "source_pages": [
+    175,
+    176
+  ],
+  "source_images": [
+    "page-175.jpg",
+    "page-176.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是任意实数，证明\n$$a(a+b)^5+b(b+c)^5+c(c+a)^5\\geqslant 0$$",
+  "solution_md": "令 $x=b+c,y=c+a,z=a+b$，则不等式变成\n$$\\frac{1}{2}(x-y+z)x^5+\\frac{1}{2}(x+y-z)y^5+\\frac{1}{2}(-x+y+z)z^5\\geqslant 0$$\n$$\\Leftrightarrow x^6+y^6+z^6+xy^5+yz^5+zx^5\\geqslant x^5y+y^5z+z^5x$$\n$$\\Leftrightarrow(x^2+y^2)(x^2-xy-y^2)^2+(y^2+z^2)(y^2-yz-z^2)^2+(z^2+x^2)(z^2-zx-x^2)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=0$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.7(Vasile, Cirtoaje, Algebraic Inequalities) 设 $a,b,c$ 是任意实数，证明\n$$a(a+b)^5+b(b+c)^5+c(c+a)^5\\geqslant 0$$\n证明 令 $x=b+c,y=c+a,z=a+b$，则不等式变成\n$$\\frac{1}{2}(x-y+z)x^5+\\frac{1}{2}(x+y-z)y^5+\\frac{1}{2}(-x+y+z)z^5\\geqslant 0$$\n$$\\Leftrightarrow x^6+y^6+z^6+xy^5+yz^5+zx^5\\geqslant x^5y+y^5z+z^5x$$\n$$\\Leftrightarrow(x^2+y^2)(x^2-xy-y^2)^2+(y^2+z^2)(y^2-yz-z^2)^2+(z^2+x^2)(z^2-zx-x^2)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=0$。",
+  "tags": [
+    "任意实数",
+    "代换法",
+    "平方和"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "4e81c5181c48751a8e2cfc02b8a159ec6f892e97",
+  "raw_problem": {
+    "problem_id": "例 5.3.7",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Vasile, Cirtoaje, Algebraic Inequalities",
+    "source_pages": [
+      175,
+      176
+    ],
+    "stem_md": "设 $a,b,c$ 是任意实数，证明\n$$a(a+b)^5+b(b+c)^5+c(c+a)^5\\geqslant 0$$",
+    "solution_md": "令 $x=b+c,y=c+a,z=a+b$，则不等式变成\n$$\\frac{1}{2}(x-y+z)x^5+\\frac{1}{2}(x+y-z)y^5+\\frac{1}{2}(-x+y+z)z^5\\geqslant 0$$\n$$\\Leftrightarrow x^6+y^6+z^6+xy^5+yz^5+zx^5\\geqslant x^5y+y^5z+z^5x$$\n$$\\Leftrightarrow(x^2+y^2)(x^2-xy-y^2)^2+(y^2+z^2)(y^2-yz-z^2)^2+(z^2+x^2)(z^2-zx-x^2)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=0$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.7(Vasile, Cirtoaje, Algebraic Inequalities) 设 $a,b,c$ 是任意实数，证明\n$$a(a+b)^5+b(b+c)^5+c(c+a)^5\\geqslant 0$$\n证明 令 $x=b+c,y=c+a,z=a+b$，则不等式变成\n$$\\frac{1}{2}(x-y+z)x^5+\\frac{1}{2}(x+y-z)y^5+\\frac{1}{2}(-x+y+z)z^5\\geqslant 0$$\n$$\\Leftrightarrow x^6+y^6+z^6+xy^5+yz^5+zx^5\\geqslant x^5y+y^5z+z^5x$$\n$$\\Leftrightarrow(x^2+y^2)(x^2-xy-y^2)^2+(y^2+z^2)(y^2-yz-z^2)^2+(z^2+x^2)(z^2-zx-x^2)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=0$。",
+    "tags": [
+      "任意实数",
+      "代换法",
+      "平方和"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

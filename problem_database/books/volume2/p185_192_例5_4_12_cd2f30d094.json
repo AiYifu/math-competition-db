@@ -1,0 +1,32 @@
+{
+  "uid": "p185_192_例5_4_12_cd2f30d094",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第5章",
+  "section": "4.12",
+  "problem_id": "例5.4.12",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Mathlinks",
+  "source_pages": [
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192
+  ],
+  "stem_md": "设 $a, b, c, d$ 是正实数, 证明\n$$\n\\frac{1}{a(1+b)} + \\frac{1}{b(1+a)} + \\frac{1}{c(1+d)} + \\frac{1}{d(1+c)} \\geq \\frac{16}{1+8\\sqrt{abcd}}\n$$",
+  "solution_md": "证明 设 $ab = m^2, a = \\frac{mx}{y}, b = \\frac{my}{x} (m, x, y > 0)$, 则\n$$\n\\frac{1}{a(1+b)} + \\frac{1}{b(1+a)} = \\frac{y}{mx + m^2y} + \\frac{x}{my + m^2x} \\geq \\frac{(x+y)^2}{2mxy + m^2(x^2 + y^2)} \\geq \\frac{1}{m^2}\n$$\n如果 $m \\geq 1$, 则\n$$\n\\frac{(x+y)^2}{2mxy + m^2(x^2 + y^2)} \\geq \\frac{2}{m + m^2}\n$$\n否则, 如果 $m \\leq 1$, 则\n$$\n\\frac{(x+y)^2}{2mxy + m^2(x^2 + y^2)} \\geq \\frac{2}{m + m^2}\n$$\n因此, 我们得到\n$$\n\\frac{1}{a(1+b)} + \\frac{1}{b(1+a)} + \\frac{1}{c(1+d)} + \\frac{1}{d(1+c)} \\geq \\min\\left\\{\\frac{1}{m^2}, \\frac{2}{m + m^2}\\right\\}\n$$\n类似地, 设 $cd = n^2 (n \\geq 0)$, 则\n$$\n\\frac{1}{c(1+d)} + \\frac{1}{d(1+c)} \\geq \\min\\left\\{\\frac{1}{n^2}, \\frac{2}{n + n^2}\\right\\}\n$$\n所以, 只需证明下面两个不等式\n$$\n\\frac{2}{m + m^2} + \\frac{2}{n + n^2} \\geq \\frac{16}{1 + 8mn}\n$$\n$$\n\\frac{1}{m^2} + \\frac{2}{n + n^2} \\geq \\frac{16}{1 + 8mn}\n$$\n易证不等式(1) 是成立的. 因为其去分母之后变成\n$$\nm + n + m^2 + n^2 + 4mn(m - n)^2 + 4mn(m^2 + n^2) \\geq 8mn\n$$\n由于 $4mn^3 + n \\geq 3mn, 4nm^3 + n \\geq 3mn, m^2 + n^2 \\geq 2mn$, 所以(1) 成立, 或者\n$$\n(1) \\Leftrightarrow (4 + 32mn)\\left(\\frac{m+n}{2} - \\sqrt{mn}\\right)^2 + 2(4\\sqrt{mn} + 1 + 32mn\\sqrt{mn})\\left(\\frac{m+n}{2} - \\sqrt{mn}\\right) + 2\\sqrt{mn}(\\sqrt{mn} + 1)(2\\sqrt{mn} - 1)^2 \\geq 0\n$$\n下面来证明(2), 去分母之后, (2) 变成\n$$\n8mn(m - n)^2 + 8mn^2 + 8m^3n + 2m^2 + n^2 + n \\geq 16m^2n\n$$\n由于\n$$\n8m^3n + 8mn \\geq 16m^2n, m^2 + n^2 \\geq 2mn, m^2 + n + 8mn^2 \\geq 6mn\n$$\n所以, (2) 也成立.\n成立的条件是 $a = b = c = d = \\frac{1}{2}$.\n虽然非齐次不等式作为不规则类型的不等式看待, 但在上面的例子中, 我们演示了用常规的方法来分解非齐次性, 这些方法包括比较的方法 (如例 5.4.2, 5.4.6)、聪明的分离 (如例 5.4.7, 5.4.10) 或某些难以置信的恒等式 (如例 5.4.4, 5.4.9). 最后, 也是最重要的方法是使用某些中间变量, 如 $a = \\frac{kx}{y}, b = \\frac{ky}{z}, c = \\frac{kz}{x}$, 之后, 关于 $a, b, c$ 的非齐次不等式就转化为关于 $x, y, z$ 的齐次不等式, 这种手法在例 5.4.1, 5.4.5, 5.4.8, 5.4.11 和 5.4.12 中都有体现.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.4.12 (Vasile Cirtoaje, Mathlinks) 设 $a, b, c, d$ 是正实数, 证明\n$$\n\\frac{1}{a(1+b)} + \\frac{1}{b(1+a)} + \\frac{1}{c(1+d)} + \\frac{1}{d(1+c)} \\geq \\frac{16}{1+8\\sqrt{abcd}}\n$$\n证明 设 $ab = m^2, a = \\frac{mx}{y}, b = \\frac{my}{x} (m, x, y > 0)$, 则\n$$\n\\frac{1}{a(1+b)} + \\frac{1}{b(1+a)} = \\frac{y}{mx + m^2y} + \\frac{x}{my + m^2x} \\geq \\frac{(x+y)^2}{2mxy + m^2(x^2 + y^2)} \\geq \\frac{1}{m^2}\n$$\n如果 $m \\geq 1$, 则\n$$\n\\frac{(x+y)^2}{2mxy + m^2(x^2 + y^2)} \\geq \\frac{2}{m + m^2}\n$$\n否则, 如果 $m \\leq 1$, 则\n$$\n\\frac{(x+y)^2}{2mxy + m^2(x^2 + y^2)} \\geq \\frac{2}{m + m^2}\n$$\n因此, 我们得到\n$$\n\\frac{1}{a(1+b)} + \\frac{1}{b(1+a)} + \\frac{1}{c(1+d)} + \\frac{1}{d(1+c)} \\geq \\min\\left\\{\\frac{1}{m^2}, \\frac{2}{m + m^2}\\right\\}\n$$\n类似地, 设 $cd = n^2 (n \\geq 0)$, 则\n$$\n\\frac{1}{c(1+d)} + \\frac{1}{d(1+c)} \\geq \\min\\left\\{\\frac{1}{n^2}, \\frac{2}{n + n^2}\\right\\}\n$$\n所以, 只需证明下面两个不等式\n$$\n\\frac{2}{m + m^2} + \\frac{2}{n + n^2} \\geq \\frac{16}{1 + 8mn}\n$$\n$$\n\\frac{1}{m^2} + \\frac{2}{n + n^2} \\geq \\frac{16}{1 + 8mn}\n$$\n易证不等式(1) 是成立的. 因为其去分母之后变成\n$$\nm + n + m^2 + n^2 + 4mn(m - n)^2 + 4mn(m^2 + n^2) \\geq 8mn\n$$\n由于 $4mn^3 + n \\geq 3mn, 4nm^3 + n \\geq 3mn, m^2 + n^2 \\geq 2mn$, 所以(1) 成立, 或者\n$$\n(1) \\Leftrightarrow (4 + 32mn)\\left(\\frac{m+n}{2} - \\sqrt{mn}\\right)^2 + 2(4\\sqrt{mn} + 1 + 32mn\\sqrt{mn})\\left(\\frac{m+n}{2} - \\sqrt{mn}\\right) + 2\\sqrt{mn}(\\sqrt{mn} + 1)(2\\sqrt{mn} - 1)^2 \\geq 0\n$$\n下面来证明(2), 去分母之后, (2) 变成\n$$\n8mn(m - n)^2 + 8mn^2 + 8m^3n + 2m^2 + n^2 + n \\geq 16m^2n\n$$\n由于\n$$\n8m^3n + 8mn \\geq 16m^2n, m^2 + n^2 \\geq 2mn, m^2 + n + 8mn^2 \\geq 6mn\n$$\n所以, (2) 也成立.\n成立的条件是 $a = b = c = d = \\frac{1}{2}$.\n虽然非齐次不等式作为不规则类型的不等式看待, 但在上面的例子中, 我们演示了用常规的方法来分解非齐次性, 这些方法包括比较的方法 (如例 5.4.2, 5.4.6)、聪明的分离 (如例 5.4.7, 5.4.10) 或某些难以置信的恒等式 (如例 5.4.4, 5.4.9). 最后, 也是最重要的方法是使用某些中间变量, 如 $a = \\frac{kx}{y}, b = \\frac{ky}{z}, c = \\frac{kz}{x}$, 之后, 关于 $a, b, c$ 的非齐次不等式就转化为关于 $x, y, z$ 的齐次不等式, 这种手法在例 5.4.1, 5.4.5, 5.4.8, 5.4.11 和 5.4.12 中都有体现.",
+  "tags": [
+    "不等式证明",
+    "Vasile Cirtoaje",
+    "Mathlinks"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024"
+}

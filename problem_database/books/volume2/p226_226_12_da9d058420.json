@@ -1,0 +1,21 @@
+{
+  "uid": "p226_226_12_da9d058420",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "stem_md": "12. (Pham Kim Hung) 设 $a, b, c$ 是 $\\left[1, \\frac{8}{3}\\right]$ 上的实数, 证明\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} \\geqslant \\frac{2a}{b+c} + \\frac{2b}{c+a} + \\frac{2c}{a+b}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "12. (Pham Kim Hung) 设 $a, b, c$ 是 $\\left[1, \\frac{8}{3}\\right]$ 上的实数, 证明\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} \\geqslant \\frac{2a}{b+c} + \\frac{2b}{c+a} + \\frac{2c}{a+b}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

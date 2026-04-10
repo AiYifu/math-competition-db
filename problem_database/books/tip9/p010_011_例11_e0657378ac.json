@@ -1,0 +1,25 @@
+{
+  "uid": "p010_011_例11_e0657378ac",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例11",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    10,
+    11
+  ],
+  "stem_md": "正实数 $x, y, z$ 满足 $xyz \\geqslant 1$，证明\n$$\\frac{x^5 - x^2}{x^5 + y^2 + z^2} + \\frac{y^5 - y^2}{y^5 + z^2 + x^2} + \\frac{z^5 - z^2}{z^5 + x^2 + y^2} \\geqslant 0.$$",
+  "solution_md": "证明 原不等式可变形为\n$$\\frac{x^2 + y^2 + z^2}{x^5 + y^2 + z^2} + \\frac{x^2 + y^2 + z^2}{y^5 + z^2 + x^2} + \\frac{x^2 + y^2 + z^2}{z^5 + x^2 + y^2} \\leqslant 3.$$由柯西不等式及题设条件 $xyz \\geqslant 1$，得\n$$(x^5 + y^2 + z^2)(yz + y^2 + z^2) \\geqslant (x^2(xyz)^{\\frac{1}{2}} + y^2 + z^2)^2 \\geqslant (x^2 + y^2 + z^2)^2,$$即\n$$\\frac{x^2 + y^2 + z^2}{x^5 + y^2 + z^2} \\leqslant \\frac{yz + y^2 + z^2}{x^2 + y^2 + z^2}.$$同理\n$$\\frac{x^2 + y^2 + z^2}{y^5 + z^2 + x^2} \\leqslant \\frac{zx + z^2 + x^2}{x^2 + y^2 + z^2},$$\n$$\\frac{x^2 + y^2 + z^2}{z^5 + x^2 + y^2} \\leqslant \\frac{xy + x^2 + y^2}{x^2 + y^2 + z^2},$$把上面三个不等式相加，并利用 $x^2 + y^2 + z^2 \\geqslant xy + yz + zx$，得\n$$\\sum_{\\text{cyc}} \\frac{x^5 - x^2}{x^5 + y^2 + z^2} \\geqslant \\sum_{\\text{cyc}} \\frac{1}{x^2 + y^2 + z^2} \\sum_{\\text{cyc}} \\left(x^2 - \\frac{1}{x}\\right) \\geqslant \\frac{1}{x^2 + y^2 + z^2} \\sum_{\\text{cyc}} (x^2 - yz) (\\text{因为 } xyz \\geqslant 1) \\geqslant 0.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例11 正实数 $x, y, z$ 满足 $xyz \\geqslant 1$，证明\n$$\\frac{x^5 - x^2}{x^5 + y^2 + z^2} + \\frac{y^5 - y^2}{y^5 + z^2 + x^2} + \\frac{z^5 - z^2}{z^5 + x^2 + y^2} \\geqslant 0.$$证明 原不等式可变形为\n$$\\frac{x^2 + y^2 + z^2}{x^5 + y^2 + z^2} + \\frac{x^2 + y^2 + z^2}{y^5 + z^2 + x^2} + \\frac{x^2 + y^2 + z^2}{z^5 + x^2 + y^2} \\leqslant 3.$$由柯西不等式及题设条件 $xyz \\geqslant 1$，得\n$$(x^5 + y^2 + z^2)(yz + y^2 + z^2) \\geqslant (x^2(xyz)^{\\frac{1}{2}} + y^2 + z^2)^2 \\geqslant (x^2 + y^2 + z^2)^2,$$即\n$$\\frac{x^2 + y^2 + z^2}{x^5 + y^2 + z^2} \\leqslant \\frac{yz + y^2 + z^2}{x^2 + y^2 + z^2}.$$同理\n$$\\frac{x^2 + y^2 + z^2}{y^5 + z^2 + x^2} \\leqslant \\frac{zx + z^2 + x^2}{x^2 + y^2 + z^2},$$\n$$\\frac{x^2 + y^2 + z^2}{z^5 + x^2 + y^2} \\leqslant \\frac{xy + x^2 + y^2}{x^2 + y^2 + z^2},$$把上面三个不等式相加，并利用 $x^2 + y^2 + z^2 \\geqslant xy + yz + zx$，得\n$$\\sum_{\\text{cyc}} \\frac{x^5 - x^2}{x^5 + y^2 + z^2} \\geqslant \\sum_{\\text{cyc}} \\frac{1}{x^2 + y^2 + z^2} \\sum_{\\text{cyc}} \\left(x^2 - \\frac{1}{x}\\right) \\geqslant \\frac{1}{x^2 + y^2 + z^2} \\sum_{\\text{cyc}} (x^2 - yz) (\\text{因为 } xyz \\geqslant 1) \\geqslant 0.$$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

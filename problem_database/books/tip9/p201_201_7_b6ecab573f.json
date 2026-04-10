@@ -1,0 +1,21 @@
+{
+  "uid": "p201_201_7_b6ecab573f",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201
+  ],
+  "stem_md": "7. 不妨设 $a + b + c = 3$, 则原不等式为\n$$\\sqrt{\\frac{a}{3 - a}} + \\sqrt{\\frac{b}{3 - b}} + \\sqrt{\\frac{c}{3 - c}} > 2.$$",
+  "solution_md": "令 $f(x) = \\sqrt{\\frac{x}{3 - x}}$, $x \\in (0, 3)$, 则 $f(x)$ 在 $x = \\frac{3}{2}$ 处的切线方程为\n$$y = \\frac{2}{3}\\left(x - \\frac{3}{2}\\right) + 1.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "7. 不妨设 $a + b + c = 3$, 则原不等式为\n$$\\sqrt{\\frac{a}{3 - a}} + \\sqrt{\\frac{b}{3 - b}} + \\sqrt{\\frac{c}{3 - c}} > 2.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

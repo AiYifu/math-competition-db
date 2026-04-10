@@ -1,0 +1,21 @@
+{
+  "uid": "p022_022_例1_1_6_aa0453874a",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    22
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明 \n$$ \\frac{a^2 + b^2}{a + b} + \\frac{b^2 + c^2}{b + c} + \\frac{c^2 + a^2}{c + a} \\leqslant \\frac{3(a^2 + b^2 + c^2)}{a + b + c} $$",
+  "solution_md": "证明及分析 不等式等价于 \n$$ \\sum\\left(\\frac{a^2 + b^2}{a + b} - \\frac{a + b}{2}\\right) \\leqslant 1 - \\frac{c}{a + b} \\geqslant 0 $$\n或 \n$$ S_c = 1 - \\frac{a}{b + c} \\geqslant S_b = 1 - \\frac{b}{c + a} \\geqslant 0 $$\n但 $S_a = 1 - \\frac{c}{a + b}$, 并不总是非负. 于是, 我们尝试整合“大的非负项 $S_b(c - a)^2$” 和“可能的负项 $S_a(b - c)^2$”, 但到底是怎么回事? 我说这很有趣. \n照例, 我们由 $(a - c)^2 \\geqslant (b - c)^2$ 和 $S_a + S_b \\geqslant 0$, 来证明 $S_a(b - c)^2 + S_b(c - a)^2 \\geqslant 0$. 第一个条件 $(a - c)^2 \\geqslant (b - c)^2$, 当然成立; 现考虑第二个条件 $S_a + S_b \\geqslant 0$, 其等价于 \n$$ S_c = 1 - \\frac{c}{a + b} \\geqslant S_b = 1 - \\frac{b}{c + a} \\geqslant 0 $$\n稍等, 这个不等式是不成立 (选择 $a$ 足够大些, $b$ 和 $c$ 足够小些, 如 $a = 10, b = c = 1$ 就可以验证). 是不是计算有错误 (把不等式改写成平方和形式)? 不是. 第一步是非常清楚的, 那么问题出在哪里? 是不是 SOS 方法对这个问题不适用? 是的, 的确如此, SOS 方法从建立到现在遇到了困难, 但是, 困难总是激励创新, 我们现在的工作就是要找到隐藏在这里的秘密.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.6 设 $a, b, c$ 是非负实数, 证明 \n$$ \\frac{a^2 + b^2}{a + b} + \\frac{b^2 + c^2}{b + c} + \\frac{c^2 + a^2}{c + a} \\leqslant \\frac{3(a^2 + b^2 + c^2)}{a + b + c} $$\n证明及分析 不等式等价于 \n$$ \\sum\\left(\\frac{a^2 + b^2}{a + b} - \\frac{a + b}{2}\\right) \\leqslant 1 - \\frac{c}{a + b} \\geqslant 0 $$\n或 \n$$ S_c = 1 - \\frac{a}{b + c} \\geqslant S_b = 1 - \\frac{b}{c + a} \\geqslant 0 $$\n但 $S_a = 1 - \\frac{c}{a + b}$, 并不总是非负. 于是, 我们尝试整合“大的非负项 $S_b(c - a)^2$” 和“可能的负项 $S_a(b - c)^2$”, 但到底是怎么回事? 我说这很有趣. \n照例, 我们由 $(a - c)^2 \\geqslant (b - c)^2$ 和 $S_a + S_b \\geqslant 0$, 来证明 $S_a(b - c)^2 + S_b(c - a)^2 \\geqslant 0$. 第一个条件 $(a - c)^2 \\geqslant (b - c)^2$, 当然成立; 现考虑第二个条件 $S_a + S_b \\geqslant 0$, 其等价于 \n$$ S_c = 1 - \\frac{c}{a + b} \\geqslant S_b = 1 - \\frac{b}{c + a} \\geqslant 0 $$\n稍等, 这个不等式是不成立 (选择 $a$ 足够大些, $b$ 和 $c$ 足够小些, 如 $a = 10, b = c = 1$ 就可以验证). 是不是计算有错误 (把不等式改写成平方和形式)? 不是. 第一步是非常清楚的, 那么问题出在哪里? 是不是 SOS 方法对这个问题不适用? 是的, 的确如此, SOS 方法从建立到现在遇到了困难, 但是, 困难总是激励创新, 我们现在的工作就是要找到隐藏在这里的秘密.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

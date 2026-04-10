@@ -1,0 +1,25 @@
+{
+  "uid": "p185_186_12_d706cdbf90",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    185,
+    186
+  ],
+  "stem_md": "对第一个结论用反证法. 因为 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$, 则 $\\max\\{|a_1|, |a_2|, \\cdots, |a_n|\\} = a_1$ 或者 $|a_n|$ (显然 $a_1 > 0$). 而若 $\\max\\{|a_1|, |a_2|, \\cdots, |a_n|\\} = |a_n|$, 则 $a_n < 0$, $|a_n| > a_1$. 下面令 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{n-k} > a_{n-k+1} = a_{n-k+2} = \\cdots = a_n$. 由于 $0 \\leqslant \\left|\\frac{a_i}{a_n}\\right| < 1$, 故存在 $l$, 使得 $\\left|\\frac{a_i}{a_n}\\right|^{2l+1} < \\frac{1}{n}$ ($1 \\leqslant i \\leqslant n-k$), 于是",
+  "solution_md": "$\\left(\\frac{a_1}{a_n}\\right)^{2l+1} + \\left(\\frac{a_2}{a_n}\\right)^{2l+1} + \\cdots + \\left(\\frac{a_n}{a_n}\\right)^{2l+1} = \\left(\\frac{a_1}{a_n}\\right)^{2l+1} + \\left(\\frac{a_2}{a_n}\\right)^{2l+1} + \\cdots + \\left(\\frac{a_{n-k}}{a_n}\\right)^{2l+1} + k \\geqslant k - \\left|\\frac{a_1}{a_n}\\right|^{2l+1} - \\left|\\frac{a_2}{a_n}\\right|^{2l+1} - \\cdots - \\left|\\frac{a_{n-k}}{a_n}\\right|^{2l+1} > k - \\frac{n-k}{n} = k - 1 + \\frac{k}{n} > 0$. 从而 $a_1^{2l+1} + a_2^{2l+1} + \\cdots + a_n^{2l+1} < 0$, 矛盾!",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "对第一个结论用反证法. 因为 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_n$, 则 $\\max\\{|a_1|, |a_2|, \\cdots, |a_n|\\} = a_1$ 或者 $|a_n|$ (显然 $a_1 > 0$). 而若 $\\max\\{|a_1|, |a_2|, \\cdots, |a_n|\\} = |a_n|$, 则 $a_n < 0$, $|a_n| > a_1$. 下面令 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{n-k} > a_{n-k+1} = a_{n-k+2} = \\cdots = a_n$. 由于 $0 \\leqslant \\left|\\frac{a_i}{a_n}\\right| < 1$, 故存在 $l$, 使得 $\\left|\\frac{a_i}{a_n}\\right|^{2l+1} < \\frac{1}{n}$ ($1 \\leqslant i \\leqslant n-k$), 于是 $\\left(\\frac{a_1}{a_n}\\right)^{2l+1} + \\left(\\frac{a_2}{a_n}\\right)^{2l+1} + \\cdots + \\left(\\frac{a_n}{a_n}\\right)^{2l+1} = \\left(\\frac{a_1}{a_n}\\right)^{2l+1} + \\left(\\frac{a_2}{a_n}\\right)^{2l+1} + \\cdots + \\left(\\frac{a_{n-k}}{a_n}\\right)^{2l+1} + k \\geqslant k - \\left|\\frac{a_1}{a_n}\\right|^{2l+1} - \\left|\\frac{a_2}{a_n}\\right|^{2l+1} - \\cdots - \\left|\\frac{a_{n-k}}{a_n}\\right|^{2l+1} > k - \\frac{n-k}{n} = k - 1 + \\frac{k}{n} > 0$. 从而 $a_1^{2l+1} + a_2^{2l+1} + \\cdots + a_n^{2l+1} < 0$, 矛盾!",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024"
+}

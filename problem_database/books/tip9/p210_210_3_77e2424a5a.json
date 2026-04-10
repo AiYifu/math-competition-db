@@ -1,0 +1,21 @@
+{
+  "uid": "p210_210_3_77e2424a5a",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    210
+  ],
+  "stem_md": "3. 先考虑当 $\\theta_1 + \\theta_2$ 不变时, 有 $\\sin^2\\theta_1 + \\sin^2\\theta_2 = (\\sin\\theta_1 + \\sin\\theta_2)^2 - 2\\sin\\theta_1\\sin\\theta_2 = 4\\sin^2\\frac{\\theta_1 + \\theta_2}{2}\\cos^2\\frac{\\theta_1 - \\theta_2}{2} - \\cos(\\theta_1 - \\theta_2) + \\cos(\\theta_1 + \\theta_2) = 2\\cos^2\\frac{\\theta_1 - \\theta_2}{2}(2\\sin^2\\frac{\\theta_1 + \\theta_2}{2} - 1) + 1 + \\cos(\\theta_1 + \\theta_2)$, 因此, 当 $\\theta_1 + \\theta_2 < \\frac{\\pi}{2}$, $\\theta_1$ 与 $\\theta_2$ 中有一个角为 0 时, 上式取最大值, 当 $\\theta_1 + \\theta_2 > \\frac{\\pi}{2}$ 时, 两角差的绝对值越小, 上式的值就越大.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3. 先考虑当 $\\theta_1 + \\theta_2$ 不变时, 有 $\\sin^2\\theta_1 + \\sin^2\\theta_2 = (\\sin\\theta_1 + \\sin\\theta_2)^2 - 2\\sin\\theta_1\\sin\\theta_2 = 4\\sin^2\\frac{\\theta_1 + \\theta_2}{2}\\cos^2\\frac{\\theta_1 - \\theta_2}{2} - \\cos(\\theta_1 - \\theta_2) + \\cos(\\theta_1 + \\theta_2) = 2\\cos^2\\frac{\\theta_1 - \\theta_2}{2}(2\\sin^2\\frac{\\theta_1 + \\theta_2}{2} - 1) + 1 + \\cos(\\theta_1 + \\theta_2)$, 因此, 当 $\\theta_1 + \\theta_2 < \\frac{\\pi}{2}$, $\\theta_1$ 与 $\\theta_2$ 中有一个角为 0 时, 上式取最大值, 当 $\\theta_1 + \\theta_2 > \\frac{\\pi}{2}$ 时, 两角差的绝对值越小, 上式的值就越大.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

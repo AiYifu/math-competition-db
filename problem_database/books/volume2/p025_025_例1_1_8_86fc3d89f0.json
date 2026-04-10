@@ -1,0 +1,21 @@
+{
+  "uid": "p025_025_例1_1_8_86fc3d89f0",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    25
+  ],
+  "stem_md": "设 $x, y, z$ 是非负实数, 证明 \n$$ \\frac{1}{(x + y)^2} + \\frac{1}{(y + z)^2} + \\frac{1}{(z + x)^2} \\geqslant \\frac{9}{4(xy + yz + zx)} $$",
+  "solution_md": "证明 设 $a = y + z, b = z + x, c = x + y$, 则不等式变成 \n$$ (2ab + 2bc + 2ca - a^2 - b^2 - c^2)\\left(\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}\\right) \\geqslant 0 $$\n因此, 我们有 $S_a = \\frac{2a}{bc} - \\frac{1}{a^2}, S_b, S_c$ 类似可得. 假设 $a \\geqslant b \\geqslant c$, 则显然有 \n$$ b^2S_b + c^2S_c \\geqslant abc $$\n等号成立的条件是 $a = b = c$ 或者 $c = 0$ 及其轮换. 证毕.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.8 (Iran TST 1996) 设 $x, y, z$ 是非负实数, 证明 \n$$ \\frac{1}{(x + y)^2} + \\frac{1}{(y + z)^2} + \\frac{1}{(z + x)^2} \\geqslant \\frac{9}{4(xy + yz + zx)} $$\n证明 设 $a = y + z, b = z + x, c = x + y$, 则不等式变成 \n$$ (2ab + 2bc + 2ca - a^2 - b^2 - c^2)\\left(\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}\\right) \\geqslant 0 $$\n因此, 我们有 $S_a = \\frac{2a}{bc} - \\frac{1}{a^2}, S_b, S_c$ 类似可得. 假设 $a \\geqslant b \\geqslant c$, 则显然有 \n$$ b^2S_b + c^2S_c \\geqslant abc $$\n等号成立的条件是 $a = b = c$ 或者 $c = 0$ 及其轮换. 证毕.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

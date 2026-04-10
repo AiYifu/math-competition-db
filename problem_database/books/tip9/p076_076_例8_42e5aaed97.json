@@ -1,0 +1,24 @@
+{
+  "uid": "p076_076_例8_42e5aaed97",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "4 反证法",
+  "section": null,
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    76
+  ],
+  "stem_md": "设对于任意实数 $x$ 都有 $\\cos(a \\sin x) > \\sin(b \\cos x)$, 求证:\n$$\na^2+b^2 < \\frac{\\pi^2}{4}.\n$$",
+  "solution_md": "证明 用反证法.\n设 $a^2+b^2 \\geqslant \\frac{\\pi^2}{4}$, 将 $a \\sin x+b \\cos x$ 表示为 $\\sqrt{a^2+b^2} \\sin(x+\\varphi)$ 的形式. 其中, $\\cos \\varphi = \\frac{a}{\\sqrt{a^2+b^2}}$, $\\sin \\varphi = \\frac{b}{\\sqrt{a^2+b^2}}$.\n由于 $\\sqrt{a^2+b^2} \\geqslant \\frac{\\pi}{2}$, 故存在实数 $x_0$, 使得\n$$\n\\sqrt{a^2+b^2} \\sin(x_0+\\varphi) = \\frac{\\pi}{2}.\n$$\n由此即得 $\\cos(a \\sin x_0) = \\sin(b \\cos x_0)$, 与题设矛盾!\n所以\n$$\na^2+b^2 < \\frac{\\pi^2}{4}.\n$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例8 设对于任意实数 $x$ 都有 $\\cos(a \\sin x) > \\sin(b \\cos x)$, 求证:\n$$\na^2+b^2 < \\frac{\\pi^2}{4}.\n$$\n证明 用反证法.\n设 $a^2+b^2 \\geqslant \\frac{\\pi^2}{4}$, 将 $a \\sin x+b \\cos x$ 表示为 $\\sqrt{a^2+b^2} \\sin(x+\\varphi)$ 的形式. 其中, $\\cos \\varphi = \\frac{a}{\\sqrt{a^2+b^2}}$, $\\sin \\varphi = \\frac{b}{\\sqrt{a^2+b^2}}$.\n由于 $\\sqrt{a^2+b^2} \\geqslant \\frac{\\pi}{2}$, 故存在实数 $x_0$, 使得\n$$\n\\sqrt{a^2+b^2} \\sin(x_0+\\varphi) = \\frac{\\pi}{2}.\n$$\n由此即得 $\\cos(a \\sin x_0) = \\sin(b \\cos x_0)$, 与题设矛盾!\n所以\n$$\na^2+b^2 < \\frac{\\pi^2}{4}.\n$$",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

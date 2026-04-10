@@ -1,0 +1,26 @@
+{
+  "uid": "p037_038_例42_5c1ea52c81",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1.9",
+  "section": "琴生(Jensen)不等式",
+  "problem_id": "例42",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    37,
+    38
+  ],
+  "stem_md": "设整数 $n \\geqslant 2$, $a_1, a_2, \\cdots, a_n$ 为正实数, 证明:\n$$\\left(\\sum_{j=1}^{n} \\sqrt[j]{a_1 \\cdots a_j}\\right)^{\\frac{1}{n}} + x_n \\leqslant \\frac{n + 1}{n}.$$",
+  "solution_md": "由于不等式左边关于 $a_1, a_2, \\cdots, a_n$ 齐次, 故可设 $\\sum_{j=1}^{n} x_j = 1$, 则 $a_j = \\frac{x_j^{j}}{x_{j-1}^{j-1}} (j = 1, 2, \\cdots, n)$. 于是函数 $f(x) = x^{-\\frac{1}{n}}$ 在 $(0, +\\infty)$ 上是向上凸的函数, 由琴生不等式我们有\n$$\\left(\\sum_{j=1}^{n} x_j \\left(\\frac{x_j}{x_{j-1}}\\right)^{\\frac{j-1}{n}} (x_j)\\right)^{\\frac{1}{n}} \\leqslant \\sum_{j=1}^{n} \\left(\\frac{j-1}{n} x_{j-1} + \\left(1 - \\frac{j-1}{n}\\right) x_j\\right)$$\n$$= \\frac{n + 1}{n} - x_n,$$\n这等价于(1)式. 证毕.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例42 设整数 $n \\geqslant 2$, $a_1, a_2, \\cdots, a_n$ 为正实数, 证明:\n$$\\left(\\sum_{j=1}^{n} \\sqrt[j]{a_1 \\cdots a_j}\\right)^{\\frac{1}{n}} + x_n \\leqslant \\frac{n + 1}{n}.$$ 由于不等式左边关于 $a_1, a_2, \\cdots, a_n$ 齐次, 故可设 $\\sum_{j=1}^{n} x_j = 1$, 则 $a_j = \\frac{x_j^{j}}{x_{j-1}^{j-1}} (j = 1, 2, \\cdots, n)$. 于是函数 $f(x) = x^{-\\frac{1}{n}}$ 在 $(0, +\\infty)$ 上是向上凸的函数, 由琴生不等式我们有\n$$\\left(\\sum_{j=1}^{n} x_j \\left(\\frac{x_j}{x_{j-1}}\\right)^{\\frac{j-1}{n}} (x_j)\\right)^{\\frac{1}{n}} \\leqslant \\sum_{j=1}^{n} \\left(\\frac{j-1}{n} x_{j-1} + \\left(1 - \\frac{j-1}{n}\\right) x_j\\right)$$\n$$= \\frac{n + 1}{n} - x_n,$$\n这等价于(1)式. 证毕.",
+  "tags": [
+    "整数",
+    "不等式",
+    "琴生不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005"
+}

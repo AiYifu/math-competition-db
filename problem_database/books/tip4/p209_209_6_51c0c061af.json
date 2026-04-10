@@ -1,0 +1,23 @@
+{
+  "uid": "p209_209_6_51c0c061af",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "6",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "由柯西不等式得 $\\left(1+\\frac{y}{x}+\\frac{z}{x}\\right)(1+xy+xz)\\geqslant(1+y+z)^2\\Rightarrow\\frac{1+xy+xz}{(1+y+z)^2}\\geqslant\\frac{x}{x+y+z}$. 同理, $\\frac{1+yz+yx}{(1+z+x)^2}\\geqslant\\frac{y}{x+y+z}$. $\\frac{1+zx+zy}{(1+x+y)^2}\\geqslant\\frac{z}{x+y+z}$. 上述三个不等式相加即得 $\\frac{1+xy+xz}{(1+y+z)^2}+\\frac{1+yz+yx}{(1+z+x)^2}+\\frac{1+zx+zy}{(1+x+y)^2}\\geqslant1$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "6. 由柯西不等式得 $\\left(1+\\frac{y}{x}+\\frac{z}{x}\\right)(1+xy+xz)\\geqslant(1+y+z)^2\\Rightarrow\\frac{1+xy+xz}{(1+y+z)^2}\\geqslant\\frac{x}{x+y+z}$. 同理, $\\frac{1+yz+yx}{(1+z+x)^2}\\geqslant\\frac{y}{x+y+z}$. $\\frac{1+zx+zy}{(1+x+y)^2}\\geqslant\\frac{z}{x+y+z}$. 上述三个不等式相加即得 $\\frac{1+xy+xz}{(1+y+z)^2}+\\frac{1+yz+yx}{(1+z+x)^2}+\\frac{1+zx+zy}{(1+x+y)^2}\\geqslant1$.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

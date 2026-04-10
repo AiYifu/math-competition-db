@@ -1,0 +1,24 @@
+{
+  "uid": "p131_131_2_c2e93f8e2e",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第3章",
+  "section": "3.4",
+  "problem_id": "2",
+  "problem_type": "exercise",
+  "title": "练习2",
+  "source_pages": [
+    131
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 且满足 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 3$, 证明 $\\frac{1}{\\sqrt{a + b}} + \\frac{1}{\\sqrt{b + c}} + \\frac{1}{\\sqrt{c + a}} \\geqslant \\frac{3}{\\sqrt{2}}$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "2. 设 $a, b, c$ 是正实数, 且满足 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 3$, 证明 $\\frac{1}{\\sqrt{a + b}} + \\frac{1}{\\sqrt{b + c}} + \\frac{1}{\\sqrt{c + a}} \\geqslant \\frac{3}{\\sqrt{2}}$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0017"
+}

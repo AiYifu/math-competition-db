@@ -1,0 +1,23 @@
+{
+  "uid": "p226_226_加权平均值不等式_1df6744e12",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "加权平均值不等式",
+  "problem_type": "theorem",
+  "title": "加权平均值不等式",
+  "source_pages": [
+    226
+  ],
+  "stem_md": "设 $a_i > 0$, $\\alpha_i > 0$, $1 \\leq i \\leq n$, $\\sum_{i=1}^{n} \\alpha_i = 1$, 则\n$a_1^{\\alpha_1} a_2^{\\alpha_2} \\cdots a_n^{\\alpha_n} \\leq \\alpha_1 a_1 + \\alpha_2 a_2 + \\cdots + \\alpha_n a_n$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "加权平均值不等式 设 $a_i > 0$, $\\alpha_i > 0$, $1 \\leq i \\leq n$, $\\sum_{i=1}^{n} \\alpha_i = 1$, 则\n$a_1^{\\alpha_1} a_2^{\\alpha_2} \\cdots a_n^{\\alpha_n} \\leq \\alpha_1 a_1 + \\alpha_2 a_2 + \\cdots + \\alpha_n a_n$.",
+  "tags": [
+    "加权平均值不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

@@ -1,0 +1,51 @@
+{
+  "uid": "p059_059_习题20_bad3ec506c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题20",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    59
+  ],
+  "source_images": [
+    "page-059.jpg"
+  ],
+  "stem_md": "(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$(a^2-bc)\\sqrt{a^2+2bc}+(b^2-ca)\\sqrt{b^2+2ca}+(c^2-ab)\\sqrt{c^2+2ab}\\geqslant 0$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "20.(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$(a^2-bc)\\sqrt{a^2+2bc}+(b^2-ca)\\sqrt{b^2+2ca}+(c^2-ab)\\sqrt{c^2+2ab}\\geqslant 0$$",
+  "tags": [
+    "根式不等式",
+    "Vasc不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "bad3ec506c3d05304e24ca6f3bc092c005c9d87b",
+  "raw_problem": {
+    "problem_id": "习题20",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      59
+    ],
+    "stem_md": "(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$(a^2-bc)\\sqrt{a^2+2bc}+(b^2-ca)\\sqrt{b^2+2ca}+(c^2-ab)\\sqrt{c^2+2ab}\\geqslant 0$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "20.(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$(a^2-bc)\\sqrt{a^2+2bc}+(b^2-ca)\\sqrt{b^2+2ca}+(c^2-ab)\\sqrt{c^2+2ab}\\geqslant 0$$",
+    "tags": [
+      "根式不等式",
+      "Vasc不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

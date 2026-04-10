@@ -1,0 +1,59 @@
+{
+  "uid": "p054_057_例148_bf259390a5",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    54,
+    55,
+    56,
+    57
+  ],
+  "source_images": [
+    "page-054.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{8b+c}}+\\sqrt{\\frac{b}{8c+a}}+\\sqrt{\\frac{c}{8a+b}}\\geqslant1$$",
+  "solution_md": "设 $a=x^2,b=y^2,c=z^2$，则不等式变成\n$$\\frac{x}{\\sqrt{8y^2+z^2}}+\\frac{y}{\\sqrt{8z^2+x^2}}+\\frac{z}{\\sqrt{8x^2+y^2}}\\geqslant1$$\n\n应用 Cauchy-Schwarz 不等式，我们有\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\cdot\\sum x\\sqrt{8y^2+z^2}\\geqslant(\\sum x)^2$$\n\n所以，只需证明\n$$(\\sum x)^2\\geqslant\\sum x\\sqrt{8y^2+z^2}$$\n\n设 $F=(x+y+z)^2-\\sum x\\sqrt{8y^2+z^2}$，我们把 $F$ 表示成 SOS 形式如下\n$$F=(x+y+z)^2-3\\sum xy-\\sum x\\left(\\sqrt{8y^2+z^2}-\\frac{8y+z}{3}\\right)$$\n$$=\\frac{1}{2}\\sum(x-y)^2-\\frac{8}{3}\\sum\\frac{x(y-z)^2}{3\\sqrt{8y^2+z^2}+8y+z}$$\n$$\\geqslant\\frac{1}{2}\\sum(x-y)^2-\\frac{4}{3}\\sum\\frac{x(y-z)^2}{8y+z}$$\n\n因此，我们得到系数\n$$S_x=3-\\frac{8x}{8y+z}$$\n$$S_y=3-\\frac{8y}{8z+x}$$\n$$S_z=3-\\frac{8z}{8x+y}$$\n\n(1) 当 $x\\leqslant y\\leqslant z$ 时，如果 $z\\geqslant3y$，则\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{z}{8x^2+y^2}\\geqslant1$$\n\n不等式成立。如果 $z\\leqslant3y$，则 $S_x,S_y\\geqslant0$，由此，如果 $x\\geqslant\\frac{3}{40}y$，则由 SOS 定理之条件(4)可知，不等式成立，实际上\n$$z^2S_y+y^2S_z=z^2\\left(3-\\frac{8y}{8z+x}\\right)+y^2\\left(3-\\frac{8z}{8x+y}\\right)$$\n$$\\geqslant z^2\\left(3-\\frac{y}{z}\\right)+y^2\\left(3-\\frac{8z}{\\frac{3}{5}y+y}\\right)=3(y-z)^2\\geqslant0$$\n\n如果 $x\\leqslant\\frac{3}{40}y$，则\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{y}{\\sqrt{8z^2+x^2}}+\\frac{z}{\\sqrt{8x^2+y^2}}$$\n$$\\geqslant\\frac{y}{\\sqrt{8\\cdot(3y)^2+\\left(\\frac{3}{40}y\\right)^2}}+\\frac{y}{\\sqrt{8\\cdot\\left(\\frac{3}{40}y\\right)^2+y^2}}$$\n$$\\approx1.096078503\\geqslant1$$\n\n(2) 当 $x\\geqslant y\\geqslant z$ 时，如果 $x\\geqslant3y$，则\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant1$$\n\n不等式成立。\n\n如果 $x\\leqslant3y$，则 $S_x,S_z\\geqslant0$。如果 $8z\\geqslant y$，则 $S_z+2S_y=9-\\frac{8z}{8x+y}-\\frac{16y}{8z+y}$ 是关于 $y$ 的增函数，所以\n$$S_z+2S_y=9-\\frac{8z}{8x+y}-\\frac{16y}{8z+y}$$\n$$\\geqslant9-\\frac{8z}{8x+8z}-\\frac{16\\cdot8z}{8z+8z}$$\n$$\\geqslant9-\\frac{8z}{16z}-8=\\frac{1}{2}>0$$\n\n另外\n$$S_x+2S_y=9-\\frac{8x}{8y+z}-\\frac{16y}{8z+x}$$\n$$\\geqslant9-\\frac{8x}{8y}-\\frac{16y}{y+x}$$\n$$=\\frac{(x-y)^2(7y-x)}{8y(y+x)}\\geqslant0$$\n\n根据 SOS 定理的条件(3)可知，原不等式成立。\n\n最后，我们仅需证明 $8z\\leqslant y$ 的情况。此时，我们有\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{x}{\\sqrt{8y^2+z^2}}+\\frac{y}{\\sqrt{8z^2+x^2}}$$\n$$\\geqslant\\frac{x}{\\sqrt{8y^2+\\left(\\frac{y}{8}\\right)^2}}+\\frac{y}{\\sqrt{8\\left(\\frac{x}{8}\\right)^2+x^2}}$$\n$$=\\frac{8x}{\\sqrt{513}y}+\\frac{2\\sqrt{2}y}{3x}\\geqslant8\\sqrt{\\frac{\\sqrt{2}}{3\\sqrt{513}}}$$\n$$\\approx1.154137407>1$$\n\n对每一种情况，我们证明了不等式。等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.8(Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{8b+c}}+\\sqrt{\\frac{b}{8c+a}}+\\sqrt{\\frac{c}{8a+b}}\\geqslant1$$\n证明 设 $a=x^2,b=y^2,c=z^2$，则不等式变成...",
+  "tags": [
+    "SOS方法",
+    "Cauchy-Schwarz不等式",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "bf259390a55c883b7b0ade2f4028bbc58adec8d7",
+  "raw_problem": {
+    "problem_id": "例1.4.8",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "stem_md": "(Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{8b+c}}+\\sqrt{\\frac{b}{8c+a}}+\\sqrt{\\frac{c}{8a+b}}\\geqslant1$$",
+    "solution_md": "设 $a=x^2,b=y^2,c=z^2$，则不等式变成\n$$\\frac{x}{\\sqrt{8y^2+z^2}}+\\frac{y}{\\sqrt{8z^2+x^2}}+\\frac{z}{\\sqrt{8x^2+y^2}}\\geqslant1$$\n\n应用 Cauchy-Schwarz 不等式，我们有\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\cdot\\sum x\\sqrt{8y^2+z^2}\\geqslant(\\sum x)^2$$\n\n所以，只需证明\n$$(\\sum x)^2\\geqslant\\sum x\\sqrt{8y^2+z^2}$$\n\n设 $F=(x+y+z)^2-\\sum x\\sqrt{8y^2+z^2}$，我们把 $F$ 表示成 SOS 形式如下\n$$F=(x+y+z)^2-3\\sum xy-\\sum x\\left(\\sqrt{8y^2+z^2}-\\frac{8y+z}{3}\\right)$$\n$$=\\frac{1}{2}\\sum(x-y)^2-\\frac{8}{3}\\sum\\frac{x(y-z)^2}{3\\sqrt{8y^2+z^2}+8y+z}$$\n$$\\geqslant\\frac{1}{2}\\sum(x-y)^2-\\frac{4}{3}\\sum\\frac{x(y-z)^2}{8y+z}$$\n\n因此，我们得到系数\n$$S_x=3-\\frac{8x}{8y+z}$$\n$$S_y=3-\\frac{8y}{8z+x}$$\n$$S_z=3-\\frac{8z}{8x+y}$$\n\n(1) 当 $x\\leqslant y\\leqslant z$ 时，如果 $z\\geqslant3y$，则\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{z}{8x^2+y^2}\\geqslant1$$\n\n不等式成立。如果 $z\\leqslant3y$，则 $S_x,S_y\\geqslant0$，由此，如果 $x\\geqslant\\frac{3}{40}y$，则由 SOS 定理之条件(4)可知，不等式成立，实际上\n$$z^2S_y+y^2S_z=z^2\\left(3-\\frac{8y}{8z+x}\\right)+y^2\\left(3-\\frac{8z}{8x+y}\\right)$$\n$$\\geqslant z^2\\left(3-\\frac{y}{z}\\right)+y^2\\left(3-\\frac{8z}{\\frac{3}{5}y+y}\\right)=3(y-z)^2\\geqslant0$$\n\n如果 $x\\leqslant\\frac{3}{40}y$，则\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{y}{\\sqrt{8z^2+x^2}}+\\frac{z}{\\sqrt{8x^2+y^2}}$$\n$$\\geqslant\\frac{y}{\\sqrt{8\\cdot(3y)^2+\\left(\\frac{3}{40}y\\right)^2}}+\\frac{y}{\\sqrt{8\\cdot\\left(\\frac{3}{40}y\\right)^2+y^2}}$$\n$$\\approx1.096078503\\geqslant1$$\n\n(2) 当 $x\\geqslant y\\geqslant z$ 时，如果 $x\\geqslant3y$，则\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant1$$\n\n不等式成立。\n\n如果 $x\\leqslant3y$，则 $S_x,S_z\\geqslant0$。如果 $8z\\geqslant y$，则 $S_z+2S_y=9-\\frac{8z}{8x+y}-\\frac{16y}{8z+y}$ 是关于 $y$ 的增函数，所以\n$$S_z+2S_y=9-\\frac{8z}{8x+y}-\\frac{16y}{8z+y}$$\n$$\\geqslant9-\\frac{8z}{8x+8z}-\\frac{16\\cdot8z}{8z+8z}$$\n$$\\geqslant9-\\frac{8z}{16z}-8=\\frac{1}{2}>0$$\n\n另外\n$$S_x+2S_y=9-\\frac{8x}{8y+z}-\\frac{16y}{8z+x}$$\n$$\\geqslant9-\\frac{8x}{8y}-\\frac{16y}{y+x}$$\n$$=\\frac{(x-y)^2(7y-x)}{8y(y+x)}\\geqslant0$$\n\n根据 SOS 定理的条件(3)可知，原不等式成立。\n\n最后，我们仅需证明 $8z\\leqslant y$ 的情况。此时，我们有\n$$\\sum\\frac{x}{\\sqrt{8y^2+z^2}}\\geqslant\\frac{x}{\\sqrt{8y^2+z^2}}+\\frac{y}{\\sqrt{8z^2+x^2}}$$\n$$\\geqslant\\frac{x}{\\sqrt{8y^2+\\left(\\frac{y}{8}\\right)^2}}+\\frac{y}{\\sqrt{8\\left(\\frac{x}{8}\\right)^2+x^2}}$$\n$$=\\frac{8x}{\\sqrt{513}y}+\\frac{2\\sqrt{2}y}{3x}\\geqslant8\\sqrt{\\frac{\\sqrt{2}}{3\\sqrt{513}}}$$\n$$\\approx1.154137407>1$$\n\n对每一种情况，我们证明了不等式。等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.8(Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是正实数，证明\n$$\\sqrt{\\frac{a}{8b+c}}+\\sqrt{\\frac{b}{8c+a}}+\\sqrt{\\frac{c}{8a+b}}\\geqslant1$$\n证明 设 $a=x^2,b=y^2,c=z^2$，则不等式变成...",
+    "tags": [
+      "SOS方法",
+      "Cauchy-Schwarz不等式",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

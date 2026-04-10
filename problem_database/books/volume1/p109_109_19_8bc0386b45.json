@@ -1,0 +1,53 @@
+{
+  "uid": "p109_109_19_8bc0386b45",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "19",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    109
+  ],
+  "source_images": [
+    "page-109.jpg"
+  ],
+  "stem_md": "19. (Vo Thanh Van, Mathlinks) 求最好的正常数 $k$，满足下列不等式\n$$(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geqslant 9+\\frac{k \\cdot \\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}}{(a+b+c)^2}$$\n对所有正实数 $a,b,c$ 都成立。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "19. (Vo Thanh Van,Mathlinks) 求最好的正常数 $k$，满足下列不等式\n$$(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\geqslant 9+\\frac{k \\cdot \\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}}{(a+b+c)^2}$$\n对所有正实数 $a,b,c$ 都成立。",
+  "tags": [
+    "Vo Thanh Van",
+    "Mathlinks",
+    "求最佳常数"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "8bc0386b457041c59314fccf65f04d32c2c98a0b",
+  "raw_problem": {
+    "problem_id": "19",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      109
+    ],
+    "stem_md": "19. (Vo Thanh Van, Mathlinks) 求最好的正常数 $k$，满足下列不等式\n$$(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geqslant 9+\\frac{k \\cdot \\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}}{(a+b+c)^2}$$\n对所有正实数 $a,b,c$ 都成立。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "19. (Vo Thanh Van,Mathlinks) 求最好的正常数 $k$，满足下列不等式\n$$(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\geqslant 9+\\frac{k \\cdot \\max\\{(a-b)^2,(b-c)^2,(c-a)^2\\}}{(a+b+c)^2}$$\n对所有正实数 $a,b,c$ 都成立。",
+    "tags": [
+      "Vo Thanh Van",
+      "Mathlinks",
+      "求最佳常数"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

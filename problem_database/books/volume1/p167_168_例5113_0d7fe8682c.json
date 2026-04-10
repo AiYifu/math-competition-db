@@ -1,0 +1,58 @@
+{
+  "uid": "p167_168_例5113_0d7fe8682c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.13",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    167,
+    168
+  ],
+  "source_images": [
+    "page-167.jpg",
+    "page-168.jpg"
+  ],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{n-1+x_1}+\\frac{1}{n-1+x_2}+\\cdots+\\frac{1}{n-1+x_n}\\leqslant1$$",
+  "solution_md": "令 $a_i^2=x_i,i\\in\\{1,2,\\cdots,n\\}$，则不等式变成\n$$\\sum_{i=1}^n\\frac{1}{n-1+a_i^2}\\leqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(1-\\frac{n-1}{n-1+a_i^2}\\right)\\geqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant1$$\n由 Cauchy-Schwarz 不等式，有\n$$\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant\\frac{\\left(\\sum_{i=1}^na_i\\right)^2}{\\sum_{i=1}^n(n-1+a_i^2)}$$\n所以，只需证明\n$$\\left(\\sum_{i=1}^na_i\\right)^2\\geqslant\\sum_{i=1}^n(n-1+a_i^2)\\Leftrightarrow\\sum_{i\\neq j}a_ia_j\\geqslant n(n-1)$$\n这由 AM-GM 不等式是显然成立的（注意到 $a_1a_2\\cdots a_n=1$），等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.13 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{n-1+x_1}+\\frac{1}{n-1+x_2}+\\cdots+\\frac{1}{n-1+x_n}\\leqslant1$$\n证明 令 $a_i^2=x_i,i\\in\\{1,2,\\cdots,n\\}$，则不等式变成\n$$\\sum_{i=1}^n\\frac{1}{n-1+a_i^2}\\leqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(1-\\frac{n-1}{n-1+a_i^2}\\right)\\geqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant1$$\n由 Cauchy-Schwarz 不等式，有\n$$\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant\\frac{\\left(\\sum_{i=1}^na_i\\right)^2}{\\sum_{i=1}^n(n-1+a_i^2)}$$\n所以，只需证明\n$$\\left(\\sum_{i=1}^na_i\\right)^2\\geqslant\\sum_{i=1}^n(n-1+a_i^2)\\Leftrightarrow\\sum_{i\\neq j}a_ia_j\\geqslant n(n-1)$$\n这由 AM-GM 不等式是显然成立的（注意到 $a_1a_2\\cdots a_n=1$），等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "tags": [
+    "Cauchy-Schwarz不等式",
+    "AM-GM不等式",
+    "n变量不等式",
+    "条件x1x2...xn=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "0d7fe8682c97c305282f9328c138affb8f4c1ab5",
+  "raw_problem": {
+    "problem_id": "例5.1.13",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      167,
+      168
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{n-1+x_1}+\\frac{1}{n-1+x_2}+\\cdots+\\frac{1}{n-1+x_n}\\leqslant1$$",
+    "solution_md": "令 $a_i^2=x_i,i\\in\\{1,2,\\cdots,n\\}$，则不等式变成\n$$\\sum_{i=1}^n\\frac{1}{n-1+a_i^2}\\leqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(1-\\frac{n-1}{n-1+a_i^2}\\right)\\geqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant1$$\n由 Cauchy-Schwarz 不等式，有\n$$\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant\\frac{\\left(\\sum_{i=1}^na_i\\right)^2}{\\sum_{i=1}^n(n-1+a_i^2)}$$\n所以，只需证明\n$$\\left(\\sum_{i=1}^na_i\\right)^2\\geqslant\\sum_{i=1}^n(n-1+a_i^2)\\Leftrightarrow\\sum_{i\\neq j}a_ia_j\\geqslant n(n-1)$$\n这由 AM-GM 不等式是显然成立的（注意到 $a_1a_2\\cdots a_n=1$），等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.13 设 $x_1,x_2,\\cdots,x_n$ 是正实数，满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{n-1+x_1}+\\frac{1}{n-1+x_2}+\\cdots+\\frac{1}{n-1+x_n}\\leqslant1$$\n证明 令 $a_i^2=x_i,i\\in\\{1,2,\\cdots,n\\}$，则不等式变成\n$$\\sum_{i=1}^n\\frac{1}{n-1+a_i^2}\\leqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(1-\\frac{n-1}{n-1+a_i^2}\\right)\\geqslant1$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant1$$\n由 Cauchy-Schwarz 不等式，有\n$$\\sum_{i=1}^n\\frac{a_i^2}{n-1+a_i^2}\\geqslant\\frac{\\left(\\sum_{i=1}^na_i\\right)^2}{\\sum_{i=1}^n(n-1+a_i^2)}$$\n所以，只需证明\n$$\\left(\\sum_{i=1}^na_i\\right)^2\\geqslant\\sum_{i=1}^n(n-1+a_i^2)\\Leftrightarrow\\sum_{i\\neq j}a_ia_j\\geqslant n(n-1)$$\n这由 AM-GM 不等式是显然成立的（注意到 $a_1a_2\\cdots a_n=1$），等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "tags": [
+      "Cauchy-Schwarz不等式",
+      "AM-GM不等式",
+      "n变量不等式",
+      "条件x1x2...xn=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

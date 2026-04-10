@@ -1,0 +1,53 @@
+{
+  "uid": "p090_090_例243_2fef056d92",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.4",
+  "section": "整合全部变量法",
+  "problem_id": "例2.4.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    90
+  ],
+  "source_images": [
+    "page-090.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n$$2\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right) \\geqslant a+b+c+\\frac{b^2}{a}+\\frac{c^2}{b}+\\frac{a^2}{c}$$",
+  "solution_md": "我们尝试从不等式中分离出 $a-b,b-c,c-a$ 这样的项，自然不等式变成如下形式\n$$\\sum\\left(\\frac{a^2}{b}+b-2a\\right) \\geqslant \\sum\\left(\\frac{a^2}{c}-\\frac{a^2}{b}\\right)$$\n$$\\Leftrightarrow \\sum\\frac{(a-b)^2}{b} \\geqslant \\frac{(a-b)(b-c)(a-c)(a+b+c)}{abc} \\quad (1)$$\n$$\\Leftrightarrow \\sum ac(a-b)^2 \\geqslant (a-b)(b-c)(a-c)(a+b+c)$$\n由这个形式，我们可以假设 $a \\geqslant b \\geqslant c$，从 $a,b,c$ 中同时减去 $t(0 \\leqslant t \\leqslant c)$，很明显，不等式左边是减少的，我们希望右边不变，但不是这样的。那么，这种情况应如何处理呢？\n\n下面我们来考察在变换 $(a,b,c) \\rightarrow (a-t,b-t,c-t)$ 下，不等式两边的变化情况。不等式 $(*)$ 的右边减少了\n$$P=3t(a-b)(a-c)(b-c)$$\n左边减少了\n$$S=t^2\\sum(a-b)^2+\\sum t(a+c)(a-b)^2$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.4.3(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是某三角形的三边长,证明\n$$2\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right) \\geqslant a+b+c+\\frac{b^2}{a}+\\frac{c^2}{b}+\\frac{a^2}{c}$$\n证明及分析 我们尝试从不等式中分离出 $a-b,b-c,c-a$ 这样的项,自然不等式变成如下形式\n$$\\sum\\left(\\frac{a^2}{b}+b-2a\\right) \\geqslant \\sum\\left(\\frac{a^2}{c}-\\frac{a^2}{b}\\right)$$\n$$\\Leftrightarrow \\sum\\frac{(a-b)^2}{b} \\geqslant \\frac{(a-b)(b-c)(a-c)(a+b+c)}{abc} \\quad (1)$$\n$$\\Leftrightarrow \\sum ac(a-b)^2 \\geqslant (a-b)(b-c)(a-c)(a+b+c)$$\n由这个形式,我们可以假设 $a \\geqslant b \\geqslant c$,从 $a,b,c$ 中同时减去 $t(0 \\leqslant t \\leqslant c)$,很明显,不等式左边是减少的,我们希望右边不变,但不是这样的.那么,这种情况应如何处理呢?\n下面我们来考察在变换 $(a,b,c) \\rightarrow (a-t,b-t,c-t)$ 下,不等式两边的变化情况.不等式 $(*)$ 的右边减少了\n$$P=3t(a-b)(a-c)(b-c)$$\n左边减少了\n$$S=t^2\\sum(a-b)^2+\\sum t(a+c)(a-b)^2$$",
+  "tags": [
+    "整合全部变量法",
+    "三元不等式",
+    "三角形边长"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "2fef056d921f5bbdf6fda862f1449d3897253a4a",
+  "raw_problem": {
+    "problem_id": "例2.4.3",
+    "problem_type": "example",
+    "chapter": "2.4",
+    "section": "整合全部变量法",
+    "title": null,
+    "source_pages": [
+      90
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n$$2\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right) \\geqslant a+b+c+\\frac{b^2}{a}+\\frac{c^2}{b}+\\frac{a^2}{c}$$",
+    "solution_md": "我们尝试从不等式中分离出 $a-b,b-c,c-a$ 这样的项，自然不等式变成如下形式\n$$\\sum\\left(\\frac{a^2}{b}+b-2a\\right) \\geqslant \\sum\\left(\\frac{a^2}{c}-\\frac{a^2}{b}\\right)$$\n$$\\Leftrightarrow \\sum\\frac{(a-b)^2}{b} \\geqslant \\frac{(a-b)(b-c)(a-c)(a+b+c)}{abc} \\quad (1)$$\n$$\\Leftrightarrow \\sum ac(a-b)^2 \\geqslant (a-b)(b-c)(a-c)(a+b+c)$$\n由这个形式，我们可以假设 $a \\geqslant b \\geqslant c$，从 $a,b,c$ 中同时减去 $t(0 \\leqslant t \\leqslant c)$，很明显，不等式左边是减少的，我们希望右边不变，但不是这样的。那么，这种情况应如何处理呢？\n\n下面我们来考察在变换 $(a,b,c) \\rightarrow (a-t,b-t,c-t)$ 下，不等式两边的变化情况。不等式 $(*)$ 的右边减少了\n$$P=3t(a-b)(a-c)(b-c)$$\n左边减少了\n$$S=t^2\\sum(a-b)^2+\\sum t(a+c)(a-b)^2$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.4.3(Pham Kim Hung,Mathlinks) 设 $a,b,c$ 是某三角形的三边长,证明\n$$2\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right) \\geqslant a+b+c+\\frac{b^2}{a}+\\frac{c^2}{b}+\\frac{a^2}{c}$$\n证明及分析 我们尝试从不等式中分离出 $a-b,b-c,c-a$ 这样的项,自然不等式变成如下形式\n$$\\sum\\left(\\frac{a^2}{b}+b-2a\\right) \\geqslant \\sum\\left(\\frac{a^2}{c}-\\frac{a^2}{b}\\right)$$\n$$\\Leftrightarrow \\sum\\frac{(a-b)^2}{b} \\geqslant \\frac{(a-b)(b-c)(a-c)(a+b+c)}{abc} \\quad (1)$$\n$$\\Leftrightarrow \\sum ac(a-b)^2 \\geqslant (a-b)(b-c)(a-c)(a+b+c)$$\n由这个形式,我们可以假设 $a \\geqslant b \\geqslant c$,从 $a,b,c$ 中同时减去 $t(0 \\leqslant t \\leqslant c)$,很明显,不等式左边是减少的,我们希望右边不变,但不是这样的.那么,这种情况应如何处理呢?\n下面我们来考察在变换 $(a,b,c) \\rightarrow (a-t,b-t,c-t)$ 下,不等式两边的变化情况.不等式 $(*)$ 的右边减少了\n$$P=3t(a-b)(a-c)(b-c)$$\n左边减少了\n$$S=t^2\\sum(a-b)^2+\\sum t(a+c)(a-b)^2$$",
+    "tags": [
+      "整合全部变量法",
+      "三元不等式",
+      "三角形边长"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

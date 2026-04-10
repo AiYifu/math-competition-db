@@ -1,0 +1,53 @@
+{
+  "uid": "p163_163_例517_27093a2052",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    163
+  ],
+  "source_images": [
+    "page-163.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{a^2+bc}+\\frac{b}{b^2+ca}+\\frac{c}{c^2+ab}\\geqslant\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$",
+  "solution_md": "尽管这个不等式是对称的，在使用 Chebyshev 不等式之前，把它变成轮换的形式。首先，由于对称性，可以假设 $a\\geqslant b\\geqslant c$，把不等式写成轮换的形式如下\n$$\\left(\\frac{a}{a^2+bc}-\\frac{1}{a+b}\\right)+\\left(\\frac{b}{b^2+ca}-\\frac{1}{b+c}\\right)+\\left(\\frac{c}{c^2+ab}-\\frac{1}{c+a}\\right)\\geqslant0$$\n$$\\Leftrightarrow\\sum\\frac{b(a-c)}{(a^2+bc)(a+b)}\\geqslant0$$\n注意到 $\\sum b(a-c)=0$，而且，由于 $a\\geqslant b\\geqslant c$，所以，只需证明\n$$\\frac{1}{(b^2+ca)(b+c)}\\geqslant\\frac{1}{(a^2+bc)(a+b)}\\quad(1)$$\n$$\\frac{1}{(c^2+ab)(c+a)}\\geqslant\\frac{1}{(b^2+ca)(b+c)}\\quad(2)$$\n由于 $a\\geqslant b\\geqslant c$，因此，(1) 是显然成立的。(2) 等价于\n$$a^3+b^2c\\geqslant c^3+ac^2$$\n这也是显然成立的。因为 $a\\geqslant b\\geqslant c$。\n所以，不等式得证。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.7 设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{a^2+bc}+\\frac{b}{b^2+ca}+\\frac{c}{c^2+ab}\\geqslant\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n证明 尽管这个不等式是对称的，在使用 Chebyshev 不等式之前，把它变成轮换的形式。首先，由于对称性，可以假设 $a\\geqslant b\\geqslant c$，把不等式写成轮换的形式如下\n$$\\left(\\frac{a}{a^2+bc}-\\frac{1}{a+b}\\right)+\\left(\\frac{b}{b^2+ca}-\\frac{1}{b+c}\\right)+\\left(\\frac{c}{c^2+ab}-\\frac{1}{c+a}\\right)\\geqslant0$$\n$$\\Leftrightarrow\\sum\\frac{b(a-c)}{(a^2+bc)(a+b)}\\geqslant0$$\n注意到 $\\sum b(a-c)=0$，而且，由于 $a\\geqslant b\\geqslant c$，所以，只需证明\n$$\\frac{1}{(b^2+ca)(b+c)}\\geqslant\\frac{1}{(a^2+bc)(a+b)}\\quad(1)$$\n$$\\frac{1}{(c^2+ab)(c+a)}\\geqslant\\frac{1}{(b^2+ca)(b+c)}\\quad(2)$$\n由于 $a\\geqslant b\\geqslant c$，因此，(1) 是显然成立的。(2) 等价于\n$$a^3+b^2c\\geqslant c^3+ac^2$$\n这也是显然成立的。因为 $a\\geqslant b\\geqslant c$。\n所以，不等式得证。",
+  "tags": [
+    "Chebyshev不等式",
+    "对称不等式",
+    "轮换形式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "27093a2052ceb952eee0a1439a7302a9ecbca3c8",
+  "raw_problem": {
+    "problem_id": "例5.1.7",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      163
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{a^2+bc}+\\frac{b}{b^2+ca}+\\frac{c}{c^2+ab}\\geqslant\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$",
+    "solution_md": "尽管这个不等式是对称的，在使用 Chebyshev 不等式之前，把它变成轮换的形式。首先，由于对称性，可以假设 $a\\geqslant b\\geqslant c$，把不等式写成轮换的形式如下\n$$\\left(\\frac{a}{a^2+bc}-\\frac{1}{a+b}\\right)+\\left(\\frac{b}{b^2+ca}-\\frac{1}{b+c}\\right)+\\left(\\frac{c}{c^2+ab}-\\frac{1}{c+a}\\right)\\geqslant0$$\n$$\\Leftrightarrow\\sum\\frac{b(a-c)}{(a^2+bc)(a+b)}\\geqslant0$$\n注意到 $\\sum b(a-c)=0$，而且，由于 $a\\geqslant b\\geqslant c$，所以，只需证明\n$$\\frac{1}{(b^2+ca)(b+c)}\\geqslant\\frac{1}{(a^2+bc)(a+b)}\\quad(1)$$\n$$\\frac{1}{(c^2+ab)(c+a)}\\geqslant\\frac{1}{(b^2+ca)(b+c)}\\quad(2)$$\n由于 $a\\geqslant b\\geqslant c$，因此，(1) 是显然成立的。(2) 等价于\n$$a^3+b^2c\\geqslant c^3+ac^2$$\n这也是显然成立的。因为 $a\\geqslant b\\geqslant c$。\n所以，不等式得证。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.7 设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{a^2+bc}+\\frac{b}{b^2+ca}+\\frac{c}{c^2+ab}\\geqslant\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n证明 尽管这个不等式是对称的，在使用 Chebyshev 不等式之前，把它变成轮换的形式。首先，由于对称性，可以假设 $a\\geqslant b\\geqslant c$，把不等式写成轮换的形式如下\n$$\\left(\\frac{a}{a^2+bc}-\\frac{1}{a+b}\\right)+\\left(\\frac{b}{b^2+ca}-\\frac{1}{b+c}\\right)+\\left(\\frac{c}{c^2+ab}-\\frac{1}{c+a}\\right)\\geqslant0$$\n$$\\Leftrightarrow\\sum\\frac{b(a-c)}{(a^2+bc)(a+b)}\\geqslant0$$\n注意到 $\\sum b(a-c)=0$，而且，由于 $a\\geqslant b\\geqslant c$，所以，只需证明\n$$\\frac{1}{(b^2+ca)(b+c)}\\geqslant\\frac{1}{(a^2+bc)(a+b)}\\quad(1)$$\n$$\\frac{1}{(c^2+ab)(c+a)}\\geqslant\\frac{1}{(b^2+ca)(b+c)}\\quad(2)$$\n由于 $a\\geqslant b\\geqslant c$，因此，(1) 是显然成立的。(2) 等价于\n$$a^3+b^2c\\geqslant c^3+ac^2$$\n这也是显然成立的。因为 $a\\geqslant b\\geqslant c$。\n所以，不等式得证。",
+    "tags": [
+      "Chebyshev不等式",
+      "对称不等式",
+      "轮换形式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "uid": "p097_097_例255_4486132f61",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    97
+  ],
+  "source_images": [
+    "page-097.jpg"
+  ],
+  "stem_md": "（Pham Kim Hung, Mathlinks）设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(b+c)+bc(c+d)+ca(d+a)+da(a+b)\\leqslant 4$$",
+  "solution_md": "考虑下列齐次不等式\n$$ab(b+c)+bc(c+d)+ca(d+a)+da(a+b)\\leqslant \\frac{4}{27}(a+b+c+d)^3$$\n\n不等式两边取全导数，有\n$$\\sum a^2+4\\sum ab+2(ac+bd)\\leqslant \\frac{16}{9}(a+b+c+d)^2$$\n$$\\Leftrightarrow \\frac{7}{9}\\sum a^2-\\frac{4}{9}\\sum ab+\\frac{14}{9}(ac+bd)\\geqslant 0$$\n\n这是显然成立的，因为 $\\sum a^2\\geqslant \\sum ab$。所以，我们只需证明，原不等式在\n$$abcd=0$$\n的条件下成立即可。不失一般性，设 $d=0$，则不等式变成\n$$ab^2+bc^2+abc\\leqslant 4$$\n\n另外，我们来证明，更强的不等式\n$$ab^2+bc^2+ca^2+abc\\leqslant 4$$\n\n为此，设 $b$ 是 $a,b,c$ 中第二大的数（因为不等式是循环不等式），则\n$$a(b-a)(b-c)\\leqslant 0\\Rightarrow ab^2+ca^2\\leqslant abc+a^2b$$\n$$\\Rightarrow ab^2+bc^2+ca^2+abc\\leqslant 2abc+b(a^2+c^2)=b(a+c)^2\\leqslant 4$$\n\n显然成立，事实上，由 AM-GM 不等式，并注意到，$a+b+c=3$，即可得出。等号成立的条件是 $a=b=c=1,d=0$ 或 $a=1,b=2,c=d=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.5(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(b+c)+bc(c+d)+ca(d+a)+da(a+b)\\leqslant 4$$\n证明 考虑下列齐次不等式",
+  "tags": [
+    "全导数",
+    "四元不等式",
+    "Pham Kim Hung",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "4486132f61c67e5f077b38457e63286fa5170132",
+  "raw_problem": {
+    "problem_id": "例2.5.5",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      97
+    ],
+    "stem_md": "（Pham Kim Hung, Mathlinks）设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(b+c)+bc(c+d)+ca(d+a)+da(a+b)\\leqslant 4$$",
+    "solution_md": "考虑下列齐次不等式\n$$ab(b+c)+bc(c+d)+ca(d+a)+da(a+b)\\leqslant \\frac{4}{27}(a+b+c+d)^3$$\n\n不等式两边取全导数，有\n$$\\sum a^2+4\\sum ab+2(ac+bd)\\leqslant \\frac{16}{9}(a+b+c+d)^2$$\n$$\\Leftrightarrow \\frac{7}{9}\\sum a^2-\\frac{4}{9}\\sum ab+\\frac{14}{9}(ac+bd)\\geqslant 0$$\n\n这是显然成立的，因为 $\\sum a^2\\geqslant \\sum ab$。所以，我们只需证明，原不等式在\n$$abcd=0$$\n的条件下成立即可。不失一般性，设 $d=0$，则不等式变成\n$$ab^2+bc^2+abc\\leqslant 4$$\n\n另外，我们来证明，更强的不等式\n$$ab^2+bc^2+ca^2+abc\\leqslant 4$$\n\n为此，设 $b$ 是 $a,b,c$ 中第二大的数（因为不等式是循环不等式），则\n$$a(b-a)(b-c)\\leqslant 0\\Rightarrow ab^2+ca^2\\leqslant abc+a^2b$$\n$$\\Rightarrow ab^2+bc^2+ca^2+abc\\leqslant 2abc+b(a^2+c^2)=b(a+c)^2\\leqslant 4$$\n\n显然成立，事实上，由 AM-GM 不等式，并注意到，$a+b+c=3$，即可得出。等号成立的条件是 $a=b=c=1,d=0$ 或 $a=1,b=2,c=d=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.5(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(b+c)+bc(c+d)+ca(d+a)+da(a+b)\\leqslant 4$$\n证明 考虑下列齐次不等式",
+    "tags": [
+      "全导数",
+      "四元不等式",
+      "Pham Kim Hung",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

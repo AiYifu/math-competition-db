@@ -1,0 +1,23 @@
+{
+  "uid": "p226_226_卡尔松_Carlson_不等式_4ee8555fbd",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "卡尔松(Carlson)不等式",
+  "problem_type": "theorem",
+  "title": "卡尔松(Carlson)不等式",
+  "source_pages": [
+    226
+  ],
+  "stem_md": "设 $a_{ij} \\geq 0$, $1 \\leq i \\leq n$, $1 \\leq j \\leq m$, $\\alpha_i \\geq 0$, $1 \\leq i \\leq m$, $\\sum_{i=1}^{m} \\alpha_i = 1$, 则\n$\\prod_{j=1}^{m} \\left(\\sum_{i=1}^{n} a_{ij}\\right)^{\\alpha_j} \\geq \\sum_{i=1}^{n} \\left(\\prod_{j=1}^{m} a_{ij}^{\\alpha_j}\\right)$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "卡尔松(Carlson)不等式 设 $a_{ij} \\geq 0$, $1 \\leq i \\leq n$, $1 \\leq j \\leq m$, $\\alpha_i \\geq 0$, $1 \\leq i \\leq m$, $\\sum_{i=1}^{m} \\alpha_i = 1$, 则\n$\\prod_{j=1}^{m} \\left(\\sum_{i=1}^{n} a_{ij}\\right)^{\\alpha_j} \\geq \\sum_{i=1}^{n} \\left(\\prod_{j=1}^{m} a_{ij}^{\\alpha_j}\\right)$.",
+  "tags": [
+    "卡尔松不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

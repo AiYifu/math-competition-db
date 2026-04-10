@@ -1,0 +1,24 @@
+{
+  "uid": "p180_180_例5_4_1_5ad9dac261",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "4",
+  "problem_id": "例5.4.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    180
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 证明\n$\\frac{1}{a^{3}(1+b^{3})}+\\frac{1}{b^{3}(1+c^{3})}+\\frac{1}{c^{3}(1+a^{3})} \\geqslant \\frac{3}{abc(1+abc)}$",
+  "solution_md": "注意到下面的变换\n$\\frac{a^{3}b^{3}c^{3}+1}{abc(abc+1)}+1=\\frac{b^{3}(1+c^{3})}{1+b^{3}}+\\frac{a^{3}+1}{a^{3}(1+b^{3})}$\n则由 AM-GM 不等式, 我们有\n$3+(a^{3}b^{3}c^{3}+1)\\left[\\frac{1}{a^{3}(1+b^{3})}+\\frac{1}{b^{3}(1+c^{3})}+\\frac{1}{c^{3}(1+a^{3})}\\right] \\geqslant 3$\n$\\Leftrightarrow \\sum\\left(a+\\frac{1}{b}\\right)\\left(b+\\frac{1}{c}\\right) \\geqslant 2\\left(\\sum a+\\sum \\frac{1}{a}\\right)$\n在三个数 $a+\\frac{1}{b}, b+\\frac{1}{c}, c+\\frac{1}{a}$ 中, 至少有两个数或同时小于等于 2 或同时大于等于 2. 不失一般性, 设这两个数是 $a+\\frac{1}{b}, b+\\frac{1}{c}$, 则\n$\\left(a+\\frac{1}{b}\\right)\\left(b+\\frac{1}{c}\\right)+4 \\geqslant 2\\left(c+\\frac{1}{a}\\right)+4$\n因此, 只需证明\n$\\left(b+\\frac{1}{c}\\right)\\left(c+\\frac{1}{a}\\right)+\\left(c-1+\\frac{1}{a}\\right)\\left(a-1+\\frac{1}{b}\\right) \\geqslant 0$\n$\\Rightarrow \\left(a+\\frac{1}{b}\\right)\\left(b+\\frac{1}{c}\\right)+4 \\geqslant 2\\left(c+\\frac{1}{a}\\right)+4$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.4.1 设 $a, b, c$ 是正实数, 证明\n$\\frac{1}{a^{3}(1+b^{3})}+\\frac{1}{b^{3}(1+c^{3})}+\\frac{1}{c^{3}(1+a^{3})} \\geqslant \\frac{3}{abc(1+abc)}$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

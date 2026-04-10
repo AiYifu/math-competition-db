@@ -1,0 +1,25 @@
+{
+  "uid": "p009_010_例10_d8fb41c43c",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    9,
+    10
+  ],
+  "stem_md": "设非负实数 $a_1, a_2, \\cdots, a_n$ 与 $b_1, b_2, \\cdots, b_n$ 同时满足以下条件：\n(1) $\\sum_{i=1}^{n}(a_i + b_i) = 1$;\n(2) $\\sum_{i=1}^{n}i(a_i - b_i) = 0$;\n(3) $\\sum_{i=1}^{n}i^2(a_i + b_i) = 10$.\n求证：对任意 $1 \\leqslant k \\leqslant n$，都有 $\\max\\{a_k, b_k\\} \\leqslant \\frac{10}{10 + k^2}$.",
+  "solution_md": "注意到(1)等价于 $(x^a + y^a + z^a)^2 \\geqslant 4x^{2a-2}(y^2 + z^2)$.\n上式左边 $\\geqslant 4x^a(y^a + z^a)$，故只须保证 $y^a + z^a \\geqslant x^{a-2}(y^2 + z^2)$.\n不难发现，取 $a = 2$ 即可。于是\n$$\\sum \\frac{x}{\\sqrt{y^2 + z^2}} \\geqslant \\sum \\frac{2x^2}{x^2 + y^2 + z^2} = 2.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例10 设非负实数 $a_1, a_2, \\cdots, a_n$ 与 $b_1, b_2, \\cdots, b_n$ 同时满足以下条件：\n(1) $\\sum_{i=1}^{n}(a_i + b_i) = 1$;\n(2) $\\sum_{i=1}^{n}i(a_i - b_i) = 0$;\n(3) $\\sum_{i=1}^{n}i^2(a_i + b_i) = 10$.\n求证：对任意 $1 \\leqslant k \\leqslant n$，都有 $\\max\\{a_k, b_k\\} \\leqslant \\frac{10}{10 + k^2}$.\n注意到(1)等价于 $(x^a + y^a + z^a)^2 \\geqslant 4x^{2a-2}(y^2 + z^2)$.\n上式左边 $\\geqslant 4x^a(y^a + z^a)$，故只须保证 $y^a + z^a \\geqslant x^{a-2}(y^2 + z^2)$.\n不难发现，取 $a = 2$ 即可。于是\n$$\\sum \\frac{x}{\\sqrt{y^2 + z^2}} \\geqslant \\sum \\frac{2x^2}{x^2 + y^2 + z^2} = 2.$$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

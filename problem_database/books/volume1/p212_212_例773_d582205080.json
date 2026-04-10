@@ -1,0 +1,53 @@
+{
+  "uid": "p212_212_例773_d582205080",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    212
+  ],
+  "source_images": [
+    "page-212.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{a+2b}{c+2b}+\\frac{b+2c}{a+2c}+\\frac{c+2a}{b+2a}\\geqslant 3$$",
+  "solution_md": "**证明** 我们有\n\n$$\\begin{aligned}\\sum\\frac{a+kc}{a+kb}-3&=\\left(\\frac{b+ka}{b+kc}-1\\right)+\\left(\\frac{a+kc}{a+kb}-\\frac{c+ka}{c+kb}\\right)+\\left(\\frac{c+kb}{c+ka}+\\frac{c+ka}{c+kb}-2\\right)\\\\&=\\frac{k(a-c)}{b+kc}-\\frac{k(a-c)(a-b+kb+c)}{(a+kb)(c+kb)}+\\frac{k^2(a-b)^2}{(c+ka)(c+kb)}\\\\&=\\frac{k^2(a-b)^2}{(c+ka)(c+kb)}+\\frac{k[(k-1)a+(k^2-k+1)b+kc](c-a)(c-b)}{(b+kc)(a+kb)(c+kb)}\\end{aligned}$$\n\n令 $k=\\frac{1}{2}$，即得原不等式的SOS-Schur表示，设 $c=\\max\\{a,b,c\\}$，显然有\n\n$$M=\\frac{k^2}{(c+ka)(c+kb)}=\\frac{1}{4(c+\\frac{1}{2}a)(c+\\frac{1}{2}b)}\\geqslant 0$$\n\n$$N=\\frac{k[(k-1)a+(k^2-k+1)b+kc]}{(b+kc)(a+kb)(c+kb)}=\\frac{-\\frac{1}{2}a+\\frac{3}{4}b+\\frac{1}{2}c}{2(b+\\frac{1}{2}c)(a+\\frac{1}{2}b)(c+\\frac{1}{2}b)}\\geqslant 0$$\n\n从而，原不等式成立，等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.3 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a+2b}{c+2b}+\\frac{b+2c}{a+2c}+\\frac{c+2a}{b+2a}\\geqslant 3$$\n证明 我们有...",
+  "tags": [
+    "SOS-Schur方法",
+    "分式不等式",
+    "参数k"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "d582205080dc684501a359296ee34aef09b879c4",
+  "raw_problem": {
+    "problem_id": "例7.7.3",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": null,
+    "source_pages": [
+      212
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{a+2b}{c+2b}+\\frac{b+2c}{a+2c}+\\frac{c+2a}{b+2a}\\geqslant 3$$",
+    "solution_md": "**证明** 我们有\n\n$$\\begin{aligned}\\sum\\frac{a+kc}{a+kb}-3&=\\left(\\frac{b+ka}{b+kc}-1\\right)+\\left(\\frac{a+kc}{a+kb}-\\frac{c+ka}{c+kb}\\right)+\\left(\\frac{c+kb}{c+ka}+\\frac{c+ka}{c+kb}-2\\right)\\\\&=\\frac{k(a-c)}{b+kc}-\\frac{k(a-c)(a-b+kb+c)}{(a+kb)(c+kb)}+\\frac{k^2(a-b)^2}{(c+ka)(c+kb)}\\\\&=\\frac{k^2(a-b)^2}{(c+ka)(c+kb)}+\\frac{k[(k-1)a+(k^2-k+1)b+kc](c-a)(c-b)}{(b+kc)(a+kb)(c+kb)}\\end{aligned}$$\n\n令 $k=\\frac{1}{2}$，即得原不等式的SOS-Schur表示，设 $c=\\max\\{a,b,c\\}$，显然有\n\n$$M=\\frac{k^2}{(c+ka)(c+kb)}=\\frac{1}{4(c+\\frac{1}{2}a)(c+\\frac{1}{2}b)}\\geqslant 0$$\n\n$$N=\\frac{k[(k-1)a+(k^2-k+1)b+kc]}{(b+kc)(a+kb)(c+kb)}=\\frac{-\\frac{1}{2}a+\\frac{3}{4}b+\\frac{1}{2}c}{2(b+\\frac{1}{2}c)(a+\\frac{1}{2}b)(c+\\frac{1}{2}b)}\\geqslant 0$$\n\n从而，原不等式成立，等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.3 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a+2b}{c+2b}+\\frac{b+2c}{a+2c}+\\frac{c+2a}{b+2a}\\geqslant 3$$\n证明 我们有...",
+    "tags": [
+      "SOS-Schur方法",
+      "分式不等式",
+      "参数k"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

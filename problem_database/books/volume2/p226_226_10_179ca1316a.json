@@ -1,0 +1,21 @@
+{
+  "uid": "p226_226_10_179ca1316a",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "10",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "stem_md": "10. (Bach Ngoc Thanh Cong, Nguyen Vu Tuan, CPR) 设 $a, b, c$ 是非负实数, $k = \\frac{23}{4}$, 证明\n$$\n\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a} + k\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2} \\geqslant 1 + k\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "10. (Bach Ngoc Thanh Cong, Nguyen Vu Tuan, CPR) 设 $a, b, c$ 是非负实数, $k = \\frac{23}{4}$, 证明\n$$\n\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a} + k\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2} \\geqslant 1 + k\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

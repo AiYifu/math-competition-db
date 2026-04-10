@@ -1,0 +1,23 @@
+{
+  "uid": "p226_226_舒尔_Schur_不等式_d28ad742c3",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "舒尔(Schur)不等式",
+  "problem_type": "theorem",
+  "title": "舒尔(Schur)不等式",
+  "source_pages": [
+    226
+  ],
+  "stem_md": "设 $x, y, z \\geq 0$, $r \\in \\mathbf{R}$, 则\n$x^r (x - y)(x - z) + y^r (y - z)(y - x) + z^r (z - x)(z - y) \\geq 0$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "舒尔(Schur)不等式 设 $x, y, z \\geq 0$, $r \\in \\mathbf{R}$, 则\n$x^r (x - y)(x - z) + y^r (y - z)(y - x) + z^r (z - x)(z - y) \\geq 0$.",
+  "tags": [
+    "舒尔不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

@@ -1,0 +1,58 @@
+{
+  "uid": "p074_075_例227_24a748e3bc",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.2",
+  "problem_id": "例2.2.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    74,
+    75
+  ],
+  "source_images": [
+    "page-074.jpg",
+    "page-075.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，对所有正实数 $k$，证明：\n\n(1) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$（如果 $k \\leqslant 3$）.\n\n(2) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{\\frac{3^{k+1}}{2^k},\\frac{3^{k+1}(\\alpha^k+\\alpha)}{(\\alpha+1)^{k+1}}\\right\\}$（如果 $k \\geqslant 3$），其中 $\\alpha$ 是方程 $x^k-kx^{k-1}+kx-1=0$ 大于 1 的实根.",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c$，令\n$$f(a,b,c)=a^k(b+c)+b^k(c+a)+c^k(a+b)$$\n考虑下列三种情况.\n\n(1) 第一种情况 $k \\geqslant 2$. 显然\n$$f(a,b,c)-f(a,b+c,0)=a[b^k+c^k-(b+c)^k]+b^kc+c^kb$$\n$$\\leqslant -ka(b^{k-1}c+c^{k-1}b)+b^kc+c^kb \\leqslant 0$$\n所以，我们只需考虑，原不等式在 $c=0$ 的情况下成立即可. 此时，我们有\n$$\\frac{a^k(b+c)+b^k(c+a)+c^k(a+b)}{(a+b+c)^{k+1}}=\\frac{a^kb+b^ka}{(a+b)^{k+1}}=g(t)$$\n其中，$t=\\frac{a}{b},g(t)=\\frac{t^k+t}{(t+1)^{k+1}}$. 导数 $g'(t)$ 和 $h(t)$ 具有相同的符号\n$$h(t)=(kt^{k-1}+1)(t+1)-(k+1)(t^k+t)=-t^k+kt^{k+1}-kt+1$$\n注意到\n$$h(1)=0 \\text{ 且 } h'(t)=-kt^{k-1}+k(k-1)t^{k-2}-k$$\n如果 $k>3$，则 $h'(1)=k(k-3)>0$，于是，方程 $h'(t)=0$ 有一个大于 1 的正实根，所以方程 $h(t)=0$ 确有三个正实根. 设 $\\alpha$ 是大于 1 的根，则\n$$\\max_{t \\geqslant 1} g(t)=g(\\alpha)=\\frac{\\alpha^k+\\alpha}{(\\alpha+1)^{k+1}}$$\n如果 $k \\leqslant 3$，由于 $h'(t) \\leqslant -2kt^{\\frac{k-1}{2}}-k(k-1)t^{k-2} \\leqslant 0$，所以，$h(t)$ 是减函数，于是 $h(t)$ 确有一个正实根 $t=1$，所以\n$$\\max_{t \\geqslant 1} g(t)=g(1)=\\frac{1}{2^{k+1}}$$\n\n(2) 第二种情况 $1<k<2$. 记 $s=\\frac{a+b}{2},x=\\frac{a-b}{2}$，则有\n$$f(a,b,c)=2c^ks+(s+x)^k(s-x)+(s-x)^k(s+x)+c(s+x)^k+c(s-x)^k$$\n$$=q(x)$$\n所以（由于 $1<k<2$）\n$$q'(x)=(k+1)(s+x)(s-x)[(s+x)^{k-2}-(s-x)^{k-2}]+$$\n$$(ck-2s)[(s+x)^{k-1}-(s-x)^{k-1}] \\leqslant 0$$\n由此我们得到\n$$f(a,b,c) \\leqslant f(s,s,c)=2c^ks+2s^k(s+c)$$\n$$=2s(3-2s)^k+2s^k(3-s)=p(s)$$\n由于\n$$p'(s)=2(3-2s)^k-4ks(3-2s)^{k-1}+6ks^{k-1}-2(k+1)s^k$$\n$$p''(s)=-8k(3-2s)^{k-1}+8k(k-1)s(3-2s)^{k-2}+6k(k-1)s^{k-2}-2k(k+1)s^{k-1}$$\n则 $p''(1)=6k(k-1)-2k(k+1)=2k(2k-4)<0$，所以，$\\lim_{s \\to 1}p'(s)<0$. 另外，\n$$p'\\left(\\frac{3}{2}\\right)=3\\left(\\frac{3}{2}\\right)^{k-1}(k-1)<0$$\n我们推出，方程 $p'(s)=0$ 在 $\\left(1,\\frac{3}{2}\\right)$ 内有一个实根，而且\n$$\\max_{1<s<\\frac{3}{2}} p(s)=\\max\\left\\{p(1),p\\left(\\frac{3}{2}\\right)\\right\\}=\\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$$\n\n(3) 第三种情况 $0 \\leqslant k \\leqslant 1$. 由于 $a(b+c)+b(c+a)+c(a+b) \\leqslant 6$，于是\n$$a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant 6 \\quad \\forall k \\in [0,1]$$\n综上所述，原不等式成立.",
+  "answer_md": "",
+  "hints_md": "注 在 $k=4$ 时，我们得到一个类似的不等式\n$$a^4(b+c)+b^4(c+a)+c^4(a+b) \\leqslant \\frac{1}{12}(a+b+c)^5$$",
+  "original_text_md": "例 2.2.7(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，对所有正实数 $k$，证明：\n\n(1) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$（如果 $k \\leqslant 3$）.\n\n(2) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{\\frac{3^{k+1}}{2^k},\\frac{3^{k+1}(\\alpha^k+\\alpha)}{(\\alpha+1)^{k+1}}\\right\\}$（如果 $k \\geqslant 3$），其中 $\\alpha$ 是方程 $x^k-kx^{k-1}+kx-1=0$ 大于 1 的实根.\n\n证明 不失一般性，设 $a \\geqslant b \\geqslant c$，令\n$$f(a,b,c)=a^k(b+c)+b^k(c+a)+c^k(a+b)$$\n考虑下列三种情况.\n\n(1) 第一种情况 $k \\geqslant 2$. 显然\n$$f(a,b,c)-f(a,b+c,0)=a[b^k+c^k-(b+c)^k]+b^kc+c^kb$$\n$$\\leqslant -ka(b^{k-1}c+c^{k-1}b)+b^kc+c^kb \\leqslant 0$$\n所以，我们只需考虑，原不等式在 $c=0$ 的情况下成立即可. 此时，我们有\n$$\\frac{a^k(b+c)+b^k(c+a)+c^k(a+b)}{(a+b+c)^{k+1}}=\\frac{a^kb+b^ka}{(a+b)^{k+1}}=g(t)$$\n其中，$t=\\frac{a}{b},g(t)=\\frac{t^k+t}{(t+1)^{k+1}}$. 导数 $g'(t)$ 和 $h(t)$ 具有相同的符号\n$$h(t)=(kt^{k-1}+1)(t+1)-(k+1)(t^k+t)=-t^k+kt^{k+1}-kt+1$$\n注意到\n$$h(1)=0 \\text{ 且 } h'(t)=-kt^{k-1}+k(k-1)t^{k-2}-k$$\n如果 $k>3$，则 $h'(1)=k(k-3)>0$，于是，方程 $h'(t)=0$ 有一个大于 1 的正实根，所以方程 $h(t)=0$ 确有三个正实根. 设 $\\alpha$ 是大于 1 的根，则\n$$\\max_{t \\geqslant 1} g(t)=g(\\alpha)=\\frac{\\alpha^k+\\alpha}{(\\alpha+1)^{k+1}}$$\n如果 $k \\leqslant 3$，由于 $h'(t) \\leqslant -2kt^{\\frac{k-1}{2}}-k(k-1)t^{k-2} \\leqslant 0$，所以，$h(t)$ 是减函数，于是 $h(t)$ 确有一个正实根 $t=1$，所以\n$$\\max_{t \\geqslant 1} g(t)=g(1)=\\frac{1}{2^{k+1}}$$\n\n(2) 第二种情况 $1<k<2$. 记 $s=\\frac{a+b}{2},x=\\frac{a-b}{2}$，则有\n$$f(a,b,c)=2c^ks+(s+x)^k(s-x)+(s-x)^k(s+x)+c(s+x)^k+c(s-x)^k$$\n$$=q(x)$$\n所以（由于 $1<k<2$）\n$$q'(x)=(k+1)(s+x)(s-x)[(s+x)^{k-2}-(s-x)^{k-2}]+$$\n$$(ck-2s)[(s+x)^{k-1}-(s-x)^{k-1}] \\leqslant 0$$\n由此我们得到\n$$f(a,b,c) \\leqslant f(s,s,c)=2c^ks+2s^k(s+c)$$\n$$=2s(3-2s)^k+2s^k(3-s)=p(s)$$\n由于\n$$p'(s)=2(3-2s)^k-4ks(3-2s)^{k-1}+6ks^{k-1}-2(k+1)s^k$$\n$$p''(s)=-8k(3-2s)^{k-1}+8k(k-1)s(3-2s)^{k-2}+6k(k-1)s^{k-2}-2k(k+1)s^{k-1}$$\n则 $p''(1)=6k(k-1)-2k(k+1)=2k(2k-4)<0$，所以，$\\lim_{s \\to 1}p'(s)<0$. 另外，\n$$p'\\left(\\frac{3}{2}\\right)=3\\left(\\frac{3}{2}\\right)^{k-1}(k-1)<0$$\n我们推出，方程 $p'(s)=0$ 在 $\\left(1,\\frac{3}{2}\\right)$ 内有一个实根，而且\n$$\\max_{1<s<\\frac{3}{2}} p(s)=\\max\\left\\{p(1),p\\left(\\frac{3}{2}\\right)\\right\\}=\\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$$\n\n(3) 第三种情况 $0 \\leqslant k \\leqslant 1$. 由于 $a(b+c)+b(c+a)+c(a+b) \\leqslant 6$，于是\n$$a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant 6 \\quad \\forall k \\in [0,1]$$\n综上所述，原不等式成立.\n\n注 在 $k=4$ 时，我们得到一个类似的不等式\n$$a^4(b+c)+b^4(c+a)+c^4(a+b) \\leqslant \\frac{1}{12}(a+b+c)^5$$",
+  "tags": [
+    "整合变量法",
+    "导数",
+    "分类讨论",
+    "三元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009",
+  "raw_response_file": "raw/chunk-0009.response.txt",
+  "raw_api_file": "raw/chunk-0009.api.json",
+  "fingerprint": "24a748e3bc46f4028a8568d555fcf11f7d45e313",
+  "raw_problem": {
+    "problem_id": "例2.2.7",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.2",
+    "title": null,
+    "source_pages": [
+      74,
+      75
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，对所有正实数 $k$，证明：\n\n(1) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$（如果 $k \\leqslant 3$）.\n\n(2) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{\\frac{3^{k+1}}{2^k},\\frac{3^{k+1}(\\alpha^k+\\alpha)}{(\\alpha+1)^{k+1}}\\right\\}$（如果 $k \\geqslant 3$），其中 $\\alpha$ 是方程 $x^k-kx^{k-1}+kx-1=0$ 大于 1 的实根.",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c$，令\n$$f(a,b,c)=a^k(b+c)+b^k(c+a)+c^k(a+b)$$\n考虑下列三种情况.\n\n(1) 第一种情况 $k \\geqslant 2$. 显然\n$$f(a,b,c)-f(a,b+c,0)=a[b^k+c^k-(b+c)^k]+b^kc+c^kb$$\n$$\\leqslant -ka(b^{k-1}c+c^{k-1}b)+b^kc+c^kb \\leqslant 0$$\n所以，我们只需考虑，原不等式在 $c=0$ 的情况下成立即可. 此时，我们有\n$$\\frac{a^k(b+c)+b^k(c+a)+c^k(a+b)}{(a+b+c)^{k+1}}=\\frac{a^kb+b^ka}{(a+b)^{k+1}}=g(t)$$\n其中，$t=\\frac{a}{b},g(t)=\\frac{t^k+t}{(t+1)^{k+1}}$. 导数 $g'(t)$ 和 $h(t)$ 具有相同的符号\n$$h(t)=(kt^{k-1}+1)(t+1)-(k+1)(t^k+t)=-t^k+kt^{k+1}-kt+1$$\n注意到\n$$h(1)=0 \\text{ 且 } h'(t)=-kt^{k-1}+k(k-1)t^{k-2}-k$$\n如果 $k>3$，则 $h'(1)=k(k-3)>0$，于是，方程 $h'(t)=0$ 有一个大于 1 的正实根，所以方程 $h(t)=0$ 确有三个正实根. 设 $\\alpha$ 是大于 1 的根，则\n$$\\max_{t \\geqslant 1} g(t)=g(\\alpha)=\\frac{\\alpha^k+\\alpha}{(\\alpha+1)^{k+1}}$$\n如果 $k \\leqslant 3$，由于 $h'(t) \\leqslant -2kt^{\\frac{k-1}{2}}-k(k-1)t^{k-2} \\leqslant 0$，所以，$h(t)$ 是减函数，于是 $h(t)$ 确有一个正实根 $t=1$，所以\n$$\\max_{t \\geqslant 1} g(t)=g(1)=\\frac{1}{2^{k+1}}$$\n\n(2) 第二种情况 $1<k<2$. 记 $s=\\frac{a+b}{2},x=\\frac{a-b}{2}$，则有\n$$f(a,b,c)=2c^ks+(s+x)^k(s-x)+(s-x)^k(s+x)+c(s+x)^k+c(s-x)^k$$\n$$=q(x)$$\n所以（由于 $1<k<2$）\n$$q'(x)=(k+1)(s+x)(s-x)[(s+x)^{k-2}-(s-x)^{k-2}]+$$\n$$(ck-2s)[(s+x)^{k-1}-(s-x)^{k-1}] \\leqslant 0$$\n由此我们得到\n$$f(a,b,c) \\leqslant f(s,s,c)=2c^ks+2s^k(s+c)$$\n$$=2s(3-2s)^k+2s^k(3-s)=p(s)$$\n由于\n$$p'(s)=2(3-2s)^k-4ks(3-2s)^{k-1}+6ks^{k-1}-2(k+1)s^k$$\n$$p''(s)=-8k(3-2s)^{k-1}+8k(k-1)s(3-2s)^{k-2}+6k(k-1)s^{k-2}-2k(k+1)s^{k-1}$$\n则 $p''(1)=6k(k-1)-2k(k+1)=2k(2k-4)<0$，所以，$\\lim_{s \\to 1}p'(s)<0$. 另外，\n$$p'\\left(\\frac{3}{2}\\right)=3\\left(\\frac{3}{2}\\right)^{k-1}(k-1)<0$$\n我们推出，方程 $p'(s)=0$ 在 $\\left(1,\\frac{3}{2}\\right)$ 内有一个实根，而且\n$$\\max_{1<s<\\frac{3}{2}} p(s)=\\max\\left\\{p(1),p\\left(\\frac{3}{2}\\right)\\right\\}=\\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$$\n\n(3) 第三种情况 $0 \\leqslant k \\leqslant 1$. 由于 $a(b+c)+b(c+a)+c(a+b) \\leqslant 6$，于是\n$$a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant 6 \\quad \\forall k \\in [0,1]$$\n综上所述，原不等式成立.",
+    "answer_md": "",
+    "hints_md": "注 在 $k=4$ 时，我们得到一个类似的不等式\n$$a^4(b+c)+b^4(c+a)+c^4(a+b) \\leqslant \\frac{1}{12}(a+b+c)^5$$",
+    "original_text_md": "例 2.2.7(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，对所有正实数 $k$，证明：\n\n(1) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$（如果 $k \\leqslant 3$）.\n\n(2) $a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant \\max\\left\\{\\frac{3^{k+1}}{2^k},\\frac{3^{k+1}(\\alpha^k+\\alpha)}{(\\alpha+1)^{k+1}}\\right\\}$（如果 $k \\geqslant 3$），其中 $\\alpha$ 是方程 $x^k-kx^{k-1}+kx-1=0$ 大于 1 的实根.\n\n证明 不失一般性，设 $a \\geqslant b \\geqslant c$，令\n$$f(a,b,c)=a^k(b+c)+b^k(c+a)+c^k(a+b)$$\n考虑下列三种情况.\n\n(1) 第一种情况 $k \\geqslant 2$. 显然\n$$f(a,b,c)-f(a,b+c,0)=a[b^k+c^k-(b+c)^k]+b^kc+c^kb$$\n$$\\leqslant -ka(b^{k-1}c+c^{k-1}b)+b^kc+c^kb \\leqslant 0$$\n所以，我们只需考虑，原不等式在 $c=0$ 的情况下成立即可. 此时，我们有\n$$\\frac{a^k(b+c)+b^k(c+a)+c^k(a+b)}{(a+b+c)^{k+1}}=\\frac{a^kb+b^ka}{(a+b)^{k+1}}=g(t)$$\n其中，$t=\\frac{a}{b},g(t)=\\frac{t^k+t}{(t+1)^{k+1}}$. 导数 $g'(t)$ 和 $h(t)$ 具有相同的符号\n$$h(t)=(kt^{k-1}+1)(t+1)-(k+1)(t^k+t)=-t^k+kt^{k+1}-kt+1$$\n注意到\n$$h(1)=0 \\text{ 且 } h'(t)=-kt^{k-1}+k(k-1)t^{k-2}-k$$\n如果 $k>3$，则 $h'(1)=k(k-3)>0$，于是，方程 $h'(t)=0$ 有一个大于 1 的正实根，所以方程 $h(t)=0$ 确有三个正实根. 设 $\\alpha$ 是大于 1 的根，则\n$$\\max_{t \\geqslant 1} g(t)=g(\\alpha)=\\frac{\\alpha^k+\\alpha}{(\\alpha+1)^{k+1}}$$\n如果 $k \\leqslant 3$，由于 $h'(t) \\leqslant -2kt^{\\frac{k-1}{2}}-k(k-1)t^{k-2} \\leqslant 0$，所以，$h(t)$ 是减函数，于是 $h(t)$ 确有一个正实根 $t=1$，所以\n$$\\max_{t \\geqslant 1} g(t)=g(1)=\\frac{1}{2^{k+1}}$$\n\n(2) 第二种情况 $1<k<2$. 记 $s=\\frac{a+b}{2},x=\\frac{a-b}{2}$，则有\n$$f(a,b,c)=2c^ks+(s+x)^k(s-x)+(s-x)^k(s+x)+c(s+x)^k+c(s-x)^k$$\n$$=q(x)$$\n所以（由于 $1<k<2$）\n$$q'(x)=(k+1)(s+x)(s-x)[(s+x)^{k-2}-(s-x)^{k-2}]+$$\n$$(ck-2s)[(s+x)^{k-1}-(s-x)^{k-1}] \\leqslant 0$$\n由此我们得到\n$$f(a,b,c) \\leqslant f(s,s,c)=2c^ks+2s^k(s+c)$$\n$$=2s(3-2s)^k+2s^k(3-s)=p(s)$$\n由于\n$$p'(s)=2(3-2s)^k-4ks(3-2s)^{k-1}+6ks^{k-1}-2(k+1)s^k$$\n$$p''(s)=-8k(3-2s)^{k-1}+8k(k-1)s(3-2s)^{k-2}+6k(k-1)s^{k-2}-2k(k+1)s^{k-1}$$\n则 $p''(1)=6k(k-1)-2k(k+1)=2k(2k-4)<0$，所以，$\\lim_{s \\to 1}p'(s)<0$. 另外，\n$$p'\\left(\\frac{3}{2}\\right)=3\\left(\\frac{3}{2}\\right)^{k-1}(k-1)<0$$\n我们推出，方程 $p'(s)=0$ 在 $\\left(1,\\frac{3}{2}\\right)$ 内有一个实根，而且\n$$\\max_{1<s<\\frac{3}{2}} p(s)=\\max\\left\\{p(1),p\\left(\\frac{3}{2}\\right)\\right\\}=\\max\\left\\{6,\\frac{3^{k+1}}{2^k}\\right\\}$$\n\n(3) 第三种情况 $0 \\leqslant k \\leqslant 1$. 由于 $a(b+c)+b(c+a)+c(a+b) \\leqslant 6$，于是\n$$a^k(b+c)+b^k(c+a)+c^k(a+b) \\leqslant 6 \\quad \\forall k \\in [0,1]$$\n综上所述，原不等式成立.\n\n注 在 $k=4$ 时，我们得到一个类似的不等式\n$$a^4(b+c)+b^4(c+a)+c^4(a+b) \\leqslant \\frac{1}{12}(a+b+c)^5$$",
+    "tags": [
+      "整合变量法",
+      "导数",
+      "分类讨论",
+      "三元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

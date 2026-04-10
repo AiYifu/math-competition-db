@@ -1,0 +1,55 @@
+{
+  "uid": "p135_135_例413_99b2a1fe4e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.1",
+  "problem_id": "例4.1.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    135
+  ],
+  "source_images": [
+    "page-135.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "Romania TST 1998",
+  "original_text_md": "例 4.1.3(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$\n证明及分析 我们知道上面的不等式可以采用反证法，给出一个漂亮的解答。但是，这个证法的出现是偶然的，反证法的出现也是陌生的。所以，我希望你能够用其他自然的方法，再次证明这个不等式。如果采用了任何方法证明了这个不等式，那就应该祝贺你。实际上，这是一个非常难的不等式（在这一章，我们称其为开始问题）。",
+  "tags": [
+    "正实数",
+    "条件不等式",
+    "归纳法",
+    "Romania TST"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "99b2a1fe4e48740c22fdad895a8ba86fde2627d1",
+  "raw_problem": {
+    "problem_id": "例4.1.3",
+    "problem_type": "example",
+    "chapter": "第4章",
+    "section": "4.1",
+    "title": null,
+    "source_pages": [
+      135
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "Romania TST 1998",
+    "original_text_md": "例 4.1.3(Romania TST 1998) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{n-1+a_1}+\\frac{1}{n-1+a_2}+\\cdots+\\frac{1}{n-1+a_n}\\leqslant 1$$\n证明及分析 我们知道上面的不等式可以采用反证法，给出一个漂亮的解答。但是，这个证法的出现是偶然的，反证法的出现也是陌生的。所以，我希望你能够用其他自然的方法，再次证明这个不等式。如果采用了任何方法证明了这个不等式，那就应该祝贺你。实际上，这是一个非常难的不等式（在这一章，我们称其为开始问题）。",
+    "tags": [
+      "正实数",
+      "条件不等式",
+      "归纳法",
+      "Romania TST"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

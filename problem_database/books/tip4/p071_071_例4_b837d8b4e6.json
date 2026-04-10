@@ -1,0 +1,24 @@
+{
+  "uid": "p071_071_例4_b837d8b4e6",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2",
+  "section": "平均值不等式的应用",
+  "problem_id": "例4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    71
+  ],
+  "stem_md": "设 $a, b, c, d \\in \\mathbf{R}_{+}$, 求证: \n$$\n\\sqrt[3]{abcd + bcd + cda + adb} \\leqslant \\sqrt{\\frac{a^{2} + b^{2} + c^{2} + d^{2}}{4}}.\n$$\n证明 首先两次应用 $G_{2} \\leqslant A_{2}$, 得\n$$\n\\frac{abcd + bcd + cda + adb}{4} = \\frac{1}{2}\\left(ab \\cdot \\frac{c + d}{2} + cd \\cdot \\frac{a + b}{2}\\right)\n$$\n$$\n\\leqslant \\frac{1}{2}\\left[\\left(\\frac{a + b}{2}\\right)^{2} \\cdot \\frac{c + d}{2} + \\left(\\frac{c + d}{2}\\right)^{2} \\cdot \\frac{a + b}{2}\\right]\n$$\n$$\n= \\frac{a + b}{2} \\cdot \\frac{c + d}{2} \\cdot \\frac{a + b + c + d}{4}\n$$\n即再由 $A_{4} \\leqslant Q_{4}$, 得\n$$\n\\frac{\\prod (x_{i} - 1)}{\\prod x_{i}} = \\left(\\prod \\frac{x_{i} - 1}{x_{i}}\\right)^{\\frac{1}{n}} \\leqslant \\frac{1}{n} \\sum \\frac{x_{i} - 1}{x_{i}} = 1 - \\frac{1}{n} \\sum \\frac{1}{x_{i}}.\n$$\n以及\n$$\n\\frac{1}{n} \\sum \\frac{1}{x_{i}} \\geqslant \\frac{n}{\\sum x_{i}}.\n$$\n从而可知命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c, d \\in \\mathbf{R}_{+}$, 求证: \n$$\n\\sqrt[3]{abcd + bcd + cda + adb} \\leqslant \\sqrt{\\frac{a^{2} + b^{2} + c^{2} + d^{2}}{4}}.\n$$\n证明 首先两次应用 $G_{2} \\leqslant A_{2}$, 得\n$$\n\\frac{abcd + bcd + cda + adb}{4} = \\frac{1}{2}\\left(ab \\cdot \\frac{c + d}{2} + cd \\cdot \\frac{a + b}{2}\\right)\n$$\n$$\n\\leqslant \\frac{1}{2}\\left[\\left(\\frac{a + b}{2}\\right)^{2} \\cdot \\frac{c + d}{2} + \\left(\\frac{c + d}{2}\\right)^{2} \\cdot \\frac{a + b}{2}\\right]\n$$\n$$\n= \\frac{a + b}{2} \\cdot \\frac{c + d}{2} \\cdot \\frac{a + b + c + d}{4}\n$$\n即再由 $A_{4} \\leqslant Q_{4}$, 得\n$$\n\\frac{\\prod (x_{i} - 1)}{\\prod x_{i}} = \\left(\\prod \\frac{x_{i} - 1}{x_{i}}\\right)^{\\frac{1}{n}} \\leqslant \\frac{1}{n} \\sum \\frac{x_{i} - 1}{x_{i}} = 1 - \\frac{1}{n} \\sum \\frac{1}{x_{i}}.\n$$\n以及\n$$\n\\frac{1}{n} \\sum \\frac{1}{x_{i}} \\geqslant \\frac{n}{\\sum x_{i}}.\n$$\n从而可知命题成立.",
+  "tags": [
+    "均值不等式",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

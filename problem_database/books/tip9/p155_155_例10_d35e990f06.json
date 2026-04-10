@@ -1,0 +1,25 @@
+{
+  "uid": "p155_155_例10_d35e990f06",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "4",
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": "一些非“对称”不等式的处理方法",
+  "source_pages": [
+    155
+  ],
+  "stem_md": "实数 $a$ 使得对于任意实数 $x_1, x_2, x_3, x_4, x_5$, 不等式 $x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 \\geqslant a(x_1x_2 + x_2x_3 + x_3x_4 + x_4x_5)$ 都成立, 求 $a$ 的最大值. (2010 年上海市高中数学竞赛)",
+  "solution_md": "解析 $a$ 的最大值为 $\\frac{2\\sqrt{3}}{3}$.\n因为当 $x_1 = 1, x_2 = \\sqrt{3}, x_3 = 2, x_4 = \\sqrt{3}, x_5 = 1$ 时, 得 $a \\leqslant \\frac{2}{\\sqrt{3}}$.\n事实上,\n$x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 = \\left(x_1^2 + \\frac{x_2^2}{3}\\right) + \\left(\\frac{2x_2^2}{3} + \\frac{x_3^2}{2}\\right) + \\left(\\frac{x_3^2}{2} + \\frac{2x_4^2}{3}\\right) + \\left(\\frac{x_4^2}{3} + x_5^2\\right)$\n$\\geqslant \\frac{2}{\\sqrt{3}}x_1x_2 + \\frac{2}{\\sqrt{3}}x_2x_3 + \\frac{2}{\\sqrt{3}}x_3x_4 + \\frac{2}{\\sqrt{3}}x_4x_5$,\n所以, $a$ 的最大值为 $\\frac{2\\sqrt{3}}{3}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "实数 $a$ 使得对于任意实数 $x_1, x_2, x_3, x_4, x_5$, 不等式 $x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 \\geqslant a(x_1x_2 + x_2x_3 + x_3x_4 + x_4x_5)$ 都成立, 求 $a$ 的最大值. (2010 年上海市高中数学竞赛)\n解析 $a$ 的最大值为 $\\frac{2\\sqrt{3}}{3}$.\n因为当 $x_1 = 1, x_2 = \\sqrt{3}, x_3 = 2, x_4 = \\sqrt{3}, x_5 = 1$ 时, 得 $a \\leqslant \\frac{2}{\\sqrt{3}}$.\n事实上,\n$x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 = \\left(x_1^2 + \\frac{x_2^2}{3}\\right) + \\left(\\frac{2x_2^2}{3} + \\frac{x_3^2}{2}\\right) + \\left(\\frac{x_3^2}{2} + \\frac{2x_4^2}{3}\\right) + \\left(\\frac{x_4^2}{3} + x_5^2\\right)$\n$\\geqslant \\frac{2}{\\sqrt{3}}x_1x_2 + \\frac{2}{\\sqrt{3}}x_2x_3 + \\frac{2}{\\sqrt{3}}x_3x_4 + \\frac{2}{\\sqrt{3}}x_4x_5$,\n所以, $a$ 的最大值为 $\\frac{2\\sqrt{3}}{3}$.",
+  "tags": [
+    "不等式",
+    "实数",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020"
+}

@@ -1,0 +1,59 @@
+{
+  "uid": "p048_050_例144_263920b87b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    48,
+    49,
+    50
+  ],
+  "source_images": [
+    "page-048.jpg",
+    "page-049.jpg",
+    "page-050.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+  "solution_md": "注意到\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3=\\sum\\frac{(3b+c-a)(c-a)^2}{6abc}$$\n\n因此，不等式可以变换成\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n\n其中\n$$S_a=\\frac{3a+b-c}{6abc}-\\frac{1}{(a+b)(a+c)}$$\n$$S_b=\\frac{3b+c-a}{6abc}-\\frac{1}{(b+a)(c+c)}$$\n$$S_c=\\frac{3c+a-b}{6abc}-\\frac{1}{(c+a)(c+b)}$$\n\n考虑下列两个情况：\n\n(1) 如果 $a\\geqslant b\\geqslant c$，则\n$$S_a\\geqslant\\frac{1}{2bc}-\\frac{1}{(a+b)(a+c)}>0$$\n$$S_b+S_c=\\frac{2c+b}{3abc}-\\frac{2a+b+c}{(a+b)(b+c)(c+a)}\\geqslant\\frac{2c+b}{3abc}-\\frac{3}{(a+c)(a+b)}>0$$\n\n这是由于 $(2c+b)(a+c)(a+b)\\geqslant8\\sqrt{2a^2b^2c^2}>9abc$。\n\n最后，我们来证明 $S_b\\geqslant0$。事实上，这个不等式等价于\n$$\\frac{3b+c}{6bc}\\geqslant\\frac{a}{bc}+\\frac{a}{(a+b)(b+c)}$$\n\n因为上述不等的 RHS 是 $a$ 的严格增加函数，所以，只需证明\n$$\\frac{3b+c}{6bc}\\geqslant\\frac{b+c}{bc}+\\frac{1}{2b+c}\\Leftrightarrow\\frac{1}{3c}\\geqslant\\frac{1}{2b+c}$$\n\n这是显然成立。因此，由 SOS 定理之条件(2)可知，原不等式成立。\n\n(2) 如果 $a\\leqslant b\\leqslant c$，则\n$$S_c\\geqslant\\frac{1}{2ab}-\\frac{1}{(c+a)(c+b)}>0$$\n$$S_b\\geqslant\\frac{1}{2ac}-\\frac{1}{(b+a)(b+c)}>0$$\n\n因为，$c\\leqslant a+b\\leqslant2b$，则 $2b+a\\geqslant\\frac{3}{2}c$。因此\n$$S_a+S_b=\\frac{2b+a}{3abc}-\\frac{2c+a+b}{(a+b)(b+c)(c+a)}>\\frac{1}{2bc}-\\frac{3}{(c+a)(c+b)}>0$$\n\n由 SOS 定理之条件(2)可知，不等式成立。\n\n注 当 $a,b,c$ 不是三角形的三条边时，这个不等式是不成立的。例如 $a=12,b=2,c=1$，可以验证，不等式是错的。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.4(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$\n证明 注意到...",
+  "tags": [
+    "SOS方法",
+    "三角形边长",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "263920b87bfb889d835e4746233ab4e4dd3f76af",
+  "raw_problem": {
+    "problem_id": "例1.4.4",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      48,
+      49,
+      50
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$",
+    "solution_md": "注意到\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3=\\sum\\frac{(3b+c-a)(c-a)^2}{6abc}$$\n\n因此，不等式可以变换成\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n\n其中\n$$S_a=\\frac{3a+b-c}{6abc}-\\frac{1}{(a+b)(a+c)}$$\n$$S_b=\\frac{3b+c-a}{6abc}-\\frac{1}{(b+a)(c+c)}$$\n$$S_c=\\frac{3c+a-b}{6abc}-\\frac{1}{(c+a)(c+b)}$$\n\n考虑下列两个情况：\n\n(1) 如果 $a\\geqslant b\\geqslant c$，则\n$$S_a\\geqslant\\frac{1}{2bc}-\\frac{1}{(a+b)(a+c)}>0$$\n$$S_b+S_c=\\frac{2c+b}{3abc}-\\frac{2a+b+c}{(a+b)(b+c)(c+a)}\\geqslant\\frac{2c+b}{3abc}-\\frac{3}{(a+c)(a+b)}>0$$\n\n这是由于 $(2c+b)(a+c)(a+b)\\geqslant8\\sqrt{2a^2b^2c^2}>9abc$。\n\n最后，我们来证明 $S_b\\geqslant0$。事实上，这个不等式等价于\n$$\\frac{3b+c}{6bc}\\geqslant\\frac{a}{bc}+\\frac{a}{(a+b)(b+c)}$$\n\n因为上述不等的 RHS 是 $a$ 的严格增加函数，所以，只需证明\n$$\\frac{3b+c}{6bc}\\geqslant\\frac{b+c}{bc}+\\frac{1}{2b+c}\\Leftrightarrow\\frac{1}{3c}\\geqslant\\frac{1}{2b+c}$$\n\n这是显然成立。因此，由 SOS 定理之条件(2)可知，原不等式成立。\n\n(2) 如果 $a\\leqslant b\\leqslant c$，则\n$$S_c\\geqslant\\frac{1}{2ab}-\\frac{1}{(c+a)(c+b)}>0$$\n$$S_b\\geqslant\\frac{1}{2ac}-\\frac{1}{(b+a)(b+c)}>0$$\n\n因为，$c\\leqslant a+b\\leqslant2b$，则 $2b+a\\geqslant\\frac{3}{2}c$。因此\n$$S_a+S_b=\\frac{2b+a}{3abc}-\\frac{2c+a+b}{(a+b)(b+c)(c+a)}>\\frac{1}{2bc}-\\frac{3}{(c+a)(c+b)}>0$$\n\n由 SOS 定理之条件(2)可知，不等式成立。\n\n注 当 $a,b,c$ 不是三角形的三条边时，这个不等式是不成立的。例如 $a=12,b=2,c=1$，可以验证，不等式是错的。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.4(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\geqslant\\frac{2a}{b+c}+\\frac{2b}{c+a}+\\frac{2c}{a+b}$$\n证明 注意到...",
+    "tags": [
+      "SOS方法",
+      "三角形边长",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

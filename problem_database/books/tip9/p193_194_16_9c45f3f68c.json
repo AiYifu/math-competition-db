@@ -1,0 +1,25 @@
+{
+  "uid": "p193_194_16_9c45f3f68c",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "16",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193,
+    194
+  ],
+  "stem_md": "构造数列 $x_n = (1 + a_1)(1 + a_2)\\cdots(1 + a_n) - (1 + a_1 + a_2 + \\cdots + a_n)$ ($n \\geqslant 2$)，则 $x_{n+1} - x_n = a_{n+1}[(1 + a_1)\\cdots(1 + a_n) - 1]$。\n若 $a_i > 0$ ($i = 1, 2, \\cdots, n + 1$)，由上式易见 $x_{n+1} > x_n$；若 $-1 < a_i < 0$ ($i = 1, 2, \\cdots, n$)，则 $0 < 1 + a_i < 1$，也有 $x_{n+1} > x_n$。\n因此 $\\{x_n\\}$ 是一个单调递增序列 ($n \\geqslant 2$)。由于 $x_2 = (1 + a_1)(1 + a_2) - 1 - a_1 - a_2 = a_1a_2 > 0$，则对一切 $n \\geqslant 2$，$x_n > 0$，从而原不等式成立。",
+  "solution_md": "构造数列 $x_n = (1 + a_1)(1 + a_2)\\cdots(1 + a_n) - (1 + a_1 + a_2 + \\cdots + a_n)$ ($n \\geqslant 2$)，则 $x_{n+1} - x_n = a_{n+1}[(1 + a_1)\\cdots(1 + a_n) - 1]$。\n若 $a_i > 0$ ($i = 1, 2, \\cdots, n + 1$)，由上式易见 $x_{n+1} > x_n$；若 $-1 < a_i < 0$ ($i = 1, 2, \\cdots, n$)，则 $0 < 1 + a_i < 1$，也有 $x_{n+1} > x_n$。\n因此 $\\{x_n\\}$ 是一个单调递增序列 ($n \\geqslant 2$)。由于 $x_2 = (1 + a_1)(1 + a_2) - 1 - a_1 - a_2 = a_1a_2 > 0$，则对一切 $n \\geqslant 2$，$x_n > 0$，从而原不等式成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "构造数列 $x_n = (1 + a_1)(1 + a_2)\\cdots(1 + a_n) - (1 + a_1 + a_2 + \\cdots + a_n)$ ($n \\geqslant 2$)，则 $x_{n+1} - x_n = a_{n+1}[(1 + a_1)\\cdots(1 + a_n) - 1]$。\n若 $a_i > 0$ ($i = 1, 2, \\cdots, n + 1$)，由上式易见 $x_{n+1} > x_n$；若 $-1 < a_i < 0$ ($i = 1, 2, \\cdots, n$)，则 $0 < 1 + a_i < 1$，也有 $x_{n+1} > x_n$。\n因此 $\\{x_n\\}$ 是一个单调递增序列 ($n \\geqslant 2$)。由于 $x_2 = (1 + a_1)(1 + a_2) - 1 - a_1 - a_2 = a_1a_2 > 0$，则对一切 $n \\geqslant 2$，$x_n > 0$，从而原不等式成立。",
+  "tags": [
+    "不等式",
+    "数列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

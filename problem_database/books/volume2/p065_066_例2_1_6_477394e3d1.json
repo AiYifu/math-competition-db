@@ -1,0 +1,25 @@
+{
+  "uid": "p065_066_例2_1_6_477394e3d1",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "2",
+  "section": "1",
+  "problem_id": "例2.1.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    65,
+    66
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 其和为 2, 证明\n$$ab(a+b)+bc(b+c)+ca(c+a)\\leqslant 2$$",
+  "solution_md": "不失一般性, 假设 $b=\\max\\{a,b,c\\}$, 则我们有\n$$f(a,b,c)\\leqslant f(a+c,b,0)$$\n最后, 由 AM-GM 不等式, 有\n$$f(a+c,b,0)=(a+c)\\cdot b\\cdot(a+c+b)=2b(a+c)\\leqslant\\frac{(b+a+c)^2}{2}=2$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.1.6 设 $a, b, c$ 是非负实数, 其和为 2, 证明\n$$ab(a+b)+bc(b+c)+ca(c+a)\\leqslant 2$$\n证明及分析 依据条件 $a+b+c=2$, 我们选择变换\n$$f(a,b,c)-f(a+c,b,0)=ac(a+c-2b)$$\n不失一般性, 假设 $b=\\max\\{a,b,c\\}$, 则我们有\n$$f(a,b,c)\\leqslant f(a+c,b,0)$$\n最后, 由 AM-GM 不等式, 有\n$$f(a+c,b,0)=(a+c)\\cdot b\\cdot(a+c+b)=2b(a+c)\\leqslant\\frac{(b+a+c)^2}{2}=2$$",
+  "tags": [
+    "不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

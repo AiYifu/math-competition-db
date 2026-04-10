@@ -1,0 +1,57 @@
+{
+  "uid": "p127_129_例434_b392dc7bc9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4",
+  "section": "4.3",
+  "problem_id": "例4.3.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    127,
+    128,
+    129
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$n^2\\left(\\frac{1}{a_1^2}+\\frac{1}{a_2^2}+\\cdots+\\frac{1}{a_n^2}-n\\right)\\geqslant 10(n-1)(a_1^2+a_2^2+\\cdots+a_n^2-n)$$",
+  "solution_md": "定义序列 $\\{d_n\\}_{n\\geqslant 2}$ 如下\n$$d_2=3, d_n=\\frac{10(n-1)}{n^2}\\quad \\forall n\\geqslant 3$$\n不难证明 $\\{d_n\\}_{n\\geqslant 2}$ 是递减的。对于 $k=d_n$，我们来证明\n$$n^2\\left(-n+\\sum_{i=1}^n\\frac{1}{a_i^2}\\right)\\geqslant 10(n-1)\\left(-n+\\sum_{i=1}^n a_i^2\\right)$$\n$$\\Leftrightarrow \\sum_{i=1}^n g(a_i)\\geqslant nf(1)$$\n其中 $g(x)=\\frac{1}{x^2}-kx^2$。由 $g(x)$ 我们来构造齐次函数 $f(c,x)$。取\n$$c=\\frac{1}{\\sqrt[4]{k}}, f(c,x)=c^2g(x)=\\frac{c^2}{x^2}-kc^2x^2=\\frac{c^2}{x^2}-\\frac{x^2}{c^2}$$\n我们来证明下面更强的结果\n$$\\sum_{i=1}^n f(c,a_i)\\geqslant nf(c,1)\\quad \\forall c\\geqslant c_n=\\frac{1}{\\sqrt[4]{d_n}}\\quad (*)$$\n因为，序列 $\\{c_n\\}$ 是递增的，且函数 $f(c,x)$ 是齐次的，根据 GI 定理可知，只需证明在 $a_1=a_2=\\cdots=a_{n-1}=x, c=c_n$ 的条件下，不等式 $(*)$ 成立即可。此时，不等式变成\n$$n^2\\left\\{\\frac{n-1}{x^2}+\\frac{1}{[n-(n-1)x]^2}-n\\right\\}$$\n$$\\geqslant 10(n-1)\\{(n-1)x^2+[n-(n-1)x]^2-n\\}$$\n注意到\n$$\\text{LHS}=n^3(n-1)(1-x)^2\\left\\{\\frac{1}{x^2[n-(n-1)x]}+\\right.$$\n$$\\left.\\frac{1}{x[n-(n-1)x]^2}+\\frac{1}{x[n-(n-1)x]}\\right\\}$$\n所以，只需证明 $h(x)\\geqslant \\frac{10(n-1)}{n^2}$，其中\n$$h(x)=\\frac{1}{x^2[n-(n-1)x]}+\\frac{1}{x[n-(n-1)x]^2}+\\frac{1}{x[n-(n-1)x]}$$\n求 $h(x)$ 的一阶导数\n$$h'(x)=-\\frac{2[n-(n-1)x]-(n-1)x}{x^3[n-(n-1)x]^2}-\\frac{[n-(n-1)x]-2(n-1)x}{x^2[n-(n-1)x]^3}-$$\n$$\\frac{n-2(n-1)x}{x^2[n-(n-1)x]^2}$$\n因此可见，$h'(x)$ 和 $g(x)$ 有相同的符号\n$$g(x)=-\\frac{2n}{x}+2(n-1)+n-1+\\frac{2(n-1)x}{n-(n-1)x}-n+2(n-1)x$$\n$$=(2n-6)+2(n-1)x+\\frac{2n}{n-(n-1)x}-\\frac{2n}{x}$$\n由于 $g(x)$ 在 $\\left[0,\\frac{n}{n-1}\\right]$ 上是严格增函数，它有唯一的实根 $x_0\\in\\left[0,\\frac{n}{n-1}\\right]$，所以，有\n$$\\min_{0\\leqslant x\\leqslant\\frac{n}{n-1}}h(x)=h(x_0)\\geqslant \\frac{1}{x_0^2[n-(n-1)x_0]}+\\frac{1}{x_0[n-(n-1)x_0]}$$\n$$=\\left(\\frac{1}{x_0}+1\\right)\\cdot\\frac{1}{x_0[n-(n-1)x_0]}\\geqslant \\left(\\frac{1}{x_0}+1\\right)\\cdot\\frac{4(n-1)}{n^2}$$\n现证，如果 $n\\geqslant 8$，则 $x_0\\leqslant \\frac{2}{3}$。采用反证法，假设 $x_0>\\frac{2}{3}$，则\n$$0=\\frac{g(x_0)}{2}=n-3+(n-1)x_0+\\frac{n}{n-(n-1)x_0}-\\frac{n}{x_0}$$\n$$>n-3+\\frac{2(n-1)}{3}-\\frac{3n}{2}+\\frac{n}{n-\\frac{2}{3}(n-1)}$$\n$$=\\frac{n}{6}+\\frac{3n}{n+2}-\\frac{11}{3}\\geqslant 0\\quad (n\\geqslant 8)$$\n所以，当 $n\\geqslant 8$ 时，不等式成立。下面，只需对 $n\\in\\{3,4,5,6,7\\}$，证明不等式成立即可。\n如果 $n\\geqslant 4$，类似可证 $x_0\\leqslant \\frac{3}{4}$（正好检测 $g\\left(\\frac{3}{4}\\right)\\geqslant 0$）。另外，由 AM-GM 不等式，有\n$$x_0[n-(n-1)x_0]^2\\leqslant \\frac{4n^3}{27(n-1)}$$\n所以\n$$h(x)\\geqslant \\frac{27(n-1)}{4n^3}+\\left(\\frac{4}{3}+1\\right)\\cdot\\frac{4(n-1)}{n^2}\\geqslant \\frac{10(n-1)}{n^2}$$\n对于 $n=3$，不等式显然成立（注意 $x_0\\geqslant 1$），因为\n$$h(x)\\geqslant \\frac{54}{4\\times 27}+\\frac{8\\times 2}{3^2}=\\frac{1}{2}+\\frac{16}{9}\\geqslant \\frac{20}{9}$$\n这样，对每一个情况，我们证明了不等式。",
+  "answer_md": "",
+  "hints_md": "注 根据这个结果，我们很容易得出下列不等式。\n设 $x_1,x_2,\\cdots,x_n(2\\leqslant n\\leqslant 9)$ 是正实数，且其和为 $n$，则\n$$\\frac{1}{x_1^2}+\\frac{1}{x_2^2}+\\cdots+\\frac{1}{x_n^2}\\geqslant x_1^2+x_2^2+\\cdots+x_n^2$$\n实际上，如果 $n\\leqslant 8$，则 $\\frac{10(n-1)}{n^2}\\geqslant 1$，不等式显然成立。如果 $n=9$，则根据前面的证明，容易发现，不等式\n$$\\frac{1}{x_1^2}+\\frac{1}{x_2^2}+\\cdots+\\frac{1}{x_n^2}-n\\geqslant p(x_1^2+x_2^2+\\cdots+x_n^2-n)$$\n是成立的。因为\n$$p=\\frac{10(n-1)}{n^2}+\\frac{27(n-1)}{4n^3}=\\frac{10\\times 8}{9^2}+\\frac{27\\times 8}{4\\times 9^3}=\\frac{80}{81}+\\frac{1}{36}>1$$\n这就证明了该不等式。",
+  "original_text_md": "例 4.3.4(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$n^2\\left(\\frac{1}{a_1^2}+\\frac{1}{a_2^2}+\\cdots+\\frac{1}{a_n^2}-n\\right)\\geqslant 10(n-1)(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n证明 定义序列 $\\{d_n\\}_{n\\geqslant 2}$ 如下\n$$d_2=3, d_n=\\frac{10(n-1)}{n^2}\\quad \\forall n\\geqslant 3$$\n不难证明 $\\{d_n\\}_{n\\geqslant 2}$ 是递减的...",
+  "tags": [
+    "GI定理",
+    "齐次函数",
+    "导数",
+    "归纳法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0017",
+  "raw_response_file": "raw/chunk-0017.response.txt",
+  "raw_api_file": "raw/chunk-0017.api.json",
+  "fingerprint": "b392dc7bc91d38c6d0a88fc44c81843a40da96b3",
+  "raw_problem": {
+    "problem_id": "例4.3.4",
+    "problem_type": "example",
+    "chapter": "4",
+    "section": "4.3",
+    "title": null,
+    "source_pages": [
+      127,
+      128,
+      129
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$n^2\\left(\\frac{1}{a_1^2}+\\frac{1}{a_2^2}+\\cdots+\\frac{1}{a_n^2}-n\\right)\\geqslant 10(n-1)(a_1^2+a_2^2+\\cdots+a_n^2-n)$$",
+    "solution_md": "定义序列 $\\{d_n\\}_{n\\geqslant 2}$ 如下\n$$d_2=3, d_n=\\frac{10(n-1)}{n^2}\\quad \\forall n\\geqslant 3$$\n不难证明 $\\{d_n\\}_{n\\geqslant 2}$ 是递减的。对于 $k=d_n$，我们来证明\n$$n^2\\left(-n+\\sum_{i=1}^n\\frac{1}{a_i^2}\\right)\\geqslant 10(n-1)\\left(-n+\\sum_{i=1}^n a_i^2\\right)$$\n$$\\Leftrightarrow \\sum_{i=1}^n g(a_i)\\geqslant nf(1)$$\n其中 $g(x)=\\frac{1}{x^2}-kx^2$。由 $g(x)$ 我们来构造齐次函数 $f(c,x)$。取\n$$c=\\frac{1}{\\sqrt[4]{k}}, f(c,x)=c^2g(x)=\\frac{c^2}{x^2}-kc^2x^2=\\frac{c^2}{x^2}-\\frac{x^2}{c^2}$$\n我们来证明下面更强的结果\n$$\\sum_{i=1}^n f(c,a_i)\\geqslant nf(c,1)\\quad \\forall c\\geqslant c_n=\\frac{1}{\\sqrt[4]{d_n}}\\quad (*)$$\n因为，序列 $\\{c_n\\}$ 是递增的，且函数 $f(c,x)$ 是齐次的，根据 GI 定理可知，只需证明在 $a_1=a_2=\\cdots=a_{n-1}=x, c=c_n$ 的条件下，不等式 $(*)$ 成立即可。此时，不等式变成\n$$n^2\\left\\{\\frac{n-1}{x^2}+\\frac{1}{[n-(n-1)x]^2}-n\\right\\}$$\n$$\\geqslant 10(n-1)\\{(n-1)x^2+[n-(n-1)x]^2-n\\}$$\n注意到\n$$\\text{LHS}=n^3(n-1)(1-x)^2\\left\\{\\frac{1}{x^2[n-(n-1)x]}+\\right.$$\n$$\\left.\\frac{1}{x[n-(n-1)x]^2}+\\frac{1}{x[n-(n-1)x]}\\right\\}$$\n所以，只需证明 $h(x)\\geqslant \\frac{10(n-1)}{n^2}$，其中\n$$h(x)=\\frac{1}{x^2[n-(n-1)x]}+\\frac{1}{x[n-(n-1)x]^2}+\\frac{1}{x[n-(n-1)x]}$$\n求 $h(x)$ 的一阶导数\n$$h'(x)=-\\frac{2[n-(n-1)x]-(n-1)x}{x^3[n-(n-1)x]^2}-\\frac{[n-(n-1)x]-2(n-1)x}{x^2[n-(n-1)x]^3}-$$\n$$\\frac{n-2(n-1)x}{x^2[n-(n-1)x]^2}$$\n因此可见，$h'(x)$ 和 $g(x)$ 有相同的符号\n$$g(x)=-\\frac{2n}{x}+2(n-1)+n-1+\\frac{2(n-1)x}{n-(n-1)x}-n+2(n-1)x$$\n$$=(2n-6)+2(n-1)x+\\frac{2n}{n-(n-1)x}-\\frac{2n}{x}$$\n由于 $g(x)$ 在 $\\left[0,\\frac{n}{n-1}\\right]$ 上是严格增函数，它有唯一的实根 $x_0\\in\\left[0,\\frac{n}{n-1}\\right]$，所以，有\n$$\\min_{0\\leqslant x\\leqslant\\frac{n}{n-1}}h(x)=h(x_0)\\geqslant \\frac{1}{x_0^2[n-(n-1)x_0]}+\\frac{1}{x_0[n-(n-1)x_0]}$$\n$$=\\left(\\frac{1}{x_0}+1\\right)\\cdot\\frac{1}{x_0[n-(n-1)x_0]}\\geqslant \\left(\\frac{1}{x_0}+1\\right)\\cdot\\frac{4(n-1)}{n^2}$$\n现证，如果 $n\\geqslant 8$，则 $x_0\\leqslant \\frac{2}{3}$。采用反证法，假设 $x_0>\\frac{2}{3}$，则\n$$0=\\frac{g(x_0)}{2}=n-3+(n-1)x_0+\\frac{n}{n-(n-1)x_0}-\\frac{n}{x_0}$$\n$$>n-3+\\frac{2(n-1)}{3}-\\frac{3n}{2}+\\frac{n}{n-\\frac{2}{3}(n-1)}$$\n$$=\\frac{n}{6}+\\frac{3n}{n+2}-\\frac{11}{3}\\geqslant 0\\quad (n\\geqslant 8)$$\n所以，当 $n\\geqslant 8$ 时，不等式成立。下面，只需对 $n\\in\\{3,4,5,6,7\\}$，证明不等式成立即可。\n如果 $n\\geqslant 4$，类似可证 $x_0\\leqslant \\frac{3}{4}$（正好检测 $g\\left(\\frac{3}{4}\\right)\\geqslant 0$）。另外，由 AM-GM 不等式，有\n$$x_0[n-(n-1)x_0]^2\\leqslant \\frac{4n^3}{27(n-1)}$$\n所以\n$$h(x)\\geqslant \\frac{27(n-1)}{4n^3}+\\left(\\frac{4}{3}+1\\right)\\cdot\\frac{4(n-1)}{n^2}\\geqslant \\frac{10(n-1)}{n^2}$$\n对于 $n=3$，不等式显然成立（注意 $x_0\\geqslant 1$），因为\n$$h(x)\\geqslant \\frac{54}{4\\times 27}+\\frac{8\\times 2}{3^2}=\\frac{1}{2}+\\frac{16}{9}\\geqslant \\frac{20}{9}$$\n这样，对每一个情况，我们证明了不等式。",
+    "answer_md": "",
+    "hints_md": "注 根据这个结果，我们很容易得出下列不等式。\n设 $x_1,x_2,\\cdots,x_n(2\\leqslant n\\leqslant 9)$ 是正实数，且其和为 $n$，则\n$$\\frac{1}{x_1^2}+\\frac{1}{x_2^2}+\\cdots+\\frac{1}{x_n^2}\\geqslant x_1^2+x_2^2+\\cdots+x_n^2$$\n实际上，如果 $n\\leqslant 8$，则 $\\frac{10(n-1)}{n^2}\\geqslant 1$，不等式显然成立。如果 $n=9$，则根据前面的证明，容易发现，不等式\n$$\\frac{1}{x_1^2}+\\frac{1}{x_2^2}+\\cdots+\\frac{1}{x_n^2}-n\\geqslant p(x_1^2+x_2^2+\\cdots+x_n^2-n)$$\n是成立的。因为\n$$p=\\frac{10(n-1)}{n^2}+\\frac{27(n-1)}{4n^3}=\\frac{10\\times 8}{9^2}+\\frac{27\\times 8}{4\\times 9^3}=\\frac{80}{81}+\\frac{1}{36}>1$$\n这就证明了该不等式。",
+    "original_text_md": "例 4.3.4(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数，且满足 $a_1+a_2+\\cdots+a_n=n$，证明\n$$n^2\\left(\\frac{1}{a_1^2}+\\frac{1}{a_2^2}+\\cdots+\\frac{1}{a_n^2}-n\\right)\\geqslant 10(n-1)(a_1^2+a_2^2+\\cdots+a_n^2-n)$$\n证明 定义序列 $\\{d_n\\}_{n\\geqslant 2}$ 如下\n$$d_2=3, d_n=\\frac{10(n-1)}{n^2}\\quad \\forall n\\geqslant 3$$\n不难证明 $\\{d_n\\}_{n\\geqslant 2}$ 是递减的...",
+    "tags": [
+      "GI定理",
+      "齐次函数",
+      "导数",
+      "归纳法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

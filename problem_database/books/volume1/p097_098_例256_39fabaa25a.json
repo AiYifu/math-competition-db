@@ -1,0 +1,58 @@
+{
+  "uid": "p097_098_例256_39fabaa25a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    97,
+    98
+  ],
+  "source_images": [
+    "page-097.jpg",
+    "page-098.jpg"
+  ],
+  "stem_md": "（Pham Kim Hung, Mathlinks）设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(a+2b+3c)+bc(b+2c+3d)+cd(c+2d+3a)+da(d+2a+3b)\\leqslant 6\\sqrt{3}$$",
+  "solution_md": "设 $k=6\\sqrt{3}$，我们来证明下列齐次不等式\n$$ab(a+2b+3c)+bc(b+2c+3d)+cd(c+2d+3a)+da(d+2a+3b)$$\n$$\\leqslant \\frac{k}{27}(a+b+c+d)^3$$\n\n不等式两边取全导数，有\n$$3\\sum a^2+12\\sum ab+6(ac+bd)\\leqslant \\frac{4k}{9}(a+b+c+d)^2$$\n$$\\Leftrightarrow \\left(\\frac{4k}{9}-3\\right)\\sum a^2+\\left(\\frac{8k}{9}-6\\right)(ac+bd)\\geqslant \\left(12-\\frac{8k}{9}\\right)\\sum ab$$\n$$\\Leftrightarrow \\left(\\frac{4k}{9}-3\\right)[(a+c)^2+(b+d)^2]\\geqslant \\left(12-\\frac{8k}{9}\\right)(a+c)(b+d)$$\n\n这个不等式是成立的，因为\n$$\\text{LHS}\\geqslant 2\\left(\\frac{4k}{9}-3\\right)(a+c)(b+d)\\geqslant \\left(12-\\frac{8k}{9}\\right)(a+c)(b+d)$$\n\n所以，只需在 $abcd=0$ 的条件下，证明不等式成立即可。不失一般性，设 $d=0$，则不等式变成\n$$ab(a+2b+3c)+bc(b+2c)\\leqslant 6\\sqrt{3}\\quad(a+b+c=3)$$\n\n注意到，$\\text{LHS}=b(a^2+2ab+3ac+bc+2c^2)$。\n\n(1) 第一种情况 $c+a\\leqslant b$，有\n$$\\text{LHS}\\leqslant b[(a+c)^2+2b(a+c)]=b(3-b)(3+b)=b(9-b^2)$$\n应用 AM-GM 不等式，我们有\n$$2b^2(9-b^2)^2=2b^2(9-b^2)(9-b^2)\\leqslant 6^3\\Rightarrow b(9-b^2)\\leqslant 6\\sqrt{3}$$\n\n(2) 第二种情况 $a+c\\geqslant b$，我们有\n$$\\text{LHS}\\leqslant b[2(a+c)^2+b(a+c)]$$\n设 $t=a+c$，并应用 AM-GM 不等式，我们有\n$$\\text{LHS}\\leqslant (3-t)t(3+t)=t(9-t^2)\\leqslant 6\\sqrt{3}$$\n\n综上所述，原不等式成立。等号成立的条件是 $a=0,b=\\sqrt{3},c=3-\\sqrt{3},d=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.6(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(a+2b+3c)+bc(b+2c+3d)+cd(c+2d+3a)+da(d+2a+3b)\\leqslant 6\\sqrt{3}$$\n证明 设 $k=6\\sqrt{3}$，我们来证明下列齐次不等式",
+  "tags": [
+    "全导数",
+    "四元不等式",
+    "Pham Kim Hung",
+    "AM-GM"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "39fabaa25af3d0b80fc27c1d6875fcbadac00219",
+  "raw_problem": {
+    "problem_id": "例2.5.6",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      97,
+      98
+    ],
+    "stem_md": "（Pham Kim Hung, Mathlinks）设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(a+2b+3c)+bc(b+2c+3d)+cd(c+2d+3a)+da(d+2a+3b)\\leqslant 6\\sqrt{3}$$",
+    "solution_md": "设 $k=6\\sqrt{3}$，我们来证明下列齐次不等式\n$$ab(a+2b+3c)+bc(b+2c+3d)+cd(c+2d+3a)+da(d+2a+3b)$$\n$$\\leqslant \\frac{k}{27}(a+b+c+d)^3$$\n\n不等式两边取全导数，有\n$$3\\sum a^2+12\\sum ab+6(ac+bd)\\leqslant \\frac{4k}{9}(a+b+c+d)^2$$\n$$\\Leftrightarrow \\left(\\frac{4k}{9}-3\\right)\\sum a^2+\\left(\\frac{8k}{9}-6\\right)(ac+bd)\\geqslant \\left(12-\\frac{8k}{9}\\right)\\sum ab$$\n$$\\Leftrightarrow \\left(\\frac{4k}{9}-3\\right)[(a+c)^2+(b+d)^2]\\geqslant \\left(12-\\frac{8k}{9}\\right)(a+c)(b+d)$$\n\n这个不等式是成立的，因为\n$$\\text{LHS}\\geqslant 2\\left(\\frac{4k}{9}-3\\right)(a+c)(b+d)\\geqslant \\left(12-\\frac{8k}{9}\\right)(a+c)(b+d)$$\n\n所以，只需在 $abcd=0$ 的条件下，证明不等式成立即可。不失一般性，设 $d=0$，则不等式变成\n$$ab(a+2b+3c)+bc(b+2c)\\leqslant 6\\sqrt{3}\\quad(a+b+c=3)$$\n\n注意到，$\\text{LHS}=b(a^2+2ab+3ac+bc+2c^2)$。\n\n(1) 第一种情况 $c+a\\leqslant b$，有\n$$\\text{LHS}\\leqslant b[(a+c)^2+2b(a+c)]=b(3-b)(3+b)=b(9-b^2)$$\n应用 AM-GM 不等式，我们有\n$$2b^2(9-b^2)^2=2b^2(9-b^2)(9-b^2)\\leqslant 6^3\\Rightarrow b(9-b^2)\\leqslant 6\\sqrt{3}$$\n\n(2) 第二种情况 $a+c\\geqslant b$，我们有\n$$\\text{LHS}\\leqslant b[2(a+c)^2+b(a+c)]$$\n设 $t=a+c$，并应用 AM-GM 不等式，我们有\n$$\\text{LHS}\\leqslant (3-t)t(3+t)=t(9-t^2)\\leqslant 6\\sqrt{3}$$\n\n综上所述，原不等式成立。等号成立的条件是 $a=0,b=\\sqrt{3},c=3-\\sqrt{3},d=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.6(Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=3$，证明\n$$ab(a+2b+3c)+bc(b+2c+3d)+cd(c+2d+3a)+da(d+2a+3b)\\leqslant 6\\sqrt{3}$$\n证明 设 $k=6\\sqrt{3}$，我们来证明下列齐次不等式",
+    "tags": [
+      "全导数",
+      "四元不等式",
+      "Pham Kim Hung",
+      "AM-GM"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

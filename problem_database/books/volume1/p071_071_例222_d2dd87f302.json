@@ -1,0 +1,49 @@
+{
+  "uid": "p071_071_例222_d2dd87f302",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.2",
+  "problem_id": "例2.2.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    71
+  ],
+  "source_images": [
+    "page-071.jpg"
+  ],
+  "stem_md": "设非负实数 $a,b,c$ 的和为 $2$，证明\n$$(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)\\leqslant 3$$",
+  "solution_md": "设 $a\\geqslant b\\geqslant c$，记\n$$f(a,b,c)=(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n令 $t=\\frac{a+b}{2}$，$u=\\frac{a-b}{2}$，则 $a=t+u$，$b=t-u(t\\leqslant 1)$，另外\n$$a^2+ab+b^2=(t+u)^2+(t+u)(t-u)+(t-u)^2=3t^2+u^2$$\n$$(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=[(t-u)^2+(t-u)c+c^2]\\cdot[c^2+c(t+u)+(t+u)^2]$$\n$$=(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)$$\n我们来证明 $A=f(t,t,c)-f(a,b,c)\\geqslant 0$。实际上，注意到\n$$A=3t^2(t^2+ct+c^2)^2-(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=3t^2(t^2+ct+c^2)^2-(3t^2+u^2)[(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)]$$\n$$\\geqslant u^2[(3t^2+u^2)(2tc-c^2+2t^2-u^2)-(t^2+tc+c^2)^2]$$\n$$=u^2[5t^4+4t^3c-6c^2t^2-2c^3t-c^4-u^2(t-c)^2-u^4]$$\n因为，$t\\geqslant\\max\\{c,u\\}$，所以\n$$5t^4+4t^3c-6c^2t^2-2c^3t-c^4$$\n$$=5t^2(t^2-c^2)+c(t-c)(4t^2+3ct+c^2)$$\n$$\\geqslant 5t^2(t^2-c^2)=5t^2(t-c)(t+c)$$\n$$\\geqslant 5t^3(t-c)\\geqslant 2(t-c)^4$$\n$$\\geqslant u^2(t-c)^2+u^4$$\n这样，我们就证明了 $A\\geqslant 0$。\n\n最后，我们来证明，如果 $2t+c=2$，则 $3t^2(t^2+tc+c^2)\\leqslant 3$。\n将 $c=2-2t$ 代入上述不等式，则只需证明\n$$3t^2[t^2+t(2-2t)+(2-2t)^2]\\leqslant 3\\Leftrightarrow 3(1-t)(3t^3-3t^2+t+1)\\geqslant 0$$\n这是显然成立的，因为 $t\\leqslant 1$。等号成立的条件是 $a=b=1$，$c=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "Murray Klamkin, Crux",
+  "original_text_md": "例 2.2.2(Murray klamkin,Crux) 设非负实数 $a,b,c$ 的和为 2,证明\n$$(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)\\leqslant 3$$\n证明 设 $a\\geqslant b\\geqslant c$,记\n$$f(a,b,c)=(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n令 $t=\\frac{a+b}{2}$,$u=\\frac{a-b}{2}$,则 $a=t+u$,$b=t-u(t\\leqslant 1)$,另外\n$$a^2+ab+b^2=(t+u)^2+(t+u)(t-u)+(t-u)^2=3t^2+u^2$$\n$$(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=[(t-u)^2+(t-u)c+c^2]\\cdot[c^2+c(t+u)+(t+u)^2]$$\n$$=(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)$$\n我们来证明 $A=f(t,t,c)-f(a,b,c)\\geqslant 0$.实际上,注意到\n$$A=3t^2(t^2+ct+c^2)^2-(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=3t^2(t^2+ct+c^2)^2-(3t^2+u^2)[(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)]$$\n$$\\geqslant u^2[(3t^2+u^2)(2tc-c^2+2t^2-u^2)-(t^2+tc+c^2)^2]$$\n$$=u^2[5t^4+4t^3c-6c^2t^2-2c^3t-c^4-u^2(t-c)^2-u^4]$$\n因为,$t\\geqslant\\max\\{c,u\\}$,所以\n$$5t^4+4t^3c-6c^2t^2-2c^3t-c^4$$\n$$=5t^2(t^2-c^2)+c(t-c)(4t^2+3ct+c^2)$$\n$$\\geqslant 5t^2(t^2-c^2)=5t^2(t-c)(t+c)$$\n$$\\geqslant 5t^3(t-c)\\geqslant 2(t-c)^4$$\n$$\\geqslant u^2(t-c)^2+u^4$$\n这样,我们就证明了 $A\\geqslant 0$.\n最后,我们来证明,如果 $2t+c=2$,则 $3t^2(t^2+tc+c^2)\\leqslant 3$.\n将 $c=2-2t$ 代入上述不等式,则只需证明\n$$3t^2[t^2+t(2-2t)+(2-2t)^2]\\leqslant 3\\Leftrightarrow 3(1-t)(3t^3-3t^2+t+1)\\geqslant 0$$\n这是显然成立的,因为 $t\\leqslant 1$.等号成立的条件是 $a=b=1$,$c=0$ 或其轮换.",
+  "tags": [
+    "整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "d2dd87f302afec1fef3af6e635dbcf57c02cac6f",
+  "raw_problem": {
+    "problem_id": "例2.2.2",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.2",
+    "title": null,
+    "source_pages": [
+      71
+    ],
+    "stem_md": "设非负实数 $a,b,c$ 的和为 $2$，证明\n$$(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)\\leqslant 3$$",
+    "solution_md": "设 $a\\geqslant b\\geqslant c$，记\n$$f(a,b,c)=(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n令 $t=\\frac{a+b}{2}$，$u=\\frac{a-b}{2}$，则 $a=t+u$，$b=t-u(t\\leqslant 1)$，另外\n$$a^2+ab+b^2=(t+u)^2+(t+u)(t-u)+(t-u)^2=3t^2+u^2$$\n$$(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=[(t-u)^2+(t-u)c+c^2]\\cdot[c^2+c(t+u)+(t+u)^2]$$\n$$=(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)$$\n我们来证明 $A=f(t,t,c)-f(a,b,c)\\geqslant 0$。实际上，注意到\n$$A=3t^2(t^2+ct+c^2)^2-(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=3t^2(t^2+ct+c^2)^2-(3t^2+u^2)[(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)]$$\n$$\\geqslant u^2[(3t^2+u^2)(2tc-c^2+2t^2-u^2)-(t^2+tc+c^2)^2]$$\n$$=u^2[5t^4+4t^3c-6c^2t^2-2c^3t-c^4-u^2(t-c)^2-u^4]$$\n因为，$t\\geqslant\\max\\{c,u\\}$，所以\n$$5t^4+4t^3c-6c^2t^2-2c^3t-c^4$$\n$$=5t^2(t^2-c^2)+c(t-c)(4t^2+3ct+c^2)$$\n$$\\geqslant 5t^2(t^2-c^2)=5t^2(t-c)(t+c)$$\n$$\\geqslant 5t^3(t-c)\\geqslant 2(t-c)^4$$\n$$\\geqslant u^2(t-c)^2+u^4$$\n这样，我们就证明了 $A\\geqslant 0$。\n\n最后，我们来证明，如果 $2t+c=2$，则 $3t^2(t^2+tc+c^2)\\leqslant 3$。\n将 $c=2-2t$ 代入上述不等式，则只需证明\n$$3t^2[t^2+t(2-2t)+(2-2t)^2]\\leqslant 3\\Leftrightarrow 3(1-t)(3t^3-3t^2+t+1)\\geqslant 0$$\n这是显然成立的，因为 $t\\leqslant 1$。等号成立的条件是 $a=b=1$，$c=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "Murray Klamkin, Crux",
+    "original_text_md": "例 2.2.2(Murray klamkin,Crux) 设非负实数 $a,b,c$ 的和为 2,证明\n$$(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)\\leqslant 3$$\n证明 设 $a\\geqslant b\\geqslant c$,记\n$$f(a,b,c)=(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n令 $t=\\frac{a+b}{2}$,$u=\\frac{a-b}{2}$,则 $a=t+u$,$b=t-u(t\\leqslant 1)$,另外\n$$a^2+ab+b^2=(t+u)^2+(t+u)(t-u)+(t-u)^2=3t^2+u^2$$\n$$(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=[(t-u)^2+(t-u)c+c^2]\\cdot[c^2+c(t+u)+(t+u)^2]$$\n$$=(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)$$\n我们来证明 $A=f(t,t,c)-f(a,b,c)\\geqslant 0$.实际上,注意到\n$$A=3t^2(t^2+ct+c^2)^2-(a^2+ab+b^2)(b^2+bc+c^2)(c^2+ca+a^2)$$\n$$=3t^2(t^2+ct+c^2)^2-(3t^2+u^2)[(t^2+tc+c^2)^2-u^2(2tc-c^2+2t^2-u^2)]$$\n$$\\geqslant u^2[(3t^2+u^2)(2tc-c^2+2t^2-u^2)-(t^2+tc+c^2)^2]$$\n$$=u^2[5t^4+4t^3c-6c^2t^2-2c^3t-c^4-u^2(t-c)^2-u^4]$$\n因为,$t\\geqslant\\max\\{c,u\\}$,所以\n$$5t^4+4t^3c-6c^2t^2-2c^3t-c^4$$\n$$=5t^2(t^2-c^2)+c(t-c)(4t^2+3ct+c^2)$$\n$$\\geqslant 5t^2(t^2-c^2)=5t^2(t-c)(t+c)$$\n$$\\geqslant 5t^3(t-c)\\geqslant 2(t-c)^4$$\n$$\\geqslant u^2(t-c)^2+u^4$$\n这样,我们就证明了 $A\\geqslant 0$.\n最后,我们来证明,如果 $2t+c=2$,则 $3t^2(t^2+tc+c^2)\\leqslant 3$.\n将 $c=2-2t$ 代入上述不等式,则只需证明\n$$3t^2[t^2+t(2-2t)+(2-2t)^2]\\leqslant 3\\Leftrightarrow 3(1-t)(3t^3-3t^2+t+1)\\geqslant 0$$\n这是显然成立的,因为 $t\\leqslant 1$.等号成立的条件是 $a=b=1$,$c=0$ 或其轮换.",
+    "tags": [
+      "整合变量法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_15_695b5417cb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "15. 设 $a, b, c$ 是某三角形的三边长, 证明\n$$\n\\frac{3(a^4+b^4+c^4)}{(a^2+b^2+c^2)^2}+\\frac{ab+bc+ca}{a^2+b^2+c^2} \\geqslant 2\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "15. 设 $a, b, c$ 是某三角形的三边长, 证明\n$$\n\\frac{3(a^4+b^4+c^4)}{(a^2+b^2+c^2)^2}+\\frac{ab+bc+ca}{a^2+b^2+c^2} \\geqslant 2\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

@@ -1,0 +1,58 @@
+{
+  "uid": "p160_161_例513_e757755cb9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "例5.1.3",
+  "problem_type": "example",
+  "title": "例5.1.3",
+  "source_pages": [
+    160,
+    161
+  ],
+  "source_images": [
+    "page-160.jpg",
+    "page-161.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathematics Reflection 2006) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{\\sqrt{a+2b}} + \\frac{b}{\\sqrt{b+2c}} + \\frac{c}{\\sqrt{c+2a}} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{a+b+c}$$",
+  "solution_md": "不等式等价于\n$$\\sum a\\sqrt{(b+2c)(c+2a)} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{(a+2b)(b+2c)(c+2a)(a+b+c)}$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$[\\sum a\\sqrt{(b+2c)(c+2a)}]^2 = [\\sum a\\sqrt{b+2c} \\cdot \\sqrt{c+2a}]^2$$\n$$\\leqslant \\sum a^2(b+2c) \\cdot \\sum (c+2a) = 3\\sum a \\cdot \\sum a^2(b+2c)$$\n\n因此，只需证明\n$$3\\sum a \\cdot \\sum a^2(b+2c) \\leqslant \\frac{3}{2}(a+2b)(b+2c)(c+2a)(a+b+c)$$\n$$\\Leftrightarrow 2\\sum a^2(b+2c) \\leqslant (a+2b)(b+2c)(c+2a)$$\n$$\\Leftrightarrow 2\\sum a^2b + 4\\sum a^2c \\leqslant 9abc + 2\\sum a^2b + 4\\sum a^2c$$\n\n这显然成立，证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.3(Pham Kim Hung, Mathematics Reflection 2006) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{\\sqrt{a+2b}} + \\frac{b}{\\sqrt{b+2c}} + \\frac{c}{\\sqrt{c+2a}} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{a+b+c}$$\n\n证明 不等式等价于\n$$\\sum a\\sqrt{(b+2c)(c+2a)} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{(a+2b)(b+2c)(c+2a)(a+b+c)}$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$[\\sum a\\sqrt{(b+2c)(c+2a)}]^2 = [\\sum a\\sqrt{b+2c} \\cdot \\sqrt{c+2a}]^2$$\n$$\\leqslant \\sum a^2(b+2c) \\cdot \\sum (c+2a) = 3\\sum a \\cdot \\sum a^2(b+2c)$$\n\n因此，只需证明\n$$3\\sum a \\cdot \\sum a^2(b+2c) \\leqslant \\frac{3}{2}(a+2b)(b+2c)(c+2a)(a+b+c)$$\n$$\\Leftrightarrow 2\\sum a^2(b+2c) \\leqslant (a+2b)(b+2c)(c+2a)$$\n$$\\Leftrightarrow 2\\sum a^2b + 4\\sum a^2c \\leqslant 9abc + 2\\sum a^2b + 4\\sum a^2c$$\n\n这显然成立，证毕。",
+  "tags": [
+    "例题",
+    "Cauchy-Schwarz不等式",
+    "非负实数",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "e757755cb91b863dc5b46e5e7ba63b42f50f1a9e",
+  "raw_problem": {
+    "problem_id": "例5.1.3",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "例5.1.3",
+    "source_pages": [
+      160,
+      161
+    ],
+    "stem_md": "(Pham Kim Hung, Mathematics Reflection 2006) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{\\sqrt{a+2b}} + \\frac{b}{\\sqrt{b+2c}} + \\frac{c}{\\sqrt{c+2a}} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{a+b+c}$$",
+    "solution_md": "不等式等价于\n$$\\sum a\\sqrt{(b+2c)(c+2a)} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{(a+2b)(b+2c)(c+2a)(a+b+c)}$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$[\\sum a\\sqrt{(b+2c)(c+2a)}]^2 = [\\sum a\\sqrt{b+2c} \\cdot \\sqrt{c+2a}]^2$$\n$$\\leqslant \\sum a^2(b+2c) \\cdot \\sum (c+2a) = 3\\sum a \\cdot \\sum a^2(b+2c)$$\n\n因此，只需证明\n$$3\\sum a \\cdot \\sum a^2(b+2c) \\leqslant \\frac{3}{2}(a+2b)(b+2c)(c+2a)(a+b+c)$$\n$$\\Leftrightarrow 2\\sum a^2(b+2c) \\leqslant (a+2b)(b+2c)(c+2a)$$\n$$\\Leftrightarrow 2\\sum a^2b + 4\\sum a^2c \\leqslant 9abc + 2\\sum a^2b + 4\\sum a^2c$$\n\n这显然成立，证毕。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.3(Pham Kim Hung, Mathematics Reflection 2006) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{\\sqrt{a+2b}} + \\frac{b}{\\sqrt{b+2c}} + \\frac{c}{\\sqrt{c+2a}} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{a+b+c}$$\n\n证明 不等式等价于\n$$\\sum a\\sqrt{(b+2c)(c+2a)} \\leqslant \\sqrt{\\frac{3}{2}} \\cdot \\sqrt{(a+2b)(b+2c)(c+2a)(a+b+c)}$$\n\n由 Cauchy-Schwarz 不等式，我们得到\n$$[\\sum a\\sqrt{(b+2c)(c+2a)}]^2 = [\\sum a\\sqrt{b+2c} \\cdot \\sqrt{c+2a}]^2$$\n$$\\leqslant \\sum a^2(b+2c) \\cdot \\sum (c+2a) = 3\\sum a \\cdot \\sum a^2(b+2c)$$\n\n因此，只需证明\n$$3\\sum a \\cdot \\sum a^2(b+2c) \\leqslant \\frac{3}{2}(a+2b)(b+2c)(c+2a)(a+b+c)$$\n$$\\Leftrightarrow 2\\sum a^2(b+2c) \\leqslant (a+2b)(b+2c)(c+2a)$$\n$$\\Leftrightarrow 2\\sum a^2b + 4\\sum a^2c \\leqslant 9abc + 2\\sum a^2b + 4\\sum a^2c$$\n\n这显然成立，证毕。",
+    "tags": [
+      "例题",
+      "Cauchy-Schwarz不等式",
+      "非负实数",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

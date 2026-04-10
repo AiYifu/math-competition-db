@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_8_b33618e6d2",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "8",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "设整数 $n \\geqslant 2$, 已知 $n$ 个正数 $v_{1}, v_{2}, \\cdots, v_{n}$ 满足下列两个条件: (1) $v_{1} + v_{2} + \\cdots + v_{n} = 1$; (2) $v_{1} \\leqslant v_{2} \\leqslant \\cdots \\leqslant v_{n} \\leqslant 2v_{1}$. 求 $v_{1}^{2} + v_{2}^{2} + \\cdots + v_{n}^{2}$ 的最大值.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "8 设整数 $n \\geqslant 2$, 已知 $n$ 个正数 $v_{1}, v_{2}, \\cdots, v_{n}$ 满足下列两个条件: (1) $v_{1} + v_{2} + \\cdots + v_{n} = 1$; (2) $v_{1} \\leqslant v_{2} \\leqslant \\cdots \\leqslant v_{n} \\leqslant 2v_{1}$. 求 $v_{1}^{2} + v_{2}^{2} + \\cdots + v_{n}^{2}$ 的最大值.",
+  "tags": [
+    "最值问题"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

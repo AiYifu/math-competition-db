@@ -1,0 +1,55 @@
+{
+  "uid": "p226_226_15_d1df64dd95",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "source_images": [
+    "page-226.jpg"
+  ],
+  "stem_md": "(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{3abc}{2(ab^2+bc^2+ca^2)}\\geqslant 2$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "15.(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{3abc}{2(ab^2+bc^2+ca^2)}\\geqslant 2$$",
+  "tags": [
+    "inequality",
+    "cyclic",
+    "Nesbitt-type",
+    "Bach Ngoc Thanh Cong"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026",
+  "raw_response_file": "raw/chunk-0026.response.txt",
+  "raw_api_file": "raw/chunk-0026.api.json",
+  "fingerprint": "d1df64dd9593a18ec516426683d81ea1c0e23c6a",
+  "raw_problem": {
+    "problem_id": "15",
+    "problem_type": "exercise",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      226
+    ],
+    "stem_md": "(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{3abc}{2(ab^2+bc^2+ca^2)}\\geqslant 2$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "15.(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{3abc}{2(ab^2+bc^2+ca^2)}\\geqslant 2$$",
+    "tags": [
+      "inequality",
+      "cyclic",
+      "Nesbitt-type",
+      "Bach Ngoc Thanh Cong"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

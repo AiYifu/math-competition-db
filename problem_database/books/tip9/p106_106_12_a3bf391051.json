@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_12_a3bf391051",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "设 $n$ 个集合 $S_{1}, S_{2}, \\cdots, S_{n}$ 的元素由非负整数构成, $x_{i}$ 为 $S_{i}$ 的所有元素之和. 求证: 若对某个自然数 $k$, $1 < k < n$, 有 $$\\sum_{i=1}^{n} x_{i} \\leqslant \\frac{1}{k + 1} \\cdot \\left[k \\frac{n(n + 1)(2n + 1)}{6} - (k + 1)^{2} \\frac{n(n + 1)}{2}\\right],$$ 则存在下标 $i, j, t, l$ (至少有三个互不相同), 使得 $x_{i} + x_{j} = x_{t} + x_{l}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "12 设 $n$ 个集合 $S_{1}, S_{2}, \\cdots, S_{n}$ 的元素由非负整数构成, $x_{i}$ 为 $S_{i}$ 的所有元素之和. 求证: 若对某个自然数 $k$, $1 < k < n$, 有 $$\\sum_{i=1}^{n} x_{i} \\leqslant \\frac{1}{k + 1} \\cdot \\left[k \\frac{n(n + 1)(2n + 1)}{6} - (k + 1)^{2} \\frac{n(n + 1)}{2}\\right],$$ 则存在下标 $i, j, t, l$ (至少有三个互不相同), 使得 $x_{i} + x_{j} = x_{t} + x_{l}$.",
+  "tags": [
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

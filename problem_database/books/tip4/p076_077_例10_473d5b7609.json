@@ -1,0 +1,25 @@
+{
+  "uid": "p076_077_例10_473d5b7609",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2 平均值不等式的应用",
+  "section": null,
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    76,
+    77
+  ],
+  "stem_md": "设三角形三边长分别为 $a, b, c$, 面积为 $S$, 则\n$a^n + b^n + c^n \\geqslant 2^n \\cdot 3^{\\frac{4-n}{4}} S^{\\frac{n}{2}}$, $n \\in \\mathbf{N}$.",
+  "solution_md": "证明 当 $n = 1$ 时, $a + b + c \\geqslant 2\\sqrt{3\\sqrt{3}S}$ 是常见的几何不等式, 即 $n = 1$ 时成立.\n假设当 $n = k$ 时命题成立, 即有不等式\n$a^k + b^k + c^k \\geqslant 2^k \\cdot 3^{\\frac{4-k}{4}} S^{\\frac{k}{2}}$,\n则当 $n = k + 1$ 时, 由幂平均不等式, 得\n$\\left(\\frac{a_1^\\alpha + a_2^\\alpha + \\cdots + a_n^\\alpha}{n}\\right)^{\\frac{1}{\\alpha}} \\geqslant \\left(\\frac{a_1^\\beta + a_2^\\beta + \\cdots + a_n^\\beta}{n}\\right)^{\\frac{1}{\\beta}}$,\n其中 $a_i \\in \\mathbf{R}_+$, $i = 1, 2, \\cdots, n$, $\\alpha \\geqslant \\beta$.\n得\n$\\left(\\sum_{j=1}^n \\frac{G_j^i}{G_{j-1}^i}\\right)^{-\\frac{1}{n}} = \\left(\\sum_{j=1}^n G_j \\frac{G_j^{i-1}}{G_{j-1}^{i-1}}\\right)^{-\\frac{1}{n}}$\n$\\leqslant \\sum_{j=1}^n \\left(\\frac{j-1}{n} G_{j-1} + \\left(1 - \\frac{j-1}{n}\\right) G_j\\right)$\n$= \\frac{n+1}{n} - G_n$,\n易知函数 $f(x) = x^{-\\frac{1}{n}}$ 在 $(0, +\\infty)$ 上是凸函数, 我们有\n$\\left(\\sum_{j=1}^n \\frac{G_j^i}{G_{j-1}^i}\\right)^{-\\frac{1}{n}} + G_n \\leqslant \\frac{n+1}{n}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例10 设三角形三边长分别为 $a, b, c$, 面积为 $S$, 则\n$a^n + b^n + c^n \\geqslant 2^n \\cdot 3^{\\frac{4-n}{4}} S^{\\frac{n}{2}}$, $n \\in \\mathbf{N}$.\n证明 当 $n = 1$ 时, $a + b + c \\geqslant 2\\sqrt{3\\sqrt{3}S}$ 是常见的几何不等式, 即 $n = 1$ 时成立.\n假设当 $n = k$ 时命题成立, 即有不等式\n$a^k + b^k + c^k \\geqslant 2^k \\cdot 3^{\\frac{4-k}{4}} S^{\\frac{k}{2}}$,\n则当 $n = k + 1$ 时, 由幂平均不等式, 得\n$\\left(\\frac{a_1^\\alpha + a_2^\\alpha + \\cdots + a_n^\\alpha}{n}\\right)^{\\frac{1}{\\alpha}} \\geqslant \\left(\\frac{a_1^\\beta + a_2^\\beta + \\cdots + a_n^\\beta}{n}\\right)^{\\frac{1}{\\beta}}$,\n其中 $a_i \\in \\mathbf{R}_+$, $i = 1, 2, \\cdots, n$, $\\alpha \\geqslant \\beta$.\n得\n$\\left(\\sum_{j=1}^n \\frac{G_j^i}{G_{j-1}^i}\\right)^{-\\frac{1}{n}} = \\left(\\sum_{j=1}^n G_j \\frac{G_j^{i-1}}{G_{j-1}^{i-1}}\\right)^{-\\frac{1}{n}}$\n$\\leqslant \\sum_{j=1}^n \\left(\\frac{j-1}{n} G_{j-1} + \\left(1 - \\frac{j-1}{n}\\right) G_j\\right)$\n$= \\frac{n+1}{n} - G_n$,\n易知函数 $f(x) = x^{-\\frac{1}{n}}$ 在 $(0, +\\infty)$ 上是凸函数, 我们有\n$\\left(\\sum_{j=1}^n \\frac{G_j^i}{G_{j-1}^i}\\right)^{-\\frac{1}{n}} + G_n \\leqslant \\frac{n+1}{n}$.",
+  "tags": [
+    "幂平均不等式",
+    "几何不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

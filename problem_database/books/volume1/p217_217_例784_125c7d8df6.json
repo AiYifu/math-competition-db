@@ -1,0 +1,53 @@
+{
+  "uid": "p217_217_例784_125c7d8df6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    217
+  ],
+  "source_images": [
+    "page-217.jpg"
+  ],
+  "stem_md": "证明对所有非负实数 $a,b,c$，有\n$$\\frac{6(a^2+b^2+c^2)}{(a+b+c)^2}+\\frac{8abc}{(a+b)(b+c)(c+a)}\\geqslant 3$$",
+  "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式的 SOS-Schur 形式如下\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n其中\n$$M_1=\\frac{4}{(a+b+c)^2}-\\frac{2c}{(a+b)(b+c)(c+a)}$$\n$$N_1=\\frac{4}{(a+b+c)^2}-\\frac{1}{(a+c)(b+c)}$$\n显然\n$$M_1(a-b)^2+N_1(c-a)(c-b)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=M_1-\\frac{(c-a)(c-b)}{(a+c)(b+c)(a+b+c)^2}$$\n$$N=N_1+\\frac{(a-b)^2}{(a+c)(b+c)(a+b+c)^2}=\\frac{c(2a+2b+3c)}{(a+c)(b+c)(a+b+c)^2}$$\n显然，$N\\geqslant 0$。不等式 $M\\geqslant 0$ 等价于\n$$3c(a+b)^2+3ab(a+b)-c^2(a+b)-2c^3\\geqslant 0$$\n这是成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.4(Nguyen Vu Tuan,CPR) 证明对所有非负实数 $a,b,c$，有\n$$\\frac{6(a^2+b^2+c^2)}{(a+b+c)^2}+\\frac{8abc}{(a+b)(b+c)(c+a)}\\geqslant 3$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式的 SOS-Schur 形式如下\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n其中\n$$M_1=\\frac{4}{(a+b+c)^2}-\\frac{2c}{(a+b)(b+c)(c+a)}$$\n$$N_1=\\frac{4}{(a+b+c)^2}-\\frac{1}{(a+c)(b+c)}$$\n显然\n$$M_1(a-b)^2+N_1(c-a)(c-b)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=M_1-\\frac{(c-a)(c-b)}{(a+c)(b+c)(a+b+c)^2}$$\n$$N=N_1+\\frac{(a-b)^2}{(a+c)(b+c)(a+b+c)^2}=\\frac{c(2a+2b+3c)}{(a+c)(b+c)(a+b+c)^2}$$\n显然，$N\\geqslant 0$。不等式 $M\\geqslant 0$ 等价于\n$$3c(a+b)^2+3ab(a+b)-c^2(a+b)-2c^3\\geqslant 0$$\n这是成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "125c7d8df621fbad4eb755963c0f0100da5e0025",
+  "raw_problem": {
+    "problem_id": "例7.8.4",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      217
+    ],
+    "stem_md": "证明对所有非负实数 $a,b,c$，有\n$$\\frac{6(a^2+b^2+c^2)}{(a+b+c)^2}+\\frac{8abc}{(a+b)(b+c)(c+a)}\\geqslant 3$$",
+    "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式的 SOS-Schur 形式如下\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n其中\n$$M_1=\\frac{4}{(a+b+c)^2}-\\frac{2c}{(a+b)(b+c)(c+a)}$$\n$$N_1=\\frac{4}{(a+b+c)^2}-\\frac{1}{(a+c)(b+c)}$$\n显然\n$$M_1(a-b)^2+N_1(c-a)(c-b)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=M_1-\\frac{(c-a)(c-b)}{(a+c)(b+c)(a+b+c)^2}$$\n$$N=N_1+\\frac{(a-b)^2}{(a+c)(b+c)(a+b+c)^2}=\\frac{c(2a+2b+3c)}{(a+c)(b+c)(a+b+c)^2}$$\n显然，$N\\geqslant 0$。不等式 $M\\geqslant 0$ 等价于\n$$3c(a+b)^2+3ab(a+b)-c^2(a+b)-2c^3\\geqslant 0$$\n这是成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.4(Nguyen Vu Tuan,CPR) 证明对所有非负实数 $a,b,c$，有\n$$\\frac{6(a^2+b^2+c^2)}{(a+b+c)^2}+\\frac{8abc}{(a+b)(b+c)(c+a)}\\geqslant 3$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，不等式的 SOS-Schur 形式如下\n$$M_1(a-b)^2+N_1(c-a)(c-b)\\geqslant 0$$\n其中\n$$M_1=\\frac{4}{(a+b+c)^2}-\\frac{2c}{(a+b)(b+c)(c+a)}$$\n$$N_1=\\frac{4}{(a+b+c)^2}-\\frac{1}{(a+c)(b+c)}$$\n显然\n$$M_1(a-b)^2+N_1(c-a)(c-b)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=M_1-\\frac{(c-a)(c-b)}{(a+c)(b+c)(a+b+c)^2}$$\n$$N=N_1+\\frac{(a-b)^2}{(a+c)(b+c)(a+b+c)^2}=\\frac{c(2a+2b+3c)}{(a+c)(b+c)(a+b+c)^2}$$\n显然，$N\\geqslant 0$。不等式 $M\\geqslant 0$ 等价于\n$$3c(a+b)^2+3ab(a+b)-c^2(a+b)-2c^3\\geqslant 0$$\n这是成立的，因为 $c=\\min\\{a,b,c\\}$。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

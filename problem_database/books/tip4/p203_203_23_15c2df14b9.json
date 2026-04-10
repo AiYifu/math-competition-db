@@ -1,0 +1,24 @@
+{
+  "uid": "p203_203_23_15c2df14b9",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "23",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    203
+  ],
+  "stem_md": "设 $M$ 为弦 $CD$ 的中点. 连结 $CD, MO$, 则 $\\triangle POM$ 为等腰直角三角形, 且 $MP = MO$. 不难得到 $PC^2 + PD^2 = (MC - MP)^2 + (MC + MP)^2 = 2CO^2 = \\frac{1}{2}$. 同理 $QE^2 + QF^2 = \\frac{1}{2}$. 由平均值不等式及凸函数性质, 得 $\\frac{PC^2 + QE^2}{2} + \\frac{PD^2 + QF^2}{2} = \\frac{1}{2}$. 故 $2PC \\cdot QE + 2PD \\cdot QF \\leq 1$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $M$ 为弦 $CD$ 的中点. 连结 $CD, MO$, 则 $\\triangle POM$ 为等腰直角三角形, 且 $MP = MO$. 不难得到 $PC^2 + PD^2 = (MC - MP)^2 + (MC + MP)^2 = 2CO^2 = \\frac{1}{2}$. 同理 $QE^2 + QF^2 = \\frac{1}{2}$. 由平均值不等式及凸函数性质, 得 $\\frac{PC^2 + QE^2}{2} + \\frac{PD^2 + QF^2}{2} = \\frac{1}{2}$. 故 $2PC \\cdot QE + 2PD \\cdot QF \\leq 1$.",
+  "tags": [
+    "几何",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

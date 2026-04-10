@@ -1,0 +1,25 @@
+{
+  "uid": "p033_034_例19_9545317f13",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2 平均值不等式的应用",
+  "section": null,
+  "problem_id": "例19",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    33,
+    34
+  ],
+  "stem_md": "给定 $n \\geqslant 2$, $n \\in \\mathbf{Z}_{+}$, 求所有 $m \\in \\mathbf{Z}_{+}$, 使得对 $a_{i} \\in \\mathbf{R}_{+}$, $i = 1, 2, \\cdots, n$, 满足 $a_{1} a_{2} \\cdots a_{n} = 1$, 则\n$$\na_{1}^{m} + a_{2}^{m} + \\cdots + a_{n}^{m} \\geqslant \\frac{1}{a_{1}} + \\frac{1}{a_{2}} + \\cdots + \\frac{1}{a_{n}}.\n$$",
+  "solution_md": "取 $x = a_{1} = a_{2} = \\cdots = a_{n-1} > 0$, $a_{n} = \\frac{1}{x^{n-1}}$, 则\n$$\n(n-1) x^{m} + \\frac{1}{x^{(n-1) m}} \\geqslant \\frac{n-1}{x} + x^{n-1}.\n$$\n由此得到 $m \\geqslant n-1$. 现在, 假设 $m \\geqslant n-1$, 则\n$$\n\\begin{aligned}\n& (n-1)\\left(a_{1}^{m} + a_{2}^{m} + \\cdots + a_{n}^{m}\\right) + n(m-n+1) \\\\\n= & \\left(a_{1}^{m} + a_{2}^{m} + \\cdots + a_{n-1}^{m} + 1 + 1 + \\cdots + 1\\right)(共 m-n+1 个 1) \\\\\n& + \\left(a_{1}^{m} + a_{2}^{m} + \\cdots + a_{n-2}^{m} + a_{n}^{m} + 1 + 1 + \\cdots + 1\\right) + \\cdots \\\\\n& + \\left(a_{2}^{m} + a_{3}^{m} + \\cdots + a_{n}^{m} + 1 + 1 + \\cdots + 1\\right) \\\\\n\\geqslant & m \\sqrt[m]{\\left(a_{1} a_{2} \\cdots a_{n-1}\\right)^{m}} + \\cdots + m \\sqrt[m]{\\left(a_{2} a_{3} \\cdots a_{n}\\right)^{m}} \\\\\n= & m\\left(a_{1} a_{2} \\cdots a_{n-1} + \\cdots + a_{2} a_{3} \\cdots a_{n}\\right) \\\\\n= & m\\left(\\frac{1}{a_{1}} + \\frac{1}{a_{2}} + \\cdots + \\frac{1}{a_{n}}\\right).\n\\end{aligned}\n$$\n即\n$$\n(m-n+1)\\left(\\frac{1}{a_{1}} + \\frac{1}{a_{2}} + \\cdots + \\frac{1}{a_{n}} - n\\right) \\geqslant 0,\n$$\n所以原不等式成立.\n故对所有满足 $m \\geqslant n-1$ 的 $m \\in \\mathbf{Z}_{+}$均可.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "给定 $n \\geqslant 2$, $n \\in \\mathbf{Z}_{+}$, 求所有 $m \\in \\mathbf{Z}_{+}$, 使得对 $a_{i} \\in \\mathbf{R}_{+}$, $i = 1, 2, \\cdots, n$, 满足 $a_{1} a_{2} \\cdots a_{n} = 1$, 则\n$$\na_{1}^{m} + a_{2}^{m} + \\cdots + a_{n}^{m} \\geqslant \\frac{1}{a_{1}} + \\frac{1}{a_{2}} + \\cdots + \\frac{1}{a_{n}}.\n$$\n取 $x = a_{1} = a_{2} = \\cdots = a_{n-1} > 0$, $a_{n} = \\frac{1}{x^{n-1}}$, 则\n$$\n(n-1) x^{m} + \\frac{1}{x^{(n-1) m}} \\geqslant \\frac{n-1}{x} + x^{n-1}.\n$$\n由此得到 $m \\geqslant n-1$. 现在, 假设 $m \\geqslant n-1$, 则\n$$\n\\begin{aligned}\n& (n-1)\\left(a_{1}^{m} + a_{2}^{m} + \\cdots + a_{n}^{m}\\right) + n(m-n+1) \\\\\n= & \\left(a_{1}^{m} + a_{2}^{m} + \\cdots + a_{n-1}^{m} + 1 + 1 + \\cdots + 1\\right)(共 m-n+1 个 1) \\\\\n& + \\left(a_{1}^{m} + a_{2}^{m} + \\cdots + a_{n-2}^{m} + a_{n}^{m} + 1 + 1 + \\cdots + 1\\right) + \\cdots \\\\\n& + \\left(a_{2}^{m} + a_{3}^{m} + \\cdots + a_{n}^{m} + 1 + 1 + \\cdots + 1\\right) \\\\\n\\geqslant & m \\sqrt[m]{\\left(a_{1} a_{2} \\cdots a_{n-1}\\right)^{m}} + \\cdots + m \\sqrt[m]{\\left(a_{2} a_{3} \\cdots a_{n}\\right)^{m}} \\\\\n= & m\\left(a_{1} a_{2} \\cdots a_{n-1} + \\cdots + a_{2} a_{3} \\cdots a_{n}\\right) \\\\\n= & m\\left(\\frac{1}{a_{1}} + \\frac{1}{a_{2}} + \\cdots + \\frac{1}{a_{n}}\\right).\n\\end{aligned}\n$$\n即\n$$\n(m-n+1)\\left(\\frac{1}{a_{1}} + \\frac{1}{a_{2}} + \\cdots + \\frac{1}{a_{n}} - n\\right) \\geqslant 0,\n$$\n所以原不等式成立.\n故对所有满足 $m \\geqslant n-1$ 的 $m \\in \\mathbf{Z}_{+}$均可.",
+  "tags": [
+    "不等式",
+    "数学归纳法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005"
+}

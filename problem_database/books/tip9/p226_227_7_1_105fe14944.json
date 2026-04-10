@@ -1,0 +1,25 @@
+{
+  "uid": "p226_227_7_1_105fe14944",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "7.1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226,
+    227
+  ],
+  "stem_md": "7. (1) 下面证明: 依次按半径为 $1, 3, 5, 6, 4, 2$ 或 $2, 4, 6, 5, 3, 1$ 的顺序排列 6 个圆时, 首尾两圆外公切线为最长.",
+  "solution_md": "设六个圆依次为 $O_1, O_2, \\cdots, O_6$, $O_i$ 半径为 $r_i$, 且与 $l$ 相切于 $T_i (1 \\leqslant i \\leqslant 6)$, 对于 $1 \\leqslant i \\leqslant 5$, 由勾股定理易知: $T_i T_{i+1}^2 = 4r_i r_{i+1}$. 因此, $T_1 T_6 = 2(\\sqrt{r_1 r_2} + \\sqrt{r_2 r_3} + \\sqrt{r_3 r_4} + \\sqrt{r_4 r_5} + \\sqrt{r_5 r_6})$. 由于 $r_1, r_2, \\cdots, r_6$ 是 $1, 2, \\cdots, 6$ 的一个排列, 故 $T_1 T_6$ 的表达式可写为 $T_1 T_6 = 2(\\sqrt{1r_1'} + \\sqrt{2r_2'} + \\sqrt{3r_3'} + \\sqrt{4r_4'} + \\sqrt{5r_5'})$. 由上式及排序原理易知, 在 $r_1' \\leqslant r_2' \\leqslant r_3' \\leqslant r_4' \\leqslant r_5'$ 且每个数尽可能大时, $T_1 T_6$ 值最大, 于是试着取 $r_5' = r_4' = 6$. 另一方面, $r_1', r_2', r_3'$ 只能是 $1, 2, 3, 4, 5$ 中的某三个, 且互不相等, 所以取 $r_1' = 3$, $r_2' = 4$, $r_3' = 5$, 按前面所说的, 这样选取的 $r_1', r_2', \\cdots, r_6'$ 将使 $T_1 T_6$ 值最大.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "7. (1) 下面证明: 依次按半径为 $1, 3, 5, 6, 4, 2$ 或 $2, 4, 6, 5, 3, 1$ 的顺序排列 6 个圆时, 首尾两圆外公切线为最长. 设六个圆依次为 $O_1, O_2, \\cdots, O_6$, $O_i$ 半径为 $r_i$, 且与 $l$ 相切于 $T_i (1 \\leqslant i \\leqslant 6)$, 对于 $1 \\leqslant i \\leqslant 5$, 由勾股定理易知: $T_i T_{i+1}^2 = 4r_i r_{i+1}$. 因此, $T_1 T_6 = 2(\\sqrt{r_1 r_2} + \\sqrt{r_2 r_3} + \\sqrt{r_3 r_4} + \\sqrt{r_4 r_5} + \\sqrt{r_5 r_6})$. 由于 $r_1, r_2, \\cdots, r_6$ 是 $1, 2, \\cdots, 6$ 的一个排列, 故 $T_1 T_6$ 的表达式可写为 $T_1 T_6 = 2(\\sqrt{1r_1'} + \\sqrt{2r_2'} + \\sqrt{3r_3'} + \\sqrt{4r_4'} + \\sqrt{5r_5'})$. 由上式及排序原理易知, 在 $r_1' \\leqslant r_2' \\leqslant r_3' \\leqslant r_4' \\leqslant r_5'$ 且每个数尽可能大时, $T_1 T_6$ 值最大, 于是试着取 $r_5' = r_4' = 6$. 另一方面, $r_1', r_2', r_3'$ 只能是 $1, 2, 3, 4, 5$ 中的某三个, 且互不相等, 所以取 $r_1' = 3$, $r_2' = 4$, $r_3' = 5$, 按前面所说的, 这样选取的 $r_1', r_2', \\cdots, r_6'$ 将使 $T_1 T_6$ 值最大.",
+  "tags": [
+    "几何不等式",
+    "圆的排列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

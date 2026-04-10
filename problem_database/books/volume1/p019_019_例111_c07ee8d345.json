@@ -1,0 +1,53 @@
+{
+  "uid": "p019_019_例111_c07ee8d345",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章 平方分析法",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    19
+  ],
+  "source_images": [
+    "page-019.jpg"
+  ],
+  "stem_md": "证明：对于任何非负实数 $a,b$\n$$a^2+b^2\\geqslant 2ab$$",
+  "solution_md": "**证明及分析** 这里没有什么要说的，虽然第一次看到这个不等式，但解答是非常容易的。不等式等价于 $(a-b)^2\\geqslant 0$，这是显然成立的。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.1 证明：对于任何非负实数 $a,b$\n$$a^2+b^2\\geqslant 2ab$$\n证明及分析 这里没有什么要说的，虽然第一次看到这个不等式，但解答是非常容易的。不等式等价于 $(a-b)^2\\geqslant 0$，这是显然成立的。",
+  "tags": [
+    "平方分析法",
+    "AM-GM不等式",
+    "基本不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003",
+  "raw_response_file": "raw/chunk-0003.response.txt",
+  "raw_api_file": "raw/chunk-0003.api.json",
+  "fingerprint": "c07ee8d345bac14fc369ddc74e43ba70ab026843",
+  "raw_problem": {
+    "problem_id": "例1.1.1",
+    "problem_type": "example",
+    "chapter": "第1章 平方分析法",
+    "section": "1.1 起步",
+    "title": null,
+    "source_pages": [
+      19
+    ],
+    "stem_md": "证明：对于任何非负实数 $a,b$\n$$a^2+b^2\\geqslant 2ab$$",
+    "solution_md": "**证明及分析** 这里没有什么要说的，虽然第一次看到这个不等式，但解答是非常容易的。不等式等价于 $(a-b)^2\\geqslant 0$，这是显然成立的。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.1.1 证明：对于任何非负实数 $a,b$\n$$a^2+b^2\\geqslant 2ab$$\n证明及分析 这里没有什么要说的，虽然第一次看到这个不等式，但解答是非常容易的。不等式等价于 $(a-b)^2\\geqslant 0$，这是显然成立的。",
+    "tags": [
+      "平方分析法",
+      "AM-GM不等式",
+      "基本不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

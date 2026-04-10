@@ -1,0 +1,31 @@
+{
+  "uid": "p041_048_例1_3_13_fb6bfcc338",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "3",
+  "problem_id": "例1.3.13",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是和为 $n$ 的正实数, 证明\n$$\n\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+\\frac{2\\sqrt{2}n}{a_1^2+a_2^2+\\cdots+a_n^2} \\geqslant n+2\\sqrt{2}\n$$",
+  "solution_md": "注意到\n$$\n\\sum_{i=1}^n \\frac{1}{a_i}-n=\\sum_{i=1}^n \\frac{1}{a_i}-\\frac{n^2}{\\sum_{i=1}^n a_i}=\\frac{1}{n} \\sum_{i<j} \\frac{(a_i-a_j)^2}{a_i a_j}\n$$\n于是, 不等式可以变为\n$$\n\\begin{aligned}\n& \\frac{1}{n} \\sum_{i<j} \\frac{(a_i-a_j)^2}{a_i a_j} \\geqslant 2\\sqrt{2}-\\frac{2\\sqrt{2}n}{a_1^2+a_2^2+\\cdots+a_n^2} \\\n& \\Leftrightarrow \\frac{1}{n} \\sum_{i<j} \\frac{(a_i-a_j)^2}{a_i a_j} \\geqslant \\sum_{i<j} \\frac{2\\sqrt{2}(a_i-a_j)^2}{n(a_1^2+a_2^2+\\cdots+a_n^2)} \\\n& \\Leftrightarrow \\sum S_{ij}(a_i-a_j)^2 \\geqslant 0\n\\end{aligned}\n$$\n其中 $S_{ij}(1 \\leqslant i < j \\leqslant n)$, 由下式确定\n$$\nS_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2 \\geqslant 0\n$$\n不失一般性, 设 $a \\geqslant b \\geqslant c$, 则 $S_a \\geqslant S_b \\geqslant S_c$, 而且\n$$\n\\begin{aligned}\nS_a+S_c & =\\frac{1}{bc}-\\frac{2\\sqrt{2}}{a^2+b^2+c^2}, S_b=\\frac{1}{ca}-\\frac{2\\sqrt{2}}{a^2+b^2+c^2}, S_c=\\frac{1}{ab}-\\frac{2\\sqrt{2}}{a^2+b^2+c^2} \\\n& \\geqslant \\frac{4}{a(b+c)}-\\frac{8\\sqrt{2}}{2a^2+(b+c)^2} \\geqslant 0\n\\end{aligned}\n$$\n$$\n=\\frac{4(b+c-\\sqrt{2}a)}{a(b+c)[2a^2+(b+c)^2]} \\geqslant 0\n$$\n以及平凡的情况 $a=b=c=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.13(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是和为 $n$ 的正实数, 证明\n$$\n\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+\\frac{2\\sqrt{2}n}{a_1^2+a_2^2+\\cdots+a_n^2} \\geqslant n+2\\sqrt{2}\n$$\n注意到\n$$\n\\sum_{i=1}^n \\frac{1}{a_i}-n=\\sum_{i=1}^n \\frac{1}{a_i}-\\frac{n^2}{\\sum_{i=1}^n a_i}=\\frac{1}{n} \\sum_{i<j} \\frac{(a_i-a_j)^2}{a_i a_j}\n$$\n于是, 不等式可以变为\n$$\n\\begin{aligned}\n& \\frac{1}{n} \\sum_{i<j} \\frac{(a_i-a_j)^2}{a_i a_j} \\geqslant 2\\sqrt{2}-\\frac{2\\sqrt{2}n}{a_1^2+a_2^2+\\cdots+a_n^2} \\\n& \\Leftrightarrow \\frac{1}{n} \\sum_{i<j} \\frac{(a_i-a_j)^2}{a_i a_j} \\geqslant \\sum_{i<j} \\frac{2\\sqrt{2}(a_i-a_j)^2}{n(a_1^2+a_2^2+\\cdots+a_n^2)} \\\n& \\Leftrightarrow \\sum S_{ij}(a_i-a_j)^2 \\geqslant 0\n\\end{aligned}\n$$\n其中 $S_{ij}(1 \\leqslant i < j \\leqslant n)$, 由下式确定\n$$\nS_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2 \\geqslant 0\n$$\n不失一般性, 设 $a \\geqslant b \\geqslant c$, 则 $S_a \\geqslant S_b \\geqslant S_c$, 而且\n$$\n\\begin{aligned}\nS_a+S_c & =\\frac{1}{bc}-\\frac{2\\sqrt{2}}{a^2+b^2+c^2}, S_b=\\frac{1}{ca}-\\frac{2\\sqrt{2}}{a^2+b^2+c^2}, S_c=\\frac{1}{ab}-\\frac{2\\sqrt{2}}{a^2+b^2+c^2} \\\n& \\geqslant \\frac{4}{a(b+c)}-\\frac{8\\sqrt{2}}{2a^2+(b+c)^2} \\geqslant 0\n\\end{aligned}\n$$\n$$\n=\\frac{4(b+c-\\sqrt{2}a)}{a(b+c)[2a^2+(b+c)^2]} \\geqslant 0\n$$\n以及平凡的情况 $a=b=c=1$。",
+  "tags": [
+    "不等式",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006"
+}

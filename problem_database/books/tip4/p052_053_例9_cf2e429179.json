@@ -1,0 +1,25 @@
+{
+  "uid": "p052_053_例9_cf2e429179",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    52,
+    53
+  ],
+  "stem_md": "对满足 $abc = 1$ 的正实数 $a, b, c$，求\n$\\left(a - 1 + \\frac{1}{b}\\right)\\left(b - 1 + \\frac{1}{c}\\right)\\left(c - 1 + \\frac{1}{a}\\right) \\leqslant 1$。",
+  "solution_md": "解 由于表达式关于 $a, b, c$ 是对称的，当 $a = b = c = 1$ 时，得\n$\\left(a - 1 + \\frac{1}{b}\\right)\\left(b - 1 + \\frac{1}{c}\\right)\\left(c - 1 + \\frac{1}{a}\\right) = 1$。\n下面我们将非齐次的式子转换为齐次式，即对正实数 $x, y, z$，令 $a = \\frac{x}{y}$，$b = \\frac{y}{z}$，$c = \\frac{z}{x}$（例如 $x = 1$，$y = \\frac{1}{a}$，$z = \\frac{1}{ab}$），则上式等价于证明\n$(x - y + z)(y - z + x)(z - x + y) \\leqslant xyz$。\n令 $u = x - y + z$，$v = y - z + x$，$w = z - x + y$，由于 $u, v, w$ 的任意两个之和为正，所以它们中最多有一个为负，所以不妨假设 $u \\geqslant 0$，$v \\geqslant 0$，由平均值不等式，得\n$\\sqrt{uv} \\leqslant y$，$\\sqrt{vw} \\leqslant z$，故 $uvw \\leqslant xyz$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例9 对满足 $abc = 1$ 的正实数 $a, b, c$，求\n$\\left(a - 1 + \\frac{1}{b}\\right)\\left(b - 1 + \\frac{1}{c}\\right)\\left(c - 1 + \\frac{1}{a}\\right) \\leqslant 1$。\n解 由于表达式关于 $a, b, c$ 是对称的，当 $a = b = c = 1$ 时，得\n$\\left(a - 1 + \\frac{1}{b}\\right)\\left(b - 1 + \\frac{1}{c}\\right)\\left(c - 1 + \\frac{1}{a}\\right) = 1$。\n下面我们将非齐次的式子转换为齐次式，即对正实数 $x, y, z$，令 $a = \\frac{x}{y}$，$b = \\frac{y}{z}$，$c = \\frac{z}{x}$（例如 $x = 1$，$y = \\frac{1}{a}$，$z = \\frac{1}{ab}$），则上式等价于证明\n$(x - y + z)(y - z + x)(z - x + y) \\leqslant xyz$。\n令 $u = x - y + z$，$v = y - z + x$，$w = z - x + y$，由于 $u, v, w$ 的任意两个之和为正，所以它们中最多有一个为负，所以不妨假设 $u \\geqslant 0$，$v \\geqslant 0$，由平均值不等式，得\n$\\sqrt{uv} \\leqslant y$，$\\sqrt{vw} \\leqslant z$，故 $uvw \\leqslant xyz$。",
+  "tags": [
+    "均值不等式",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p170_170_22_5474a4ed92",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "22",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    170
+  ],
+  "stem_md": "由已知得: $a^2+b^2+c^2+ab+bc+ac \\leqslant 2$, 所以 $\\sum_{cyc}\\frac{2ab+2}{(a+b)^2} \\geqslant \\sum_{cyc}\\frac{2ab+a^2+b^2+c^2+ab+bc+ac}{(a+b)^2} = 3 + \\sum_{cyc}\\frac{(c+a)(c+b)}{(a+b)^2} \\geqslant 6$, 其中最后一个不等号是利用了平均值不等式. 两边同时除以 2 即知原不等式成立.",
+  "solution_md": "由已知得: $a^2+b^2+c^2+ab+bc+ac \\leqslant 2$, 所以 $\\sum_{cyc}\\frac{2ab+2}{(a+b)^2} \\geqslant \\sum_{cyc}\\frac{2ab+a^2+b^2+c^2+ab+bc+ac}{(a+b)^2} = 3 + \\sum_{cyc}\\frac{(c+a)(c+b)}{(a+b)^2} \\geqslant 6$, 其中最后一个不等号是利用了平均值不等式. 两边同时除以 2 即知原不等式成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "22. 由已知得: $a^2+b^2+c^2+ab+bc+ac \\leqslant 2$, 所以 $\\sum_{cyc}\\frac{2ab+2}{(a+b)^2} \\geqslant \\sum_{cyc}\\frac{2ab+a^2+b^2+c^2+ab+bc+ac}{(a+b)^2} = 3 + \\sum_{cyc}\\frac{(c+a)(c+b)}{(a+b)^2} \\geqslant 6$, 其中最后一个不等号是利用了平均值不等式. 两边同时除以 2 即知原不等式成立.",
+  "tags": [
+    "不等式",
+    "平均值不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

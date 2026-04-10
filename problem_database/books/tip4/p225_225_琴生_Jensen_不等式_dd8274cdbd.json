@@ -1,0 +1,23 @@
+{
+  "uid": "p225_225_琴生_Jensen_不等式_dd8274cdbd",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "琴生(Jensen)不等式",
+  "problem_type": "theorem",
+  "title": "琴生(Jensen)不等式",
+  "source_pages": [
+    225
+  ],
+  "stem_md": "设 $y = f(x)$, $x \\in (a, b)$ 为凹函数, 则\n$f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right) \\geq \\frac{f(x_1) + f(x_2) + \\cdots + f(x_n)}{n}$,\n其中 $x_1, x_2, \\cdots, x_n \\in (a, b)$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "琴生(Jensen)不等式 设 $y = f(x)$, $x \\in (a, b)$ 为凹函数, 则\n$f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right) \\geq \\frac{f(x_1) + f(x_2) + \\cdots + f(x_n)}{n}$,\n其中 $x_1, x_2, \\cdots, x_n \\in (a, b)$.",
+  "tags": [
+    "琴生不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

@@ -1,0 +1,33 @@
+{
+  "uid": "p145_152_例4_3_5_a1d87b9905",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第4章",
+  "section": "3.5",
+  "problem_id": "例4.3.5",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是正实数, 且满足 $a_1^2 + a_2^2 + \\cdots + a_n^2 = n$, 证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} + d_n x \\geqslant n f(c, 1) \\quad \\forall c \\leqslant c_n = \\frac{1}{\\sqrt{d_n}}$$\n其中 $f(c, x) = \\frac{c}{x} + \\frac{x}{c}$. 由于 $f(c, x)$ 是齐次函数, 序列 $\\{c_n\\}$ 是减少的 (因为序列 $\\{d_n\\}$ 是减少的), 所以, 由 GI 定理可知, 只需在 $a_1 = a_2 = \\cdots = a_{n-1} = x, a_n = \\sqrt{n - (n-1)x^2}$ 的条件下, 证明不等式成立即可. 此时, 不等式变成\n$$\\frac{n-1}{x} + \\frac{1}{\\sqrt{n - (n-1)x^2}} + k \\left[ (n-1)x + \\sqrt{n - (n-1)x^2} \\right] \\geqslant n(k+1)$$\n注意到\n$$\\frac{n-1}{x} + \\frac{1}{\\sqrt{n - (n-1)x^2}} - n = (n-1)(x-1) \\cdot \\frac{\\sqrt{n - (n-1)x^2} - x + 1}{x \\sqrt{n - (n-1)x^2} \\left( \\sqrt{n - (n-1)x^2} + x + 1 \\right)}$$\n最后, 我们要证明\n$$d_n \\geqslant \\frac{\\sqrt{n - (n-1)x^2} + x + 1}{x \\sqrt{n - (n-1)x^2}}$$\n由 AM-GM 不等式, 有\n$$x \\sqrt{n - (n-1)x^2} = \\frac{1}{\\sqrt{n-1}} \\cdot \\sqrt{n-1} x \\cdot \\sqrt{n - (n-1)x^2} \\leqslant \\sqrt{1 + \\frac{3 \\sqrt{n-1}}{\\sqrt{n-1}} + 1}$$\n由 Hölder 不等式, 有\n$$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} \\geqslant 6 \\sqrt[6]{29}$$\n当 $n = 4$ 时, 得到下列不等式:\n设正实数 $a, b, c, d$ 满足 $a^2 + b^2 + c^2 + d^2 = 4$, 证明\n$$2 \\left( \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} \\right) + \\sqrt{30} (a + b + c + d) \\geqslant 8 + 4 \\sqrt{30}$$\n从前面的证明可得到一个非常强的不等式:\n设 $a_1, a_2, \\cdots, a_k$ 是正实数, 且满足 $a_1^2 + a_2^2 + \\cdots + a_k^2 = k, k$ 是自然数, $k \\in \\{1, 2, \\cdots, 20\\}$, 证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_k} \\geqslant 3k$$\n在某些困难的情况下, 不能直接应用 GI 定理, 所以, 必须要做一些变换. 这个麻烦的情况, 经常出现在不等式不是以常用的形式出现, 也包括其他一些诸如 $x_1 x_2 \\cdots x_n, x_1^2 + x_2^2 + \\cdots + x_n^2$ 等等表达式 (所有变量的组合). 因为, 事实上, 我们不能使用标准 GI 定理, 而只能使用定理背后的思想, 客观上也是使 $n-1$ 个变量彼此相等.",
+  "solution_md": "不失一般性, 设 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{n+1}$, 令 $t = \\frac{a_1 + a_2 + \\cdots + a_n}{n}$, 对每一个 $i \\in \\{1, 2, \\cdots, n\\}$, 设 $y_i = \\frac{x_i}{t}$, 则\n$$x_1 = x_2 = \\cdots = x_{n+1}, t = \\frac{1}{n} \\left( \\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} \\right)$$\n这样, 我们有\n$$\\frac{1}{y_1} + \\frac{1}{y_2} + \\cdots + \\frac{1}{y_n} \\geqslant \\frac{n + p}{t} + \\frac{k(n+1)}{A + a^2}$$\n设 $A = x_1^2 + x_2^2 + \\cdots + x_n^2, a = x_{n+1}$, 则只需证明\n$$nt^2 + (n+1-nt)^2 - n \\geqslant 0$$\n这是显然成立的, 因为 $nt^{n+1} + 1 \\geqslant (n+1)t$ (由 AM-GM 不等式). 这样, 我们就证明了原不等式是成立的. 等号成立的条件是所有数都等于 1 或一个数为 0, 其他数都为 $\\frac{n}{n-1}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.5(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是正实数, 且满足 $a_1^2 + a_2^2 + \\cdots + a_n^2 = n$, 证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} + d_n x \\geqslant n f(c, 1) \\quad \\forall c \\leqslant c_n = \\frac{1}{\\sqrt{d_n}}$$\n其中 $f(c, x) = \\frac{c}{x} + \\frac{x}{c}$. 由于 $f(c, x)$ 是齐次函数, 序列 $\\{c_n\\}$ 是减少的 (因为序列 $\\{d_n\\}$ 是减少的), 所以, 由 GI 定理可知, 只需在 $a_1 = a_2 = \\cdots = a_{n-1} = x, a_n = \\sqrt{n - (n-1)x^2}$ 的条件下, 证明不等式成立即可. 此时, 不等式变成\n$$\\frac{n-1}{x} + \\frac{1}{\\sqrt{n - (n-1)x^2}} + k \\left[ (n-1)x + \\sqrt{n - (n-1)x^2} \\right] \\geqslant n(k+1)$$\n注意到\n$$\\frac{n-1}{x} + \\frac{1}{\\sqrt{n - (n-1)x^2}} - n = (n-1)(x-1) \\cdot \\frac{\\sqrt{n - (n-1)x^2} - x + 1}{x \\sqrt{n - (n-1)x^2} \\left( \\sqrt{n - (n-1)x^2} + x + 1 \\right)}$$\n最后, 我们要证明\n$$d_n \\geqslant \\frac{\\sqrt{n - (n-1)x^2} + x + 1}{x \\sqrt{n - (n-1)x^2}}$$\n由 AM-GM 不等式, 有\n$$x \\sqrt{n - (n-1)x^2} = \\frac{1}{\\sqrt{n-1}} \\cdot \\sqrt{n-1} x \\cdot \\sqrt{n - (n-1)x^2} \\leqslant \\sqrt{1 + \\frac{3 \\sqrt{n-1}}{\\sqrt{n-1}} + 1}$$\n由 Hölder 不等式, 有\n$$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} \\geqslant 6 \\sqrt[6]{29}$$\n当 $n = 4$ 时, 得到下列不等式:\n设正实数 $a, b, c, d$ 满足 $a^2 + b^2 + c^2 + d^2 = 4$, 证明\n$$2 \\left( \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} \\right) + \\sqrt{30} (a + b + c + d) \\geqslant 8 + 4 \\sqrt{30}$$\n从前面的证明可得到一个非常强的不等式:\n设 $a_1, a_2, \\cdots, a_k$ 是正实数, 且满足 $a_1^2 + a_2^2 + \\cdots + a_k^2 = k, k$ 是自然数, $k \\in \\{1, 2, \\cdots, 20\\}$, 证明\n$$\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_k} \\geqslant 3k$$\n在某些困难的情况下, 不能直接应用 GI 定理, 所以, 必须要做一些变换. 这个麻烦的情况, 经常出现在不等式不是以常用的形式出现, 也包括其他一些诸如 $x_1 x_2 \\cdots x_n, x_1^2 + x_2^2 + \\cdots + x_n^2$ 等等表达式 (所有变量的组合). 因为, 事实上, 我们不能使用标准 GI 定理, 而只能使用定理背后的思想, 客观上也是使 $n-1$ 个变量彼此相等.\n不失一般性, 设 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{n+1}$, 令 $t = \\frac{a_1 + a_2 + \\cdots + a_n}{n}$, 对每一个 $i \\in \\{1, 2, \\cdots, n\\}$, 设 $y_i = \\frac{x_i}{t}$, 则\n$$x_1 = x_2 = \\cdots = x_{n+1}, t = \\frac{1}{n} \\left( \\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} \\right)$$\n这样, 我们有\n$$\\frac{1}{y_1} + \\frac{1}{y_2} + \\cdots + \\frac{1}{y_n} \\geqslant \\frac{n + p}{t} + \\frac{k(n+1)}{A + a^2}$$\n设 $A = x_1^2 + x_2^2 + \\cdots + x_n^2, a = x_{n+1}$, 则只需证明\n$$nt^2 + (n+1-nt)^2 - n \\geqslant 0$$\n这是显然成立的, 因为 $nt^{n+1} + 1 \\geqslant (n+1)t$ (由 AM-GM 不等式). 这样, 我们就证明了原不等式是成立的. 等号成立的条件是所有数都等于 1 或一个数为 0, 其他数都为 $\\frac{n}{n-1}$.",
+  "tags": [
+    "不等式",
+    "证明",
+    "序列",
+    "导数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019"
+}

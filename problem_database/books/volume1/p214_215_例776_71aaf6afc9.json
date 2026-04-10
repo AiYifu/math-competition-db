@@ -1,0 +1,56 @@
+{
+  "uid": "p214_215_例776_71aaf6afc9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.6",
+  "problem_type": "example",
+  "title": "Iran 1996 Inequality",
+  "source_pages": [
+    214,
+    215
+  ],
+  "source_images": [
+    "page-214.jpg",
+    "page-215.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是非负实数，证明\n\n$$(xy+yz+zx)\\left[\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2}\\right]\\geqslant\\frac{9}{4}$$",
+  "solution_md": "**证明** 设 $a=y+z, b=z+x, c=x+y, c=\\max\\{a,b,c\\}$，则 $a+b\\geqslant c$，不等式变成\n\n$$(2ab+2bc+2ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right)\\geqslant\\frac{9}{4}$$\n\n$$\\Leftrightarrow 2(ab+bc+ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right)+$$\n\n$$\\left[(a^2+b^2+c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right)-9\\right]\\geqslant 0$$\n\n$$\\Leftrightarrow M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M=\\frac{2(a+b)^2}{a^2b^2}-\\frac{2(a^2b^2+b^2c^2+c^2a^2)}{a^2b^2c^2}$$\n\n$$N=\\frac{(a^2+b^2)(a+c)(b+c)}{a^2b^2c^2}-\\frac{2(a^2b^2+b^2c^2+c^2a^2)}{a^2b^2c^2}$$\n\n所以，只需证明 $M,N\\geqslant 0$。由于\n\n$$2c^2(a+b)^2-2(a^2b^2+b^2c^2+c^2a^2)=2abc^2+2ab(c^2-ab)\\geqslant 0$$\n\n$$(a^2+b^2)(a+c)(b+c)-2(a^2b^2+b^2c^2+c^2a^2)$$\n\n$$=ab(a-b)^2+c(a^2+b^2)(a+b-c)\\geqslant 0$$\n\n所以，$M,N\\geqslant 0$。不等式得证，等号成立的条件是 $x=y=z$ 或 $x=y,z=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.6(Iran 1996 Inequality) 设 $x,y,z$ 是非负实数，证明\n$$(xy+yz+zx)\\left[\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2}\\right]\\geqslant\\frac{9}{4}$$\n证明 设 $a=y+z,b=z+x,c=x+y,c=\\max\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "Iran 1996",
+    "经典不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "71aaf6afc96a92cc2595db01d3a48db4c2405f9f",
+  "raw_problem": {
+    "problem_id": "例7.7.6",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": "Iran 1996 Inequality",
+    "source_pages": [
+      214,
+      215
+    ],
+    "stem_md": "设 $x,y,z$ 是非负实数，证明\n\n$$(xy+yz+zx)\\left[\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2}\\right]\\geqslant\\frac{9}{4}$$",
+    "solution_md": "**证明** 设 $a=y+z, b=z+x, c=x+y, c=\\max\\{a,b,c\\}$，则 $a+b\\geqslant c$，不等式变成\n\n$$(2ab+2bc+2ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right)\\geqslant\\frac{9}{4}$$\n\n$$\\Leftrightarrow 2(ab+bc+ca-a^2-b^2-c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right)+$$\n\n$$\\left[(a^2+b^2+c^2)\\left(\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}\\right)-9\\right]\\geqslant 0$$\n\n$$\\Leftrightarrow M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n\n其中\n\n$$M=\\frac{2(a+b)^2}{a^2b^2}-\\frac{2(a^2b^2+b^2c^2+c^2a^2)}{a^2b^2c^2}$$\n\n$$N=\\frac{(a^2+b^2)(a+c)(b+c)}{a^2b^2c^2}-\\frac{2(a^2b^2+b^2c^2+c^2a^2)}{a^2b^2c^2}$$\n\n所以，只需证明 $M,N\\geqslant 0$。由于\n\n$$2c^2(a+b)^2-2(a^2b^2+b^2c^2+c^2a^2)=2abc^2+2ab(c^2-ab)\\geqslant 0$$\n\n$$(a^2+b^2)(a+c)(b+c)-2(a^2b^2+b^2c^2+c^2a^2)$$\n\n$$=ab(a-b)^2+c(a^2+b^2)(a+b-c)\\geqslant 0$$\n\n所以，$M,N\\geqslant 0$。不等式得证，等号成立的条件是 $x=y=z$ 或 $x=y,z=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.6(Iran 1996 Inequality) 设 $x,y,z$ 是非负实数，证明\n$$(xy+yz+zx)\\left[\\frac{1}{(x+y)^2}+\\frac{1}{(y+z)^2}+\\frac{1}{(z+x)^2}\\right]\\geqslant\\frac{9}{4}$$\n证明 设 $a=y+z,b=z+x,c=x+y,c=\\max\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "Iran 1996",
+      "经典不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

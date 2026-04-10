@@ -1,0 +1,53 @@
+{
+  "uid": "p154_154_引理_a7a39b81a8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": null,
+  "problem_id": "引理",
+  "problem_type": "lemma",
+  "title": "引理",
+  "source_pages": [
+    154
+  ],
+  "source_images": [
+    "page-154.jpg"
+  ],
+  "stem_md": "对 $k \\geqslant \\log_2 n, 0 \\leqslant a \\leqslant 1, x \\geqslant 1$，则\n$$\\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k} \\geqslant \\frac{n+1}{(a+1)^k}$$",
+  "solution_md": "令 $f(x) = \\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k}$，其导数为\n$$f'(x) = \\frac{-nk}{(a+x)^{k+1}} + \\frac{nkx^{-n-1}}{(a+x^{-n})^{k+1}}$$\n且它和下列函数的符号相反\n$$g(x) = (n+1)\\ln x + (k+1)\\ln(a+x^{-n}) - (k+1)\\ln(a+x)$$\n其导数为\n$$g'(x) = \\frac{n+1}{x} - \\frac{n(k+1)}{ax^{n+1}+x} - \\frac{k+1}{a+x}$$\n满足 $g'(x) = 0$，当且仅当\n$$n+1 - \\frac{n(k+1)}{ax^n+1} - \\frac{(k+1)x}{a+x} = 0$$\n$$\\Leftrightarrow a(n-k)x^{n+1} + (n+1)a^2x^n - k(n+1)x + a - ank = 0$$\n假设 $h(x)$ 表示上式左边的表达式，则\n$$h'(x) = a(n-k)(n+1)x^n + n(n+1)a^2x^{n-1} - k(n+1)$$\n它至多有一个实根，所以，方程 $h(x) = 0$ 不超过两个实根。因此，方程 $g'(x) = 0$ 不超过两个实根，进而，方程 $g(x) = 0$ 不超过三个实根（$x=1$ 当然是它的一个实根），我们来证明，如果 $g(x)$ 有三个实根，那么至少有一个实根不超过 1（换句话说，不超过一个大于 1 的实根）。事实上\n$$g'(1) = n+1 - \\frac{n(k+1)}{a+1} - \\frac{k+1}{a+1}$$\n$$= (n+1)\\left(1 - \\frac{k+1}{a+1}\\right) \\leqslant 0 \\quad (\\text{因为 } a \\leqslant 1 \\leqslant k)$$\n而且 $\\lim_{x \\to 0^+} g'(x) = +\\infty$，因此，方程 $g(x) = 0$ 有三个实根，这三个实根不可能同时在 $(1, +\\infty)$ 内，这就表明，方程 $g(x) = 0$ 有不多于两个根在 $[1, +\\infty)$，或者说，由不多于一个大于 1 的实根，注意到 $g'(1) \\leqslant 0$，而且 $g(x)$ 的符号和 $f'(x)$ 的符号相反，所以，很容易推出\n$$\\min_{x \\geqslant 1} f(x) = \\min\\left\\{f(1), \\lim_{x \\to +\\infty} f(x)\\right\\} = \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\}$$\n从条件 $a \\leqslant 1$，我们有 $\\frac{a+1}{a} \\geqslant 2$，$\\left(\\frac{a+1}{a}\\right)^k \\geqslant n+1$，这就是说，对于 $x \\geqslant 1$，有\n$$f(x) \\geqslant \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\} = \\frac{n+1}{(a+1)^k}$$\n这就证明了引理。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "引理 对 $k \\geqslant \\log_2 n, 0 \\leqslant a \\leqslant 1, x \\geqslant 1$，则\n$$\\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k} \\geqslant \\frac{n+1}{(a+1)^k}$$\n证明 令 $f(x) = \\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k}$，其导数为\n$$f'(x) = \\frac{-nk}{(a+x)^{k+1}} + \\frac{nkx^{-n-1}}{(a+x^{-n})^{k+1}}$$\n且它和下列函数的符号相反\n$$g(x) = (n+1)\\ln x + (k+1)\\ln(a+x^{-n}) - (k+1)\\ln(a+x)$$\n其导数为\n$$g'(x) = \\frac{n+1}{x} - \\frac{n(k+1)}{ax^{n+1}+x} - \\frac{k+1}{a+x}$$\n满足 $g'(x) = 0$，当且仅当\n$$n+1 - \\frac{n(k+1)}{ax^n+1} - \\frac{(k+1)x}{a+x} = 0$$\n$$\\Leftrightarrow a(n-k)x^{n+1} + (n+1)a^2x^n - k(n+1)x + a - ank = 0$$\n假设 $h(x)$ 表示上式左边的表达式，则\n$$h'(x) = a(n-k)(n+1)x^n + n(n+1)a^2x^{n-1} - k(n+1)$$\n它至多有一个实根，所以，方程 $h(x) = 0$ 不超过两个实根。因此，方程 $g'(x) = 0$ 不超过两个实根，进而，方程 $g(x) = 0$ 不超过三个实根（$x=1$ 当然是它的一个实根），我们来证明，如果 $g(x)$ 有三个实根，那么至少有一个实根不超过 1（换句话说，不超过一个大于 1 的实根）。事实上\n$$g'(1) = n+1 - \\frac{n(k+1)}{a+1} - \\frac{k+1}{a+1}$$\n$$= (n+1)\\left(1 - \\frac{k+1}{a+1}\\right) \\leqslant 0 \\quad (\\text{因为 } a \\leqslant 1 \\leqslant k)$$\n而且 $\\lim_{x \\to 0^+} g'(x) = +\\infty$，因此，方程 $g(x) = 0$ 有三个实根，这三个实根不可能同时在 $(1, +\\infty)$ 内，这就表明，方程 $g(x) = 0$ 有不多于两个根在 $[1, +\\infty)$，或者说，由不多于一个大于 1 的实根，注意到 $g'(1) \\leqslant 0$，而且 $g(x)$ 的符号和 $f'(x)$ 的符号相反，所以，很容易推出\n$$\\min_{x \\geqslant 1} f(x) = \\min\\left\\{f(1), \\lim_{x \\to +\\infty} f(x)\\right\\} = \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\}$$\n从条件 $a \\leqslant 1$，我们有 $\\frac{a+1}{a} \\geqslant 2$，$\\left(\\frac{a+1}{a}\\right)^k \\geqslant n+1$，这就是说，对于 $x \\geqslant 1$，有\n$$f(x) \\geqslant \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\} = \\frac{n+1}{(a+1)^k}$$\n这就证明了引理。",
+  "tags": [
+    "引理",
+    "归纳法",
+    "导数分析"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "a7a39b81a8448512f0d25a0fc5fc84e10c22b8cb",
+  "raw_problem": {
+    "problem_id": "引理",
+    "problem_type": "lemma",
+    "chapter": "第4章",
+    "section": null,
+    "title": "引理",
+    "source_pages": [
+      154
+    ],
+    "stem_md": "对 $k \\geqslant \\log_2 n, 0 \\leqslant a \\leqslant 1, x \\geqslant 1$，则\n$$\\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k} \\geqslant \\frac{n+1}{(a+1)^k}$$",
+    "solution_md": "令 $f(x) = \\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k}$，其导数为\n$$f'(x) = \\frac{-nk}{(a+x)^{k+1}} + \\frac{nkx^{-n-1}}{(a+x^{-n})^{k+1}}$$\n且它和下列函数的符号相反\n$$g(x) = (n+1)\\ln x + (k+1)\\ln(a+x^{-n}) - (k+1)\\ln(a+x)$$\n其导数为\n$$g'(x) = \\frac{n+1}{x} - \\frac{n(k+1)}{ax^{n+1}+x} - \\frac{k+1}{a+x}$$\n满足 $g'(x) = 0$，当且仅当\n$$n+1 - \\frac{n(k+1)}{ax^n+1} - \\frac{(k+1)x}{a+x} = 0$$\n$$\\Leftrightarrow a(n-k)x^{n+1} + (n+1)a^2x^n - k(n+1)x + a - ank = 0$$\n假设 $h(x)$ 表示上式左边的表达式，则\n$$h'(x) = a(n-k)(n+1)x^n + n(n+1)a^2x^{n-1} - k(n+1)$$\n它至多有一个实根，所以，方程 $h(x) = 0$ 不超过两个实根。因此，方程 $g'(x) = 0$ 不超过两个实根，进而，方程 $g(x) = 0$ 不超过三个实根（$x=1$ 当然是它的一个实根），我们来证明，如果 $g(x)$ 有三个实根，那么至少有一个实根不超过 1（换句话说，不超过一个大于 1 的实根）。事实上\n$$g'(1) = n+1 - \\frac{n(k+1)}{a+1} - \\frac{k+1}{a+1}$$\n$$= (n+1)\\left(1 - \\frac{k+1}{a+1}\\right) \\leqslant 0 \\quad (\\text{因为 } a \\leqslant 1 \\leqslant k)$$\n而且 $\\lim_{x \\to 0^+} g'(x) = +\\infty$，因此，方程 $g(x) = 0$ 有三个实根，这三个实根不可能同时在 $(1, +\\infty)$ 内，这就表明，方程 $g(x) = 0$ 有不多于两个根在 $[1, +\\infty)$，或者说，由不多于一个大于 1 的实根，注意到 $g'(1) \\leqslant 0$，而且 $g(x)$ 的符号和 $f'(x)$ 的符号相反，所以，很容易推出\n$$\\min_{x \\geqslant 1} f(x) = \\min\\left\\{f(1), \\lim_{x \\to +\\infty} f(x)\\right\\} = \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\}$$\n从条件 $a \\leqslant 1$，我们有 $\\frac{a+1}{a} \\geqslant 2$，$\\left(\\frac{a+1}{a}\\right)^k \\geqslant n+1$，这就是说，对于 $x \\geqslant 1$，有\n$$f(x) \\geqslant \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\} = \\frac{n+1}{(a+1)^k}$$\n这就证明了引理。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "引理 对 $k \\geqslant \\log_2 n, 0 \\leqslant a \\leqslant 1, x \\geqslant 1$，则\n$$\\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k} \\geqslant \\frac{n+1}{(a+1)^k}$$\n证明 令 $f(x) = \\frac{n}{(a+x)^k} + \\frac{1}{(a+x^{-n})^k}$，其导数为\n$$f'(x) = \\frac{-nk}{(a+x)^{k+1}} + \\frac{nkx^{-n-1}}{(a+x^{-n})^{k+1}}$$\n且它和下列函数的符号相反\n$$g(x) = (n+1)\\ln x + (k+1)\\ln(a+x^{-n}) - (k+1)\\ln(a+x)$$\n其导数为\n$$g'(x) = \\frac{n+1}{x} - \\frac{n(k+1)}{ax^{n+1}+x} - \\frac{k+1}{a+x}$$\n满足 $g'(x) = 0$，当且仅当\n$$n+1 - \\frac{n(k+1)}{ax^n+1} - \\frac{(k+1)x}{a+x} = 0$$\n$$\\Leftrightarrow a(n-k)x^{n+1} + (n+1)a^2x^n - k(n+1)x + a - ank = 0$$\n假设 $h(x)$ 表示上式左边的表达式，则\n$$h'(x) = a(n-k)(n+1)x^n + n(n+1)a^2x^{n-1} - k(n+1)$$\n它至多有一个实根，所以，方程 $h(x) = 0$ 不超过两个实根。因此，方程 $g'(x) = 0$ 不超过两个实根，进而，方程 $g(x) = 0$ 不超过三个实根（$x=1$ 当然是它的一个实根），我们来证明，如果 $g(x)$ 有三个实根，那么至少有一个实根不超过 1（换句话说，不超过一个大于 1 的实根）。事实上\n$$g'(1) = n+1 - \\frac{n(k+1)}{a+1} - \\frac{k+1}{a+1}$$\n$$= (n+1)\\left(1 - \\frac{k+1}{a+1}\\right) \\leqslant 0 \\quad (\\text{因为 } a \\leqslant 1 \\leqslant k)$$\n而且 $\\lim_{x \\to 0^+} g'(x) = +\\infty$，因此，方程 $g(x) = 0$ 有三个实根，这三个实根不可能同时在 $(1, +\\infty)$ 内，这就表明，方程 $g(x) = 0$ 有不多于两个根在 $[1, +\\infty)$，或者说，由不多于一个大于 1 的实根，注意到 $g'(1) \\leqslant 0$，而且 $g(x)$ 的符号和 $f'(x)$ 的符号相反，所以，很容易推出\n$$\\min_{x \\geqslant 1} f(x) = \\min\\left\\{f(1), \\lim_{x \\to +\\infty} f(x)\\right\\} = \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\}$$\n从条件 $a \\leqslant 1$，我们有 $\\frac{a+1}{a} \\geqslant 2$，$\\left(\\frac{a+1}{a}\\right)^k \\geqslant n+1$，这就是说，对于 $x \\geqslant 1$，有\n$$f(x) \\geqslant \\min\\left\\{\\frac{n+1}{(a+1)^k}, \\frac{1}{a^k}\\right\\} = \\frac{n+1}{(a+1)^k}$$\n这就证明了引理。",
+    "tags": [
+      "引理",
+      "归纳法",
+      "导数分析"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

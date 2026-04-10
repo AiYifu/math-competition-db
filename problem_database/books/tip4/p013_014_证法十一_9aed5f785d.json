@@ -1,0 +1,25 @@
+{
+  "uid": "p013_014_证法十一_9aed5f785d",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "证法十一",
+  "problem_type": "proof",
+  "title": "证法十一(调整法)",
+  "source_pages": [
+    13,
+    14
+  ],
+  "stem_md": "(1)首先,如果$a_1=a_2=\\cdots=a_n$,那么必有$A_n=G_n$.下设这些数不全等,不妨设$a_1=\\min\\{a_1,a_2,\\cdots,a_n\\}$,$a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$,则$a_1<A_n<a_2$,$a_1<G_n<a_2$.令$b_1=A_n$,$b_2=a_1+A_n$,$b_i=a_i$,$i\\geqslant3$.并记$A_n^1=A_n$,且由于\n$b_1b_2-a_1a_2=A_n(a_1+a_2-A_n)-a_1a_2$\n$=(A_n-a_1)(a_2-A_n)>0$,\n所以$A_n\\geqslant A_{k-1}>0$($k=2,3,\\cdots,n$),且$kA_k-(k-1)A_{k-1}=a_k$.由引理3,得\n$A_n\\geqslant A_{k-1}>0$($k=2,3,\\cdots,n$),且$kA_k-(k-1)A_{k-1}=a_k$.由引理3,得\n$A_n^2\\geqslant G_n^2\\geqslant G_n$.如果$c_1=c_2=\\cdots=c_n$,那么$A_n^2=G_n^2$,从而$A_n=A_n^1\\geqslant G_n$.如果$c_1,c_2,\\cdots,c_n$仍然不全相等,再按上述方法,进行第三次变换,所得到的新的数组中必有3个数都为$A_n$.这样下去,一定存在某个数$m$($2\\leqslant m\\leqslant n$)使得\n$x_n^n=x_1\\frac{x_2^2}{x_1}\\frac{x_3^3}{x_2^2}\\cdots\\frac{x_n^n}{x_{n-1}^{n-1}}\\geqslant x_1(2x_2-x_1)(3x_3-2x_2)\\cdots[nx_n-(n-1)x_{n-1}]$.",
+  "solution_md": "证法十一(调整法)\n(1)首先,如果$a_1=a_2=\\cdots=a_n$,那么必有$A_n=G_n$.下设这些数不全等,不妨设$a_1=\\min\\{a_1,a_2,\\cdots,a_n\\}$,$a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$,则$a_1<A_n<a_2$,$a_1<G_n<a_2$.令$b_1=A_n$,$b_2=a_1+A_n$,$b_i=a_i$,$i\\geqslant3$.并记$A_n^1=A_n$,且由于\n$b_1b_2-a_1a_2=A_n(a_1+a_2-A_n)-a_1a_2$\n$=(A_n-a_1)(a_2-A_n)>0$,\n所以$A_n\\geqslant A_{k-1}>0$($k=2,3,\\cdots,n$),且$kA_k-(k-1)A_{k-1}=a_k$.由引理3,得\n$A_n\\geqslant A_{k-1}>0$($k=2,3,\\cdots,n$),且$kA_k-(k-1)A_{k-1}=a_k$.由引理3,得\n$A_n^2\\geqslant G_n^2\\geqslant G_n$.如果$c_1=c_2=\\cdots=c_n$,那么$A_n^2=G_n^2$,从而$A_n=A_n^1\\geqslant G_n$.如果$c_1,c_2,\\cdots,c_n$仍然不全相等,再按上述方法,进行第三次变换,所得到的新的数组中必有3个数都为$A_n$.这样下去,一定存在某个数$m$($2\\leqslant m\\leqslant n$)使得\n$x_n^n=x_1\\frac{x_2^2}{x_1}\\frac{x_3^3}{x_2^2}\\cdots\\frac{x_n^n}{x_{n-1}^{n-1}}\\geqslant x_1(2x_2-x_1)(3x_3-2x_2)\\cdots[nx_n-(n-1)x_{n-1}]$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "证法十一(调整法)\n(1)首先,如果$a_1=a_2=\\cdots=a_n$,那么必有$A_n=G_n$.下设这些数不全等,不妨设$a_1=\\min\\{a_1,a_2,\\cdots,a_n\\}$,$a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$,则$a_1<A_n<a_2$,$a_1<G_n<a_2$.令$b_1=A_n$,$b_2=a_1+A_n$,$b_i=a_i$,$i\\geqslant3$.并记$A_n^1=A_n$,且由于\n$b_1b_2-a_1a_2=A_n(a_1+a_2-A_n)-a_1a_2$\n$=(A_n-a_1)(a_2-A_n)>0$,\n所以$A_n\\geqslant A_{k-1}>0$($k=2,3,\\cdots,n$),且$kA_k-(k-1)A_{k-1}=a_k$.由引理3,得\n$A_n\\geqslant A_{k-1}>0$($k=2,3,\\cdots,n$),且$kA_k-(k-1)A_{k-1}=a_k$.由引理3,得\n$A_n^2\\geqslant G_n^2\\geqslant G_n$.如果$c_1=c_2=\\cdots=c_n$,那么$A_n^2=G_n^2$,从而$A_n=A_n^1\\geqslant G_n$.如果$c_1,c_2,\\cdots,c_n$仍然不全相等,再按上述方法,进行第三次变换,所得到的新的数组中必有3个数都为$A_n$.这样下去,一定存在某个数$m$($2\\leqslant m\\leqslant n$)使得\n$x_n^n=x_1\\frac{x_2^2}{x_1}\\frac{x_3^3}{x_2^2}\\cdots\\frac{x_n^n}{x_{n-1}^{n-1}}\\geqslant x_1(2x_2-x_1)(3x_3-2x_2)\\cdots[nx_n-(n-1)x_{n-1}]$.",
+  "tags": [
+    "平均值不等式",
+    "调整法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

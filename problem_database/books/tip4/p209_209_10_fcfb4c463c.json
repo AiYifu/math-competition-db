@@ -1,0 +1,23 @@
+{
+  "uid": "p209_209_10_fcfb4c463c",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "10",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "令 $a=\\frac{x}{y}$, $b=\\frac{y}{z}$, $c=\\frac{z}{x}$, 则原不等式等价于 $\\frac{y}{2x+y}+\\frac{z}{2y+z}+\\frac{x}{2z+x}\\geqslant1$. 由柯西不等式, 得 $[x(x+2z)+y(y+2x)+z(z+2y)]\\left(\\frac{x}{x+2z}+\\frac{y}{y+2x}+\\frac{z}{z+2y}\\right)\\geqslant(x+y+z)^2$, 即 $(x+y+z)^2\\left(\\frac{x}{x+2z}+\\frac{y}{y+2x}+\\frac{z}{z+2y}\\right)\\geqslant(x+y+z)^2$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "10. 令 $a=\\frac{x}{y}$, $b=\\frac{y}{z}$, $c=\\frac{z}{x}$, 则原不等式等价于 $\\frac{y}{2x+y}+\\frac{z}{2y+z}+\\frac{x}{2z+x}\\geqslant1$. 由柯西不等式, 得 $[x(x+2z)+y(y+2x)+z(z+2y)]\\left(\\frac{x}{x+2z}+\\frac{y}{y+2x}+\\frac{z}{z+2y}\\right)\\geqslant(x+y+z)^2$, 即 $(x+y+z)^2\\left(\\frac{x}{x+2z}+\\frac{y}{y+2x}+\\frac{z}{z+2y}\\right)\\geqslant(x+y+z)^2$.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

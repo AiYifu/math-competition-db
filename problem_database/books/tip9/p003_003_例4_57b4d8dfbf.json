@@ -1,0 +1,24 @@
+{
+  "uid": "p003_003_例4_57b4d8dfbf",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例4",
+  "problem_type": "example",
+  "title": "比较法",
+  "source_pages": [
+    3
+  ],
+  "stem_md": "设 $a, b, c \\in \\mathbf{R}_+$, 求证: $a^{2a}b^{2b}c^{2c} \\geq a^{b + c}b^{c + a}c^{a + b}$.",
+  "solution_md": "证明 由于不等式是关于 $a, b, c$ 对称的, 不妨设 $a \\geq b \\geq c$, 于是\n$$\\frac{a^{2a}b^{2b}c^{2c}}{a^{b + c}b^{c + a}c^{a + b}} = \\left(\\frac{a}{b}\\right)^{a - b}\\left(\\frac{b}{c}\\right)^{b - c}\\left(\\frac{a}{c}\\right)^{a - c} \\geq 1,$$\n即\n$$a^{2a}b^{2b}c^{2c} \\geq (abc)^{\\frac{a + b + c}{3}}.$$\n一般地, 设 $x_i \\in \\mathbf{R}_+$, $i = 1, 2, \\cdots, n$, 则有\n$$x_1^{x_1} \\cdot x_2^{x_2} \\cdot \\cdots \\cdot x_n^{x_n} \\geq (x_1x_2 \\cdots x_n)^{\\frac{x_1 + x_2 + \\cdots + x_n}{n}},$$\n证法与本例完全一样.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例4 设 $a, b, c \\in \\mathbf{R}_+$, 求证: $a^{2a}b^{2b}c^{2c} \\geq a^{b + c}b^{c + a}c^{a + b}$.\n证明 由于不等式是关于 $a, b, c$ 对称的, 不妨设 $a \\geq b \\geq c$, 于是\n$$\\frac{a^{2a}b^{2b}c^{2c}}{a^{b + c}b^{c + a}c^{a + b}} = \\left(\\frac{a}{b}\\right)^{a - b}\\left(\\frac{b}{c}\\right)^{b - c}\\left(\\frac{a}{c}\\right)^{a - c} \\geq 1,$$\n即\n$$a^{2a}b^{2b}c^{2c} \\geq (abc)^{\\frac{a + b + c}{3}}.$$\n一般地, 设 $x_i \\in \\mathbf{R}_+$, $i = 1, 2, \\cdots, n$, 则有\n$$x_1^{x_1} \\cdot x_2^{x_2} \\cdot \\cdots \\cdot x_n^{x_n} \\geq (x_1x_2 \\cdots x_n)^{\\frac{x_1 + x_2 + \\cdots + x_n}{n}},$$\n证法与本例完全一样.",
+  "tags": [
+    "不等式证明",
+    "比较法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "p172_172_例5_2_7_b425fbef65",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "2",
+  "problem_id": "例5.2.7",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Algebraic Inequalities",
+  "source_pages": [
+    172
+  ],
+  "stem_md": "设 $a, b, c, d$ 是实数, 对于 $k \\leqslant \\frac{\\sqrt{3} - 1}{2}$, 证明\n\n$a^4 + b^4 + c^4 + d^4 + k(ab^3 + bc^3 + cd^3 + da^3) \\geqslant (k + 1)(a^3b + b^3c + c^3d + d^3a)$",
+  "solution_md": "首先, 我们来证明, 对所有实数 $x, y$, 有\n\n$x^4 + kxy^3 - (k + 1)x^3y \\geqslant \\frac{1 - 2k}{4}(x^4 - y^4)$\n\n事实上, 注意到\n\n$x^4 + kxy^3 - (k + 1)x^3y - \\frac{1 - 2k}{4}(x^4 - y^4)$\n\n$= \\frac{1}{4}(x - y)^2[(2k + 3)x^2 - 2xy + (1 - 2k)y^2]$\n\n因为 $2k + 2k^2 \\leqslant 1$, 所以\n\n$(2k + 3)x^2 - 2xy + (1 - 2k)y^2$\n\n$= (2k + 3)\\left(x - \\frac{y}{2k + 3}\\right)^2 + \\frac{2(1 - 2k - 2k^2)y^2}{2k + 3} \\geqslant 0$\n\n因此, (*) 成立. 由 (*), 我们有\n\n$\\sum a^4 + k\\sum ab^3 - (k + 1)\\sum a^3b \\geqslant \\frac{1 - 2k}{4}\\sum(a^4 - b^4) = 0$\n\n不等式得证, 等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$ 或 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.7(Vasile Cirtoaje, Algebraic Inequalities) 设 $a, b, c, d$ 是实数, 对于 $k \\leqslant \\frac{\\sqrt{3} - 1}{2}$, 证明\n\n$a^4 + b^4 + c^4 + d^4 + k(ab^3 + bc^3 + cd^3 + da^3) \\geqslant (k + 1)(a^3b + b^3c + c^3d + d^3a)$\n\n证明 首先, 我们来证明, 对所有实数 $x, y$, 有\n\n$x^4 + kxy^3 - (k + 1)x^3y \\geqslant \\frac{1 - 2k}{4}(x^4 - y^4)$\n\n事实上, 注意到\n\n$x^4 + kxy^3 - (k + 1)x^3y - \\frac{1 - 2k}{4}(x^4 - y^4)$\n\n$= \\frac{1}{4}(x - y)^2[(2k + 3)x^2 - 2xy + (1 - 2k)y^2]$\n\n因为 $2k + 2k^2 \\leqslant 1$, 所以\n\n$(2k + 3)x^2 - 2xy + (1 - 2k)y^2$\n\n$= (2k + 3)\\left(x - \\frac{y}{2k + 3}\\right)^2 + \\frac{2(1 - 2k - 2k^2)y^2}{2k + 3} \\geqslant 0$\n\n因此, (*) 成立. 由 (*), 我们有\n\n$\\sum a^4 + k\\sum ab^3 - (k + 1)\\sum a^3b \\geqslant \\frac{1 - 2k}{4}\\sum(a^4 - b^4) = 0$\n\n不等式得证, 等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$ 或 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "tags": [
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

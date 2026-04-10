@@ -1,0 +1,25 @@
+{
+  "uid": "p015_016_例16_24026fbf47",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例16",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    15,
+    16
+  ],
+  "stem_md": "设 $x, y, z$ 是 3 个不全为零的实数，求 $\\frac{xy + 2yz}{x^2 + y^2 + z^2}$ 的最大值。",
+  "solution_md": "分析 欲求 $\\frac{xy + 2yz}{x^2 + y^2 + z^2}$ 的最大值，这里 $\\alpha, \\beta, \\gamma$ 是正整数，满足 $5\\alpha - \\beta + 4\\gamma = 0$，$\\alpha(1 + x) = \\beta(1 - x) = \\gamma(2x - 1)$。后者即\n$$[2(1 + x)]^5[30(1 - x)][5(2x - 1)]^2 \\leqslant \\left(\\frac{15}{4}\\right)^8,$$此时 $x = \\frac{7}{8}$。所以，当 $x = \\frac{7}{8}$ 时，$(1 + x)^5(1 - x)(2x - 1)^2$ 的最大值为 $\\frac{3^7 \\times 5^5}{2^{22}}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例16 设 $x, y, z$ 是 3 个不全为零的实数，求 $\\frac{xy + 2yz}{x^2 + y^2 + z^2}$ 的最大值。\n分析 欲求 $\\frac{xy + 2yz}{x^2 + y^2 + z^2}$ 的最大值，这里 $\\alpha, \\beta, \\gamma$ 是正整数，满足 $5\\alpha - \\beta + 4\\gamma = 0$，$\\alpha(1 + x) = \\beta(1 - x) = \\gamma(2x - 1)$。后者即\n$$[2(1 + x)]^5[30(1 - x)][5(2x - 1)]^2 \\leqslant \\left(\\frac{15}{4}\\right)^8,$$此时 $x = \\frac{7}{8}$。所以，当 $x = \\frac{7}{8}$ 时，$(1 + x)^5(1 - x)(2x - 1)^2$ 的最大值为 $\\frac{3^7 \\times 5^5}{2^{22}}$。",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

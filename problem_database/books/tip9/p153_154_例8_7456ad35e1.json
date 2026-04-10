@@ -1,0 +1,26 @@
+{
+  "uid": "p153_154_例8_7456ad35e1",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "4",
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": "一些非“对称”不等式的处理方法",
+  "source_pages": [
+    153,
+    154
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots$ 为无限实数序列, 满足: 存在一个实数 $c$, 对所有 $i$ 有 $0 \\leqslant a_i \\leqslant c$, 并且 $|a_i - a_j| \\geqslant \\frac{1}{i + j}$ 成立 (对所有 $i \\neq j$), 求证: $c \\geqslant 1$.",
+  "solution_md": "证明 对固定的 $n \\geqslant 2$, 设序列前 $n$ 项可排序为\n$$0 \\leqslant a_{\\sigma(1)} < a_{\\sigma(2)} < \\cdots < a_{\\sigma(n)} \\leqslant c,$$\n其中, $\\sigma(1), \\sigma(2), \\sigma(3), \\cdots, \\sigma(n)$ 是 $1, 2, 3, \\cdots, n$ 的一个排列.\n于是,\n$c \\geqslant a_{\\sigma(n)} - a_{\\sigma(1)}$\n$= (a_{\\sigma(n)} - a_{\\sigma(n-1)}) + (a_{\\sigma(n-1)} - a_{\\sigma(n-2)}) + \\cdots + (a_{\\sigma(2)} - a_{\\sigma(1)})$\n$\\geqslant \\frac{1}{\\sigma(n) + \\sigma(n-1)} + \\frac{1}{\\sigma(n-1) + \\sigma(n-2)} + \\cdots + \\frac{1}{\\sigma(2) + \\sigma(1)}$.\n利用柯西不等式可得:\n$\\left[\\frac{1}{\\sigma(n) + \\sigma(n-1)} + \\cdots + \\frac{1}{\\sigma(2) + \\sigma(1)}\\right] \\left[(\\sigma(1) + \\sigma(n-1)) + \\cdots + (\\sigma(2) + \\sigma(1))\\right] \\geqslant (n-1)^2$.\n所以\n$\\frac{1}{\\sigma(n) + \\sigma(n-1)} + \\cdots + \\frac{1}{\\sigma(2) + \\sigma(1)}$\n$\\geqslant \\frac{(n-1)^2}{2[\\sigma(1) + \\cdots + \\sigma(n)] - \\sigma(1) - \\sigma(n)}$\n$= \\frac{(n-1)^2}{n(n+1) - \\sigma(1) - \\sigma(n)}$\n$\\geqslant \\frac{(n-1)^2}{n^2 + n - 3} \\geqslant \\frac{n-1}{n+3}$.\n故由①式知 $c \\geqslant 1 - \\frac{4}{n+3}$ 对所有 $n \\geqslant 2$ 成立, 因此 $c \\geqslant 1$, 结论成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a_1, a_2, \\cdots$ 为无限实数序列, 满足: 存在一个实数 $c$, 对所有 $i$ 有 $0 \\leqslant a_i \\leqslant c$, 并且 $|a_i - a_j| \\geqslant \\frac{1}{i + j}$ 成立 (对所有 $i \\neq j$), 求证: $c \\geqslant 1$.\n证明 对固定的 $n \\geqslant 2$, 设序列前 $n$ 项可排序为\n$$0 \\leqslant a_{\\sigma(1)} < a_{\\sigma(2)} < \\cdots < a_{\\sigma(n)} \\leqslant c,$$\n其中, $\\sigma(1), \\sigma(2), \\sigma(3), \\cdots, \\sigma(n)$ 是 $1, 2, 3, \\cdots, n$ 的一个排列.\n于是,\n$c \\geqslant a_{\\sigma(n)} - a_{\\sigma(1)}$\n$= (a_{\\sigma(n)} - a_{\\sigma(n-1)}) + (a_{\\sigma(n-1)} - a_{\\sigma(n-2)}) + \\cdots + (a_{\\sigma(2)} - a_{\\sigma(1)})$\n$\\geqslant \\frac{1}{\\sigma(n) + \\sigma(n-1)} + \\frac{1}{\\sigma(n-1) + \\sigma(n-2)} + \\cdots + \\frac{1}{\\sigma(2) + \\sigma(1)}$.\n利用柯西不等式可得:\n$\\left[\\frac{1}{\\sigma(n) + \\sigma(n-1)} + \\cdots + \\frac{1}{\\sigma(2) + \\sigma(1)}\\right] \\left[(\\sigma(1) + \\sigma(n-1)) + \\cdots + (\\sigma(2) + \\sigma(1))\\right] \\geqslant (n-1)^2$.\n所以\n$\\frac{1}{\\sigma(n) + \\sigma(n-1)} + \\cdots + \\frac{1}{\\sigma(2) + \\sigma(1)}$\n$\\geqslant \\frac{(n-1)^2}{2[\\sigma(1) + \\cdots + \\sigma(n)] - \\sigma(1) - \\sigma(n)}$\n$= \\frac{(n-1)^2}{n(n+1) - \\sigma(1) - \\sigma(n)}$\n$\\geqslant \\frac{(n-1)^2}{n^2 + n - 3} \\geqslant \\frac{n-1}{n+3}$.\n故由①式知 $c \\geqslant 1 - \\frac{4}{n+3}$ 对所有 $n \\geqslant 2$ 成立, 因此 $c \\geqslant 1$, 结论成立.",
+  "tags": [
+    "不等式",
+    "序列",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020"
+}

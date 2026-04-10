@@ -1,0 +1,32 @@
+{
+  "uid": "p025_032_例1_1_7_5395eac36c",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例1.1.7",
+  "problem_type": "example",
+  "title": "Hoo Jo Lee, IMO 2005",
+  "source_pages": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "stem_md": "设正实数 $x, y, z$ 满足 $xyz \\geqslant 1$, 证明\n$$\n\\frac{x^5 - x^2}{x^5 + y^2 + z^2} + \\frac{y^5 - y^2}{y^5 + z^2 + x^2} + \\frac{z^5 - z^2}{z^5 + x^2 + y^2} \\geqslant 0\n$$",
+  "solution_md": "注意到, $y^2 + z^2 \\geqslant 2yz$, 则\n$$\n\\frac{x^5 - x^2}{x^5 + y^2 + z^2} \\geqslant \\frac{x^5 - x^2 \\cdot xyz}{x^5 + (y^2 + z^2) \\cdot xyz} = \\frac{x^4 - x^2yz}{x^4 + yz(y^2 + z^2)}\n$$\n\\geqslant \\frac{2x^4 - x^2(y^2 + z^2)}{2x^4 + (y^2 + z^2)^2}\n\n设 $a = x^2, b = y^2, c = z^2$, 则只需证明\n$$\n\\sum \\frac{2c^2 - a(b + c)}{2c^2 + (a + b)^2} \\geqslant 0\n$$\n\\Leftrightarrow \\sum \\frac{c(c - a) + c(c - b)}{2c^2 + (a + b)^2} \\geqslant 0\n\n\\Leftrightarrow \\sum (a - b) \\left[ \\frac{a}{2a^2 + (b + c)^2} - \\frac{b}{2b^2 + (c + a)^2} \\right] \\geqslant 0\n\n\\Leftrightarrow \\sum \\frac{c^2 + c(a + b) + a^2 - ab + b^2}{[2a^2 + (b + c)^2][2b^2 + (c + a)^2]} \\cdot (a - b)^2 \\geqslant 0\n\n这最后的不等式是显然成立的, 等号成立的条件是 $x = y = z = 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.7(Hoo Jo Lee, IMO 2005) 设正实数 $x, y, z$ 满足 $xyz \\geqslant 1$, 证明\n$$\n\\frac{x^5 - x^2}{x^5 + y^2 + z^2} + \\frac{y^5 - y^2}{y^5 + z^2 + x^2} + \\frac{z^5 - z^2}{z^5 + x^2 + y^2} \\geqslant 0\n$$\n证明 注意到, $y^2 + z^2 \\geqslant 2yz$, 则\n$$\n\\frac{x^5 - x^2}{x^5 + y^2 + z^2} \\geqslant \\frac{x^5 - x^2 \\cdot xyz}{x^5 + (y^2 + z^2) \\cdot xyz} = \\frac{x^4 - x^2yz}{x^4 + yz(y^2 + z^2)}\n$$\n\\geqslant \\frac{2x^4 - x^2(y^2 + z^2)}{2x^4 + (y^2 + z^2)^2}\n\n设 $a = x^2, b = y^2, c = z^2$, 则只需证明\n$$\n\\sum \\frac{2c^2 - a(b + c)}{2c^2 + (a + b)^2} \\geqslant 0\n$$\n\\Leftrightarrow \\sum \\frac{c(c - a) + c(c - b)}{2c^2 + (a + b)^2} \\geqslant 0\n\n\\Leftrightarrow \\sum (a - b) \\left[ \\frac{a}{2a^2 + (b + c)^2} - \\frac{b}{2b^2 + (c + a)^2} \\right] \\geqslant 0\n\n\\Leftrightarrow \\sum \\frac{c^2 + c(a + b) + a^2 - ab + b^2}{[2a^2 + (b + c)^2][2b^2 + (c + a)^2]} \\cdot (a - b)^2 \\geqslant 0\n\n这最后的不等式是显然成立的, 等号成立的条件是 $x = y = z = 1$.",
+  "tags": [
+    "IMO",
+    "不等式证明",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

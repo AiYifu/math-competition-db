@@ -1,0 +1,21 @@
+{
+  "uid": "p226_226_15_67909e059c",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "stem_md": "15. (Bach Ngoc Thanh Cong, CPR) 设 $a, b, c$ 是非负实数, 证明\n$$\n\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} + \\frac{3abc}{2(ab^2+bc^2+ca^2)} \\geqslant 2\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "15. (Bach Ngoc Thanh Cong, CPR) 设 $a, b, c$ 是非负实数, 证明\n$$\n\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} + \\frac{3abc}{2(ab^2+bc^2+ca^2)} \\geqslant 2\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

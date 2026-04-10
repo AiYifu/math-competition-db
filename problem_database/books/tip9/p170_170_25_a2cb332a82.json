@@ -1,0 +1,24 @@
+{
+  "uid": "p170_170_25_a2cb332a82",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "25",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    170
+  ],
+  "stem_md": "定义集合 $A=\\{m\\mid a_m>b_m, 1\\leqslant m\\leqslant 31\\}$, $B=\\{n\\mid a_n<b_n, 1\\leqslant n\\leqslant 31\\}$. 令 $S_1=\\sum_{m\\in A}(a_m-b_m)$, $S_2=\\sum_{n\\in B}(b_n-a_n)$, 则 $S=S_1+S_2$. 又由(ii) 知, $S_1-S_2=\\sum_{m\\in A\\cup B}(a_m-b_m)=0$, 从而 $S_1=S_2=\\frac{S}{2}$. 当 $A=\\varnothing$ 时, $S=2S_1=0$. 以下设 $A\\neq\\varnothing$, 则 $B\\neq\\varnothing$, 此时 $|A|$, $|B|$ 为正整数, 且 $|A|+|B|\\leqslant 31$. 记 $u=a_k-b_k=\\max_{m\\in A}(a_m-b_m)$, $v=b_l-a_l=\\max_{n\\in B}(b_n-a_n)$. 我们证明 $u+v\\leqslant 1984$. 不失一般性, 设 $1\\leqslant k<l\\leqslant 31$, 则 $u+v=a_k-b_k+b_l-a_l=b_{31}-a_l-(b_k-a_k)-(a_l-a_k)$, 注意到(i), 有 $b_{31}\\leqslant 2015$, $b_{31}-b_l\\geqslant 31-l$, $b_k\\geqslant k$, $a_l-a_k\\geqslant l-k$, 故 $u+v\\leqslant 2015-(31-l)-k-(l-k)=1984$. 又显然有 $S_1\\leqslant u|A|$, $S_2\\leqslant v|B|$, 从而 $1984\\geqslant u+v\\geqslant \\frac{S_1}{|A|}+\\frac{S_2}{|B|}\\geqslant \\frac{S_1}{|A|}+\\frac{S_2}{31-|A|}=\\frac{S}{2}\\cdot\\frac{31}{|A|(31-|A|)}\\geqslant \\frac{31S}{2\\times 15\\times 16}$, 则 $S\\leqslant \\frac{2\\times 15\\times 16}{31}\\times 1984=30720$. 另一方面, 若取 $(a_1, a_2, \\cdots, a_{16}, a_{17}, a_{18}, \\cdots, a_{31})=(1, 2, \\cdots, 16, 2001, 2002, \\cdots, 2015)$, $(b_1, b_2, \\cdots, b_{31})=(961, 962, \\cdots, 991)$, 则条件(i), (ii) 均满足, 此时 $S=2S_1=2\\times 16\\times 960=30720$. 综上所述, $S$ 的最大值为 30720.",
+  "solution_md": "定义集合 $A=\\{m\\mid a_m>b_m, 1\\leqslant m\\leqslant 31\\}$, $B=\\{n\\mid a_n<b_n, 1\\leqslant n\\leqslant 31\\}$. 令 $S_1=\\sum_{m\\in A}(a_m-b_m)$, $S_2=\\sum_{n\\in B}(b_n-a_n)$, 则 $S=S_1+S_2$. 又由(ii) 知, $S_1-S_2=\\sum_{m\\in A\\cup B}(a_m-b_m)=0$, 从而 $S_1=S_2=\\frac{S}{2}$. 当 $A=\\varnothing$ 时, $S=2S_1=0$. 以下设 $A\\neq\\varnothing$, 则 $B\\neq\\varnothing$, 此时 $|A|$, $|B|$ 为正整数, 且 $|A|+|B|\\leqslant 31$. 记 $u=a_k-b_k=\\max_{m\\in A}(a_m-b_m)$, $v=b_l-a_l=\\max_{n\\in B}(b_n-a_n)$. 我们证明 $u+v\\leqslant 1984$. 不失一般性, 设 $1\\leqslant k<l\\leqslant 31$, 则 $u+v=a_k-b_k+b_l-a_l=b_{31}-a_l-(b_k-a_k)-(a_l-a_k)$, 注意到(i), 有 $b_{31}\\leqslant 2015$, $b_{31}-b_l\\geqslant 31-l$, $b_k\\geqslant k$, $a_l-a_k\\geqslant l-k$, 故 $u+v\\leqslant 2015-(31-l)-k-(l-k)=1984$. 又显然有 $S_1\\leqslant u|A|$, $S_2\\leqslant v|B|$, 从而 $1984\\geqslant u+v\\geqslant \\frac{S_1}{|A|}+\\frac{S_2}{|B|}\\geqslant \\frac{S_1}{|A|}+\\frac{S_2}{31-|A|}=\\frac{S}{2}\\cdot\\frac{31}{|A|(31-|A|)}\\geqslant \\frac{31S}{2\\times 15\\times 16}$, 则 $S\\leqslant \\frac{2\\times 15\\times 16}{31}\\times 1984=30720$. 另一方面, 若取 $(a_1, a_2, \\cdots, a_{16}, a_{17}, a_{18}, \\cdots, a_{31})=(1, 2, \\cdots, 16, 2001, 2002, \\cdots, 2015)$, $(b_1, b_2, \\cdots, b_{31})=(961, 962, \\cdots, 991)$, 则条件(i), (ii) 均满足, 此时 $S=2S_1=2\\times 16\\times 960=30720$. 综上所述, $S$ 的最大值为 30720.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "25. 定义集合 $A=\\{m\\mid a_m>b_m, 1\\leqslant m\\leqslant 31\\}$, $B=\\{n\\mid a_n<b_n, 1\\leqslant n\\leqslant 31\\}$. 令 $S_1=\\sum_{m\\in A}(a_m-b_m)$, $S_2=\\sum_{n\\in B}(b_n-a_n)$, 则 $S=S_1+S_2$. 又由(ii) 知, $S_1-S_2=\\sum_{m\\in A\\cup B}(a_m-b_m)=0$, 从而 $S_1=S_2=\\frac{S}{2}$. 当 $A=\\varnothing$ 时, $S=2S_1=0$. 以下设 $A\\neq\\varnothing$, 则 $B\\neq\\varnothing$, 此时 $|A|$, $|B|$ 为正整数, 且 $|A|+|B|\\leqslant 31$. 记 $u=a_k-b_k=\\max_{m\\in A}(a_m-b_m)$, $v=b_l-a_l=\\max_{n\\in B}(b_n-a_n)$. 我们证明 $u+v\\leqslant 1984$. 不失一般性, 设 $1\\leqslant k<l\\leqslant 31$, 则 $u+v=a_k-b_k+b_l-a_l=b_{31}-a_l-(b_k-a_k)-(a_l-a_k)$, 注意到(i), 有 $b_{31}\\leqslant 2015$, $b_{31}-b_l\\geqslant 31-l$, $b_k\\geqslant k$, $a_l-a_k\\geqslant l-k$, 故 $u+v\\leqslant 2015-(31-l)-k-(l-k)=1984$. 又显然有 $S_1\\leqslant u|A|$, $S_2\\leqslant v|B|$, 从而 $1984\\geqslant u+v\\geqslant \\frac{S_1}{|A|}+\\frac{S_2}{|B|}\\geqslant \\frac{S_1}{|A|}+\\frac{S_2}{31-|A|}=\\frac{S}{2}\\cdot\\frac{31}{|A|(31-|A|)}\\geqslant \\frac{31S}{2\\times 15\\times 16}$, 则 $S\\leqslant \\frac{2\\times 15\\times 16}{31}\\times 1984=30720$. 另一方面, 若取 $(a_1, a_2, \\cdots, a_{16}, a_{17}, a_{18}, \\cdots, a_{31})=(1, 2, \\cdots, 16, 2001, 2002, \\cdots, 2015)$, $(b_1, b_2, \\cdots, b_{31})=(961, 962, \\cdots, 991)$, 则条件(i), (ii) 均满足, 此时 $S=2S_1=2\\times 16\\times 960=30720$. 综上所述, $S$ 的最大值为 30720.",
+  "tags": [
+    "不等式",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

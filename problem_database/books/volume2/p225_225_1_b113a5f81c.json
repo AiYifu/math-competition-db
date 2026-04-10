@@ -1,0 +1,21 @@
+{
+  "uid": "p225_225_1_b113a5f81c",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    225
+  ],
+  "stem_md": "1. (Vasile Cirtoaje, mathlinks) 设 $a, b, c$ 是正实数, 证明\n$$\n\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} + \\frac{(\\sqrt{3}-1)(ab+bc+ca)}{a^2+b^2+c^2} \\geqslant \\frac{3}{2} + (\\sqrt{3}-1)\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "1. (Vasile Cirtoaje, mathlinks) 设 $a, b, c$ 是正实数, 证明\n$$\n\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} + \\frac{(\\sqrt{3}-1)(ab+bc+ca)}{a^2+b^2+c^2} \\geqslant \\frac{3}{2} + (\\sqrt{3}-1)\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_14_6daec3f960",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "14",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "14. (Darij Grinberg, Peter Scholze, Mathlinks) 设 $a, b, c$ 是正实数, 证明\n$$\n\\frac{(b+c)^2}{a^2+bc}+\\frac{(c+a)^2}{b^2+ca}+\\frac{(a+b)^2}{c^2+ab} \\geqslant 6\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "14. (Darij Grinberg, Peter Scholze, Mathlinks) 设 $a, b, c$ 是正实数, 证明\n$$\n\\frac{(b+c)^2}{a^2+bc}+\\frac{(c+a)^2}{b^2+ca}+\\frac{(a+b)^2}{c^2+ab} \\geqslant 6\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

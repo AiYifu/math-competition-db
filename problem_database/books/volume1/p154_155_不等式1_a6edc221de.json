@@ -1,0 +1,56 @@
+{
+  "uid": "p154_155_不等式1_a6edc221de",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": null,
+  "problem_id": "不等式(1)",
+  "problem_type": "theorem",
+  "title": "一般化问题",
+  "source_pages": [
+    154,
+    155
+  ],
+  "source_images": [
+    "page-154.jpg",
+    "page-155.jpg"
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数且满足 $x_1x_2\\cdots x_n = 1$，又设 $a \\leqslant 1, k = \\log_2 n$ 都是正常数，证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+1)^k} \\quad (1)$$",
+  "solution_md": "下面，我们采用归纳法来证明不等式(1)。\n\n当 $n=2$ 时，不难证明(1)是成立的。假设对 $n$ 个数(1)成立，我们来证明对 $n+1$ 个数(1)也成立。\n\n设 $a \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1)$ 是常数，$x_1, x_2, \\cdots, x_{n+1}$ 是满足\n$$x_1x_2\\cdots x_{n+1} = 1$$\n的正实数，我们要证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n+1}{(a+1)^k} \\quad (2)$$\n\n不失一般性，设 $x_1 \\geqslant x_2 \\geqslant \\cdots \\geqslant x_{n+1}$，令 $x_1x_2\\cdots x_n = t^n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，令 $y_i = \\frac{x_i}{t}$，则 $t \\geqslant 1, y_1y_2\\cdots y_n = 1$，又设 $\\alpha = \\frac{a}{t}$，则 $\\alpha \\leqslant a \\leqslant 1$，对变量 $y_1, y_2, \\cdots, y_n$ 及常数 $\\alpha \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1) \\geqslant c_n = \\log_2 n$，应用归纳假设，有\n$$\\frac{1}{(\\alpha+y_1)^k} + \\frac{1}{(\\alpha+y_2)^k} + \\cdots + \\frac{1}{(\\alpha+y_n)^k} \\geqslant \\frac{n}{(\\alpha+1)^k}$$\n$$\\Leftrightarrow \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_1}{t}\\right)^k} + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_2}{t}\\right)^k} + \\cdots + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_n}{t}\\right)^k} \\geqslant \\frac{n}{\\left(\\frac{a}{t}+1\\right)^k}$$\n$$\\Leftrightarrow \\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+t)^k}$$\n\n所以，只需证明\n$$\\frac{n}{(a+t)^k} + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n}{(a+1)^k}$$\n\n这由引理可知是成立的，这样就证明了原不等式是成立的。等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数且满足 $x_1x_2\\cdots x_n = 1$，又设 $a \\leqslant 1, k = \\log_2 n$ 都是正常数，证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+1)^k} \\quad (1)$$\n\n这就证明了引理。下面，我们采用归纳法来证明不等式(1)。\n\n当 $n=2$ 时，不难证明(1)是成立的。假设对 $n$ 个数(1)成立，我们来证明对 $n+1$ 个数(1)也成立。\n\n设 $a \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1)$ 是常数，$x_1, x_2, \\cdots, x_{n+1}$ 是满足\n$$x_1x_2\\cdots x_{n+1} = 1$$\n的正实数，我们要证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n+1}{(a+1)^k} \\quad (2)$$\n\n不失一般性，设 $x_1 \\geqslant x_2 \\geqslant \\cdots \\geqslant x_{n+1}$，令 $x_1x_2\\cdots x_n = t^n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，令 $y_i = \\frac{x_i}{t}$，则 $t \\geqslant 1, y_1y_2\\cdots y_n = 1$，又设 $\\alpha = \\frac{a}{t}$，则 $\\alpha \\leqslant a \\leqslant 1$，对变量 $y_1, y_2, \\cdots, y_n$ 及常数 $\\alpha \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1) \\geqslant c_n = \\log_2 n$，应用归纳假设，有\n$$\\frac{1}{(\\alpha+y_1)^k} + \\frac{1}{(\\alpha+y_2)^k} + \\cdots + \\frac{1}{(\\alpha+y_n)^k} \\geqslant \\frac{n}{(\\alpha+1)^k}$$\n$$\\Leftrightarrow \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_1}{t}\\right)^k} + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_2}{t}\\right)^k} + \\cdots + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_n}{t}\\right)^k} \\geqslant \\frac{n}{\\left(\\frac{a}{t}+1\\right)^k}$$\n$$\\Leftrightarrow \\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+t)^k}$$\n\n所以，只需证明\n$$\\frac{n}{(a+t)^k} + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n}{(a+1)^k}$$\n\n这由引理可知是成立的，这样就证明了原不等式是成立的。等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$。",
+  "tags": [
+    "归纳法",
+    "引理应用",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "a6edc221de90524ff8f97e1bba28a5f0a3ab5db6",
+  "raw_problem": {
+    "problem_id": "不等式(1)",
+    "problem_type": "theorem",
+    "chapter": "第4章",
+    "section": null,
+    "title": "一般化问题",
+    "source_pages": [
+      154,
+      155
+    ],
+    "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数且满足 $x_1x_2\\cdots x_n = 1$，又设 $a \\leqslant 1, k = \\log_2 n$ 都是正常数，证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+1)^k} \\quad (1)$$",
+    "solution_md": "下面，我们采用归纳法来证明不等式(1)。\n\n当 $n=2$ 时，不难证明(1)是成立的。假设对 $n$ 个数(1)成立，我们来证明对 $n+1$ 个数(1)也成立。\n\n设 $a \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1)$ 是常数，$x_1, x_2, \\cdots, x_{n+1}$ 是满足\n$$x_1x_2\\cdots x_{n+1} = 1$$\n的正实数，我们要证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n+1}{(a+1)^k} \\quad (2)$$\n\n不失一般性，设 $x_1 \\geqslant x_2 \\geqslant \\cdots \\geqslant x_{n+1}$，令 $x_1x_2\\cdots x_n = t^n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，令 $y_i = \\frac{x_i}{t}$，则 $t \\geqslant 1, y_1y_2\\cdots y_n = 1$，又设 $\\alpha = \\frac{a}{t}$，则 $\\alpha \\leqslant a \\leqslant 1$，对变量 $y_1, y_2, \\cdots, y_n$ 及常数 $\\alpha \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1) \\geqslant c_n = \\log_2 n$，应用归纳假设，有\n$$\\frac{1}{(\\alpha+y_1)^k} + \\frac{1}{(\\alpha+y_2)^k} + \\cdots + \\frac{1}{(\\alpha+y_n)^k} \\geqslant \\frac{n}{(\\alpha+1)^k}$$\n$$\\Leftrightarrow \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_1}{t}\\right)^k} + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_2}{t}\\right)^k} + \\cdots + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_n}{t}\\right)^k} \\geqslant \\frac{n}{\\left(\\frac{a}{t}+1\\right)^k}$$\n$$\\Leftrightarrow \\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+t)^k}$$\n\n所以，只需证明\n$$\\frac{n}{(a+t)^k} + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n}{(a+1)^k}$$\n\n这由引理可知是成立的，这样就证明了原不等式是成立的。等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数且满足 $x_1x_2\\cdots x_n = 1$，又设 $a \\leqslant 1, k = \\log_2 n$ 都是正常数，证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+1)^k} \\quad (1)$$\n\n这就证明了引理。下面，我们采用归纳法来证明不等式(1)。\n\n当 $n=2$ 时，不难证明(1)是成立的。假设对 $n$ 个数(1)成立，我们来证明对 $n+1$ 个数(1)也成立。\n\n设 $a \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1)$ 是常数，$x_1, x_2, \\cdots, x_{n+1}$ 是满足\n$$x_1x_2\\cdots x_{n+1} = 1$$\n的正实数，我们要证明\n$$\\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n+1}{(a+1)^k} \\quad (2)$$\n\n不失一般性，设 $x_1 \\geqslant x_2 \\geqslant \\cdots \\geqslant x_{n+1}$，令 $x_1x_2\\cdots x_n = t^n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，令 $y_i = \\frac{x_i}{t}$，则 $t \\geqslant 1, y_1y_2\\cdots y_n = 1$，又设 $\\alpha = \\frac{a}{t}$，则 $\\alpha \\leqslant a \\leqslant 1$，对变量 $y_1, y_2, \\cdots, y_n$ 及常数 $\\alpha \\leqslant 1, k \\geqslant c_{n+1} = \\log_2(n+1) \\geqslant c_n = \\log_2 n$，应用归纳假设，有\n$$\\frac{1}{(\\alpha+y_1)^k} + \\frac{1}{(\\alpha+y_2)^k} + \\cdots + \\frac{1}{(\\alpha+y_n)^k} \\geqslant \\frac{n}{(\\alpha+1)^k}$$\n$$\\Leftrightarrow \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_1}{t}\\right)^k} + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_2}{t}\\right)^k} + \\cdots + \\frac{1}{\\left(\\frac{a}{t}+\\frac{x_n}{t}\\right)^k} \\geqslant \\frac{n}{\\left(\\frac{a}{t}+1\\right)^k}$$\n$$\\Leftrightarrow \\frac{1}{(a+x_1)^k} + \\frac{1}{(a+x_2)^k} + \\cdots + \\frac{1}{(a+x_n)^k} \\geqslant \\frac{n}{(a+t)^k}$$\n\n所以，只需证明\n$$\\frac{n}{(a+t)^k} + \\frac{1}{(a+x_{n+1})^k} \\geqslant \\frac{n}{(a+1)^k}$$\n\n这由引理可知是成立的，这样就证明了原不等式是成立的。等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$。",
+    "tags": [
+      "归纳法",
+      "引理应用",
+      "不等式证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

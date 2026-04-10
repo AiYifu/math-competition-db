@@ -1,0 +1,56 @@
+{
+  "uid": "p118_119_例322_15a9d0601f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.2",
+  "problem_id": "例3.2.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    118,
+    119
+  ],
+  "source_images": [
+    "page-118.jpg",
+    "page-119.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=3$，证明\n$$\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$$",
+  "solution_md": "第一步，我们必须确定不等式的结论和假设。当然，原不等式的假设是 $ab+bc+ca=3$，结论是 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$。余下的条件\"$a,b,c$ 是正实数\"是一样的。所以，反转不等式应具有如下的形式：\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\square 3$$\n\n在这个形式中，我们不能马上知道方框里到底是什么符号（这个符号必须是 $\\geqslant$ 或 $\\leqslant$）。第二步，我们不得不分析数据以找到这个符号。当然，我们得承认原不等式和反转不等式都是成立的，从原不等式开始，如果我们减少 $a,b,c$ 到 $a',b',c'$，满足 $\\sqrt{a'+3}+\\sqrt{b'+3}+\\sqrt{c'+3}=6$（对减少的变量成立），则我们必定有 $a'b'+b'c'+c'a' \\leqslant ab+bc+ca=3$，这样就得到了在 $\\square$ 中放置的符号必须是\"$\\leqslant$\"，即\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\leqslant 3$$\n\n在最后一步，我们要证明上面得到的反转不等式，令 $x=\\sqrt{a+3}, y=\\sqrt{b+3}, z=\\sqrt{c+3}$（可以消去根号），则\n$$x+y+z=6$$\n\n另外，$a=x^2-3, b=y^2-3, c=z^2-3$，所以不等式变成\n$$(x^2-3)(y^2-3)+(y^2-3)(z^2-3)+(z^2-3)(x^2-3) \\leqslant 3$$\n$$\\Leftrightarrow x^2y^2+y^2z^2+z^2x^2+24 \\leqslant 6(x^2+y^2+z^2)$$\n\n事实上，这最后的不等式用 SOS 方法和整合变量法都是可行的方法，请自己完成吧！",
+  "answer_md": "",
+  "hints_md": "来源：Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 3.2.2(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=3$，证明\n$$\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$$\n\n证明及分析 第一步，我们必须确定不等式的结论和假设。当然，原不等式的假设是 $ab+bc+ca=3$，结论是 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$。余下的条件\"$a,b,c$ 是正实数\"是一样的。所以，反转不等式应具有如下的形式：\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\square 3$$\n\n在这个形式中，我们不能马上知道方框里到底是什么符号（这个符号必须是 $\\geqslant$ 或 $\\leqslant$）。第二步，我们不得不分析数据以找到这个符号。当然，我们得承认原不等式和反转不等式都是成立的，从原不等式开始，如果我们减少 $a,b,c$ 到 $a',b',c'$，满足 $\\sqrt{a'+3}+\\sqrt{b'+3}+\\sqrt{c'+3}=6$（对减少的变量成立），则我们必定有 $a'b'+b'c'+c'a' \\leqslant ab+bc+ca=3$，这样就得到了在 $\\square$ 中放置的符号必须是\"$\\leqslant$\"，即\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\leqslant 3$$\n\n在最后一步，我们要证明上面得到的反转不等式，令 $x=\\sqrt{a+3}, y=\\sqrt{b+3}, z=\\sqrt{c+3}$（可以消去根号），则\n$$x+y+z=6$$\n\n另外，$a=x^2-3, b=y^2-3, c=z^2-3$，所以不等式变成\n$$(x^2-3)(y^2-3)+(y^2-3)(z^2-3)+(z^2-3)(x^2-3) \\leqslant 3$$\n$$\\Leftrightarrow x^2y^2+y^2z^2+z^2x^2+24 \\leqslant 6(x^2+y^2+z^2)$$\n\n事实上，这最后的不等式用 SOS 方法和整合变量法都是可行的方法，请自己完成吧！",
+  "tags": [
+    "反证法",
+    "反转不等式",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "15a9d0601fada9dcdb7e2f6e0dce31b6ee393a21",
+  "raw_problem": {
+    "problem_id": "例3.2.2",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.2",
+    "title": null,
+    "source_pages": [
+      118,
+      119
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=3$，证明\n$$\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$$",
+    "solution_md": "第一步，我们必须确定不等式的结论和假设。当然，原不等式的假设是 $ab+bc+ca=3$，结论是 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$。余下的条件\"$a,b,c$ 是正实数\"是一样的。所以，反转不等式应具有如下的形式：\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\square 3$$\n\n在这个形式中，我们不能马上知道方框里到底是什么符号（这个符号必须是 $\\geqslant$ 或 $\\leqslant$）。第二步，我们不得不分析数据以找到这个符号。当然，我们得承认原不等式和反转不等式都是成立的，从原不等式开始，如果我们减少 $a,b,c$ 到 $a',b',c'$，满足 $\\sqrt{a'+3}+\\sqrt{b'+3}+\\sqrt{c'+3}=6$（对减少的变量成立），则我们必定有 $a'b'+b'c'+c'a' \\leqslant ab+bc+ca=3$，这样就得到了在 $\\square$ 中放置的符号必须是\"$\\leqslant$\"，即\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\leqslant 3$$\n\n在最后一步，我们要证明上面得到的反转不等式，令 $x=\\sqrt{a+3}, y=\\sqrt{b+3}, z=\\sqrt{c+3}$（可以消去根号），则\n$$x+y+z=6$$\n\n另外，$a=x^2-3, b=y^2-3, c=z^2-3$，所以不等式变成\n$$(x^2-3)(y^2-3)+(y^2-3)(z^2-3)+(z^2-3)(x^2-3) \\leqslant 3$$\n$$\\Leftrightarrow x^2y^2+y^2z^2+z^2x^2+24 \\leqslant 6(x^2+y^2+z^2)$$\n\n事实上，这最后的不等式用 SOS 方法和整合变量法都是可行的方法，请自己完成吧！",
+    "answer_md": "",
+    "hints_md": "来源：Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 3.2.2(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是正实数，且满足 $ab+bc+ca=3$，证明\n$$\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$$\n\n证明及分析 第一步，我们必须确定不等式的结论和假设。当然，原不等式的假设是 $ab+bc+ca=3$，结论是 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3} \\geqslant 6$。余下的条件\"$a,b,c$ 是正实数\"是一样的。所以，反转不等式应具有如下的形式：\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\square 3$$\n\n在这个形式中，我们不能马上知道方框里到底是什么符号（这个符号必须是 $\\geqslant$ 或 $\\leqslant$）。第二步，我们不得不分析数据以找到这个符号。当然，我们得承认原不等式和反转不等式都是成立的，从原不等式开始，如果我们减少 $a,b,c$ 到 $a',b',c'$，满足 $\\sqrt{a'+3}+\\sqrt{b'+3}+\\sqrt{c'+3}=6$（对减少的变量成立），则我们必定有 $a'b'+b'c'+c'a' \\leqslant ab+bc+ca=3$，这样就得到了在 $\\square$ 中放置的符号必须是\"$\\leqslant$\"，即\n\n设 $a,b,c$ 是正实数，且满足 $\\sqrt{a+3}+\\sqrt{b+3}+\\sqrt{c+3}=6$，证明\n$$ab+bc+ca \\leqslant 3$$\n\n在最后一步，我们要证明上面得到的反转不等式，令 $x=\\sqrt{a+3}, y=\\sqrt{b+3}, z=\\sqrt{c+3}$（可以消去根号），则\n$$x+y+z=6$$\n\n另外，$a=x^2-3, b=y^2-3, c=z^2-3$，所以不等式变成\n$$(x^2-3)(y^2-3)+(y^2-3)(z^2-3)+(z^2-3)(x^2-3) \\leqslant 3$$\n$$\\Leftrightarrow x^2y^2+y^2z^2+z^2x^2+24 \\leqslant 6(x^2+y^2+z^2)$$\n\n事实上，这最后的不等式用 SOS 方法和整合变量法都是可行的方法，请自己完成吧！",
+    "tags": [
+      "反证法",
+      "反转不等式",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

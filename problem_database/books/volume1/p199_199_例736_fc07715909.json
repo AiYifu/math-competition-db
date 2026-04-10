@@ -1,0 +1,53 @@
+{
+  "uid": "p199_199_例736_fc07715909",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.3",
+  "problem_id": "例7.3.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    199
+  ],
+  "source_images": [
+    "page-199.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=1$，则\n$$ab+bc+cd+da+ac+bd\\geqslant 24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)$$",
+  "solution_md": "令\n$$m=\\sqrt{a^2+b^2}, n=\\sqrt{\\frac{a^2+b^2}{2}}$$\n$$f(a,b,c,d)=24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)-(ab+bc+cd+da+ac+bd)$$\n\n容易证明\n$$\\begin{aligned}f(a,b,c,d)-f(m,0,c,d)&=24(c^2+d^2)a^2b^2-(c+d)(a+b-\\sqrt{a^2+b^2})-ab\\\\&=ab\\left[24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1\\right]\\end{aligned}$$\n\n和\n$$\\begin{aligned}f(a,b,c,d)-f(n,n,c,d)&=24(c^2+d^2)\\left[a^2b^2-\\left(\\frac{a^2+b^2}{2}\\right)^2\\right]-\\\\&(c+d)(a+b-\\sqrt{2(a^2+b^2)})-\\\\&\\left(ab-\\frac{a^2+b^2}{2}\\right)\\\\&=\\frac{(a-b)^2}{4}\\left[-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2\\right]\\end{aligned}$$\n\n设\n$$M=24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1$$\n$$N=-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2$$\n\n显然我们有\n$$\\begin{aligned}2M+N&=-24(c^2+d^2)(a^2+b^2)-\\frac{4(\\sqrt{2}-1)(c+d)\\sqrt{a^2+b^2}}{(a+b+\\sqrt{a^2+b^2})(a+b+\\sqrt{2(a^2+b^2)})}\\\\&<0\\end{aligned}$$\n\n所以，$M$ 或 $N$ 中必定有一个非正。换句话说\n$$f(a,b,c,d)\\leqslant\\max\\{f(m,0,c,d),f(n,n,c,d)\\}$$\n\n根据 UMV 定理，我们推出，表达式 $f(a,b,c,d)$ 达到最大值，当且仅当 $a=b=c=d$ 或 $a=b=c,d=0$ 或 $a=b,c=d=0$ 或 $b=c=d=0$，对于这些情况，不等式显然是成立的。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.3.6(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=1$，则\n$$ab+bc+cd+da+ac+bd\\geqslant 24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)$$\n证明 令\n$$m=\\sqrt{a^2+b^2}, n=\\sqrt{\\frac{a^2+b^2}{2}}$$\n$$f(a,b,c,d)=24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)-(ab+bc+cd+da+ac+bd)$$\n容易证明\n$$f(a,b,c,d)-f(m,0,c,d)=24(c^2+d^2)a^2b^2-(c+d)(a+b-\\sqrt{a^2+b^2})-ab$$\n$$=ab\\left[24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1\\right]$$\n和\n$$f(a,b,c,d)-f(n,n,c,d)=24(c^2+d^2)\\left[a^2b^2-\\left(\\frac{a^2+b^2}{2}\\right)^2\\right]-$$\n$$(c+d)(a+b-\\sqrt{2(a^2+b^2)})-$$\n$$\\left(ab-\\frac{a^2+b^2}{2}\\right)$$\n$$=\\frac{(a-b)^2}{4}\\left[-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2\\right]$$\n设\n$$M=24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1$$\n$$N=-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2$$\n显然我们有\n$$2M+N=-24(c^2+d^2)(a^2+b^2)-\\frac{4(\\sqrt{2}-1)(c+d)\\sqrt{a^2+b^2}}{(a+b+\\sqrt{a^2+b^2})(a+b+\\sqrt{2(a^2+b^2)})}$$\n$$<0$$\n所以，$M$ 或 $N$ 中必定有一个非正。换句话说\n$$f(a,b,c,d)\\leqslant\\max\\{f(m,0,c,d),f(n,n,c,d)\\}$$\n根据 UMV 定理，我们推出，表达式 $f(a,b,c,d)$ 达到最大值，当且仅当 $a=b=c=d$ 或 $a=b=c,d=0$ 或 $a=b,c=d=0$ 或 $b=c=d=0$，对于这些情况，不等式显然是成立的。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+  "tags": [
+    "UMV定理",
+    "四元不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "fc077159092d47c82e324894c154b79f5bd54618",
+  "raw_problem": {
+    "problem_id": "例7.3.6",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.3",
+    "title": null,
+    "source_pages": [
+      199
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=1$，则\n$$ab+bc+cd+da+ac+bd\\geqslant 24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)$$",
+    "solution_md": "令\n$$m=\\sqrt{a^2+b^2}, n=\\sqrt{\\frac{a^2+b^2}{2}}$$\n$$f(a,b,c,d)=24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)-(ab+bc+cd+da+ac+bd)$$\n\n容易证明\n$$\\begin{aligned}f(a,b,c,d)-f(m,0,c,d)&=24(c^2+d^2)a^2b^2-(c+d)(a+b-\\sqrt{a^2+b^2})-ab\\\\&=ab\\left[24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1\\right]\\end{aligned}$$\n\n和\n$$\\begin{aligned}f(a,b,c,d)-f(n,n,c,d)&=24(c^2+d^2)\\left[a^2b^2-\\left(\\frac{a^2+b^2}{2}\\right)^2\\right]-\\\\&(c+d)(a+b-\\sqrt{2(a^2+b^2)})-\\\\&\\left(ab-\\frac{a^2+b^2}{2}\\right)\\\\&=\\frac{(a-b)^2}{4}\\left[-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2\\right]\\end{aligned}$$\n\n设\n$$M=24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1$$\n$$N=-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2$$\n\n显然我们有\n$$\\begin{aligned}2M+N&=-24(c^2+d^2)(a^2+b^2)-\\frac{4(\\sqrt{2}-1)(c+d)\\sqrt{a^2+b^2}}{(a+b+\\sqrt{a^2+b^2})(a+b+\\sqrt{2(a^2+b^2)})}\\\\&<0\\end{aligned}$$\n\n所以，$M$ 或 $N$ 中必定有一个非正。换句话说\n$$f(a,b,c,d)\\leqslant\\max\\{f(m,0,c,d),f(n,n,c,d)\\}$$\n\n根据 UMV 定理，我们推出，表达式 $f(a,b,c,d)$ 达到最大值，当且仅当 $a=b=c=d$ 或 $a=b=c,d=0$ 或 $a=b,c=d=0$ 或 $b=c=d=0$，对于这些情况，不等式显然是成立的。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.3.6(Pham Kim Hung,Mathlinks) 设 $a,b,c,d$ 是非负实数，且满足 $a^2+b^2+c^2+d^2=1$，则\n$$ab+bc+cd+da+ac+bd\\geqslant 24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)$$\n证明 令\n$$m=\\sqrt{a^2+b^2}, n=\\sqrt{\\frac{a^2+b^2}{2}}$$\n$$f(a,b,c,d)=24(a^2b^2c^2+b^2c^2d^2+c^2d^2a^2+d^2a^2b^2)-(ab+bc+cd+da+ac+bd)$$\n容易证明\n$$f(a,b,c,d)-f(m,0,c,d)=24(c^2+d^2)a^2b^2-(c+d)(a+b-\\sqrt{a^2+b^2})-ab$$\n$$=ab\\left[24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1\\right]$$\n和\n$$f(a,b,c,d)-f(n,n,c,d)=24(c^2+d^2)\\left[a^2b^2-\\left(\\frac{a^2+b^2}{2}\\right)^2\\right]-$$\n$$(c+d)(a+b-\\sqrt{2(a^2+b^2)})-$$\n$$\\left(ab-\\frac{a^2+b^2}{2}\\right)$$\n$$=\\frac{(a-b)^2}{4}\\left[-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2\\right]$$\n设\n$$M=24(c^2+d^2)ab-\\frac{2(c+d)}{a+b+\\sqrt{a^2+b^2}}-1$$\n$$N=-24(c^2+d^2)(a+b)^2+\\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}+2$$\n显然我们有\n$$2M+N=-24(c^2+d^2)(a^2+b^2)-\\frac{4(\\sqrt{2}-1)(c+d)\\sqrt{a^2+b^2}}{(a+b+\\sqrt{a^2+b^2})(a+b+\\sqrt{2(a^2+b^2)})}$$\n$$<0$$\n所以，$M$ 或 $N$ 中必定有一个非正。换句话说\n$$f(a,b,c,d)\\leqslant\\max\\{f(m,0,c,d),f(n,n,c,d)\\}$$\n根据 UMV 定理，我们推出，表达式 $f(a,b,c,d)$ 达到最大值，当且仅当 $a=b=c=d$ 或 $a=b=c,d=0$ 或 $a=b,c=d=0$ 或 $b=c=d=0$，对于这些情况，不等式显然是成立的。等号成立的条件是 $a=b=c=d=\\frac{1}{2}$。",
+    "tags": [
+      "UMV定理",
+      "四元不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

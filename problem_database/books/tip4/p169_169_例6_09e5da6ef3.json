@@ -1,0 +1,21 @@
+{
+  "uid": "p169_169_例6_09e5da6ef3",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    169
+  ],
+  "stem_md": "设 $n \\in \\mathbf{Z}_+$, 求最小实数 $t = t(n)$, 使得对 $x_i \\in \\mathbf{R}$, $1 \\leqslant i \\leqslant n$, $$\\sum_{k=1}^{n} (x_1 + x_2 + \\cdots + x_k)^2 \\leqslant t(n) \\sum_{i=1}^{n} x_i^2.$$",
+  "solution_md": "解 令 $\\alpha = \\frac{\\pi}{2n+1}$, 则 $\\sin n\\alpha = \\sin (n+1)\\alpha$. 记 $c_i = \\sin i\\alpha - \\sin (i-1)\\alpha$, $1 \\leqslant i \\leqslant n$. 则 $c_i > 0$, $1 \\leqslant i \\leqslant n$. 令 $s_k = \\sum_{i=1}^{k} c_i = \\sin k\\alpha$, $1 \\leqslant k \\leqslant n$. 由柯西不等式得 $$(x_1 + \\cdots + x_k)^2 \\leqslant (c_1 + \\cdots + c_k)\\left(\\frac{x_1^2}{c_1} + \\cdots + \\frac{x_k^2}{c_k}\\right) = \\sum_{k=1}^{n} \\left(s_k \\sum_{i=1}^{k} \\frac{x_i^2}{c_i}\\right) = \\sum_{i=1}^{n} \\sum_{k=i}^{n} s_k \\frac{x_i^2}{c_i} = \\sum_{i=1}^{n} \\frac{s_i + s_{i+1} + \\cdots + s_n}{c_i} x_i^2 = \\frac{1}{4\\sin^2 \\frac{\\alpha}{2}}.$$ 事实上 $$\\frac{s_k + \\cdots + s_n}{c_k} = \\frac{\\sin k\\alpha + \\cdots + \\sin n\\alpha}{\\sin k\\alpha - \\sin (k-1)\\alpha} = \\frac{2\\sin \\frac{\\alpha}{2} (\\sin k\\alpha + \\cdots + \\sin n\\alpha)}{2\\sin \\frac{\\alpha}{2} \\cdot 2\\sin \\frac{\\alpha}{2} \\cos \\left(k - \\frac{1}{2}\\right)\\alpha} = \\frac{\\cos \\left(k - \\frac{1}{2}\\right)\\alpha}{4\\sin^2 \\frac{\\alpha}{2} \\cos \\left(k - \\frac{1}{2}\\right)\\alpha} = \\frac{1}{4\\sin^2 \\frac{\\alpha}{2}}.$$ 且等式成立的充要条件是 $\\frac{x_1}{c_1} = \\frac{x_2}{c_2} = \\cdots = \\frac{x_n}{c_n}$. 故 $t = t(n) = \\frac{1}{4\\sin^2 \\frac{\\alpha}{2}}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例6 设 $n \\in \\mathbf{Z}_+$, 求最小实数 $t = t(n)$, 使得对 $x_i \\in \\mathbf{R}$, $1 \\leqslant i \\leqslant n$, $$\\sum_{k=1}^{n} (x_1 + x_2 + \\cdots + x_k)^2 \\leqslant t(n) \\sum_{i=1}^{n} x_i^2.$$ 解 令 $\\alpha = \\frac{\\pi}{2n+1}$, 则 $\\sin n\\alpha = \\sin (n+1)\\alpha$. 记 $c_i = \\sin i\\alpha - \\sin (i-1)\\alpha$, $1 \\leqslant i \\leqslant n$. 则 $c_i > 0$, $1 \\leqslant i \\leqslant n$. 令 $s_k = \\sum_{i=1}^{k} c_i = \\sin k\\alpha$, $1 \\leqslant k \\leqslant n$. 由柯西不等式得 $$(x_1 + \\cdots + x_k)^2 \\leqslant (c_1 + \\cdots + c_k)\\left(\\frac{x_1^2}{c_1} + \\cdots + \\frac{x_k^2}{c_k}\\right) = \\sum_{k=1}^{n} \\left(s_k \\sum_{i=1}^{k} \\frac{x_i^2}{c_i}\\right) = \\sum_{i=1}^{n} \\sum_{k=i}^{n} s_k \\frac{x_i^2}{c_i} = \\sum_{i=1}^{n} \\frac{s_i + s_{i+1} + \\cdots + s_n}{c_i} x_i^2 = \\frac{1}{4\\sin^2 \\frac{\\alpha}{2}}.$$ 事实上 $$\\frac{s_k + \\cdots + s_n}{c_k} = \\frac{\\sin k\\alpha + \\cdots + \\sin n\\alpha}{\\sin k\\alpha - \\sin (k-1)\\alpha} = \\frac{2\\sin \\frac{\\alpha}{2} (\\sin k\\alpha + \\cdots + \\sin n\\alpha)}{2\\sin \\frac{\\alpha}{2} \\cdot 2\\sin \\frac{\\alpha}{2} \\cos \\left(k - \\frac{1}{2}\\right)\\alpha} = \\frac{\\cos \\left(k - \\frac{1}{2}\\right)\\alpha}{4\\sin^2 \\frac{\\alpha}{2} \\cos \\left(k - \\frac{1}{2}\\right)\\alpha} = \\frac{1}{4\\sin^2 \\frac{\\alpha}{2}}.$$ 且等式成立的充要条件是 $\\frac{x_1}{c_1} = \\frac{x_2}{c_2} = \\cdots = \\frac{x_n}{c_n}$. 故 $t = t(n) = \\frac{1}{4\\sin^2 \\frac{\\alpha}{2}}$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

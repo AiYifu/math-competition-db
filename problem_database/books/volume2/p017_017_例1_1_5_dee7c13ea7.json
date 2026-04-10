@@ -1,0 +1,24 @@
+{
+  "uid": "p017_017_例1_1_5_dee7c13ea7",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明 \n$$ \\frac{a^2 + b^2 + c^2}{ab + bc + ca} + \\frac{8abc}{(a + b)(b + c)(c + a)} \\geqslant 2 $$",
+  "solution_md": "证明及分析 第一步, 把不等式表示成平方和的形式. 注意到, 不等式左边第一项大于等于 1, 另一项小于等于 1, 因此, 很自然地把不等式写成如下形式\n$$ \\left(\\frac{a^2 + b^2 + c^2}{ab + bc + ca} - 1\\right) + \\left[\\frac{8abc}{(a + b)(b + c)(c + a)} - 1\\right] \\geqslant 0 $$\n但是 $\\alpha$ 并不总是非负的 (因为如果 $\\alpha$ 非负, 不等式得证), 于是, 在最后一步, 我们尝试整合“大的非负项 $\\beta(c - a)^2$” 和“小的负项 $\\alpha(a - b)^2$”, 这就是说, 只需证明 $\\beta(c - a)^2 + \\alpha(a - b)^2 \\geqslant 0$, 证毕.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.5 设 $a, b, c$ 是非负实数, 证明 \n$$ \\frac{a^2 + b^2 + c^2}{ab + bc + ca} + \\frac{8abc}{(a + b)(b + c)(c + a)} \\geqslant 2 $$\n证明及分析 第一步, 把不等式表示成平方和的形式. 注意到, 不等式左边第一项大于等于 1, 另一项小于等于 1, 因此, 很自然地把不等式写成如下形式\n$$ \\left(\\frac{a^2 + b^2 + c^2}{ab + bc + ca} - 1\\right) + \\left[\\frac{8abc}{(a + b)(b + c)(c + a)} - 1\\right] \\geqslant 0 $$\n但是 $\\alpha$ 并不总是非负的 (因为如果 $\\alpha$ 非负, 不等式得证), 于是, 在最后一步, 我们尝试整合“大的非负项 $\\beta(c - a)^2$” 和“小的负项 $\\alpha(a - b)^2$”, 这就是说, 只需证明 $\\beta(c - a)^2 + \\alpha(a - b)^2 \\geqslant 0$, 证毕.",
+  "tags": [
+    "不等式证明",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003"
+}

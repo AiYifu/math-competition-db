@@ -1,0 +1,51 @@
+{
+  "uid": "p112_112_例311_9c78580c42",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": "3.1 起步",
+  "problem_id": "例3.1.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    112
+  ],
+  "source_images": [
+    "page-112.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明下面三个不等式中至少有一个成立\n$$a(1-b) \\leqslant \\frac{1}{4}, \\quad b(1-c) \\leqslant \\frac{1}{4}, \\quad c(1-a) \\leqslant \\frac{1}{4}$$",
+  "solution_md": "**证明及分析** 我知道，这个问题对你来说非常简单。采用反证法，如果上面的不等式都不成立，则\n$$a(1-b) \\geqslant \\frac{1}{4}, \\quad b(1-c) \\geqslant \\frac{1}{4}, \\quad c(1-a) \\geqslant \\frac{1}{4}$$\n将它们相乘，有\n$$abc(1-b)(1-c)(1-a) \\geqslant \\frac{1}{64}$$\n这是不成立的，因为\n$$a(1-a) \\leqslant \\frac{1}{4}, \\quad b(1-b) \\leqslant \\frac{1}{4}, \\quad c(1-c) \\leqslant \\frac{1}{4}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.1.1 设 $a,b,c$ 是非负实数，证明下面三个不等式中至少有一个成立\n$$a(1-b)\\leqslant\\frac{1}{4},b(1-c)\\leqslant\\frac{1}{4},c(1-a)\\leqslant\\frac{1}{4}$$\n\n**证明及分析** 我知道，这个问题对你来说非常简单。采用反证法，如果上面的不等式都不成立，则\n$$a(1-b)\\geqslant\\frac{1}{4},b(1-c)\\geqslant\\frac{1}{4},c(1-a)\\geqslant\\frac{1}{4}$$\n将它们相乘，有\n$$abc(1-b)(1-c)(1-a)\\geqslant\\frac{1}{64}$$\n这是不成立的，因为\n$$a(1-a)\\leqslant\\frac{1}{4},b(1-b)\\leqslant\\frac{1}{4},c(1-c)\\leqslant\\frac{1}{4}$$",
+  "tags": [
+    "反证法",
+    "起步"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "9c78580c420bff3e2fb8864f2a6665362f49be6e",
+  "raw_problem": {
+    "problem_id": "例3.1.1",
+    "problem_type": "example",
+    "chapter": "第3章 反证法",
+    "section": "3.1 起步",
+    "title": null,
+    "source_pages": [
+      112
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明下面三个不等式中至少有一个成立\n$$a(1-b) \\leqslant \\frac{1}{4}, \\quad b(1-c) \\leqslant \\frac{1}{4}, \\quad c(1-a) \\leqslant \\frac{1}{4}$$",
+    "solution_md": "**证明及分析** 我知道，这个问题对你来说非常简单。采用反证法，如果上面的不等式都不成立，则\n$$a(1-b) \\geqslant \\frac{1}{4}, \\quad b(1-c) \\geqslant \\frac{1}{4}, \\quad c(1-a) \\geqslant \\frac{1}{4}$$\n将它们相乘，有\n$$abc(1-b)(1-c)(1-a) \\geqslant \\frac{1}{64}$$\n这是不成立的，因为\n$$a(1-a) \\leqslant \\frac{1}{4}, \\quad b(1-b) \\leqslant \\frac{1}{4}, \\quad c(1-c) \\leqslant \\frac{1}{4}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.1.1 设 $a,b,c$ 是非负实数，证明下面三个不等式中至少有一个成立\n$$a(1-b)\\leqslant\\frac{1}{4},b(1-c)\\leqslant\\frac{1}{4},c(1-a)\\leqslant\\frac{1}{4}$$\n\n**证明及分析** 我知道，这个问题对你来说非常简单。采用反证法，如果上面的不等式都不成立，则\n$$a(1-b)\\geqslant\\frac{1}{4},b(1-c)\\geqslant\\frac{1}{4},c(1-a)\\geqslant\\frac{1}{4}$$\n将它们相乘，有\n$$abc(1-b)(1-c)(1-a)\\geqslant\\frac{1}{64}$$\n这是不成立的，因为\n$$a(1-a)\\leqslant\\frac{1}{4},b(1-b)\\leqslant\\frac{1}{4},c(1-c)\\leqslant\\frac{1}{4}$$",
+    "tags": [
+      "反证法",
+      "起步"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

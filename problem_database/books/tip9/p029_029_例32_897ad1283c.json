@@ -1,0 +1,24 @@
+{
+  "uid": "p029_029_例32_897ad1283c",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例32",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    29
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 求证:\n$$\\frac{a^3}{bc} + \\frac{b^3}{ca} + \\frac{c^3}{ab} \\geqslant a + b + c.$$",
+  "solution_md": "证明 不妨设 $a \\leqslant b \\leqslant c$, 则\n$$a^3 \\leqslant b^3 \\leqslant c^3, \\frac{1}{bc} \\leqslant \\frac{1}{ca} \\leqslant \\frac{1}{ab},$$\n$$ab \\leqslant ac \\leqslant bc, \\frac{bc}{a(b + c)} \\geqslant \\frac{ca}{b(c + a)} \\geqslant \\frac{ab}{c(a + b)},$$\n所以\n$$\\frac{a^3}{bc} + \\frac{b^3}{ca} + \\frac{c^3}{ab} \\geqslant a + b + c.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是正实数, 求证:\n$$\\frac{a^3}{bc} + \\frac{b^3}{ca} + \\frac{c^3}{ab} \\geqslant a + b + c.$$",
+  "tags": [
+    "不等式",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_9_5545ae1d66",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "9",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n > 0$, 且 $x_1 x_2 \\cdots x_n = 1$. 求证: $$\\frac{1}{x_1(1 + x_1)} + \\frac{1}{x_2(1 + x_2)} + \\cdots + \\frac{1}{x_n(1 + x_n)} \\geqslant \\frac{n}{2}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_1, x_2, \\cdots, x_n > 0$, 且 $x_1 x_2 \\cdots x_n = 1$. 求证: $$\\frac{1}{x_1(1 + x_1)} + \\frac{1}{x_2(1 + x_2)} + \\cdots + \\frac{1}{x_n(1 + x_n)} \\geqslant \\frac{n}{2}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

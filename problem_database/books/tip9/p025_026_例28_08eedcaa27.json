@@ -1,0 +1,26 @@
+{
+  "uid": "p025_026_例28_08eedcaa27",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例28",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    25,
+    26
+  ],
+  "stem_md": "设 $a, b \\in \\mathbf{R}_+$.\n(1) 求 $S = \\frac{(a + 1)^2}{b} + \\frac{(b + 3)^2}{a}$ 的最小值;\n(2) 求 $T = \\frac{(a + 1)^3}{b^2} + \\frac{(b + 3)^3}{a^2}$ 的最小值.",
+  "solution_md": "解析 (1) 由柯西不等式, 得\n$$S \\cdot (b + a) \\geqslant (a + 1 + b + 3)^2,$$\n所以\n$$S \\geqslant \\frac{(a + b + 4)^2}{a + b} = (a + b) + \\frac{16}{a + b} + 8 \\geqslant 2 \\sqrt{16} + 8 = 16,$$\n当 $a = \\frac{7}{3}, b = \\frac{5}{3}$ 时等号成立.\n故 $S$ 的最小值为 16.\n(2) 由③(赫尔德不等式), 有\n$$\\left(\\frac{(a + 1)^3}{b^2} + \\frac{(b + 3)^3}{a^2}\\right)(b + a)(b + a) \\geqslant (a + 1 + b + 3)^3,$$\n所以\n$$T \\geqslant \\frac{(a + b + 4)^3}{a + b} = x + 12 + \\frac{64}{x} + \\frac{64}{x^2} (\\text{记 } a + b = x)$$\n$$= x + \\frac{64}{x} + \\left(\\frac{64}{x^2} - \\frac{16}{x} + 1\\right) + 11$$\n$$= \\left(x + \\frac{64}{x}\\right) + \\left(\\frac{8}{x} - 1\\right)^2 + 11$$\n$$\\geqslant 2 \\sqrt{64} + 0 + 11$$\n$$= 27.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b \\in \\mathbf{R}_+$.\n(1) 求 $S = \\frac{(a + 1)^2}{b} + \\frac{(b + 3)^2}{a}$ 的最小值;\n(2) 求 $T = \\frac{(a + 1)^3}{b^2} + \\frac{(b + 3)^3}{a^2}$ 的最小值.\n解析 (1) 由柯西不等式, 得\n$$S \\cdot (b + a) \\geqslant (a + 1 + b + 3)^2,$$\n所以\n$$S \\geqslant \\frac{(a + b + 4)^2}{a + b} = (a + b) + \\frac{16}{a + b} + 8 \\geqslant 2 \\sqrt{16} + 8 = 16,$$\n当 $a = \\frac{7}{3}, b = \\frac{5}{3}$ 时等号成立.\n故 $S$ 的最小值为 16.\n(2) 由③(赫尔德不等式), 有\n$$\\left(\\frac{(a + 1)^3}{b^2} + \\frac{(b + 3)^3}{a^2}\\right)(b + a)(b + a) \\geqslant (a + 1 + b + 3)^3,$$\n所以\n$$T \\geqslant \\frac{(a + b + 4)^3}{a + b} = x + 12 + \\frac{64}{x} + \\frac{64}{x^2} (\\text{记 } a + b = x)$$\n$$= x + \\frac{64}{x} + \\left(\\frac{64}{x^2} - \\frac{16}{x} + 1\\right) + 11$$\n$$= \\left(x + \\frac{64}{x}\\right) + \\left(\\frac{8}{x} - 1\\right)^2 + 11$$\n$$\\geqslant 2 \\sqrt{64} + 0 + 11$$\n$$= 27.$$",
+  "tags": [
+    "不等式",
+    "柯西不等式",
+    "赫尔德不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

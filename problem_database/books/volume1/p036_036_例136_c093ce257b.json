@@ -1,0 +1,51 @@
+{
+  "uid": "p036_036_例136_c093ce257b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.3",
+  "section": "对称不等式与SOS方法",
+  "problem_id": "例1.3.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    36
+  ],
+  "source_images": [
+    "page-036.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab\\sqrt{2a^2+2b^2}+bc\\sqrt{2b^2+2c^2}+ca\\sqrt{2c^2+2a^2}$$",
+  "solution_md": "不等式改写成如下形式\n$$\\sum a^3-3abc-\\sum ab(a+b)+6abc\\geqslant\\sum ab(\\sqrt{2a^2+2b^2}-a-b)$$\n$$\\Leftrightarrow\\frac{1}{2}\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b+\\sqrt{2a^2+2b^2}}$$\n注意到，$\\sqrt{2a^2+2b^2}\\geqslant a+b$，只需证明\n$$\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b}\\Leftrightarrow\\sum S_a(b-c)^2\\geqslant 0$$\n其中",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.6 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab\\sqrt{2a^2+2b^2}+bc\\sqrt{2b^2+2c^2}+ca\\sqrt{2c^2+2a^2}$$\n证明 不等式改写成如下形式\n$$\\sum a^3-3abc-\\sum ab(a+b)+6abc\\geqslant\\sum ab(\\sqrt{2a^2+2b^2}-a-b)$$\n$$\\Leftrightarrow\\frac{1}{2}\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b+\\sqrt{2a^2+2b^2}}$$\n注意到，$\\sqrt{2a^2+2b^2}\\geqslant a+b$，只需证明\n$$\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b}\\Leftrightarrow\\sum S_a(b-c)^2\\geqslant 0$$\n其中",
+  "tags": [
+    "SOS",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0004",
+  "raw_response_file": "raw/chunk-0004.response.txt",
+  "raw_api_file": "raw/chunk-0004.api.json",
+  "fingerprint": "c093ce257b47f5b57e51ce662228639f2a3fa1ca",
+  "raw_problem": {
+    "problem_id": "例1.3.6",
+    "problem_type": "example",
+    "chapter": "1.3",
+    "section": "对称不等式与SOS方法",
+    "title": null,
+    "source_pages": [
+      36
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab\\sqrt{2a^2+2b^2}+bc\\sqrt{2b^2+2c^2}+ca\\sqrt{2c^2+2a^2}$$",
+    "solution_md": "不等式改写成如下形式\n$$\\sum a^3-3abc-\\sum ab(a+b)+6abc\\geqslant\\sum ab(\\sqrt{2a^2+2b^2}-a-b)$$\n$$\\Leftrightarrow\\frac{1}{2}\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b+\\sqrt{2a^2+2b^2}}$$\n注意到，$\\sqrt{2a^2+2b^2}\\geqslant a+b$，只需证明\n$$\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b}\\Leftrightarrow\\sum S_a(b-c)^2\\geqslant 0$$\n其中",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.3.6 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab\\sqrt{2a^2+2b^2}+bc\\sqrt{2b^2+2c^2}+ca\\sqrt{2c^2+2a^2}$$\n证明 不等式改写成如下形式\n$$\\sum a^3-3abc-\\sum ab(a+b)+6abc\\geqslant\\sum ab(\\sqrt{2a^2+2b^2}-a-b)$$\n$$\\Leftrightarrow\\frac{1}{2}\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b+\\sqrt{2a^2+2b^2}}$$\n注意到，$\\sqrt{2a^2+2b^2}\\geqslant a+b$，只需证明\n$$\\sum(a+b-c)(a-b)^2\\geqslant\\sum\\frac{ab(a-b)^2}{a+b}\\Leftrightarrow\\sum S_a(b-c)^2\\geqslant 0$$\n其中",
+    "tags": [
+      "SOS",
+      "不等式证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

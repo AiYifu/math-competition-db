@@ -1,0 +1,25 @@
+{
+  "uid": "p085_086_习题2_1fe6e562a0",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "习题2",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    85,
+    86
+  ],
+  "stem_md": "1. 已知 $0 < a < 1$, $0 < b < 1$, 且 $ab = \\frac{1}{36}$. 求 $u = \\frac{1}{1 - a} + \\frac{1}{1 - b}$ 的最小值.\n2. 设 $a, b, c \\in \\mathbf{R}_+$, 且 $a + b + c = 3$. 证明:\n$$\n\\sum_{\\text{cyc}} \\frac{1}{a \\sqrt{2(a^2 + bc)}} \\geqslant \\sum_{\\text{cyc}} \\frac{1}{a + bc},\n$$\n3. 设 $x_i > 0$, $1 \\leqslant i \\leqslant n$. 证明:\n$$\n(1 + x_1)(1 + x_1 + x_2) \\cdots (1 + x_1 + \\cdots + x_n) \\geqslant \\sqrt{(n + 1)^{n + 1} x_1 x_2 \\cdots x_n}.\n$$\n4. 设 $a_1, a_2, \\cdots, a_n$ ($n \\geqslant 2$) 是正实数, 且满足 $a_1 + a_2 + \\cdots + a_n < 1$. 证明:\n$$\n\\frac{a_1 a_2 \\cdots a_n [1 - (a_1 + \\cdots + a_n)]}{(a_1 + a_2 + \\cdots + a_n)(1 - a_1)(1 - a_2) \\cdots (1 - a_n)} \\geqslant \\frac{1}{n^{n + 1}}.\n$$\n5. 设 $x, y, z \\in \\mathbf{R}_+$, $x \\neq y$. 求证:\n$$\nG - H < Q - A - G.\n$$\n6. 设 $x_1, x_2, \\cdots, x_n$ 为正数, 且最多一个为零. 求证:\n$$\n\\left[ \\prod_{i = 1}^{n} (a_i + b_i) \\right]^{\\frac{1}{n}} \\geqslant \\left( \\prod_{i = 1}^{n} a_i \\right)^{\\frac{1}{n}} + (n - 1) \\left( 1 - \\sqrt{\\frac{a_1}{a_n}} \\right).\n$$\n7. 设 $a, b, c$ 为某三角形三边之长. 令\n$$\nA = \\sum_{\\text{cyc}} \\frac{a^2 + bc}{b + c}, B = \\sum_{\\text{cyc}} \\frac{1}{2 \\sqrt{xy}},\n$$\n$$\nA = \\sum_{\\text{cyc}} \\frac{x^2 + y^2 + z^2 + xy + 3xz}{2x + y + z},\n$$\n$$\nAB = \\left( \\sum_{\\text{cyc}} \\frac{1}{2 \\sqrt{yz}} \\right) \\left( \\sum_{\\text{cyc}} \\frac{\\sum x^2 + \\sum xy + 2yz}{2x + y + z} \\right)^2.\n$$\n$$\n\\geqslant \\left( \\sqrt{\\sum 1} \\right)^2 = 3^2 = 9.\n$$\n故命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "习题2\n1. 已知 $0 < a < 1$, $0 < b < 1$, 且 $ab = \\frac{1}{36}$. 求 $u = \\frac{1}{1 - a} + \\frac{1}{1 - b}$ 的最小值.\n2. 设 $a, b, c \\in \\mathbf{R}_+$, 且 $a + b + c = 3$. 证明:\n$$\n\\sum_{\\text{cyc}} \\frac{1}{a \\sqrt{2(a^2 + bc)}} \\geqslant \\sum_{\\text{cyc}} \\frac{1}{a + bc},\n$$\n3. 设 $x_i > 0$, $1 \\leqslant i \\leqslant n$. 证明:\n$$\n(1 + x_1)(1 + x_1 + x_2) \\cdots (1 + x_1 + \\cdots + x_n) \\geqslant \\sqrt{(n + 1)^{n + 1} x_1 x_2 \\cdots x_n}.\n$$\n4. 设 $a_1, a_2, \\cdots, a_n$ ($n \\geqslant 2$) 是正实数, 且满足 $a_1 + a_2 + \\cdots + a_n < 1$. 证明:\n$$\n\\frac{a_1 a_2 \\cdots a_n [1 - (a_1 + \\cdots + a_n)]}{(a_1 + a_2 + \\cdots + a_n)(1 - a_1)(1 - a_2) \\cdots (1 - a_n)} \\geqslant \\frac{1}{n^{n + 1}}.\n$$\n5. 设 $x, y, z \\in \\mathbf{R}_+$, $x \\neq y$. 求证:\n$$\nG - H < Q - A - G.\n$$\n6. 设 $x_1, x_2, \\cdots, x_n$ 为正数, 且最多一个为零. 求证:\n$$\n\\left[ \\prod_{i = 1}^{n} (a_i + b_i) \\right]^{\\frac{1}{n}} \\geqslant \\left( \\prod_{i = 1}^{n} a_i \\right)^{\\frac{1}{n}} + (n - 1) \\left( 1 - \\sqrt{\\frac{a_1}{a_n}} \\right).\n$$\n7. 设 $a, b, c$ 为某三角形三边之长. 令\n$$\nA = \\sum_{\\text{cyc}} \\frac{a^2 + bc}{b + c}, B = \\sum_{\\text{cyc}} \\frac{1}{2 \\sqrt{xy}},\n$$\n$$\nA = \\sum_{\\text{cyc}} \\frac{x^2 + y^2 + z^2 + xy + 3xz}{2x + y + z},\n$$\n$$\nAB = \\left( \\sum_{\\text{cyc}} \\frac{1}{2 \\sqrt{yz}} \\right) \\left( \\sum_{\\text{cyc}} \\frac{\\sum x^2 + \\sum xy + 2yz}{2x + y + z} \\right)^2.\n$$\n$$\n\\geqslant \\left( \\sqrt{\\sum 1} \\right)^2 = 3^2 = 9.\n$$\n故命题成立.",
+  "tags": [
+    "均值不等式",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0011"
+}

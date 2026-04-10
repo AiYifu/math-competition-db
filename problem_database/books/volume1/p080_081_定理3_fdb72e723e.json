@@ -1,0 +1,54 @@
+{
+  "uid": "p080_081_定理3_fdb72e723e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.3",
+  "problem_id": "定理3",
+  "problem_type": "theorem",
+  "title": "SMV定理",
+  "source_pages": [
+    80,
+    81
+  ],
+  "source_images": [
+    "page-080.jpg",
+    "page-081.jpg"
+  ],
+  "stem_md": "设函数 $f:\\mathbf{R}^n \\to \\mathbf{R}$ 是连续的、对称的、有下界的函数，满足\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(b_1,b_2,\\cdots,b_n)$$\n其中 $(b_1,b_2,\\cdots,b_n)$ 是由序列 $(a_1,a_2,\\cdots,a_n)$ 经过 $\\triangle$ 变换之后得到的序列，则\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a,a,\\cdots,a)$$\n其中 $a=\\frac{a_1+a_2+\\cdots+a_n}{n}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定理 3(SMV 定理) 设函数 $f:\\mathbf{R}^n \\to \\mathbf{R}$ 是连续的、对称的、有下界的函数，满足\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(b_1,b_2,\\cdots,b_n)$$\n其中 $(b_1,b_2,\\cdots,b_n)$ 是由序列 $(a_1,a_2,\\cdots,a_n)$ 经过 $\\triangle$ 变换之后得到的序列，则\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a,a,\\cdots,a)$$\n其中 $a=\\frac{a_1+a_2+\\cdots+a_n}{n}$.",
+  "tags": [
+    "SMV定理",
+    "强整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009",
+  "raw_response_file": "raw/chunk-0009.response.txt",
+  "raw_api_file": "raw/chunk-0009.api.json",
+  "fingerprint": "fdb72e723e6fea53e66d154775c7c055049a65dc",
+  "raw_problem": {
+    "problem_id": "定理3",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.3",
+    "title": "SMV定理",
+    "source_pages": [
+      80,
+      81
+    ],
+    "stem_md": "设函数 $f:\\mathbf{R}^n \\to \\mathbf{R}$ 是连续的、对称的、有下界的函数，满足\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(b_1,b_2,\\cdots,b_n)$$\n其中 $(b_1,b_2,\\cdots,b_n)$ 是由序列 $(a_1,a_2,\\cdots,a_n)$ 经过 $\\triangle$ 变换之后得到的序列，则\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a,a,\\cdots,a)$$\n其中 $a=\\frac{a_1+a_2+\\cdots+a_n}{n}$.",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定理 3(SMV 定理) 设函数 $f:\\mathbf{R}^n \\to \\mathbf{R}$ 是连续的、对称的、有下界的函数，满足\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(b_1,b_2,\\cdots,b_n)$$\n其中 $(b_1,b_2,\\cdots,b_n)$ 是由序列 $(a_1,a_2,\\cdots,a_n)$ 经过 $\\triangle$ 变换之后得到的序列，则\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant f(a,a,\\cdots,a)$$\n其中 $a=\\frac{a_1+a_2+\\cdots+a_n}{n}$.",
+    "tags": [
+      "SMV定理",
+      "强整合变量法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

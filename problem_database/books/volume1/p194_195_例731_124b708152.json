@@ -1,0 +1,56 @@
+{
+  "uid": "p194_195_例731_124b708152",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.3 不确定整合变量法",
+  "problem_id": "例7.3.1",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Algebraic Inequalities",
+  "source_pages": [
+    194,
+    195
+  ],
+  "source_images": [
+    "page-194.jpg",
+    "page-195.jpg"
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是非负实数，满足 $a_1 + a_2 + \\cdots + a_n = n$，证明\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n \\geqslant n^2$$",
+  "solution_md": "考察下列函数\n$$f(a_1, a_2, \\cdots, a_n) = (n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n$$\n\n我们有下列两个恒等式\n$$f(a_1, a_2, \\cdots, a_n) - f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right)$$\n$$= \\frac{n(a_1-a_2)^2}{4}\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n$$f(a_1, a_2, \\cdots, a_n) - f(0, a_1+a_2, a_3, \\cdots, a_n)$$\n$$= -n a_1 a_2\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n其中出现了公共因子 $\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n$，真是奇怪，不可想象。我们立即可以推出，下列两个不等式中\n$$\\begin{cases} f(a_1, a_2, \\cdots, a_n) \\geqslant f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right) \\\\ f(a_1, a_2, \\cdots, a_n) \\geqslant f(0, a_1+a_2, a_3, \\cdots, a_n) \\end{cases}$$\n至少有一个成立。\n\n换句话说，我们有\n$$f(a_1, a_2, \\cdots, a_n) \\geqslant \\min\\left\\{f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right), f(0, a_1+a_2, a_3, \\cdots, a_n)\\right\\}$$\n\n由UMV定理，我们只需证明不等式在 $n$ 个数 $a_1, a_2, \\cdots, a_n$ 中至少有一个等于0，或者它们全部都等于1时，成立即可。\n\n如果 $a_1 = a_2 = \\cdots = a_n = 1$，则不等式是显然成立的；如果 $a_n = 0$，则不等式变成\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant n^2$$\n$$\\Leftrightarrow (n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant (a_1 + a_2 + \\cdots + a_{n-1})^2$$\n\n由Cauchy-Schwarz不等式，这是显然成立的。等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$ 或 $a_1 = a_2 = \\cdots = a_{n-1} = \\frac{n}{n-1}$，$a_n = 0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "**例 7.3.1(Vasile Cirtoaje, Algebraic Inequalities)** 设 $a_1, a_2, \\cdots, a_n$ 是非负实数，满足 $a_1 + a_2 + \\cdots + a_n = n$，证明\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n \\geqslant n^2$$\n\n**证明** 考察下列函数\n$$f(a_1, a_2, \\cdots, a_n) = (n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n$$\n\n我们有下列两个恒等式\n$$f(a_1, a_2, \\cdots, a_n) - f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right)$$\n$$= \\frac{n(a_1-a_2)^2}{4}\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n$$f(a_1, a_2, \\cdots, a_n) - f(0, a_1+a_2, a_3, \\cdots, a_n)$$\n$$= -n a_1 a_2\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n其中出现了公共因子 $\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n$，真是奇怪，不可想象。我们立即可以推出，下列两个不等式中\n$$\\begin{cases} f(a_1, a_2, \\cdots, a_n) \\geqslant f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right) \\\\ f(a_1, a_2, \\cdots, a_n) \\geqslant f(0, a_1+a_2, a_3, \\cdots, a_n) \\end{cases}$$\n至少有一个成立。\n\n换句话说，我们有\n$$f(a_1, a_2, \\cdots, a_n) \\geqslant \\min\\left\\{f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right), f(0, a_1+a_2, a_3, \\cdots, a_n)\\right\\}$$\n\n由UMV定理，我们只需证明不等式在 $n$ 个数 $a_1, a_2, \\cdots, a_n$ 中至少有一个等于0，或者它们全部都等于1时，成立即可。\n\n如果 $a_1 = a_2 = \\cdots = a_n = 1$，则不等式是显然成立的；如果 $a_n = 0$，则不等式变成\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant n^2$$\n$$\\Leftrightarrow (n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant (a_1 + a_2 + \\cdots + a_{n-1})^2$$\n\n由Cauchy-Schwarz不等式，这是显然成立的。等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$ 或 $a_1 = a_2 = \\cdots = a_{n-1} = \\frac{n}{n-1}$，$a_n = 0$ 或其轮换。",
+  "tags": [
+    "UMV方法",
+    "Cauchy-Schwarz不等式",
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "124b708152b654a3f147376e631c96b0e2a965d9",
+  "raw_problem": {
+    "problem_id": "例7.3.1",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.3 不确定整合变量法",
+    "title": "Vasile Cirtoaje, Algebraic Inequalities",
+    "source_pages": [
+      194,
+      195
+    ],
+    "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是非负实数，满足 $a_1 + a_2 + \\cdots + a_n = n$，证明\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n \\geqslant n^2$$",
+    "solution_md": "考察下列函数\n$$f(a_1, a_2, \\cdots, a_n) = (n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n$$\n\n我们有下列两个恒等式\n$$f(a_1, a_2, \\cdots, a_n) - f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right)$$\n$$= \\frac{n(a_1-a_2)^2}{4}\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n$$f(a_1, a_2, \\cdots, a_n) - f(0, a_1+a_2, a_3, \\cdots, a_n)$$\n$$= -n a_1 a_2\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n其中出现了公共因子 $\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n$，真是奇怪，不可想象。我们立即可以推出，下列两个不等式中\n$$\\begin{cases} f(a_1, a_2, \\cdots, a_n) \\geqslant f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right) \\\\ f(a_1, a_2, \\cdots, a_n) \\geqslant f(0, a_1+a_2, a_3, \\cdots, a_n) \\end{cases}$$\n至少有一个成立。\n\n换句话说，我们有\n$$f(a_1, a_2, \\cdots, a_n) \\geqslant \\min\\left\\{f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right), f(0, a_1+a_2, a_3, \\cdots, a_n)\\right\\}$$\n\n由UMV定理，我们只需证明不等式在 $n$ 个数 $a_1, a_2, \\cdots, a_n$ 中至少有一个等于0，或者它们全部都等于1时，成立即可。\n\n如果 $a_1 = a_2 = \\cdots = a_n = 1$，则不等式是显然成立的；如果 $a_n = 0$，则不等式变成\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant n^2$$\n$$\\Leftrightarrow (n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant (a_1 + a_2 + \\cdots + a_{n-1})^2$$\n\n由Cauchy-Schwarz不等式，这是显然成立的。等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$ 或 $a_1 = a_2 = \\cdots = a_{n-1} = \\frac{n}{n-1}$，$a_n = 0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "**例 7.3.1(Vasile Cirtoaje, Algebraic Inequalities)** 设 $a_1, a_2, \\cdots, a_n$ 是非负实数，满足 $a_1 + a_2 + \\cdots + a_n = n$，证明\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n \\geqslant n^2$$\n\n**证明** 考察下列函数\n$$f(a_1, a_2, \\cdots, a_n) = (n-1)(a_1^2 + a_2^2 + \\cdots + a_n^2) + n a_1 a_2 \\cdots a_n$$\n\n我们有下列两个恒等式\n$$f(a_1, a_2, \\cdots, a_n) - f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right)$$\n$$= \\frac{n(a_1-a_2)^2}{4}\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n$$f(a_1, a_2, \\cdots, a_n) - f(0, a_1+a_2, a_3, \\cdots, a_n)$$\n$$= -n a_1 a_2\\left[\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n\\right]$$\n\n其中出现了公共因子 $\\frac{2(n-1)}{n} - a_3 a_4 \\cdots a_n$，真是奇怪，不可想象。我们立即可以推出，下列两个不等式中\n$$\\begin{cases} f(a_1, a_2, \\cdots, a_n) \\geqslant f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right) \\\\ f(a_1, a_2, \\cdots, a_n) \\geqslant f(0, a_1+a_2, a_3, \\cdots, a_n) \\end{cases}$$\n至少有一个成立。\n\n换句话说，我们有\n$$f(a_1, a_2, \\cdots, a_n) \\geqslant \\min\\left\\{f\\left(\\frac{a_1+a_2}{2}, \\frac{a_1+a_2}{2}, a_3, \\cdots, a_n\\right), f(0, a_1+a_2, a_3, \\cdots, a_n)\\right\\}$$\n\n由UMV定理，我们只需证明不等式在 $n$ 个数 $a_1, a_2, \\cdots, a_n$ 中至少有一个等于0，或者它们全部都等于1时，成立即可。\n\n如果 $a_1 = a_2 = \\cdots = a_n = 1$，则不等式是显然成立的；如果 $a_n = 0$，则不等式变成\n$$(n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant n^2$$\n$$\\Leftrightarrow (n-1)(a_1^2 + a_2^2 + \\cdots + a_{n-1}^2) \\geqslant (a_1 + a_2 + \\cdots + a_{n-1})^2$$\n\n由Cauchy-Schwarz不等式，这是显然成立的。等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$ 或 $a_1 = a_2 = \\cdots = a_{n-1} = \\frac{n}{n-1}$，$a_n = 0$ 或其轮换。",
+    "tags": [
+      "UMV方法",
+      "Cauchy-Schwarz不等式",
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

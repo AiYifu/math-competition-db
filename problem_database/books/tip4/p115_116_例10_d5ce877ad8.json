@@ -1,0 +1,24 @@
+{
+  "uid": "p115_116_例10_d5ce877ad8",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    115,
+    116
+  ],
+  "stem_md": "设 $a_i \\in \\mathbf{R}_+, 1 \\leqslant i \\leqslant n$. 证明: $\\sum_{i=1}^{n} \\frac{1}{1 + a_i} + \\frac{1}{1 + a_2} + \\cdots + \\frac{1}{1 + a_n} - \\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} \\geqslant \\frac{1}{n}$.",
+  "solution_md": "证明 令 $\\sum_{i=1}^{n} \\frac{a_i}{a_i + 1} = a$, 则 $\\sum_{i=1}^{n} \\frac{1 + a_i}{a_i} = n + a$. 由柯西不等式, 得 $\\sum_{i=1}^{n} \\frac{1}{a_i + 1} = \\sum_{i=1}^{n} \\left(1 - \\frac{a_i}{a_i + 1}\\right) = n - \\sum_{i=1}^{n} \\frac{a_i}{a_i + 1} = n - a$. $\\geqslant \\frac{1}{na} - \\frac{1}{a} = \\frac{n + a}{na} - \\frac{1}{a} = \\frac{1}{n}$, 故命题成立. 注 此题的证明方法较多, 不妨自己试一试.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a_i \\in \\mathbf{R}_+, 1 \\leqslant i \\leqslant n$. 证明: $\\sum_{i=1}^{n} \\frac{1}{1 + a_i} + \\frac{1}{1 + a_2} + \\cdots + \\frac{1}{1 + a_n} - \\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} \\geqslant \\frac{1}{n}$. 证明 令 $\\sum_{i=1}^{n} \\frac{a_i}{a_i + 1} = a$, 则 $\\sum_{i=1}^{n} \\frac{1 + a_i}{a_i} = n + a$. 由柯西不等式, 得 $\\sum_{i=1}^{n} \\frac{1}{a_i + 1} = \\sum_{i=1}^{n} \\left(1 - \\frac{a_i}{a_i + 1}\\right) = n - \\sum_{i=1}^{n} \\frac{a_i}{a_i + 1} = n - a$. $\\geqslant \\frac{1}{na} - \\frac{1}{a} = \\frac{n + a}{na} - \\frac{1}{a} = \\frac{1}{n}$, 故命题成立. 注 此题的证明方法较多, 不妨自己试一试.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015"
+}

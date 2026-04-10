@@ -1,0 +1,23 @@
+{
+  "uid": "p226_226_幂平均不等式_53565a1d85",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "幂平均不等式",
+  "problem_type": "theorem",
+  "title": "幂平均不等式",
+  "source_pages": [
+    226
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 为正实数, $\\alpha > \\beta > 0$, 则\n$\\left(\\frac{a_1^\\beta + a_2^\\beta + \\cdots + a_n^\\beta}{n}\\right)^{\\frac{1}{\\beta}} \\leq \\left(\\frac{a_1^\\alpha + a_2^\\alpha + \\cdots + a_n^\\alpha}{n}\\right)^{\\frac{1}{\\alpha}}$,\n$a_1^{\\alpha_1} a_2^{\\alpha_2} \\cdots a_n^{\\alpha_n} \\leq \\alpha_1 a_1 + \\alpha_2 a_2 + \\cdots + \\alpha_n a_n$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "幂平均不等式 设 $a_1, a_2, \\cdots, a_n$ 为正实数, $\\alpha > \\beta > 0$, 则\n$\\left(\\frac{a_1^\\beta + a_2^\\beta + \\cdots + a_n^\\beta}{n}\\right)^{\\frac{1}{\\beta}} \\leq \\left(\\frac{a_1^\\alpha + a_2^\\alpha + \\cdots + a_n^\\alpha}{n}\\right)^{\\frac{1}{\\alpha}}$,\n$a_1^{\\alpha_1} a_2^{\\alpha_2} \\cdots a_n^{\\alpha_n} \\leq \\alpha_1 a_1 + \\alpha_2 a_2 + \\cdots + \\alpha_n a_n$.",
+  "tags": [
+    "幂平均不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

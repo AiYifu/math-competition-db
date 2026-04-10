@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_9_3e3afdadb4",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "9",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "已知 $a > 1$, $b > 1$, $c > 1$, 求证: (1) $\\frac{a^{5}}{b^{2} - 1} + \\frac{b^{5}}{c^{2} - 1} + \\frac{c^{5}}{a^{2} - 1} \\geqslant \\frac{25}{6}\\sqrt{15}$; (2) $\\frac{a^{5}}{b^{3} - 1} + \\frac{b^{5}}{c^{3} - 1} + \\frac{c^{5}}{a^{3} - 1} \\geqslant \\frac{5}{2}\\sqrt[3]{50}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "9 已知 $a > 1$, $b > 1$, $c > 1$, 求证: (1) $\\frac{a^{5}}{b^{2} - 1} + \\frac{b^{5}}{c^{2} - 1} + \\frac{c^{5}}{a^{2} - 1} \\geqslant \\frac{25}{6}\\sqrt{15}$; (2) $\\frac{a^{5}}{b^{3} - 1} + \\frac{b^{5}}{c^{3} - 1} + \\frac{c^{5}}{a^{3} - 1} \\geqslant \\frac{5}{2}\\sqrt[3]{50}$.",
+  "tags": [
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

@@ -1,0 +1,25 @@
+{
+  "uid": "p193_193_定理11_94e6a10847",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7",
+  "section": "3",
+  "problem_id": "定理11",
+  "problem_type": "theorem",
+  "title": "UMV定理",
+  "source_pages": [
+    193
+  ],
+  "stem_md": "假设 $f$ 是定义在 $[a,b]^n \\subset \\mathbf{R}^n \\mapsto \\mathbf{R}$ 上的连续的对称函数, 满足\n$$f(x_1,x_2,\\cdots,x_n) \\geqslant \\min\\left\\{f\\left(\\frac{x_1+x_2}{2},\\frac{x_1+x_2}{2},x_3,\\cdots,x_n\\right),f(x_1+x_2,0,x_3,\\cdots,x_n)\\right\\}$$\n令 $s=x_1+x_2+\\cdots+x_n$, 则\n$$f(x_1,x_2,\\cdots,x_n) \\geqslant \\min_{1 \\leqslant k \\leqslant n}\\left\\{f\\left(\\frac{s}{k},\\frac{s}{k},\\cdots,\\frac{s}{k},0,\\cdots,0\\right)\\right\\}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定理 11(UMV 定理) 假设 $f$ 是定义在 $[a,b]^n \\subset \\mathbf{R}^n \\mapsto \\mathbf{R}$ 上的连续的对称函数, 满足\n$$f(x_1,x_2,\\cdots,x_n) \\geqslant \\min\\left\\{f\\left(\\frac{x_1+x_2}{2},\\frac{x_1+x_2}{2},x_3,\\cdots,x_n\\right),f(x_1+x_2,0,x_3,\\cdots,x_n)\\right\\}$$\n令 $s=x_1+x_2+\\cdots+x_n$, 则\n$$f(x_1,x_2,\\cdots,x_n) \\geqslant \\min_{1 \\leqslant k \\leqslant n}\\left\\{f\\left(\\frac{s}{k},\\frac{s}{k},\\cdots,\\frac{s}{k},0,\\cdots,0\\right)\\right\\}$$",
+  "tags": [
+    "UMV定理",
+    "对称函数",
+    "连续函数"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0025"
+}

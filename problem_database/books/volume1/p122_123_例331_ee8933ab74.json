@@ -1,0 +1,58 @@
+{
+  "uid": "p122_123_例331_ee8933ab74",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    122,
+    123
+  ],
+  "source_images": [
+    "page-122.jpg",
+    "page-123.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是正实数，且 $x+y+z=1$，证明\n$$\\left(\\frac{1}{\\sqrt{x}}-1\\right)\\left(\\frac{1}{\\sqrt{y}}-1\\right)\\left(\\frac{1}{\\sqrt{z}}-1\\right) \\geqslant (\\sqrt{3}-1)^3$$",
+  "solution_md": "我们给出反转不等式的证明。\n\n给定正实数 $a,b,c$，满足 $abc=(\\sqrt{3}-1)^3$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2} \\geqslant 1$$\n\n事实上，令 $k=(\\sqrt{3}-1), a=\\frac{knp}{m^2}, b=\\frac{kpm}{n^2}, c=\\frac{kmn}{p^2}$，则不等式变成\n$$\\sum\\frac{1}{\\left(1+\\frac{knp}{m^2}\\right)^2} \\geqslant 1 \\Leftrightarrow \\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant 1$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant \\frac{(m^2+n^2+p^2)^2}{\\sum(m^2+knp)^2}$$\n\n余下只需证明\n$$(m^2+n^2+p^2)^2 \\geqslant \\sum(m^2+knp)^2 \\Leftrightarrow (2-k^2)\\sum m^2n^2 \\geqslant 2k\\sum m^2np$$\n\n这是显然成立的，因为 $2-k^2=2-(\\sqrt{3}-1)^2=2\\sqrt{3}-2=2k$。于是，不等式成立，等号成立的条件是 $m=n=p$ 或者 $a=b=c=\\sqrt{3}-1$。\n\n**注** 使用同样的方法，我们可以证明这个不等式的一般情况，是由 Vasile Cirtoaje 提出的，如下：\n\n设 $x_1,x_2,\\cdots,x_n$ 是正实数，且其和为 1，证明\n$$\\left(\\frac{1}{\\sqrt{x_1}}-1\\right)\\left(\\frac{1}{\\sqrt{x_2}}-1\\right)\\cdots\\left(\\frac{1}{\\sqrt{x_n}}-1\\right) \\geqslant (\\sqrt{n}-1)^n$$",
+  "answer_md": "",
+  "hints_md": "来源：Zhao Bin, Mathlinks",
+  "original_text_md": "例 3.3.1(Zhao Bin, Mathlinks) 设 $x,y,z$ 是正实数，且 $x+y+z=1$，证明\n$$\\left(\\frac{1}{\\sqrt{x}}-1\\right)\\left(\\frac{1}{\\sqrt{y}}-1\\right)\\left(\\frac{1}{\\sqrt{z}}-1\\right) \\geqslant (\\sqrt{3}-1)^3$$\n\n证明 我们给出反转不等式的证明。\n\n给定正实数 $a,b,c$，满足 $abc=(\\sqrt{3}-1)^3$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2} \\geqslant 1$$\n\n事实上，令 $k=(\\sqrt{3}-1), a=\\frac{knp}{m^2}, b=\\frac{kpm}{n^2}, c=\\frac{kmn}{p^2}$，则不等式变成\n$$\\sum\\frac{1}{\\left(1+\\frac{knp}{m^2}\\right)^2} \\geqslant 1 \\Leftrightarrow \\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant 1$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant \\frac{(m^2+n^2+p^2)^2}{\\sum(m^2+knp)^2}$$\n\n余下只需证明\n$$(m^2+n^2+p^2)^2 \\geqslant \\sum(m^2+knp)^2 \\Leftrightarrow (2-k^2)\\sum m^2n^2 \\geqslant 2k\\sum m^2np$$\n\n这是显然成立的，因为 $2-k^2=2-(\\sqrt{3}-1)^2=2\\sqrt{3}-2=2k$。于是，不等式成立，等号成立的条件是 $m=n=p$ 或者 $a=b=c=\\sqrt{3}-1$。\n\n注 使用同样的方法，我们可以证明这个不等式的一般情况，是由 Vasile Cirtoaje 提出的，如下：\n\n设 $x_1,x_2,\\cdots,x_n$ 是正实数，且其和为 1，证明\n$$\\left(\\frac{1}{\\sqrt{x_1}}-1\\right)\\left(\\frac{1}{\\sqrt{x_2}}-1\\right)\\cdots\\left(\\frac{1}{\\sqrt{x_n}}-1\\right) \\geqslant (\\sqrt{n}-1)^n$$",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "Cauchy-Schwarz不等式",
+    "三元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "ee8933ab74e9c0ee769160f8f111cfe064834b23",
+  "raw_problem": {
+    "problem_id": "例3.3.1",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      122,
+      123
+    ],
+    "stem_md": "设 $x,y,z$ 是正实数，且 $x+y+z=1$，证明\n$$\\left(\\frac{1}{\\sqrt{x}}-1\\right)\\left(\\frac{1}{\\sqrt{y}}-1\\right)\\left(\\frac{1}{\\sqrt{z}}-1\\right) \\geqslant (\\sqrt{3}-1)^3$$",
+    "solution_md": "我们给出反转不等式的证明。\n\n给定正实数 $a,b,c$，满足 $abc=(\\sqrt{3}-1)^3$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2} \\geqslant 1$$\n\n事实上，令 $k=(\\sqrt{3}-1), a=\\frac{knp}{m^2}, b=\\frac{kpm}{n^2}, c=\\frac{kmn}{p^2}$，则不等式变成\n$$\\sum\\frac{1}{\\left(1+\\frac{knp}{m^2}\\right)^2} \\geqslant 1 \\Leftrightarrow \\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant 1$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant \\frac{(m^2+n^2+p^2)^2}{\\sum(m^2+knp)^2}$$\n\n余下只需证明\n$$(m^2+n^2+p^2)^2 \\geqslant \\sum(m^2+knp)^2 \\Leftrightarrow (2-k^2)\\sum m^2n^2 \\geqslant 2k\\sum m^2np$$\n\n这是显然成立的，因为 $2-k^2=2-(\\sqrt{3}-1)^2=2\\sqrt{3}-2=2k$。于是，不等式成立，等号成立的条件是 $m=n=p$ 或者 $a=b=c=\\sqrt{3}-1$。\n\n**注** 使用同样的方法，我们可以证明这个不等式的一般情况，是由 Vasile Cirtoaje 提出的，如下：\n\n设 $x_1,x_2,\\cdots,x_n$ 是正实数，且其和为 1，证明\n$$\\left(\\frac{1}{\\sqrt{x_1}}-1\\right)\\left(\\frac{1}{\\sqrt{x_2}}-1\\right)\\cdots\\left(\\frac{1}{\\sqrt{x_n}}-1\\right) \\geqslant (\\sqrt{n}-1)^n$$",
+    "answer_md": "",
+    "hints_md": "来源：Zhao Bin, Mathlinks",
+    "original_text_md": "例 3.3.1(Zhao Bin, Mathlinks) 设 $x,y,z$ 是正实数，且 $x+y+z=1$，证明\n$$\\left(\\frac{1}{\\sqrt{x}}-1\\right)\\left(\\frac{1}{\\sqrt{y}}-1\\right)\\left(\\frac{1}{\\sqrt{z}}-1\\right) \\geqslant (\\sqrt{3}-1)^3$$\n\n证明 我们给出反转不等式的证明。\n\n给定正实数 $a,b,c$，满足 $abc=(\\sqrt{3}-1)^3$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2} \\geqslant 1$$\n\n事实上，令 $k=(\\sqrt{3}-1), a=\\frac{knp}{m^2}, b=\\frac{kpm}{n^2}, c=\\frac{kmn}{p^2}$，则不等式变成\n$$\\sum\\frac{1}{\\left(1+\\frac{knp}{m^2}\\right)^2} \\geqslant 1 \\Leftrightarrow \\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant 1$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\sum\\frac{m^4}{(m^2+knp)^2} \\geqslant \\frac{(m^2+n^2+p^2)^2}{\\sum(m^2+knp)^2}$$\n\n余下只需证明\n$$(m^2+n^2+p^2)^2 \\geqslant \\sum(m^2+knp)^2 \\Leftrightarrow (2-k^2)\\sum m^2n^2 \\geqslant 2k\\sum m^2np$$\n\n这是显然成立的，因为 $2-k^2=2-(\\sqrt{3}-1)^2=2\\sqrt{3}-2=2k$。于是，不等式成立，等号成立的条件是 $m=n=p$ 或者 $a=b=c=\\sqrt{3}-1$。\n\n注 使用同样的方法，我们可以证明这个不等式的一般情况，是由 Vasile Cirtoaje 提出的，如下：\n\n设 $x_1,x_2,\\cdots,x_n$ 是正实数，且其和为 1，证明\n$$\\left(\\frac{1}{\\sqrt{x_1}}-1\\right)\\left(\\frac{1}{\\sqrt{x_2}}-1\\right)\\cdots\\left(\\frac{1}{\\sqrt{x_n}}-1\\right) \\geqslant (\\sqrt{n}-1)^n$$",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "Cauchy-Schwarz不等式",
+      "三元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

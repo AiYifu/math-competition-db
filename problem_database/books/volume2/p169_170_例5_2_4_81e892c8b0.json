@@ -1,0 +1,25 @@
+{
+  "uid": "p169_170_例5_2_4_81e892c8b0",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "2",
+  "problem_id": "例5.2.4",
+  "problem_type": "example",
+  "title": "Faruk Zejnulahi, Crux",
+  "source_pages": [
+    169,
+    170
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 满足 $a^2 + b^2 + c^2 = 1$, 证明不等式\n\n$1 \\leqslant \\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab} \\leqslant \\sqrt{2}$",
+  "solution_md": "利用条件 $a^2 + b^2 + c^2 = 1$, 我们来证明\n\n$(a + b + c)^2 \\leqslant 2(1 + bc)^2$\n\n事实上, 上面的不等式等价于\n\n$2(ab + bc + ca) \\leqslant 1 + 4bc + 2b^2c^2$\n\n$\\Leftrightarrow 2a(b + c) \\leqslant a^2 + (b + c)^2 + 2b^2c^2$\n\n$\\Leftrightarrow (b + c - a)^2 + 2b^2c^2 \\geqslant 0$\n\n这显然成立. 因此, 我们得到\n\n$\\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab} \\leqslant \\frac{\\sqrt{2}a}{a + b + c} + \\frac{\\sqrt{2}b}{a + b + c} + \\frac{\\sqrt{2}c}{a + b + c} = \\sqrt{2}$\n\n不等式右半部分得证, 等号成立的条件是 $a = b = \\frac{1}{\\sqrt{2}}, c = 0$ 或其轮换.\n\n为证明不等式左半部分, 注意到\n\n$a + abc \\leqslant a + \\frac{a(b^2 + c^2)}{2} = a + \\frac{a(1 - a^2)}{2} = 1 - \\frac{(a - 1)^2(a + 2)}{2} \\leqslant 1$\n\n所以\n\n$\\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab} = \\frac{a^2}{a + abc} + \\frac{b^2}{b + abc} + \\frac{c^2}{c + abc} \\geqslant a^2 + b^2 + c^2 = 1$\n\n不等式左半部分得证, 等号成立的条件是 $a = 1, b = c = 0$ 或其轮换.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "接下来, 由 Chebyshev 不等式, 我们有\n\n$a + b + c \\geqslant 3\\sqrt[3]{abc} = 3$\n\n$3(a^r + b^r + c^r) \\geqslant (a + b + c)(a^{r-1} + b^{r-1} + c^{r-1}) \\geqslant 3(a^{r-1} + b^{r-1} + c^{r-1})$\n\n$\\Leftrightarrow a^r + b^r + c^r \\geqslant a^{r-1} + b^{r-1} + c^{r-1}$\n\n因此, 不等式得证, 等号成立的条件是 $a = b = c = 1$.\n\n例 5.2.4(Faruk Zejnulahi, Crux) 设 $a, b, c$ 是非负实数, 满足 $a^2 + b^2 + c^2 = 1$, 证明不等式\n\n$1 \\leqslant \\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab} \\leqslant \\sqrt{2}$\n\n证明 利用条件 $a^2 + b^2 + c^2 = 1$, 我们来证明\n\n$(a + b + c)^2 \\leqslant 2(1 + bc)^2$\n\n事实上, 上面的不等式等价于\n\n$2(ab + bc + ca) \\leqslant 1 + 4bc + 2b^2c^2$\n\n$\\Leftrightarrow 2a(b + c) \\leqslant a^2 + (b + c)^2 + 2b^2c^2$\n\n$\\Leftrightarrow (b + c - a)^2 + 2b^2c^2 \\geqslant 0$\n\n这显然成立. 因此, 我们得到\n\n$\\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab} \\leqslant \\frac{\\sqrt{2}a}{a + b + c} + \\frac{\\sqrt{2}b}{a + b + c} + \\frac{\\sqrt{2}c}{a + b + c} = \\sqrt{2}$\n\n不等式右半部分得证, 等号成立的条件是 $a = b = \\frac{1}{\\sqrt{2}}, c = 0$ 或其轮换.\n\n为证明不等式左半部分, 注意到\n\n$a + abc \\leqslant a + \\frac{a(b^2 + c^2)}{2} = a + \\frac{a(1 - a^2)}{2} = 1 - \\frac{(a - 1)^2(a + 2)}{2} \\leqslant 1$\n\n所以\n\n$\\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab} = \\frac{a^2}{a + abc} + \\frac{b^2}{b + abc} + \\frac{c^2}{c + abc} \\geqslant a^2 + b^2 + c^2 = 1$\n\n不等式左半部分得证, 等号成立的条件是 $a = 1, b = c = 0$ 或其轮换.",
+  "tags": [
+    "不等式",
+    "Chebyshev不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

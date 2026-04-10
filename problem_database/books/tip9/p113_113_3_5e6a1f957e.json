@@ -1,0 +1,21 @@
+{
+  "uid": "p113_113_3_5e6a1f957e",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "习题 7",
+  "section": null,
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    113
+  ],
+  "stem_md": "设 $a 、 b 、 c$ 是正实数, $a + b + c = 1$, 求证: $$\\frac{1}{1 + a^2} + \\frac{1}{1 + b^2} + \\frac{1}{1 + c^2} \\leqslant \\frac{27}{10}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a 、 b 、 c$ 是正实数, $a + b + c = 1$, 求证: $$\\frac{1}{1 + a^2} + \\frac{1}{1 + b^2} + \\frac{1}{1 + c^2} \\leqslant \\frac{27}{10}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015"
+}

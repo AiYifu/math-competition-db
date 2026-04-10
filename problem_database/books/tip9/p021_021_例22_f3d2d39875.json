@@ -1,0 +1,25 @@
+{
+  "uid": "p021_021_例22_f3d2d39875",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例22",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    21
+  ],
+  "stem_md": "给定正实数 $a_1, a_2, \\cdots, a_n$. 证明: 存在正实数 $x_1, x_2, \\cdots, x_n$, 满足 $\\sum_{i=1}^{n} x_i = 1$, 且对任何满足 $\\sum_{i=1}^{n} y_i = 1$ 的正实数 $y_1, y_2, \\cdots, y_n$, 均有\n$\\sum_{i=1}^{n} \\frac{a_i x_i}{x_i + y_i} \\geqslant \\frac{1}{2} \\sum_{i=1}^{n} a_i$.",
+  "solution_md": "证明 令 $x_i = \\frac{a_i}{\\sum_{i=1}^{n} a_i}$, 则 $\\sum_{i=1}^{n} x_i = 1$. 将 $x_i$ 代入不等式左端, 得\n$2 \\sum_{i=1}^{n} \\frac{a_i x_i}{x_i + y_i} = \\sum_{i=1}^{n} (x_i + y_i) \\sum_{i=1}^{n} \\frac{x_i^2}{x_i + y_i} \\geqslant \\left(\\sum_{i=1}^{n} x_i\\right)^2 = 1$,\n于是\n$\\sum_{i=1}^{n} \\frac{a_i x_i}{x_i + y_i} = \\sum_{i=1}^{n} a_i \\sum_{i=1}^{n} \\frac{x_i^2}{x_i + y_i} \\geqslant \\frac{1}{2} \\sum_{i=1}^{n} a_i$,\n命题得证.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 22 给定正实数 $a_1, a_2, \\cdots, a_n$. 证明: 存在正实数 $x_1, x_2, \\cdots, x_n$, 满足 $\\sum_{i=1}^{n} x_i = 1$, 且对任何满足 $\\sum_{i=1}^{n} y_i = 1$ 的正实数 $y_1, y_2, \\cdots, y_n$, 均有\n$\\sum_{i=1}^{n} \\frac{a_i x_i}{x_i + y_i} \\geqslant \\frac{1}{2} \\sum_{i=1}^{n} a_i$.\n证明 令 $x_i = \\frac{a_i}{\\sum_{i=1}^{n} a_i}$, 则 $\\sum_{i=1}^{n} x_i = 1$. 将 $x_i$ 代入不等式左端, 得\n$2 \\sum_{i=1}^{n} \\frac{a_i x_i}{x_i + y_i} = \\sum_{i=1}^{n} (x_i + y_i) \\sum_{i=1}^{n} \\frac{x_i^2}{x_i + y_i} \\geqslant \\left(\\sum_{i=1}^{n} x_i\\right)^2 = 1$,\n于是\n$\\sum_{i=1}^{n} \\frac{a_i x_i}{x_i + y_i} = \\sum_{i=1}^{n} a_i \\sum_{i=1}^{n} \\frac{x_i^2}{x_i + y_i} \\geqslant \\frac{1}{2} \\sum_{i=1}^{n} a_i$,\n命题得证.",
+  "tags": [
+    "不等式",
+    "正实数",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003"
+}

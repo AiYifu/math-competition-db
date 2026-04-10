@@ -1,0 +1,25 @@
+{
+  "uid": "p073_074_例8_38ef1eb3aa",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2 平均值不等式的应用",
+  "section": null,
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    73,
+    74
+  ],
+  "stem_md": "已知 $a, b, c \\in \\mathbf{R}_+$, 且满足 $\\frac{a^2}{1+a^2} + \\frac{b^2}{1+b^2} + \\frac{c^2}{1+c^2} = 1$, 求证: $abc \\leqslant \\frac{\\sqrt{2}}{4}$.",
+  "solution_md": "令 $x = \\frac{a^2}{1+a^2}$, $y = \\frac{b^2}{1+b^2}$, $z = \\frac{c^2}{1+c^2}$, 则\n$0 < x, y, z < 1$, $x + y + z = 1$,\n$a^2 = \\frac{x}{1-x}$, $b^2 = \\frac{y}{1-y}$, $c^2 = \\frac{z}{1-z}$, $a^2b^2c^2 = \\frac{xyz}{(1-x)(1-y)(1-z)}$.\n于是, 原问题化为证明\n$\\frac{xyz}{(1-x)(1-y)(1-z)} \\leqslant \\frac{1}{8}$.\n由 $H_3 \\leqslant A_3$, 并注意到 $x + y + z = 1$, 有 $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} \\geqslant 9$, 则\n$9\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1\\right) \\geqslant 8\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}\\right)$.\n由于 $G_3 \\geqslant H_3$, 得\n$(xyz)^{\\frac{1}{3}} \\geqslant \\frac{3}{\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}} \\geqslant \\frac{3}{\\frac{9}{8}\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1\\right)}$,\n所以\n$(xyz)^{-\\frac{1}{3}} \\leqslant \\frac{3}{8}\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1\\right)$.\n又由\n$\\frac{1}{8}(1-x)(1-y)(1-z) - \\frac{1}{3}(xyz)^{\\frac{2}{3}}$\n$= \\frac{1}{8}(xy + yz + zx - xyz) - \\frac{1}{3}(xyz)^{\\frac{2}{3}}$\n$= \\frac{1}{8}xyz\\left[\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1 - \\frac{8}{3}(xyz)^{-\\frac{1}{3}}\\right] \\geqslant 0$,\n所以\n$(1-x)(1-y)(1-z) \\geqslant \\frac{8}{3}(xyz)^{\\frac{2}{3}}$.\n由 $A_3 \\geqslant G_3$, 得\n$(xyz)^{\\frac{1}{3}} \\leqslant \\frac{1}{3}(x + y + z) = \\frac{1}{3}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例8 已知 $a, b, c \\in \\mathbf{R}_+$, 且满足 $\\frac{a^2}{1+a^2} + \\frac{b^2}{1+b^2} + \\frac{c^2}{1+c^2} = 1$, 求证: $abc \\leqslant \\frac{\\sqrt{2}}{4}$.\n证明 令 $x = \\frac{a^2}{1+a^2}$, $y = \\frac{b^2}{1+b^2}$, $z = \\frac{c^2}{1+c^2}$, 则\n$0 < x, y, z < 1$, $x + y + z = 1$,\n$a^2 = \\frac{x}{1-x}$, $b^2 = \\frac{y}{1-y}$, $c^2 = \\frac{z}{1-z}$, $a^2b^2c^2 = \\frac{xyz}{(1-x)(1-y)(1-z)}$.\n于是, 原问题化为证明\n$\\frac{xyz}{(1-x)(1-y)(1-z)} \\leqslant \\frac{1}{8}$.\n由 $H_3 \\leqslant A_3$, 并注意到 $x + y + z = 1$, 有 $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} \\geqslant 9$, 则\n$9\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1\\right) \\geqslant 8\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}\\right)$.\n由于 $G_3 \\geqslant H_3$, 得\n$(xyz)^{\\frac{1}{3}} \\geqslant \\frac{3}{\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}} \\geqslant \\frac{3}{\\frac{9}{8}\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1\\right)}$,\n所以\n$(xyz)^{-\\frac{1}{3}} \\leqslant \\frac{3}{8}\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1\\right)$.\n又由\n$\\frac{1}{8}(1-x)(1-y)(1-z) - \\frac{1}{3}(xyz)^{\\frac{2}{3}}$\n$= \\frac{1}{8}(xy + yz + zx - xyz) - \\frac{1}{3}(xyz)^{\\frac{2}{3}}$\n$= \\frac{1}{8}xyz\\left[\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} - 1 - \\frac{8}{3}(xyz)^{-\\frac{1}{3}}\\right] \\geqslant 0$,\n所以\n$(1-x)(1-y)(1-z) \\geqslant \\frac{8}{3}(xyz)^{\\frac{2}{3}}$.\n由 $A_3 \\geqslant G_3$, 得\n$(xyz)^{\\frac{1}{3}} \\leqslant \\frac{1}{3}(x + y + z) = \\frac{1}{3}$.",
+  "tags": [
+    "均值不等式",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

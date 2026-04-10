@@ -1,0 +1,25 @@
+{
+  "uid": "p179_180_例10_4169c184b4",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4 柯西不等式的应用",
+  "section": null,
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    179,
+    180
+  ],
+  "stem_md": "已知正实数 $x, y, z$ 满足 $\\sqrt{x} + \\sqrt{y} + \\sqrt{z} = 1$. 求证: $\\frac{x^2 + yz}{\\sqrt{2x^2(y + z)}} + \\frac{y^2 + zx}{\\sqrt{2y^2(z + x)}} + \\frac{z^2 + xy}{\\sqrt{2z^2(x + y)}} \\geqslant 1$.",
+  "solution_md": "证法1 注意到\n$$\\frac{x^2 + yz}{\\sqrt{2x^2(y + z)}} = \\frac{x^2 - x(y + z) + yz}{\\sqrt{2x^2(y + z)}} + \\frac{x(y + z)}{\\sqrt{2x^2(y + z)}}$$\n$$= \\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} + \\sqrt{\\frac{y + z}{2}}$$\n$$\\geqslant \\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} + \\frac{(z - x)(z - y)}{\\sqrt{2z^2(x + y)}} + \\sqrt{x} + \\sqrt{y} + \\sqrt{z}$$\n以上三式相加得\n$$\\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} + \\frac{(y - z)(y - x)}{\\sqrt{2y^2(z + x)}} + \\frac{(z - x)(z - y)}{\\sqrt{2z^2(x + y)}} + \\sqrt{x} + \\sqrt{y} + \\sqrt{z} \\geqslant 0.$$\n不失一般性, 设 $x \\geqslant y \\geqslant z$. 于是,\n$$\\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} \\geqslant 0,$$\n$$\\frac{(y - z)(x - y)}{\\sqrt{2y^2(z + x)}} - \\frac{(y - z)(x - y)}{\\sqrt{2y^2(z + x)}} \\geqslant 0,$$\n$$= (y - z)(x - y) \\cdot \\left[\\frac{1}{\\sqrt{2z^2(x + y)}} - \\frac{1}{\\sqrt{2y^2(z + x)}}\\right].$$\n事实上, 由\n$$y^2(z + x) = y^2z + y^2x \\geqslant yz^2 + z^2x = z^2(x + y).$$\n可知式①非负.\n从而, 题中不等式成立.\n证法2 根据柯西不等式得\n$$\\left[\\sqrt{\\frac{yz}{x}} + \\left(\\frac{1}{2}\\sqrt{\\frac{zx}{y}} + \\frac{1}{2}\\sqrt{\\frac{xy}{z}}\\right)\\right]^2$$\n$$\\geqslant 4\\sqrt{\\frac{yz}{x}}\\left(\\frac{1}{2}\\sqrt{\\frac{zx}{y}} + \\frac{1}{2}\\sqrt{\\frac{xy}{z}}\\right) = 2(y + z),$$\n$$\\sqrt{\\frac{zx}{y}} + \\left(\\frac{1}{2}\\sqrt{\\frac{yz}{x}} + \\frac{1}{2}\\sqrt{\\frac{xy}{z}}\\right) \\geqslant \\sqrt{2(z + x)},$$\n$$\\sqrt{\\frac{xy}{z}} + \\left(\\frac{1}{2}\\sqrt{\\frac{yz}{x}} + \\frac{1}{2}\\sqrt{\\frac{zx}{y}}\\right) \\geqslant \\sqrt{2(x + y)}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例10 已知正实数 $x, y, z$ 满足 $\\sqrt{x} + \\sqrt{y} + \\sqrt{z} = 1$. 求证: $\\frac{x^2 + yz}{\\sqrt{2x^2(y + z)}} + \\frac{y^2 + zx}{\\sqrt{2y^2(z + x)}} + \\frac{z^2 + xy}{\\sqrt{2z^2(x + y)}} \\geqslant 1$.\n证法1 注意到\n$$\\frac{x^2 + yz}{\\sqrt{2x^2(y + z)}} = \\frac{x^2 - x(y + z) + yz}{\\sqrt{2x^2(y + z)}} + \\frac{x(y + z)}{\\sqrt{2x^2(y + z)}}$$\n$$= \\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} + \\sqrt{\\frac{y + z}{2}}$$\n$$\\geqslant \\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} + \\frac{(z - x)(z - y)}{\\sqrt{2z^2(x + y)}} + \\sqrt{x} + \\sqrt{y} + \\sqrt{z}$$\n以上三式相加得\n$$\\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} + \\frac{(y - z)(y - x)}{\\sqrt{2y^2(z + x)}} + \\frac{(z - x)(z - y)}{\\sqrt{2z^2(x + y)}} + \\sqrt{x} + \\sqrt{y} + \\sqrt{z} \\geqslant 0.$$\n不失一般性, 设 $x \\geqslant y \\geqslant z$. 于是,\n$$\\frac{(x - y)(x - z)}{\\sqrt{2x^2(y + z)}} \\geqslant 0,$$\n$$\\frac{(y - z)(x - y)}{\\sqrt{2y^2(z + x)}} - \\frac{(y - z)(x - y)}{\\sqrt{2y^2(z + x)}} \\geqslant 0,$$\n$$= (y - z)(x - y) \\cdot \\left[\\frac{1}{\\sqrt{2z^2(x + y)}} - \\frac{1}{\\sqrt{2y^2(z + x)}}\\right].$$\n事实上, 由\n$$y^2(z + x) = y^2z + y^2x \\geqslant yz^2 + z^2x = z^2(x + y).$$\n可知式①非负.\n从而, 题中不等式成立.\n证法2 根据柯西不等式得\n$$\\left[\\sqrt{\\frac{yz}{x}} + \\left(\\frac{1}{2}\\sqrt{\\frac{zx}{y}} + \\frac{1}{2}\\sqrt{\\frac{xy}{z}}\\right)\\right]^2$$\n$$\\geqslant 4\\sqrt{\\frac{yz}{x}}\\left(\\frac{1}{2}\\sqrt{\\frac{zx}{y}} + \\frac{1}{2}\\sqrt{\\frac{xy}{z}}\\right) = 2(y + z),$$\n$$\\sqrt{\\frac{zx}{y}} + \\left(\\frac{1}{2}\\sqrt{\\frac{yz}{x}} + \\frac{1}{2}\\sqrt{\\frac{xy}{z}}\\right) \\geqslant \\sqrt{2(z + x)},$$\n$$\\sqrt{\\frac{xy}{z}} + \\left(\\frac{1}{2}\\sqrt{\\frac{yz}{x}} + \\frac{1}{2}\\sqrt{\\frac{zx}{y}}\\right) \\geqslant \\sqrt{2(x + y)}.$$",
+  "tags": [
+    "柯西不等式",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

@@ -1,0 +1,51 @@
+{
+  "uid": "p033_033_例131_41bd19b9c7",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.3",
+  "section": "对称不等式与SOS方法",
+  "problem_id": "例1.3.1",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Mathlinks",
+  "source_pages": [
+    33
+  ],
+  "source_images": [
+    "page-033.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{2a^2-bc}{b^2-bc+c^2}+\\frac{2b^2-ca}{c^2-ca+a^2}+\\frac{2c^2-ab}{a^2-ab+b^2}\\geqslant 3$$",
+  "solution_md": "不等式表示为SOS形式，如下\n$$\\sum\\left(\\frac{2a^2-bc}{b^2-bc+c^2}-1\\right)=\\sum\\frac{2a^2-b^2-c^2}{b^2-bc+c^2}$$\n$$=\\sum\\left(\\frac{1}{b^2-bc+c^2}-\\frac{1}{a^2-ac+c^2}\\right)(a^2-b^2)$$\n$$=\\sum\\frac{(a+b-c)(a+b)}{(a^2-ac+c^2)(b^2-bc+c^2)}(a-b)^2$$\n$$=\\frac{\\sum(a+b-c)(a+b)(a^2-ab+b^2)(a-b)^2}{(a^2-ac+c^2)(b^2-bc+c^2)(a^2-ab+b^2)}\\geqslant 0$$\n$$\\Leftrightarrow\\sum S_c(a-b)^2\\geqslant 0$$\n其中，对应的三个系数分别为\n$$S_a=(b+c-a)(b+c)(b^2-bc+c^2)$$\n$$S_b=(c+a-b)(c+a)(c^2-ca+a^2)$$\n$$S_c=(a+b-c)(a+b)(a^2-ab+b^2)$$\n不失一般性，设 $a\\geqslant b\\geqslant c$，显然 $S_c\\geqslant S_b\\geqslant S_a$。此外\n$$S_a+S_b\\geqslant (b+c-a)(b+c)(b^2-bc+c^2)+(c+a-b)(c+b)(c^2-cb+b^2)$$\n$$=2c(b+c)(b^2-bc+c^2)\\geqslant 0$$\n因此，由SOS定理的条件(2)可知，不等式成立。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.1(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{2a^2-bc}{b^2-bc+c^2}+\\frac{2b^2-ca}{c^2-ca+a^2}+\\frac{2c^2-ab}{a^2-ab+b^2}\\geqslant 3$$\n证明 不等式表示为SOS形式，如下\n$$\\sum\\left(\\frac{2a^2-bc}{b^2-bc+c^2}-1\\right)=\\sum\\frac{2a^2-b^2-c^2}{b^2-bc+c^2}$$\n$$=\\sum\\left(\\frac{1}{b^2-bc+c^2}-\\frac{1}{a^2-ac+c^2}\\right)(a^2-b^2)$$\n$$=\\sum\\frac{(a+b-c)(a+b)}{(a^2-ac+c^2)(b^2-bc+c^2)}(a-b)^2$$\n$$=\\frac{\\sum(a+b-c)(a+b)(a^2-ab+b^2)(a-b)^2}{(a^2-ac+c^2)(b^2-bc+c^2)(a^2-ab+b^2)}\\geqslant 0$$\n$$\\Leftrightarrow\\sum S_c(a-b)^2\\geqslant 0$$\n其中，对应的三个系数分别为\n$$S_a=(b+c-a)(b+c)(b^2-bc+c^2)$$\n$$S_b=(c+a-b)(c+a)(c^2-ca+a^2)$$\n$$S_c=(a+b-c)(a+b)(a^2-ab+b^2)$$\n不失一般性，设 $a\\geqslant b\\geqslant c$，显然 $S_c\\geqslant S_b\\geqslant S_a$。此外\n$$S_a+S_b\\geqslant (b+c-a)(b+c)(b^2-bc+c^2)+(c+a-b)(c+b)(c^2-cb+b^2)$$\n$$=2c(b+c)(b^2-bc+c^2)\\geqslant 0$$\n因此，由SOS定理的条件(2)可知，不等式成立。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+  "tags": [
+    "SOS",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004",
+  "raw_response_file": "raw/chunk-0004.response.txt",
+  "raw_api_file": "raw/chunk-0004.api.json",
+  "fingerprint": "41bd19b9c72a9fd007719306453e821aa473507b",
+  "raw_problem": {
+    "problem_id": "例1.3.1",
+    "problem_type": "example",
+    "chapter": "1.3",
+    "section": "对称不等式与SOS方法",
+    "title": "Vasile Cirtoaje, Mathlinks",
+    "source_pages": [
+      33
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{2a^2-bc}{b^2-bc+c^2}+\\frac{2b^2-ca}{c^2-ca+a^2}+\\frac{2c^2-ab}{a^2-ab+b^2}\\geqslant 3$$",
+    "solution_md": "不等式表示为SOS形式，如下\n$$\\sum\\left(\\frac{2a^2-bc}{b^2-bc+c^2}-1\\right)=\\sum\\frac{2a^2-b^2-c^2}{b^2-bc+c^2}$$\n$$=\\sum\\left(\\frac{1}{b^2-bc+c^2}-\\frac{1}{a^2-ac+c^2}\\right)(a^2-b^2)$$\n$$=\\sum\\frac{(a+b-c)(a+b)}{(a^2-ac+c^2)(b^2-bc+c^2)}(a-b)^2$$\n$$=\\frac{\\sum(a+b-c)(a+b)(a^2-ab+b^2)(a-b)^2}{(a^2-ac+c^2)(b^2-bc+c^2)(a^2-ab+b^2)}\\geqslant 0$$\n$$\\Leftrightarrow\\sum S_c(a-b)^2\\geqslant 0$$\n其中，对应的三个系数分别为\n$$S_a=(b+c-a)(b+c)(b^2-bc+c^2)$$\n$$S_b=(c+a-b)(c+a)(c^2-ca+a^2)$$\n$$S_c=(a+b-c)(a+b)(a^2-ab+b^2)$$\n不失一般性，设 $a\\geqslant b\\geqslant c$，显然 $S_c\\geqslant S_b\\geqslant S_a$。此外\n$$S_a+S_b\\geqslant (b+c-a)(b+c)(b^2-bc+c^2)+(c+a-b)(c+b)(c^2-cb+b^2)$$\n$$=2c(b+c)(b^2-bc+c^2)\\geqslant 0$$\n因此，由SOS定理的条件(2)可知，不等式成立。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.3.1(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{2a^2-bc}{b^2-bc+c^2}+\\frac{2b^2-ca}{c^2-ca+a^2}+\\frac{2c^2-ab}{a^2-ab+b^2}\\geqslant 3$$\n证明 不等式表示为SOS形式，如下\n$$\\sum\\left(\\frac{2a^2-bc}{b^2-bc+c^2}-1\\right)=\\sum\\frac{2a^2-b^2-c^2}{b^2-bc+c^2}$$\n$$=\\sum\\left(\\frac{1}{b^2-bc+c^2}-\\frac{1}{a^2-ac+c^2}\\right)(a^2-b^2)$$\n$$=\\sum\\frac{(a+b-c)(a+b)}{(a^2-ac+c^2)(b^2-bc+c^2)}(a-b)^2$$\n$$=\\frac{\\sum(a+b-c)(a+b)(a^2-ab+b^2)(a-b)^2}{(a^2-ac+c^2)(b^2-bc+c^2)(a^2-ab+b^2)}\\geqslant 0$$\n$$\\Leftrightarrow\\sum S_c(a-b)^2\\geqslant 0$$\n其中，对应的三个系数分别为\n$$S_a=(b+c-a)(b+c)(b^2-bc+c^2)$$\n$$S_b=(c+a-b)(c+a)(c^2-ca+a^2)$$\n$$S_c=(a+b-c)(a+b)(a^2-ab+b^2)$$\n不失一般性，设 $a\\geqslant b\\geqslant c$，显然 $S_c\\geqslant S_b\\geqslant S_a$。此外\n$$S_a+S_b\\geqslant (b+c-a)(b+c)(b^2-bc+c^2)+(c+a-b)(c+b)(c^2-cb+b^2)$$\n$$=2c(b+c)(b^2-bc+c^2)\\geqslant 0$$\n因此，由SOS定理的条件(2)可知，不等式成立。等号成立的条件是 $a=b=c$ 或 $a=b,c=0$ 及其轮换。",
+    "tags": [
+      "SOS",
+      "不等式证明"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

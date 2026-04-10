@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_12_9417c95d8d",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "12. (Le Trung Kien, CPR) 设 $a, b, c$ 是正实数, 证明\n$$\na+b+c+\\frac{(b-c)^2}{a}+\\frac{(c-a)^2}{b}+\\frac{(a-b)^2}{c} \\geqslant \\frac{3a^3}{a^2+ab+b^2}+\\frac{3b^3}{b^2+bc+c^2}+\\frac{3c^3}{c^2+ca+a^2}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "12. (Le Trung Kien, CPR) 设 $a, b, c$ 是正实数, 证明\n$$\na+b+c+\\frac{(b-c)^2}{a}+\\frac{(c-a)^2}{b}+\\frac{(a-b)^2}{c} \\geqslant \\frac{3a^3}{a^2+ab+b^2}+\\frac{3b^3}{b^2+bc+c^2}+\\frac{3c^3}{c^2+ca+a^2}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

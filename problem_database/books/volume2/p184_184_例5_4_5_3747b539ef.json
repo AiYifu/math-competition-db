@@ -1,0 +1,24 @@
+{
+  "uid": "p184_184_例5_4_5_3747b539ef",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "4",
+  "problem_id": "例5.4.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    184
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 证明\n$\\frac{a}{1+ab^{2}}+\\frac{b}{1+bc^{2}}+\\frac{c}{1+ca^{2}} \\geqslant \\frac{3\\sqrt[3]{abc}}{1+k^{3}}$",
+  "solution_md": "存在正实数 $k, x, y, z$, 满足\n$a=\\frac{ky}{x}, b=\\frac{kz}{y}, c=\\frac{kx}{z}$\n则我们有 $xyz=k^{3}$, 不等式变成\n$\\frac{ky}{x\\left(1+k^{3}z^{2}\\right)}+\\frac{kz}{y\\left(1+k^{3}x^{2}\\right)}+\\frac{kx}{z\\left(1+k^{3}y^{2}\\right)} \\geqslant \\frac{3k}{1+k^{3}}$\n$\\Leftrightarrow \\frac{y^{2}}{xy+k^{3}z^{2}}+\\frac{z^{2}}{yz+k^{3}x^{2}}+\\frac{x^{2}}{zx+k^{3}y^{2}} \\geqslant \\frac{3}{1+k^{3}}$\n由 Cauchy-Schwarz 不等式, 有\n$\\sum \\frac{y^{2}}{xy+k^{3}z^{2}}=\\sum \\frac{y^{4}}{xy^{3}+k^{3}y^{2}z^{2}} \\geqslant \\frac{\\left(\\sum x^{2}\\right)^{2}}{\\sum xy^{3}+k^{3}\\sum y^{2}z^{2}}$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.4.5(Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是正实数, 证明\n$\\frac{a}{1+ab^{2}}+\\frac{b}{1+bc^{2}}+\\frac{c}{1+ca^{2}} \\geqslant \\frac{3\\sqrt[3]{abc}}{1+k^{3}}$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

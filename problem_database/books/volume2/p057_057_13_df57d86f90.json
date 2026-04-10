@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_13_df57d86f90",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "13",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "13. (Pham Hun Duc, Mathlinks) 设 $a, b, c$ 是非负实数, 证明\n$$\n\\frac{1}{a^2+bc}+\\frac{1}{b^2+bc}+\\frac{1}{c^2+bc} \\leqslant \\frac{a+b+c}{ab+bc+ca}\\left(\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\right)\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "13. (Pham Hun Duc, Mathlinks) 设 $a, b, c$ 是非负实数, 证明\n$$\n\\frac{1}{a^2+bc}+\\frac{1}{b^2+bc}+\\frac{1}{c^2+bc} \\leqslant \\frac{a+b+c}{ab+bc+ca}\\left(\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\right)\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

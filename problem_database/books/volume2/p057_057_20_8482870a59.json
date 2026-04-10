@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_20_8482870a59",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "20",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "20. (Vasile Cirtoaje, Mathlinks) 设 $a, b, c$ 是非负实数, 证明\n$$\n(a^2-bc)\\sqrt{a^2+2bc}+(b^2-ca)\\sqrt{b^2+2ca}+(c^2-ab)\\sqrt{c^2+2ab} \\geqslant 0\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "20. (Vasile Cirtoaje, Mathlinks) 设 $a, b, c$ 是非负实数, 证明\n$$\n(a^2-bc)\\sqrt{a^2+2bc}+(b^2-ca)\\sqrt{b^2+2ca}+(c^2-ab)\\sqrt{c^2+2ab} \\geqslant 0\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_35_d53cf7f22c",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "35",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "设 $a$、$b$、$c \\geqslant 0$, 满足 $a + b + c = 1$. 求 $\\sqrt{a+b^{2}} + \\sqrt{b+c^{2}} + \\sqrt{c+a^{2}}$ 的最小值.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a$、$b$、$c \\geqslant 0$, 满足 $a + b + c = 1$. 求 $\\sqrt{a+b^{2}} + \\sqrt{b+c^{2}} + \\sqrt{c+a^{2}}$ 的最小值.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

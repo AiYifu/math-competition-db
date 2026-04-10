@@ -1,0 +1,24 @@
+{
+  "uid": "p118_119_例13_d0222bc3c4",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例13",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    118,
+    119
+  ],
+  "stem_md": "证明: 关于两个三角形的匹窦不等式 $a^2(b^2 + c^2 - a^2) + b^2(c^2 + a^2 - b^2) + c^2(a^2 + b^2 - c^2) \\geqslant 16SS_1$, 这里 $a, b, c, S_1$ 分别是 $\\triangle ABC$ 的 $\\angle A, \\angle B, \\angle C$ 的角平分线的长, $S_1 = \\frac{bc[(b + c)^2 - a^2]}{(b + c)^2 - c^2}$, $\\frac{bc}{t_a^2} = \\frac{(a + b)^2}{(a + b)^2 - c^2}$.",
+  "solution_md": "证明 两次利用柯西不等式, 得 $\\sum_{cyc} \\frac{bc}{t_a^2} = \\sum_{cyc} \\frac{(a + b)^2}{(a + b)^2 - c^2} \\geqslant \\frac{4(a + b + c)^2}{(a + b + c)^2 - c^2} = 4$. 同理可得 $\\sum_{cyc} \\frac{ca}{t_b^2} = \\sum_{cyc} \\frac{(a + c)^2}{(a + c)^2 - b^2} \\geqslant \\frac{4(a + b + c)^2}{(a + b + c)^2 - b^2} = 4$, $\\sum_{cyc} \\frac{ab}{t_c^2} = \\sum_{cyc} \\frac{(b + c)^2}{(b + c)^2 - a^2} \\geqslant \\frac{4(a + b + c)^2}{(a + b + c)^2 - a^2} = 4$. 两式相加, 并由假设得 $a^2(b^2 + c^2 - a^2) + b^2(c^2 + a^2 - b^2) + c^2(a^2 + b^2 - c^2) \\geqslant 16SS_1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "证明: 关于两个三角形的匹窦不等式 $a^2(b^2 + c^2 - a^2) + b^2(c^2 + a^2 - b^2) + c^2(a^2 + b^2 - c^2) \\geqslant 16SS_1$, 这里 $a, b, c, S_1$ 分别是 $\\triangle ABC$ 的 $\\angle A, \\angle B, \\angle C$ 的角平分线的长, $S_1 = \\frac{bc[(b + c)^2 - a^2]}{(b + c)^2 - c^2}$, $\\frac{bc}{t_a^2} = \\frac{(a + b)^2}{(a + b)^2 - c^2}$. 证明 两次利用柯西不等式, 得 $\\sum_{cyc} \\frac{bc}{t_a^2} = \\sum_{cyc} \\frac{(a + b)^2}{(a + b)^2 - c^2} \\geqslant \\frac{4(a + b + c)^2}{(a + b + c)^2 - c^2} = 4$. 同理可得 $\\sum_{cyc} \\frac{ca}{t_b^2} = \\sum_{cyc} \\frac{(a + c)^2}{(a + c)^2 - b^2} \\geqslant \\frac{4(a + b + c)^2}{(a + b + c)^2 - b^2} = 4$, $\\sum_{cyc} \\frac{ab}{t_c^2} = \\sum_{cyc} \\frac{(b + c)^2}{(b + c)^2 - a^2} \\geqslant \\frac{4(a + b + c)^2}{(a + b + c)^2 - a^2} = 4$. 两式相加, 并由假设得 $a^2(b^2 + c^2 - a^2) + b^2(c^2 + a^2 - b^2) + c^2(a^2 + b^2 - c^2) \\geqslant 16SS_1$.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015"
+}

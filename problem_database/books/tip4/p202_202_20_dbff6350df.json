@@ -1,0 +1,24 @@
+{
+  "uid": "p202_202_20_dbff6350df",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "20",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202
+  ],
+  "stem_md": "设 $\\triangle ABC$ 的三个内角为 $\\alpha, \\beta, \\gamma$, 则 $P = \\frac{1}{2}R^2(\\sin 2\\alpha + \\sin 2\\beta + \\sin 2\\gamma)$. 由平均值不等式, 得 $16Q^3 = 2R^6[\\sin(\\beta + \\gamma) + \\sin(\\alpha + \\gamma) + \\sin(\\alpha + \\beta)]^3 \\geq 2R^6 \\cdot 27 \\sin(\\beta + \\gamma) \\sin(\\alpha + \\gamma) \\sin(\\alpha + \\beta) = \\frac{27}{2}R^6[\\sin(\\alpha + \\beta + \\gamma) + \\sin(\\alpha + \\beta - \\gamma) + \\sin 2\\alpha + \\sin 2\\beta + \\sin 2\\gamma] = \\frac{27}{2}R^6(\\sin 2\\alpha + \\sin 2\\beta + \\sin 2\\gamma) = 27R^4P$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $\\triangle ABC$ 的三个内角为 $\\alpha, \\beta, \\gamma$, 则 $P = \\frac{1}{2}R^2(\\sin 2\\alpha + \\sin 2\\beta + \\sin 2\\gamma)$. 由平均值不等式, 得 $16Q^3 = 2R^6[\\sin(\\beta + \\gamma) + \\sin(\\alpha + \\gamma) + \\sin(\\alpha + \\beta)]^3 \\geq 2R^6 \\cdot 27 \\sin(\\beta + \\gamma) \\sin(\\alpha + \\gamma) \\sin(\\alpha + \\beta) = \\frac{27}{2}R^6[\\sin(\\alpha + \\beta + \\gamma) + \\sin(\\alpha + \\beta - \\gamma) + \\sin 2\\alpha + \\sin 2\\beta + \\sin 2\\gamma] = \\frac{27}{2}R^6(\\sin 2\\alpha + \\sin 2\\beta + \\sin 2\\gamma) = 27R^4P$.",
+  "tags": [
+    "三角",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

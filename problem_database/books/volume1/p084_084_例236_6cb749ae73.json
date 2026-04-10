@@ -1,0 +1,53 @@
+{
+  "uid": "p084_084_例236_6cb749ae73",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    84
+  ],
+  "source_images": [
+    "page-084.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，且 $abcd=1$，证明\n$$a^4+b^4+c^4+d^4+20 \\geqslant 6(abc+bcd+cda+dab)$$",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记 $t=\\sqrt{ac}$ 以及\n$$f(a,b,c,d)=a^4+b^4+c^4+d^4+20-6(abc+bcd+cda+dab)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)=(a^2-c^2)^2-6bd(\\sqrt{a}-\\sqrt{c})^2 \\geqslant 0$$\n因为 $(a+c)^2(\\sqrt{a}+\\sqrt{c})^2 \\geqslant 16 \\geqslant 16bd$。依据 SMV 定理，只需证明在 $a=b=c=x \\geqslant 1, d=x^{-3} \\leqslant 1$ 的条件下，原不等式成立即可。此时，不等式变成\n$$3x^4+\\frac{1}{x^{12}}+20 \\geqslant 6\\left(\\frac{3}{x}+x^3\\right)$$\n或者\n$$(x^4-1)^2(3x^8+2x^4+1) \\geqslant 6(x-1)^2x^{11}(x^2+2x+3)$$\n或者\n$$(x^3+x^2+x+1)^2(3x^8+2x^4+1) \\geqslant 6x^{11}(x^2+2x+3)$$\n最后的不等式是成立的，因为\n$$\\text{LHS} \\geqslant (x^6+2x^5+3x^4+4x^3+3x^2)(3x^8+2x^4+1)$$\n$$\\geqslant 3x^{14}+6x^{13}+9x^{12}+12x^{11}+11x^{10}$$\n$$\\geqslant 6x^{13}+12x^{12}+18x^{11}=6x^{11}(x^2+2x+3)=\\text{RHS}$$\n等号成立的条件是 $a=b=c=d=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.6(Michael Rozenberg,Mathlinks) 设 $a,b,c,d$ 是正实数,且 $abcd=1$,证明\n$$a^4+b^4+c^4+d^4+20 \\geqslant 6(abc+bcd+cda+dab)$$\n证明 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,记 $t=\\sqrt{ac}$ 以及\n$$f(a,b,c,d)=a^4+b^4+c^4+d^4+20-6(abc+bcd+cda+dab)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)=(a^2-c^2)^2-6bd(\\sqrt{a}-\\sqrt{c})^2 \\geqslant 0$$\n因为 $(a+c)^2(\\sqrt{a}+\\sqrt{c})^2 \\geqslant 16 \\geqslant 16bd$.依据 SMV 定理,只需证明在 $a=b=c=x \\geqslant 1,d=x^{-3} \\leqslant 1$ 的条件下,原不等式成立即可.此时,不等式变成\n$$3x^4+\\frac{1}{x^{12}}+20 \\geqslant 6\\left(\\frac{3}{x}+x^3\\right)$$\n或者\n$$(x^4-1)^2(3x^8+2x^4+1) \\geqslant 6(x-1)^2x^{11}(x^2+2x+3)$$\n或者\n$$(x^3+x^2+x+1)^2(3x^8+2x^4+1) \\geqslant 6x^{11}(x^2+2x+3)$$\n最后的不等式是成立的,因为\n$$\\text{LHS} \\geqslant (x^6+2x^5+3x^4+4x^3+3x^2)(3x^8+2x^4+1)$$\n$$\\geqslant 3x^{14}+6x^{13}+9x^{12}+12x^{11}+11x^{10}$$\n$$\\geqslant 6x^{13}+12x^{12}+18x^{11}=6x^{11}(x^2+2x+3)=\\text{RHS}$$\n等号成立的条件是 $a=b=c=d=1$.",
+  "tags": [
+    "SMV定理",
+    "四元不等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "6cb749ae7366bbc14f9d21ef2e26c13428f38b8d",
+  "raw_problem": {
+    "problem_id": "例2.3.6",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      84
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，且 $abcd=1$，证明\n$$a^4+b^4+c^4+d^4+20 \\geqslant 6(abc+bcd+cda+dab)$$",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c \\geqslant d$，记 $t=\\sqrt{ac}$ 以及\n$$f(a,b,c,d)=a^4+b^4+c^4+d^4+20-6(abc+bcd+cda+dab)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)=(a^2-c^2)^2-6bd(\\sqrt{a}-\\sqrt{c})^2 \\geqslant 0$$\n因为 $(a+c)^2(\\sqrt{a}+\\sqrt{c})^2 \\geqslant 16 \\geqslant 16bd$。依据 SMV 定理，只需证明在 $a=b=c=x \\geqslant 1, d=x^{-3} \\leqslant 1$ 的条件下，原不等式成立即可。此时，不等式变成\n$$3x^4+\\frac{1}{x^{12}}+20 \\geqslant 6\\left(\\frac{3}{x}+x^3\\right)$$\n或者\n$$(x^4-1)^2(3x^8+2x^4+1) \\geqslant 6(x-1)^2x^{11}(x^2+2x+3)$$\n或者\n$$(x^3+x^2+x+1)^2(3x^8+2x^4+1) \\geqslant 6x^{11}(x^2+2x+3)$$\n最后的不等式是成立的，因为\n$$\\text{LHS} \\geqslant (x^6+2x^5+3x^4+4x^3+3x^2)(3x^8+2x^4+1)$$\n$$\\geqslant 3x^{14}+6x^{13}+9x^{12}+12x^{11}+11x^{10}$$\n$$\\geqslant 6x^{13}+12x^{12}+18x^{11}=6x^{11}(x^2+2x+3)=\\text{RHS}$$\n等号成立的条件是 $a=b=c=d=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.6(Michael Rozenberg,Mathlinks) 设 $a,b,c,d$ 是正实数,且 $abcd=1$,证明\n$$a^4+b^4+c^4+d^4+20 \\geqslant 6(abc+bcd+cda+dab)$$\n证明 不失一般性,设 $a \\geqslant b \\geqslant c \\geqslant d$,记 $t=\\sqrt{ac}$ 以及\n$$f(a,b,c,d)=a^4+b^4+c^4+d^4+20-6(abc+bcd+cda+dab)$$\n我们有\n$$f(a,b,c,d)-f(t,b,t,d)=(a^2-c^2)^2-6bd(\\sqrt{a}-\\sqrt{c})^2 \\geqslant 0$$\n因为 $(a+c)^2(\\sqrt{a}+\\sqrt{c})^2 \\geqslant 16 \\geqslant 16bd$.依据 SMV 定理,只需证明在 $a=b=c=x \\geqslant 1,d=x^{-3} \\leqslant 1$ 的条件下,原不等式成立即可.此时,不等式变成\n$$3x^4+\\frac{1}{x^{12}}+20 \\geqslant 6\\left(\\frac{3}{x}+x^3\\right)$$\n或者\n$$(x^4-1)^2(3x^8+2x^4+1) \\geqslant 6(x-1)^2x^{11}(x^2+2x+3)$$\n或者\n$$(x^3+x^2+x+1)^2(3x^8+2x^4+1) \\geqslant 6x^{11}(x^2+2x+3)$$\n最后的不等式是成立的,因为\n$$\\text{LHS} \\geqslant (x^6+2x^5+3x^4+4x^3+3x^2)(3x^8+2x^4+1)$$\n$$\\geqslant 3x^{14}+6x^{13}+9x^{12}+12x^{11}+11x^{10}$$\n$$\\geqslant 6x^{13}+12x^{12}+18x^{11}=6x^{11}(x^2+2x+3)=\\text{RHS}$$\n等号成立的条件是 $a=b=c=d=1$.",
+    "tags": [
+      "SMV定理",
+      "四元不等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

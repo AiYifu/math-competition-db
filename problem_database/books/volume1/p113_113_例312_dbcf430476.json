@@ -1,0 +1,53 @@
+{
+  "uid": "p113_113_例312_dbcf430476",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": "3.1 起步",
+  "problem_id": "例3.1.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    113
+  ],
+  "source_images": [
+    "page-113.jpg"
+  ],
+  "stem_md": "证明下面两个命题是等价的：\n\n(1) 如果 $a,b,c \\geqslant 0$，且 $a+b+c=3$，则 $a+b+c \\geqslant ab+bc+ca$。\n\n(2) 如果 $a,b,c \\geqslant 0$，且 $a+b+c=ab+bc+ca$，则 $a+b+c \\geqslant 3$。",
+  "solution_md": "**证明及分析** 这两个命题 (1) 和 (2)，单独证明是非常容易的，所以，它们是等价的。无论如何，我们可以证明 $(1) \\Rightarrow (2)$，$(2) \\Rightarrow (1)$（这就是我们要说的思想）。实际上假设 (1) 成立，我们来证明 (2) 成立。采用反证法，假设 (2) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1 = a_1b_1+b_1c_1+c_1a_1 \\quad a_1+b_1+c_1 < 3$$\n由于 $a_1+b_1+c_1 < 3$，则一定存在一个实数 $t > 1$，满足 $ta_1+tb_1+tc_1=3$，对于三个数 $ta_1,tb_1,tc_1$，利用 (1)，我们有\n$$ta_1+tb_1+tc_1 \\geqslant ta_1 \\cdot tb_1+tb_1 \\cdot tc_1+tc_1 \\cdot ta_1$$\n$$\\Leftrightarrow a_1+b_1+c_1 \\geqslant t(a_1b_1+b_1c_1+c_1a_1)$$\n由于 $t > 1$，我们得到\n$$a_1+b_1+c_1 > a_1b_1+b_1c_1+c_1a_1$$\n这和假设 $a_1+b_1+c_1=a_1b_1+b_1c_1+c_1a_1$ 相矛盾，所以 (2) 成立。\n\n假设 (2) 成立，我们来证明 (1) 成立。采用反证法，假设 (1) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1=3$$\n$$a_1+b_1+c_1 < a_1b_1+b_1c_1+c_1a_1$$\n因为，$a_1+b_1+c_1 < a_1b_1+b_1c_1+c_1a_1$，则一定存在一个实数 $r < 1$，满足\n$$ra_1+rb_1+rc_1=ra_1 \\cdot rb_1+rb_1 \\cdot rc_1+rc_1 \\cdot ra_1 \\Leftrightarrow r=\\frac{a_1+b_1+c_1}{a_1b_1+b_1c_1+c_1a_1}$$\n对三个数 $ra_1,rb_1,rc_1$ 应用 (2)，有\n$$ra_1+rb_1+rc_1 \\geqslant 3$$\n因为 $r < 1$，所以\n$$a_1+b_1+c_1 \\geqslant \\frac{3}{r} > 3$$\n这和假设 $a_1+b_1+c_1=3$ 相矛盾，所以，(1) 成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.1.2 证明下面两个命题是等价的：\n\n(1) 如果 $a,b,c\\geqslant 0$，且 $a+b+c=3$，则 $a+b+c\\geqslant ab+bc+ca$。\n\n(2) 如果 $a,b,c\\geqslant 0$，且 $a+b+c=ab+bc+ca$，则 $a+b+c\\geqslant 3$。\n\n**证明及分析** 这两个命题 (1) 和 (2)，单独证明是非常容易的，所以，它们是等价的。无论如何，我们可以证明 $(1)\\Rightarrow(2)$，$(2)\\Rightarrow(1)$（这就是我们要说的思想）。实际上假设 (1) 成立，我们来证明 (2) 成立。采用反证法，假设 (2) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1=a_1b_1+b_1c_1+c_1a_1\\quad a_1+b_1+c_1<3$$\n由于 $a_1+b_1+c_1<3$，则一定存在一个实数 $t>1$，满足 $ta_1+tb_1+tc_1=3$，对于三个数 $ta_1,tb_1,tc_1$，利用 (1)，我们有\n$$ta_1+tb_1+tc_1\\geqslant ta_1\\cdot tb_1+tb_1\\cdot tc_1+tc_1\\cdot ta_1$$\n$$\\Leftrightarrow a_1+b_1+c_1\\geqslant t(a_1b_1+b_1c_1+c_1a_1)$$\n由于 $t>1$，我们得到\n$$a_1+b_1+c_1>a_1b_1+b_1c_1+c_1a_1$$\n这和假设 $a_1+b_1+c_1=a_1b_1+b_1c_1+c_1a_1$ 相矛盾，所以 (2) 成立。\n\n假设 (2) 成立，我们来证明 (1) 成立。采用反证法，假设 (1) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1=3$$\n$$a_1+b_1+c_1<a_1b_1+b_1c_1+c_1a_1$$\n因为，$a_1+b_1+c_1<a_1b_1+b_1c_1+c_1a_1$，则一定存在一个实数 $r<1$，满足\n$$ra_1+rb_1+rc_1=ra_1\\cdot rb_1+rb_1\\cdot rc_1+rc_1\\cdot ra_1\\Leftrightarrow r=\\frac{a_1+b_1+c_1}{a_1b_1+b_1c_1+c_1a_1}$$\n对三个数 $ra_1,rb_1,rc_1$ 应用 (2)，有\n$$ra_1+rb_1+rc_1\\geqslant 3$$\n因为 $r<1$，所以\n$$a_1+b_1+c_1\\geqslant\\frac{3}{r}>3$$\n这和假设 $a_1+b_1+c_1=3$ 相矛盾，所以，(1) 成立。",
+  "tags": [
+    "反证法",
+    "等价命题",
+    "起步"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "dbcf4304760aa2825df308a32c26d704205bdc3c",
+  "raw_problem": {
+    "problem_id": "例3.1.2",
+    "problem_type": "example",
+    "chapter": "第3章 反证法",
+    "section": "3.1 起步",
+    "title": null,
+    "source_pages": [
+      113
+    ],
+    "stem_md": "证明下面两个命题是等价的：\n\n(1) 如果 $a,b,c \\geqslant 0$，且 $a+b+c=3$，则 $a+b+c \\geqslant ab+bc+ca$。\n\n(2) 如果 $a,b,c \\geqslant 0$，且 $a+b+c=ab+bc+ca$，则 $a+b+c \\geqslant 3$。",
+    "solution_md": "**证明及分析** 这两个命题 (1) 和 (2)，单独证明是非常容易的，所以，它们是等价的。无论如何，我们可以证明 $(1) \\Rightarrow (2)$，$(2) \\Rightarrow (1)$（这就是我们要说的思想）。实际上假设 (1) 成立，我们来证明 (2) 成立。采用反证法，假设 (2) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1 = a_1b_1+b_1c_1+c_1a_1 \\quad a_1+b_1+c_1 < 3$$\n由于 $a_1+b_1+c_1 < 3$，则一定存在一个实数 $t > 1$，满足 $ta_1+tb_1+tc_1=3$，对于三个数 $ta_1,tb_1,tc_1$，利用 (1)，我们有\n$$ta_1+tb_1+tc_1 \\geqslant ta_1 \\cdot tb_1+tb_1 \\cdot tc_1+tc_1 \\cdot ta_1$$\n$$\\Leftrightarrow a_1+b_1+c_1 \\geqslant t(a_1b_1+b_1c_1+c_1a_1)$$\n由于 $t > 1$，我们得到\n$$a_1+b_1+c_1 > a_1b_1+b_1c_1+c_1a_1$$\n这和假设 $a_1+b_1+c_1=a_1b_1+b_1c_1+c_1a_1$ 相矛盾，所以 (2) 成立。\n\n假设 (2) 成立，我们来证明 (1) 成立。采用反证法，假设 (1) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1=3$$\n$$a_1+b_1+c_1 < a_1b_1+b_1c_1+c_1a_1$$\n因为，$a_1+b_1+c_1 < a_1b_1+b_1c_1+c_1a_1$，则一定存在一个实数 $r < 1$，满足\n$$ra_1+rb_1+rc_1=ra_1 \\cdot rb_1+rb_1 \\cdot rc_1+rc_1 \\cdot ra_1 \\Leftrightarrow r=\\frac{a_1+b_1+c_1}{a_1b_1+b_1c_1+c_1a_1}$$\n对三个数 $ra_1,rb_1,rc_1$ 应用 (2)，有\n$$ra_1+rb_1+rc_1 \\geqslant 3$$\n因为 $r < 1$，所以\n$$a_1+b_1+c_1 \\geqslant \\frac{3}{r} > 3$$\n这和假设 $a_1+b_1+c_1=3$ 相矛盾，所以，(1) 成立。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.1.2 证明下面两个命题是等价的：\n\n(1) 如果 $a,b,c\\geqslant 0$，且 $a+b+c=3$，则 $a+b+c\\geqslant ab+bc+ca$。\n\n(2) 如果 $a,b,c\\geqslant 0$，且 $a+b+c=ab+bc+ca$，则 $a+b+c\\geqslant 3$。\n\n**证明及分析** 这两个命题 (1) 和 (2)，单独证明是非常容易的，所以，它们是等价的。无论如何，我们可以证明 $(1)\\Rightarrow(2)$，$(2)\\Rightarrow(1)$（这就是我们要说的思想）。实际上假设 (1) 成立，我们来证明 (2) 成立。采用反证法，假设 (2) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1=a_1b_1+b_1c_1+c_1a_1\\quad a_1+b_1+c_1<3$$\n由于 $a_1+b_1+c_1<3$，则一定存在一个实数 $t>1$，满足 $ta_1+tb_1+tc_1=3$，对于三个数 $ta_1,tb_1,tc_1$，利用 (1)，我们有\n$$ta_1+tb_1+tc_1\\geqslant ta_1\\cdot tb_1+tb_1\\cdot tc_1+tc_1\\cdot ta_1$$\n$$\\Leftrightarrow a_1+b_1+c_1\\geqslant t(a_1b_1+b_1c_1+c_1a_1)$$\n由于 $t>1$，我们得到\n$$a_1+b_1+c_1>a_1b_1+b_1c_1+c_1a_1$$\n这和假设 $a_1+b_1+c_1=a_1b_1+b_1c_1+c_1a_1$ 相矛盾，所以 (2) 成立。\n\n假设 (2) 成立，我们来证明 (1) 成立。采用反证法，假设 (1) 对某些变量，不妨设为 $a_1,b_1,c_1$，不成立，则\n$$a_1+b_1+c_1=3$$\n$$a_1+b_1+c_1<a_1b_1+b_1c_1+c_1a_1$$\n因为，$a_1+b_1+c_1<a_1b_1+b_1c_1+c_1a_1$，则一定存在一个实数 $r<1$，满足\n$$ra_1+rb_1+rc_1=ra_1\\cdot rb_1+rb_1\\cdot rc_1+rc_1\\cdot ra_1\\Leftrightarrow r=\\frac{a_1+b_1+c_1}{a_1b_1+b_1c_1+c_1a_1}$$\n对三个数 $ra_1,rb_1,rc_1$ 应用 (2)，有\n$$ra_1+rb_1+rc_1\\geqslant 3$$\n因为 $r<1$，所以\n$$a_1+b_1+c_1\\geqslant\\frac{3}{r}>3$$\n这和假设 $a_1+b_1+c_1=3$ 相矛盾，所以，(1) 成立。",
+    "tags": [
+      "反证法",
+      "等价命题",
+      "起步"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

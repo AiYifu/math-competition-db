@@ -1,0 +1,25 @@
+{
+  "uid": "p065_066_例7_e8271f3378",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2",
+  "section": "平均值不等式的应用",
+  "problem_id": "例7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    65,
+    66
+  ],
+  "stem_md": "设 $T_{a} 、 T_{b} 、 T_{c}$ 为 $\\triangle ABC$ 的角平分线的延长线与外接圆相交所得的线段长. 求证: \n$$\nabc \\leqslant \\frac{3 \\sqrt{3}}{8} T_{a} T_{b} T_{c}.\n$$\n证明 设 $|AE| = T_{a}, D$ 为 $AE$ 与 $BC$ 的交点, 则\n$$\n\\begin{aligned}\nBE^{2} &= c^{2} + T_{a}^{2} - 2cT_{a}\\cos \\frac{A}{2}, \\\nCE^{2} &= b^{2} + T_{a}^{2} - 2bT_{a}\\cos \\frac{A}{2}.\n\\end{aligned}\n$$\n因为 $BE = CE$, 所以\n$$\nT_{a} = \\frac{b + c}{2\\cos \\frac{A}{2}}.\n$$\n再由平均值不等式, 得 $T_{a} \\geqslant \\frac{\\sqrt{bc}}{\\cos \\frac{A}{2}}$.\n同理可得 $T_{b} \\geqslant \\frac{\\sqrt{ac}}{\\cos \\frac{B}{2}}, T_{c} \\geqslant \\frac{\\sqrt{ab}}{\\cos \\frac{C}{2}}$. 于是\n$$\nT_{a} T_{b} T_{c} \\geqslant \\frac{abc}{\\cos \\frac{A}{2} \\cos \\frac{B}{2} \\cos \\frac{C}{2}}.\n$$\n再由 $\\cos \\frac{A}{2} \\cos \\frac{B}{2} \\cos \\frac{C}{2} \\leqslant \\frac{3 \\sqrt{3}}{8}$ 得到命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $T_{a} 、 T_{b} 、 T_{c}$ 为 $\\triangle ABC$ 的角平分线的延长线与外接圆相交所得的线段长. 求证: \n$$\nabc \\leqslant \\frac{3 \\sqrt{3}}{8} T_{a} T_{b} T_{c}.\n$$\n证明 设 $|AE| = T_{a}, D$ 为 $AE$ 与 $BC$ 的交点, 则\n$$\n\\begin{aligned}\nBE^{2} &= c^{2} + T_{a}^{2} - 2cT_{a}\\cos \\frac{A}{2}, \\\nCE^{2} &= b^{2} + T_{a}^{2} - 2bT_{a}\\cos \\frac{A}{2}.\n\\end{aligned}\n$$\n因为 $BE = CE$, 所以\n$$\nT_{a} = \\frac{b + c}{2\\cos \\frac{A}{2}}.\n$$\n再由平均值不等式, 得 $T_{a} \\geqslant \\frac{\\sqrt{bc}}{\\cos \\frac{A}{2}}$.\n同理可得 $T_{b} \\geqslant \\frac{\\sqrt{ac}}{\\cos \\frac{B}{2}}, T_{c} \\geqslant \\frac{\\sqrt{ab}}{\\cos \\frac{C}{2}}$. 于是\n$$\nT_{a} T_{b} T_{c} \\geqslant \\frac{abc}{\\cos \\frac{A}{2} \\cos \\frac{B}{2} \\cos \\frac{C}{2}}.\n$$\n再由 $\\cos \\frac{A}{2} \\cos \\frac{B}{2} \\cos \\frac{C}{2} \\leqslant \\frac{3 \\sqrt{3}}{8}$ 得到命题成立.",
+  "tags": [
+    "均值不等式",
+    "三角形"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

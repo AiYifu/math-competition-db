@@ -1,0 +1,55 @@
+{
+  "uid": "p108_109_定理9_298189bf06",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "定理9",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    108,
+    109
+  ],
+  "source_images": [
+    "page-108.jpg"
+  ],
+  "stem_md": "设 $F(x_1,x_2,\\cdots,x_n)$ 是一个 $n$ 变量 $x_1,x_2,\\cdots,x_n$ 的 4 次循环多项式，且满足，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，令 $F_0=F,F_1=[F_0],F_2=[F_1]$，则：\n(1) 不等式 $F\\geqslant 0$，对所有实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当，对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，有\n$$F_0\\mid_{x_n=0}\\geqslant 0, F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$$\n(2) 不等式 $F\\geqslant 0$，对所有非负实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，下列两个条件至少有一个成立：\n① $F_0\\mid_{x_n=0}\\geqslant 0,F_1\\mid_{x_n=0}\\geqslant 0,F_2\\mid_{x_n=0}\\geqslant 0$；\n② $F_0\\mid_{x_n=0}\\geqslant 0,F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$。",
+  "solution_md": "因为，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，所以，我们可以推出，当 $x_1=x_2=\\cdots=x_n$ 时，$F_3=[F_2]=0,F_4=[F_3]=0$。不失一般性，设 $x_n=\\min\\{x_1,x_2,\\cdots,x_n\\}$，对于 $i\\in\\{1,2,\\cdots,n\\}$，令 $y_i=x_i-x_n\\geqslant 0,t=x_n$，考察下列函数\n$$F(x_1,x_2,\\cdots,x_n)=F(y_1+t,y_2+t,\\cdots,y_n+t)=g(t)$$\n应用定理 8，我们有\n$$g(t)=F_0\\mid_{x_n=0}+tF_1\\mid_{x_n=0}+\\frac{t^2}{2}F_2\\mid_{x_n=0}$$\n因此，我们很容易得到(1)和(2)。",
+  "answer_md": "",
+  "hints_md": "① 这个定理，对 4 次循环不等式提出了一个充分必要条件。注意到，我们有大量的这类不等式，其成立的条件是不可想象的。更多详情，请参阅第一卷或后面的例子。",
+  "original_text_md": "定理 9① 设 $F(x_1,x_2,\\cdots,x_n)$ 是一个 $n$ 变量 $x_1,x_2,\\cdots,x_n$ 的 4 次循环多项式，且满足，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，令 $F_0=F,F_1=[F_0],F_2=[F_1]$，则：\n(1) 不等式 $F\\geqslant 0$，对所有实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当，对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，有\n$$F_0\\mid_{x_n=0}\\geqslant 0, F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$$\n(2) 不等式 $F\\geqslant 0$，对所有非负实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，下列两个条件至少有一个成立：\n① $F_0\\mid_{x_n=0}\\geqslant 0,F_1\\mid_{x_n=0}\\geqslant 0,F_2\\mid_{x_n=0}\\geqslant 0$；\n② $F_0\\mid_{x_n=0}\\geqslant 0,F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$。\n证明 因为，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，所以，我们可以推出，当 $x_1=x_2=\\cdots=x_n$ 时，$F_3=[F_2]=0,F_4=[F_3]=0$。不失一般性，设 $x_n=\\min\\{x_1,x_2,\\cdots,x_n\\}$，对于 $i\\in\\{1,2,\\cdots,n\\}$，令 $y_i=x_i-x_n\\geqslant 0,t=x_n$，考察下列函数\n$$F(x_1,x_2,\\cdots,x_n)=F(y_1+t,y_2+t,\\cdots,y_n+t)=g(t)$$\n应用定理 8，我们有\n$$g(t)=F_0\\mid_{x_n=0}+tF_1\\mid_{x_n=0}+\\frac{t^2}{2}F_2\\mid_{x_n=0}$$\n因此，我们很容易得到(1)和(2)。\n① 这个定理，对 4 次循环不等式提出了一个充分必要条件。注意到，我们有大量的这类不等式，其成立的条件是不可想象的。更多详情，请参阅第一卷或后面的例子。",
+  "tags": [
+    "4次循环多项式",
+    "全导数",
+    "充分必要条件"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "298189bf06d9b0a309a86eca913f4fc982e6cd33",
+  "raw_problem": {
+    "problem_id": "定理9",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      108,
+      109
+    ],
+    "stem_md": "设 $F(x_1,x_2,\\cdots,x_n)$ 是一个 $n$ 变量 $x_1,x_2,\\cdots,x_n$ 的 4 次循环多项式，且满足，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，令 $F_0=F,F_1=[F_0],F_2=[F_1]$，则：\n(1) 不等式 $F\\geqslant 0$，对所有实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当，对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，有\n$$F_0\\mid_{x_n=0}\\geqslant 0, F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$$\n(2) 不等式 $F\\geqslant 0$，对所有非负实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，下列两个条件至少有一个成立：\n① $F_0\\mid_{x_n=0}\\geqslant 0,F_1\\mid_{x_n=0}\\geqslant 0,F_2\\mid_{x_n=0}\\geqslant 0$；\n② $F_0\\mid_{x_n=0}\\geqslant 0,F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$。",
+    "solution_md": "因为，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，所以，我们可以推出，当 $x_1=x_2=\\cdots=x_n$ 时，$F_3=[F_2]=0,F_4=[F_3]=0$。不失一般性，设 $x_n=\\min\\{x_1,x_2,\\cdots,x_n\\}$，对于 $i\\in\\{1,2,\\cdots,n\\}$，令 $y_i=x_i-x_n\\geqslant 0,t=x_n$，考察下列函数\n$$F(x_1,x_2,\\cdots,x_n)=F(y_1+t,y_2+t,\\cdots,y_n+t)=g(t)$$\n应用定理 8，我们有\n$$g(t)=F_0\\mid_{x_n=0}+tF_1\\mid_{x_n=0}+\\frac{t^2}{2}F_2\\mid_{x_n=0}$$\n因此，我们很容易得到(1)和(2)。",
+    "answer_md": "",
+    "hints_md": "① 这个定理，对 4 次循环不等式提出了一个充分必要条件。注意到，我们有大量的这类不等式，其成立的条件是不可想象的。更多详情，请参阅第一卷或后面的例子。",
+    "original_text_md": "定理 9① 设 $F(x_1,x_2,\\cdots,x_n)$ 是一个 $n$ 变量 $x_1,x_2,\\cdots,x_n$ 的 4 次循环多项式，且满足，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，令 $F_0=F,F_1=[F_0],F_2=[F_1]$，则：\n(1) 不等式 $F\\geqslant 0$，对所有实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当，对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，有\n$$F_0\\mid_{x_n=0}\\geqslant 0, F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$$\n(2) 不等式 $F\\geqslant 0$，对所有非负实数 $x_1,x_2,\\cdots,x_n$ 成立，当且仅当对任意 $x_1,x_2,\\cdots,x_{n-1}\\geqslant 0$，下列两个条件至少有一个成立：\n① $F_0\\mid_{x_n=0}\\geqslant 0,F_1\\mid_{x_n=0}\\geqslant 0,F_2\\mid_{x_n=0}\\geqslant 0$；\n② $F_0\\mid_{x_n=0}\\geqslant 0,F_1^2\\mid_{x_n=0}\\leqslant 2(F_0F_2)\\mid_{x_n=0}$。\n证明 因为，当 $x_1=x_2=\\cdots=x_n$ 时，$F(x_1,x_2,\\cdots,x_n)=0$，所以，我们可以推出，当 $x_1=x_2=\\cdots=x_n$ 时，$F_3=[F_2]=0,F_4=[F_3]=0$。不失一般性，设 $x_n=\\min\\{x_1,x_2,\\cdots,x_n\\}$，对于 $i\\in\\{1,2,\\cdots,n\\}$，令 $y_i=x_i-x_n\\geqslant 0,t=x_n$，考察下列函数\n$$F(x_1,x_2,\\cdots,x_n)=F(y_1+t,y_2+t,\\cdots,y_n+t)=g(t)$$\n应用定理 8，我们有\n$$g(t)=F_0\\mid_{x_n=0}+tF_1\\mid_{x_n=0}+\\frac{t^2}{2}F_2\\mid_{x_n=0}$$\n因此，我们很容易得到(1)和(2)。\n① 这个定理，对 4 次循环不等式提出了一个充分必要条件。注意到，我们有大量的这类不等式，其成立的条件是不可想象的。更多详情，请参阅第一卷或后面的例子。",
+    "tags": [
+      "4次循环多项式",
+      "全导数",
+      "充分必要条件"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

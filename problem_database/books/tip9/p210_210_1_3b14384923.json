@@ -1,0 +1,21 @@
+{
+  "uid": "p210_210_1_3b14384923",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    210
+  ],
+  "stem_md": "1. 固定 $z$ 的值, 先求 $2x^2 + y$ 的最大、最小值, 然后让 $z$ 变动, 求出整体最大值 $S_{\\max} = 3$, 最小值 $S_{\\min} = \\frac{57}{72}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "1. 固定 $z$ 的值, 先求 $2x^2 + y$ 的最大、最小值, 然后让 $z$ 变动, 求出整体最大值 $S_{\\max} = 3$, 最小值 $S_{\\min} = \\frac{57}{72}$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

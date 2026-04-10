@@ -1,0 +1,24 @@
+{
+  "uid": "p068_068_例1_d537f065f9",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2",
+  "section": "平均值不等式的应用",
+  "problem_id": "例1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    68
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 且满足 $a^{2} + b^{2} + c^{2} = 3$. 证明: \n$$\nab + bc + ca \\leqslant 3abc.\n$$\n证明: \n$$\n\\sqrt{2} \\cdot \\sqrt{a + b} = 2\\sqrt{\\frac{ab}{a + b}} \\cdot \\sqrt{\\frac{1}{2}\\left(\\sqrt{2} + \\sqrt{\\frac{a^{2} + b^{2}}{ab}}\\right)}\n$$\n$$\n= \\sqrt{\\frac{2ab}{a + b}} + \\sqrt{\\frac{a^{2} + b^{2}}{a + b}}.\n$$\n同理, \n$$\n\\sqrt{2} \\cdot \\sqrt{b + c} \\geqslant \\sqrt{\\frac{2bc}{b + c}} + \\sqrt{\\frac{b^{2} + c^{2}}{b + c}},\n$$\n$$\n\\sqrt{2} \\cdot \\sqrt{c + a} \\geqslant \\sqrt{\\frac{2ca}{c + a}} + \\sqrt{\\frac{c^{2} + a^{2}}{c + a}}.\n$$\n再由 $Q_{3} \\geqslant H_{3}$ 得\n$$\n\\sqrt{\\left(\\sqrt{\\frac{a + b}{2ab}}\\right)^{2} + \\left(\\sqrt{\\frac{b + c}{2bc}}\\right)^{2} + \\left(\\sqrt{\\frac{c + a}{2ca}}\\right)^{2}} \\geqslant 3.\n$$\n于是, 原不等式成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是正实数, 且满足 $a^{2} + b^{2} + c^{2} = 3$. 证明: \n$$\nab + bc + ca \\leqslant 3abc.\n$$\n证明: \n$$\n\\sqrt{2} \\cdot \\sqrt{a + b} = 2\\sqrt{\\frac{ab}{a + b}} \\cdot \\sqrt{\\frac{1}{2}\\left(\\sqrt{2} + \\sqrt{\\frac{a^{2} + b^{2}}{ab}}\\right)}\n$$\n$$\n= \\sqrt{\\frac{2ab}{a + b}} + \\sqrt{\\frac{a^{2} + b^{2}}{a + b}}.\n$$\n同理, \n$$\n\\sqrt{2} \\cdot \\sqrt{b + c} \\geqslant \\sqrt{\\frac{2bc}{b + c}} + \\sqrt{\\frac{b^{2} + c^{2}}{b + c}},\n$$\n$$\n\\sqrt{2} \\cdot \\sqrt{c + a} \\geqslant \\sqrt{\\frac{2ca}{c + a}} + \\sqrt{\\frac{c^{2} + a^{2}}{c + a}}.\n$$\n再由 $Q_{3} \\geqslant H_{3}$ 得\n$$\n\\sqrt{\\left(\\sqrt{\\frac{a + b}{2ab}}\\right)^{2} + \\left(\\sqrt{\\frac{b + c}{2bc}}\\right)^{2} + \\left(\\sqrt{\\frac{c + a}{2ca}}\\right)^{2}} \\geqslant 3.\n$$\n于是, 原不等式成立.",
+  "tags": [
+    "均值不等式",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

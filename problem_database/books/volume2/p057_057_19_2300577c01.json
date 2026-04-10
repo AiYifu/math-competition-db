@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_19_2300577c01",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "19",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "19. (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是正实数, 证明\n$$\n\\left(a+\\frac{b^2}{c}\\right)^2+\\left(b+\\frac{c^2}{a}\\right)^2+\\left(c+\\frac{a^2}{b}\\right)^2 \\geqslant \\frac{12(a^3+b^3+c^3)}{a+b+c}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "19. (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是正实数, 证明\n$$\n\\left(a+\\frac{b^2}{c}\\right)^2+\\left(b+\\frac{c^2}{a}\\right)^2+\\left(c+\\frac{a^2}{b}\\right)^2 \\geqslant \\frac{12(a^3+b^3+c^3)}{a+b+c}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p209_209_15_8c82cb1bf3",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "显然 $x_i\\in(0,1)$, 由柯西不等式和平均值不等式, 有 $\\sum_{k=1}^{n}\\frac{x_k}{x_{k+1}-x_{k+1}^2}=\\sum_{k=1}^{n}\\frac{x_k}{x_{k+1}(1-x_k)}\\geqslant\\frac{n(n+1)(2n+1)}{6}(2^n-1)<3n^2\\cdot2^n$. 因为 $n\\geqslant4$, 故 $n^2>3n$, $n^2\\geqslant3n+1$, 进而 $3n^2\\geqslant2n^2+3n+1$. 所以 $(2n^2+3n+1)(2^n-1)<3n^2\\cdot2^n$. 从而, 命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "15. 显然 $x_i\\in(0,1)$, 由柯西不等式和平均值不等式, 有 $\\sum_{k=1}^{n}\\frac{x_k}{x_{k+1}-x_{k+1}^2}=\\sum_{k=1}^{n}\\frac{x_k}{x_{k+1}(1-x_k)}\\geqslant\\frac{n(n+1)(2n+1)}{6}(2^n-1)<3n^2\\cdot2^n$. 因为 $n\\geqslant4$, 故 $n^2>3n$, $n^2\\geqslant3n+1$, 进而 $3n^2\\geqslant2n^2+3n+1$. 所以 $(2n^2+3n+1)(2^n-1)<3n^2\\cdot2^n$. 从而, 命题成立.",
+  "tags": [
+    "柯西不等式",
+    "平均值不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

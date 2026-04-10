@@ -1,0 +1,25 @@
+{
+  "uid": "p050_051_例7_c38092afd9",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    50,
+    51
+  ],
+  "stem_md": "(1) 如果 $a, b, c, d$ 是实数，求证：\n$a^6 + b^6 + c^6 + d^6 - 6abcd \\geqslant -2$，\n并指出等号何时成立；\n(2) 对于哪些正整数 $k$，不等式\n$a^k + b^k + c^k + d^k - kabcd \\geqslant M_k$\n对所有实数 $a, b, c, d$ 成立？求 $M_k$ 的最大可能值，并指出等号何时成立。",
+  "solution_md": "证明 (1) 给定不等式变形为\n$a^6 + b^6 + c^6 + d^6 + 1 + 1 \\geqslant 6abcd$.\n根据算术—几何平均值不等式，得\n$\\frac{a^6 + b^6 + c^6 + d^6 + 1^6 + 1^6}{6}$\n$\\geqslant \\sqrt[6]{|a|^6 \\cdot |b|^6 \\cdot |c|^6 \\cdot |d|^6 \\cdot 1^6 \\cdot 1^6}$\n$= |abcd| \\geqslant abcd$.\n因为算术—几何平均值不等式当\n$|a| = |b| = |c| = |d| = 1$\n时等号成立。而最后的不等式，当偶数个变量为负时等号成立。因此，等号成立的情形是\n$(a, b, c, d) = (1, 1, 1, 1), (1, 1, -1, -1), (1, -1, 1, -1),$\n$(-1, 1, 1, -1), (1, -1, -1, 1), (-1, 1, -1, 1),$\n$(-1, -1, 1, 1), (-1, -1, -1, -1)$\n当 $k = 2$ 时，取 $a = b = c = d = r$，得到\n$a^2 + b^2 + c^2 + d^2 - 2abcd = 4r^2 - 2r^4$.\n同(1)得\n$a^k + b^k + c^k + d^k - kabcd \\geqslant 4 - k$,\n即 $\\frac{a^k + b^k + c^k + d^k + (k - 4) \\cdot 1^k}{k} \\geqslant abcd$.\n等号成立的条件与(1)相同。\n故此时 $M_k$ 的最大值为 $4 - k$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例7 (1) 如果 $a, b, c, d$ 是实数，求证：\n$a^6 + b^6 + c^6 + d^6 - 6abcd \\geqslant -2$，\n并指出等号何时成立；\n(2) 对于哪些正整数 $k$，不等式\n$a^k + b^k + c^k + d^k - kabcd \\geqslant M_k$\n对所有实数 $a, b, c, d$ 成立？求 $M_k$ 的最大可能值，并指出等号何时成立。\n证明 (1) 给定不等式变形为\n$a^6 + b^6 + c^6 + d^6 + 1 + 1 \\geqslant 6abcd$.\n根据算术—几何平均值不等式，得\n$\\frac{a^6 + b^6 + c^6 + d^6 + 1^6 + 1^6}{6}$\n$\\geqslant \\sqrt[6]{|a|^6 \\cdot |b|^6 \\cdot |c|^6 \\cdot |d|^6 \\cdot 1^6 \\cdot 1^6}$\n$= |abcd| \\geqslant abcd$.\n因为算术—几何平均值不等式当\n$|a| = |b| = |c| = |d| = 1$\n时等号成立。而最后的不等式，当偶数个变量为负时等号成立。因此，等号成立的情形是\n$(a, b, c, d) = (1, 1, 1, 1), (1, 1, -1, -1), (1, -1, 1, -1),$\n$(-1, 1, 1, -1), (1, -1, -1, 1), (-1, 1, -1, 1),$\n$(-1, -1, 1, 1), (-1, -1, -1, -1)$\n当 $k = 2$ 时，取 $a = b = c = d = r$，得到\n$a^2 + b^2 + c^2 + d^2 - 2abcd = 4r^2 - 2r^4$.\n同(1)得\n$a^k + b^k + c^k + d^k - kabcd \\geqslant 4 - k$,\n即 $\\frac{a^k + b^k + c^k + d^k + (k - 4) \\cdot 1^k}{k} \\geqslant abcd$.\n等号成立的条件与(1)相同。\n故此时 $M_k$ 的最大值为 $4 - k$。",
+  "tags": [
+    "均值不等式",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

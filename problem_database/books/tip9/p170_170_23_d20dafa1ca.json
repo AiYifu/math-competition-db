@@ -1,0 +1,24 @@
+{
+  "uid": "p170_170_23_d20dafa1ca",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "23",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    170
+  ],
+  "stem_md": "因为 $\\frac{a^k}{a+b}+\\frac{1}{4}(a+b)+\\frac{1}{2}+\\frac{1}{2}+\\cdots+\\frac{1}{2} \\geqslant k \\cdot \\sqrt[k]{\\frac{a^k}{2^k}} = \\frac{k}{2}a$, 所以 $\\frac{a^k}{a+b} \\geqslant \\frac{k}{2}a - \\frac{1}{4}(a+b) - \\frac{k-2}{2}$. 同理可得 $\\frac{b^k}{b+c} \\geqslant \\frac{k}{2}b - \\frac{1}{4}(b+c) - \\frac{k-2}{2}$, $\\frac{c^k}{c+a} \\geqslant \\frac{k}{2}c - \\frac{1}{4}(c+a) - \\frac{k-2}{2}$. 三式相加可得 $\\frac{a^k}{a+b} + \\frac{b^k}{b+c} + \\frac{c^k}{c+a} \\geqslant \\frac{k}{2}(a+b+c) - \\frac{3}{2}(k-2) = \\frac{3}{2}(k-1) - \\frac{3}{2}(k-2) = \\frac{3}{2}$.",
+  "solution_md": "因为 $\\frac{a^k}{a+b}+\\frac{1}{4}(a+b)+\\frac{1}{2}+\\frac{1}{2}+\\cdots+\\frac{1}{2} \\geqslant k \\cdot \\sqrt[k]{\\frac{a^k}{2^k}} = \\frac{k}{2}a$, 所以 $\\frac{a^k}{a+b} \\geqslant \\frac{k}{2}a - \\frac{1}{4}(a+b) - \\frac{k-2}{2}$. 同理可得 $\\frac{b^k}{b+c} \\geqslant \\frac{k}{2}b - \\frac{1}{4}(b+c) - \\frac{k-2}{2}$, $\\frac{c^k}{c+a} \\geqslant \\frac{k}{2}c - \\frac{1}{4}(c+a) - \\frac{k-2}{2}$. 三式相加可得 $\\frac{a^k}{a+b} + \\frac{b^k}{b+c} + \\frac{c^k}{c+a} \\geqslant \\frac{k}{2}(a+b+c) - \\frac{3}{2}(k-2) = \\frac{3}{2}(k-1) - \\frac{3}{2}(k-2) = \\frac{3}{2}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "23. 因为 $\\frac{a^k}{a+b}+\\frac{1}{4}(a+b)+\\frac{1}{2}+\\frac{1}{2}+\\cdots+\\frac{1}{2} \\geqslant k \\cdot \\sqrt[k]{\\frac{a^k}{2^k}} = \\frac{k}{2}a$, 所以 $\\frac{a^k}{a+b} \\geqslant \\frac{k}{2}a - \\frac{1}{4}(a+b) - \\frac{k-2}{2}$. 同理可得 $\\frac{b^k}{b+c} \\geqslant \\frac{k}{2}b - \\frac{1}{4}(b+c) - \\frac{k-2}{2}$, $\\frac{c^k}{c+a} \\geqslant \\frac{k}{2}c - \\frac{1}{4}(c+a) - \\frac{k-2}{2}$. 三式相加可得 $\\frac{a^k}{a+b} + \\frac{b^k}{b+c} + \\frac{c^k}{c+a} \\geqslant \\frac{k}{2}(a+b+c) - \\frac{3}{2}(k-2) = \\frac{3}{2}(k-1) - \\frac{3}{2}(k-2) = \\frac{3}{2}$.",
+  "tags": [
+    "不等式",
+    "平均值不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

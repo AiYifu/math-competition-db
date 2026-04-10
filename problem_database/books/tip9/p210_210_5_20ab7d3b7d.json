@@ -1,0 +1,21 @@
+{
+  "uid": "p210_210_5_20ab7d3b7d",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "5",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    210
+  ],
+  "stem_md": "5. $S = (x_1 + x_2 + x_3 + x_4)^2 - \\sum_{i=1}^{4} x_i^3 - 6 \\sum_{1 \\leqslant i < j < k \\leqslant 4} x_i x_j x_k = 3x_1^2(1 - x_1) + 3x_2^2(1 - x_2) + 3x_3^2(1 - x_3) + 3x_4^2(1 - x_4)$. 故 $S \\geqslant 0$, 等号当 $x_i (1 \\leqslant i \\leqslant 4)$ 中有 1 个为 1, 另 3 个为 0 时取到. 又 $\\frac{1}{3}S = x_1^2(1 - x_1) + x_2^2(1 - x_2) + x_3^2(1 - x_3) + x_4^2(1 - x_4)$. 当 $x_1 = \\frac{1}{2}, x_2 = x_3 = 0, x_4 = \\frac{1}{2}$. 故 $S \\in \\left[0, \\frac{3}{4}\\right]$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "5. $S = (x_1 + x_2 + x_3 + x_4)^2 - \\sum_{i=1}^{4} x_i^3 - 6 \\sum_{1 \\leqslant i < j < k \\leqslant 4} x_i x_j x_k = 3x_1^2(1 - x_1) + 3x_2^2(1 - x_2) + 3x_3^2(1 - x_3) + 3x_4^2(1 - x_4)$. 故 $S \\geqslant 0$, 等号当 $x_i (1 \\leqslant i \\leqslant 4)$ 中有 1 个为 1, 另 3 个为 0 时取到. 又 $\\frac{1}{3}S = x_1^2(1 - x_1) + x_2^2(1 - x_2) + x_3^2(1 - x_3) + x_4^2(1 - x_4)$. 当 $x_1 = \\frac{1}{2}, x_2 = x_3 = 0, x_4 = \\frac{1}{2}$. 故 $S \\in \\left[0, \\frac{3}{4}\\right]$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

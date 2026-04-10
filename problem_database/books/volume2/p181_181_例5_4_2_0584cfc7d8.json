@@ -1,0 +1,24 @@
+{
+  "uid": "p181_181_例5_4_2_0584cfc7d8",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "4",
+  "problem_id": "例5.4.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    181
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 证明\n$\\frac{a^{3}}{(1+ab)^{2}}+\\frac{b^{3}}{(1+bc)^{2}}+\\frac{c^{3}}{(1+ca)^{2}} \\geqslant \\frac{3abc}{(1+\\sqrt[3]{a^{2}b^{2}c^{2}})^{2}}$",
+  "solution_md": "对于非负实数 $x$, 我们有\n$\\frac{1+x^{3}}{1+x^{2}} \\geqslant \\sqrt{\\frac{1+x^{4}}{2}}$\n由 Hölder 不等式, 我们有\n$\\prod \\frac{1+a^{3}}{1+a^{2}} \\geqslant \\prod \\sqrt[4]{\\frac{1+a^{4}}{2}}$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.4.2(Vasile Cirtoaje, Algebraic Inequalities) 设 $a, b, c$ 是正实数, 证明\n$\\frac{a^{3}}{(1+ab)^{2}}+\\frac{b^{3}}{(1+bc)^{2}}+\\frac{c^{3}}{(1+ca)^{2}} \\geqslant \\frac{3abc}{(1+\\sqrt[3]{a^{2}b^{2}c^{2}})^{2}}$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

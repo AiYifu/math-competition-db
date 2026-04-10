@@ -1,0 +1,25 @@
+{
+  "uid": "p032_032_例36_6dde18792a",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例36",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    32
+  ],
+  "stem_md": "给定整数 $n \\geqslant 2$, 设 $x_1, x_2, \\cdots, x_n$ 是单调不减的正数序列, 并使 $x_1, \\frac{x_2}{2}, \\cdots, \\frac{x_n}{n}$ 构成一个单调不增的序列. 证明: $\\frac{A_n}{G_n} \\leqslant \\frac{n + 1}{2 \\cdot \\sqrt[n]{n!}}$, 其中 $A_n, G_n$ 分别是 $x_1, x_2, \\cdots, x_n$ 的算术平均值与几何平均值.",
+  "solution_md": "证明 由条件知 $x_1 \\leqslant x_2 \\leqslant \\cdots \\leqslant x_n$, 以及 $x_1 \\geqslant \\frac{x_2}{2} \\geqslant \\cdots \\geqslant \\frac{x_n}{n}$, 可得\n$$\\frac{1}{x_1} \\leqslant \\frac{2}{x_2} \\leqslant \\cdots \\leqslant \\frac{n}{x_n}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "给定整数 $n \\geqslant 2$, 设 $x_1, x_2, \\cdots, x_n$ 是单调不减的正数序列, 并使 $x_1, \\frac{x_2}{2}, \\cdots, \\frac{x_n}{n}$ 构成一个单调不增的序列. 证明: $\\frac{A_n}{G_n} \\leqslant \\frac{n + 1}{2 \\cdot \\sqrt[n]{n!}}$, 其中 $A_n, G_n$ 分别是 $x_1, x_2, \\cdots, x_n$ 的算术平均值与几何平均值.",
+  "tags": [
+    "不等式",
+    "算术平均值",
+    "几何平均值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

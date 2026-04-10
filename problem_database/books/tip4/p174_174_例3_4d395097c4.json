@@ -1,0 +1,21 @@
+{
+  "uid": "p174_174_例3_4d395097c4",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4.6 利用平均值不等式与柯西不等式解题",
+  "section": null,
+  "problem_id": "例3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    174
+  ],
+  "stem_md": "设 $a, b, c$ 为正数, 且满足 $abc = 1$, 求证: $$\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(a+c)} + \\frac{1}{c^3(a+b)} \\geqslant \\frac{3}{2}.$$",
+  "solution_md": "证明 由柯西不等式, 得 $$\\left[\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(a+c)} + \\frac{1}{c^3(a+b)}\\right] \\cdot \\left[a(b+c) + b(a+c) + c(a+b)\\right] \\geqslant \\left(\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}\\right)^2 = \\left(\\frac{1}{2}(ab + bc + ca)\\right)^2 = \\frac{1}{2}(ab + bc + ca) \\geqslant \\frac{1}{2} \\cdot 3 \\cdot \\sqrt[3]{a^2b^2c^2} = \\frac{3}{2}.$$ 所以由平均值不等式, 得 $$\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(a+c)} + \\frac{1}{c^3(a+b)} \\geqslant \\frac{1}{2} \\cdot 3 \\cdot \\sqrt[3]{\\frac{1}{a^3b^3c^3}} = \\frac{3}{2}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例3 设 $a, b, c$ 为正数, 且满足 $abc = 1$, 求证: $$\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(a+c)} + \\frac{1}{c^3(a+b)} \\geqslant \\frac{3}{2}.$$ 证明 由柯西不等式, 得 $$\\left[\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(a+c)} + \\frac{1}{c^3(a+b)}\\right] \\cdot \\left[a(b+c) + b(a+c) + c(a+b)\\right] \\geqslant \\left(\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}\\right)^2 = \\left(\\frac{1}{2}(ab + bc + ca)\\right)^2 = \\frac{1}{2}(ab + bc + ca) \\geqslant \\frac{1}{2} \\cdot 3 \\cdot \\sqrt[3]{a^2b^2c^2} = \\frac{3}{2}.$$ 所以由平均值不等式, 得 $$\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(a+c)} + \\frac{1}{c^3(a+b)} \\geqslant \\frac{1}{2} \\cdot 3 \\cdot \\sqrt[3]{\\frac{1}{a^3b^3c^3}} = \\frac{3}{2}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

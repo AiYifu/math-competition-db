@@ -1,0 +1,53 @@
+{
+  "uid": "p181_181_例544_8d1ab387d7",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    181
+  ],
+  "source_images": [
+    "page-181.jpg"
+  ],
+  "stem_md": "对所有实数 $a,b,c$，证明\n$$2(1+abc)+\\sqrt{2(1+a^2)(1+b^2)(1+c^2)}\\geqslant (1+a)(1+b)(1+c)$$",
+  "solution_md": "令 $s=a+b+c, p=ab+bc+ca, q=abc$，则不等式变成\n$$2(1+q)+\\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant 1+s+p+q$$\n$$\\Leftrightarrow \\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant s+p-1-q$$\n如果 $s+p\\leqslant 1+q$，则不等式显然成立。否则，我们来证明\n$$2(1-2p+s^2+p^2+q^2-2sq)\\geqslant (s+p-1-q)^2$$\n$$\\Leftrightarrow 1-2p+s^2+p^2+q^2-2sq-2sp+2s+2pq-2q\\geqslant 0$$\n$$\\Leftrightarrow (p+q-1-s)^2\\geqslant 0$$\n显然成立。等号成立的条件是：满足下列条件的所有实数 $a,b,c$\n$$a+b+c+1=ab+bc+ca+abc,\\quad ab+bc+ca\\geqslant 1$$",
+  "answer_md": "",
+  "hints_md": "Wolfgang Berndt, Mathlinks",
+  "original_text_md": "例 5.4.4(Wolfgang Berndt,Mathlinks) 对所有实数 $a,b,c$，证明\n$$2(1+abc)+\\sqrt{2(1+a^2)(1+b^2)(1+c^2)}\\geqslant (1+a)(1+b)(1+c)$$\n证明 令 $s=a+b+c,p=ab+bc+ca,q=abc$，则不等式变成\n$$2(1+q)+\\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant 1+s+p+q$$\n$$\\Leftrightarrow \\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant s+p-1-q$$\n如果 $s+p\\leqslant 1+q$，则不等式显然成立。否则，我们来证明\n$$2(1-2p+s^2+p^2+q^2-2sq)\\geqslant (s+p-1-q)^2$$\n$$\\Leftrightarrow 1-2p+s^2+p^2+q^2-2sq-2sp+2s+2pq-2q\\geqslant 0$$\n$$\\Leftrightarrow (p+q-1-s)^2\\geqslant 0$$\n显然成立。等号成立的条件是：满足下列条件的所有实数 $a,b,c$\n$$a+b+c+1=ab+bc+ca+abc,ab+bc+ca\\geqslant 1$$",
+  "tags": [
+    "非齐次不等式",
+    "变量替换",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "8d1ab387d7839152bd783ed7bc14f5cc0a94a999",
+  "raw_problem": {
+    "problem_id": "例5.4.4",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      181
+    ],
+    "stem_md": "对所有实数 $a,b,c$，证明\n$$2(1+abc)+\\sqrt{2(1+a^2)(1+b^2)(1+c^2)}\\geqslant (1+a)(1+b)(1+c)$$",
+    "solution_md": "令 $s=a+b+c, p=ab+bc+ca, q=abc$，则不等式变成\n$$2(1+q)+\\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant 1+s+p+q$$\n$$\\Leftrightarrow \\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant s+p-1-q$$\n如果 $s+p\\leqslant 1+q$，则不等式显然成立。否则，我们来证明\n$$2(1-2p+s^2+p^2+q^2-2sq)\\geqslant (s+p-1-q)^2$$\n$$\\Leftrightarrow 1-2p+s^2+p^2+q^2-2sq-2sp+2s+2pq-2q\\geqslant 0$$\n$$\\Leftrightarrow (p+q-1-s)^2\\geqslant 0$$\n显然成立。等号成立的条件是：满足下列条件的所有实数 $a,b,c$\n$$a+b+c+1=ab+bc+ca+abc,\\quad ab+bc+ca\\geqslant 1$$",
+    "answer_md": "",
+    "hints_md": "Wolfgang Berndt, Mathlinks",
+    "original_text_md": "例 5.4.4(Wolfgang Berndt,Mathlinks) 对所有实数 $a,b,c$，证明\n$$2(1+abc)+\\sqrt{2(1+a^2)(1+b^2)(1+c^2)}\\geqslant (1+a)(1+b)(1+c)$$\n证明 令 $s=a+b+c,p=ab+bc+ca,q=abc$，则不等式变成\n$$2(1+q)+\\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant 1+s+p+q$$\n$$\\Leftrightarrow \\sqrt{2(1-2p+s^2+p^2+q^2-2sq)}\\geqslant s+p-1-q$$\n如果 $s+p\\leqslant 1+q$，则不等式显然成立。否则，我们来证明\n$$2(1-2p+s^2+p^2+q^2-2sq)\\geqslant (s+p-1-q)^2$$\n$$\\Leftrightarrow 1-2p+s^2+p^2+q^2-2sq-2sp+2s+2pq-2q\\geqslant 0$$\n$$\\Leftrightarrow (p+q-1-s)^2\\geqslant 0$$\n显然成立。等号成立的条件是：满足下列条件的所有实数 $a,b,c$\n$$a+b+c+1=ab+bc+ca+abc,ab+bc+ca\\geqslant 1$$",
+    "tags": [
+      "非齐次不等式",
+      "变量替换",
+      "实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

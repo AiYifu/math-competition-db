@@ -1,0 +1,24 @@
+{
+  "uid": "p174_174_例5_2_9_2d44e73bcb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "2",
+  "problem_id": "例5.2.9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    174
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数, 且满足 $x_1x_2\\cdots x_n = 1$, 又设 $S = x_1 + x_2 + \\cdots + x_n$, 证明\n\n$\\frac{1}{1 + S - x_1} + \\frac{1}{1 + S - x_2} + \\cdots + \\frac{1}{1 + S - x_n} \\leqslant 1$",
+  "solution_md": "令 $x_i = a_i^n, i \\in \\{1, 2, \\cdots, n\\}$, 由 AM-GM 不等式, 有\n\n$\\frac{n - 1}{n - 1 + a_i} = 1 - \\frac{a_i}{n - 1 + a_i} = 1 - \\frac{x_i^n}{x_1^n + x_2^n + \\cdots + x_n^n}$\n\n$\\leqslant 1 - \\frac{x_i^{n - 1}}{x_1^{n - 1} + x_2^{n - 1} + \\cdots + x_n^{n - 1}}$\n\n$= 1 - \\frac{(n - 1)x_1x_2\\cdots x_{i - 1}x_{i + 1}\\cdots x_n}{n - 1 + a_i}$\n\n所以, 我们有\n\n$\\sum_{i = 1}^n\\frac{n - 1}{n - 1 + a_i} \\leqslant \\sum_{i = 1}^n\\left(1 - \\frac{x_i^{n - 1}}{x_1^{n - 1} + x_2^{n - 1} + \\cdots + x_n^{n - 1}}\\right) = n - 1$\n\n$\\Rightarrow \\sum_{i = 1}^n\\frac{1}{n - 1 + a_i} \\leqslant 1$\n\n不等式得证, 等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$ 或 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.9 设 $x_1, x_2, \\cdots, x_n$ 是正实数, 且满足 $x_1x_2\\cdots x_n = 1$, 又设 $S = x_1 + x_2 + \\cdots + x_n$, 证明\n\n$\\frac{1}{1 + S - x_1} + \\frac{1}{1 + S - x_2} + \\cdots + \\frac{1}{1 + S - x_n} \\leqslant 1$\n\n证明 令 $x_i = a_i^n, i \\in \\{1, 2, \\cdots, n\\}$, 由 AM-GM 不等式, 有\n\n$\\frac{n - 1}{n - 1 + a_i} = 1 - \\frac{a_i}{n - 1 + a_i} = 1 - \\frac{x_i^n}{x_1^n + x_2^n + \\cdots + x_n^n}$\n\n$\\leqslant 1 - \\frac{x_i^{n - 1}}{x_1^{n - 1} + x_2^{n - 1} + \\cdots + x_n^{n - 1}}$\n\n$= 1 - \\frac{(n - 1)x_1x_2\\cdots x_{i - 1}x_{i + 1}\\cdots x_n}{n - 1 + a_i}$\n\n所以, 我们有\n\n$\\sum_{i = 1}^n\\frac{n - 1}{n - 1 + a_i} \\leqslant \\sum_{i = 1}^n\\left(1 - \\frac{x_i^{n - 1}}{x_1^{n - 1} + x_2^{n - 1} + \\cdots + x_n^{n - 1}}\\right) = n - 1$\n\n$\\Rightarrow \\sum_{i = 1}^n\\frac{1}{n - 1 + a_i} \\leqslant 1$\n\n不等式得证, 等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$ 或 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "tags": [
+    "不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

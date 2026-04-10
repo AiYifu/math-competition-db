@@ -1,0 +1,21 @@
+{
+  "uid": "p225_225_7_81f2584250",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "7",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    225
+  ],
+  "stem_md": "7. (Bach Ngoc Thanh Cong, CPR) 设 $a, b, c$ 是正实数, 证明:\n(1) $\\left(\\frac{a^3}{b^2} + \\frac{b^3}{c^2} + \\frac{c^3}{a^2}\\right)^2 \\geqslant 3\\left(\\frac{a^4}{b^2} + \\frac{b^4}{c^2} + \\frac{c^4}{a^2}\\right)$;\n(2) $\\left(\\frac{a^3}{b^2} + \\frac{b^3}{c^2} + \\frac{c^3}{a^2}\\right)^2 + \\frac{\\sqrt{3}}{2}(ab+bc+ca) \\geqslant \\left(3 + \\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a}\\right)$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "7. (Bach Ngoc Thanh Cong, CPR) 设 $a, b, c$ 是正实数, 证明:\n(1) $\\left(\\frac{a^3}{b^2} + \\frac{b^3}{c^2} + \\frac{c^3}{a^2}\\right)^2 \\geqslant 3\\left(\\frac{a^4}{b^2} + \\frac{b^4}{c^2} + \\frac{c^4}{a^2}\\right)$;\n(2) $\\left(\\frac{a^3}{b^2} + \\frac{b^3}{c^2} + \\frac{c^3}{a^2}\\right)^2 + \\frac{\\sqrt{3}}{2}(ab+bc+ca) \\geqslant \\left(3 + \\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a}\\right)$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

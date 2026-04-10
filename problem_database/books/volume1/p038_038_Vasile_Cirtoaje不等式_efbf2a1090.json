@@ -1,0 +1,53 @@
+{
+  "uid": "p038_038_Vasile_Cirtoaje不等式_efbf2a1090",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.3",
+  "section": null,
+  "problem_id": "Vasile Cirtoaje不等式",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    38
+  ],
+  "source_images": [
+    "page-038.jpg"
+  ],
+  "stem_md": "另外，Vasile Cirtoaje 提出了下列一般形式的不等式，也可用同样的方法证明。\n设 $a,b,c$ 是非负实数，实常数 $p,q$ 满足 $p\\geqslant-2,q\\leqslant2p+1$，证明\n$$\\frac{a^2+qbc}{b^2+pbc+c^2}+\\frac{b^2+qca}{c^2+pca+a^2}+\\frac{c^2+qab}{a^2+pab+b^2}\\geqslant\\frac{3(q+1)}{p+2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "另外，Vasile Cirtoaje 提出了下列一般形式的不等式，也可用同样的方法证明。\n设 $a,b,c$ 是非负实数，实常数 $p,q$ 满足 $p\\geqslant-2,q\\leqslant2p+1$，证明\n$$\\frac{a^2+qbc}{b^2+pbc+c^2}+\\frac{b^2+qca}{c^2+pca+a^2}+\\frac{c^2+qab}{a^2+pab+b^2}\\geqslant\\frac{3(q+1)}{p+2}$$",
+  "tags": [
+    "SOS方法",
+    "一般形式",
+    "Vasile Cirtoaje"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0005",
+  "raw_response_file": "raw/chunk-0005.response.txt",
+  "raw_api_file": "raw/chunk-0005.api.json",
+  "fingerprint": "efbf2a1090c2ded9ed8ecb7c88c7e1d7cb25cdc0",
+  "raw_problem": {
+    "problem_id": "Vasile Cirtoaje不等式",
+    "problem_type": "theorem",
+    "chapter": "1.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      38
+    ],
+    "stem_md": "另外，Vasile Cirtoaje 提出了下列一般形式的不等式，也可用同样的方法证明。\n设 $a,b,c$ 是非负实数，实常数 $p,q$ 满足 $p\\geqslant-2,q\\leqslant2p+1$，证明\n$$\\frac{a^2+qbc}{b^2+pbc+c^2}+\\frac{b^2+qca}{c^2+pca+a^2}+\\frac{c^2+qab}{a^2+pab+b^2}\\geqslant\\frac{3(q+1)}{p+2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "另外，Vasile Cirtoaje 提出了下列一般形式的不等式，也可用同样的方法证明。\n设 $a,b,c$ 是非负实数，实常数 $p,q$ 满足 $p\\geqslant-2,q\\leqslant2p+1$，证明\n$$\\frac{a^2+qbc}{b^2+pbc+c^2}+\\frac{b^2+qca}{c^2+pca+a^2}+\\frac{c^2+qab}{a^2+pab+b^2}\\geqslant\\frac{3(q+1)}{p+2}$$",
+    "tags": [
+      "SOS方法",
+      "一般形式",
+      "Vasile Cirtoaje"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "uid": "p203_204_例742_dc829b4595",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "例7.4.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    203,
+    204
+  ],
+  "source_images": [
+    "page-203.jpg",
+    "page-204.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^2+b^2+c^2+\\sqrt{2}abc+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})(a+b+c)$$",
+  "solution_md": "因为不等式是三次对称非齐次，所以，我们只需考虑下列三种情况。\n\n(1) 第一种情况 $a=b=c=t$，此时不等式变成\n$$3t^2+\\sqrt{2}t^3+(1+\\sqrt{2})^2\\geqslant 3(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{\\sqrt{2}}{2}\\cdot(2t+4+3\\sqrt{2})(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^2+(1+\\sqrt{2})^2\\geqslant 2(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{1}{2}(2+\\sqrt{2}-2t)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{1}{\\sqrt{2}},c=0$ 及其轮换。\n\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$t^2+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})t$$\n这由 AM-GM 不等式可知，是成立的。无等号成立的条件。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.4.2(Le Trung Kien,CPR) 设 $a,b,c$ 是非负实数，证明\n$$a^2+b^2+c^2+\\sqrt{2}abc+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})(a+b+c)$$\n证明 因为不等式是三次对称非齐次，所以，我们只需考虑下列三种情况。\n(1) 第一种情况 $a=b=c=t$，此时不等式变成\n$$3t^2+\\sqrt{2}t^3+(1+\\sqrt{2})^2\\geqslant 3(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{\\sqrt{2}}{2}\\cdot(2t+4+3\\sqrt{2})(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^2+(1+\\sqrt{2})^2\\geqslant 2(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{1}{2}(2+\\sqrt{2}-2t)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{1}{\\sqrt{2}},c=0$ 及其轮换。\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$t^2+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})t$$\n这由 AM-GM 不等式可知，是成立的。无等号成立的条件。",
+  "tags": [
+    "三次对称非齐次不等式",
+    "三变量",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "dc829b45952070479671f0b6fefa737c9bd2f1c3",
+  "raw_problem": {
+    "problem_id": "例7.4.2",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.4",
+    "title": null,
+    "source_pages": [
+      203,
+      204
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^2+b^2+c^2+\\sqrt{2}abc+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})(a+b+c)$$",
+    "solution_md": "因为不等式是三次对称非齐次，所以，我们只需考虑下列三种情况。\n\n(1) 第一种情况 $a=b=c=t$，此时不等式变成\n$$3t^2+\\sqrt{2}t^3+(1+\\sqrt{2})^2\\geqslant 3(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{\\sqrt{2}}{2}\\cdot(2t+4+3\\sqrt{2})(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^2+(1+\\sqrt{2})^2\\geqslant 2(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{1}{2}(2+\\sqrt{2}-2t)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{1}{\\sqrt{2}},c=0$ 及其轮换。\n\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$t^2+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})t$$\n这由 AM-GM 不等式可知，是成立的。无等号成立的条件。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.4.2(Le Trung Kien,CPR) 设 $a,b,c$ 是非负实数，证明\n$$a^2+b^2+c^2+\\sqrt{2}abc+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})(a+b+c)$$\n证明 因为不等式是三次对称非齐次，所以，我们只需考虑下列三种情况。\n(1) 第一种情况 $a=b=c=t$，此时不等式变成\n$$3t^2+\\sqrt{2}t^3+(1+\\sqrt{2})^2\\geqslant 3(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{\\sqrt{2}}{2}\\cdot(2t+4+3\\sqrt{2})(t-1)^2\\geqslant 0$$\n这显然成立，等号成立的条件是 $a=b=c=1$。\n(2) 第二种情况 $a=b=t,c=0$，此时，不等式变成\n$$2t^2+(1+\\sqrt{2})^2\\geqslant 2(2+\\sqrt{2})t$$\n$$\\Leftrightarrow \\frac{1}{2}(2+\\sqrt{2}-2t)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $a=b=1+\\frac{1}{\\sqrt{2}},c=0$ 及其轮换。\n(3) 第三种情况 $a=t,b=c=0$，此时，不等式变成\n$$t^2+(1+\\sqrt{2})^2\\geqslant (2+\\sqrt{2})t$$\n这由 AM-GM 不等式可知，是成立的。无等号成立的条件。",
+    "tags": [
+      "三次对称非齐次不等式",
+      "三变量",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

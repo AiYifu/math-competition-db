@@ -1,0 +1,51 @@
+{
+  "uid": "p191_191_命题1_0d089609dc",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.2 从一个简单的性质出发",
+  "problem_id": "命题1",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    191
+  ],
+  "source_images": [
+    "page-191.jpg"
+  ],
+  "stem_md": "对任何实数 $a$ 和 $b$，下面两个不等式\n$$a \\geqslant b$$\n$$a \\leqslant b$$\n至少有一个必定是成立的。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "**命题 1** 对任何实数 $a$ 和 $b$，下面两个不等式\n$$a \\geqslant b$$\n$$a \\leqslant b$$\n至少有一个必定是成立的。",
+  "tags": [
+    "实数性质",
+    "基本不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "0d089609dc3cb808dda468c5109098b4485c3ea6",
+  "raw_problem": {
+    "problem_id": "命题1",
+    "problem_type": "theorem",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.2 从一个简单的性质出发",
+    "title": null,
+    "source_pages": [
+      191
+    ],
+    "stem_md": "对任何实数 $a$ 和 $b$，下面两个不等式\n$$a \\geqslant b$$\n$$a \\leqslant b$$\n至少有一个必定是成立的。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "**命题 1** 对任何实数 $a$ 和 $b$，下面两个不等式\n$$a \\geqslant b$$\n$$a \\leqslant b$$\n至少有一个必定是成立的。",
+    "tags": [
+      "实数性质",
+      "基本不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

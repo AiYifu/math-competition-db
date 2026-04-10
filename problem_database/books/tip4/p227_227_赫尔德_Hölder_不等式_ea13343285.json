@@ -1,0 +1,23 @@
+{
+  "uid": "p227_227_赫尔德_Hölder_不等式_ea13343285",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "赫尔德(Hölder)不等式",
+  "problem_type": "theorem",
+  "title": "赫尔德(Hölder)不等式",
+  "source_pages": [
+    227
+  ],
+  "stem_md": "设 $a_i, b_i > 0$, $1 \\leq i \\leq n$, $p > 0$, $q > 0$ 满足 $\\frac{1}{p} + \\frac{1}{q} = 1$, 则\n$\\sum_{i=1}^{n} a_i b_i \\leq \\left(\\sum_{i=1}^{n} a_i^p\\right)^{\\frac{1}{p}} \\left(\\sum_{i=1}^{n} b_i^q\\right)^{\\frac{1}{q}}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "赫尔德(Hölder)不等式 设 $a_i, b_i > 0$, $1 \\leq i \\leq n$, $p > 0$, $q > 0$ 满足 $\\frac{1}{p} + \\frac{1}{q} = 1$, 则\n$\\sum_{i=1}^{n} a_i b_i \\leq \\left(\\sum_{i=1}^{n} a_i^p\\right)^{\\frac{1}{p}} \\left(\\sum_{i=1}^{n} b_i^q\\right)^{\\frac{1}{q}}$.",
+  "tags": [
+    "赫尔德不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

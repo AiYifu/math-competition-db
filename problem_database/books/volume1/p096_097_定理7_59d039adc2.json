@@ -1,0 +1,58 @@
+{
+  "uid": "p096_097_定理7_59d039adc2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "定理7",
+  "problem_type": "theorem",
+  "title": "Ho Joo Lee 定理",
+  "source_pages": [
+    96,
+    97
+  ],
+  "source_images": [
+    "page-096.jpg",
+    "page-097.jpg"
+  ],
+  "stem_md": "（Ho Joo Lee 定理）设 $P(a,b,c)$ 是 3 次对称多项式，则下列条件\n$$P(1,1,1), P(1,1,0), P(1,0,0)\\geqslant 0$$\n$$P(a,b,c)\\geqslant 0\\quad\\forall a,b,c\\geqslant 0$$\n是相互等价的。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "另一方面，这些内容在第 6 章中讨论，你可以下载第 6 章的详细资料。此外，对于这个问题，也有两个一般性的结论，每一个都可以使用全导数证明。",
+  "original_text_md": "定理 7（Ho Joo Lee 定理）设 $P(a,b,c)$ 是 3 次对称多项式，则下列条件\n$$P(1,1,1), P(1,1,0), P(1,0,0)\\geqslant 0$$\n$$P(a,b,c)\\geqslant 0\\quad\\forall a,b,c\\geqslant 0$$\n是相互等价的。",
+  "tags": [
+    "Ho Joo Lee",
+    "定理",
+    "对称多项式",
+    "3次"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "59d039adc27cb495afddb98edec604ce2bacca87",
+  "raw_problem": {
+    "problem_id": "定理7",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.5",
+    "title": "Ho Joo Lee 定理",
+    "source_pages": [
+      96,
+      97
+    ],
+    "stem_md": "（Ho Joo Lee 定理）设 $P(a,b,c)$ 是 3 次对称多项式，则下列条件\n$$P(1,1,1), P(1,1,0), P(1,0,0)\\geqslant 0$$\n$$P(a,b,c)\\geqslant 0\\quad\\forall a,b,c\\geqslant 0$$\n是相互等价的。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "另一方面，这些内容在第 6 章中讨论，你可以下载第 6 章的详细资料。此外，对于这个问题，也有两个一般性的结论，每一个都可以使用全导数证明。",
+    "original_text_md": "定理 7（Ho Joo Lee 定理）设 $P(a,b,c)$ 是 3 次对称多项式，则下列条件\n$$P(1,1,1), P(1,1,0), P(1,0,0)\\geqslant 0$$\n$$P(a,b,c)\\geqslant 0\\quad\\forall a,b,c\\geqslant 0$$\n是相互等价的。",
+    "tags": [
+      "Ho Joo Lee",
+      "定理",
+      "对称多项式",
+      "3次"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p017_017_例1_1_6_10971ca0a0",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明 \n$$ \\frac{a^2 + b^2}{a + b} + \\frac{b^2 + c^2}{b + c} + \\frac{c^2 + a^2}{c + a} \\leqslant \\frac{3(a^2 + b^2 + c^2)}{a + b + c} - \\sum a $$",
+  "solution_md": "证明及分析 不等式等价于 \n$$ \\sum\\left(\\frac{a^2 + b^2}{a + b} - \\frac{a + b}{2}\\right) \\leqslant 1 - \\frac{c}{a + b} $$\n或 \n$$ \\frac{a}{b + c} + \\frac{b}{c + a} \\leqslant 2 $$\n稍等, 这个不等式是不成立 (选择 $a$ 足够大些, $b$ 和 $c$ 足够小些, 如 $a = 10, b = 9, c = 0$, 就是一个反例. 无论如何, 在这个细节上, 你并不需要花费更多的心思, 通常, 我们不用 $\\gamma(a - b)^2$ 联结 $\\alpha(a - b)^2$, 而是根据 $(a - c)^2$ 大于 $(b - c)^2$ 来使用 $\\beta(c - a)^2$ 来联结. 但 $(a - b)^2$ 并不总是大于 $(b - c)^2$ (注意到, 在上面的分析中, 我们总是使用 $a \\geqslant b \\geqslant c$ 这个条件).",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.6 设 $a, b, c$ 是非负实数, 证明 \n$$ \\frac{a^2 + b^2}{a + b} + \\frac{b^2 + c^2}{b + c} + \\frac{c^2 + a^2}{c + a} \\leqslant \\frac{3(a^2 + b^2 + c^2)}{a + b + c} - \\sum a $$\n证明及分析 不等式等价于 \n$$ \\sum\\left(\\frac{a^2 + b^2}{a + b} - \\frac{a + b}{2}\\right) \\leqslant 1 - \\frac{c}{a + b} $$\n或 \n$$ \\frac{a}{b + c} + \\frac{b}{c + a} \\leqslant 2 $$\n稍等, 这个不等式是不成立 (选择 $a$ 足够大些, $b$ 和 $c$ 足够小些, 如 $a = 10, b = 9, c = 0$, 就是一个反例. 无论如何, 在这个细节上, 你并不需要花费更多的心思, 通常, 我们不用 $\\gamma(a - b)^2$ 联结 $\\alpha(a - b)^2$, 而是根据 $(a - c)^2$ 大于 $(b - c)^2$ 来使用 $\\beta(c - a)^2$ 来联结. 但 $(a - b)^2$ 并不总是大于 $(b - c)^2$ (注意到, 在上面的分析中, 我们总是使用 $a \\geqslant b \\geqslant c$ 这个条件).",
+  "tags": [
+    "不等式证明",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003"
+}

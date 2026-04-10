@@ -1,0 +1,56 @@
+{
+  "uid": "p038_039_例138_c3f5bc51f1",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.3",
+  "section": null,
+  "problem_id": "例1.3.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    38,
+    39
+  ],
+  "source_images": [
+    "page-038.jpg",
+    "page-039.jpg"
+  ],
+  "stem_md": "（Pham Kim Hung, Mathlinks）设 $a,b,c$ 是非负实数，证明\n$$\\frac{ab}{a^2+b^2+3c^2}+\\frac{bc}{b^2+c^2+3a^2}+\\frac{ca}{c^2+a^2+3b^2}\\leqslant\\frac{3}{5}$$",
+  "solution_md": "不失一般性，设 $a\\geqslant b\\geqslant c$，且 $\\sum a^2=1$。考虑到例 1.2.4，我们把不等式写成如下形式\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n其中 $S_c=5(1+2a^2)(1+2b^2)-6(a+b)^2(1+2c^2)$，类似得 $S_a,S_b$。显然 $S_c\\geqslant0$。\n\n令 $x=\\sqrt{\\dfrac{a^2+b^2}{2}}$，则\n$$(a+c)^2(1+2b^2)+(b+c)^2(1+2a^2)\\leqslant2(x+c)^2(1+2x^2)$$\n因此可得\n$$\\begin{align*}S_a+S_b&\\geqslant10(1+2c^2)(1+2x^2)-6(x+c)^2(1+2x^2)\\\\&=2(1+2x^2)^2(2x-3c)^2\\geqslant0\\end{align*}$$\n类似可证，$S_b+S_c\\geqslant0$。所以，只需证明 $S_b\\geqslant0$，即\n$$5(1+2a^2)(1+2c^2)\\geqslant6(a+c)^2(1+2b^2)$$\n考虑到假设条件 $a^2+b^2+c^2=1$，上面的不等式变成\n$$5(3a^2+b^2+c^2)(3c^2+a^2+b^2)\\geqslant6(a+c)^2(3b^2+a^2+c^2)$$\n或者\n$$\\frac{2(a^2-b^2)}{3b^2+a^2+c^2}\\geqslant\\frac{6(a+c)^2-5(3c^2+a^2+b^2)}{5(3c^2+a^2+b^2)}$$\n这个不等式是成立的，因为\n$$6(a+c)^2-5(3c^2+a^2+b^2)\\leqslant2(a^2-b^2)$$\n$$5(3c^2+a^2+b^2)\\geqslant3b^2+a^2+c^2$$\n于是，我们有\n$$\\sum S_a(b-c)^2\\geqslant(S_b+S_a)(b-c)^2+(S_b+S_c)(a-b)^2\\geqslant0$$\n原不等式成立。等号成立的条件是 $a=b=c$ 和 $b=c=\\dfrac{2a}{3}$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.8(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{ab}{a^2+b^2+3c^2}+\\frac{bc}{b^2+c^2+3a^2}+\\frac{ca}{c^2+a^2+3b^2}\\leqslant\\frac{3}{5}$$\n证明 不失一般性，设 $a\\geqslant b\\geqslant c$，且 $\\sum a^2=1$。考虑到例 1.2.4，我们把不等式写成如下形式\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n其中 $S_c=5(1+2a^2)(1+2b^2)-6(a+b)^2(1+2c^2)$，类似得 $S_a,S_b$。显然 $S_c\\geqslant0$。\n\n令 $x=\\sqrt{\\dfrac{a^2+b^2}{2}}$，则\n$$(a+c)^2(1+2b^2)+(b+c)^2(1+2a^2)\\leqslant2(x+c)^2(1+2x^2)$$\n因此可得\n$$S_a+S_b\\geqslant10(1+2c^2)(1+2x^2)-6(x+c)^2(1+2x^2)$$\n$$=2(1+2x^2)^2(2x-3c)^2\\geqslant0$$\n类似可证，$S_b+S_c\\geqslant0$。所以，只需证明 $S_b\\geqslant0$，即\n$$5(1+2a^2)(1+2c^2)\\geqslant6(a+c)^2(1+2b^2)$$\n考虑到假设条件 $a^2+b^2+c^2=1$，上面的不等式变成\n$$5(3a^2+b^2+c^2)(3c^2+a^2+b^2)\\geqslant6(a+c)^2(3b^2+a^2+c^2)$$\n或者\n$$\\frac{2(a^2-b^2)}{3b^2+a^2+c^2}\\geqslant\\frac{6(a+c)^2-5(3c^2+a^2+b^2)}{5(3c^2+a^2+b^2)}$$\n这个不等式是成立的，因为\n$$6(a+c)^2-5(3c^2+a^2+b^2)\\leqslant2(a^2-b^2)$$\n$$5(3c^2+a^2+b^2)\\geqslant3b^2+a^2+c^2$$\n于是，我们有\n$$\\sum S_a(b-c)^2\\geqslant(S_b+S_a)(b-c)^2+(S_b+S_c)(a-b)^2\\geqslant0$$\n原不等式成立。等号成立的条件是 $a=b=c$ 和 $b=c=\\dfrac{2a}{3}$ 及其轮换。",
+  "tags": [
+    "SOS方法",
+    "非负实数",
+    "Pham Kim Hung"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005",
+  "raw_response_file": "raw/chunk-0005.response.txt",
+  "raw_api_file": "raw/chunk-0005.api.json",
+  "fingerprint": "c3f5bc51f1fc3063bdd86de0b5a65717b00e6644",
+  "raw_problem": {
+    "problem_id": "例1.3.8",
+    "problem_type": "example",
+    "chapter": "1.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      38,
+      39
+    ],
+    "stem_md": "（Pham Kim Hung, Mathlinks）设 $a,b,c$ 是非负实数，证明\n$$\\frac{ab}{a^2+b^2+3c^2}+\\frac{bc}{b^2+c^2+3a^2}+\\frac{ca}{c^2+a^2+3b^2}\\leqslant\\frac{3}{5}$$",
+    "solution_md": "不失一般性，设 $a\\geqslant b\\geqslant c$，且 $\\sum a^2=1$。考虑到例 1.2.4，我们把不等式写成如下形式\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n其中 $S_c=5(1+2a^2)(1+2b^2)-6(a+b)^2(1+2c^2)$，类似得 $S_a,S_b$。显然 $S_c\\geqslant0$。\n\n令 $x=\\sqrt{\\dfrac{a^2+b^2}{2}}$，则\n$$(a+c)^2(1+2b^2)+(b+c)^2(1+2a^2)\\leqslant2(x+c)^2(1+2x^2)$$\n因此可得\n$$\\begin{align*}S_a+S_b&\\geqslant10(1+2c^2)(1+2x^2)-6(x+c)^2(1+2x^2)\\\\&=2(1+2x^2)^2(2x-3c)^2\\geqslant0\\end{align*}$$\n类似可证，$S_b+S_c\\geqslant0$。所以，只需证明 $S_b\\geqslant0$，即\n$$5(1+2a^2)(1+2c^2)\\geqslant6(a+c)^2(1+2b^2)$$\n考虑到假设条件 $a^2+b^2+c^2=1$，上面的不等式变成\n$$5(3a^2+b^2+c^2)(3c^2+a^2+b^2)\\geqslant6(a+c)^2(3b^2+a^2+c^2)$$\n或者\n$$\\frac{2(a^2-b^2)}{3b^2+a^2+c^2}\\geqslant\\frac{6(a+c)^2-5(3c^2+a^2+b^2)}{5(3c^2+a^2+b^2)}$$\n这个不等式是成立的，因为\n$$6(a+c)^2-5(3c^2+a^2+b^2)\\leqslant2(a^2-b^2)$$\n$$5(3c^2+a^2+b^2)\\geqslant3b^2+a^2+c^2$$\n于是，我们有\n$$\\sum S_a(b-c)^2\\geqslant(S_b+S_a)(b-c)^2+(S_b+S_c)(a-b)^2\\geqslant0$$\n原不等式成立。等号成立的条件是 $a=b=c$ 和 $b=c=\\dfrac{2a}{3}$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.3.8(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{ab}{a^2+b^2+3c^2}+\\frac{bc}{b^2+c^2+3a^2}+\\frac{ca}{c^2+a^2+3b^2}\\leqslant\\frac{3}{5}$$\n证明 不失一般性，设 $a\\geqslant b\\geqslant c$，且 $\\sum a^2=1$。考虑到例 1.2.4，我们把不等式写成如下形式\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n其中 $S_c=5(1+2a^2)(1+2b^2)-6(a+b)^2(1+2c^2)$，类似得 $S_a,S_b$。显然 $S_c\\geqslant0$。\n\n令 $x=\\sqrt{\\dfrac{a^2+b^2}{2}}$，则\n$$(a+c)^2(1+2b^2)+(b+c)^2(1+2a^2)\\leqslant2(x+c)^2(1+2x^2)$$\n因此可得\n$$S_a+S_b\\geqslant10(1+2c^2)(1+2x^2)-6(x+c)^2(1+2x^2)$$\n$$=2(1+2x^2)^2(2x-3c)^2\\geqslant0$$\n类似可证，$S_b+S_c\\geqslant0$。所以，只需证明 $S_b\\geqslant0$，即\n$$5(1+2a^2)(1+2c^2)\\geqslant6(a+c)^2(1+2b^2)$$\n考虑到假设条件 $a^2+b^2+c^2=1$，上面的不等式变成\n$$5(3a^2+b^2+c^2)(3c^2+a^2+b^2)\\geqslant6(a+c)^2(3b^2+a^2+c^2)$$\n或者\n$$\\frac{2(a^2-b^2)}{3b^2+a^2+c^2}\\geqslant\\frac{6(a+c)^2-5(3c^2+a^2+b^2)}{5(3c^2+a^2+b^2)}$$\n这个不等式是成立的，因为\n$$6(a+c)^2-5(3c^2+a^2+b^2)\\leqslant2(a^2-b^2)$$\n$$5(3c^2+a^2+b^2)\\geqslant3b^2+a^2+c^2$$\n于是，我们有\n$$\\sum S_a(b-c)^2\\geqslant(S_b+S_a)(b-c)^2+(S_b+S_c)(a-b)^2\\geqslant0$$\n原不等式成立。等号成立的条件是 $a=b=c$ 和 $b=c=\\dfrac{2a}{3}$ 及其轮换。",
+    "tags": [
+      "SOS方法",
+      "非负实数",
+      "Pham Kim Hung"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

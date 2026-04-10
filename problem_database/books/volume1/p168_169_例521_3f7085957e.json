@@ -1,0 +1,58 @@
+{
+  "uid": "p168_169_例521_3f7085957e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.1",
+  "problem_type": "example",
+  "title": "系列问题 B:聪明的分离",
+  "source_pages": [
+    168,
+    169
+  ],
+  "source_images": [
+    "page-168.jpg",
+    "page-169.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{\\sqrt{a^2+8bc}}+\\frac{b}{\\sqrt{b^2+8ca}}+\\frac{c}{\\sqrt{c^2+8ab}}\\geqslant1$$",
+  "solution_md": "设正实数 $r$ 满足\n$$\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\frac{a^{2r}}{a^{2r}+2(bc)^r}$$\n这个条件等价于\n$$a^2(a^{2r}+2b^rc^r)^2\\geqslant a^{4r}(a^2+8bc)$$\n$$\\Leftrightarrow b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^{4r-2}bc$$\n由 AM-GM 不等式，有\n$$b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^rb^{\\frac{3r}{2}}c^{\\frac{3r}{2}}$$\n由此可见，我们只需选择实数 $r$ 满足\n$$\\begin{cases}4r-2=r\\\\ \\frac{3}{2}r=1\\end{cases}\\Rightarrow r=\\frac{2}{3}$$\n于是\n$$\\sum\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+2(bc)^r}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+b^{2r}+c^{2r}}=1$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.1(IMO 2002) 设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{\\sqrt{a^2+8bc}}+\\frac{b}{\\sqrt{b^2+8ca}}+\\frac{c}{\\sqrt{c^2+8ab}}\\geqslant1$$\n证明 设正实数 $r$ 满足\n$$\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\frac{a^{2r}}{a^{2r}+2(bc)^r}$$\n这个条件等价于\n$$a^2(a^{2r}+2b^rc^r)^2\\geqslant a^{4r}(a^2+8bc)$$\n$$\\Leftrightarrow b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^{4r-2}bc$$\n由 AM-GM 不等式，有\n$$b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^rb^{\\frac{3r}{2}}c^{\\frac{3r}{2}}$$\n由此可见，我们只需选择实数 $r$ 满足\n$$\\begin{cases}4r-2=r\\\\ \\frac{3}{2}r=1\\end{cases}\\Rightarrow r=\\frac{2}{3}$$\n于是\n$$\\sum\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+2(bc)^r}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+b^{2r}+c^{2r}}=1$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+  "tags": [
+    "IMO 2002",
+    "AM-GM不等式",
+    "分离技巧",
+    "根式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "3f7085957ec9ef3e599d6efa401e0a0b0a1c2676",
+  "raw_problem": {
+    "problem_id": "例5.2.1",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": "系列问题 B:聪明的分离",
+    "source_pages": [
+      168,
+      169
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{\\sqrt{a^2+8bc}}+\\frac{b}{\\sqrt{b^2+8ca}}+\\frac{c}{\\sqrt{c^2+8ab}}\\geqslant1$$",
+    "solution_md": "设正实数 $r$ 满足\n$$\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\frac{a^{2r}}{a^{2r}+2(bc)^r}$$\n这个条件等价于\n$$a^2(a^{2r}+2b^rc^r)^2\\geqslant a^{4r}(a^2+8bc)$$\n$$\\Leftrightarrow b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^{4r-2}bc$$\n由 AM-GM 不等式，有\n$$b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^rb^{\\frac{3r}{2}}c^{\\frac{3r}{2}}$$\n由此可见，我们只需选择实数 $r$ 满足\n$$\\begin{cases}4r-2=r\\\\ \\frac{3}{2}r=1\\end{cases}\\Rightarrow r=\\frac{2}{3}$$\n于是\n$$\\sum\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+2(bc)^r}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+b^{2r}+c^{2r}}=1$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.1(IMO 2002) 设 $a,b,c$ 是正实数，证明\n$$\\frac{a}{\\sqrt{a^2+8bc}}+\\frac{b}{\\sqrt{b^2+8ca}}+\\frac{c}{\\sqrt{c^2+8ab}}\\geqslant1$$\n证明 设正实数 $r$ 满足\n$$\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\frac{a^{2r}}{a^{2r}+2(bc)^r}$$\n这个条件等价于\n$$a^2(a^{2r}+2b^rc^r)^2\\geqslant a^{4r}(a^2+8bc)$$\n$$\\Leftrightarrow b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^{4r-2}bc$$\n由 AM-GM 不等式，有\n$$b^{2r}c^{2r}+a^{2r}b^rc^r\\geqslant2a^rb^{\\frac{3r}{2}}c^{\\frac{3r}{2}}$$\n由此可见，我们只需选择实数 $r$ 满足\n$$\\begin{cases}4r-2=r\\\\ \\frac{3}{2}r=1\\end{cases}\\Rightarrow r=\\frac{2}{3}$$\n于是\n$$\\sum\\frac{a}{\\sqrt{a^2+8bc}}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+2(bc)^r}\\geqslant\\sum\\frac{a^{2r}}{a^{2r}+b^{2r}+c^{2r}}=1$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+    "tags": [
+      "IMO 2002",
+      "AM-GM不等式",
+      "分离技巧",
+      "根式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

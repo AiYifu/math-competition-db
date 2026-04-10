@@ -1,0 +1,25 @@
+{
+  "uid": "p073_074_例5_9e2d9b5976",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "4 反证法",
+  "section": null,
+  "problem_id": "例5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    73,
+    74
+  ],
+  "stem_md": "已知 $a, b, c$ 是正实数, 满足 $a+b+c \\geqslant abc$. 求证: 在下列三个式子中至少有两个成立\n$$\n\\frac{6}{a}+\\frac{3}{b}+\\frac{2}{c} \\geqslant 2, \\frac{6}{b}+\\frac{3}{c}+\\frac{2}{a} \\geqslant 2, \\frac{6}{c}+\\frac{3}{a}+\\frac{2}{b} \\geqslant 2.\n$$",
+  "solution_md": "证明 用反证法.\n(i) 如果 $\\frac{6}{a}+\\frac{3}{b}+\\frac{2}{c} < 2$, $\\frac{6}{b}+\\frac{3}{c}+\\frac{2}{a} < 2$, $\\frac{6}{c}+\\frac{3}{a}+\\frac{2}{b} < 2$, 则\n$11\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) < 6$, 与 $\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^2 \\geqslant 3\\left(\\frac{1}{ab}+\\frac{1}{bc}+\\frac{1}{ca}\\right) \\geqslant 3$ 矛盾.\n(ii) 不妨设三式中仅有 2 个小于 2, 即设\n$$\n\\left\\{\\begin{array}{l}\n\\frac{6}{b}+\\frac{3}{c}+\\frac{2}{a} < 2, \\\\\n\\frac{6}{c}+\\frac{3}{a}+\\frac{2}{b} < 2, \\\\\n\\frac{6}{a}+\\frac{3}{b}+\\frac{2}{c} \\geqslant 2.\n\\end{array}\\right.\n$$\n由①×1+②×7-③×1 可得 $\\frac{43}{c}+\\frac{17}{b}+\\frac{17}{a} < 14$.\n但上式左端 $> 17\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geqslant 17\\sqrt{3} > 14$, 矛盾!\n因此结论成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例5 已知 $a, b, c$ 是正实数, 满足 $a+b+c \\geqslant abc$. 求证: 在下列三个式子中至少有两个成立\n$$\n\\frac{6}{a}+\\frac{3}{b}+\\frac{2}{c} \\geqslant 2, \\frac{6}{b}+\\frac{3}{c}+\\frac{2}{a} \\geqslant 2, \\frac{6}{c}+\\frac{3}{a}+\\frac{2}{b} \\geqslant 2.\n$$\n证明 用反证法.\n(i) 如果 $\\frac{6}{a}+\\frac{3}{b}+\\frac{2}{c} < 2$, $\\frac{6}{b}+\\frac{3}{c}+\\frac{2}{a} < 2$, $\\frac{6}{c}+\\frac{3}{a}+\\frac{2}{b} < 2$, 则\n$11\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) < 6$, 与 $\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^2 \\geqslant 3\\left(\\frac{1}{ab}+\\frac{1}{bc}+\\frac{1}{ca}\\right) \\geqslant 3$ 矛盾.\n(ii) 不妨设三式中仅有 2 个小于 2, 即设\n$$\n\\left\\{\\begin{array}{l}\n\\frac{6}{b}+\\frac{3}{c}+\\frac{2}{a} < 2, \\\\\n\\frac{6}{c}+\\frac{3}{a}+\\frac{2}{b} < 2, \\\\\n\\frac{6}{a}+\\frac{3}{b}+\\frac{2}{c} \\geqslant 2.\n\\end{array}\\right.\n$$\n由①×1+②×7-③×1 可得 $\\frac{43}{c}+\\frac{17}{b}+\\frac{17}{a} < 14$.\n但上式左端 $> 17\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geqslant 17\\sqrt{3} > 14$, 矛盾!\n因此结论成立.",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

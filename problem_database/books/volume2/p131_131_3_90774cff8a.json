@@ -1,0 +1,24 @@
+{
+  "uid": "p131_131_3_90774cff8a",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第3章",
+  "section": "3.4",
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": "练习3",
+  "source_pages": [
+    131
+  ],
+  "stem_md": "(Virgil Nicula, Mathlinks) 设 $x, y, z$ 是正实数, 且满足 $(a + b + c)(a + b - c)(-a + b + c)(a - b + c)\\left(\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}\\right)^2 \\geqslant 10$ 换句话说, 如果 $\\triangle ABC$ 是锐角三角形, 则 $\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} \\geqslant \\frac{5}{4\\Delta}$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3. (Virgil Nicula, Mathlinks) 设 $x, y, z$ 是正实数, 且满足 $(a + b + c)(a + b - c)(-a + b + c)(a - b + c)\\left(\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}\\right)^2 \\geqslant 10$ 换句话说, 如果 $\\triangle ABC$ 是锐角三角形, 则 $\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} \\geqslant \\frac{5}{4\\Delta}$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0017"
+}

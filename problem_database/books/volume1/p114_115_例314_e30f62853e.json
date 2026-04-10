@@ -1,0 +1,56 @@
+{
+  "uid": "p114_115_例314_e30f62853e",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": "3.1 起步",
+  "problem_id": "例3.1.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    114,
+    115
+  ],
+  "source_images": [
+    "page-114.jpg",
+    "page-115.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，其积为 1，使用熟悉的不等式\n$$(x+y-z)(y+z-x)(z+x-y) \\leqslant xyz \\quad (x,y,z \\geqslant 0)$$\n来证明\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c} \\leqslant 1$$",
+  "solution_md": "**证明及分析** 采用反证法。假设有三个正实数 $a,b,c$，满足 $abc=1$，而\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c} > 1$$\n显然，必定存在一个实数 $t > 1$，满足\n$$\\frac{1}{2+ta}+\\frac{1}{2+tb}+\\frac{1}{2+tc}=1$$\n设 $x,y,z$ 分别表示上述不等式左边的三个项，则\n$$\\frac{1}{2+ta}=\\frac{x}{x+y+z} \\Rightarrow ta=\\frac{y+z-x}{x}$$\n同理\n$$tb=\\frac{z+x-y}{y}, \\quad tc=\\frac{x+y-z}{z}$$\n由于 $t > 1, abc=1$，则有，$ta \\cdot tb \\cdot tc > 1$，即\n$$\\frac{y+z-x}{x} \\cdot \\frac{z+x-y}{y} \\cdot \\frac{x+y-z}{z} > 1$$\n$$\\Leftrightarrow (x+y-z)(y+z-x)(z+x-y) > xyz$$\n\n这和我们熟悉的不等式相矛盾，因此，我们就证明了原不等式。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.1.4 设 $a,b,c$ 是正实数，其积为 1，使用熟悉的不等式\n$$(x+y-z)(y+z-x)(z+x-y)\\leqslant xyz\\quad(x,y,z\\geqslant 0)$$\n来证明\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c}\\leqslant 1$$\n\n**证明及分析** 采用反证法。假设有三个正实数 $a,b,c$，满足 $abc=1$，而\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c}>1$$\n显然，必定存在一个实数 $t>1$，满足\n$$\\frac{1}{2+ta}+\\frac{1}{2+tb}+\\frac{1}{2+tc}=1$$\n设 $x,y,z$ 分别表示上述不等式左边的三个项，则\n$$\\frac{1}{2+ta}=\\frac{x}{x+y+z}\\Rightarrow ta=\\frac{y+z-x}{x}$$\n同理\n$$tb=\\frac{z+x-y}{y},tc=\\frac{x+y-z}{z}$$\n由于 $t>1,abc=1$，则有，$ta\\cdot tb\\cdot tc>1$，即\n$$\\frac{y+z-x}{x}\\cdot\\frac{z+x-y}{y}\\cdot\\frac{x+y-z}{z}>1$$\n$$\\Leftrightarrow(x+y-z)(y+z-x)(z+x-y)>xyz$$",
+  "tags": [
+    "反证法",
+    "abc=1",
+    "起步"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "e30f62853ea5a03a0cdf8a8ef5f6e1f3d384c866",
+  "raw_problem": {
+    "problem_id": "例3.1.4",
+    "problem_type": "example",
+    "chapter": "第3章 反证法",
+    "section": "3.1 起步",
+    "title": null,
+    "source_pages": [
+      114,
+      115
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，其积为 1，使用熟悉的不等式\n$$(x+y-z)(y+z-x)(z+x-y) \\leqslant xyz \\quad (x,y,z \\geqslant 0)$$\n来证明\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c} \\leqslant 1$$",
+    "solution_md": "**证明及分析** 采用反证法。假设有三个正实数 $a,b,c$，满足 $abc=1$，而\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c} > 1$$\n显然，必定存在一个实数 $t > 1$，满足\n$$\\frac{1}{2+ta}+\\frac{1}{2+tb}+\\frac{1}{2+tc}=1$$\n设 $x,y,z$ 分别表示上述不等式左边的三个项，则\n$$\\frac{1}{2+ta}=\\frac{x}{x+y+z} \\Rightarrow ta=\\frac{y+z-x}{x}$$\n同理\n$$tb=\\frac{z+x-y}{y}, \\quad tc=\\frac{x+y-z}{z}$$\n由于 $t > 1, abc=1$，则有，$ta \\cdot tb \\cdot tc > 1$，即\n$$\\frac{y+z-x}{x} \\cdot \\frac{z+x-y}{y} \\cdot \\frac{x+y-z}{z} > 1$$\n$$\\Leftrightarrow (x+y-z)(y+z-x)(z+x-y) > xyz$$\n\n这和我们熟悉的不等式相矛盾，因此，我们就证明了原不等式。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.1.4 设 $a,b,c$ 是正实数，其积为 1，使用熟悉的不等式\n$$(x+y-z)(y+z-x)(z+x-y)\\leqslant xyz\\quad(x,y,z\\geqslant 0)$$\n来证明\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c}\\leqslant 1$$\n\n**证明及分析** 采用反证法。假设有三个正实数 $a,b,c$，满足 $abc=1$，而\n$$\\frac{1}{2+a}+\\frac{1}{2+b}+\\frac{1}{2+c}>1$$\n显然，必定存在一个实数 $t>1$，满足\n$$\\frac{1}{2+ta}+\\frac{1}{2+tb}+\\frac{1}{2+tc}=1$$\n设 $x,y,z$ 分别表示上述不等式左边的三个项，则\n$$\\frac{1}{2+ta}=\\frac{x}{x+y+z}\\Rightarrow ta=\\frac{y+z-x}{x}$$\n同理\n$$tb=\\frac{z+x-y}{y},tc=\\frac{x+y-z}{z}$$\n由于 $t>1,abc=1$，则有，$ta\\cdot tb\\cdot tc>1$，即\n$$\\frac{y+z-x}{x}\\cdot\\frac{z+x-y}{y}\\cdot\\frac{x+y-z}{z}>1$$\n$$\\Leftrightarrow(x+y-z)(y+z-x)(z+x-y)>xyz$$",
+    "tags": [
+      "反证法",
+      "abc=1",
+      "起步"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

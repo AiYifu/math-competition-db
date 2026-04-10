@@ -1,0 +1,21 @@
+{
+  "uid": "p171_171_例8_c13b0fe35f",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    171
+  ],
+  "stem_md": "设 $a, b, c, d$ 为正实数, 满足 $ab + cd = 1$, $p_i(x_i, y_i)$, $i = 1, 2, 3, 4$ 为以原点为圆心的单位圆上的四点. 求证: $$(ay_1 + by_2 + cy_3 + dy_4)^2 + (ax_4 + bx_3 + cx_2 + dx_1)^2 \\leqslant 2\\left(\\frac{a^2 + b^2}{ab} + \\frac{c^2 + d^2}{cd}\\right).$$",
+  "solution_md": "证明 令 $\\alpha = ay_1 + by_2 + cy_3 + dy_4$, $\\beta = ax_4 + bx_3 + cx_2 + dx_1$, 由柯西不等式, 得 $$\\alpha^2 + \\beta^2 \\leqslant (2ad + 2bc)\\left(\\frac{a}{d} + \\frac{b}{c} + \\frac{c}{b} + \\frac{d}{a}\\right) = 2(ad + bc)\\left(\\frac{1}{bd} + \\frac{1}{ac}\\right) = 2(ad + bc)\\left(\\frac{ab + cd}{abcd}\\right) = 2(ad + bc)\\left(\\frac{1}{ab} + \\frac{1}{cd}\\right).$$ 对它们相加, 并利用 $x_i^2 + y_i^2 = 1$, $i = 1, 2, 3, 4$, $ab + cd = 1$, 得 $$(ay_1 + by_2 + cy_3 + dy_4)^2 + (ax_4 + bx_3 + cx_2 + dx_1)^2 \\leqslant 2\\left(\\frac{a^2 + b^2}{ab} + \\frac{c^2 + d^2}{cd}\\right).$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例8 设 $a, b, c, d$ 为正实数, 满足 $ab + cd = 1$, $p_i(x_i, y_i)$, $i = 1, 2, 3, 4$ 为以原点为圆心的单位圆上的四点. 求证: $$(ay_1 + by_2 + cy_3 + dy_4)^2 + (ax_4 + bx_3 + cx_2 + dx_1)^2 \\leqslant 2\\left(\\frac{a^2 + b^2}{ab} + \\frac{c^2 + d^2}{cd}\\right).$$ 证明 令 $\\alpha = ay_1 + by_2 + cy_3 + dy_4$, $\\beta = ax_4 + bx_3 + cx_2 + dx_1$, 由柯西不等式, 得 $$\\alpha^2 + \\beta^2 \\leqslant (2ad + 2bc)\\left(\\frac{a}{d} + \\frac{b}{c} + \\frac{c}{b} + \\frac{d}{a}\\right) = 2(ad + bc)\\left(\\frac{1}{bd} + \\frac{1}{ac}\\right) = 2(ad + bc)\\left(\\frac{ab + cd}{abcd}\\right) = 2(ad + bc)\\left(\\frac{1}{ab} + \\frac{1}{cd}\\right).$$ 对它们相加, 并利用 $x_i^2 + y_i^2 = 1$, $i = 1, 2, 3, 4$, $ab + cd = 1$, 得 $$(ay_1 + by_2 + cy_3 + dy_4)^2 + (ax_4 + bx_3 + cx_2 + dx_1)^2 \\leqslant 2\\left(\\frac{a^2 + b^2}{ab} + \\frac{c^2 + d^2}{cd}\\right).$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

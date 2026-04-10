@@ -1,0 +1,57 @@
+{
+  "uid": "p226_226_13_d7206b0247",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "13",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "source_images": [
+    "page-226.jpg"
+  ],
+  "stem_md": "(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，$k=\\dfrac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{8kabc}{(a+b)(b+c)(c+a)}\\geqslant 1+k$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "13.(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，$k=\\dfrac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{8kabc}{(a+b)(b+c)(c+a)}\\geqslant 1+k$$",
+  "tags": [
+    "inequality",
+    "cyclic",
+    "fractions",
+    "Bach Ngoc Thanh Cong",
+    "symmetric"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026",
+  "raw_response_file": "raw/chunk-0026.response.txt",
+  "raw_api_file": "raw/chunk-0026.api.json",
+  "fingerprint": "d7206b0247a1816f8234d785362b9cf66488afb2",
+  "raw_problem": {
+    "problem_id": "13",
+    "problem_type": "exercise",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      226
+    ],
+    "stem_md": "(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，$k=\\dfrac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{8kabc}{(a+b)(b+c)(c+a)}\\geqslant 1+k$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "13.(Bach Ngoc Thanh Cong,CPR) 设 $a,b,c$ 是非负实数，$k=\\dfrac{3}{\\sqrt[3]{4}}-1$，证明\n$$\\frac{a^3+b^3+c^3}{a^2b+b^2c+c^2a}+\\frac{8kabc}{(a+b)(b+c)(c+a)}\\geqslant 1+k$$",
+    "tags": [
+      "inequality",
+      "cyclic",
+      "fractions",
+      "Bach Ngoc Thanh Cong",
+      "symmetric"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

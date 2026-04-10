@@ -1,0 +1,21 @@
+{
+  "uid": "p172_172_例1_18413043bb",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4.6 利用平均值不等式与柯西不等式解题",
+  "section": null,
+  "problem_id": "例1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    172
+  ],
+  "stem_md": "设 $a, b, c$ 为实数, 满足 $a^2 + 2b^2 + 3c^2 = \\frac{3}{2}$, 求证: $$3^{-a} + 9^{-b} + 27^{-c} \\geqslant 1.$$",
+  "solution_md": "证明 由平均值不等式, 得 $$3^{-a} + 9^{-b} + 27^{-c} \\geqslant 3 \\sqrt[3]{3^{-a-2b-3c}} = 3^{\\frac{3-a-2b-3c}{3}} \\geqslant 3^0 = 1.$$ 再由柯西不等式, 得 $$(a + 2b + 3c)^2 = (a + \\sqrt{2} \\cdot \\sqrt{2}b + \\sqrt{3} \\cdot \\sqrt{3}c)^2 \\leqslant (1 + 2 + 3)(a^2 + 2b^2 + 3c^2) = 6 \\cdot \\frac{3}{2} = 9.$$ 从而 $a + 2b + 3c \\leqslant 3$, $3 - a - 2b - 3c \\geqslant 0$, $3^{\\frac{3-a-2b-3c}{3}} \\geqslant 3^0 = 1$. 故命题成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例1 设 $a, b, c$ 为实数, 满足 $a^2 + 2b^2 + 3c^2 = \\frac{3}{2}$, 求证: $$3^{-a} + 9^{-b} + 27^{-c} \\geqslant 1.$$ 证明 由平均值不等式, 得 $$3^{-a} + 9^{-b} + 27^{-c} \\geqslant 3 \\sqrt[3]{3^{-a-2b-3c}} = 3^{\\frac{3-a-2b-3c}{3}} \\geqslant 3^0 = 1.$$ 再由柯西不等式, 得 $$(a + 2b + 3c)^2 = (a + \\sqrt{2} \\cdot \\sqrt{2}b + \\sqrt{3} \\cdot \\sqrt{3}c)^2 \\leqslant (1 + 2 + 3)(a^2 + 2b^2 + 3c^2) = 6 \\cdot \\frac{3}{2} = 9.$$ 从而 $a + 2b + 3c \\leqslant 3$, $3 - a - 2b - 3c \\geqslant 0$, $3^{\\frac{3-a-2b-3c}{3}} \\geqslant 3^0 = 1$. 故命题成立.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

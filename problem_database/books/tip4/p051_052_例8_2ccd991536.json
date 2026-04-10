@@ -1,0 +1,25 @@
+{
+  "uid": "p051_052_例8_2ccd991536",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    51,
+    52
+  ],
+  "stem_md": "设 $a, b, c \\in \\mathbf{R}_+$，满足 $a + b + c = abc$。求 $a^7(bc - 1) + b^7(ac - 1) + c^7(ab - 1)$ 的最小值。",
+  "solution_md": "因为 $a, b, c > 0$，且 $a + b + c = abc$，所以 $c(ab - 1) = a + b$。\n同理可得 $b(ac - 1) = a + c$，$a(bc - 1) = b + c$。\n由平均值不等式，得\n$abc = a + b + c \\geqslant 3 \\sqrt[3]{abc}$，\n推出 $abc \\geqslant 3 \\sqrt{3}$，等号成立当且仅当 $a = b = c = \\sqrt{3}$，所以\n$a^7(bc - 1) + b^7(ac - 1) + c^7(ab - 1)$\n$= a^6(b + c) + b^6(a + c) + c^6(a + b)$\n$\\geqslant 6(\\sqrt{3})^7 = 6 \\times 27\\sqrt{3} = 162\\sqrt{3}$，\n等号成立的充要条件是 $a = b = c = \\sqrt{3}$，故所求的最小值为 $162\\sqrt{3}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例8 设 $a, b, c \\in \\mathbf{R}_+$，满足 $a + b + c = abc$。求 $a^7(bc - 1) + b^7(ac - 1) + c^7(ab - 1)$ 的最小值。\n解 因为 $a, b, c > 0$，且 $a + b + c = abc$，所以 $c(ab - 1) = a + b$。\n同理可得 $b(ac - 1) = a + c$，$a(bc - 1) = b + c$。\n由平均值不等式，得\n$abc = a + b + c \\geqslant 3 \\sqrt[3]{abc}$，\n推出 $abc \\geqslant 3 \\sqrt{3}$，等号成立当且仅当 $a = b = c = \\sqrt{3}$，所以\n$a^7(bc - 1) + b^7(ac - 1) + c^7(ab - 1)$\n$= a^6(b + c) + b^6(a + c) + c^6(a + b)$\n$\\geqslant 6(\\sqrt{3})^7 = 6 \\times 27\\sqrt{3} = 162\\sqrt{3}$，\n等号成立的充要条件是 $a = b = c = \\sqrt{3}$，故所求的最小值为 $162\\sqrt{3}$。",
+  "tags": [
+    "均值不等式",
+    "最小值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

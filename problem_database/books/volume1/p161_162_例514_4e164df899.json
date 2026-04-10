@@ -1,0 +1,58 @@
+{
+  "uid": "p161_162_例514_4e164df899",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "例5.1.4",
+  "problem_type": "example",
+  "title": "例5.1.4",
+  "source_pages": [
+    161,
+    162
+  ],
+  "source_images": [
+    "page-161.jpg",
+    "page-162.jpg"
+  ],
+  "stem_md": "(Vasile Cirtoaje, Crux) 设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-ca} \\leqslant \\frac{9}{2}$$",
+  "solution_md": "不等式可以变成如下形式\n$$\\left(\\frac{1}{1-ab}-1\\right) + \\left(\\frac{1}{1-bc}-1\\right) + \\left(\\frac{1}{1-ca}-1\\right) \\leqslant \\frac{3}{2}$$\n$$\\Leftrightarrow \\frac{ab}{1-ab} + \\frac{bc}{1-bc} + \\frac{ca}{1-ca} \\leqslant \\frac{3}{2}$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2} \\geqslant \\frac{(a+b)^2}{a^2+b^2+2c^2}$$\n$$\\geqslant \\frac{(a+b)^2-(a-b)^2}{a^2+b^2+2c^2+(a-b)^2}$$\n$$= \\frac{4ab}{2(a^2+b^2+c^2)-2ab} = \\frac{2ab}{1-ab}$$\n\n所以，我们得到\n$$3 = \\sum\\left(\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2}\\right) \\geqslant \\sum \\frac{2ab}{1-ab}$$\n\n等号成立的条件是 $a=b=c=\\frac{1}{\\sqrt{3}}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.4(Vasile Cirtoaje, Crux) 设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-ca} \\leqslant \\frac{9}{2}$$\n\n证明 不等式可以变成如下形式\n$$\\left(\\frac{1}{1-ab}-1\\right) + \\left(\\frac{1}{1-bc}-1\\right) + \\left(\\frac{1}{1-ca}-1\\right) \\leqslant \\frac{3}{2}$$\n$$\\Leftrightarrow \\frac{ab}{1-ab} + \\frac{bc}{1-bc} + \\frac{ca}{1-ca} \\leqslant \\frac{3}{2}$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2} \\geqslant \\frac{(a+b)^2}{a^2+b^2+2c^2}$$\n$$\\geqslant \\frac{(a+b)^2-(a-b)^2}{a^2+b^2+2c^2+(a-b)^2}$$\n$$= \\frac{4ab}{2(a^2+b^2+c^2)-2ab} = \\frac{2ab}{1-ab}$$\n\n所以，我们得到\n$$3 = \\sum\\left(\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2}\\right) \\geqslant \\sum \\frac{2ab}{1-ab}$$\n\n等号成立的条件是 $a=b=c=\\frac{1}{\\sqrt{3}}$。",
+  "tags": [
+    "例题",
+    "Cauchy-Schwarz不等式",
+    "正实数",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "4e164df899b0d15c59f6d1e17cce1b2a1b6d385d",
+  "raw_problem": {
+    "problem_id": "例5.1.4",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "例5.1.4",
+    "source_pages": [
+      161,
+      162
+    ],
+    "stem_md": "(Vasile Cirtoaje, Crux) 设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-ca} \\leqslant \\frac{9}{2}$$",
+    "solution_md": "不等式可以变成如下形式\n$$\\left(\\frac{1}{1-ab}-1\\right) + \\left(\\frac{1}{1-bc}-1\\right) + \\left(\\frac{1}{1-ca}-1\\right) \\leqslant \\frac{3}{2}$$\n$$\\Leftrightarrow \\frac{ab}{1-ab} + \\frac{bc}{1-bc} + \\frac{ca}{1-ca} \\leqslant \\frac{3}{2}$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2} \\geqslant \\frac{(a+b)^2}{a^2+b^2+2c^2}$$\n$$\\geqslant \\frac{(a+b)^2-(a-b)^2}{a^2+b^2+2c^2+(a-b)^2}$$\n$$= \\frac{4ab}{2(a^2+b^2+c^2)-2ab} = \\frac{2ab}{1-ab}$$\n\n所以，我们得到\n$$3 = \\sum\\left(\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2}\\right) \\geqslant \\sum \\frac{2ab}{1-ab}$$\n\n等号成立的条件是 $a=b=c=\\frac{1}{\\sqrt{3}}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.4(Vasile Cirtoaje, Crux) 设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=1$，证明\n$$\\frac{1}{1-ab} + \\frac{1}{1-bc} + \\frac{1}{1-ca} \\leqslant \\frac{9}{2}$$\n\n证明 不等式可以变成如下形式\n$$\\left(\\frac{1}{1-ab}-1\\right) + \\left(\\frac{1}{1-bc}-1\\right) + \\left(\\frac{1}{1-ca}-1\\right) \\leqslant \\frac{3}{2}$$\n$$\\Leftrightarrow \\frac{ab}{1-ab} + \\frac{bc}{1-bc} + \\frac{ca}{1-ca} \\leqslant \\frac{3}{2}$$\n\n由 Cauchy-Schwarz 不等式，我们有\n$$\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2} \\geqslant \\frac{(a+b)^2}{a^2+b^2+2c^2}$$\n$$\\geqslant \\frac{(a+b)^2-(a-b)^2}{a^2+b^2+2c^2+(a-b)^2}$$\n$$= \\frac{4ab}{2(a^2+b^2+c^2)-2ab} = \\frac{2ab}{1-ab}$$\n\n所以，我们得到\n$$3 = \\sum\\left(\\frac{a^2}{a^2+c^2} + \\frac{b^2}{b^2+c^2}\\right) \\geqslant \\sum \\frac{2ab}{1-ab}$$\n\n等号成立的条件是 $a=b=c=\\frac{1}{\\sqrt{3}}$。",
+    "tags": [
+      "例题",
+      "Cauchy-Schwarz不等式",
+      "正实数",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

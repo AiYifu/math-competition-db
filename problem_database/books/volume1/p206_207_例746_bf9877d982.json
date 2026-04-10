@@ -1,0 +1,58 @@
+{
+  "uid": "p206_207_例746_bf9877d982",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "例7.4.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    206,
+    207
+  ],
+  "source_images": [
+    "page-206.jpg",
+    "page-207.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$\\sum_{i=1}^{n}a_i^2+(n-1)\\sum_{i<j<k}a_ia_ja_k+1\\geqslant 2\\sum_{i<j}a_ia_j$$",
+  "solution_md": "因为不等式是三次齐次不等式，所以，我们可以假定所有的 $n$ 个数都相等或某些为 0。如果 $a_1=a_2=\\cdots=a_n=x$，则不等式变成\n$$\\frac{1}{6}n(n-1)^2(n-2)x^3-n(n-2)x^2+1\\geqslant 0$$\n\n由 AM-GM 不等式，我们有\n$$\\begin{aligned}&\\frac{1}{6}n(n-1)^2(n-2)x^3+1\\\\=&\\frac{1}{12}n(n-1)^2(n-2)x^3+\\frac{1}{12}n(n-1)^2(n-2)x^3+1\\\\\\geqslant& 3\\sqrt[3]{\\frac{1}{144}n^2(n-1)^4(n-2)^2x^6}\\\\\\geqslant& n(n-2)x^2\\end{aligned}$$\n\n如果 $a_n=0$，则不等式变成对 $n-1$ 个数的情况，由简单的归纳法可证。",
+  "answer_md": "",
+  "hints_md": "注 采用相同的方法，可以证明下列不等式：\n设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$2+\\sum_{i=1}^{n}a_i^2+(n-2)\\sum_{i<j<k}a_ia_ja_k\\geqslant \\sum_{i<j}a_ia_j+\\sum_{i=1}^{n}a_i$$",
+  "original_text_md": "例 7.4.6(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$\\sum_{i=1}^{n}a_i^2+(n-1)\\sum_{i<j<k}a_ia_ja_k+1\\geqslant 2\\sum_{i<j}a_ia_j$$\n证明 因为不等式是三次齐次不等式，所以，我们可以假定所有的 $n$ 个数都相等或某些为 0。如果 $a_1=a_2=\\cdots=a_n=x$，则不等式变成\n$$\\frac{1}{6}n(n-1)^2(n-2)x^3-n(n-2)x^2+1\\geqslant 0$$\n由 AM-GM 不等式，我们有\n$$\\frac{1}{6}n(n-1)^2(n-2)x^3+1$$\n$$=\\frac{1}{12}n(n-1)^2(n-2)x^3+\\frac{1}{12}n(n-1)^2(n-2)x^3+1$$\n$$\\geqslant 3\\sqrt[3]{\\frac{1}{144}n^2(n-1)^4(n-2)^2x^6}$$\n$$\\geqslant n(n-2)x^2$$\n如果 $a_n=0$，则不等式变成对 $n-1$ 个数的情况，由简单的归纳法可证。\n注 采用相同的方法，可以证明下列不等式：\n设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$2+\\sum_{i=1}^{n}a_i^2+(n-2)\\sum_{i<j<k}a_ia_ja_k\\geqslant \\sum_{i<j}a_ia_j+\\sum_{i=1}^{n}a_i$$",
+  "tags": [
+    "三次齐次不等式",
+    "n变量",
+    "AM-GM不等式",
+    "归纳法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "bf9877d982b9d729087e43ddce74b356a1023bb7",
+  "raw_problem": {
+    "problem_id": "例7.4.6",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.4",
+    "title": null,
+    "source_pages": [
+      206,
+      207
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$\\sum_{i=1}^{n}a_i^2+(n-1)\\sum_{i<j<k}a_ia_ja_k+1\\geqslant 2\\sum_{i<j}a_ia_j$$",
+    "solution_md": "因为不等式是三次齐次不等式，所以，我们可以假定所有的 $n$ 个数都相等或某些为 0。如果 $a_1=a_2=\\cdots=a_n=x$，则不等式变成\n$$\\frac{1}{6}n(n-1)^2(n-2)x^3-n(n-2)x^2+1\\geqslant 0$$\n\n由 AM-GM 不等式，我们有\n$$\\begin{aligned}&\\frac{1}{6}n(n-1)^2(n-2)x^3+1\\\\=&\\frac{1}{12}n(n-1)^2(n-2)x^3+\\frac{1}{12}n(n-1)^2(n-2)x^3+1\\\\\\geqslant& 3\\sqrt[3]{\\frac{1}{144}n^2(n-1)^4(n-2)^2x^6}\\\\\\geqslant& n(n-2)x^2\\end{aligned}$$\n\n如果 $a_n=0$，则不等式变成对 $n-1$ 个数的情况，由简单的归纳法可证。",
+    "answer_md": "",
+    "hints_md": "注 采用相同的方法，可以证明下列不等式：\n设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$2+\\sum_{i=1}^{n}a_i^2+(n-2)\\sum_{i<j<k}a_ia_ja_k\\geqslant \\sum_{i<j}a_ia_j+\\sum_{i=1}^{n}a_i$$",
+    "original_text_md": "例 7.4.6(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$\\sum_{i=1}^{n}a_i^2+(n-1)\\sum_{i<j<k}a_ia_ja_k+1\\geqslant 2\\sum_{i<j}a_ia_j$$\n证明 因为不等式是三次齐次不等式，所以，我们可以假定所有的 $n$ 个数都相等或某些为 0。如果 $a_1=a_2=\\cdots=a_n=x$，则不等式变成\n$$\\frac{1}{6}n(n-1)^2(n-2)x^3-n(n-2)x^2+1\\geqslant 0$$\n由 AM-GM 不等式，我们有\n$$\\frac{1}{6}n(n-1)^2(n-2)x^3+1$$\n$$=\\frac{1}{12}n(n-1)^2(n-2)x^3+\\frac{1}{12}n(n-1)^2(n-2)x^3+1$$\n$$\\geqslant 3\\sqrt[3]{\\frac{1}{144}n^2(n-1)^4(n-2)^2x^6}$$\n$$\\geqslant n(n-2)x^2$$\n如果 $a_n=0$，则不等式变成对 $n-1$ 个数的情况，由简单的归纳法可证。\n注 采用相同的方法，可以证明下列不等式：\n设 $a_1,a_2,\\cdots,a_n(n\\geqslant 3)$ 是非负实数，证明\n$$2+\\sum_{i=1}^{n}a_i^2+(n-2)\\sum_{i<j<k}a_ia_ja_k\\geqslant \\sum_{i<j}a_ia_j+\\sum_{i=1}^{n}a_i$$",
+    "tags": [
+      "三次齐次不等式",
+      "n变量",
+      "AM-GM不等式",
+      "归纳法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

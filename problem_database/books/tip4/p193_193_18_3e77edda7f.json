@@ -1,0 +1,21 @@
+{
+  "uid": "p193_193_18_3e77edda7f",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "18",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193
+  ],
+  "stem_md": "$\\frac{x^{2}y}{z}+\\frac{y^{2}z}{x}+\\frac{z^{2}x}{y}-x^{2}-y^{2}-z^{2}=\\frac{x^{2}}{z}(y-z)+\\frac{y^{2}z}{x}+\\frac{z^{2}x}{y}-y^{2}-z^{2}\\geqslant\\frac{y^{2}}{z}(y-z)+2z\\sqrt{yz}-y^{2}-z^{2}=\\frac{y-z}{z}\\left(y^{2}-yz+z^{2}-\\frac{2z^{2}\\sqrt{y}}{\\sqrt{y}+\\sqrt{z}}\\right)=\\frac{(y-z)(\\sqrt{y}-\\sqrt{z})}{z(\\sqrt{y}+\\sqrt{z})}\\left[y(\\sqrt{y}+\\sqrt{z})^{2}-z^{2}\\right]\\geqslant0$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "18. $\\frac{x^{2}y}{z}+\\frac{y^{2}z}{x}+\\frac{z^{2}x}{y}-x^{2}-y^{2}-z^{2}=\\frac{x^{2}}{z}(y-z)+\\frac{y^{2}z}{x}+\\frac{z^{2}x}{y}-y^{2}-z^{2}\\geqslant\\frac{y^{2}}{z}(y-z)+2z\\sqrt{yz}-y^{2}-z^{2}=\\frac{y-z}{z}\\left(y^{2}-yz+z^{2}-\\frac{2z^{2}\\sqrt{y}}{\\sqrt{y}+\\sqrt{z}}\\right)=\\frac{(y-z)(\\sqrt{y}-\\sqrt{z})}{z(\\sqrt{y}+\\sqrt{z})}\\left[y(\\sqrt{y}+\\sqrt{z})^{2}-z^{2}\\right]\\geqslant0$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0025"
+}

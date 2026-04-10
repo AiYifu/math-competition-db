@@ -1,0 +1,24 @@
+{
+  "uid": "p075_075_例7_71165e672e",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "4 反证法",
+  "section": null,
+  "problem_id": "例7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    75
+  ],
+  "stem_md": "设 $x, y, z \\in \\mathbf{R}_+$, 求证:\n$$\n\\sqrt{x+\\sqrt[3]{y+\\sqrt[4]{z}}} \\geqslant \\sqrt[32]{xyz}.\n$$",
+  "solution_md": "证明 用反证法.\n若存在正实数 $x_0, y_0, z_0$, 使得 $\\sqrt{x_0+\\sqrt[3]{y_0+\\sqrt[4]{z_0}}} < \\sqrt[32]{x_0y_0z_0}$, 那么\n$$\n\\left\\{\\begin{array}{l}\nx_0^{16} < x_0y_0z_0, \\\\\ny_0^{16} < (x_0y_0z_0)^3, \\\\\nz_0^{16} < (x_0y_0z_0)^{12}.\n\\end{array}\\right.\n$$\n上面三式相乘即得 $x_0^{16} \\cdot y_0^{16} \\cdot z_0^{16} < (x_0y_0z_0)^{16}$, 矛盾! 故原不等式成立.\n从而得证.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例7 设 $x, y, z \\in \\mathbf{R}_+$, 求证:\n$$\n\\sqrt{x+\\sqrt[3]{y+\\sqrt[4]{z}}} \\geqslant \\sqrt[32]{xyz}.\n$$\n证明 用反证法.\n若存在正实数 $x_0, y_0, z_0$, 使得 $\\sqrt{x_0+\\sqrt[3]{y_0+\\sqrt[4]{z_0}}} < \\sqrt[32]{x_0y_0z_0}$, 那么\n$$\n\\left\\{\\begin{array}{l}\nx_0^{16} < x_0y_0z_0, \\\\\ny_0^{16} < (x_0y_0z_0)^3, \\\\\nz_0^{16} < (x_0y_0z_0)^{12}.\n\\end{array}\\right.\n$$\n上面三式相乘即得 $x_0^{16} \\cdot y_0^{16} \\cdot z_0^{16} < (x_0y_0z_0)^{16}$, 矛盾! 故原不等式成立.\n从而得证.",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p219_219_20_e24b211ebc",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "20",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    219
+  ],
+  "stem_md": "20. 设 $z_{k}=x_{k}+y_{k}i$, $x_{k},y_{k}\\in\\mathbf{R}$, $1\\leqslant k\\leqslant n$. 首先证明 $\\frac{x_{k}^{2}}{x_{k}^{2}+y_{k}^{2}}\\geqslant 1-r^{2}$, $1\\leqslant k\\leqslant n\\cdots\\cdots$ (1). 令 $n=\\frac{x_{k}^{2}}{x_{k}^{2}+y_{k}^{2}}$. 由 $|x_{k}-1|\\leqslant r<1$ 知 $x_{k}>0$. 于是 $n>0$, 且 $y_{k}^{2}=\\left(\\frac{1}{n}-1\\right)x_{k}^{2}$, 从而 $r^{2}\\geqslant|z_{n}-1|^{2}=(x_{k}-1)^{2}+\\left(\\frac{1}{n}-1\\right)x_{k}^{2}=\\frac{1}{n}(x_{k}-n)^{2}+1-n\\geqslant 1-n$. 即 (1) 成立. 由于 $|z_{1}+\\cdots+z_{n}|\\geqslant|\\operatorname{Re}(z_{1}+\\cdots+z_{n})|=\\sum_{k=1}^{n}x_{k}\\cdots\\cdots$ (2). 以及 $\\frac{1}{z_{k}}=\\frac{x_{k}-y_{k}i}{x_{k}^{2}+y_{k}^{2}}$, $1\\leqslant k\\leqslant n$. 所以 $\\left|\\frac{1}{z_{1}}+\\cdots+\\frac{1}{z_{n}}\\right|=\\sum_{k=1}^{n}\\frac{x_{k}}{x_{k}^{2}+y_{k}^{2}}\\cdots\\cdots$ (3). 注意到 $x_{k}>0$, $1\\leqslant k\\leqslant n$. 由 (2)、(3), 以及柯西不等式, 可得 $|z_{1}+\\cdots+z_{n}|\\cdot\\left|\\frac{1}{z_{1}}+\\cdots+\\frac{1}{z_{n}}\\right|\\geqslant\\left(\\sum_{k=1}^{n}x_{k}\\right)\\left(\\sum_{k=1}^{n}\\frac{x_{k}}{x_{k}^{2}+y_{k}^{2}}\\right)\\geqslant\\left(\\sum_{k=1}^{n}\\sqrt{\\frac{x_{k}^{2}}{x_{k}^{2}+y_{k}^{2}}}\\right)^{2}\\geqslant(n\\sqrt{1-r^{2}})^{2}=n^{2}(1-r^{2})$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "20. 设 $z_{k}=x_{k}+y_{k}i$, $x_{k},y_{k}\\in\\mathbf{R}$, $1\\leqslant k\\leqslant n$. 首先证明 $\\frac{x_{k}^{2}}{x_{k}^{2}+y_{k}^{2}}\\geqslant 1-r^{2}$, $1\\leqslant k\\leqslant n\\cdots\\cdots$ (1). 令 $n=\\frac{x_{k}^{2}}{x_{k}^{2}+y_{k}^{2}}$. 由 $|x_{k}-1|\\leqslant r<1$ 知 $x_{k}>0$. 于是 $n>0$, 且 $y_{k}^{2}=\\left(\\frac{1}{n}-1\\right)x_{k}^{2}$, 从而 $r^{2}\\geqslant|z_{n}-1|^{2}=(x_{k}-1)^{2}+\\left(\\frac{1}{n}-1\\right)x_{k}^{2}=\\frac{1}{n}(x_{k}-n)^{2}+1-n\\geqslant 1-n$. 即 (1) 成立. 由于 $|z_{1}+\\cdots+z_{n}|\\geqslant|\\operatorname{Re}(z_{1}+\\cdots+z_{n})|=\\sum_{k=1}^{n}x_{k}\\cdots\\cdots$ (2). 以及 $\\frac{1}{z_{k}}=\\frac{x_{k}-y_{k}i}{x_{k}^{2}+y_{k}^{2}}$, $1\\leqslant k\\leqslant n$. 所以 $\\left|\\frac{1}{z_{1}}+\\cdots+\\frac{1}{z_{n}}\\right|=\\sum_{k=1}^{n}\\frac{x_{k}}{x_{k}^{2}+y_{k}^{2}}\\cdots\\cdots$ (3). 注意到 $x_{k}>0$, $1\\leqslant k\\leqslant n$. 由 (2)、(3), 以及柯西不等式, 可得 $|z_{1}+\\cdots+z_{n}|\\cdot\\left|\\frac{1}{z_{1}}+\\cdots+\\frac{1}{z_{n}}\\right|\\geqslant\\left(\\sum_{k=1}^{n}x_{k}\\right)\\left(\\sum_{k=1}^{n}\\frac{x_{k}}{x_{k}^{2}+y_{k}^{2}}\\right)\\geqslant\\left(\\sum_{k=1}^{n}\\sqrt{\\frac{x_{k}^{2}}{x_{k}^{2}+y_{k}^{2}}}\\right)^{2}\\geqslant(n\\sqrt{1-r^{2}})^{2}=n^{2}(1-r^{2})$.",
+  "tags": [
+    "柯西不等式",
+    "复数"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0028"
+}

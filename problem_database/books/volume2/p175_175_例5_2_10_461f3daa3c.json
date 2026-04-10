@@ -1,0 +1,24 @@
+{
+  "uid": "p175_175_例5_2_10_461f3daa3c",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "2",
+  "problem_id": "例5.2.10",
+  "problem_type": "example",
+  "title": "Romania TST 1998",
+  "source_pages": [
+    175
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 证明\n\n$\\sqrt[3]{\\frac{a^3 + b^3}{2}} + \\sqrt[3]{\\frac{b^3 + c^3}{2}} + \\sqrt[3]{\\frac{c^3 + d^3}{2}} \\leqslant \\frac{a^2 + b^2}{a + b}$",
+  "solution_md": "首先证明\n\n$\\sqrt[3]{\\frac{a^3 + b^3}{2}} \\leqslant \\frac{a^2 + b^2}{a + b}$\n\n事实上, 上面的不等式等价于\n\n$(a + b)^3(a^3 + b^3) \\leqslant 2(a^2 + b^2)^3 \\Leftrightarrow (a - b)^4(a^2 + ab + b^2) \\geqslant 0$\n\n回到原问题, 我们只需证明\n\n$\\sum\\frac{a^2 + b^2}{a + b} \\leqslant 2(a + b + c + d) - 4$\n\n由 Cauchy-Schwarz 不等式, 并注意条件 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} = 1$, 则\n\n$\\sum\\frac{a^2 + b^2}{a + b} \\leqslant \\sum\\left(a + b - \\frac{ab}{a + b}\\right) \\geqslant 4$\n\n$\\Rightarrow \\sum\\frac{1}{a} + \\frac{1}{b} \\geqslant 2$\n\n不等式得证.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.10(Romania TST 1998) 设 $a, b, c$ 是正实数, 证明\n\n$\\sqrt[3]{\\frac{a^3 + b^3}{2}} + \\sqrt[3]{\\frac{b^3 + c^3}{2}} + \\sqrt[3]{\\frac{c^3 + d^3}{2}} \\leqslant \\frac{a^2 + b^2}{a + b}$\n\n证明 首先证明\n\n$\\sqrt[3]{\\frac{a^3 + b^3}{2}} \\leqslant \\frac{a^2 + b^2}{a + b}$\n\n事实上, 上面的不等式等价于\n\n$(a + b)^3(a^3 + b^3) \\leqslant 2(a^2 + b^2)^3 \\Leftrightarrow (a - b)^4(a^2 + ab + b^2) \\geqslant 0$\n\n回到原问题, 我们只需证明\n\n$\\sum\\frac{a^2 + b^2}{a + b} \\leqslant 2(a + b + c + d) - 4$\n\n由 Cauchy-Schwarz 不等式, 并注意条件 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} = 1$, 则\n\n$\\sum\\frac{a^2 + b^2}{a + b} \\leqslant \\sum\\left(a + b - \\frac{ab}{a + b}\\right) \\geqslant 4$\n\n$\\Rightarrow \\sum\\frac{1}{a} + \\frac{1}{b} \\geqslant 2$\n\n不等式得证.",
+  "tags": [
+    "不等式",
+    "Cauchy-Schwarz不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

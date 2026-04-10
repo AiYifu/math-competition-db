@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_24_69a5a11f7c",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "24",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "在 $\\triangle ABC$ 中, 三条边长分别为 $a$、$b$、$c$, 且 $a$、$b$、$c$ 为有理数, 求证: $\\left(1+\\frac{b-c}{a}\\right)^{a}\\left(1+\\frac{c-a}{b}\\right)^{b}\\left(1+\\frac{a-b}{c}\\right)^{c} \\leqslant 1$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "在 $\\triangle ABC$ 中, 三条边长分别为 $a$、$b$、$c$, 且 $a$、$b$、$c$ 为有理数, 求证: $\\left(1+\\frac{b-c}{a}\\right)^{a}\\left(1+\\frac{c-a}{b}\\right)^{b}\\left(1+\\frac{a-b}{c}\\right)^{c} \\leqslant 1$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

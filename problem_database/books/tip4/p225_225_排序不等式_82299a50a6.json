@@ -1,0 +1,23 @@
+{
+  "uid": "p225_225_排序不等式_82299a50a6",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "排序不等式",
+  "problem_type": "theorem",
+  "title": "排序不等式",
+  "source_pages": [
+    225
+  ],
+  "stem_md": "设两个实数组 $a_1, a_2, \\cdots, a_n$ 和 $b_1, b_2, \\cdots, b_n$, 满足 $a_1 \\leq a_2 \\leq \\cdots \\leq a_n$; $b_1 \\leq b_2 \\leq \\cdots \\leq b_n$.\n则\n$a_1 b_1 + a_2 b_2 + \\cdots + a_n b_n$ (同序乘积之和)\n$\\geq a_1 b_{j_1} + a_2 b_{j_2} + \\cdots + a_n b_{j_n}$ (乱序乘积之和)\n$\\geq a_1 b_n + a_2 b_{n-1} + \\cdots + a_n b_1$ (反序乘积之和),\n其中 $j_1, j_2, \\cdots, j_n$ 是 $1, 2, \\cdots, n$ 的一个排列.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "排序不等式 设两个实数组 $a_1, a_2, \\cdots, a_n$ 和 $b_1, b_2, \\cdots, b_n$, 满足 $a_1 \\leq a_2 \\leq \\cdots \\leq a_n$; $b_1 \\leq b_2 \\leq \\cdots \\leq b_n$.\n则\n$a_1 b_1 + a_2 b_2 + \\cdots + a_n b_n$ (同序乘积之和)\n$\\geq a_1 b_{j_1} + a_2 b_{j_2} + \\cdots + a_n b_{j_n}$ (乱序乘积之和)\n$\\geq a_1 b_n + a_2 b_{n-1} + \\cdots + a_n b_1$ (反序乘积之和),\n其中 $j_1, j_2, \\cdots, j_n$ 是 $1, 2, \\cdots, n$ 的一个排列.",
+  "tags": [
+    "排序不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

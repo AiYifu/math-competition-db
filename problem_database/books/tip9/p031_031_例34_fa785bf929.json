@@ -1,0 +1,24 @@
+{
+  "uid": "p031_031_例34_fa785bf929",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例34",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    31
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 求证:\n$$\\frac{a + b}{b + c} + \\frac{b + c}{c + a} + \\frac{c + a}{a + b} \\geqslant \\frac{3(a + b + c)^2}{ab + bc + ca}.$$",
+  "solution_md": "证明 原不等式等价于\n$$\\frac{(a + b)(a(b + c) + bc)}{b + c} + \\frac{(b + c)(b(c + a) + ca)}{c + a} + \\frac{(c + a)(c(a + b) + ab)}{a + b}$$\n$$\\geqslant (a + b + c)^2,$$\n即\n$$\\frac{bc(a + b)}{b + c} + \\frac{ca(b + c)}{c + a} + \\frac{ab(c + a)}{a + b} \\leqslant ab + bc + ca.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是正实数, 求证:\n$$\\frac{a + b}{b + c} + \\frac{b + c}{c + a} + \\frac{c + a}{a + b} \\geqslant \\frac{3(a + b + c)^2}{ab + bc + ca}.$$",
+  "tags": [
+    "不等式",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

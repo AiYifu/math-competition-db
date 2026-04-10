@@ -1,0 +1,56 @@
+{
+  "uid": "p177_178_例_539_776bc3fe20",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.9",
+  "problem_type": "example",
+  "title": "Pham Thanh Nam, CPR",
+  "source_pages": [
+    177,
+    178
+  ],
+  "source_images": [
+    "page-177.jpg",
+    "page-178.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是满足条件 $ab+bc+ca\\geqslant 3$ 的三个实数，$k$ 取何值时，下列不等式\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant(k+1)^3$$\n总是成立？",
+  "solution_md": "显然，当 $k<0$ 时，不等式不成立。因为 $k<0$ 时，我们只要取 $c=0,a$ 和 $b$ 充分的大。\n\n下面，我们只考虑不等式在 $k\\geqslant 0$ 的情况。考虑下列恒等式\n$$(a^2+k)(b^2+k)(c^2+k)=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2$$\n所以，当 $k=\\frac{1}{3}$ 时，有\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant k(ab+bc+ca-k)^2\\geqslant k(3-k)^2=(k+1)^3$$\n即，当 $k=\\frac{1}{3}$ 时，不等式成立。\n\n由 Hölder 不等式，我们推出，如果不等式对 $k\\geqslant 0$ 成立，那么对于 $k'\\geqslant k$ 也成立。因为\n$$\\begin{aligned}&(a^2+k')(b^2+k')(c^2+k')\\\\=&[a^2+k+(k'-k)][b^2+k+(k'-k)][c^2+k+(k'-k)]\\\\\\geqslant&(\\sqrt[3]{(a^2+k)(b^2+k)(c^2+k)}+k'-k)^3\\geqslant(1+k')^3\\end{aligned}$$\n如果 $k<\\frac{1}{3}$，我们来证明不等式不成立。取\n$$ab+bc+ca=3,k(a+b+c)-abc=0$$\n或取 $a=1,b+c=3-\\frac{4k}{k+1},bc=\\frac{4k}{k+1}$，此时，我们有\n$$\\begin{aligned}(a^2+k)(b^2+k)(c^2+k)&=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2\\\\&=0+k(3-k)^2\\\\&=(1+k)^3-(3k-1)^2\\\\&<(1+k)^3\\end{aligned}$$\n所以，$k$ 的取值应为 $\\left[\\frac{1}{3},+\\infty\\right)$。",
+  "answer_md": "$k\\in\\left[\\frac{1}{3},+\\infty\\right)$",
+  "hints_md": "",
+  "original_text_md": "例 5.3.9(Pham Thanh Nam, CPR) 设 $a,b,c$ 是满足条件 $ab+bc+ca\\geqslant 3$ 的三个实数，$k$ 取何值时，下列不等式\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant(k+1)^3$$\n总是成立？\n解 显然，当 $k<0$ 时，不等式不成立。因为 $k<0$ 时，我们只要取 $c=0,a$ 和 $b$ 充分的大。\n下面，我们只考虑不等式在 $k\\geqslant 0$ 的情况。考虑下列恒等式\n$$(a^2+k)(b^2+k)(c^2+k)=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2$$\n所以，当 $k=\\frac{1}{3}$ 时，有\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant k(ab+bc+ca-k)^2\\geqslant k(3-k)^2=(k+1)^3$$\n即，当 $k=\\frac{1}{3}$ 时，不等式成立。\n由 Hölder 不等式，我们推出，如果不等式对 $k\\geqslant 0$ 成立，那么对于 $k'\\geqslant k$ 也成立。因为\n$$(a^2+k')(b^2+k')(c^2+k')$$\n$$=[a^2+k+(k'-k)][b^2+k+(k'-k)][c^2+k+(k'-k)]$$\n$$\\geqslant(\\sqrt[3]{(a^2+k)(b^2+k)(c^2+k)}+k'-k)^3\\geqslant(1+k')^3$$\n如果 $k<\\frac{1}{3}$，我们来证明不等式不成立。取\n$$ab+bc+ca=3,k(a+b+c)-abc=0$$\n或取 $a=1,b+c=3-\\frac{4k}{k+1},bc=\\frac{4k}{k+1}$，此时，我们有\n$$(a^2+k)(b^2+k)(c^2+k)=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2$$\n$$=0+k(3-k)^2$$\n$$=(1+k)^3-(3k-1)^2$$\n$$<(1+k)^3$$\n所以，$k$ 的取值应为 $\\left[\\frac{1}{3},+\\infty\\right)$。",
+  "tags": [
+    "参数范围",
+    "Hölder不等式",
+    "恒等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "776bc3fe20b7ff0029d39e66bade28574c9b3573",
+  "raw_problem": {
+    "problem_id": "例 5.3.9",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Pham Thanh Nam, CPR",
+    "source_pages": [
+      177,
+      178
+    ],
+    "stem_md": "设 $a,b,c$ 是满足条件 $ab+bc+ca\\geqslant 3$ 的三个实数，$k$ 取何值时，下列不等式\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant(k+1)^3$$\n总是成立？",
+    "solution_md": "显然，当 $k<0$ 时，不等式不成立。因为 $k<0$ 时，我们只要取 $c=0,a$ 和 $b$ 充分的大。\n\n下面，我们只考虑不等式在 $k\\geqslant 0$ 的情况。考虑下列恒等式\n$$(a^2+k)(b^2+k)(c^2+k)=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2$$\n所以，当 $k=\\frac{1}{3}$ 时，有\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant k(ab+bc+ca-k)^2\\geqslant k(3-k)^2=(k+1)^3$$\n即，当 $k=\\frac{1}{3}$ 时，不等式成立。\n\n由 Hölder 不等式，我们推出，如果不等式对 $k\\geqslant 0$ 成立，那么对于 $k'\\geqslant k$ 也成立。因为\n$$\\begin{aligned}&(a^2+k')(b^2+k')(c^2+k')\\\\=&[a^2+k+(k'-k)][b^2+k+(k'-k)][c^2+k+(k'-k)]\\\\\\geqslant&(\\sqrt[3]{(a^2+k)(b^2+k)(c^2+k)}+k'-k)^3\\geqslant(1+k')^3\\end{aligned}$$\n如果 $k<\\frac{1}{3}$，我们来证明不等式不成立。取\n$$ab+bc+ca=3,k(a+b+c)-abc=0$$\n或取 $a=1,b+c=3-\\frac{4k}{k+1},bc=\\frac{4k}{k+1}$，此时，我们有\n$$\\begin{aligned}(a^2+k)(b^2+k)(c^2+k)&=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2\\\\&=0+k(3-k)^2\\\\&=(1+k)^3-(3k-1)^2\\\\&<(1+k)^3\\end{aligned}$$\n所以，$k$ 的取值应为 $\\left[\\frac{1}{3},+\\infty\\right)$。",
+    "answer_md": "$k\\in\\left[\\frac{1}{3},+\\infty\\right)$",
+    "hints_md": "",
+    "original_text_md": "例 5.3.9(Pham Thanh Nam, CPR) 设 $a,b,c$ 是满足条件 $ab+bc+ca\\geqslant 3$ 的三个实数，$k$ 取何值时，下列不等式\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant(k+1)^3$$\n总是成立？\n解 显然，当 $k<0$ 时，不等式不成立。因为 $k<0$ 时，我们只要取 $c=0,a$ 和 $b$ 充分的大。\n下面，我们只考虑不等式在 $k\\geqslant 0$ 的情况。考虑下列恒等式\n$$(a^2+k)(b^2+k)(c^2+k)=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2$$\n所以，当 $k=\\frac{1}{3}$ 时，有\n$$(a^2+k)(b^2+k)(c^2+k)\\geqslant k(ab+bc+ca-k)^2\\geqslant k(3-k)^2=(k+1)^3$$\n即，当 $k=\\frac{1}{3}$ 时，不等式成立。\n由 Hölder 不等式，我们推出，如果不等式对 $k\\geqslant 0$ 成立，那么对于 $k'\\geqslant k$ 也成立。因为\n$$(a^2+k')(b^2+k')(c^2+k')$$\n$$=[a^2+k+(k'-k)][b^2+k+(k'-k)][c^2+k+(k'-k)]$$\n$$\\geqslant(\\sqrt[3]{(a^2+k)(b^2+k)(c^2+k)}+k'-k)^3\\geqslant(1+k')^3$$\n如果 $k<\\frac{1}{3}$，我们来证明不等式不成立。取\n$$ab+bc+ca=3,k(a+b+c)-abc=0$$\n或取 $a=1,b+c=3-\\frac{4k}{k+1},bc=\\frac{4k}{k+1}$，此时，我们有\n$$(a^2+k)(b^2+k)(c^2+k)=[k(a+b+c)-abc]^2+k(ab+bc+ca-k)^2$$\n$$=0+k(3-k)^2$$\n$$=(1+k)^3-(3k-1)^2$$\n$$<(1+k)^3$$\n所以，$k$ 的取值应为 $\\left[\\frac{1}{3},+\\infty\\right)$。",
+    "tags": [
+      "参数范围",
+      "Hölder不等式",
+      "恒等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

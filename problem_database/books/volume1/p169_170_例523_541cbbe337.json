@@ -1,0 +1,58 @@
+{
+  "uid": "p169_170_例523_541cbbe337",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.2",
+  "problem_id": "例5.2.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    169,
+    170
+  ],
+  "source_images": [
+    "page-169.jpg",
+    "page-170.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，$k$ 是大于 1 的任意实数，证明\n$$\\frac{1}{a+b^k+c^k}+\\frac{1}{b+c^k+a^k}+\\frac{1}{c+a^k+b^k}\\leqslant1$$",
+  "solution_md": "设实数 $r$ 满足\n$$\\frac{1}{a+b^k+c^k}\\leqslant\\frac{a^{r-1}}{a^r+b^r+c^r}$$\n这个条件等价于\n$$a^r+b^r+c^r\\leqslant a^{r-1}(a+b^k+c^k)\\Leftrightarrow(b^r+c^r)(bc)^{r-1}\\leqslant b^k+c^k$$\n很明显，当我们令 $3r-2=k$，即 $r=\\frac{k+2}{3}$ 时，上面的不等式也是成立的。于是，有\n$$\\sum\\frac{1}{a+b^k+c^k}\\leqslant\\sum\\frac{a^{r-1}}{a^r+b^r+c^r}=\\frac{a^{r-1}+b^{r-1}+c^{r-1}}{a^r+b^r+c^r}$$\n由 AM-GM 不等式，有\n$$a+b+c\\geqslant3\\sqrt[3]{abc}=3$$\n接下来，由 Chebyshev 不等式，我们有\n$$3(a^r+b^r+c^r)\\geqslant(a+b+c)(a^{r-1}+b^{r-1}+c^{r-1})\\geqslant3(a^{r-1}+b^{r-1}+c^{r-1})$$\n$$\\Leftrightarrow a^r+b^r+c^r\\geqslant a^{r-1}+b^{r-1}+c^{r-1}$$\n因此，不等式得证，等号成立的条件是 $a=b=c=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.3(Hyun Soo Kim,Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，$k$ 是大于 1 的任意实数，证明\n$$\\frac{1}{a+b^k+c^k}+\\frac{1}{b+c^k+a^k}+\\frac{1}{c+a^k+b^k}\\leqslant1$$\n证明 设实数 $r$ 满足\n$$\\frac{1}{a+b^k+c^k}\\leqslant\\frac{a^{r-1}}{a^r+b^r+c^r}$$\n这个条件等价于\n$$a^r+b^r+c^r\\leqslant a^{r-1}(a+b^k+c^k)\\Leftrightarrow(b^r+c^r)(bc)^{r-1}\\leqslant b^k+c^k$$\n很明显，当我们令 $3r-2=k$，即 $r=\\frac{k+2}{3}$ 时，上面的不等式也是成立的。于是，有\n$$\\sum\\frac{1}{a+b^k+c^k}\\leqslant\\sum\\frac{a^{r-1}}{a^r+b^r+c^r}=\\frac{a^{r-1}+b^{r-1}+c^{r-1}}{a^r+b^r+c^r}$$\n由 AM-GM 不等式，有\n$$a+b+c\\geqslant3\\sqrt[3]{abc}=3$$\n接下来，由 Chebyshev 不等式，我们有\n$$3(a^r+b^r+c^r)\\geqslant(a+b+c)(a^{r-1}+b^{r-1}+c^{r-1})\\geqslant3(a^{r-1}+b^{r-1}+c^{r-1})$$\n$$\\Leftrightarrow a^r+b^r+c^r\\geqslant a^{r-1}+b^{r-1}+c^{r-1}$$\n因此，不等式得证，等号成立的条件是 $a=b=c=1$。",
+  "tags": [
+    "Chebyshev不等式",
+    "AM-GM不等式",
+    "分离技巧",
+    "条件abc=1"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "541cbbe337de010e53b0fd878563ef5f26f327d8",
+  "raw_problem": {
+    "problem_id": "例5.2.3",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.2",
+    "title": null,
+    "source_pages": [
+      169,
+      170
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $abc=1$，$k$ 是大于 1 的任意实数，证明\n$$\\frac{1}{a+b^k+c^k}+\\frac{1}{b+c^k+a^k}+\\frac{1}{c+a^k+b^k}\\leqslant1$$",
+    "solution_md": "设实数 $r$ 满足\n$$\\frac{1}{a+b^k+c^k}\\leqslant\\frac{a^{r-1}}{a^r+b^r+c^r}$$\n这个条件等价于\n$$a^r+b^r+c^r\\leqslant a^{r-1}(a+b^k+c^k)\\Leftrightarrow(b^r+c^r)(bc)^{r-1}\\leqslant b^k+c^k$$\n很明显，当我们令 $3r-2=k$，即 $r=\\frac{k+2}{3}$ 时，上面的不等式也是成立的。于是，有\n$$\\sum\\frac{1}{a+b^k+c^k}\\leqslant\\sum\\frac{a^{r-1}}{a^r+b^r+c^r}=\\frac{a^{r-1}+b^{r-1}+c^{r-1}}{a^r+b^r+c^r}$$\n由 AM-GM 不等式，有\n$$a+b+c\\geqslant3\\sqrt[3]{abc}=3$$\n接下来，由 Chebyshev 不等式，我们有\n$$3(a^r+b^r+c^r)\\geqslant(a+b+c)(a^{r-1}+b^{r-1}+c^{r-1})\\geqslant3(a^{r-1}+b^{r-1}+c^{r-1})$$\n$$\\Leftrightarrow a^r+b^r+c^r\\geqslant a^{r-1}+b^{r-1}+c^{r-1}$$\n因此，不等式得证，等号成立的条件是 $a=b=c=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.2.3(Hyun Soo Kim,Mathlinks) 设 $a,b,c$ 是正实数，且满足 $abc=1$，$k$ 是大于 1 的任意实数，证明\n$$\\frac{1}{a+b^k+c^k}+\\frac{1}{b+c^k+a^k}+\\frac{1}{c+a^k+b^k}\\leqslant1$$\n证明 设实数 $r$ 满足\n$$\\frac{1}{a+b^k+c^k}\\leqslant\\frac{a^{r-1}}{a^r+b^r+c^r}$$\n这个条件等价于\n$$a^r+b^r+c^r\\leqslant a^{r-1}(a+b^k+c^k)\\Leftrightarrow(b^r+c^r)(bc)^{r-1}\\leqslant b^k+c^k$$\n很明显，当我们令 $3r-2=k$，即 $r=\\frac{k+2}{3}$ 时，上面的不等式也是成立的。于是，有\n$$\\sum\\frac{1}{a+b^k+c^k}\\leqslant\\sum\\frac{a^{r-1}}{a^r+b^r+c^r}=\\frac{a^{r-1}+b^{r-1}+c^{r-1}}{a^r+b^r+c^r}$$\n由 AM-GM 不等式，有\n$$a+b+c\\geqslant3\\sqrt[3]{abc}=3$$\n接下来，由 Chebyshev 不等式，我们有\n$$3(a^r+b^r+c^r)\\geqslant(a+b+c)(a^{r-1}+b^{r-1}+c^{r-1})\\geqslant3(a^{r-1}+b^{r-1}+c^{r-1})$$\n$$\\Leftrightarrow a^r+b^r+c^r\\geqslant a^{r-1}+b^{r-1}+c^{r-1}$$\n因此，不等式得证，等号成立的条件是 $a=b=c=1$。",
+    "tags": [
+      "Chebyshev不等式",
+      "AM-GM不等式",
+      "分离技巧",
+      "条件abc=1"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "uid": "p180_180_例_5315_e602b65bbb",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.15",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    180
+  ],
+  "source_images": [
+    "page-180.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=abc+bcd+cda+dab$，证明\n$$a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}$$",
+  "solution_md": "题设条件变形如下\n$$\\begin{aligned}&a^3+a^2(b+c+d)+a(bc+cd+da)+bcd\\\\=&a^2(a+b+c+d)+(a+b+c+d)\\\\\\Rightarrow&(a+b)(a+c)(a+d)=(a^2+1)(a+b+c+d)\\\\\\Rightarrow&\\frac{a^2+1}{a+b}=\\frac{(a+c)(a+d)}{a+b+c+d}\\end{aligned}$$\n所以，我们有\n$$\\sum\\frac{a^2+1}{a+b}=\\sum\\frac{(a+c)(a+d)}{a+b+c+d}=a+b+c+d$$\n由 Cauchy-Schwarz 不等式，有\n$$\\begin{aligned}&a+b+c+d=\\sum\\frac{a^2+1}{a+b}\\geqslant\\frac{\\left(\\sum\\sqrt{a^2+1}\\right)^2}{2(a+b+c+d)}\\\\\\Leftrightarrow& a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.15 设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=abc+bcd+cda+dab$，证明\n$$a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}$$\n证明 题设条件变形如下\n$$a^3+a^2(b+c+d)+a(bc+cd+da)+bcd$$\n$$=a^2(a+b+c+d)+(a+b+c+d)$$\n$$\\Rightarrow(a+b)(a+c)(a+d)=(a^2+1)(a+b+c+d)$$\n$$\\Rightarrow\\frac{a^2+1}{a+b}=\\frac{(a+c)(a+d)}{a+b+c+d}$$\n所以，我们有\n$$\\sum\\frac{a^2+1}{a+b}=\\sum\\frac{(a+c)(a+d)}{a+b+c+d}=a+b+c+d$$\n由 Cauchy-Schwarz 不等式，有\n$$a+b+c+d=\\sum\\frac{a^2+1}{a+b}\\geqslant\\frac{\\left(\\sum\\sqrt{a^2+1}\\right)^2}{2(a+b+c+d)}$$\n$$\\Leftrightarrow a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$。",
+  "tags": [
+    "四元不等式",
+    "Cauchy-Schwarz",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "e602b65bbb5f53762b9f8f1ceabb03ff733b43a5",
+  "raw_problem": {
+    "problem_id": "例 5.3.15",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      180
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=abc+bcd+cda+dab$，证明\n$$a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}$$",
+    "solution_md": "题设条件变形如下\n$$\\begin{aligned}&a^3+a^2(b+c+d)+a(bc+cd+da)+bcd\\\\=&a^2(a+b+c+d)+(a+b+c+d)\\\\\\Rightarrow&(a+b)(a+c)(a+d)=(a^2+1)(a+b+c+d)\\\\\\Rightarrow&\\frac{a^2+1}{a+b}=\\frac{(a+c)(a+d)}{a+b+c+d}\\end{aligned}$$\n所以，我们有\n$$\\sum\\frac{a^2+1}{a+b}=\\sum\\frac{(a+c)(a+d)}{a+b+c+d}=a+b+c+d$$\n由 Cauchy-Schwarz 不等式，有\n$$\\begin{aligned}&a+b+c+d=\\sum\\frac{a^2+1}{a+b}\\geqslant\\frac{\\left(\\sum\\sqrt{a^2+1}\\right)^2}{2(a+b+c+d)}\\\\\\Leftrightarrow& a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.15 设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=abc+bcd+cda+dab$，证明\n$$a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}$$\n证明 题设条件变形如下\n$$a^3+a^2(b+c+d)+a(bc+cd+da)+bcd$$\n$$=a^2(a+b+c+d)+(a+b+c+d)$$\n$$\\Rightarrow(a+b)(a+c)(a+d)=(a^2+1)(a+b+c+d)$$\n$$\\Rightarrow\\frac{a^2+1}{a+b}=\\frac{(a+c)(a+d)}{a+b+c+d}$$\n所以，我们有\n$$\\sum\\frac{a^2+1}{a+b}=\\sum\\frac{(a+c)(a+d)}{a+b+c+d}=a+b+c+d$$\n由 Cauchy-Schwarz 不等式，有\n$$a+b+c+d=\\sum\\frac{a^2+1}{a+b}\\geqslant\\frac{\\left(\\sum\\sqrt{a^2+1}\\right)^2}{2(a+b+c+d)}$$\n$$\\Leftrightarrow a+b+c+d\\geqslant\\sqrt{\\frac{a^2+1}{2}}+\\sqrt{\\frac{b^2+1}{2}}+\\sqrt{\\frac{c^2+1}{2}}+\\sqrt{\\frac{d^2+1}{2}}$$\n不等式得证，等号成立的条件是 $a=b=c=d=1$。",
+    "tags": [
+      "四元不等式",
+      "Cauchy-Schwarz",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

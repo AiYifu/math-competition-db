@@ -1,0 +1,56 @@
+{
+  "uid": "p061_062_例212_d3e817f7ad",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第2章 整合变量法",
+  "section": "2.1 起步",
+  "problem_id": "例2.1.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    61,
+    62
+  ],
+  "source_images": [
+    "page-061.jpg",
+    "page-062.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2+b^2+c^2+abc\\geqslant 4$$",
+  "solution_md": "对这个不等式，虽然我们已有许多不同的证法（例如，你可以使用第一卷中介绍的初等对称多项式），请你开动脑筋想想整合变量法。在这个问题中，如何使用整合变量法？\n\n在 $a+b+c=3$ 条件下，我们尝试整合变量 $a$ 和 $b$，产生新的变量 $t=\\frac{a+b}{2}$，我们知道，变换 $(a,b)\\to(t,t)$ 是最好的选择。因为新的三元组 $(t,t,c)$，仍然保持题设条件 $t+t+c=a+b+c=3$，设\n$$f(a,b,c)=a^2+b^2+c^2+abc$$\n\n通常，我们考察函数 $f(a,b,c)$ 和 $f(t,t,c)$ 之间的差，并希望\n$$f(a,b,c)\\geqslant f(t,t,c)$$\n\n但事情会怎么样呢\n$$f(a,b,c)-f(t,t,c)=\\frac{(a-b)^2}{2}-\\frac{c(a-b)^2}{4}=\\left(\\frac{1}{2}-\\frac{c}{4}\\right)(a-b)^2$$\n\n差 $f(a,b,c)-f(t,t,c)$ 是非负的，当且仅当 $\\frac{1}{2}\\geqslant\\frac{c}{4}\\Leftrightarrow c\\leqslant 2$。但这并不总是成立（由于 $a+b+c=3$ 的限制，不能保证 $c\\leqslant 2$）。\n\n难道整合变量法失效了吗？不，不是的。如果 $c\\geqslant 2$，则不等式显然成立，因为\n$$f(a,b,c)=a^2+b^2+c^2+abc\\geqslant c^2\\geqslant 4$$\n\n否则，如果 $c\\leqslant 2$，则\n$$f(a,b,c)\\geqslant f(t,t,c)$$\n\n即\n$$2t^2+c^2+t^2c\\geqslant 4$$\n\n由于 $a+b+c=3\\Rightarrow c=3-2t$，所以，我们只需证明\n$$2t^2+(3-2t)^2+t^2(3-2t)\\geqslant 4\\Leftrightarrow (t-1)^2(5-2t)\\geqslant 0$$\n\n这是显然成立的，因为 $t\\leqslant\\frac{3}{2}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.1.2 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2+b^2+c^2+abc\\geqslant 4$$\n\n证明及分析 对这个不等式，虽然我们已有许多不同的证法...\n\n在 $a+b+c=3$ 条件下，我们尝试整合变量 $a$ 和 $b$...\n\n难道整合变量法失效了吗？不，不是的...\n\n否则，如果 $c\\leqslant 2$...\n\n由于 $a+b+c=3\\Rightarrow c=3-2t$...",
+  "tags": [
+    "整合变量法",
+    "条件不等式",
+    "分类讨论"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "d3e817f7ad6a333f61acaa92223e0fc49d6bf9cc",
+  "raw_problem": {
+    "problem_id": "例2.1.2",
+    "problem_type": "example",
+    "chapter": "第2章 整合变量法",
+    "section": "2.1 起步",
+    "title": null,
+    "source_pages": [
+      61,
+      62
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2+b^2+c^2+abc\\geqslant 4$$",
+    "solution_md": "对这个不等式，虽然我们已有许多不同的证法（例如，你可以使用第一卷中介绍的初等对称多项式），请你开动脑筋想想整合变量法。在这个问题中，如何使用整合变量法？\n\n在 $a+b+c=3$ 条件下，我们尝试整合变量 $a$ 和 $b$，产生新的变量 $t=\\frac{a+b}{2}$，我们知道，变换 $(a,b)\\to(t,t)$ 是最好的选择。因为新的三元组 $(t,t,c)$，仍然保持题设条件 $t+t+c=a+b+c=3$，设\n$$f(a,b,c)=a^2+b^2+c^2+abc$$\n\n通常，我们考察函数 $f(a,b,c)$ 和 $f(t,t,c)$ 之间的差，并希望\n$$f(a,b,c)\\geqslant f(t,t,c)$$\n\n但事情会怎么样呢\n$$f(a,b,c)-f(t,t,c)=\\frac{(a-b)^2}{2}-\\frac{c(a-b)^2}{4}=\\left(\\frac{1}{2}-\\frac{c}{4}\\right)(a-b)^2$$\n\n差 $f(a,b,c)-f(t,t,c)$ 是非负的，当且仅当 $\\frac{1}{2}\\geqslant\\frac{c}{4}\\Leftrightarrow c\\leqslant 2$。但这并不总是成立（由于 $a+b+c=3$ 的限制，不能保证 $c\\leqslant 2$）。\n\n难道整合变量法失效了吗？不，不是的。如果 $c\\geqslant 2$，则不等式显然成立，因为\n$$f(a,b,c)=a^2+b^2+c^2+abc\\geqslant c^2\\geqslant 4$$\n\n否则，如果 $c\\leqslant 2$，则\n$$f(a,b,c)\\geqslant f(t,t,c)$$\n\n即\n$$2t^2+c^2+t^2c\\geqslant 4$$\n\n由于 $a+b+c=3\\Rightarrow c=3-2t$，所以，我们只需证明\n$$2t^2+(3-2t)^2+t^2(3-2t)\\geqslant 4\\Leftrightarrow (t-1)^2(5-2t)\\geqslant 0$$\n\n这是显然成立的，因为 $t\\leqslant\\frac{3}{2}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.1.2 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2+b^2+c^2+abc\\geqslant 4$$\n\n证明及分析 对这个不等式，虽然我们已有许多不同的证法...\n\n在 $a+b+c=3$ 条件下，我们尝试整合变量 $a$ 和 $b$...\n\n难道整合变量法失效了吗？不，不是的...\n\n否则，如果 $c\\leqslant 2$...\n\n由于 $a+b+c=3\\Rightarrow c=3-2t$...",
+    "tags": [
+      "整合变量法",
+      "条件不等式",
+      "分类讨论"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

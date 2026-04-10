@@ -1,0 +1,21 @@
+{
+  "uid": "p113_113_5_62c1f95634",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "习题 7",
+  "section": null,
+  "problem_id": "5",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    113
+  ],
+  "stem_md": "已知正实数 $x 、 y 、 z$ 满足 $x + y + z = 1$, 求证: $$\\frac{3x^2 - x}{1 + x^2} + \\frac{3y^2 - y}{1 + y^2} + \\frac{3z^2 - z}{1 + z^2} \\geqslant 0.$$ (2003 年湖南省高中数学竞赛)",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "已知正实数 $x 、 y 、 z$ 满足 $x + y + z = 1$, 求证: $$\\frac{3x^2 - x}{1 + x^2} + \\frac{3y^2 - y}{1 + y^2} + \\frac{3z^2 - z}{1 + z^2} \\geqslant 0.$$ (2003 年湖南省高中数学竞赛)",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015"
+}

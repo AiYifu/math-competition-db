@@ -1,0 +1,21 @@
+{
+  "uid": "p193_193_21_5eac91b1e3",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193
+  ],
+  "stem_md": "不妨设 $a_{1}\\geqslant a_{2}\\geqslant\\cdots\\geqslant a_{n}$, 则 $a_{i}-a_{j}\\geqslant(i-j)m$. $\\sum_{1\\leqslant i<j\\leqslant n}(a_{i}-a_{j})^{2}\\geqslant m^{2}\\sum_{1\\leqslant i<j\\leqslant n}(i-j)^{2}=m^{2}\\sum_{k=1}^{n-1}(n-k)k^{2}=\\frac{m^{2}n^{2}(n^{2}-1)}{12}$. 所以 $n\\geqslant\\frac{m^{2}n^{2}(n^{2}-1)}{12}$, 即 $m\\leqslant\\sqrt{\\frac{12}{n(n^{2}-1)}}$. 且当 $|a_{i}|$ 成等差数列, $\\sum_{i=1}^{n}a_{i}=0$ 时等号成立. 故 $m$ 的最大值为 $\\sqrt{\\frac{12}{n(n^{2}-1)}}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "21. 不妨设 $a_{1}\\geqslant a_{2}\\geqslant\\cdots\\geqslant a_{n}$, 则 $a_{i}-a_{j}\\geqslant(i-j)m$. $\\sum_{1\\leqslant i<j\\leqslant n}(a_{i}-a_{j})^{2}\\geqslant m^{2}\\sum_{1\\leqslant i<j\\leqslant n}(i-j)^{2}=m^{2}\\sum_{k=1}^{n-1}(n-k)k^{2}=\\frac{m^{2}n^{2}(n^{2}-1)}{12}$. 所以 $n\\geqslant\\frac{m^{2}n^{2}(n^{2}-1)}{12}$, 即 $m\\leqslant\\sqrt{\\frac{12}{n(n^{2}-1)}}$. 且当 $|a_{i}|$ 成等差数列, $\\sum_{i=1}^{n}a_{i}=0$ 时等号成立. 故 $m$ 的最大值为 $\\sqrt{\\frac{12}{n(n^{2}-1)}}$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0025"
+}

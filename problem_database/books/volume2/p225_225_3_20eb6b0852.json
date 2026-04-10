@@ -1,0 +1,21 @@
+{
+  "uid": "p225_225_3_20eb6b0852",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    225
+  ],
+  "stem_md": "3. (Nguyen Van Thach, CPR) 设 $a, b, c$ 是正实数, 对于 $k \\leqslant 1$, 证明\n$$\n\\frac{(a+b+c)^2}{ab+bc+ca} \\geqslant \\frac{a+kc}{a+kb} + \\frac{b+ak}{b+kc} + \\frac{c+kb}{c+ak}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3. (Nguyen Van Thach, CPR) 设 $a, b, c$ 是正实数, 对于 $k \\leqslant 1$, 证明\n$$\n\\frac{(a+b+c)^2}{ab+bc+ca} \\geqslant \\frac{a+kc}{a+kb} + \\frac{b+ak}{b+kc} + \\frac{c+kb}{c+ak}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

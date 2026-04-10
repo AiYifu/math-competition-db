@@ -1,0 +1,25 @@
+{
+  "uid": "p195_195_例7_3_2_125a6b48e6",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7",
+  "section": "3",
+  "problem_id": "例7.3.2",
+  "problem_type": "example",
+  "title": "Dinh Ngoc An, CPR",
+  "source_pages": [
+    195
+  ],
+  "stem_md": "求最好的正实常数 $k=k_m$, 对所有非负实数 $x_1,x_2,\\cdots,x_n$, 且满足 $x_1+x_2+\\cdots+x_n=n$, 下列不等式\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_n) \\leqslant (m+1)^n + k_m(x_1x_2\\cdots x_n-1)$$成立, 当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 对所有的 $n \\in \\mathbf{N}$, 有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1+\\frac{1}{n-1}\\right)^{n-1} < e$$",
+  "solution_md": "设 $a,b,c,d$ 是非负实数, 且满足 $a+b+c+d=4$, 则\n$$\\begin{aligned}f(a,b,c,d)-f(m,0,c,d) &= 24(c^2+d^2)a^2b^2 - (c+d)(a+b-\\sqrt{2(a^2+b^2)}) - ab\\\\&= ab\\left[24(c^2+d^2)ab - \\frac{2(c+d)}{a+b+\\sqrt{2(a^2+b^2)}} - 1\\right]\\end{aligned}$$\n根据 UMV 定理, 我们得到\n$$\\begin{aligned}M+N &= -24(c^2+d^2)(a^2+b^2) + \\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}(a+b) - 2\\\\&= (ab)^k + (bc)^k + (cd)^k + (da)^k + (ac)^k + (bd)^k \\leqslant \\max\\left\\{6,2^{2k},3\\left(\\frac{4}{3}\\right)^{2k}\\right\\}\\end{aligned}$$\n所以, $M$ 或 $N$ 中必定有一个非正. 换句话说\n$$f(a,b,c,d) \\leqslant \\max\\{f(m,0,c,d),f(n,n,c,d)\\}$$\n根据 UMV 定理, 函数 $f$ 当且仅当 $x_1=x_2=\\cdots=x_n$ 时, 由 AM-GM 不等式, 很容易得到不等式 $f \\leqslant 0$, 当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 最好(最大值) 可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 对所有的 $n \\in \\mathbf{N}$, 有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1+\\frac{1}{n-1}\\right)^{n-1} < e$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.3.2(Dinh Ngoc An, CPR) 求最好的正实常数 $k=k_m$, 对所有非负实数 $x_1,x_2,\\cdots,x_n$, 且满足 $x_1+x_2+\\cdots+x_n=n$, 下列不等式\n$$(1+mx_1)(1+mx_2)\\cdots(1+mx_n) \\leqslant (m+1)^n + k_m(x_1x_2\\cdots x_n-1)$$成立, 当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 对所有的 $n \\in \\mathbf{N}$, 有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1+\\frac{1}{n-1}\\right)^{n-1} < e$$\n设 $a,b,c,d$ 是非负实数, 且满足 $a+b+c+d=4$, 则\n$$\\begin{aligned}f(a,b,c,d)-f(m,0,c,d) &= 24(c^2+d^2)a^2b^2 - (c+d)(a+b-\\sqrt{2(a^2+b^2)}) - ab\\\\&= ab\\left[24(c^2+d^2)ab - \\frac{2(c+d)}{a+b+\\sqrt{2(a^2+b^2)}} - 1\\right]\\end{aligned}$$\n根据 UMV 定理, 我们得到\n$$\\begin{aligned}M+N &= -24(c^2+d^2)(a^2+b^2) + \\frac{4(c+d)}{a+b+\\sqrt{2(a^2+b^2)}}(a+b) - 2\\\\&= (ab)^k + (bc)^k + (cd)^k + (da)^k + (ac)^k + (bd)^k \\leqslant \\max\\left\\{6,2^{2k},3\\left(\\frac{4}{3}\\right)^{2k}\\right\\}\\end{aligned}$$\n所以, $M$ 或 $N$ 中必定有一个非正. 换句话说\n$$f(a,b,c,d) \\leqslant \\max\\{f(m,0,c,d),f(n,n,c,d)\\}$$\n根据 UMV 定理, 函数 $f$ 当且仅当 $x_1=x_2=\\cdots=x_n$ 时, 由 AM-GM 不等式, 很容易得到不等式 $f \\leqslant 0$, 当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 最好(最大值) 可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 对所有的 $n \\in \\mathbf{N}$, 有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1+\\frac{1}{n-1}\\right)^{n-1} < e$$",
+  "tags": [
+    "UMV定理",
+    "不等式证明",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

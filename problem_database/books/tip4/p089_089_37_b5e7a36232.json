@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_37_b5e7a36232",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "37",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "设 $a$、$b$、$c > 0$, $abc = 1$. $n \\geqslant 2$, $n \\in \\mathbf{Z}$. 求证: $\\frac{a}{\\sqrt[n]{b+c}} + \\frac{b}{\\sqrt[n]{c+a}} + \\frac{c}{\\sqrt[n]{a+b}} \\geqslant \\frac{3}{\\sqrt[n]{2}}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a$、$b$、$c > 0$, $abc = 1$. $n \\geqslant 2$, $n \\in \\mathbf{Z}$. 求证: $\\frac{a}{\\sqrt[n]{b+c}} + \\frac{b}{\\sqrt[n]{c+a}} + \\frac{c}{\\sqrt[n]{a+b}} \\geqslant \\frac{3}{\\sqrt[n]{2}}$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

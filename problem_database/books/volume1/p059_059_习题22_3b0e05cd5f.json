@@ -1,0 +1,49 @@
+{
+  "uid": "p059_059_习题22_3b0e05cd5f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题22",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    59
+  ],
+  "source_images": [
+    "page-059.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 给定三个任意正实数 $a,b,c$，证明\n$$\\left(a+\\frac{b^2}{c}\\right)^2+\\left(b+\\frac{c^2}{a}\\right)^2+\\left(c+\\frac{a^2}{b}\\right)^2\\geqslant\\frac{12(a^3+b^3+c^3)}{a+b+c}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "22.(Pham Kim Hung, Mathlinks) 给定三个任意正实数 $a,b,c$，证明\n$$\\left(a+\\frac{b^2}{c}\\right)^2+\\left(b+\\frac{c^2}{a}\\right)^2+\\left(c+\\frac{a^2}{b}\\right)^2\\geqslant\\frac{12(a^3+b^3+c^3)}{a+b+c}$$",
+  "tags": [
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "3b0e05cd5f4848d620675ad7e6ca54a3de1539cd",
+  "raw_problem": {
+    "problem_id": "习题22",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      59
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 给定三个任意正实数 $a,b,c$，证明\n$$\\left(a+\\frac{b^2}{c}\\right)^2+\\left(b+\\frac{c^2}{a}\\right)^2+\\left(c+\\frac{a^2}{b}\\right)^2\\geqslant\\frac{12(a^3+b^3+c^3)}{a+b+c}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "22.(Pham Kim Hung, Mathlinks) 给定三个任意正实数 $a,b,c$，证明\n$$\\left(a+\\frac{b^2}{c}\\right)^2+\\left(b+\\frac{c^2}{a}\\right)^2+\\left(c+\\frac{a^2}{b}\\right)^2\\geqslant\\frac{12(a^3+b^3+c^3)}{a+b+c}$$",
+    "tags": [
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

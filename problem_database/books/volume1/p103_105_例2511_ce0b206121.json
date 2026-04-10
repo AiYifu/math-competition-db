@@ -1,0 +1,59 @@
+{
+  "uid": "p103_105_例2511_ce0b206121",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.11",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    103,
+    104,
+    105
+  ],
+  "source_images": [
+    "page-103.jpg",
+    "page-104.jpg",
+    "page-105.jpg"
+  ],
+  "stem_md": "设 $a,b,c\\geqslant 0$，且 $ab+bc+ca=1$，又设 $p$ 是一个常数，满足 $p\\geqslant 1$，$x_0$ 是方程 $p^2x^3+(p-p^3)x^2+(1+2p-p^2)x-p=0$ 的唯一的正实根，证明\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$$",
+  "solution_md": "令 $k=\\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$，易见，$k\\leqslant \\frac{3\\sqrt{3}}{p+1}$，我们来证明\n$$\\sum\\frac{1}{pa+b}\\geqslant \\frac{k}{\\sqrt{ab+bc+ca}}$$\n$$\\Leftrightarrow \\sum(pa+b)(pb+c)\\sqrt{ab+bc+ca}\\geqslant k(p+1)\\prod(pa+b)$$\n上述不等式两边取全导数之后，我们来证明下面的不等式\n$$\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{2A}{\\sqrt{ab+bc+ca}}\\right]\\geqslant k(p+1)A\\quad(*)$$\n其中 $A=\\sum(pa+b)(pb+c)=p\\sum a^2+(1+p+p^2)\\sum bc$，显然有\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\geqslant (p+1)^2(ab+bc+ca)$$\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\leqslant \\frac{1}{3}(p+1)^2(a+b+c)^2$$\n所以，对不等式 $(*)$，有\n$$\\text{LHS}=\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{A}{\\sqrt{ab+bc+ca}}\\right]+\\frac{(a+b+c)A}{\\sqrt{ab+bc+ca}}$$\n$$\\geqslant 2(p+1)(a+b+c)\\sqrt{A}+\\sqrt{3}A\\geqslant 3\\sqrt{3}A\\geqslant k(p+1)A$$\n因此可见，$(*)$ 成立。接下来，只需在条件 $\\min\\{a,b,c\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $c=0$，则原不等式变成\n$$\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}\\geqslant \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\quad(ab=1)$$\n设 $\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}=\\frac{a}{pa^2+1}+\\frac{a}{p}+\\frac{1}{a}=f(a)$，则\n$$f'(a)=\\frac{1-pa^2}{(pa^2+1)}+\\frac{1}{p}-\\frac{1}{a^2}=0$$\n$$\\Leftrightarrow p^2a^6+(p-p^3)a^4+(1+p-2p^2)a^2-p=0$$\n不难证明，这个方程的确只有一个正实根 $a_0=\\sqrt{x_0}$。所以，$\\min f(a)=f(\\sqrt{x_0})$，从而，原不等式成立。",
+  "answer_md": "",
+  "hints_md": "注 1. 如果 $p=1$，则 $x_0=1$，我们得到一个众所周知的不等式。\n设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=1$，证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant \\frac{5}{2}$$\n2. 容易估计下列表达式\n$$p\\leqslant x_0\\leqslant p+\\frac{1}{2}\\Rightarrow \\sqrt{p}\\leqslant a_0\\leqslant \\sqrt{p+\\frac{1}{2}}$$\n$$\\Rightarrow \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\geqslant \\frac{\\sqrt{p}}{p^2+\\frac{1}{2}p+1}+\\frac{2}{\\sqrt{p}}=g(p)$$\n对于 $p\\geqslant 3$，有 $g(p)\\geqslant \\frac{3\\sqrt{3}}{p+1}$，所以，我们得到下列不等式。\n(1) 设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=3$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\frac{3}{p+1}$$\n这个不等式的一个直接推论是\n(2) 设 $a,b,c\\geqslant 0$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{(pa+b)^2}+\\frac{1}{(pb+c)^2}+\\frac{1}{(pc+a)^2}\\geqslant \\frac{9}{(p+1)^2(ab+bc+ca)}$$\n在下面的问题中，我们将证明这个不等式对于 $p\\geqslant 2$ 也成立。",
+  "original_text_md": "例 2.5.11 设 $a,b,c\\geqslant 0$，且 $ab+bc+ca=1$，又设 $p$ 是一个常数，满足 $p\\geqslant 1$，$x_0$ 是方程 $p^2x^3+(p-p^3)x^2+(1+2p-p^2)x-p=0$ 的唯一的正实根，证明\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$$\n证明 令 $k=\\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$，易见，$k\\leqslant \\frac{3\\sqrt{3}}{p+1}$，我们来证明\n$$\\sum\\frac{1}{pa+b}\\geqslant \\frac{k}{\\sqrt{ab+bc+ca}}$$\n$$\\Leftrightarrow \\sum(pa+b)(pb+c)\\sqrt{ab+bc+ca}\\geqslant k(p+1)\\prod(pa+b)$$\n上述不等式两边取全导数之后，我们来证明下面的不等式\n$$\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{2A}{\\sqrt{ab+bc+ca}}\\right]\\geqslant k(p+1)A\\quad(*)$$\n其中 $A=\\sum(pa+b)(pb+c)=p\\sum a^2+(1+p+p^2)\\sum bc$，显然有\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\geqslant (p+1)^2(ab+bc+ca)$$\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\leqslant \\frac{1}{3}(p+1)^2(a+b+c)^2$$\n所以，对不等式 $(*)$，有\n$$\\text{LHS}=\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{A}{\\sqrt{ab+bc+ca}}\\right]+\\frac{(a+b+c)A}{\\sqrt{ab+bc+ca}}$$\n$$\\geqslant 2(p+1)(a+b+c)\\sqrt{A}+\\sqrt{3}A\\geqslant 3\\sqrt{3}A\\geqslant k(p+1)A$$\n因此可见，$(*)$ 成立。接下来，只需在条件 $\\min\\{a,b,c\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $c=0$，则原不等式变成\n$$\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}\\geqslant \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\quad(ab=1)$$\n设 $\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}=\\frac{a}{pa^2+1}+\\frac{a}{p}+\\frac{1}{a}=f(a)$，则\n$$f'(a)=\\frac{1-pa^2}{(pa^2+1)}+\\frac{1}{p}-\\frac{1}{a^2}=0$$\n$$\\Leftrightarrow p^2a^6+(p-p^3)a^4+(1+p-2p^2)a^2-p=0$$\n不难证明，这个方程的确只有一个正实根 $a_0=\\sqrt{x_0}$。所以，$\\min f(a)=f(\\sqrt{x_0})$，从而，原不等式成立。\n注 1. 如果 $p=1$，则 $x_0=1$，我们得到一个众所周知的不等式。\n设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=1$，证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant \\frac{5}{2}$$\n2. 容易估计下列表达式\n$$p\\leqslant x_0\\leqslant p+\\frac{1}{2}\\Rightarrow \\sqrt{p}\\leqslant a_0\\leqslant \\sqrt{p+\\frac{1}{2}}$$\n$$\\Rightarrow \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\geqslant \\frac{\\sqrt{p}}{p^2+\\frac{1}{2}p+1}+\\frac{2}{\\sqrt{p}}=g(p)$$\n对于 $p\\geqslant 3$，有 $g(p)\\geqslant \\frac{3\\sqrt{3}}{p+1}$，所以，我们得到下列不等式。\n(1) 设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=3$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\frac{3}{p+1}$$\n这个不等式的一个直接推论是\n(2) 设 $a,b,c\\geqslant 0$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{(pa+b)^2}+\\frac{1}{(pb+c)^2}+\\frac{1}{(pc+a)^2}\\geqslant \\frac{9}{(p+1)^2(ab+bc+ca)}$$\n在下面的问题中，我们将证明这个不等式对于 $p\\geqslant 2$ 也成立。",
+  "tags": [
+    "全导数",
+    "条件极值",
+    "导数法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012",
+  "raw_response_file": "raw/chunk-0012.response.txt",
+  "raw_api_file": "raw/chunk-0012.api.json",
+  "fingerprint": "ce0b2061213e9d57d3aa7334c3a5fe0d1cf98b85",
+  "raw_problem": {
+    "problem_id": "例2.5.11",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      103,
+      104,
+      105
+    ],
+    "stem_md": "设 $a,b,c\\geqslant 0$，且 $ab+bc+ca=1$，又设 $p$ 是一个常数，满足 $p\\geqslant 1$，$x_0$ 是方程 $p^2x^3+(p-p^3)x^2+(1+2p-p^2)x-p=0$ 的唯一的正实根，证明\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$$",
+    "solution_md": "令 $k=\\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$，易见，$k\\leqslant \\frac{3\\sqrt{3}}{p+1}$，我们来证明\n$$\\sum\\frac{1}{pa+b}\\geqslant \\frac{k}{\\sqrt{ab+bc+ca}}$$\n$$\\Leftrightarrow \\sum(pa+b)(pb+c)\\sqrt{ab+bc+ca}\\geqslant k(p+1)\\prod(pa+b)$$\n上述不等式两边取全导数之后，我们来证明下面的不等式\n$$\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{2A}{\\sqrt{ab+bc+ca}}\\right]\\geqslant k(p+1)A\\quad(*)$$\n其中 $A=\\sum(pa+b)(pb+c)=p\\sum a^2+(1+p+p^2)\\sum bc$，显然有\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\geqslant (p+1)^2(ab+bc+ca)$$\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\leqslant \\frac{1}{3}(p+1)^2(a+b+c)^2$$\n所以，对不等式 $(*)$，有\n$$\\text{LHS}=\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{A}{\\sqrt{ab+bc+ca}}\\right]+\\frac{(a+b+c)A}{\\sqrt{ab+bc+ca}}$$\n$$\\geqslant 2(p+1)(a+b+c)\\sqrt{A}+\\sqrt{3}A\\geqslant 3\\sqrt{3}A\\geqslant k(p+1)A$$\n因此可见，$(*)$ 成立。接下来，只需在条件 $\\min\\{a,b,c\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $c=0$，则原不等式变成\n$$\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}\\geqslant \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\quad(ab=1)$$\n设 $\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}=\\frac{a}{pa^2+1}+\\frac{a}{p}+\\frac{1}{a}=f(a)$，则\n$$f'(a)=\\frac{1-pa^2}{(pa^2+1)}+\\frac{1}{p}-\\frac{1}{a^2}=0$$\n$$\\Leftrightarrow p^2a^6+(p-p^3)a^4+(1+p-2p^2)a^2-p=0$$\n不难证明，这个方程的确只有一个正实根 $a_0=\\sqrt{x_0}$。所以，$\\min f(a)=f(\\sqrt{x_0})$，从而，原不等式成立。",
+    "answer_md": "",
+    "hints_md": "注 1. 如果 $p=1$，则 $x_0=1$，我们得到一个众所周知的不等式。\n设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=1$，证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant \\frac{5}{2}$$\n2. 容易估计下列表达式\n$$p\\leqslant x_0\\leqslant p+\\frac{1}{2}\\Rightarrow \\sqrt{p}\\leqslant a_0\\leqslant \\sqrt{p+\\frac{1}{2}}$$\n$$\\Rightarrow \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\geqslant \\frac{\\sqrt{p}}{p^2+\\frac{1}{2}p+1}+\\frac{2}{\\sqrt{p}}=g(p)$$\n对于 $p\\geqslant 3$，有 $g(p)\\geqslant \\frac{3\\sqrt{3}}{p+1}$，所以，我们得到下列不等式。\n(1) 设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=3$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\frac{3}{p+1}$$\n这个不等式的一个直接推论是\n(2) 设 $a,b,c\\geqslant 0$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{(pa+b)^2}+\\frac{1}{(pb+c)^2}+\\frac{1}{(pc+a)^2}\\geqslant \\frac{9}{(p+1)^2(ab+bc+ca)}$$\n在下面的问题中，我们将证明这个不等式对于 $p\\geqslant 2$ 也成立。",
+    "original_text_md": "例 2.5.11 设 $a,b,c\\geqslant 0$，且 $ab+bc+ca=1$，又设 $p$ 是一个常数，满足 $p\\geqslant 1$，$x_0$ 是方程 $p^2x^3+(p-p^3)x^2+(1+2p-p^2)x-p=0$ 的唯一的正实根，证明\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$$\n证明 令 $k=\\min\\left\\{\\frac{3\\sqrt{3}}{p+1},\\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\right\\}$，易见，$k\\leqslant \\frac{3\\sqrt{3}}{p+1}$，我们来证明\n$$\\sum\\frac{1}{pa+b}\\geqslant \\frac{k}{\\sqrt{ab+bc+ca}}$$\n$$\\Leftrightarrow \\sum(pa+b)(pb+c)\\sqrt{ab+bc+ca}\\geqslant k(p+1)\\prod(pa+b)$$\n上述不等式两边取全导数之后，我们来证明下面的不等式\n$$\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{2A}{\\sqrt{ab+bc+ca}}\\right]\\geqslant k(p+1)A\\quad(*)$$\n其中 $A=\\sum(pa+b)(pb+c)=p\\sum a^2+(1+p+p^2)\\sum bc$，显然有\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\geqslant (p+1)^2(ab+bc+ca)$$\n$$A=p(a+b+c)^2+(p^2-p+1)(ab+bc+ca)\\leqslant \\frac{1}{3}(p+1)^2(a+b+c)^2$$\n所以，对不等式 $(*)$，有\n$$\\text{LHS}=\\sum a\\left[(p+1)^2\\sqrt{ab+bc+ca}+\\frac{A}{\\sqrt{ab+bc+ca}}\\right]+\\frac{(a+b+c)A}{\\sqrt{ab+bc+ca}}$$\n$$\\geqslant 2(p+1)(a+b+c)\\sqrt{A}+\\sqrt{3}A\\geqslant 3\\sqrt{3}A\\geqslant k(p+1)A$$\n因此可见，$(*)$ 成立。接下来，只需在条件 $\\min\\{a,b,c\\}=0$ 下，证明原不等式成立即可。不失一般性，设 $c=0$，则原不等式变成\n$$\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}\\geqslant \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\quad(ab=1)$$\n设 $\\frac{1}{pa+b}+\\frac{1}{pb}+\\frac{1}{a}=\\frac{a}{pa^2+1}+\\frac{a}{p}+\\frac{1}{a}=f(a)$，则\n$$f'(a)=\\frac{1-pa^2}{(pa^2+1)}+\\frac{1}{p}-\\frac{1}{a^2}=0$$\n$$\\Leftrightarrow p^2a^6+(p-p^3)a^4+(1+p-2p^2)a^2-p=0$$\n不难证明，这个方程的确只有一个正实根 $a_0=\\sqrt{x_0}$。所以，$\\min f(a)=f(\\sqrt{x_0})$，从而，原不等式成立。\n注 1. 如果 $p=1$，则 $x_0=1$，我们得到一个众所周知的不等式。\n设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=1$，证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant \\frac{5}{2}$$\n2. 容易估计下列表达式\n$$p\\leqslant x_0\\leqslant p+\\frac{1}{2}\\Rightarrow \\sqrt{p}\\leqslant a_0\\leqslant \\sqrt{p+\\frac{1}{2}}$$\n$$\\Rightarrow \\frac{\\sqrt{x_0}}{px_0+1}+\\frac{p+x_0}{p\\sqrt{x_0}}\\geqslant \\frac{\\sqrt{p}}{p^2+\\frac{1}{2}p+1}+\\frac{2}{\\sqrt{p}}=g(p)$$\n对于 $p\\geqslant 3$，有 $g(p)\\geqslant \\frac{3\\sqrt{3}}{p+1}$，所以，我们得到下列不等式。\n(1) 设 $a,b,c\\geqslant 0$ 且 $ab+bc+ca=3$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{pa+b}+\\frac{1}{pb+c}+\\frac{1}{pc+a}\\geqslant \\frac{3}{p+1}$$\n这个不等式的一个直接推论是\n(2) 设 $a,b,c\\geqslant 0$，对所有 $p\\geqslant 3$，则\n$$\\frac{1}{(pa+b)^2}+\\frac{1}{(pb+c)^2}+\\frac{1}{(pc+a)^2}\\geqslant \\frac{9}{(p+1)^2(ab+bc+ca)}$$\n在下面的问题中，我们将证明这个不等式对于 $p\\geqslant 2$ 也成立。",
+    "tags": [
+      "全导数",
+      "条件极值",
+      "导数法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

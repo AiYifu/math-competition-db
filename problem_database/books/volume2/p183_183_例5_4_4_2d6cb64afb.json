@@ -1,0 +1,24 @@
+{
+  "uid": "p183_183_例5_4_4_2d6cb64afb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "4",
+  "problem_id": "例5.4.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    183
+  ],
+  "stem_md": "对所有实数 $a, b, c$, 证明\n$2(1+abc)+\\sqrt{2(1+a^{2})(1+b^{2})(1+c^{2})} \\geqslant (1+a)(1+b)(1+c)$",
+  "solution_md": "令 $s=a+b+c, p=ab+bc+ca, q=abc$, 则不等式变成\n$2(1+q)+\\sqrt{2(1-2p+s^{2}+p^{2}+q^{2}-2sq)} \\geqslant 1+s+p+q$\n$\\Leftrightarrow 1-2p+s^{2}+p^{2}+q^{2}-2sq+2sp+2s+2pq-2q \\geqslant 0$\n$\\Leftrightarrow (p+q-1-s)^{2} \\geqslant 0$\n显然成立. 等号成立的条件是 $a=b=c=1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.4.4(Wolfgang Berndt, Mathlinks) 对所有实数 $a, b, c$, 证明\n$2(1+abc)+\\sqrt{2(1+a^{2})(1+b^{2})(1+c^{2})} \\geqslant (1+a)(1+b)(1+c)$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

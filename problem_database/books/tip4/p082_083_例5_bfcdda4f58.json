@@ -1,0 +1,25 @@
+{
+  "uid": "p082_083_例5_bfcdda4f58",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    82,
+    83
+  ],
+  "stem_md": "设 $x, y, z \\in \\mathbf{R}_+$, 且 $x^4 + y^4 + z^4 = 1$, 求\n$$\nf(x, y, z) = \\frac{x^3}{1 - x^8} + \\frac{y^3}{1 - y^8} + \\frac{z^3}{1 - z^8}\n$$\n的最小值.",
+  "solution_md": "解 将原式变形为\n$$\nf(x, y, z) = \\frac{x^4 + y^4 + z^4}{x(1 - x^8) + y(1 - y^8) + z(1 - z^8)}.\n$$\n对于 $w \\in (0, 1)$, 令 $\\phi(w) = w(1 - w^8)$, 先求 $\\phi(w)$ 的最大值.\n选一参数 $a$, 并利用 $G_9 \\leqslant A_9$, 得\n$$\n\\phi(w) \\leqslant \\frac{8}{\\sqrt[4]{3^9}},\n$$\n于是\n$$\nf(x, y, z) \\geqslant \\frac{9}{8} \\sqrt[4]{3},\n$$\n当 $x = y = z = \\frac{1}{\\sqrt[4]{3}}$ 时, 等号成立.\n故 $f(x, y, z)$ 的最小值为 $\\frac{9}{8} \\sqrt[4]{3}$.\n注 这里选择 $a = 8$, 是为了消除变量 $w^8$, 使得右边为常数.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例5 设 $x, y, z \\in \\mathbf{R}_+$, 且 $x^4 + y^4 + z^4 = 1$, 求\n$$\nf(x, y, z) = \\frac{x^3}{1 - x^8} + \\frac{y^3}{1 - y^8} + \\frac{z^3}{1 - z^8}\n$$\n的最小值.\n解 将原式变形为\n$$\nf(x, y, z) = \\frac{x^4 + y^4 + z^4}{x(1 - x^8) + y(1 - y^8) + z(1 - z^8)}.\n$$\n对于 $w \\in (0, 1)$, 令 $\\phi(w) = w(1 - w^8)$, 先求 $\\phi(w)$ 的最大值.\n选一参数 $a$, 并利用 $G_9 \\leqslant A_9$, 得\n$$\n\\phi(w) \\leqslant \\frac{8}{\\sqrt[4]{3^9}},\n$$\n于是\n$$\nf(x, y, z) \\geqslant \\frac{9}{8} \\sqrt[4]{3},\n$$\n当 $x = y = z = \\frac{1}{\\sqrt[4]{3}}$ 时, 等号成立.\n故 $f(x, y, z)$ 的最小值为 $\\frac{9}{8} \\sqrt[4]{3}$.\n注 这里选择 $a = 8$, 是为了消除变量 $w^8$, 使得右边为常数.",
+  "tags": [
+    "均值不等式",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011"
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p074_074_例6_9e5a9f0216",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "4 反证法",
+  "section": null,
+  "problem_id": "例6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    74
+  ],
+  "stem_md": "4 个实数 $a, b, c, d$ 满足:\n(1) $a \\geqslant b \\geqslant c \\geqslant d$;\n(2) $a+b+c+d=9$;\n(3) $a^2+b^2+c^2+d^2=21$.\n求证: $ab-cd \\geqslant 2$.",
+  "solution_md": "证明 若 $a+b < 5$, 则 $4 < c+d \\leqslant a+b < 5$, 于是\n$$\n\\begin{aligned}\n(ab+cd)+(ac+bd)+(ad+bc) &= \\frac{(a+b+c+d)^2-(a^2+b^2+c^2+d^2)}{2} \\\\\n&= 30,\n\\end{aligned}\n$$\n而 $ab+cd \\geqslant ac+bd \\geqslant ad+bc$ (\\Leftrightarrow $(a-d)(b-c) \\geqslant 0$, $(a-b)(c-d) \\geqslant 0$), 所以\n$$\nab+cd \\geqslant 10.\n$$\n由 $0 \\leqslant (a+b)-(c+d) < 1$ 知\n$$\n(a+b)^2+(c+d)^2-2(a+b)(c+d) < 1,\n$$\n又由题设知 $(a+b)^2+(c+d)^2+2(a+b)(c+d)=9^2$, 上面两式相加得\n$$\n(a+b)^2+(c+d)^2 < 41.\n$$\n故\n$$\n41 = 21+2 \\times 10 \\leqslant (a^2+b^2+c^2+d^2)+2(ab+cd)\n= (a+b)^2+(c+d)^2 < 41,\n$$\n矛盾! 所以, $a+b \\geqslant 5$.\n于是\n$$\na^2+b^2+2ab \\geqslant 25 = 4+(a^2+b^2+c^2+d^2) \\geqslant 4+a^2+b^2+2cd,\n$$\n即 $ab-cd \\geqslant 2$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例6 4 个实数 $a, b, c, d$ 满足:\n(1) $a \\geqslant b \\geqslant c \\geqslant d$;\n(2) $a+b+c+d=9$;\n(3) $a^2+b^2+c^2+d^2=21$.\n求证: $ab-cd \\geqslant 2$.\n证明 若 $a+b < 5$, 则 $4 < c+d \\leqslant a+b < 5$, 于是\n$$\n\\begin{aligned}\n(ab+cd)+(ac+bd)+(ad+bc) &= \\frac{(a+b+c+d)^2-(a^2+b^2+c^2+d^2)}{2} \\\\\n&= 30,\n\\end{aligned}\n$$\n而 $ab+cd \\geqslant ac+bd \\geqslant ad+bc$ (\\Leftrightarrow $(a-d)(b-c) \\geqslant 0$, $(a-b)(c-d) \\geqslant 0$), 所以\n$$\nab+cd \\geqslant 10.\n$$\n由 $0 \\leqslant (a+b)-(c+d) < 1$ 知\n$$\n(a+b)^2+(c+d)^2-2(a+b)(c+d) < 1,\n$$\n又由题设知 $(a+b)^2+(c+d)^2+2(a+b)(c+d)=9^2$, 上面两式相加得\n$$\n(a+b)^2+(c+d)^2 < 41.\n$$\n故\n$$\n41 = 21+2 \\times 10 \\leqslant (a^2+b^2+c^2+d^2)+2(ab+cd)\n= (a+b)^2+(c+d)^2 < 41,\n$$\n矛盾! 所以, $a+b \\geqslant 5$.\n于是\n$$\na^2+b^2+2ab \\geqslant 25 = 4+(a^2+b^2+c^2+d^2) \\geqslant 4+a^2+b^2+2cd,\n$$\n即 $ab-cd \\geqslant 2$.",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010"
+}

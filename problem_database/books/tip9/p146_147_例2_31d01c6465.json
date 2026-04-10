@@ -1,0 +1,25 @@
+{
+  "uid": "p146_147_例2_31d01c6465",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "10.1",
+  "problem_id": "例2",
+  "problem_type": "example",
+  "title": "实数 $a_{1}, a_{2}, \\cdots, a_{n}(n\\geqslant3)$ 满足",
+  "source_pages": [
+    146,
+    147
+  ],
+  "stem_md": "实数 $a_{1}, a_{2}, \\cdots, a_{n}(n\\geqslant3)$ 满足: $a_{1}+a_{2}+\\cdots+a_{n}=0$, 且 $2a_{k}\\leqslant a_{k-1}+a_{k+1}, k=2, 3, \\cdots, n-1$. 求最小的 $\\lambda(n)$, 使得对所有 $k\\in\\{1, 2, \\cdots, n\\}$, 都有\n\n$|a_{k}|\\leqslant\\lambda(n)\\cdot\\max\\{|a_{1}|, |a_{n}|\\}.$",
+  "solution_md": "解析 首先, 取 $a_{1}=1, a_{2}=-\\frac{n+1}{n-1}, a_{k}=\\frac{n+1}{n-1}+\\frac{2n(k-2)}{(n-1)(n-2)}, k=3, 4, \\cdots, n$, 则满足 $a_{1}+a_{2}+\\cdots+a_{n}=0$ 及 $2a_{k}\\leqslant a_{k-1}+a_{k+1}, k=2, 3, \\cdots, n-1$. 此时\n\n$\\lambda(n)\\geqslant\\frac{n+1}{n-1}.$\n\n下证当 $\\lambda(n)=\\frac{n+1}{n-1}$ 时, 对所有 $k\\in\\{1, 2, \\cdots, n\\}$, 都有\n\n$|a_{k}|\\leqslant\\lambda(n)\\cdot\\max\\{|a_{1}|, |a_{n}|\\}.$\n\n因为 $2a_{k}\\leqslant a_{k-1}+a_{k+1}$, 所以 $a_{k+1}-a_{k}\\geqslant a_{k}-a_{k-1}$, 于是\n\n$a_{j}\\leqslant\\frac{1}{k-1}[(j-1)a_{k}+(k-j)a_{1}],$\n\n当 $k\\leqslant j\\leqslant n$ 时, $a_{j}\\leqslant\\frac{1}{n-k}[(j-k)a_{n}+(n-j)a_{k}],$\n\n所以 $\\sum_{j=1}^{k}a_{j}\\leqslant\\frac{1}{k-1}\\sum_{j=1}^{k}[(j-1)a_{k}+(k-j)a_{1}]=\\frac{k}{2}(a_{1}+a_{k}),$\n\n$\\sum_{j=k}^{n}a_{j}\\leqslant\\frac{1}{n-k}\\sum_{j=k}^{n}[(j-k)a_{n}+(n-j)a_{k}]=\\frac{n+1-k}{2}(a_{k}+a_{n}),$\n\n相加得\n\n$a_{k}=\\sum_{j=1}^{k}a_{j}+\\sum_{j=k}^{n}a_{j}\\leqslant\\frac{k}{2}(a_{1}+a_{k})+\\frac{n+1-k}{2}(a_{k}+a_{n}),$\n\n即\n\n$a_{k}\\geqslant-\\frac{1}{n-1}[ka_{1}+(n+1-k)a_{n}].$\n\n由(1)、(2)得\n\n$|a_{k}|\\leqslant\\max\\left\\{\\frac{1}{n-1}|(k-1)a_{n}+(n-k)a_{1}|, \\frac{1}{n-1}|ka_{1}+(n+1-k)a_{n}|\\right\\}\\leqslant\\frac{n+1}{n-1}\\max\\{|a_{1}|, |a_{n}|\\}, k=2, 3, \\cdots, n-1.$\n\n综上所述, $\\lambda(n)_{\\min}=\\frac{n+1}{n-1}.$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例2 实数 $a_{1}, a_{2}, \\cdots, a_{n}(n\\geqslant3)$ 满足: $a_{1}+a_{2}+\\cdots+a_{n}=0$, 且 $2a_{k}\\leqslant a_{k-1}+a_{k+1}, k=2, 3, \\cdots, n-1$. 求最小的 $\\lambda(n)$, 使得对所有 $k\\in\\{1, 2, \\cdots, n\\}$, 都有\n\n$|a_{k}|\\leqslant\\lambda(n)\\cdot\\max\\{|a_{1}|, |a_{n}|\\}.$\n\n解析 首先, 取 $a_{1}=1, a_{2}=-\\frac{n+1}{n-1}, a_{k}=\\frac{n+1}{n-1}+\\frac{2n(k-2)}{(n-1)(n-2)}, k=3, 4, \\cdots, n$, 则满足 $a_{1}+a_{2}+\\cdots+a_{n}=0$ 及 $2a_{k}\\leqslant a_{k-1}+a_{k+1}, k=2, 3, \\cdots, n-1$. 此时\n\n$\\lambda(n)\\geqslant\\frac{n+1}{n-1}.$\n\n下证当 $\\lambda(n)=\\frac{n+1}{n-1}$ 时, 对所有 $k\\in\\{1, 2, \\cdots, n\\}$, 都有\n\n$|a_{k}|\\leqslant\\lambda(n)\\cdot\\max\\{|a_{1}|, |a_{n}|\\}.$\n\n因为 $2a_{k}\\leqslant a_{k-1}+a_{k+1}$, 所以 $a_{k+1}-a_{k}\\geqslant a_{k}-a_{k-1}$, 于是\n\n$a_{j}\\leqslant\\frac{1}{k-1}[(j-1)a_{k}+(k-j)a_{1}],$\n\n当 $k\\leqslant j\\leqslant n$ 时, $a_{j}\\leqslant\\frac{1}{n-k}[(j-k)a_{n}+(n-j)a_{k}],$\n\n所以 $\\sum_{j=1}^{k}a_{j}\\leqslant\\frac{1}{k-1}\\sum_{j=1}^{k}[(j-1)a_{k}+(k-j)a_{1}]=\\frac{k}{2}(a_{1}+a_{k}),$\n\n$\\sum_{j=k}^{n}a_{j}\\leqslant\\frac{1}{n-k}\\sum_{j=k}^{n}[(j-k)a_{n}+(n-j)a_{k}]=\\frac{n+1-k}{2}(a_{k}+a_{n}),$\n\n相加得\n\n$a_{k}=\\sum_{j=1}^{k}a_{j}+\\sum_{j=k}^{n}a_{j}\\leqslant\\frac{k}{2}(a_{1}+a_{k})+\\frac{n+1-k}{2}(a_{k}+a_{n}),$\n\n即\n\n$a_{k}\\geqslant-\\frac{1}{n-1}[ka_{1}+(n+1-k)a_{n}].$\n\n由(1)、(2)得\n\n$|a_{k}|\\leqslant\\max\\left\\{\\frac{1}{n-1}|(k-1)a_{n}+(n-k)a_{1}|, \\frac{1}{n-1}|ka_{1}+(n+1-k)a_{n}|\\right\\}\\leqslant\\frac{n+1}{n-1}\\max\\{|a_{1}|, |a_{n}|\\}, k=2, 3, \\cdots, n-1.$\n\n综上所述, $\\lambda(n)_{\\min}=\\frac{n+1}{n-1}.$",
+  "tags": [
+    "不等式",
+    "证明方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019"
+}

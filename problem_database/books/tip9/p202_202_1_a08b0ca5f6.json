@@ -1,0 +1,21 @@
+{
+  "uid": "p202_202_1_a08b0ca5f6",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202
+  ],
+  "stem_md": "1. 用数学归纳法去证明 $a_n > n$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "1. 用数学归纳法去证明 $a_n > n$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026"
+}

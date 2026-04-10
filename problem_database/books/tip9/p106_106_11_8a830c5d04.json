@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_11_8a830c5d04",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "11",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "已知正实数 $x_{1}, x_{2}, \\cdots, x_{n}$ 满足 $\\sum_{i=1}^{n} x_{i} = 1$, 求证: $$\\sum_{i=1}^{n} \\sqrt{\\frac{1}{x_{i}} - 1} \\geqslant (n - 1) \\cdot \\sum_{i=1}^{n} \\frac{1}{\\sqrt{x_{i}} - 1}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "11 已知正实数 $x_{1}, x_{2}, \\cdots, x_{n}$ 满足 $\\sum_{i=1}^{n} x_{i} = 1$, 求证: $$\\sum_{i=1}^{n} \\sqrt{\\frac{1}{x_{i}} - 1} \\geqslant (n - 1) \\cdot \\sum_{i=1}^{n} \\frac{1}{\\sqrt{x_{i}} - 1}.$$",
+  "tags": [
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

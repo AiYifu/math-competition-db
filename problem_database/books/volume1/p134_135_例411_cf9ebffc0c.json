@@ -1,0 +1,56 @@
+{
+  "uid": "p134_135_例411_cf9ebffc0c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.1",
+  "problem_id": "例4.1.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    134,
+    135
+  ],
+  "source_images": [
+    "page-134.jpg",
+    "page-135.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n;b_1,b_2,\\cdots,b_n$ 都是实数，证明\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_n^2+b_n^2}$$\n$$\\geqslant\\sqrt{(a_1+a_2+\\cdots+a_n)^2+(b_1+b_2+\\cdots+b_n)^2}$$",
+  "solution_md": "对 $n=2$，不等式变成\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}\\geqslant\\sqrt{(a_1+a_2)^2+(b_1+b_2)^2}$$\n两边平方，消去同类项，不等式变成\n$$\\sqrt{(a_1^2+b_1^2)(a_2^2+b_2^2)}\\geqslant a_1a_2+b_1b_2$$\n这是 Cauchy-Schwarz 不等式，当然成立。这样，我们就证明了不等式当 $n=2$ 时成立。假设不等式对 $n-1$ 个数对 $(a_1,b_1)$，$(a_2,b_2)$，$\\cdots$，$(a_{n-1},b_{n-1})$ 成立，我们来证明对 $n$ 个数对不等式也成立。实际上，根据归纳假设，我们有\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_{n-1}^2+b_{n-1}^2}\\geqslant\\sqrt{a^2+b^2}$$\n其中，$a=a_1+a_2+\\cdots+a_{n-1}$，$b=b_1+b_2+\\cdots+b_{n-1}$，所以，只需证明\n$$\\sqrt{a^2+b^2}+\\sqrt{a_n^2+b_n^2}\\geqslant\\sqrt{(a+a_n)^2+(b+b_n)^2}$$\n这正好是原不等式 $n=2$ 的情况。综上所述，原不等式成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.1.1 设 $a_1,a_2,\\cdots,a_n;b_1,b_2,\\cdots,b_n$ 都是实数，证明\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_n^2+b_n^2}$$\n$$\\geqslant\\sqrt{(a_1+a_2+\\cdots+a_n)^2+(b_1+b_2+\\cdots+b_n)^2}$$\n证明及分析 对 $n=2$，不等式变成\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}\\geqslant\\sqrt{(a_1+a_2)^2+(b_1+b_2)^2}$$\n两边平方，消去同类项，不等式变成\n$$\\sqrt{(a_1^2+b_1^2)(a_2^2+b_2^2)}\\geqslant a_1a_2+b_1b_2$$\n这是 Cauchy-Schwarz 不等式，当然成立。这样，我们就证明了不等式当 $n=2$ 时成立。假设不等式对 $n-1$ 个数对 $(a_1,b_1)$，$(a_2,b_2)$，$\\cdots$，$(a_{n-1},b_{n-1})$ 成立，我们来证明对 $n$ 个数对不等式也成立。实际上，根据归纳假设，我们有\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_{n-1}^2+b_{n-1}^2}\\geqslant\\sqrt{a^2+b^2}$$",
+  "tags": [
+    "归纳法",
+    "Cauchy-Schwarz不等式",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "cf9ebffc0cd3a896ade840c80061bbc0b3407ace",
+  "raw_problem": {
+    "problem_id": "例4.1.1",
+    "problem_type": "example",
+    "chapter": "第4章",
+    "section": "4.1",
+    "title": null,
+    "source_pages": [
+      134,
+      135
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n;b_1,b_2,\\cdots,b_n$ 都是实数，证明\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_n^2+b_n^2}$$\n$$\\geqslant\\sqrt{(a_1+a_2+\\cdots+a_n)^2+(b_1+b_2+\\cdots+b_n)^2}$$",
+    "solution_md": "对 $n=2$，不等式变成\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}\\geqslant\\sqrt{(a_1+a_2)^2+(b_1+b_2)^2}$$\n两边平方，消去同类项，不等式变成\n$$\\sqrt{(a_1^2+b_1^2)(a_2^2+b_2^2)}\\geqslant a_1a_2+b_1b_2$$\n这是 Cauchy-Schwarz 不等式，当然成立。这样，我们就证明了不等式当 $n=2$ 时成立。假设不等式对 $n-1$ 个数对 $(a_1,b_1)$，$(a_2,b_2)$，$\\cdots$，$(a_{n-1},b_{n-1})$ 成立，我们来证明对 $n$ 个数对不等式也成立。实际上，根据归纳假设，我们有\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_{n-1}^2+b_{n-1}^2}\\geqslant\\sqrt{a^2+b^2}$$\n其中，$a=a_1+a_2+\\cdots+a_{n-1}$，$b=b_1+b_2+\\cdots+b_{n-1}$，所以，只需证明\n$$\\sqrt{a^2+b^2}+\\sqrt{a_n^2+b_n^2}\\geqslant\\sqrt{(a+a_n)^2+(b+b_n)^2}$$\n这正好是原不等式 $n=2$ 的情况。综上所述，原不等式成立。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 4.1.1 设 $a_1,a_2,\\cdots,a_n;b_1,b_2,\\cdots,b_n$ 都是实数，证明\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_n^2+b_n^2}$$\n$$\\geqslant\\sqrt{(a_1+a_2+\\cdots+a_n)^2+(b_1+b_2+\\cdots+b_n)^2}$$\n证明及分析 对 $n=2$，不等式变成\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}\\geqslant\\sqrt{(a_1+a_2)^2+(b_1+b_2)^2}$$\n两边平方，消去同类项，不等式变成\n$$\\sqrt{(a_1^2+b_1^2)(a_2^2+b_2^2)}\\geqslant a_1a_2+b_1b_2$$\n这是 Cauchy-Schwarz 不等式，当然成立。这样，我们就证明了不等式当 $n=2$ 时成立。假设不等式对 $n-1$ 个数对 $(a_1,b_1)$，$(a_2,b_2)$，$\\cdots$，$(a_{n-1},b_{n-1})$ 成立，我们来证明对 $n$ 个数对不等式也成立。实际上，根据归纳假设，我们有\n$$\\sqrt{a_1^2+b_1^2}+\\sqrt{a_2^2+b_2^2}+\\cdots+\\sqrt{a_{n-1}^2+b_{n-1}^2}\\geqslant\\sqrt{a^2+b^2}$$",
+    "tags": [
+      "归纳法",
+      "Cauchy-Schwarz不等式",
+      "实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

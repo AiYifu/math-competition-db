@@ -1,0 +1,23 @@
+{
+  "uid": "p105_105_1_4945217ed8",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    105
+  ],
+  "stem_md": "设 $x_{1}, x_{2}, \\cdots, x_{n}$ 都是正实数, 求证: $$\\frac{1}{x_{1}} + \\frac{1}{x_{2}} + \\cdots + \\frac{1}{x_{n}} \\geqslant 2\\left(\\frac{1}{x_{1} + x_{2}} + \\frac{1}{x_{2} + x_{3}} + \\cdots + \\frac{1}{x_{n-1} + x_{n}} + \\frac{1}{x_{n} + x_{1}}\\right).$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_{1}, x_{2}, \\cdots, x_{n}$ 都是正实数, 求证: $$\\frac{1}{x_{1}} + \\frac{1}{x_{2}} + \\cdots + \\frac{1}{x_{n}} \\geqslant 2\\left(\\frac{1}{x_{1} + x_{2}} + \\frac{1}{x_{2} + x_{3}} + \\cdots + \\frac{1}{x_{n-1} + x_{n}} + \\frac{1}{x_{n} + x_{1}}\\right).$$",
+  "tags": [
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

@@ -1,0 +1,31 @@
+{
+  "uid": "p041_048_例1_3_11_15d43df93e",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "3",
+  "problem_id": "例1.3.11",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "stem_md": "求出最好的正常数 $k$, 满足下列不等式\n$$\n\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{k(ab+bc+ca)}{(a+b+c)^2} \\geqslant \\frac{k}{3}+\\frac{3}{2}\n$$\n对所有正实数 $a, b$ 和 $c$ 成立。",
+  "solution_md": "把上面的不等式表示为 SOS 形式\n$$\n\\begin{aligned}\n& \\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{k(ab+bc+ca)}{(a+b+c)^2}-\\frac{k}{3}-\\frac{3}{2} \\\n& =\\frac{1}{2}\\sum\\frac{(a-b)^2}{(c+a)(c+b)}-\\sum\\frac{k(a-b)^2}{6(a+b+c)^2} \\\n& =\\frac{1}{6}\\sum\\left[\\frac{3}{(c+a)(c+b)}-\\frac{k}{(a+b+c)^2}\\right](a-b)^2\n\\end{aligned}\n$$\n令 $b=c$, 则要使不等式成立, $k$ 必须满足\n$$\n\\frac{3}{2b(b+a)} \\geqslant \\frac{k}{(a+2b)^2} \\Leftrightarrow k \\leqslant \\frac{3(a+2b)^2}{2b(b+a)}\n$$\n令 $a=0$, 则 $k=6$. 为证明 $k=6$ 是最好的常数, 我们来证明下面的不等式\n$$\n\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{6(ab+bc+ca)}{(a+b+c)^2} \\geqslant \\frac{7}{2}\n$$\n$$\n\\Leftrightarrow \\sum\\left[\\frac{1}{(c+a)(c+b)}-\\frac{2}{(a+b+c)^2}\\right](a-b)^2 \\geqslant 0\n$$\n$$\n=\\frac{(a-b)^2(a^2+b^2+ab+ca+bc)}{(a+b)(b+c)(c+a)(a+b+2c)} \\geqslant 0\n$$\n根据 SOS 定理的条件 (4) 可知, 原不等式成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.11(Pham Kim Hung, Mathlinks) 求出最好的正常数 $k$, 满足下列不等式\n$$\n\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{k(ab+bc+ca)}{(a+b+c)^2} \\geqslant \\frac{k}{3}+\\frac{3}{2}\n$$\n对所有正实数 $a, b$ 和 $c$ 成立。\n解 把上面的不等式表示为 SOS 形式\n$$\n\\begin{aligned}\n& \\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{k(ab+bc+ca)}{(a+b+c)^2}-\\frac{k}{3}-\\frac{3}{2} \\\n& =\\frac{1}{2}\\sum\\frac{(a-b)^2}{(c+a)(c+b)}-\\sum\\frac{k(a-b)^2}{6(a+b+c)^2} \\\n& =\\frac{1}{6}\\sum\\left[\\frac{3}{(c+a)(c+b)}-\\frac{k}{(a+b+c)^2}\\right](a-b)^2\n\\end{aligned}\n$$\n令 $b=c$, 则要使不等式成立, $k$ 必须满足\n$$\n\\frac{3}{2b(b+a)} \\geqslant \\frac{k}{(a+2b)^2} \\Leftrightarrow k \\leqslant \\frac{3(a+2b)^2}{2b(b+a)}\n$$\n令 $a=0$, 则 $k=6$. 为证明 $k=6$ 是最好的常数, 我们来证明下面的不等式\n$$\n\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}+\\frac{6(ab+bc+ca)}{(a+b+c)^2} \\geqslant \\frac{7}{2}\n$$\n$$\n\\Leftrightarrow \\sum\\left[\\frac{1}{(c+a)(c+b)}-\\frac{2}{(a+b+c)^2}\\right](a-b)^2 \\geqslant 0\n$$\n$$\n=\\frac{(a-b)^2(a^2+b^2+ab+ca+bc)}{(a+b)(b+c)(c+a)(a+b+2c)} \\geqslant 0\n$$\n根据 SOS 定理的条件 (4) 可知, 原不等式成立。",
+  "tags": [
+    "不等式",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006"
+}

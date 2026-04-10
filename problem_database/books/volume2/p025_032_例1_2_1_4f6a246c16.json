@@ -1,0 +1,31 @@
+{
+  "uid": "p025_032_例1_2_1_4f6a246c16",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "2",
+  "problem_id": "例1.2.1",
+  "problem_type": "example",
+  "title": "求出下列表达式的SOS标准表示",
+  "source_pages": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "stem_md": "(1) 考虑下列恒等式\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} - 3\n$$\n(2) 注意到\n$$\n\\sum a^3 - \\sum a^3(b + c) = \\frac{1}{2} \\sum a^2(b - c)^2\n$$",
+  "solution_md": "解 (1) 考虑下列恒等式\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} - 3 = \\frac{(a - b)^2}{ab} + \\frac{(b - c)^2}{bc} + \\frac{(c - a)^2}{ca}\n$$\n(2) 注意到\n$$\n\\sum a^3 - \\sum a^3(b + c) = \\frac{1}{2} \\sum a^2(b - c)^2\n$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.2.1 求出下列表达式的SOS标准表示\n(1) 考虑下列恒等式\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} - 3\n$$\n(2) 注意到\n$$\n\\sum a^3 - \\sum a^3(b + c) = \\frac{1}{2} \\sum a^2(b - c)^2\n$$\n解 (1) 考虑下列恒等式\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} - 3 = \\frac{(a - b)^2}{ab} + \\frac{(b - c)^2}{bc} + \\frac{(c - a)^2}{ca}\n$$\n(2) 注意到\n$$\n\\sum a^3 - \\sum a^3(b + c) = \\frac{1}{2} \\sum a^2(b - c)^2\n$$",
+  "tags": [
+    "SOS标准表示",
+    "恒等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

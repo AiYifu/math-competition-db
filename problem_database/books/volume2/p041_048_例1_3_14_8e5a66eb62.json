@@ -1,0 +1,31 @@
+{
+  "uid": "p041_048_例1_3_14_8e5a66eb62",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "3",
+  "problem_id": "例1.3.14",
+  "problem_type": "example",
+  "title": "",
+  "source_pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "stem_md": "设 $a, b, c, d$ 是非负实数, 证明\n$$\na^4+b^4+c^4+d^4+2abcd \\geqslant a^2b^2+a^2c^2+a^2d^2+b^2c^2+b^2d^2+c^2d^2\n$$",
+  "solution_md": "不失一般性, 设 $a \\geqslant b \\geqslant c \\geqslant d$, 则我们有\n$$\n\\begin{aligned}\n& 3\\sum a^4+6abcd-3\\sum_{\\text{sym}} a^2b^2 \\\n& =\\sum(a^2-b^2)^2-(ab-cd)^2-(bd-da)^2-(ac-bd)^2 \\\n& =\\sum_{\\text{sym}}(a^2-b^2)^2-\\frac{1}{4}\\sum[(a+c)(b-d)+(a-c)(b+d)]^2 \\\n& =\\frac{1}{4}\\sum[4(a+b)^2-(c+d)^2](a-b)^2\n\\end{aligned}\n$$\n设\n$$\n\\begin{aligned}\nS_{ad}+S_{bd}+S_{cd} & =4(a+d)^2+4(b+d)^2+4(c+d)^2-4(a+b)^2-4(b+c)^2-4(c+a)^2 \\\n& \\geqslant 4(a^2+c^2)-\\left(c+\\frac{a+c}{2}\\right)^2-\\left(a+\\frac{a+c}{2}\\right)^2 \\\n& =(a-b)^2+(b-c)^2+(c-a)^2 \\geqslant 0\n\\end{aligned}\n$$\n另外, $S_{ad}+S_{bd} \\geqslant S_{ad}+S_{cd} \\geqslant 0$, 所以, 我们有\n$$\n\\begin{aligned}\nS_{ac}+S_{bc} & =4(a+c)^2-(b+d)^2+4(b+d)^2-(a+c)^2 \\\n& \\geqslant 4(a^2+c^2)-(b+d)^2-(a+c)^2 \\\n& =(a-b)^2+(b-c)^2+(c-a)^2 \\geqslant 0\n\\end{aligned}\n$$\n如果 $2b \\leqslant a+c$, 则\n$$\n\\begin{aligned}\nS_{ad}(a-d)^2+S_{bd}(b-d)^2+S_{cd}(c-d)^2 & \\geqslant (S_{ad}+S_{bd}+S_{cd})(c-d)^2 \\\n& =(a-b)^2+(b-c)^2+(c-a)^2 \\geqslant 0\n\\end{aligned}\n$$\n综上所述, 不等式得证, 等号成立的条件是 $a=b=c=d$ 或 $a=b=c, d=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.14 设 $a, b, c, d$ 是非负实数, 证明\n$$\na^4+b^4+c^4+d^4+2abcd \\geqslant a^2b^2+a^2c^2+a^2d^2+b^2c^2+b^2d^2+c^2d^2\n$$\n不失一般性, 设 $a \\geqslant b \\geqslant c \\geqslant d$, 则我们有\n$$\n\\begin{aligned}\n& 3\\sum a^4+6abcd-3\\sum_{\\text{sym}} a^2b^2 \\\n& =\\sum(a^2-b^2)^2-(ab-cd)^2-(bd-da)^2-(ac-bd)^2 \\\n& =\\sum_{\\text{sym}}(a^2-b^2)^2-\\frac{1}{4}\\sum[(a+c)(b-d)+(a-c)(b+d)]^2 \\\n& =\\frac{1}{4}\\sum[4(a+b)^2-(c+d)^2](a-b)^2\n\\end{aligned}\n$$\n设\n$$\n\\begin{aligned}\nS_{ad}+S_{bd}+S_{cd} & =4(a+d)^2+4(b+d)^2+4(c+d)^2-4(a+b)^2-4(b+c)^2-4(c+a)^2 \\\n& \\geqslant 4(a^2+c^2)-\\left(c+\\frac{a+c}{2}\\right)^2-\\left(a+\\frac{a+c}{2}\\right)^2 \\\n& =(a-b)^2+(b-c)^2+(c-a)^2 \\geqslant 0\n\\end{aligned}\n$$\n另外, $S_{ad}+S_{bd} \\geqslant S_{ad}+S_{cd} \\geqslant 0$, 所以, 我们有\n$$\n\\begin{aligned}\nS_{ac}+S_{bc} & =4(a+c)^2-(b+d)^2+4(b+d)^2-(a+c)^2 \\\n& \\geqslant 4(a^2+c^2)-(b+d)^2-(a+c)^2 \\\n& =(a-b)^2+(b-c)^2+(c-a)^2 \\geqslant 0\n\\end{aligned}\n$$\n如果 $2b \\leqslant a+c$, 则\n$$\n\\begin{aligned}\nS_{ad}(a-d)^2+S_{bd}(b-d)^2+S_{cd}(c-d)^2 & \\geqslant (S_{ad}+S_{bd}+S_{cd})(c-d)^2 \\\n& =(a-b)^2+(b-c)^2+(c-a)^2 \\geqslant 0\n\\end{aligned}\n$$\n综上所述, 不等式得证, 等号成立的条件是 $a=b=c=d$ 或 $a=b=c, d=0$ 及其轮换。",
+  "tags": [
+    "不等式",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006"
+}

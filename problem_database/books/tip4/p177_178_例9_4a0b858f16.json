@@ -1,0 +1,25 @@
+{
+  "uid": "p177_178_例9_4a0b858f16",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4 柯西不等式的应用",
+  "section": null,
+  "problem_id": "例9",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    177,
+    178
+  ],
+  "stem_md": "已知数列 $\\{a_n\\}$ 满足 $a_1 > 0$, $a_2 > 0$, $a_{n+2} = \\frac{2}{a_n + a_{n+1}}$. $M_n = \\max\\left\\{a_n, \\frac{1}{a_n}, \\frac{1}{a_{n+1}}, a_{n+1}\\right\\}$. 求证: $M_{n+3} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4}$.",
+  "solution_md": "证明 由于\n$$M_{n+3} = \\max\\left\\{a_{n+3}, a_{n+4}, \\frac{1}{a_{n+3}}, \\frac{1}{a_{n+4}}\\right\\},$$\n我们需证\n$$a_{n+3} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4},$$\n$$a_{n+4} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4},$$\n$$\\frac{1}{a_{n+3}} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4},$$\n$$\\frac{1}{a_{n+4}} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4}.$$\n由于\n$$a_{n+3} = \\frac{2}{a_{n+1} + a_{n+2}} \\leqslant \\frac{\\frac{1}{a_{n+1}} + \\frac{1}{a_{n+2}}}{2}$$\n$$\\leqslant \\frac{1}{2} + \\frac{\\frac{1}{a_n} + \\frac{1}{a_{n+1}}}{4}$$\n$$= \\frac{1}{4}\\left(a_{n+1} + \\frac{1}{a_{n+1}}\\right) + \\frac{1}{4}\\left(\\frac{1}{a_n} + \\frac{1}{a_{n+1}}\\right)$$\n$$= \\frac{1}{4}\\left[\\max\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\} + \\min\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\}\\right] + \\frac{1}{4}M_n + \\frac{1}{4}M_n$$\n$$\\leqslant \\frac{1}{4}(M_n + 1) + \\frac{1}{4} \\cdot 2M_n$$\n$$= \\frac{3}{4}M_n + \\frac{1}{4};$$\n$$\\frac{1}{a_{n+3}} = \\frac{a_{n+1} + a_{n+2}}{2} \\leqslant \\frac{\\frac{1}{a_{n+2}} + \\frac{1}{a_{n+3}}}{2}$$\n$$= \\frac{a_n + a_{n+1}}{4} + \\frac{a_{n+1} + a_{n+2}}{4}$$\n$$= \\frac{1}{4}a_n + \\frac{1}{2}a_{n+1} + \\frac{1}{2} \\cdot \\frac{1}{a_n + a_{n+1}}$$\n$$\\leqslant \\frac{1}{4}a_n + \\frac{1}{2}a_{n+1} + \\frac{1}{8}\\left(\\frac{1}{a_n} + \\frac{1}{a_{n+1}}\\right)$$\n$$= \\frac{1}{8}\\left(a_n + \\frac{1}{a_n}\\right) + \\frac{1}{8}\\left(a_{n+1} + \\frac{1}{a_{n+1}}\\right) + \\frac{1}{8}a_n + \\frac{3}{8}a_{n+1}$$\n$$= \\frac{1}{8}\\left[\\max\\left\\{a_n, \\frac{1}{a_n}\\right\\} + \\min\\left\\{a_n, \\frac{1}{a_n}\\right\\}\\right]$$\n$$+ \\frac{1}{8}\\left[\\max\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\} + \\min\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\}\\right] + \\frac{1}{8}a_n + \\frac{3}{8}a_{n+1}$$\n$$\\leqslant \\frac{1}{8}(M_n + 1) + \\frac{1}{8}(M_n + 1) + \\frac{1}{8}M_n + \\frac{3}{8}M_n$$\n$$= \\frac{3}{4}M_n + \\frac{1}{4}.$$",
+  "answer_md": "",
+  "hints_md": "注 当 $x, y > 0$ 时, $x + y = \\max\\{x, y\\} + \\min\\{x, y\\}$; 当 $x > 0$ 时, $\\min\\left\\{x, \\frac{1}{x}\\right\\} \\leqslant 1$.",
+  "original_text_md": "例9 已知数列 $\\{a_n\\}$ 满足 $a_1 > 0$, $a_2 > 0$, $a_{n+2} = \\frac{2}{a_n + a_{n+1}}$. $M_n = \\max\\left\\{a_n, \\frac{1}{a_n}, \\frac{1}{a_{n+1}}, a_{n+1}\\right\\}$. 求证: $M_{n+3} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4}$.\n证明 由于\n$$M_{n+3} = \\max\\left\\{a_{n+3}, a_{n+4}, \\frac{1}{a_{n+3}}, \\frac{1}{a_{n+4}}\\right\\},$$\n我们需证\n$$a_{n+3} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4},$$\n$$a_{n+4} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4},$$\n$$\\frac{1}{a_{n+3}} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4},$$\n$$\\frac{1}{a_{n+4}} \\leqslant \\frac{3}{4}M_n + \\frac{1}{4}.$$\n由于\n$$a_{n+3} = \\frac{2}{a_{n+1} + a_{n+2}} \\leqslant \\frac{\\frac{1}{a_{n+1}} + \\frac{1}{a_{n+2}}}{2}$$\n$$\\leqslant \\frac{1}{2} + \\frac{\\frac{1}{a_n} + \\frac{1}{a_{n+1}}}{4}$$\n$$= \\frac{1}{4}\\left(a_{n+1} + \\frac{1}{a_{n+1}}\\right) + \\frac{1}{4}\\left(\\frac{1}{a_n} + \\frac{1}{a_{n+1}}\\right)$$\n$$= \\frac{1}{4}\\left[\\max\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\} + \\min\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\}\\right] + \\frac{1}{4}M_n + \\frac{1}{4}M_n$$\n$$\\leqslant \\frac{1}{4}(M_n + 1) + \\frac{1}{4} \\cdot 2M_n$$\n$$= \\frac{3}{4}M_n + \\frac{1}{4};$$\n$$\\frac{1}{a_{n+3}} = \\frac{a_{n+1} + a_{n+2}}{2} \\leqslant \\frac{\\frac{1}{a_{n+2}} + \\frac{1}{a_{n+3}}}{2}$$\n$$= \\frac{a_n + a_{n+1}}{4} + \\frac{a_{n+1} + a_{n+2}}{4}$$\n$$= \\frac{1}{4}a_n + \\frac{1}{2}a_{n+1} + \\frac{1}{2} \\cdot \\frac{1}{a_n + a_{n+1}}$$\n$$\\leqslant \\frac{1}{4}a_n + \\frac{1}{2}a_{n+1} + \\frac{1}{8}\\left(\\frac{1}{a_n} + \\frac{1}{a_{n+1}}\\right)$$\n$$= \\frac{1}{8}\\left(a_n + \\frac{1}{a_n}\\right) + \\frac{1}{8}\\left(a_{n+1} + \\frac{1}{a_{n+1}}\\right) + \\frac{1}{8}a_n + \\frac{3}{8}a_{n+1}$$\n$$= \\frac{1}{8}\\left[\\max\\left\\{a_n, \\frac{1}{a_n}\\right\\} + \\min\\left\\{a_n, \\frac{1}{a_n}\\right\\}\\right]$$\n$$+ \\frac{1}{8}\\left[\\max\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\} + \\min\\left\\{a_{n+1}, \\frac{1}{a_{n+1}}\\right\\}\\right] + \\frac{1}{8}a_n + \\frac{3}{8}a_{n+1}$$\n$$\\leqslant \\frac{1}{8}(M_n + 1) + \\frac{1}{8}(M_n + 1) + \\frac{1}{8}M_n + \\frac{3}{8}M_n$$\n$$= \\frac{3}{4}M_n + \\frac{1}{4}.$$",
+  "tags": [
+    "柯西不等式",
+    "数列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

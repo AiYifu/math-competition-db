@@ -1,0 +1,26 @@
+{
+  "uid": "p068_069_例2_2_1_94e0beaf0d",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "2",
+  "section": "2",
+  "problem_id": "例2.2.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    68,
+    69
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 且满足 $ab+bc+ca=1$, 证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{5}{2}$$",
+  "solution_md": "证法 1 (中心整合变量法) 不失一般性, 设 $a\\geqslant b\\geqslant c$, 选择实数 $t>0$, 满足\n$$t^2+2tc=ab+bc+ca=1\\Rightarrow(t+c)^2=(a+c)(b+c)=1+c^2$$\n我们来证明\n$$\\frac{1}{t+c}+\\frac{1}{2t}\\geqslant\\frac{5}{2}$$\n由于 $t\\leqslant 1$, 这是显然成立的, 等号成立的条件是 $(a,b,c)\\sim(1,1,0)$. 证毕.\n证法 2 (外围整合变量法) 设 $a\\geqslant b\\geqslant c$, 记\n$$f(a,b,c)=\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n注意到\n$$f(a,b,c)-f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n$$=\\frac{b(a+c)+ac}{a+c}+\\frac{a(b+c)+bc}{b+c}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{c}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc(c-a-b)}{c^2+1}+\\frac{ab(c-a-b)}{(c^2+1)\\left[(a+b)^2+1\\right]}\\geqslant 0$$\n于是, $f(a,b,c)\\geqslant f\\left(0,a+b,\\frac{1}{a+b}\\right)$, 另外\n$$A=3t^2\\left(t^2+ct+c^2\\right)^2-\\left(3t^2+u^2\\right)\\left[\\left(c^2+c\\right)(t+u)+(t-u)^2\\right]$$\n$$\\geqslant u^2\\left[\\left(3t^2+u^2\\right)(2tc-c^2)+2t^2(t-c)-u^2(2tc-c^2+2t^2-u^2)\\right]$$\n$$=u^2\\left[5t^4+4t^3c-6c^2t^2-2c^3t+u^2(2tc-c^2+2t^2-u^2)\\right]$$\n$$\\geqslant u^2(t-c)^2+u^4$$\n这样, 我们就证明了 $A\\geqslant 0$. 实际上, 注意到\n$$f(a,t,t)-f(a,t,t)=t(x^3+y^3)=t(x+y)\\left[(x+y)^2-3xy\\right]$$\n$$=t(1-3t)=\\frac{1}{3}\\cdot 3t\\cdot(1-3t)\\leqslant\\frac{1}{3}\\cdot\\frac{1}{4}=\\frac{1}{12}$$\n等号成立的条件是 $a=b=c=1$ 和 $a=0, b=c=3$ 及其轮换.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.2.1 (Ho Joo Lee, Berkeley Mathematics Circle) 设 $a, b, c$ 是非负实数, 且满足 $ab+bc+ca=1$, 证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{5}{2}$$\n证法 1 (中心整合变量法) 不失一般性, 设 $a\\geqslant b\\geqslant c$, 选择实数 $t>0$, 满足\n$$t^2+2tc=ab+bc+ca=1\\Rightarrow(t+c)^2=(a+c)(b+c)=1+c^2$$\n我们来证明\n$$\\frac{1}{t+c}+\\frac{1}{2t}\\geqslant\\frac{5}{2}$$\n由于 $t\\leqslant 1$, 这是显然成立的, 等号成立的条件是 $(a,b,c)\\sim(1,1,0)$. 证毕.\n证法 2 (外围整合变量法) 设 $a\\geqslant b\\geqslant c$, 记\n$$f(a,b,c)=\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n注意到\n$$f(a,b,c)-f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n$$=\\frac{b(a+c)+ac}{a+c}+\\frac{a(b+c)+bc}{b+c}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{c}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc(c-a-b)}{c^2+1}+\\frac{ab(c-a-b)}{(c^2+1)\\left[(a+b)^2+1\\right]}\\geqslant 0$$\n于是, $f(a,b,c)\\geqslant f\\left(0,a+b,\\frac{1}{a+b}\\right)$, 另外\n$$A=3t^2\\left(t^2+ct+c^2\\right)^2-\\left(3t^2+u^2\\right)\\left[\\left(c^2+c\\right)(t+u)+(t-u)^2\\right]$$\n$$\\geqslant u^2\\left[\\left(3t^2+u^2\\right)(2tc-c^2)+2t^2(t-c)-u^2(2tc-c^2+2t^2-u^2)\\right]$$\n$$=u^2\\left[5t^4+4t^3c-6c^2t^2-2c^3t+u^2(2tc-c^2+2t^2-u^2)\\right]$$\n$$\\geqslant u^2(t-c)^2+u^4$$\n这样, 我们就证明了 $A\\geqslant 0$. 实际上, 注意到\n$$f(a,t,t)-f(a,t,t)=t(x^3+y^3)=t(x+y)\\left[(x+y)^2-3xy\\right]$$\n$$=t(1-3t)=\\frac{1}{3}\\cdot 3t\\cdot(1-3t)\\leqslant\\frac{1}{3}\\cdot\\frac{1}{4}=\\frac{1}{12}$$\n等号成立的条件是 $a=b=c=1$ 和 $a=0, b=c=3$ 及其轮换.",
+  "tags": [
+    "不等式",
+    "中心整合变量法",
+    "外围整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

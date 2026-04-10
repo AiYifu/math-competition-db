@@ -1,0 +1,21 @@
+{
+  "uid": "p023_023_定理1_SOS定理__f6043aebfb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "定理1(SOS定理)",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    23
+  ],
+  "stem_md": "考虑下列表达式 \n$$ S = f(a, b, c) = S_c(a - b)^2 + S_b(b - c)^2 + S_a(c - a)^2 $$\n其中, $S_a, S_b, S_c$ 是关于变量 $a, b, c$ 的表达式, 则如果下列条件中至少有一个成立, 那么不等式 $S \\geqslant 0$ 成立.",
+  "solution_md": "证明 第(1)个条件是显然的. 对于(2), 注意到 \n$$ (a - c)^2 \\geqslant (a - b)^2 + (b - c)^2, 所以 \n\\sum S_a(b - c)^2 \\geqslant (S_a + S_b)(b - c)^2 + (S_c + 2S_b)(a - b)^2 \\geqslant 0 $$\n对于(3), 注意到 $(a - c)^2 \\leqslant 2(a - b)^2 + 2(b - c)^2$, 所以 \n$$ \\Delta = S_a^2 - (S_a + S_b)(S_b + S_c) = -(S_aS_b + S_bS_c + S_cS_a) \\leqslant 0 $$\n对于(4), 注意到 $\\frac{a - c}{b - c} \\geqslant \\frac{a}{b}$, 所以 \n$$ \\sum S_a(b - c)^2 \\geqslant S_a(b - c)^2 + \\frac{a^2}{b^2}(b - c)^2 \\geqslant 0 $$\n对于(5), 注意到 $\\frac{a - c}{b - c} \\geqslant \\frac{b}{c}$, 所以 \n$$ \\sum S_a(b - c)^2 \\geqslant S_a(b - c)^2 + \\frac{b^2}{c^2}(b - c)^2 \\geqslant 0 $$\n对于(6), 注意到 $S_a + S_b + S_c \\geqslant 0$, 所以 \n$$ \\sum S_a(b - c)^2 \\geqslant (S_a + S_b)(b - c)^2 + (S_c + 2S_b)(a - b)^2 \\geqslant 0 $$\n这是关于 $a - b, b - c$ 的二次型, 其判别式 \n$$ \\Delta = S_a^2 - (S_a + S_b)(S_b + S_c) = -(S_aS_b + S_bS_c + S_cS_a) \\leqslant 0 $$\n至此, 定理的各个部分全部证完.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定理 1(SOS 定理) 考虑下列表达式 \n$$ S = f(a, b, c) = S_c(a - b)^2 + S_b(b - c)^2 + S_a(c - a)^2 $$\n其中, $S_a, S_b, S_c$ 是关于变量 $a, b, c$ 的表达式, 则如果下列条件中至少有一个成立, 那么不等式 $S \\geqslant 0$ 成立.\n(1) $S_a \\geqslant 0, S_b \\geqslant 0, S_c \\geqslant 0$;\n(2) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0, S_c \\geqslant 0, S_a + 2S_b \\geqslant 0$;\n(3) $a \\geqslant b \\geqslant c$ 且 $S_a \\geqslant 0, S_c \\geqslant 0, a^2S_b + b^2S_a \\geqslant 0$;\n(4) $a \\geqslant b \\geqslant c$ 且 $S_b \\geqslant 0, S_c \\geqslant 0, a^2S_b + b^2S_a \\geqslant 0$;\n(5) $a \\geqslant b \\geqslant c$ 是某三角形的三条边, 且 $S_a \\geqslant 0, S_b \\geqslant 0, S_c \\geqslant 0, b^2S_b + c^2S_c \\geqslant 0$;\n(6) $S_a + S_b + S_c \\geqslant 0$ 且 $S_aS_b + S_bS_c + S_cS_a \\geqslant 0$.\n证明 第(1)个条件是显然的. 对于(2), 注意到 \n$$ (a - c)^2 \\geqslant (a - b)^2 + (b - c)^2, 所以 \n\\sum S_a(b - c)^2 \\geqslant (S_a + S_b)(b - c)^2 + (S_c + 2S_b)(a - b)^2 \\geqslant 0 $$\n对于(3), 注意到 $(a - c)^2 \\leqslant 2(a - b)^2 + 2(b - c)^2$, 所以 \n$$ \\Delta = S_a^2 - (S_a + S_b)(S_b + S_c) = -(S_aS_b + S_bS_c + S_cS_a) \\leqslant 0 $$\n对于(4), 注意到 $\\frac{a - c}{b - c} \\geqslant \\frac{a}{b}$, 所以 \n$$ \\sum S_a(b - c)^2 \\geqslant S_a(b - c)^2 + \\frac{a^2}{b^2}(b - c)^2 \\geqslant 0 $$\n对于(5), 注意到 $\\frac{a - c}{b - c} \\geqslant \\frac{b}{c}$, 所以 \n$$ \\sum S_a(b - c)^2 \\geqslant S_a(b - c)^2 + \\frac{b^2}{c^2}(b - c)^2 \\geqslant 0 $$\n对于(6), 注意到 $S_a + S_b + S_c \\geqslant 0$, 所以 \n$$ \\sum S_a(b - c)^2 \\geqslant (S_a + S_b)(b - c)^2 + (S_c + 2S_b)(a - b)^2 \\geqslant 0 $$\n这是关于 $a - b, b - c$ 的二次型, 其判别式 \n$$ \\Delta = S_a^2 - (S_a + S_b)(S_b + S_c) = -(S_aS_b + S_bS_c + S_cS_a) \\leqslant 0 $$\n至此, 定理的各个部分全部证完.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

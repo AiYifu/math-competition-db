@@ -1,0 +1,53 @@
+{
+  "uid": "p020_020_例113_fe57d0b3ed",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章 平方分析法",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    20
+  ],
+  "source_images": [
+    "page-020.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$(a+b)(b+c)(c+a)\\geqslant 8abc$$",
+  "solution_md": "**证明及分析** 显然，不等式等价于\n$$ab(a+b)+bc(b+c)+ca(c+a)\\geqslant 6abc$$\n可以改写成\n$$a(b^2+c^2-2bc)+b(c^2+a^2-2ca)+c(a^2+b^2-2ab)\\geqslant 0$$\n或\n$$a(b-c)^2+b(c-a)^2+c(a-b)^2\\geqslant 0$$\n这是显然成立的。证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.3 设 $a,b,c$ 是非负实数，证明\n$$(a+b)(b+c)(c+a)\\geqslant 8abc$$\n证明及分析 显然，不等式等价于\n$$ab(a+b)+bc(b+c)+ca(c+a)\\geqslant 6abc$$\n可以改写成\n$$a(b^2+c^2-2bc)+b(c^2+a^2-2ca)+c(a^2+b^2-2ab)\\geqslant 0$$\n或\n$$a(b-c)^2+b(c-a)^2+c(a-b)^2\\geqslant 0$$\n这是显然成立的。证毕。",
+  "tags": [
+    "平方分析法",
+    "SOS",
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003",
+  "raw_response_file": "raw/chunk-0003.response.txt",
+  "raw_api_file": "raw/chunk-0003.api.json",
+  "fingerprint": "fe57d0b3ed086b65cc9ef18fc4e58d34e64ebbdf",
+  "raw_problem": {
+    "problem_id": "例1.1.3",
+    "problem_type": "example",
+    "chapter": "第1章 平方分析法",
+    "section": "1.1 起步",
+    "title": null,
+    "source_pages": [
+      20
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$(a+b)(b+c)(c+a)\\geqslant 8abc$$",
+    "solution_md": "**证明及分析** 显然，不等式等价于\n$$ab(a+b)+bc(b+c)+ca(c+a)\\geqslant 6abc$$\n可以改写成\n$$a(b^2+c^2-2bc)+b(c^2+a^2-2ca)+c(a^2+b^2-2ab)\\geqslant 0$$\n或\n$$a(b-c)^2+b(c-a)^2+c(a-b)^2\\geqslant 0$$\n这是显然成立的。证毕。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.1.3 设 $a,b,c$ 是非负实数，证明\n$$(a+b)(b+c)(c+a)\\geqslant 8abc$$\n证明及分析 显然，不等式等价于\n$$ab(a+b)+bc(b+c)+ca(c+a)\\geqslant 6abc$$\n可以改写成\n$$a(b^2+c^2-2bc)+b(c^2+a^2-2ca)+c(a^2+b^2-2ab)\\geqslant 0$$\n或\n$$a(b-c)^2+b(c-a)^2+c(a-b)^2\\geqslant 0$$\n这是显然成立的。证毕。",
+    "tags": [
+      "平方分析法",
+      "SOS",
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

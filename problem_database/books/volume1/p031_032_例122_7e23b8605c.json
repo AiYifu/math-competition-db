@@ -1,0 +1,54 @@
+{
+  "uid": "p031_032_例122_7e23b8605c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.2",
+  "section": null,
+  "problem_id": "例1.2.2",
+  "problem_type": "example",
+  "title": "求出下列表达式的SOS表示",
+  "source_pages": [
+    31,
+    32
+  ],
+  "source_images": [
+    "page-031.jpg",
+    "page-032.jpg"
+  ],
+  "stem_md": "求出下列表达式的SOS表示\n$$f(a,b,c)=m(a-b)(a-c)+n(b-c)(b-a)+p(c-a)(c-b)$$",
+  "solution_md": "我们有\n$$f(a,b,c)=\\frac{1}{2}\\sum m[(a-b)^2+(a-c)^2+(b-c)^2]$$\n$$=\\frac{1}{2}\\sum(m+n-p)(a-b)^2$$\n即\n$$=\\frac{1}{2}(m+n-p)(a-b)^2+\\frac{1}{2}(n+p-m)(b-c)^2+\\frac{1}{2}(p+m-n)(c-a)^2$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.2.2 求出下列表达式的 SOS 表示\n$$f(a,b,c)=m(a-b)(a-c)+n(b-c)(b-a)+p(c-a)(c-b)$$\n解 我们有\n$$f(a,b,c)=\\frac{1}{2}\\sum m[(a-b)^2+(a-c)^2+(b-c)^2]$$\n$$=\\frac{1}{2}\\sum(m+n-p)(a-b)^2$$\n即\n$$=\\frac{1}{2}(m+n-p)(a-b)^2+\\frac{1}{2}(n+p-m)(b-c)^2+$$\n$$\\frac{1}{2}(p+m-n)(c-a)^2$$",
+  "tags": [
+    "SOS",
+    "恒等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004",
+  "raw_response_file": "raw/chunk-0004.response.txt",
+  "raw_api_file": "raw/chunk-0004.api.json",
+  "fingerprint": "7e23b8605c84d8ce782be1302e5536c1322c11e9",
+  "raw_problem": {
+    "problem_id": "例1.2.2",
+    "problem_type": "example",
+    "chapter": "1.2",
+    "section": null,
+    "title": "求出下列表达式的SOS表示",
+    "source_pages": [
+      31,
+      32
+    ],
+    "stem_md": "求出下列表达式的SOS表示\n$$f(a,b,c)=m(a-b)(a-c)+n(b-c)(b-a)+p(c-a)(c-b)$$",
+    "solution_md": "我们有\n$$f(a,b,c)=\\frac{1}{2}\\sum m[(a-b)^2+(a-c)^2+(b-c)^2]$$\n$$=\\frac{1}{2}\\sum(m+n-p)(a-b)^2$$\n即\n$$=\\frac{1}{2}(m+n-p)(a-b)^2+\\frac{1}{2}(n+p-m)(b-c)^2+\\frac{1}{2}(p+m-n)(c-a)^2$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.2.2 求出下列表达式的 SOS 表示\n$$f(a,b,c)=m(a-b)(a-c)+n(b-c)(b-a)+p(c-a)(c-b)$$\n解 我们有\n$$f(a,b,c)=\\frac{1}{2}\\sum m[(a-b)^2+(a-c)^2+(b-c)^2]$$\n$$=\\frac{1}{2}\\sum(m+n-p)(a-b)^2$$\n即\n$$=\\frac{1}{2}(m+n-p)(a-b)^2+\\frac{1}{2}(n+p-m)(b-c)^2+$$\n$$\\frac{1}{2}(p+m-n)(c-a)^2$$",
+    "tags": [
+      "SOS",
+      "恒等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

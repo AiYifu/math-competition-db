@@ -1,0 +1,21 @@
+{
+  "uid": "p225_225_4_188899ee6a",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "4",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    225
+  ],
+  "stem_md": "4. (Nguyen Trung Kien, CPR) 设 $a, b, c$ 是正实数, 证明\n$$\n\\frac{(a+b)^2}{(b+c)^2} + \\frac{(b+c)^2}{(c+a)^2} + \\frac{(c+a)^2}{(a+b)^2} + \\frac{2abc}{a^3+b^3+c^3} \\geqslant \\frac{11}{3}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "4. (Nguyen Trung Kien, CPR) 设 $a, b, c$ 是正实数, 证明\n$$\n\\frac{(a+b)^2}{(b+c)^2} + \\frac{(b+c)^2}{(c+a)^2} + \\frac{(c+a)^2}{(a+b)^2} + \\frac{2abc}{a^3+b^3+c^3} \\geqslant \\frac{11}{3}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

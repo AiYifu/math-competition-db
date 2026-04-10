@@ -1,0 +1,51 @@
+{
+  "uid": "p058_058_习题10_6f443df6ba",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题10",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    58
+  ],
+  "source_images": [
+    "page-058.jpg"
+  ],
+  "stem_md": "(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{b+c}{2a^2+bc}+\\frac{c+a}{2b^2+ca}+\\frac{a+b}{2c^2+ab}\\geqslant\\frac{6}{a+b+c}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "10.(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{b+c}{2a^2+bc}+\\frac{c+a}{2b^2+ca}+\\frac{a+b}{2c^2+ab}\\geqslant\\frac{6}{a+b+c}$$",
+  "tags": [
+    "对称不等式",
+    "Vasc不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "6f443df6baf7e29e1d6cd8570b32827005679507",
+  "raw_problem": {
+    "problem_id": "习题10",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      58
+    ],
+    "stem_md": "(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{b+c}{2a^2+bc}+\\frac{c+a}{2b^2+ca}+\\frac{a+b}{2c^2+ab}\\geqslant\\frac{6}{a+b+c}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "10.(Vasile Cirtoaje, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{b+c}{2a^2+bc}+\\frac{c+a}{2b^2+ca}+\\frac{a+b}{2c^2+ab}\\geqslant\\frac{6}{a+b+c}$$",
+    "tags": [
+      "对称不等式",
+      "Vasc不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

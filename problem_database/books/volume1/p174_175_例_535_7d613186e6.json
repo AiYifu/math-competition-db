@@ -1,0 +1,56 @@
+{
+  "uid": "p174_175_例_535_7d613186e6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.5",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Moldova TST 2006",
+  "source_pages": [
+    174,
+    175
+  ],
+  "source_images": [
+    "page-174.jpg",
+    "page-175.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2\\left(\\frac{b}{c}-1\\right)+b^2\\left(\\frac{c}{a}-1\\right)+c^2\\left(\\frac{a}{b}-1\\right)\\geqslant 0$$",
+  "solution_md": "不等式等价于 $\\sum a^3b^2\\geqslant\\sum a^3bc$。注意到\n$$\\sum a^2(b^3-c^3)=\\sum a^2(b-c)^3$$\n则，我们有（因为 $a,b,c$ 是三角形三边长）\n$$\\begin{aligned}2\\sum a^3b^2-2\\sum a^3bc&=\\sum a^3(b^2-2bc+c^2)-\\sum a^2(b^3-c^3)\\\\&=\\sum a^3(b-c)^2-\\sum a^2(b-c)^3\\\\&=\\sum a^2(a-b+c)(b-c)^2\\geqslant 0\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.5(Vasile Cirtoaje, Moldova TST 2006) 设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2\\left(\\frac{b}{c}-1\\right)+b^2\\left(\\frac{c}{a}-1\\right)+c^2\\left(\\frac{a}{b}-1\\right)\\geqslant 0$$\n证明 不等式等价于 $\\sum a^3b^2\\geqslant\\sum a^3bc$。注意到\n$$\\sum a^2(b^3-c^3)=\\sum a^2(b-c)^3$$\n则，我们有（因为 $a,b,c$ 是三角形三边长）\n$$2\\sum a^3b^2-2\\sum a^3bc=\\sum a^3(b^2-2bc+c^2)-\\sum a^2(b^3-c^3)$$\n$$=\\sum a^3(b-c)^2-\\sum a^2(b-c)^3$$\n$$=\\sum a^2(a-b+c)(b-c)^2\\geqslant 0$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+  "tags": [
+    "Moldova TST",
+    "三角形不等式",
+    "恒等变形"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "7d613186e6b8db9c9a9113363a288fd005565c1e",
+  "raw_problem": {
+    "problem_id": "例 5.3.5",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Vasile Cirtoaje, Moldova TST 2006",
+    "source_pages": [
+      174,
+      175
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2\\left(\\frac{b}{c}-1\\right)+b^2\\left(\\frac{c}{a}-1\\right)+c^2\\left(\\frac{a}{b}-1\\right)\\geqslant 0$$",
+    "solution_md": "不等式等价于 $\\sum a^3b^2\\geqslant\\sum a^3bc$。注意到\n$$\\sum a^2(b^3-c^3)=\\sum a^2(b-c)^3$$\n则，我们有（因为 $a,b,c$ 是三角形三边长）\n$$\\begin{aligned}2\\sum a^3b^2-2\\sum a^3bc&=\\sum a^3(b^2-2bc+c^2)-\\sum a^2(b^3-c^3)\\\\&=\\sum a^3(b-c)^2-\\sum a^2(b-c)^3\\\\&=\\sum a^2(a-b+c)(b-c)^2\\geqslant 0\\end{aligned}$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.5(Vasile Cirtoaje, Moldova TST 2006) 设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2\\left(\\frac{b}{c}-1\\right)+b^2\\left(\\frac{c}{a}-1\\right)+c^2\\left(\\frac{a}{b}-1\\right)\\geqslant 0$$\n证明 不等式等价于 $\\sum a^3b^2\\geqslant\\sum a^3bc$。注意到\n$$\\sum a^2(b^3-c^3)=\\sum a^2(b-c)^3$$\n则，我们有（因为 $a,b,c$ 是三角形三边长）\n$$2\\sum a^3b^2-2\\sum a^3bc=\\sum a^3(b^2-2bc+c^2)-\\sum a^2(b^3-c^3)$$\n$$=\\sum a^3(b-c)^2-\\sum a^2(b-c)^3$$\n$$=\\sum a^2(a-b+c)(b-c)^2\\geqslant 0$$\n不等式得证，等号成立的条件是 $a=b=c$。",
+    "tags": [
+      "Moldova TST",
+      "三角形不等式",
+      "恒等变形"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_10_a2c04b79c7",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "10",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "(反向柯西不等式——Polya-Szego 不等式) 设 $0 < m_{1} \\leqslant a_{i} \\leqslant M_{1}$, $0 < m_{2} \\leqslant b_{i} \\leqslant M_{2}$, $i = 1, 2, \\cdots, n$, 则有: $$\\frac{\\left(\\sum_{i=1}^{n} a_{i}^{2}\\right)\\left(\\sum_{i=1}^{n} b_{i}^{2}\\right)}{\\left(\\sum_{i=1}^{n} a_{i}b_{i}\\right)^{2}} \\leqslant \\frac{1}{4} \\cdot \\left(\\sqrt{\\frac{M_{1}M_{2}}{m_{1}m_{2}}} + \\sqrt{\\frac{m_{1}m_{2}}{M_{1}M_{2}}}\\right)^{2}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "10 (反向柯西不等式——Polya-Szego 不等式) 设 $0 < m_{1} \\leqslant a_{i} \\leqslant M_{1}$, $0 < m_{2} \\leqslant b_{i} \\leqslant M_{2}$, $i = 1, 2, \\cdots, n$, 则有: $$\\frac{\\left(\\sum_{i=1}^{n} a_{i}^{2}\\right)\\left(\\sum_{i=1}^{n} b_{i}^{2}\\right)}{\\left(\\sum_{i=1}^{n} a_{i}b_{i}\\right)^{2}} \\leqslant \\frac{1}{4} \\cdot \\left(\\sqrt{\\frac{M_{1}M_{2}}{m_{1}m_{2}}} + \\sqrt{\\frac{m_{1}m_{2}}{M_{1}M_{2}}}\\right)^{2}.$$",
+  "tags": [
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

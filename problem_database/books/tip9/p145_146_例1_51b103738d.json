@@ -1,0 +1,25 @@
+{
+  "uid": "p145_146_例1_51b103738d",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "10.1",
+  "problem_id": "例1",
+  "problem_type": "example",
+  "title": "求证",
+  "source_pages": [
+    145,
+    146
+  ],
+  "stem_md": "求证: $$\\left|\\sum_{k=1}^{n}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|\\leqslant 3\\sqrt{n}\\ (n\\in\\mathbf{N}_{+}).$$",
+  "solution_md": "分析 对于单调递降、正负交错的数列, 我们可以采用下列处理方法: 设 $a_{1}>a_{2}>\\cdots>a_{k}>0$, 则有\n\n$-a_{1}<a_{1}-a_{2}+a_{3}-a_{4}+\\cdots<a_{1}.$\n\n(1)是不难证明的. 回到原题, 估计左边出现了两种可能的方法: (1) 平凡估计每一项, 都放到最大, 则左边 $\\leqslant n$. (2) 利用(1)可得\n\n$\\begin{aligned}\\left|\\sum_{k=1}^{n}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|&=\\left|\\sum_{k=1}^{n}(-1)^{k}\\frac{n}{k}-\\sum_{k=1}^{n}(-1)^{k}\\left[\\frac{n}{k}\\right]\\right|\\\\&\\leqslant\\left|\\sum_{k=1}^{n}(-1)^{k}\\cdot\\frac{n}{k}\\right|+\\left|\\sum_{k=1}^{n}(-1)^{k}\\left[\\frac{n}{k}\\right]\\right|\\\\&\\leqslant\\frac{n}{A}+\\left[\\frac{n}{A}\\right]\\leqslant\\frac{2n}{A}.\\ (A\\text{为参数})\\end{aligned}$\n\n故原式左边 $\\leqslant\\left|\\sum_{k\\leqslant A-1}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|+\\left|\\sum_{k\\geqslant A}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|\\leqslant\\left|\\sum_{k\\leqslant A-1}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|+\\left|\\sum_{k\\geqslant A}(-1)^{k}\\frac{n}{k}\\right|+\\left|\\sum_{k\\geqslant A}(-1)^{k}\\left[\\frac{n}{k}\\right]\\right|\\leqslant(A-1)+\\frac{2n}{A}.$\n\n其中最后一步分别用了(1)和(2)两种估计方法. 取 $A=\\left[\\sqrt{2n}\\right]+1$, 则原式左边 $<\\sqrt{2n}+\\sqrt{2n}<3\\cdot\\sqrt{n}.$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例1 求证: $$\\left|\\sum_{k=1}^{n}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|\\leqslant 3\\sqrt{n}\\ (n\\in\\mathbf{N}_{+}).$$ 分析 对于单调递降、正负交错的数列, 我们可以采用下列处理方法: 设 $a_{1}>a_{2}>\\cdots>a_{k}>0$, 则有\n\n$-a_{1}<a_{1}-a_{2}+a_{3}-a_{4}+\\cdots<a_{1}.$\n\n(1)是不难证明的. 回到原题, 估计左边出现了两种可能的方法: (1) 平凡估计每一项, 都放到最大, 则左边 $\\leqslant n$. (2) 利用(1)可得\n\n$\\begin{aligned}\\left|\\sum_{k=1}^{n}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|&=\\left|\\sum_{k=1}^{n}(-1)^{k}\\frac{n}{k}-\\sum_{k=1}^{n}(-1)^{k}\\left[\\frac{n}{k}\\right]\\right|\\\\&\\leqslant\\left|\\sum_{k=1}^{n}(-1)^{k}\\cdot\\frac{n}{k}\\right|+\\left|\\sum_{k=1}^{n}(-1)^{k}\\left[\\frac{n}{k}\\right]\\right|\\\\&\\leqslant\\frac{n}{A}+\\left[\\frac{n}{A}\\right]\\leqslant\\frac{2n}{A}.\\ (A\\text{为参数})\\end{aligned}$\n\n故原式左边 $\\leqslant\\left|\\sum_{k\\leqslant A-1}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|+\\left|\\sum_{k\\geqslant A}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|\\leqslant\\left|\\sum_{k\\leqslant A-1}(-1)^{k}\\left\\{\\frac{n}{k}\\right\\}\\right|+\\left|\\sum_{k\\geqslant A}(-1)^{k}\\frac{n}{k}\\right|+\\left|\\sum_{k\\geqslant A}(-1)^{k}\\left[\\frac{n}{k}\\right]\\right|\\leqslant(A-1)+\\frac{2n}{A}.$\n\n其中最后一步分别用了(1)和(2)两种估计方法. 取 $A=\\left[\\sqrt{2n}\\right]+1$, 则原式左边 $<\\sqrt{2n}+\\sqrt{2n}<3\\cdot\\sqrt{n}.$",
+  "tags": [
+    "不等式",
+    "证明方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019"
+}

@@ -1,0 +1,57 @@
+{
+  "uid": "p162_163_例515_448b612976",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "例5.1.5",
+  "problem_type": "example",
+  "title": "例5.1.5",
+  "source_pages": [
+    162,
+    163
+  ],
+  "source_images": [
+    "page-162.jpg"
+  ],
+  "stem_md": "(Titu Andreescu, Gabriel Dospinescu, Old and New Inequalities) 设 $a,b,c$ 是非负实数，其和为1，证明\n$$(a^2+b^2)(b^2+c^2)(c^2+a^2) \\geqslant 8(a^2b^2+b^2c^2+c^2a^2)^2$$",
+  "solution_md": "令 $m=\\frac{1}{a}, n=\\frac{1}{b}, p=\\frac{1}{c}$，则 $\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}=1$，我们来证明\n$$(m^2+n^2)(n^2+p^2)(p^2+m^2) \\geqslant 8(m^2+n^2+p^2)^2$$\n$$\\Leftrightarrow (m^2+n^2)(n^2+p^2)(p^2+m^2)\\left(\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right)^2 \\geqslant 8(m^2+n^2+p^2)^2$$\n\n又设 $m^2+n^2=2x, n^2+p^2=2y, p^2+m^2=2z$，则上述不等式变成\n$$\\sqrt{\\frac{xyz}{x+y-z}} + \\sqrt{\\frac{xyz}{y+z-x}} + \\sqrt{\\frac{xyz}{z+x-y}} \\geqslant x+y+z$$\n\n由四次 Schur 不等式，有\n$$\\sum x^4 + xyz(x+y+z) \\geqslant \\sum x^3(y+z) \\quad (1)$$\n$$\\Leftrightarrow xyz(x+y+z) \\geqslant \\sum z^3(x+y-z)$$\n\n由 Hölder 不等式，有\n$$\\sum (x+y-z)z^3 \\cdot \\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^3 \\quad (2)$$\n$$\\Rightarrow \\sum (x+y-z)z^3 \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n\n由(1)和(2)，有\n$$xyz(x+y+z) \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n$$\\Leftrightarrow xyz\\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^2$$\n$$\\Leftrightarrow \\sum \\sqrt{\\frac{xyz}{x+y-z}} \\geqslant \\sum x$$\n\n因此，不等式得证。等号成立的条件是 $x=y=z$ 或 $a=b=c=\\frac{1}{3}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.5(Titu Andreescu, Gabriel Dospinescu, Old and New Inequalities) 设 $a,b,c$ 是非负实数，其和为1，证明\n$$(a^2+b^2)(b^2+c^2)(c^2+a^2) \\geqslant 8(a^2b^2+b^2c^2+c^2a^2)^2$$\n\n证明 令 $m=\\frac{1}{a}, n=\\frac{1}{b}, p=\\frac{1}{c}$，则 $\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}=1$，我们来证明\n$$(m^2+n^2)(n^2+p^2)(p^2+m^2) \\geqslant 8(m^2+n^2+p^2)^2$$\n$$\\Leftrightarrow (m^2+n^2)(n^2+p^2)(p^2+m^2)\\left(\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right)^2 \\geqslant 8(m^2+n^2+p^2)^2$$\n\n又设 $m^2+n^2=2x, n^2+p^2=2y, p^2+m^2=2z$，则上述不等式变成\n$$\\sqrt{\\frac{xyz}{x+y-z}} + \\sqrt{\\frac{xyz}{y+z-x}} + \\sqrt{\\frac{xyz}{z+x-y}} \\geqslant x+y+z$$\n\n由四次 Schur 不等式，有\n$$\\sum x^4 + xyz(x+y+z) \\geqslant \\sum x^3(y+z) \\quad (1)$$\n$$\\Leftrightarrow xyz(x+y+z) \\geqslant \\sum z^3(x+y-z)$$\n\n由 Hölder 不等式，有\n$$\\sum (x+y-z)z^3 \\cdot \\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^3 \\quad (2)$$\n$$\\Rightarrow \\sum (x+y-z)z^3 \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n\n由(1)和(2)，有\n$$xyz(x+y+z) \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n$$\\Leftrightarrow xyz\\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^2$$\n$$\\Leftrightarrow \\sum \\sqrt{\\frac{xyz}{x+y-z}} \\geqslant \\sum x$$\n\n因此，不等式得证。等号成立的条件是 $x=y=z$ 或 $a=b=c=\\frac{1}{3}$。",
+  "tags": [
+    "例题",
+    "Schur不等式",
+    "Hölder不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "448b612976cae4a24ea29788e0c78d18cbe81059",
+  "raw_problem": {
+    "problem_id": "例5.1.5",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "例5.1.5",
+    "source_pages": [
+      162,
+      163
+    ],
+    "stem_md": "(Titu Andreescu, Gabriel Dospinescu, Old and New Inequalities) 设 $a,b,c$ 是非负实数，其和为1，证明\n$$(a^2+b^2)(b^2+c^2)(c^2+a^2) \\geqslant 8(a^2b^2+b^2c^2+c^2a^2)^2$$",
+    "solution_md": "令 $m=\\frac{1}{a}, n=\\frac{1}{b}, p=\\frac{1}{c}$，则 $\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}=1$，我们来证明\n$$(m^2+n^2)(n^2+p^2)(p^2+m^2) \\geqslant 8(m^2+n^2+p^2)^2$$\n$$\\Leftrightarrow (m^2+n^2)(n^2+p^2)(p^2+m^2)\\left(\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right)^2 \\geqslant 8(m^2+n^2+p^2)^2$$\n\n又设 $m^2+n^2=2x, n^2+p^2=2y, p^2+m^2=2z$，则上述不等式变成\n$$\\sqrt{\\frac{xyz}{x+y-z}} + \\sqrt{\\frac{xyz}{y+z-x}} + \\sqrt{\\frac{xyz}{z+x-y}} \\geqslant x+y+z$$\n\n由四次 Schur 不等式，有\n$$\\sum x^4 + xyz(x+y+z) \\geqslant \\sum x^3(y+z) \\quad (1)$$\n$$\\Leftrightarrow xyz(x+y+z) \\geqslant \\sum z^3(x+y-z)$$\n\n由 Hölder 不等式，有\n$$\\sum (x+y-z)z^3 \\cdot \\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^3 \\quad (2)$$\n$$\\Rightarrow \\sum (x+y-z)z^3 \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n\n由(1)和(2)，有\n$$xyz(x+y+z) \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n$$\\Leftrightarrow xyz\\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^2$$\n$$\\Leftrightarrow \\sum \\sqrt{\\frac{xyz}{x+y-z}} \\geqslant \\sum x$$\n\n因此，不等式得证。等号成立的条件是 $x=y=z$ 或 $a=b=c=\\frac{1}{3}$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.5(Titu Andreescu, Gabriel Dospinescu, Old and New Inequalities) 设 $a,b,c$ 是非负实数，其和为1，证明\n$$(a^2+b^2)(b^2+c^2)(c^2+a^2) \\geqslant 8(a^2b^2+b^2c^2+c^2a^2)^2$$\n\n证明 令 $m=\\frac{1}{a}, n=\\frac{1}{b}, p=\\frac{1}{c}$，则 $\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}=1$，我们来证明\n$$(m^2+n^2)(n^2+p^2)(p^2+m^2) \\geqslant 8(m^2+n^2+p^2)^2$$\n$$\\Leftrightarrow (m^2+n^2)(n^2+p^2)(p^2+m^2)\\left(\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right)^2 \\geqslant 8(m^2+n^2+p^2)^2$$\n\n又设 $m^2+n^2=2x, n^2+p^2=2y, p^2+m^2=2z$，则上述不等式变成\n$$\\sqrt{\\frac{xyz}{x+y-z}} + \\sqrt{\\frac{xyz}{y+z-x}} + \\sqrt{\\frac{xyz}{z+x-y}} \\geqslant x+y+z$$\n\n由四次 Schur 不等式，有\n$$\\sum x^4 + xyz(x+y+z) \\geqslant \\sum x^3(y+z) \\quad (1)$$\n$$\\Leftrightarrow xyz(x+y+z) \\geqslant \\sum z^3(x+y-z)$$\n\n由 Hölder 不等式，有\n$$\\sum (x+y-z)z^3 \\cdot \\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^3 \\quad (2)$$\n$$\\Rightarrow \\sum (x+y-z)z^3 \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n\n由(1)和(2)，有\n$$xyz(x+y+z) \\geqslant \\frac{(\\sum x)^3}{(\\sum \\frac{1}{\\sqrt{x+y-z}})^2}$$\n$$\\Leftrightarrow xyz\\left(\\sum \\frac{1}{\\sqrt{x+y-z}}\\right)^2 \\geqslant (\\sum x)^2$$\n$$\\Leftrightarrow \\sum \\sqrt{\\frac{xyz}{x+y-z}} \\geqslant \\sum x$$\n\n因此，不等式得证。等号成立的条件是 $x=y=z$ 或 $a=b=c=\\frac{1}{3}$。",
+    "tags": [
+      "例题",
+      "Schur不等式",
+      "Hölder不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

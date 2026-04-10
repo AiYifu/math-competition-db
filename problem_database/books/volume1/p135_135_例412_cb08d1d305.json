@@ -1,0 +1,53 @@
+{
+  "uid": "p135_135_例412_cb08d1d305",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.1",
+  "problem_id": "例4.1.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    135
+  ],
+  "source_images": [
+    "page-135.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是 $[-1,1]$ 上的实数，证明\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1$$",
+  "solution_md": "这个不等式直接证明是非常困难的。采用归纳法。当 $n=2$ 时，不等式可由下面这个不太容易想到的恒等式得到\n$$(1-a_1a_2+a_2^2)(1-a_2a_1+a_1^2)=1+(1-a_1a_2)(a_1-a_2)^2$$\n\n假设，不等式对 $n-1$ 个数成立，我们尝试证明不等式对 $n$ 个数也成立。事实上，如果 $a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$，则\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)-(1-a_1a_3+a_3^2)$$\n$$=(1-a_2a_3)(a_2-a_3)(a_2-a_1)\\geqslant 0\\quad(1)$$\n\n对 $n-1$ 个数 $a_1,a_3,\\cdots,a_n$，应用归纳假设，有\n$$(1-a_1a_3+a_3^2)(1-a_3a_4+a_4^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1\\quad(2)$$\n\n由(1)(2)两个不等式可知，原不等式对 $n$ 个数 $a_1,a_2,\\cdots,a_n$ 也成立。综上所述，原不等式成立。",
+  "answer_md": "",
+  "hints_md": "Pham Thanh Nam, CPR",
+  "original_text_md": "例 4.1.2(Pham Thanh Nam,CPR) 设 $a_1,a_2,\\cdots,a_n$ 是 $[-1,1]$ 上的实数，证明\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1$$\n证明及分析 这个不等式直接证明是非常困难的。采用归纳法。当 $n=2$ 时，不等式可由下面这个不太容易想到的恒等式得到\n$$(1-a_1a_2+a_2^2)(1-a_2a_1+a_1^2)=1+(1-a_1a_2)(a_1-a_2)^2$$\n假设，不等式对 $n-1$ 个数成立，我们尝试证明不等式对 $n$ 个数也成立。事实上，如果 $a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$，则\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)-(1-a_1a_3+a_3^2)$$\n$$=(1-a_2a_3)(a_2-a_3)(a_2-a_1)\\geqslant 0\\quad(1)$$\n对 $n-1$ 个数 $a_1,a_3,\\cdots,a_n$，应用归纳假设，有\n$$(1-a_1a_3+a_3^2)(1-a_3a_4+a_4^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1\\quad(2)$$\n由(1)(2)两个不等式可知，原不等式对 $n$ 个数 $a_1,a_2,\\cdots,a_n$ 也成立。综上所述，原不等式成立。",
+  "tags": [
+    "归纳法",
+    "实数",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "cb08d1d305431e45522946fff899d57f8909bffe",
+  "raw_problem": {
+    "problem_id": "例4.1.2",
+    "problem_type": "example",
+    "chapter": "第4章",
+    "section": "4.1",
+    "title": null,
+    "source_pages": [
+      135
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是 $[-1,1]$ 上的实数，证明\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1$$",
+    "solution_md": "这个不等式直接证明是非常困难的。采用归纳法。当 $n=2$ 时，不等式可由下面这个不太容易想到的恒等式得到\n$$(1-a_1a_2+a_2^2)(1-a_2a_1+a_1^2)=1+(1-a_1a_2)(a_1-a_2)^2$$\n\n假设，不等式对 $n-1$ 个数成立，我们尝试证明不等式对 $n$ 个数也成立。事实上，如果 $a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$，则\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)-(1-a_1a_3+a_3^2)$$\n$$=(1-a_2a_3)(a_2-a_3)(a_2-a_1)\\geqslant 0\\quad(1)$$\n\n对 $n-1$ 个数 $a_1,a_3,\\cdots,a_n$，应用归纳假设，有\n$$(1-a_1a_3+a_3^2)(1-a_3a_4+a_4^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1\\quad(2)$$\n\n由(1)(2)两个不等式可知，原不等式对 $n$ 个数 $a_1,a_2,\\cdots,a_n$ 也成立。综上所述，原不等式成立。",
+    "answer_md": "",
+    "hints_md": "Pham Thanh Nam, CPR",
+    "original_text_md": "例 4.1.2(Pham Thanh Nam,CPR) 设 $a_1,a_2,\\cdots,a_n$ 是 $[-1,1]$ 上的实数，证明\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1$$\n证明及分析 这个不等式直接证明是非常困难的。采用归纳法。当 $n=2$ 时，不等式可由下面这个不太容易想到的恒等式得到\n$$(1-a_1a_2+a_2^2)(1-a_2a_1+a_1^2)=1+(1-a_1a_2)(a_1-a_2)^2$$\n假设，不等式对 $n-1$ 个数成立，我们尝试证明不等式对 $n$ 个数也成立。事实上，如果 $a_2=\\max\\{a_1,a_2,\\cdots,a_n\\}$，则\n$$(1-a_1a_2+a_2^2)(1-a_2a_3+a_3^2)-(1-a_1a_3+a_3^2)$$\n$$=(1-a_2a_3)(a_2-a_3)(a_2-a_1)\\geqslant 0\\quad(1)$$\n对 $n-1$ 个数 $a_1,a_3,\\cdots,a_n$，应用归纳假设，有\n$$(1-a_1a_3+a_3^2)(1-a_3a_4+a_4^2)\\cdots(1-a_na_1+a_1^2)\\geqslant 1\\quad(2)$$\n由(1)(2)两个不等式可知，原不等式对 $n$ 个数 $a_1,a_2,\\cdots,a_n$ 也成立。综上所述，原不等式成立。",
+    "tags": [
+      "归纳法",
+      "实数",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

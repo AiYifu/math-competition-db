@@ -1,0 +1,26 @@
+{
+  "uid": "p092_093_例2_4_4_86ef919adb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第2章",
+  "section": "2.4",
+  "problem_id": "例2.4.4",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathematics Reflection, 2006",
+  "source_pages": [
+    92,
+    93
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 且满足 $a + b + c = 3$, 证明 $a^2(a - b) + b^2(b - c) + c^2(c - a) \\geqslant 2(a - b)(b - c)$",
+  "solution_md": "证明 不失一般性, 设 $a \\geqslant b \\geqslant c$, 记 $S = \\max\\{|a - b|, |b - c|, |c - a|\\}$ $\\leqslant \\frac{8}{3}S + 2 - \\frac{2}{3}(ab + bc + ca)$ $\\Leftrightarrow \\frac{1}{3}\\sum(a - b)^2 + \\frac{2}{9}\\sum c(a - b)^2 \\leqslant \\frac{8}{3}S + \\frac{1}{9}\\sum(a + b)(a - b)$ 这显然成立, 所以, (2) 成立. 根据这个结论, 我们只需证明在 $a = b + c$ 的条件下, (1) 成立即可. 这并不奇怪, 下面是这个结论的详细的原因. 假设 LHS$(a, b, c)$, RHS$(a, b, c)$ 分别表示 (1) 的左边和右边, 利用不等式 (2), 我们有 LHS$(a, b, c) - $LHS$(a - t, b - t, c - t) = S$ $\\geqslant P = $RHS$(a, b, c) - $RHS$(a - t, b - t, c - t)$ $\\Rightarrow $LHS$(a, b, c) - $RHS$(a, b, c)$ $\\geqslant $LHS$(a - t, b - t, c - t) - $RHS$(a - t, b - t, c - t)$ 因此, 如果不等式 (1) 对三个新变量 $a' = a - t, b' = b - t, c' = c - t$ 是成立的, 那么, 我们立即得到, 它对 $a, b, c$ 也是成立的. 根据 $a, b, c$ 是某三角形的三条边, 我们来选择一个有效的 $t$ 值, 注意到, $a \\leqslant b + c$, 那么, 一定存在一个数 $t$, 满足 $a' = b' + c'$ (或 $t = b + c - a$). 返回原问题, 在 $a = b + c$ 条件下, 不等式 (1) 变成 $(b + c)c^3 + b(b + c)(b - c)^2 + cb^3 \\geqslant 2bc(b + c)(b - c)$ $\\Leftrightarrow (b^2 - bc - c^2)^2 + 2bc^3 \\geqslant 0$ 这是显然成立的, 等号成立的条件是 $a = b = c$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.4.4 (Pham Kim Hung, Mathematics Reflection, 2006) 设 $a, b, c$ 是非负实数, 且满足 $a + b + c = 3$, 证明 $a^2(a - b) + b^2(b - c) + c^2(c - a) \\geqslant 2(a - b)(b - c)$ 证明 不失一般性, 设 $a \\geqslant b \\geqslant c$, 记 $S = \\max\\{|a - b|, |b - c|, |c - a|\\}$ $\\leqslant \\frac{8}{3}S + 2 - \\frac{2}{3}(ab + bc + ca)$ $\\Leftrightarrow \\frac{1}{3}\\sum(a - b)^2 + \\frac{2}{9}\\sum c(a - b)^2 \\leqslant \\frac{8}{3}S + \\frac{1}{9}\\sum(a + b)(a - b)$ 这显然成立, 所以, (2) 成立. 根据这个结论, 我们只需证明在 $a = b + c$ 的条件下, (1) 成立即可. 这并不奇怪, 下面是这个结论的详细的原因. 假设 LHS$(a, b, c)$, RHS$(a, b, c)$ 分别表示 (1) 的左边和右边, 利用不等式 (2), 我们有 LHS$(a, b, c) - $LHS$(a - t, b - t, c - t) = S$ $\\geqslant P = $RHS$(a, b, c) - $RHS$(a - t, b - t, c - t)$ $\\Rightarrow $LHS$(a, b, c) - $RHS$(a, b, c)$ $\\geqslant $LHS$(a - t, b - t, c - t) - $RHS$(a - t, b - t, c - t)$ 因此, 如果不等式 (1) 对三个新变量 $a' = a - t, b' = b - t, c' = c - t$ 是成立的, 那么, 我们立即得到, 它对 $a, b, c$ 也是成立的. 根据 $a, b, c$ 是某三角形的三条边, 我们来选择一个有效的 $t$ 值, 注意到, $a \\leqslant b + c$, 那么, 一定存在一个数 $t$, 满足 $a' = b' + c'$ (或 $t = b + c - a$). 返回原问题, 在 $a = b + c$ 条件下, 不等式 (1) 变成 $(b + c)c^3 + b(b + c)(b - c)^2 + cb^3 \\geqslant 2bc(b + c)(b - c)$ $\\Leftrightarrow (b^2 - bc - c^2)^2 + 2bc^3 \\geqslant 0$ 这是显然成立的, 等号成立的条件是 $a = b = c$.",
+  "tags": [
+    "不等式",
+    "证明",
+    "变换"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012"
+}

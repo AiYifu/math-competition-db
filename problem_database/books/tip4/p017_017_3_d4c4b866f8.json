@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_3_d4c4b866f8",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "已知 $0 < a, b, c < 1$, 并且 $ab + bc + ca = 1$. 证明: $$\\frac{a}{1 - a^2} + \\frac{b}{1 - b^2} + \\frac{c}{1 - c^2} \\geqslant \\frac{3\\sqrt{3}}{2}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "已知 $0 < a, b, c < 1$, 并且 $ab + bc + ca = 1$. 证明: $$\\frac{a}{1 - a^2} + \\frac{b}{1 - b^2} + \\frac{c}{1 - c^2} \\geqslant \\frac{3\\sqrt{3}}{2}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

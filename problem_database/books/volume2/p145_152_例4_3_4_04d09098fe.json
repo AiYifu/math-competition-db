@@ -1,0 +1,33 @@
+{
+  "uid": "p145_152_例4_3_4_04d09098fe",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第4章",
+  "section": "3.4",
+  "problem_id": "例4.3.4",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是非负实数, 且满足 $a_1 + a_2 + \\cdots + a_n = n$, 证明\n$$n^2 \\left( \\frac{1}{a_1^2} + \\frac{1}{a_2^2} + \\cdots + \\frac{1}{a_n^2} - n \\right) \\geqslant 10(n-1) \\left( a_1^2 + a_2^2 + \\cdots + a_n^2 - n \\right)$$",
+  "solution_md": "定义序列 $\\{d_n\\}_{n \\geqslant 2}$ 如下\n$$d_2 = 3, d_n = \\frac{10(n-1)}{n^2} \\quad \\forall n \\geqslant 3$$\n不难证明 $\\{d_n\\}_{n \\geqslant 2}$ 是递减的. 对于 $k = d_n$, 我们来证明\n$$n^2 \\left( \\frac{1}{x^2} + \\frac{1}{\\left[ n - (n-1)x \\right]^2} - n \\right) \\geqslant 10(n-1) \\left\\{ (n-1)x^2 + \\left[ n - (n-1)x \\right]^2 - n \\right\\}$$\n注意到\n$$\\begin{aligned}\\text{LHS} &= n^3(n-1)(1-x)^2 \\left\\{ \\frac{1}{x^2 \\left[ n - (n-1)x \\right]} + \\frac{1}{x \\left[ n - (n-1)x \\right]^2} + \\frac{1}{x \\left[ n - (n-1)x \\right]^3} \\right\\} \\\\&\\geqslant 10(n-1) \\left\\{ (n-1)x^2 + \\left[ n - (n-1)x \\right]^2 - n \\right\\}\\end{aligned}$$\n所以, 只需证明 $h(x) \\geqslant \\frac{10(n-1)}{n^2}$, 其中\n$$h(x) = \\frac{1}{x^2 \\left[ n - (n-1)x \\right]} + \\frac{1}{x \\left[ n - (n-1)x \\right]^2} + \\frac{1}{x \\left[ n - (n-1)x \\right]^3}$$\n求 $h(x)$ 的一阶导数\n$$h'(x) = -\\frac{2 \\left[ n - (n-1)x \\right] - (n-1)x}{x^3 \\left[ n - (n-1)x \\right]^2} - \\frac{\\left[ n - (n-1)x \\right] - 2(n-1)x}{x^2 \\left[ n - (n-1)x \\right]^3} - \\frac{n - 2(n-1)x}{x^2 \\left[ n - (n-1)x \\right]^2}$$\n因此可见, $h'(x)$ 和 $g(x)$ 有相同的符号\n$$\\begin{aligned}g(x) &= -\\frac{2n}{x} + 2(n-1) + n - 1 + \\frac{2(n-1)x}{n - (n-1)x} - n + 2(n-1)x \\\\&= (2n-6) + 2(n-1)x + \\frac{2n}{n - (n-1)x} - \\frac{2n}{x}\\end{aligned}$$\n由于 $g(x)$ 在 $\\left[ 0, \\frac{n}{n-1} \\right]$ 上是严格增函数, 它有唯一的实根 $x_0 \\in \\left[ 0, \\frac{n}{n-1} \\right]$, 所以, 有\n$$\\begin{aligned}0 &= \\frac{g(x_0)}{2} = n - 3 + (n-1)x_0 + \\frac{2(n-1)}{n - (n-1)x_0} - \\frac{11}{3} \\geqslant 0 \\quad (n \\geqslant 8)\\end{aligned}$$\n这样, 对每一个情况, 我们证明了不等式.\n注 根据这个结果, 我们很容易得出下列不等式.\n设 $x_1, x_2, \\cdots, x_n (2 \\leqslant n \\leqslant 9)$ 是正实数, 且其和为 $n$, 则\n$$\\frac{1}{x_1^2} + \\frac{1}{x_2^2} + \\cdots + \\frac{1}{x_n^2} - n \\geqslant p \\left( x_1^2 + x_2^2 + \\cdots + x_n^2 - n \\right)$$\n其中 $p = \\frac{10(n-1)}{n^2} + \\frac{27(n-1)}{4n^3} = \\frac{10 \\times 8}{9^2} + \\frac{27 \\times 8}{4 \\times 9^3} = \\frac{80}{81} + \\frac{1}{36} > 1$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.3.4(Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是非负实数, 且满足 $a_1 + a_2 + \\cdots + a_n = n$, 证明\n$$n^2 \\left( \\frac{1}{a_1^2} + \\frac{1}{a_2^2} + \\cdots + \\frac{1}{a_n^2} - n \\right) \\geqslant 10(n-1) \\left( a_1^2 + a_2^2 + \\cdots + a_n^2 - n \\right)$$\n证明 定义序列 $\\{d_n\\}_{n \\geqslant 2}$ 如下\n$$d_2 = 3, d_n = \\frac{10(n-1)}{n^2} \\quad \\forall n \\geqslant 3$$\n不难证明 $\\{d_n\\}_{n \\geqslant 2}$ 是递减的. 对于 $k = d_n$, 我们来证明\n$$n^2 \\left( \\frac{1}{x^2} + \\frac{1}{\\left[ n - (n-1)x \\right]^2} - n \\right) \\geqslant 10(n-1) \\left\\{ (n-1)x^2 + \\left[ n - (n-1)x \\right]^2 - n \\right\\}$$\n注意到\n$$\\begin{aligned}\\text{LHS} &= n^3(n-1)(1-x)^2 \\left\\{ \\frac{1}{x^2 \\left[ n - (n-1)x \\right]} + \\frac{1}{x \\left[ n - (n-1)x \\right]^2} + \\frac{1}{x \\left[ n - (n-1)x \\right]^3} \\right\\} \\\\&\\geqslant 10(n-1) \\left\\{ (n-1)x^2 + \\left[ n - (n-1)x \\right]^2 - n \\right\\}\\end{aligned}$$\n所以, 只需证明 $h(x) \\geqslant \\frac{10(n-1)}{n^2}$, 其中\n$$h(x) = \\frac{1}{x^2 \\left[ n - (n-1)x \\right]} + \\frac{1}{x \\left[ n - (n-1)x \\right]^2} + \\frac{1}{x \\left[ n - (n-1)x \\right]^3}$$\n求 $h(x)$ 的一阶导数\n$$h'(x) = -\\frac{2 \\left[ n - (n-1)x \\right] - (n-1)x}{x^3 \\left[ n - (n-1)x \\right]^2} - \\frac{\\left[ n - (n-1)x \\right] - 2(n-1)x}{x^2 \\left[ n - (n-1)x \\right]^3} - \\frac{n - 2(n-1)x}{x^2 \\left[ n - (n-1)x \\right]^2}$$\n因此可见, $h'(x)$ 和 $g(x)$ 有相同的符号\n$$\\begin{aligned}g(x) &= -\\frac{2n}{x} + 2(n-1) + n - 1 + \\frac{2(n-1)x}{n - (n-1)x} - n + 2(n-1)x \\\\&= (2n-6) + 2(n-1)x + \\frac{2n}{n - (n-1)x} - \\frac{2n}{x}\\end{aligned}$$\n由于 $g(x)$ 在 $\\left[ 0, \\frac{n}{n-1} \\right]$ 上是严格增函数, 它有唯一的实根 $x_0 \\in \\left[ 0, \\frac{n}{n-1} \\right]$, 所以, 有\n$$\\begin{aligned}0 &= \\frac{g(x_0)}{2} = n - 3 + (n-1)x_0 + \\frac{2(n-1)}{n - (n-1)x_0} - \\frac{11}{3} \\geqslant 0 \\quad (n \\geqslant 8)\\end{aligned}$$\n这样, 对每一个情况, 我们证明了不等式.\n注 根据这个结果, 我们很容易得出下列不等式.\n设 $x_1, x_2, \\cdots, x_n (2 \\leqslant n \\leqslant 9)$ 是正实数, 且其和为 $n$, 则\n$$\\frac{1}{x_1^2} + \\frac{1}{x_2^2} + \\cdots + \\frac{1}{x_n^2} - n \\geqslant p \\left( x_1^2 + x_2^2 + \\cdots + x_n^2 - n \\right)$$\n其中 $p = \\frac{10(n-1)}{n^2} + \\frac{27(n-1)}{4n^3} = \\frac{10 \\times 8}{9^2} + \\frac{27 \\times 8}{4 \\times 9^3} = \\frac{80}{81} + \\frac{1}{36} > 1$",
+  "tags": [
+    "不等式",
+    "证明",
+    "序列",
+    "导数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019"
+}

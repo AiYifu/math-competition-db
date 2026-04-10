@@ -1,0 +1,56 @@
+{
+  "uid": "p089_090_例241_d1228b2e50",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.4",
+  "section": "整合全部变量法",
+  "problem_id": "例2.4.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    89,
+    90
+  ],
+  "source_images": [
+    "page-089.jpg",
+    "page-090.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是互不相同的非负实数，证明\n$$(xy+zx+yz)\\left[\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}\\right] \\geqslant 4$$",
+  "solution_md": "我们观察到，不等式的左边是两个表达式之积，一个是 $xy+yz+zx$，另一个是 $\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}$。两者之间有明显的不同，第一个表达式是三个数 $xy,yz,zx$ 的和，第二个表达式是三个数 $x,y,z$ 的差 $x-y,y-z,z-x$。\n\n不失一般性，设 $x \\geqslant y \\geqslant z$，我们进行下面的变换\n$$(x,y,z) \\rightarrow (x-t,y-t,z-t) \\quad (0 \\leqslant t \\leqslant \\min\\{x,y,z\\})$$\n经过这个变换之后，第一个表达式是减少的，而第二个表达式是不变的(因为，在这个变换下，变量的差是不变的)。所以，经过这个变换之后，不等式的左边是减少的，我们可以根据变量 $t \\in [0,z]$，自由地减少不等式的左边。我们选择一个最好的可能，即 $t=z$。在这种情况下，得到新的变量组 $(x-z,y-z,0)$。我们要证明原不等式当 $x \\rightarrow x'=x-z \\geqslant 0, y \\rightarrow y'=y-z \\geqslant 0, z \\rightarrow 0$ 时成立。换句话说，只要证明在条件 $\\min\\{x,y,z\\}=0$ 下，原不等式成立即可，此时，不等式变成\n$$xy\\left[\\frac{1}{x^2}+\\frac{1}{y^2}+\\frac{1}{(x-y)^2}\\right] \\geqslant 4 \\Leftrightarrow \\frac{(x-y)^2}{xy}+\\frac{xy}{(x-y)^2} \\geqslant 2$$\n由 AM-GM 不等式，这是显然成立的，等号成立的条件是 $(x,y,z) \\sim \\left(\\frac{3+\\sqrt{5}}{2},1,0\\right)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.4.1(Pham Sinh Tan,CPR) 设 $x,y,z$ 是互不相同的非负实数,证明\n$$(xy+zx+yz)\\left[\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}\\right] \\geqslant 4$$\n证明及分析 我们观察到,不等式的左边是两个表达式之积,一个是 $xy+yz+zx$,另一个是 $\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}$.两者之间有明显的不同,第一个表达式是三个数 $xy,yz,zx$ 的和,第二个表达式是三个数 $x,y,z$ 的差 $x-y,y-z,z-x$.\n不失一般性,设 $x \\geqslant y \\geqslant z$,我们进行下面的变换\n$$(x,y,z) \\rightarrow (x-t,y-t,z-t) \\quad (0 \\leqslant t \\leqslant \\min\\{x,y,z\\})$$\n经过这个变换之后,第一个表达式是减少的,而第二个表达式是不变的(因为,在这个变换下,变量的差是不变的).所以,经过这个变换之后,不等式的左边是减少的,我们可以根据变量 $t \\in [0,z]$,自由地减少不等式的左边.我们选择一个最好的可能,即 $t=z$.在这种情况下,得到新的变量组 $(x-z,y-z,0)$.我们要证明原不等式当 $x \\rightarrow x'=x-z \\geqslant 0,y \\rightarrow y'=y-z \\geqslant 0,z \\rightarrow 0$ 时成立.换句话说,只要证明在条件 $\\min\\{x,y,z\\}=0$ 下,原不等式成立即可,此时,不等式变成\n$$xy\\left[\\frac{1}{x^2}+\\frac{1}{y^2}+\\frac{1}{(x-y)^2}\\right] \\geqslant 4 \\Leftrightarrow \\frac{(x-y)^2}{xy}+\\frac{xy}{(x-y)^2} \\geqslant 2$$\n由 AM-GM 不等式,这是显然成立的,等号成立的条件是 $(x,y,z) \\sim \\left(\\frac{3+\\sqrt{5}}{2},1,0\\right)$.",
+  "tags": [
+    "整合全部变量法",
+    "三元不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "d1228b2e50f4d34620c002f601ee9f191f8a9916",
+  "raw_problem": {
+    "problem_id": "例2.4.1",
+    "problem_type": "example",
+    "chapter": "2.4",
+    "section": "整合全部变量法",
+    "title": null,
+    "source_pages": [
+      89,
+      90
+    ],
+    "stem_md": "设 $x,y,z$ 是互不相同的非负实数，证明\n$$(xy+zx+yz)\\left[\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}\\right] \\geqslant 4$$",
+    "solution_md": "我们观察到，不等式的左边是两个表达式之积，一个是 $xy+yz+zx$，另一个是 $\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}$。两者之间有明显的不同，第一个表达式是三个数 $xy,yz,zx$ 的和，第二个表达式是三个数 $x,y,z$ 的差 $x-y,y-z,z-x$。\n\n不失一般性，设 $x \\geqslant y \\geqslant z$，我们进行下面的变换\n$$(x,y,z) \\rightarrow (x-t,y-t,z-t) \\quad (0 \\leqslant t \\leqslant \\min\\{x,y,z\\})$$\n经过这个变换之后，第一个表达式是减少的，而第二个表达式是不变的(因为，在这个变换下，变量的差是不变的)。所以，经过这个变换之后，不等式的左边是减少的，我们可以根据变量 $t \\in [0,z]$，自由地减少不等式的左边。我们选择一个最好的可能，即 $t=z$。在这种情况下，得到新的变量组 $(x-z,y-z,0)$。我们要证明原不等式当 $x \\rightarrow x'=x-z \\geqslant 0, y \\rightarrow y'=y-z \\geqslant 0, z \\rightarrow 0$ 时成立。换句话说，只要证明在条件 $\\min\\{x,y,z\\}=0$ 下，原不等式成立即可，此时，不等式变成\n$$xy\\left[\\frac{1}{x^2}+\\frac{1}{y^2}+\\frac{1}{(x-y)^2}\\right] \\geqslant 4 \\Leftrightarrow \\frac{(x-y)^2}{xy}+\\frac{xy}{(x-y)^2} \\geqslant 2$$\n由 AM-GM 不等式，这是显然成立的，等号成立的条件是 $(x,y,z) \\sim \\left(\\frac{3+\\sqrt{5}}{2},1,0\\right)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.4.1(Pham Sinh Tan,CPR) 设 $x,y,z$ 是互不相同的非负实数,证明\n$$(xy+zx+yz)\\left[\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}\\right] \\geqslant 4$$\n证明及分析 我们观察到,不等式的左边是两个表达式之积,一个是 $xy+yz+zx$,另一个是 $\\frac{1}{(x-y)^2}+\\frac{1}{(y-z)^2}+\\frac{1}{(z-x)^2}$.两者之间有明显的不同,第一个表达式是三个数 $xy,yz,zx$ 的和,第二个表达式是三个数 $x,y,z$ 的差 $x-y,y-z,z-x$.\n不失一般性,设 $x \\geqslant y \\geqslant z$,我们进行下面的变换\n$$(x,y,z) \\rightarrow (x-t,y-t,z-t) \\quad (0 \\leqslant t \\leqslant \\min\\{x,y,z\\})$$\n经过这个变换之后,第一个表达式是减少的,而第二个表达式是不变的(因为,在这个变换下,变量的差是不变的).所以,经过这个变换之后,不等式的左边是减少的,我们可以根据变量 $t \\in [0,z]$,自由地减少不等式的左边.我们选择一个最好的可能,即 $t=z$.在这种情况下,得到新的变量组 $(x-z,y-z,0)$.我们要证明原不等式当 $x \\rightarrow x'=x-z \\geqslant 0,y \\rightarrow y'=y-z \\geqslant 0,z \\rightarrow 0$ 时成立.换句话说,只要证明在条件 $\\min\\{x,y,z\\}=0$ 下,原不等式成立即可,此时,不等式变成\n$$xy\\left[\\frac{1}{x^2}+\\frac{1}{y^2}+\\frac{1}{(x-y)^2}\\right] \\geqslant 4 \\Leftrightarrow \\frac{(x-y)^2}{xy}+\\frac{xy}{(x-y)^2} \\geqslant 2$$\n由 AM-GM 不等式,这是显然成立的,等号成立的条件是 $(x,y,z) \\sim \\left(\\frac{3+\\sqrt{5}}{2},1,0\\right)$.",
+    "tags": [
+      "整合全部变量法",
+      "三元不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

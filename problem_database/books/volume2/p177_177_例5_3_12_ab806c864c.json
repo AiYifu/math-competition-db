@@ -1,0 +1,24 @@
+{
+  "uid": "p177_177_例5_3_12_ab806c864c",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "3",
+  "problem_id": "例5.3.12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    177
+  ],
+  "stem_md": "设 $a, b, c, d$ 是正实数, 满足 $a^{2}+b^{2}+c^{2}+d^{2}=1$, 证明\n$(a+b)^{4}+(b+c)^{4}+(c+d)^{4}+(d+a)^{4}+(a+c)^{4}+(d+b)^{4} \\leqslant 6$",
+  "solution_md": "这个不等式, 由下列恒等式直接得到\n$\\sum (a+b)^{4} = 6(a^{2}+b^{2}+c^{2}+d^{2})^{2}-\\sum_{\\text{sym}} (a-b)^{4}$\n等号成立的条件是 $a=b=c=d=\\frac{1}{2}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.12 设 $a, b, c, d$ 是正实数, 满足 $a^{2}+b^{2}+c^{2}+d^{2}=1$, 证明\n$(a+b)^{4}+(b+c)^{4}+(c+d)^{4}+(d+a)^{4}+(a+c)^{4}+(d+b)^{4} \\leqslant 6$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

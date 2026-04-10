@@ -1,0 +1,53 @@
+{
+  "uid": "p133_133_习题5_2e3aa12f29",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章",
+  "section": "3.4",
+  "problem_id": "习题5",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    133
+  ],
+  "source_images": [
+    "page-133.jpg"
+  ],
+  "stem_md": "在面积为 1 的所有锐角三角形中，求出一个三角形使下列表达式\n$$P=\\frac{1}{a^4}+\\frac{1}{b^4}+\\frac{1}{c^4}$$\n取得最小值。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "5. 在面积为 1 的所有锐角三角形中，求出一个三角形使下列表达式\n$$P=\\frac{1}{a^4}+\\frac{1}{b^4}+\\frac{1}{c^4}$$\n取得最小值。",
+  "tags": [
+    "锐角三角形",
+    "最小值",
+    "面积固定"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "2e3aa12f299fb96bcd1594b8f9efb06dc2726303",
+  "raw_problem": {
+    "problem_id": "习题5",
+    "problem_type": "exercise",
+    "chapter": "第3章",
+    "section": "3.4",
+    "title": null,
+    "source_pages": [
+      133
+    ],
+    "stem_md": "在面积为 1 的所有锐角三角形中，求出一个三角形使下列表达式\n$$P=\\frac{1}{a^4}+\\frac{1}{b^4}+\\frac{1}{c^4}$$\n取得最小值。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "5. 在面积为 1 的所有锐角三角形中，求出一个三角形使下列表达式\n$$P=\\frac{1}{a^4}+\\frac{1}{b^4}+\\frac{1}{c^4}$$\n取得最小值。",
+    "tags": [
+      "锐角三角形",
+      "最小值",
+      "面积固定"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "uid": "p050_052_例145_30a76f7060",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    50,
+    51,
+    52
+  ],
+  "source_images": [
+    "page-050.jpg",
+    "page-051.jpg",
+    "page-052.jpg"
+  ],
+  "stem_md": "(Vo Quoc Ba Can, CPR) 设 $a,b,c$ 是正实数，证明\n$$(a+b+c)^2\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)\\geqslant9(a^2+b^2+c^2)$$",
+  "solution_md": "不等式变形如下\n$$\\left(\\sum a^2+2\\sum ab\\right)\\sum\\frac{a}{b}\\geqslant9\\sum a^2$$\n$$\\Leftrightarrow3\\sum ab+\\sum\\frac{a^3}{b}+\\sum\\frac{a^2b}{c}+2\\sum\\frac{ab^2}{c}\\geqslant7\\sum a^2$$\n$$\\Leftrightarrow\\sum\\left(\\frac{a^3}{b}+ab-2a^2\\right)+\\sum\\left(\\frac{a^2b}{c}+bc-2ab\\right)+2\\sum\\left(\\frac{ab^2}{c}+ac-2ab\\right)$$\n$$\\geqslant5\\sum a^2-5\\sum ab$$\n$$\\Leftrightarrow\\sum\\left(\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}\\right)(a-b)^2\\geqslant0$$\n\n因此，我们得到系数表达式如下\n$$S_a=\\frac{b}{c}+\\frac{a}{b}+\\frac{2a}{c}-\\frac{5}{2}$$\n$$S_b=\\frac{c}{a}+\\frac{b}{c}+\\frac{2b}{a}-\\frac{5}{2}$$\n$$S_c=\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}$$\n\n考虑下面两种情况：\n\n(1) 如果 $a\\geqslant b\\geqslant c$，则由 AM-GM 不等式，有\n$$S_a=\\frac{b}{c}+\\frac{a}{b}+\\frac{2a}{c}-\\frac{5}{2}\\geqslant1+1+2-\\frac{5}{2}=\\frac{3}{2}>0$$\n$$S_b+S_c=\\frac{c}{a}+\\frac{b}{c}+\\frac{2b}{a}-\\frac{5}{2}+\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}$$\n$$=\\left(\\frac{a}{2b}+\\frac{2b}{a}\\right)+\\left(\\frac{b}{2c}+\\frac{2c}{b}\\right)+\\left(\\frac{2c}{a}+\\frac{a}{2c}\\right)+\\frac{a}{2b}-5$$\n$$\\geqslant2+2+2\\sqrt{\\frac{b}{a}}+\\frac{a}{2b}-5=2\\sqrt{\\frac{b}{a}}+\\frac{a}{2b}-1$$\n$$=\\sqrt{\\frac{b}{a}}+\\sqrt{\\frac{b}{a}}+\\frac{a}{2b}-1$$\n$$\\geqslant3\\sqrt[3]{\\frac{1}{2}}-1>0$$\n$$2S_b+S_c=\\frac{2c}{a}+\\frac{2b}{c}+\\frac{4b}{a}-5+\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}$$\n$$=\\left(\\frac{a}{b}+\\frac{4b}{a}\\right)+\\left(\\frac{2c}{b}+\\frac{2b}{c}\\right)+\\frac{3c}{a}-\\frac{15}{2}$$\n$$\\geqslant4+4+\\frac{3c}{a}-\\frac{15}{2}=\\frac{3c}{a}+\\frac{1}{2}>0$$\n\n如果 $S_b\\geqslant0$，由于 $\\sum S_a(b-c)^2\\geqslant(S_b+S_c)(b-c)\\geqslant0$，不等式显然成立。因此，可以设 $S_b\\leqslant0$，则 $S_c\\geqslant0$，由 SOS 定理之条件(3)可知，原不等式成立。\n\n(2) 如果 $a\\leqslant b\\leqslant c$，显然有 $S_b,S_c\\geqslant0$。另外\n$$S_a+S_b=\\frac{b}{c}+\\frac{a}{b}+\\frac{2a}{c}-\\frac{5}{2}+\\frac{c}{a}+\\frac{b}{c}+\\frac{2b}{a}-\\frac{5}{2}$$\n$$=\\left[\\frac{2(a+b)}{c}+\\frac{c}{a}\\right]+\\left(\\frac{a}{b}+\\frac{2b}{a}\\right)-5$$\n$$\\geqslant2\\sqrt{2\\left(1+\\frac{b}{a}\\right)}+2\\sqrt{2}-5\\geqslant4+2\\sqrt{2}-5=2\\sqrt{2}-1>0$$\n\n因此，由 SOS 定理之条件(2)可知，原不等式成立。\n\n综上所述，原不等式成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.5(Vo Quoc Ba Can, CPR) 设 $a,b,c$ 是正实数，证明\n$$(a+b+c)^2\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)\\geqslant9(a^2+b^2+c^2)$$\n证明 不等式变形如下...",
+  "tags": [
+    "SOS方法",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "30a76f706051c9319f44a6578c07aea96443a79b",
+  "raw_problem": {
+    "problem_id": "例1.4.5",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      50,
+      51,
+      52
+    ],
+    "stem_md": "(Vo Quoc Ba Can, CPR) 设 $a,b,c$ 是正实数，证明\n$$(a+b+c)^2\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)\\geqslant9(a^2+b^2+c^2)$$",
+    "solution_md": "不等式变形如下\n$$\\left(\\sum a^2+2\\sum ab\\right)\\sum\\frac{a}{b}\\geqslant9\\sum a^2$$\n$$\\Leftrightarrow3\\sum ab+\\sum\\frac{a^3}{b}+\\sum\\frac{a^2b}{c}+2\\sum\\frac{ab^2}{c}\\geqslant7\\sum a^2$$\n$$\\Leftrightarrow\\sum\\left(\\frac{a^3}{b}+ab-2a^2\\right)+\\sum\\left(\\frac{a^2b}{c}+bc-2ab\\right)+2\\sum\\left(\\frac{ab^2}{c}+ac-2ab\\right)$$\n$$\\geqslant5\\sum a^2-5\\sum ab$$\n$$\\Leftrightarrow\\sum\\left(\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}\\right)(a-b)^2\\geqslant0$$\n\n因此，我们得到系数表达式如下\n$$S_a=\\frac{b}{c}+\\frac{a}{b}+\\frac{2a}{c}-\\frac{5}{2}$$\n$$S_b=\\frac{c}{a}+\\frac{b}{c}+\\frac{2b}{a}-\\frac{5}{2}$$\n$$S_c=\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}$$\n\n考虑下面两种情况：\n\n(1) 如果 $a\\geqslant b\\geqslant c$，则由 AM-GM 不等式，有\n$$S_a=\\frac{b}{c}+\\frac{a}{b}+\\frac{2a}{c}-\\frac{5}{2}\\geqslant1+1+2-\\frac{5}{2}=\\frac{3}{2}>0$$\n$$S_b+S_c=\\frac{c}{a}+\\frac{b}{c}+\\frac{2b}{a}-\\frac{5}{2}+\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}$$\n$$=\\left(\\frac{a}{2b}+\\frac{2b}{a}\\right)+\\left(\\frac{b}{2c}+\\frac{2c}{b}\\right)+\\left(\\frac{2c}{a}+\\frac{a}{2c}\\right)+\\frac{a}{2b}-5$$\n$$\\geqslant2+2+2\\sqrt{\\frac{b}{a}}+\\frac{a}{2b}-5=2\\sqrt{\\frac{b}{a}}+\\frac{a}{2b}-1$$\n$$=\\sqrt{\\frac{b}{a}}+\\sqrt{\\frac{b}{a}}+\\frac{a}{2b}-1$$\n$$\\geqslant3\\sqrt[3]{\\frac{1}{2}}-1>0$$\n$$2S_b+S_c=\\frac{2c}{a}+\\frac{2b}{c}+\\frac{4b}{a}-5+\\frac{a}{b}+\\frac{c}{a}+\\frac{2c}{b}-\\frac{5}{2}$$\n$$=\\left(\\frac{a}{b}+\\frac{4b}{a}\\right)+\\left(\\frac{2c}{b}+\\frac{2b}{c}\\right)+\\frac{3c}{a}-\\frac{15}{2}$$\n$$\\geqslant4+4+\\frac{3c}{a}-\\frac{15}{2}=\\frac{3c}{a}+\\frac{1}{2}>0$$\n\n如果 $S_b\\geqslant0$，由于 $\\sum S_a(b-c)^2\\geqslant(S_b+S_c)(b-c)\\geqslant0$，不等式显然成立。因此，可以设 $S_b\\leqslant0$，则 $S_c\\geqslant0$，由 SOS 定理之条件(3)可知，原不等式成立。\n\n(2) 如果 $a\\leqslant b\\leqslant c$，显然有 $S_b,S_c\\geqslant0$。另外\n$$S_a+S_b=\\frac{b}{c}+\\frac{a}{b}+\\frac{2a}{c}-\\frac{5}{2}+\\frac{c}{a}+\\frac{b}{c}+\\frac{2b}{a}-\\frac{5}{2}$$\n$$=\\left[\\frac{2(a+b)}{c}+\\frac{c}{a}\\right]+\\left(\\frac{a}{b}+\\frac{2b}{a}\\right)-5$$\n$$\\geqslant2\\sqrt{2\\left(1+\\frac{b}{a}\\right)}+2\\sqrt{2}-5\\geqslant4+2\\sqrt{2}-5=2\\sqrt{2}-1>0$$\n\n因此，由 SOS 定理之条件(2)可知，原不等式成立。\n\n综上所述，原不等式成立。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.5(Vo Quoc Ba Can, CPR) 设 $a,b,c$ 是正实数，证明\n$$(a+b+c)^2\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)\\geqslant9(a^2+b^2+c^2)$$\n证明 不等式变形如下...",
+    "tags": [
+      "SOS方法",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

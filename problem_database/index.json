@@ -1,0 +1,12 @@
+{
+  "description": "Math Competition Problem Database",
+  "structure": {
+    "books/": "Problems extracted from PDF books",
+    "aops/": "Problems crawled from AoPS Wiki",
+    "datasets/": "Large datasets from HuggingFace"
+  },
+  "counts": {
+    "aops": 392,
+    "books": 658
+  }
+}

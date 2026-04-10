@@ -1,0 +1,53 @@
+{
+  "uid": "p208_208_例762_27791cd68b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.6",
+  "problem_id": "例7.6.2",
+  "problem_type": "example",
+  "title": "求出下列表达式的SOS-Schur标准表示",
+  "source_pages": [
+    208
+  ],
+  "source_images": [
+    "page-208.jpg"
+  ],
+  "stem_md": "求出下列表达式的SOS-Schur标准表示：\n\n(1) $a^4+b^4+c^4-abc(a+b+c)$；\n\n(2) $a^3b+b^3c+c^3a-abc(a+b+c)$；\n\n(3) $(a+b)(b+c)(c+a)-8abc$。",
+  "solution_md": "**解 (1)** 可得\n\n$$\\begin{aligned}&a^4+b^4+c^4-abc(a+b+c)\\\\=&(a^2-b^2)^2+c^2(a-b)^2+(a^2-c^2)(b^2-c^2)+ab(c^2+ab-ca-bc)\\\\=&(a-b)^2[(a+b)^2+c^2]+[ab+(c+a)(c+b)](c-a)(c-b)\\end{aligned}$$\n\n或者(译者)利用已知的SOS-Schur表示\n\n$$\\sum a^4-\\sum a^2b^2=(a+b)^2(a-b)^2+(a+c)(b+c)(c-a)(c-b)$$\n\n$$\\sum a^2b^2-abc(a+b+c)=c^2(a-b)^2+ab(c-a)(c-b)$$\n\n所以\n\n$$\\begin{aligned}&a^4+b^4+c^4-abc(a+b+c)\\\\=&(\\sum a^4-\\sum a^2b^2)+(\\sum a^2b^2-abc(a+b+c))\\\\=&[(a+b)^2+c^2](a-b)^2+[(a+c)(b+c)+ab](c-a)(c-b)\\end{aligned}$$\n\n**(2)** 可得\n\n$$\\begin{aligned}&a^3b+b^3c+c^3a-abc(a+b+c)\\\\=&a^2b(a-c)+b^2c(b-a)+c^2a(c-b)\\\\=&(a^2b-a^2c)(a-c)+(b^2c-a^2c)(b-a)+(c^2a-a^2c)(c-b)\\\\=&(c-a)(c-b)(a^2+ac)+c(a+b)(a-b)^2\\end{aligned}$$\n\n**(3)** 可得\n\n$$\\begin{aligned}&(a+b)(b+c)(c+a)-8abc\\\\=&a(b-c)^2+b(c-a)^2+c(a-b)^2\\\\=&(a-c)(b-c)^2+(b-c)(c-a)^2+c[(a-b)^2+(b-c)^2+(c-a)^2]\\\\=&(a-c)(b-c)(a+b-2c)+2c(a-b)^2+2c(c-a)(c-b)\\\\=&2c(a-b)^2+(a+b)(c-a)(c-b)\\end{aligned}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.6.2 求出下列表达式的SOS-Schur标准表示：\n(1)$a^4+b^4+c^4-abc(a+b+c)$；\n(2)$a^3b+b^3c+c^3a-abc(a+b+c)$；\n(3)$(a+b)(b+c)(c+a)-8abc$。\n解 (1) 可得...",
+  "tags": [
+    "SOS-Schur",
+    "标准表示",
+    "多项式分解"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "27791cd68b671df8a9b1f42dade670e8f570f709",
+  "raw_problem": {
+    "problem_id": "例7.6.2",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.6",
+    "title": "求出下列表达式的SOS-Schur标准表示",
+    "source_pages": [
+      208
+    ],
+    "stem_md": "求出下列表达式的SOS-Schur标准表示：\n\n(1) $a^4+b^4+c^4-abc(a+b+c)$；\n\n(2) $a^3b+b^3c+c^3a-abc(a+b+c)$；\n\n(3) $(a+b)(b+c)(c+a)-8abc$。",
+    "solution_md": "**解 (1)** 可得\n\n$$\\begin{aligned}&a^4+b^4+c^4-abc(a+b+c)\\\\=&(a^2-b^2)^2+c^2(a-b)^2+(a^2-c^2)(b^2-c^2)+ab(c^2+ab-ca-bc)\\\\=&(a-b)^2[(a+b)^2+c^2]+[ab+(c+a)(c+b)](c-a)(c-b)\\end{aligned}$$\n\n或者(译者)利用已知的SOS-Schur表示\n\n$$\\sum a^4-\\sum a^2b^2=(a+b)^2(a-b)^2+(a+c)(b+c)(c-a)(c-b)$$\n\n$$\\sum a^2b^2-abc(a+b+c)=c^2(a-b)^2+ab(c-a)(c-b)$$\n\n所以\n\n$$\\begin{aligned}&a^4+b^4+c^4-abc(a+b+c)\\\\=&(\\sum a^4-\\sum a^2b^2)+(\\sum a^2b^2-abc(a+b+c))\\\\=&[(a+b)^2+c^2](a-b)^2+[(a+c)(b+c)+ab](c-a)(c-b)\\end{aligned}$$\n\n**(2)** 可得\n\n$$\\begin{aligned}&a^3b+b^3c+c^3a-abc(a+b+c)\\\\=&a^2b(a-c)+b^2c(b-a)+c^2a(c-b)\\\\=&(a^2b-a^2c)(a-c)+(b^2c-a^2c)(b-a)+(c^2a-a^2c)(c-b)\\\\=&(c-a)(c-b)(a^2+ac)+c(a+b)(a-b)^2\\end{aligned}$$\n\n**(3)** 可得\n\n$$\\begin{aligned}&(a+b)(b+c)(c+a)-8abc\\\\=&a(b-c)^2+b(c-a)^2+c(a-b)^2\\\\=&(a-c)(b-c)^2+(b-c)(c-a)^2+c[(a-b)^2+(b-c)^2+(c-a)^2]\\\\=&(a-c)(b-c)(a+b-2c)+2c(a-b)^2+2c(c-a)(c-b)\\\\=&2c(a-b)^2+(a+b)(c-a)(c-b)\\end{aligned}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.6.2 求出下列表达式的SOS-Schur标准表示：\n(1)$a^4+b^4+c^4-abc(a+b+c)$；\n(2)$a^3b+b^3c+c^3a-abc(a+b+c)$；\n(3)$(a+b)(b+c)(c+a)-8abc$。\n解 (1) 可得...",
+    "tags": [
+      "SOS-Schur",
+      "标准表示",
+      "多项式分解"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

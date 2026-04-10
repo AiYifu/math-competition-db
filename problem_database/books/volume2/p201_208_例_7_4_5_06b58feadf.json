@@ -1,0 +1,31 @@
+{
+  "uid": "p201_208_例_7_4_5_06b58feadf",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例 7.4.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n (n \\geqslant 3)$ 是非负实数, 证明\n$$\n\\frac{1}{6}n(n - 1)^2(n - 2)x^3 + 1 \\geqslant n(n - 2)x^2\n$$",
+  "solution_md": "不失一般性, 设 $c = \\min\\{a, b, c\\}$ (或 $\\max\\{a, b, c\\}$), 则 $M, N$ 都是非负的. 作为 SOS 方法, 如果把某个不等式写成这种形式, 确实需要进行某些恒等式, 以便使用. (为简单起见, 令 $X = (a - b)^2$, $Y = (c - a)(c - b)$)\n$$\n\\sum a(a - b)(a - c) = (a + b + c)(a - b)^2 + c(c - a)(c - b)\n$$\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} - 3 = \\frac{1}{ab}(a - b)^2 + \\left[ \\frac{1}{ca} - \\frac{1}{(a + b)(a + c)} \\right](c - a)(c - b)\n$$\n这是显然成立的, 因为 $c = \\min\\{a, b, c\\}$. 等号成立的条件是 $a = b = c$.\n$$\n\\sum a^3 + \\sum ab + 1 \\geqslant 2 \\sum a^2 + \\left( 1 - \\frac{4\\sqrt{6}}{9} \\right) \\prod (a + b - c) + \\frac{4\\sqrt{6}}{9}abc\n$$\n这可由上面类似的方法得到. 注意, 不等式等号成立的条件有三种情况\n$(a, b, c) = (1, 1, 1)$ 或 $(1, 1, 0)$ 或 $(\\sqrt{\\frac{1}{2\\sqrt{6}}}, 0, 0)$ 及其轮换.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a_1, a_2, \\cdots, a_n (n \\geqslant 3)$ 是非负实数, 证明\n$$\n\\frac{1}{6}n(n - 1)^2(n - 2)x^3 + 1 \\geqslant n(n - 2)x^2\n$$\n不失一般性, 设 $c = \\min\\{a, b, c\\}$ (或 $\\max\\{a, b, c\\}$), 则 $M, N$ 都是非负的. 作为 SOS 方法, 如果把某个不等式写成这种形式, 确实需要进行某些恒等式, 以便使用. (为简单起见, 令 $X = (a - b)^2$, $Y = (c - a)(c - b)$)\n$$\n\\sum a(a - b)(a - c) = (a + b + c)(a - b)^2 + c(c - a)(c - b)\n$$\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} - 3 = \\frac{1}{ab}(a - b)^2 + \\left[ \\frac{1}{ca} - \\frac{1}{(a + b)(a + c)} \\right](c - a)(c - b)\n$$\n这是显然成立的, 因为 $c = \\min\\{a, b, c\\}$. 等号成立的条件是 $a = b = c$.\n$$\n\\sum a^3 + \\sum ab + 1 \\geqslant 2 \\sum a^2 + \\left( 1 - \\frac{4\\sqrt{6}}{9} \\right) \\prod (a + b - c) + \\frac{4\\sqrt{6}}{9}abc\n$$\n这可由上面类似的方法得到. 注意, 不等式等号成立的条件有三种情况\n$(a, b, c) = (1, 1, 1)$ 或 $(1, 1, 0)$ 或 $(\\sqrt{\\frac{1}{2\\sqrt{6}}}, 0, 0)$ 及其轮换.",
+  "tags": [
+    "不等式",
+    "例题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

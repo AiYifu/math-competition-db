@@ -1,0 +1,25 @@
+{
+  "uid": "p012_013_例13_d1bed878bf",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例13",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    12,
+    13
+  ],
+  "stem_md": "设 $a, b, c \\in \\mathbf{R}_+$，求证：\n$$a + b + c - 3\\sqrt[3]{abc} \\geqslant a + b - 2\\sqrt{ab}.$$",
+  "solution_md": "证明 注意到\n$$c + 2\\sqrt{ab} = c + \\sqrt{ab} + \\sqrt{ab} \\geqslant 3\\sqrt[3]{c\\sqrt{ab}\\sqrt{ab}} = 3\\sqrt[3]{abc},$$\n从而\n$$a + b + c - 3\\sqrt[3]{abc} \\geqslant a + b - 2\\sqrt{ab}.$$说明 在不等式的证明中，分析法和综合法有时需交替使用。本题在用分析法得到 $c + 2\\sqrt{ab} \\geqslant 3\\sqrt[3]{abc}$，再用分析法继续证明下去的话，会使问题变得复杂，此时结合综合法便使问题迎刃而解了。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例13 设 $a, b, c \\in \\mathbf{R}_+$，求证：\n$$a + b + c - 3\\sqrt[3]{abc} \\geqslant a + b - 2\\sqrt{ab}.$$证明 注意到\n$$c + 2\\sqrt{ab} = c + \\sqrt{ab} + \\sqrt{ab} \\geqslant 3\\sqrt[3]{c\\sqrt{ab}\\sqrt{ab}} = 3\\sqrt[3]{abc},$$\n从而\n$$a + b + c - 3\\sqrt[3]{abc} \\geqslant a + b - 2\\sqrt{ab}.$$说明 在不等式的证明中，分析法和综合法有时需交替使用。本题在用分析法得到 $c + 2\\sqrt{ab} \\geqslant 3\\sqrt[3]{abc}$，再用分析法继续证明下去的话，会使问题变得复杂，此时结合综合法便使问题迎刃而解了。",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

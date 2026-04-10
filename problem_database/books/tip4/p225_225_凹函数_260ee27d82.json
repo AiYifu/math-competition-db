@@ -1,0 +1,23 @@
+{
+  "uid": "p225_225_凹函数_260ee27d82",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "附录",
+  "section": "常用不等式",
+  "problem_id": "凹函数",
+  "problem_type": "definition",
+  "title": "凹函数",
+  "source_pages": [
+    225
+  ],
+  "stem_md": "设 $y = f(x)$, $x \\in (a, b)$ 满足\n$f\\left(\\frac{x_1 + x_2}{2}\\right) \\geq \\frac{f(x_1) + f(x_2)}{2}$, $x_1, x_2 \\in (a, b)$,\n则称 $y = f(x)$ 在 $(a, b)$ 上为凹函数.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "凹函数 设 $y = f(x)$, $x \\in (a, b)$ 满足\n$f\\left(\\frac{x_1 + x_2}{2}\\right) \\geq \\frac{f(x_1) + f(x_2)}{2}$, $x_1, x_2 \\in (a, b)$,\n则称 $y = f(x)$ 在 $(a, b)$ 上为凹函数.",
+  "tags": [
+    "凹函数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

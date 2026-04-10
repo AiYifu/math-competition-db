@@ -1,0 +1,21 @@
+{
+  "uid": "p113_113_7_93c6516dc1",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "习题 7",
+  "section": null,
+  "problem_id": "7",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    113
+  ],
+  "stem_md": "设 $a 、 b 、 c$ 是正实数, 求证: $$\\sqrt{\\frac{a}{b + c}} + \\sqrt{\\frac{b}{c + a}} + \\sqrt{\\frac{c}{a + b}} > 2.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a 、 b 、 c$ 是正实数, 求证: $$\\sqrt{\\frac{a}{b + c}} + \\sqrt{\\frac{b}{c + a}} + \\sqrt{\\frac{c}{a + b}} > 2.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015"
+}

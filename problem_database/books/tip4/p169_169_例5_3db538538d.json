@@ -1,0 +1,21 @@
+{
+  "uid": "p169_169_例5_3db538538d",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    169
+  ],
+  "stem_md": "设 $a_i > 0$, $1 \\leqslant i \\leqslant n$. 求证: $$\\sum_{k=1}^{n} \\frac{k}{\\sum_{i=1}^{k} a_i} \\leqslant 2 \\sum_{i=1}^{n} \\frac{1}{a_i}.$$",
+  "solution_md": "证明 由柯西不等式得 $$\\left(\\sum_{i=1}^{k} a_i\\right)\\left(\\sum_{i=1}^{k} \\frac{i^2}{a_i}\\right) \\geqslant \\left(\\sum_{i=1}^{k} i\\right)^2 = \\left(\\frac{k(k+1)}{2}\\right)^2.$$ 于是 $$\\sum_{k=1}^{n} \\frac{k}{\\sum_{i=1}^{k} a_i} \\leqslant \\sum_{k=1}^{n} \\left(\\frac{4}{k(k+1)^2} \\sum_{i=1}^{k} \\frac{i^2}{a_i}\\right) < 2 \\sum_{i=1}^{n} \\left(\\frac{i^2}{a_i} \\sum_{k=i}^{n} \\frac{2k+1}{k^2(k+1)^2}\\right) = 2 \\sum_{i=1}^{n} \\left(\\frac{i^2}{a_i} \\sum_{k=i}^{n} \\left(\\frac{1}{k^2} - \\frac{1}{(k+1)^2}\\right)\\right) = 2 \\sum_{i=1}^{n} \\frac{i^2}{a_i} \\left(\\frac{1}{i^2} - \\frac{1}{(n+1)^2}\\right) < 2 \\sum_{i=1}^{n} \\frac{1}{a_i}.$$ 从而命题成立。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例5 设 $a_i > 0$, $1 \\leqslant i \\leqslant n$. 求证: $$\\sum_{k=1}^{n} \\frac{k}{\\sum_{i=1}^{k} a_i} \\leqslant 2 \\sum_{i=1}^{n} \\frac{1}{a_i}.$$ 证明 由柯西不等式得 $$\\left(\\sum_{i=1}^{k} a_i\\right)\\left(\\sum_{i=1}^{k} \\frac{i^2}{a_i}\\right) \\geqslant \\left(\\sum_{i=1}^{k} i\\right)^2 = \\left(\\frac{k(k+1)}{2}\\right)^2.$$ 于是 $$\\sum_{k=1}^{n} \\frac{k}{\\sum_{i=1}^{k} a_i} \\leqslant \\sum_{k=1}^{n} \\left(\\frac{4}{k(k+1)^2} \\sum_{i=1}^{k} \\frac{i^2}{a_i}\\right) < 2 \\sum_{i=1}^{n} \\left(\\frac{i^2}{a_i} \\sum_{k=i}^{n} \\frac{2k+1}{k^2(k+1)^2}\\right) = 2 \\sum_{i=1}^{n} \\left(\\frac{i^2}{a_i} \\sum_{k=i}^{n} \\left(\\frac{1}{k^2} - \\frac{1}{(k+1)^2}\\right)\\right) = 2 \\sum_{i=1}^{n} \\frac{i^2}{a_i} \\left(\\frac{1}{i^2} - \\frac{1}{(n+1)^2}\\right) < 2 \\sum_{i=1}^{n} \\frac{1}{a_i}.$$ 从而命题成立。",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

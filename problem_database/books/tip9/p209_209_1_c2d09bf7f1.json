@@ -1,0 +1,21 @@
+{
+  "uid": "p209_209_1_c2d09bf7f1",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "假设结论对 $n(n \\geqslant 7)$ 成立, 考虑 $n+1$ 的情形. 设 $y_i = x_{i+1} (i = 1, 2, \\cdots, n)$, 则对 $1 \\leqslant i < j \\leqslant n$, 均有 $y_i + y_j = x_{i+1} + x_{j+1} \\geqslant (-1)^{(i+1)+(j+1)} = (-1)^{i+j}$, 由归纳假设可知: $\\sum_{i=1}^{n} iy_i \\geqslant \\frac{n(n+1)}{4}$, 即 $\\sum_{i=2}^{n+1} (i-1)x_i \\geqslant \\frac{n(n+1)}{4}$.",
+  "solution_md": "又由已知条件, 有 $x_i + x_{i+2} \\geqslant 1 (i = 1, 2, \\cdots, n+1, x_{n+2} = x_1, x_{n+3} = x_2)$, 对这 $n+1$ 个式子累加得: $2 \\sum_{i=1}^{n+1} x_i \\geqslant n+1$, 即 $\\sum_{i=1}^{n+1} x_i \\geqslant \\frac{n+1}{2}$, ①+②即得 $\\sum_{i=1}^{n+1} ix_i \\geqslant \\frac{n(n+1)}{4} + \\frac{n+1}{2} = \\frac{(n+1)(n+2)}{4}$. 由数学归纳法知, 一般结论成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "假设结论对 $n(n \\geqslant 7)$ 成立, 考虑 $n+1$ 的情形. 设 $y_i = x_{i+1} (i = 1, 2, \\cdots, n)$, 则对 $1 \\leqslant i < j \\leqslant n$, 均有 $y_i + y_j = x_{i+1} + x_{j+1} \\geqslant (-1)^{(i+1)+(j+1)} = (-1)^{i+j}$, 由归纳假设可知: $\\sum_{i=1}^{n} iy_i \\geqslant \\frac{n(n+1)}{4}$, 即 $\\sum_{i=2}^{n+1} (i-1)x_i \\geqslant \\frac{n(n+1)}{4}$. 又由已知条件, 有 $x_i + x_{i+2} \\geqslant 1 (i = 1, 2, \\cdots, n+1, x_{n+2} = x_1, x_{n+3} = x_2)$, 对这 $n+1$ 个式子累加得: $2 \\sum_{i=1}^{n+1} x_i \\geqslant n+1$, 即 $\\sum_{i=1}^{n+1} x_i \\geqslant \\frac{n+1}{2}$, ①+②即得 $\\sum_{i=1}^{n+1} ix_i \\geqslant \\frac{n(n+1)}{4} + \\frac{n+1}{2} = \\frac{(n+1)(n+2)}{4}$. 由数学归纳法知, 一般结论成立.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0027"
+}

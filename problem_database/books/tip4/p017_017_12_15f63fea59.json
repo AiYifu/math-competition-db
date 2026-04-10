@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_12_15f63fea59",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "12",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b \\in \\mathbf{R}$, $\\frac{1}{a} + \\frac{1}{b} = 1$. 求证: 对一切正整数 $n$, 有 $$(a + b)^n - a^n - b^n \\geqslant 2^{2n} - 2^{n+1}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b \\in \\mathbf{R}$, $\\frac{1}{a} + \\frac{1}{b} = 1$. 求证: 对一切正整数 $n$, 有 $$(a + b)^n - a^n - b^n \\geqslant 2^{2n} - 2^{n+1}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_23_44fc44cf5a",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "23",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $x_i > 0$, $1 \\leqslant i \\leqslant n$, $x_1 x_2 \\cdots x_n = 1$. 求证: $$\\sum_{k=1}^{n} \\left(1 - \\frac{k}{n} \\sum_{i=1}^{n} i x_i^2\\right) \\leqslant \\left(\\frac{n - 1}{n + 1}\\right)^2 \\sum_{k=1}^{n} \\frac{x_k^2}{k},$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x_i > 0$, $1 \\leqslant i \\leqslant n$, $x_1 x_2 \\cdots x_n = 1$. 求证: $$\\sum_{k=1}^{n} \\left(1 - \\frac{k}{n} \\sum_{i=1}^{n} i x_i^2\\right) \\leqslant \\left(\\frac{n - 1}{n + 1}\\right)^2 \\sum_{k=1}^{n} \\frac{x_k^2}{k},$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

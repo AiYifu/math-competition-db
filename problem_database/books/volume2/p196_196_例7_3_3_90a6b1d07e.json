@@ -1,0 +1,24 @@
+{
+  "uid": "p196_196_例7_3_3_90a6b1d07e",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7",
+  "section": "3",
+  "problem_id": "例7.3.3",
+  "problem_type": "example",
+  "title": "Nguyen Minh Duc, IMO shortlist",
+  "source_pages": [
+    196
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数, 且满足 $a+b+c+d=1$, 证明\n$$abc+bcd+cda+dab \\leqslant \\frac{1}{27} + \\frac{176}{27}abcd$$",
+  "solution_md": "证明 设\n$$\\begin{aligned}f(a,b,c,d) &= abc+bcd+cda+dab - \\frac{176}{27}abcd\\\\&= ab(c+d) + cd(a+b) - \\frac{176}{27}abcd\\end{aligned}$$\n不等式 $f(a,b,c,d) \\leqslant f(0,a+b,c,d)$ 等价于\n$$(c+d)\\left[db - \\frac{(a+b)^2}{4}\\right] + \\frac{176}{27}cd\\left[\\frac{(a+b)^2}{4} - db\\right] \\leqslant 0$$\n$\\Leftrightarrow \\frac{176}{27}cd \\leqslant c+d$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.3.3(Nguyen Minh Duc, IMO shortlist) 设 $a,b,c,d$ 是非负实数, 且满足 $a+b+c+d=1$, 证明\n$$abc+bcd+cda+dab \\leqslant \\frac{1}{27} + \\frac{176}{27}abcd$$\n证明 设\n$$\\begin{aligned}f(a,b,c,d) &= abc+bcd+cda+dab - \\frac{176}{27}abcd\\\\&= ab(c+d) + cd(a+b) - \\frac{176}{27}abcd\\end{aligned}$$\n不等式 $f(a,b,c,d) \\leqslant f(0,a+b,c,d)$ 等价于\n$$(c+d)\\left[db - \\frac{(a+b)^2}{4}\\right] + \\frac{176}{27}cd\\left[\\frac{(a+b)^2}{4} - db\\right] \\leqslant 0$$\n$\\Leftrightarrow \\frac{176}{27}cd \\leqslant c+d$",
+  "tags": [
+    "不等式证明",
+    "代数不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

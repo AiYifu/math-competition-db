@@ -1,0 +1,51 @@
+{
+  "uid": "p064_064_例215_861d01cff6",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.1",
+  "problem_id": "例2.1.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    64
+  ],
+  "source_images": [
+    "page-064.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是满足和等于 $0$ 的实数，证明\n$$a_1^2+a_2^2+\\cdots+a_n^2+1\\geqslant\\frac{2}{\\sqrt{n}}(|a_1|+|a_2|+\\cdots+|a_n|)$$",
+  "solution_md": "为了处理这个问题，需要把绝对值符号去掉。简单地说，就是把序列 $a_1,a_2,\\cdots,a_n$ 分成两个序列，一个是非负实数序列 $x_1,x_2,\\cdots,x_k$；另一个是负数序列 $y_1,y_2,\\cdots,y_{n-k}$。设 $z_j=-y_j(j\\in\\{1,2,\\cdots,n-k\\})$，因此，只需证明\n$$\\sum_{i=1}^k x_i^2+\\sum_{j=1}^{n-k} z_j^2+1\\geqslant\\frac{2}{\\sqrt{n}}\\sum_{i=1}^k x_i+\\frac{2}{\\sqrt{n}}\\sum_{j=1}^{n-k} z_j\\quad(*)$$\n下面我们来使用整合变量法。特别地，将非负项整合到一起，把负项整合到一起。如何进行呢？依照惯例，我们选择 $x$ 和 $z$ 分别表示两个序列 $\\{x_i\\}_1^k$，$\\{z_j\\}_1^{n-k}$ 的算术平均。在变换\n$$(x_1,x_2,\\cdots,x_k)\\rightarrow(x,x,\\cdots,x)$$\n$$(z_1,z_2,\\cdots,z_{n-k})\\rightarrow(z,z,\\cdots,z)$$\n下，注意到，不等式 $(*)$ 的右边是不变的，而左边是可变的（增加趋势）。由于\n$$\\sum_{i=1}^k x_i^2\\geqslant k\\left(\\frac{x_1+x_2+\\cdots+x_k}{k}\\right)^2=kx^2$$\n$$\\sum_{j=1}^{n-k} z_j^2\\geqslant(n-k)\\left(\\frac{z_1+z_2+\\cdots+z_{n-k}}{n-k}\\right)^2=(n-k)z^2$$\n所以，只需证明\n$$kx^2+(n-k)z^2+1\\geqslant 2[kx+(n-k)z]$$\n由于 $a_1+a_2+\\cdots+a_n=0$，则 $kx=(n-k)z$，上面的不等式变成\n$$kx^2\\left(1+\\frac{k}{n-k}\\right)+1\\geqslant\\frac{2kx}{\\sqrt{n}}$$\n由 AM-GM 不等式，我们有\n$$\\text{LHS}\\geqslant 2x\\sqrt{k\\left(1+\\frac{k}{n-k}\\right)}=\\frac{2k\\sqrt{n}x}{\\sqrt{k(n-k)}}\\geqslant\\frac{4kx}{\\sqrt{n}}$$",
+  "answer_md": "",
+  "hints_md": "Pham Kim Hung, Mathematics Reflection, 11/2007",
+  "original_text_md": "例 2.1.5(Pham Kim Hung, Mathematics Reflection,11/2007) 设 $a_1,a_2,\\cdots,a_n$ 是满足和等于 0 的实数,证明\n$$a_1^2+a_2^2+\\cdots+a_n^2+1\\geqslant\\frac{2}{\\sqrt{n}}(|a_1|+|a_2|+\\cdots+|a_n|)$$\n证明及分析 为了处理这个问题,需要把绝对值符号去掉.简单地说,就是把序列 $a_1,a_2,\\cdots,a_n$ 分成两个序列,一个是非负实数序列 $x_1,x_2,\\cdots,x_k$;另一个 是负数序列 $y_1,y_2,\\cdots,y_{n-k}$.设 $z_j=-y_j(j\\in\\{1,2,\\cdots,n-k\\})$,因此,只需证明\n$$\\sum_{i=1}^k x_i^2+\\sum_{j=1}^{n-k} z_j^2+1\\geqslant\\frac{2}{\\sqrt{n}}\\sum_{i=1}^k x_i+\\frac{2}{\\sqrt{n}}\\sum_{j=1}^{n-k} z_j\\quad(*)$$\n下面我们来使用整合变量法.特别地,将非负项整合到一起,把负项整合到一起.如何进行呢?依照惯例,我们选择 $x$ 和 $z$ 分别表示两个序列 $\\{x_i\\}_1^k$, $\\{z_j\\}_1^{n-k}$ 的算术平均.在变换\n$$(x_1,x_2,\\cdots,x_k)\\rightarrow(x,x,\\cdots,x)$$\n$$(z_1,z_2,\\cdots,z_{n-k})\\rightarrow(z,z,\\cdots,z)$$\n下,注意到,不等式 $(*)$ 的右边是不变的,而左边是可变的(增加趋势).由于\n$$\\sum_{i=1}^k x_i^2\\geqslant k\\left(\\frac{x_1+x_2+\\cdots+x_k}{k}\\right)^2=kx^2$$\n$$\\sum_{j=1}^{n-k} z_j^2\\geqslant(n-k)\\left(\\frac{z_1+z_2+\\cdots+z_{n-k}}{n-k}\\right)^2=(n-k)z^2$$\n所以,只需证明\n$$kx^2+(n-k)z^2+1\\geqslant 2[kx+(n-k)z]$$\n由于 $a_1+a_2+\\cdots+a_n=0$,则 $kx=(n-k)z$,上面的不等式变成\n$$kx^2\\left(1+\\frac{k}{n-k}\\right)+1\\geqslant\\frac{2kx}{\\sqrt{n}}$$\n由 AM-GM 不等式,我们有\n$$\\text{LHS}\\geqslant 2x\\sqrt{k\\left(1+\\frac{k}{n-k}\\right)}=\\frac{2k\\sqrt{n}x}{\\sqrt{k(n-k)}}\\geqslant\\frac{4kx}{\\sqrt{n}}$$",
+  "tags": [
+    "整合变量法",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "861d01cff61b8962941210806ce1362e60bc891b",
+  "raw_problem": {
+    "problem_id": "例2.1.5",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.1",
+    "title": null,
+    "source_pages": [
+      64
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是满足和等于 $0$ 的实数，证明\n$$a_1^2+a_2^2+\\cdots+a_n^2+1\\geqslant\\frac{2}{\\sqrt{n}}(|a_1|+|a_2|+\\cdots+|a_n|)$$",
+    "solution_md": "为了处理这个问题，需要把绝对值符号去掉。简单地说，就是把序列 $a_1,a_2,\\cdots,a_n$ 分成两个序列，一个是非负实数序列 $x_1,x_2,\\cdots,x_k$；另一个是负数序列 $y_1,y_2,\\cdots,y_{n-k}$。设 $z_j=-y_j(j\\in\\{1,2,\\cdots,n-k\\})$，因此，只需证明\n$$\\sum_{i=1}^k x_i^2+\\sum_{j=1}^{n-k} z_j^2+1\\geqslant\\frac{2}{\\sqrt{n}}\\sum_{i=1}^k x_i+\\frac{2}{\\sqrt{n}}\\sum_{j=1}^{n-k} z_j\\quad(*)$$\n下面我们来使用整合变量法。特别地，将非负项整合到一起，把负项整合到一起。如何进行呢？依照惯例，我们选择 $x$ 和 $z$ 分别表示两个序列 $\\{x_i\\}_1^k$，$\\{z_j\\}_1^{n-k}$ 的算术平均。在变换\n$$(x_1,x_2,\\cdots,x_k)\\rightarrow(x,x,\\cdots,x)$$\n$$(z_1,z_2,\\cdots,z_{n-k})\\rightarrow(z,z,\\cdots,z)$$\n下，注意到，不等式 $(*)$ 的右边是不变的，而左边是可变的（增加趋势）。由于\n$$\\sum_{i=1}^k x_i^2\\geqslant k\\left(\\frac{x_1+x_2+\\cdots+x_k}{k}\\right)^2=kx^2$$\n$$\\sum_{j=1}^{n-k} z_j^2\\geqslant(n-k)\\left(\\frac{z_1+z_2+\\cdots+z_{n-k}}{n-k}\\right)^2=(n-k)z^2$$\n所以，只需证明\n$$kx^2+(n-k)z^2+1\\geqslant 2[kx+(n-k)z]$$\n由于 $a_1+a_2+\\cdots+a_n=0$，则 $kx=(n-k)z$，上面的不等式变成\n$$kx^2\\left(1+\\frac{k}{n-k}\\right)+1\\geqslant\\frac{2kx}{\\sqrt{n}}$$\n由 AM-GM 不等式，我们有\n$$\\text{LHS}\\geqslant 2x\\sqrt{k\\left(1+\\frac{k}{n-k}\\right)}=\\frac{2k\\sqrt{n}x}{\\sqrt{k(n-k)}}\\geqslant\\frac{4kx}{\\sqrt{n}}$$",
+    "answer_md": "",
+    "hints_md": "Pham Kim Hung, Mathematics Reflection, 11/2007",
+    "original_text_md": "例 2.1.5(Pham Kim Hung, Mathematics Reflection,11/2007) 设 $a_1,a_2,\\cdots,a_n$ 是满足和等于 0 的实数,证明\n$$a_1^2+a_2^2+\\cdots+a_n^2+1\\geqslant\\frac{2}{\\sqrt{n}}(|a_1|+|a_2|+\\cdots+|a_n|)$$\n证明及分析 为了处理这个问题,需要把绝对值符号去掉.简单地说,就是把序列 $a_1,a_2,\\cdots,a_n$ 分成两个序列,一个是非负实数序列 $x_1,x_2,\\cdots,x_k$;另一个 是负数序列 $y_1,y_2,\\cdots,y_{n-k}$.设 $z_j=-y_j(j\\in\\{1,2,\\cdots,n-k\\})$,因此,只需证明\n$$\\sum_{i=1}^k x_i^2+\\sum_{j=1}^{n-k} z_j^2+1\\geqslant\\frac{2}{\\sqrt{n}}\\sum_{i=1}^k x_i+\\frac{2}{\\sqrt{n}}\\sum_{j=1}^{n-k} z_j\\quad(*)$$\n下面我们来使用整合变量法.特别地,将非负项整合到一起,把负项整合到一起.如何进行呢?依照惯例,我们选择 $x$ 和 $z$ 分别表示两个序列 $\\{x_i\\}_1^k$, $\\{z_j\\}_1^{n-k}$ 的算术平均.在变换\n$$(x_1,x_2,\\cdots,x_k)\\rightarrow(x,x,\\cdots,x)$$\n$$(z_1,z_2,\\cdots,z_{n-k})\\rightarrow(z,z,\\cdots,z)$$\n下,注意到,不等式 $(*)$ 的右边是不变的,而左边是可变的(增加趋势).由于\n$$\\sum_{i=1}^k x_i^2\\geqslant k\\left(\\frac{x_1+x_2+\\cdots+x_k}{k}\\right)^2=kx^2$$\n$$\\sum_{j=1}^{n-k} z_j^2\\geqslant(n-k)\\left(\\frac{z_1+z_2+\\cdots+z_{n-k}}{n-k}\\right)^2=(n-k)z^2$$\n所以,只需证明\n$$kx^2+(n-k)z^2+1\\geqslant 2[kx+(n-k)z]$$\n由于 $a_1+a_2+\\cdots+a_n=0$,则 $kx=(n-k)z$,上面的不等式变成\n$$kx^2\\left(1+\\frac{k}{n-k}\\right)+1\\geqslant\\frac{2kx}{\\sqrt{n}}$$\n由 AM-GM 不等式,我们有\n$$\\text{LHS}\\geqslant 2x\\sqrt{k\\left(1+\\frac{k}{n-k}\\right)}=\\frac{2k\\sqrt{n}x}{\\sqrt{k(n-k)}}\\geqslant\\frac{4kx}{\\sqrt{n}}$$",
+    "tags": [
+      "整合变量法",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

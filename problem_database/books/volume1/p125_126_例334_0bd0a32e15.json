@@ -1,0 +1,60 @@
+{
+  "uid": "p125_126_例334_0bd0a32e15",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    125,
+    126
+  ],
+  "source_images": [
+    "page-125.jpg",
+    "page-126.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是正实数，证明\n$$\\frac{x}{\\sqrt{x^2+8yz}}+\\frac{y}{\\sqrt{y^2+8zx}}+\\frac{z}{\\sqrt{z^2+8xy}} \\geqslant 1$$",
+  "solution_md": "很明显，不等式等价于\n$$\\frac{1}{\\sqrt{1+8a}}+\\frac{1}{\\sqrt{1+8b}}+\\frac{1}{\\sqrt{1+8c}} \\geqslant 1$$\n其中，$a=\\frac{yz}{x^2}, b=\\frac{zx}{y^2}, c=\\frac{xy}{z^2}$，且 $abc=1$，采用反证法来证明。\n\n下面，我们来证明 $n$ 个变量一般形式的不等式。\n\n设 $a_1,a_2,\\cdots,a_n$ 是正实数，且 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{\\sqrt{1+(n^2-1)a_1}}+\\frac{1}{\\sqrt{1+(n^2-1)a_2}}+\\cdots+\\frac{1}{\\sqrt{1+(n^2-1)a_n}} \\geqslant 1$$\n\n事实上，对于 $i \\in \\{1,2,\\cdots,n\\}$，设\n$$x_i=\\frac{1}{\\sqrt{1+(n^2-1)a_i}}$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n=1$，我们来证明 $a_1a_2\\cdots a_n \\geqslant 1$。\n\n事实上，设 $P=x_1x_2\\cdots x_n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，有\n$$a_i=\\left(\\frac{1}{x_i^2}-1\\right)\\cdot\\frac{1}{n^2-1}=\\frac{1-x_i^2}{(n^2-1)x_i^2} \\Rightarrow \\prod_{i=1}^{n}(1-x_i^2)=(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\quad (1)$$\n\n因为 $\\sum_{i=1}^{n}x_i=1$，由 AM-GM 不等式，我们有\n$$1-x_j=-x_j+\\sum_{i=1}^{n}x_i \\geqslant (n-1)\\sqrt[n-1]{\\frac{P}{x_j}}$$\n$$1+x_j=x_j+\\sum_{i=1}^{n}x_i \\geqslant (n+1)\\sqrt[n+1]{Px_j}$$\n\n令 $j=1,2,\\cdots,n$，并相乘这些不等式，我们有\n$$\\prod_{i=1}^{n}(1-x_i^2) \\geqslant (n^2-1)^n P^2 \\quad (2)$$\n\n根据 (1) 和 (2)，我们得到\n$$(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\geqslant (n^2-1)^n P^2 \\Rightarrow \\prod_{i=1}^{n}a_i \\geqslant 1$$\n\n于是，不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "answer_md": "",
+  "hints_md": "来源：IMO 2001",
+  "original_text_md": "例 3.3.4(IMO 2001) 设 $x,y,z$ 是正实数，证明\n$$\\frac{x}{\\sqrt{x^2+8yz}}+\\frac{y}{\\sqrt{y^2+8zx}}+\\frac{z}{\\sqrt{z^2+8xy}} \\geqslant 1$$\n\n证明 很明显，不等式等价于\n$$\\frac{1}{\\sqrt{1+8a}}+\\frac{1}{\\sqrt{1+8b}}+\\frac{1}{\\sqrt{1+8c}} \\geqslant 1$$\n其中，$a=\\frac{yz}{x^2}, b=\\frac{zx}{y^2}, c=\\frac{xy}{z^2}$，且 $abc=1$，采用反证法来证明。\n\n下面，我们来证明 $n$ 个变量一般形式的不等式。\n\n设 $a_1,a_2,\\cdots,a_n$ 是正实数，且 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{\\sqrt{1+(n^2-1)a_1}}+\\frac{1}{\\sqrt{1+(n^2-1)a_2}}+\\cdots+\\frac{1}{\\sqrt{1+(n^2-1)a_n}} \\geqslant 1$$\n\n事实上，对于 $i \\in \\{1,2,\\cdots,n\\}$，设\n$$x_i=\\frac{1}{\\sqrt{1+(n^2-1)a_i}}$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n=1$，我们来证明 $a_1a_2\\cdots a_n \\geqslant 1$。\n\n事实上，设 $P=x_1x_2\\cdots x_n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，有\n$$a_i=\\left(\\frac{1}{x_i^2}-1\\right)\\cdot\\frac{1}{n^2-1}=\\frac{1-x_i^2}{(n^2-1)x_i^2} \\Rightarrow \\prod_{i=1}^{n}(1-x_i^2)=(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\quad (1)$$\n\n因为 $\\sum_{i=1}^{n}x_i=1$，由 AM-GM 不等式，我们有\n$$1-x_j=-x_j+\\sum_{i=1}^{n}x_i \\geqslant (n-1)\\sqrt[n-1]{\\frac{P}{x_j}}$$\n$$1+x_j=x_j+\\sum_{i=1}^{n}x_i \\geqslant (n+1)\\sqrt[n+1]{Px_j}$$\n\n令 $j=1,2,\\cdots,n$，并相乘这些不等式，我们有\n$$\\prod_{i=1}^{n}(1-x_i^2) \\geqslant (n^2-1)^n P^2 \\quad (2)$$\n\n根据 (1) 和 (2)，我们得到\n$$(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\geqslant (n^2-1)^n P^2 \\Rightarrow \\prod_{i=1}^{n}a_i \\geqslant 1$$\n\n于是，不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "IMO",
+    "AM-GM不等式",
+    "n元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "0bd0a32e1531beda6ba3a58cfbac37fcf3d641c1",
+  "raw_problem": {
+    "problem_id": "例3.3.4",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      125,
+      126
+    ],
+    "stem_md": "设 $x,y,z$ 是正实数，证明\n$$\\frac{x}{\\sqrt{x^2+8yz}}+\\frac{y}{\\sqrt{y^2+8zx}}+\\frac{z}{\\sqrt{z^2+8xy}} \\geqslant 1$$",
+    "solution_md": "很明显，不等式等价于\n$$\\frac{1}{\\sqrt{1+8a}}+\\frac{1}{\\sqrt{1+8b}}+\\frac{1}{\\sqrt{1+8c}} \\geqslant 1$$\n其中，$a=\\frac{yz}{x^2}, b=\\frac{zx}{y^2}, c=\\frac{xy}{z^2}$，且 $abc=1$，采用反证法来证明。\n\n下面，我们来证明 $n$ 个变量一般形式的不等式。\n\n设 $a_1,a_2,\\cdots,a_n$ 是正实数，且 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{\\sqrt{1+(n^2-1)a_1}}+\\frac{1}{\\sqrt{1+(n^2-1)a_2}}+\\cdots+\\frac{1}{\\sqrt{1+(n^2-1)a_n}} \\geqslant 1$$\n\n事实上，对于 $i \\in \\{1,2,\\cdots,n\\}$，设\n$$x_i=\\frac{1}{\\sqrt{1+(n^2-1)a_i}}$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n=1$，我们来证明 $a_1a_2\\cdots a_n \\geqslant 1$。\n\n事实上，设 $P=x_1x_2\\cdots x_n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，有\n$$a_i=\\left(\\frac{1}{x_i^2}-1\\right)\\cdot\\frac{1}{n^2-1}=\\frac{1-x_i^2}{(n^2-1)x_i^2} \\Rightarrow \\prod_{i=1}^{n}(1-x_i^2)=(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\quad (1)$$\n\n因为 $\\sum_{i=1}^{n}x_i=1$，由 AM-GM 不等式，我们有\n$$1-x_j=-x_j+\\sum_{i=1}^{n}x_i \\geqslant (n-1)\\sqrt[n-1]{\\frac{P}{x_j}}$$\n$$1+x_j=x_j+\\sum_{i=1}^{n}x_i \\geqslant (n+1)\\sqrt[n+1]{Px_j}$$\n\n令 $j=1,2,\\cdots,n$，并相乘这些不等式，我们有\n$$\\prod_{i=1}^{n}(1-x_i^2) \\geqslant (n^2-1)^n P^2 \\quad (2)$$\n\n根据 (1) 和 (2)，我们得到\n$$(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\geqslant (n^2-1)^n P^2 \\Rightarrow \\prod_{i=1}^{n}a_i \\geqslant 1$$\n\n于是，不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "answer_md": "",
+    "hints_md": "来源：IMO 2001",
+    "original_text_md": "例 3.3.4(IMO 2001) 设 $x,y,z$ 是正实数，证明\n$$\\frac{x}{\\sqrt{x^2+8yz}}+\\frac{y}{\\sqrt{y^2+8zx}}+\\frac{z}{\\sqrt{z^2+8xy}} \\geqslant 1$$\n\n证明 很明显，不等式等价于\n$$\\frac{1}{\\sqrt{1+8a}}+\\frac{1}{\\sqrt{1+8b}}+\\frac{1}{\\sqrt{1+8c}} \\geqslant 1$$\n其中，$a=\\frac{yz}{x^2}, b=\\frac{zx}{y^2}, c=\\frac{xy}{z^2}$，且 $abc=1$，采用反证法来证明。\n\n下面，我们来证明 $n$ 个变量一般形式的不等式。\n\n设 $a_1,a_2,\\cdots,a_n$ 是正实数，且 $a_1a_2\\cdots a_n=1$，证明\n$$\\frac{1}{\\sqrt{1+(n^2-1)a_1}}+\\frac{1}{\\sqrt{1+(n^2-1)a_2}}+\\cdots+\\frac{1}{\\sqrt{1+(n^2-1)a_n}} \\geqslant 1$$\n\n事实上，对于 $i \\in \\{1,2,\\cdots,n\\}$，设\n$$x_i=\\frac{1}{\\sqrt{1+(n^2-1)a_i}}$$\n\n采用反证法。假设 $x_1+x_2+\\cdots+x_n=1$，我们来证明 $a_1a_2\\cdots a_n \\geqslant 1$。\n\n事实上，设 $P=x_1x_2\\cdots x_n$，对于每一个 $i \\in \\{1,2,\\cdots,n\\}$，有\n$$a_i=\\left(\\frac{1}{x_i^2}-1\\right)\\cdot\\frac{1}{n^2-1}=\\frac{1-x_i^2}{(n^2-1)x_i^2} \\Rightarrow \\prod_{i=1}^{n}(1-x_i^2)=(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\quad (1)$$\n\n因为 $\\sum_{i=1}^{n}x_i=1$，由 AM-GM 不等式，我们有\n$$1-x_j=-x_j+\\sum_{i=1}^{n}x_i \\geqslant (n-1)\\sqrt[n-1]{\\frac{P}{x_j}}$$\n$$1+x_j=x_j+\\sum_{i=1}^{n}x_i \\geqslant (n+1)\\sqrt[n+1]{Px_j}$$\n\n令 $j=1,2,\\cdots,n$，并相乘这些不等式，我们有\n$$\\prod_{i=1}^{n}(1-x_i^2) \\geqslant (n^2-1)^n P^2 \\quad (2)$$\n\n根据 (1) 和 (2)，我们得到\n$$(n^2-1)^n P^2 \\prod_{i=1}^{n}a_i \\geqslant (n^2-1)^n P^2 \\Rightarrow \\prod_{i=1}^{n}a_i \\geqslant 1$$\n\n于是，不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "IMO",
+      "AM-GM不等式",
+      "n元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

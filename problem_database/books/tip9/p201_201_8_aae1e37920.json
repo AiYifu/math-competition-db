@@ -1,0 +1,21 @@
+{
+  "uid": "p201_201_8_aae1e37920",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201
+  ],
+  "stem_md": "8. 不妨设 $a + b + c = 1$, 则原不等式为\n$$\\frac{a}{\\sqrt{1 - a}} + \\frac{b}{\\sqrt{1 - b}} + \\frac{c}{\\sqrt{1 - c}} \\geqslant \\sqrt{\\frac{3}{2}}.$$",
+  "solution_md": "利用 $y = -x^2 + x$ 在 $\\left(0, \\frac{1}{4}\\right)$ 上的单调性即可完成从 $k$ 到 $k + 1$ 的过渡.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "8. 不妨设 $a + b + c = 1$, 则原不等式为\n$$\\frac{a}{\\sqrt{1 - a}} + \\frac{b}{\\sqrt{1 - b}} + \\frac{c}{\\sqrt{1 - c}} \\geqslant \\sqrt{\\frac{3}{2}}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_18_a9d8aea6ad",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "18",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $x, y, z$ 为正实数, 且 $x \\geqslant y \\geqslant z$. 求证: $$\\frac{x^2 y}{z} + \\frac{y^2 z}{x} + \\frac{z^2 x}{y} \\geqslant x^2 + y^2 + z^2.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x, y, z$ 为正实数, 且 $x \\geqslant y \\geqslant z$. 求证: $$\\frac{x^2 y}{z} + \\frac{y^2 z}{x} + \\frac{z^2 x}{y} \\geqslant x^2 + y^2 + z^2.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

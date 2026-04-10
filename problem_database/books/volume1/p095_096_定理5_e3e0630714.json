@@ -1,0 +1,56 @@
+{
+  "uid": "p095_096_定理5_e3e0630714",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "定理5",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    95,
+    96
+  ],
+  "source_images": [
+    "page-095.jpg",
+    "page-096.jpg"
+  ],
+  "stem_md": "设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，则不等式\n$$f(x_1,x_2,\\cdots,x_n)\\geqslant 0\\quad(x_1,x_2,\\cdots,x_n\\geqslant 0)$$\n成立，如果下列两个条件成立：\n(1) $f(x_1,x_2,\\cdots,x_n)\\geqslant 0$，如果 $x_1x_2\\cdots x_n=0$。\n(2) $[f]\\geqslant 0$，$\\forall x_1,x_2,\\cdots,x_n\\geqslant 0$。",
+  "solution_md": "这个定理的证明和本节介绍的第一个例子的证明方法是一样的。\n\n首先，固定 $x_1,x_2,\\cdots,x_n$ 为常数，并设\n$$x_n=\\min\\{x_1,x_2,\\cdots,x_n\\}$$\n\n令 $t$ 是满足\n$$0\\leqslant t\\leqslant\\min\\{x_1,x_2,\\cdots,x_n\\}=x_n$$\n\n的一个实数，设 $y_i=x_i-x_n\\geqslant 0$（$i=1,2,\\cdots,n$），记\n$$g(t)=f(y_1+t,y_2+t,\\cdots,y_n+t)$$\n\n则有\n$$g'(t)=f'_t(y_1+t,y_2+t,\\cdots,y_n+t)=[f(y_1+t,y_2+t,\\cdots,y_n+t)]\\geqslant 0$$\n\n（因为 $[f(x_1,x_2,\\cdots,x_n)]\\geqslant 0$，$\\forall x_1,x_2,\\cdots,x_n\\geqslant 0$），所以，$g(x_n)\\geqslant g(0)$。因此\n$$f(x_1,x_2,\\cdots,x_n)\\geqslant f(x_1-x_n,x_2-x_n,\\cdots,x_{n-1}-x_n,0)\\geqslant 0$$\n\n证毕。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "定理 5 设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，则不等式\n$$f(x_1,x_2,\\cdots,x_n)\\geqslant 0\\quad(x_1,x_2,\\cdots,x_n\\geqslant 0)$$\n成立，如果下列两个条件成立：\n(1)$f(x_1,x_2,\\cdots,x_n)\\geqslant 0$，如果 $x_1x_2\\cdots x_n=0$。\n(2)$[f]\\geqslant 0$，$\\forall x_1,x_2,\\cdots,x_n\\geqslant 0$。",
+  "tags": [
+    "全导数",
+    "定理",
+    "不等式证明方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "e3e06307140cc6c26c6c2ffcaa4e19e753600867",
+  "raw_problem": {
+    "problem_id": "定理5",
+    "problem_type": "theorem",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      95,
+      96
+    ],
+    "stem_md": "设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，则不等式\n$$f(x_1,x_2,\\cdots,x_n)\\geqslant 0\\quad(x_1,x_2,\\cdots,x_n\\geqslant 0)$$\n成立，如果下列两个条件成立：\n(1) $f(x_1,x_2,\\cdots,x_n)\\geqslant 0$，如果 $x_1x_2\\cdots x_n=0$。\n(2) $[f]\\geqslant 0$，$\\forall x_1,x_2,\\cdots,x_n\\geqslant 0$。",
+    "solution_md": "这个定理的证明和本节介绍的第一个例子的证明方法是一样的。\n\n首先，固定 $x_1,x_2,\\cdots,x_n$ 为常数，并设\n$$x_n=\\min\\{x_1,x_2,\\cdots,x_n\\}$$\n\n令 $t$ 是满足\n$$0\\leqslant t\\leqslant\\min\\{x_1,x_2,\\cdots,x_n\\}=x_n$$\n\n的一个实数，设 $y_i=x_i-x_n\\geqslant 0$（$i=1,2,\\cdots,n$），记\n$$g(t)=f(y_1+t,y_2+t,\\cdots,y_n+t)$$\n\n则有\n$$g'(t)=f'_t(y_1+t,y_2+t,\\cdots,y_n+t)=[f(y_1+t,y_2+t,\\cdots,y_n+t)]\\geqslant 0$$\n\n（因为 $[f(x_1,x_2,\\cdots,x_n)]\\geqslant 0$，$\\forall x_1,x_2,\\cdots,x_n\\geqslant 0$），所以，$g(x_n)\\geqslant g(0)$。因此\n$$f(x_1,x_2,\\cdots,x_n)\\geqslant f(x_1-x_n,x_2-x_n,\\cdots,x_{n-1}-x_n,0)\\geqslant 0$$\n\n证毕。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "定理 5 设 $f(x_1,x_2,\\cdots,x_n):\\mathbf{R}^n\\to\\mathbf{R}$ 是 $\\mathbf{C}^1$ 上的 $n$ 元函数，则不等式\n$$f(x_1,x_2,\\cdots,x_n)\\geqslant 0\\quad(x_1,x_2,\\cdots,x_n\\geqslant 0)$$\n成立，如果下列两个条件成立：\n(1)$f(x_1,x_2,\\cdots,x_n)\\geqslant 0$，如果 $x_1x_2\\cdots x_n=0$。\n(2)$[f]\\geqslant 0$，$\\forall x_1,x_2,\\cdots,x_n\\geqslant 0$。",
+    "tags": [
+      "全导数",
+      "定理",
+      "不等式证明方法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

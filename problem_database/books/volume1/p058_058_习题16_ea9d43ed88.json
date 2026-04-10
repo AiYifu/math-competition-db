@@ -1,0 +1,49 @@
+{
+  "uid": "p058_058_习题16_ea9d43ed88",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题16",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    58
+  ],
+  "source_images": [
+    "page-058.jpg"
+  ],
+  "stem_md": "(Nguyen Viet Anh, Mathlinks) 设 $a,b,c$ 是任意非负实数，证明\n$$\\frac{a^3}{2a^2-ab+2b^2}+\\frac{b^3}{2b^2-bc+2c^2}+\\frac{c^3}{2c^2-ca+2a^2}\\geqslant\\frac{a+b+c}{3}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "16.(Nguyen Viet Anh,Mathlinks) 设 $a,b,c$ 是任意非负实数，证明\n$$\\frac{a^3}{2a^2-ab+2b^2}+\\frac{b^3}{2b^2-bc+2c^2}+\\frac{c^3}{2c^2-ca+2a^2}\\geqslant\\frac{a+b+c}{3}$$",
+  "tags": [
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "ea9d43ed887758b1ef459695478ccaa782d417aa",
+  "raw_problem": {
+    "problem_id": "习题16",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      58
+    ],
+    "stem_md": "(Nguyen Viet Anh, Mathlinks) 设 $a,b,c$ 是任意非负实数，证明\n$$\\frac{a^3}{2a^2-ab+2b^2}+\\frac{b^3}{2b^2-bc+2c^2}+\\frac{c^3}{2c^2-ca+2a^2}\\geqslant\\frac{a+b+c}{3}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "16.(Nguyen Viet Anh,Mathlinks) 设 $a,b,c$ 是任意非负实数，证明\n$$\\frac{a^3}{2a^2-ab+2b^2}+\\frac{b^3}{2b^2-bc+2c^2}+\\frac{c^3}{2c^2-ca+2a^2}\\geqslant\\frac{a+b+c}{3}$$",
+    "tags": [
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p173_173_例5_2_8_12e6f08387",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "2",
+  "problem_id": "例5.2.8",
+  "problem_type": "example",
+  "title": "Poland MO 2007",
+  "source_pages": [
+    173
+  ],
+  "stem_md": "设 $a, b, c, d$ 是正实数, 满足\n\n$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} = 1$,\n\n则\n\n$8\\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} = \\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} \\cdot \\sum\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\geqslant 16$",
+  "solution_md": "由 Cauchy-Schwarz 不等式, 并注意条件 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} = 1$, 则\n\n$8\\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} = \\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} \\cdot \\sum\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\geqslant 16$\n\n所以, 原不等式成立, 等号成立的条件是 $a = b = c = d = 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.8(Poland MO 2007) 设 $a, b, c, d$ 是正实数, 满足\n\n$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} = 1$,\n\n则\n\n$8\\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} = \\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} \\cdot \\sum\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\geqslant 16$\n\n证明 由 Cauchy-Schwarz 不等式, 并注意条件 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} = 1$, 则\n\n$8\\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} = \\sum\\frac{1}{\\frac{1}{a} + \\frac{1}{b}} \\cdot \\sum\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\geqslant 16$\n\n所以, 原不等式成立, 等号成立的条件是 $a = b = c = d = 1$.",
+  "tags": [
+    "不等式",
+    "Cauchy-Schwarz不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

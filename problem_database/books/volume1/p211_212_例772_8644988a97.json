@@ -1,0 +1,56 @@
+{
+  "uid": "p211_212_例772_8644988a97",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.2",
+  "problem_type": "example",
+  "title": "Nguyen Van Thach, Mathlinks",
+  "source_pages": [
+    211,
+    212
+  ],
+  "source_images": [
+    "page-211.jpg",
+    "page-212.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{a^2}{b^2}+\\frac{b^2}{c^2}+\\frac{c^2}{a^2}+\\frac{8(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 11$$",
+  "solution_md": "**证明** 不失一般性，设 $c=\\min\\{a,b,c\\}$，我们有\n\n$$\\sum\\frac{a^2}{b^2}-3=\\frac{(a+b)^2(a-b)^2}{a^2b^2}+\\frac{(a+c)(b+c)(c-a)(c-b)}{a^2c^2}$$\n\n所以，不等式可改写成\n\n$$\\left[\\frac{(a+b)^2}{a^2b^2}-\\frac{8}{a^2+b^2+c^2}\\right](a-b)^2+\\left[\\frac{(a+c)(b+c)}{a^2c^2}-\\frac{8}{a^2+b^2+c^2}\\right](c-a)(c-b)\\geqslant 0$$\n\n因此\n\n$$M=\\frac{(a+b)^2}{a^2b^2}-\\frac{8}{a^2+b^2+c^2}, N=\\frac{(a+c)(b+c)}{a^2c^2}-\\frac{8}{a^2+b^2+c^2}$$\n\n由AM-GM不等式，我们有\n\n$$(a^2+b^2+c^2)(a+b)^2\\geqslant 2ab\\cdot 4ab=8a^2b^2\\Rightarrow M\\geqslant 0$$\n\n$$(a+c)(b+c)(a^2+b^2+c^2)\\geqslant 2c(a+c)(a^2+2c^2)$$\n\n$$=2c(a+c)\\left(\\frac{a^2}{3}+\\frac{a^2}{3}+\\frac{a^2}{3}+2c^2\\right)$$\n\n$$\\geqslant 4c\\sqrt{ac}\\cdot 4\\sqrt[4]{\\frac{2a^6c^2}{27}}=\\frac{16\\sqrt[4]{6}}{3}a^2c^2>8a^2c^2\\Rightarrow N\\geqslant 0$$\n\n所以，$M$ 和 $N$ 都是非负的，由此可见，原不等式是成立的。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.2(Nguyen Van Thach,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2}{b^2}+\\frac{b^2}{c^2}+\\frac{c^2}{a^2}+\\frac{8(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 11$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "分式不等式",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "8644988a970c28aa38a2fbc91ab004bcd1d7e593",
+  "raw_problem": {
+    "problem_id": "例7.7.2",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": "Nguyen Van Thach, Mathlinks",
+    "source_pages": [
+      211,
+      212
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\frac{a^2}{b^2}+\\frac{b^2}{c^2}+\\frac{c^2}{a^2}+\\frac{8(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 11$$",
+    "solution_md": "**证明** 不失一般性，设 $c=\\min\\{a,b,c\\}$，我们有\n\n$$\\sum\\frac{a^2}{b^2}-3=\\frac{(a+b)^2(a-b)^2}{a^2b^2}+\\frac{(a+c)(b+c)(c-a)(c-b)}{a^2c^2}$$\n\n所以，不等式可改写成\n\n$$\\left[\\frac{(a+b)^2}{a^2b^2}-\\frac{8}{a^2+b^2+c^2}\\right](a-b)^2+\\left[\\frac{(a+c)(b+c)}{a^2c^2}-\\frac{8}{a^2+b^2+c^2}\\right](c-a)(c-b)\\geqslant 0$$\n\n因此\n\n$$M=\\frac{(a+b)^2}{a^2b^2}-\\frac{8}{a^2+b^2+c^2}, N=\\frac{(a+c)(b+c)}{a^2c^2}-\\frac{8}{a^2+b^2+c^2}$$\n\n由AM-GM不等式，我们有\n\n$$(a^2+b^2+c^2)(a+b)^2\\geqslant 2ab\\cdot 4ab=8a^2b^2\\Rightarrow M\\geqslant 0$$\n\n$$(a+c)(b+c)(a^2+b^2+c^2)\\geqslant 2c(a+c)(a^2+2c^2)$$\n\n$$=2c(a+c)\\left(\\frac{a^2}{3}+\\frac{a^2}{3}+\\frac{a^2}{3}+2c^2\\right)$$\n\n$$\\geqslant 4c\\sqrt{ac}\\cdot 4\\sqrt[4]{\\frac{2a^6c^2}{27}}=\\frac{16\\sqrt[4]{6}}{3}a^2c^2>8a^2c^2\\Rightarrow N\\geqslant 0$$\n\n所以，$M$ 和 $N$ 都是非负的，由此可见，原不等式是成立的。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.2(Nguyen Van Thach,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2}{b^2}+\\frac{b^2}{c^2}+\\frac{c^2}{a^2}+\\frac{8(ab+bc+ca)}{a^2+b^2+c^2}\\geqslant 11$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "分式不等式",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

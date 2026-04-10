@@ -1,0 +1,25 @@
+{
+  "uid": "p022_022_例23_bd890f9f38",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例23",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    22
+  ],
+  "stem_md": "给定整数 $n \\geqslant 4$, 对任意满足 $a_1 + a_2 + \\cdots + a_n = b_1 + b_2 + \\cdots + b_n > 0$ 的非负实数 $a_1, a_2, \\cdots, a_n, b_1, b_2, \\cdots, b_n$, 求 $\\frac{\\sum_{i=1}^{n} a_i (a_i + b_i)}{\\sum_{i=1}^{n} b_i (a_i + b_i)}$ 的最大值.",
+  "solution_md": "解析 由齐次性可知, 不妨假设 $\\sum_{i=1}^{n} a_i = \\sum_{i=1}^{n} b_i = 1$. 首先, 当 $a_1 = 1$, $a_2 = a_3 = \\cdots = a_n = 0$, $b_1 = b_2 = b_3 = \\cdots = b_n = \\frac{1}{n-1}$ 时,\n$\\sum_{i=1}^{n} a_i (a_i + b_i) = 1$,\n$\\sum_{i=1}^{n} b_i (a_i + b_i) = \\frac{1}{n-1}$,\n所以, 所求的最大值为 $n-1$.\n下证对任意满足 $\\sum_{i=1}^{n} a_i = \\sum_{i=1}^{n} b_i = 1$ 的 $a_1, a_2, \\cdots, a_n, b_1, b_2, \\cdots, b_n$, 均有\n$\\sum_{i=1}^{n} a_i (a_i + b_i) \\leqslant (n-1) \\sum_{i=1}^{n} b_i (a_i + b_i)$,\n即\n$(n-1) \\sum_{i=1}^{n} b_i^2 + (n-2) \\sum_{i=1}^{n} a_i b_i \\geqslant \\sum_{i=1}^{n} a_i^2$.\n由于分母是正数, 故上式等价于\n$\\sum_{i=1}^{n} a_i^3 - 2 \\sum_{i=1}^{n} a_i^2 b_i + (n-1) \\sum_{i=1}^{n} b_i^3 + (n-2) \\sum_{i=1}^{n} a_i b_i^2 \\geqslant 0$,\n(即: $\\sum_{\\text{cyc}} x^r (x - y) (x - z) \\geqslant 0$, $r > 0$), 则\n$\\sum_{\\text{cyc}} (a - b) (a - c) (b - c) \\geqslant 0$,\n一般地, 舒尔不等式为: 设 $x, y, z \\geqslant 0$, $r > 0$, 则\n$\\sum_{\\text{cyc}} x^r (x - y) (x - z) \\geqslant 0$.\n事实上, 由 $(u + v + w)^2 \\geqslant 3 (uv + vw + wu)$, 得\n$\\sum_{\\text{cyc}} bc \\geqslant \\sqrt{3abc (a + b + c)}$,\n故\n$\\sqrt{abc} (\\sqrt{a} + \\sqrt{b} + \\sqrt{c}) + (a + b + c)^2 \\geqslant 4 \\sqrt{3abc (a + b + c)}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 23 给定整数 $n \\geqslant 4$, 对任意满足 $a_1 + a_2 + \\cdots + a_n = b_1 + b_2 + \\cdots + b_n > 0$ 的非负实数 $a_1, a_2, \\cdots, a_n, b_1, b_2, \\cdots, b_n$, 求 $\\frac{\\sum_{i=1}^{n} a_i (a_i + b_i)}{\\sum_{i=1}^{n} b_i (a_i + b_i)}$ 的最大值.\n解析 由齐次性可知, 不妨假设 $\\sum_{i=1}^{n} a_i = \\sum_{i=1}^{n} b_i = 1$. 首先, 当 $a_1 = 1$, $a_2 = a_3 = \\cdots = a_n = 0$, $b_1 = b_2 = b_3 = \\cdots = b_n = \\frac{1}{n-1}$ 时,\n$\\sum_{i=1}^{n} a_i (a_i + b_i) = 1$,\n$\\sum_{i=1}^{n} b_i (a_i + b_i) = \\frac{1}{n-1}$,\n所以, 所求的最大值为 $n-1$.\n下证对任意满足 $\\sum_{i=1}^{n} a_i = \\sum_{i=1}^{n} b_i = 1$ 的 $a_1, a_2, \\cdots, a_n, b_1, b_2, \\cdots, b_n$, 均有\n$\\sum_{i=1}^{n} a_i (a_i + b_i) \\leqslant (n-1) \\sum_{i=1}^{n} b_i (a_i + b_i)$,\n即\n$(n-1) \\sum_{i=1}^{n} b_i^2 + (n-2) \\sum_{i=1}^{n} a_i b_i \\geqslant \\sum_{i=1}^{n} a_i^2$.\n由于分母是正数, 故上式等价于\n$\\sum_{i=1}^{n} a_i^3 - 2 \\sum_{i=1}^{n} a_i^2 b_i + (n-1) \\sum_{i=1}^{n} b_i^3 + (n-2) \\sum_{i=1}^{n} a_i b_i^2 \\geqslant 0$,\n(即: $\\sum_{\\text{cyc}} x^r (x - y) (x - z) \\geqslant 0$, $r > 0$), 则\n$\\sum_{\\text{cyc}} (a - b) (a - c) (b - c) \\geqslant 0$,\n一般地, 舒尔不等式为: 设 $x, y, z \\geqslant 0$, $r > 0$, 则\n$\\sum_{\\text{cyc}} x^r (x - y) (x - z) \\geqslant 0$.\n事实上, 由 $(u + v + w)^2 \\geqslant 3 (uv + vw + wu)$, 得\n$\\sum_{\\text{cyc}} bc \\geqslant \\sqrt{3abc (a + b + c)}$,\n故\n$\\sqrt{abc} (\\sqrt{a} + \\sqrt{b} + \\sqrt{c}) + (a + b + c)^2 \\geqslant 4 \\sqrt{3abc (a + b + c)}$.",
+  "tags": [
+    "不等式",
+    "最大值",
+    "舒尔不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003"
+}

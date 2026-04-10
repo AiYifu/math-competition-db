@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_23_3b10e360c3",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "23",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "设圆 $O$ 的半径为 $\\frac{1}{2}$, 两弦 $CD$ 和 $EF$ 均与直径 $AB$ 交 $45^{\\circ}$. 设 $P$、$Q$ 分别为 $AB$ 与 $CD$、$EF$ 的交点. 求证: $2PC \\cdot QE + 2PD \\cdot QF \\leqslant 1$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设圆 $O$ 的半径为 $\\frac{1}{2}$, 两弦 $CD$ 和 $EF$ 均与直径 $AB$ 交 $45^{\\circ}$. 设 $P$、$Q$ 分别为 $AB$ 与 $CD$、$EF$ 的交点. 求证: $2PC \\cdot QE + 2PD \\cdot QF \\leqslant 1$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

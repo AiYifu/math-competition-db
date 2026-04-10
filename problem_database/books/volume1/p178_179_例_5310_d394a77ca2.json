@@ -1,0 +1,56 @@
+{
+  "uid": "p178_179_例_5310_d394a77ca2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.10",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    178,
+    179
+  ],
+  "source_images": [
+    "page-178.jpg",
+    "page-179.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是实数，证明\n$$a^4+b^4+c^4+(\\sqrt{3}-1)abc(a+b+c)\\geqslant\\sqrt{3}(a^3b+b^3c+c^3a)$$",
+  "solution_md": "我们使用下列非负表达式\n$$E_{a,b,c}=\\sum(a^2-2b^2+c^2+kbc-kca)^2\\geqslant 0$$\n$$E_{a,b,c}=6\\sum a^4+(2k^2-6)\\sum a^2b^2+(6k-2k^2)\\sum a^2bc-6k\\sum a^3b$$\n令 $k=\\sqrt{3}$，则有\n$$6\\sum a^4+6(\\sqrt{3}-1)\\sum a^2bc-6\\sqrt{3}\\sum a^3b\\geqslant 0$$\n$$\\Leftrightarrow\\sum a^4+(\\sqrt{3}-1)abc\\sum a\\geqslant\\sqrt{3}\\sum a^3b$$",
+  "answer_md": "",
+  "hints_md": "注 1. 取 $k=-\\sqrt{3}$，则有下列不等式：\n对实数 $a,b,c$，证明\n$$a^4+b^4+c^4+\\sqrt{3}(a^3b+b^3c+c^3a)\\geqslant(\\sqrt{3}+1)abc(a+b+c)$$\n\n2. 取 $k=3$，我们得到由 Vasile Cirtoaje 建立的知名不等式：\n对实数 $a,b,c$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 3(a^3b+b^3c+c^3a)$$\n\n3. 取 $k=-3$，得到下列不等式：\n对实数 $a,b,c$ 满足 $a^3b+b^3c+c^3a=0$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 6abc(a+b+c)$$",
+  "original_text_md": "例 5.3.10(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是实数，证明\n$$a^4+b^4+c^4+(\\sqrt{3}-1)abc(a+b+c)\\geqslant\\sqrt{3}(a^3b+b^3c+c^3a)$$\n证明 我们使用下列非负表达式\n$$E_{a,b,c}=\\sum(a^2-2b^2+c^2+kbc-kca)^2\\geqslant 0$$\n$$E_{a,b,c}=6\\sum a^4+(2k^2-6)\\sum a^2b^2+(6k-2k^2)\\sum a^2bc-6k\\sum a^3b$$\n令 $k=\\sqrt{3}$，则有\n$$6\\sum a^4+6(\\sqrt{3}-1)\\sum a^2bc-6\\sqrt{3}\\sum a^3b\\geqslant 0$$\n$$\\Leftrightarrow\\sum a^4+(\\sqrt{3}-1)abc\\sum a\\geqslant\\sqrt{3}\\sum a^3b$$\n注 1. 取 $k=-\\sqrt{3}$，则有下列不等式：\n对实数 $a,b,c$，证明\n$$a^4+b^4+c^4+\\sqrt{3}(a^3b+b^3c+c^3a)\\geqslant(\\sqrt{3}+1)abc(a+b+c)$$\n2. 取 $k=3$，我们得到由 Vasile Cirtoaje 建立的知名不等式：\n对实数 $a,b,c$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 3(a^3b+b^3c+c^3a)$$\n3. 取 $k=-3$，得到下列不等式：\n对实数 $a,b,c$ 满足 $a^3b+b^3c+c^3a=0$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 6abc(a+b+c)$$",
+  "tags": [
+    "实数不等式",
+    "非负表达式",
+    "Vasile Cirtoaje"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "d394a77ca2c1aeb0e23d8a3c1f4e34c888f2cdcf",
+  "raw_problem": {
+    "problem_id": "例 5.3.10",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "Pham Kim Hung, Mathlinks",
+    "source_pages": [
+      178,
+      179
+    ],
+    "stem_md": "设 $a,b,c$ 是实数，证明\n$$a^4+b^4+c^4+(\\sqrt{3}-1)abc(a+b+c)\\geqslant\\sqrt{3}(a^3b+b^3c+c^3a)$$",
+    "solution_md": "我们使用下列非负表达式\n$$E_{a,b,c}=\\sum(a^2-2b^2+c^2+kbc-kca)^2\\geqslant 0$$\n$$E_{a,b,c}=6\\sum a^4+(2k^2-6)\\sum a^2b^2+(6k-2k^2)\\sum a^2bc-6k\\sum a^3b$$\n令 $k=\\sqrt{3}$，则有\n$$6\\sum a^4+6(\\sqrt{3}-1)\\sum a^2bc-6\\sqrt{3}\\sum a^3b\\geqslant 0$$\n$$\\Leftrightarrow\\sum a^4+(\\sqrt{3}-1)abc\\sum a\\geqslant\\sqrt{3}\\sum a^3b$$",
+    "answer_md": "",
+    "hints_md": "注 1. 取 $k=-\\sqrt{3}$，则有下列不等式：\n对实数 $a,b,c$，证明\n$$a^4+b^4+c^4+\\sqrt{3}(a^3b+b^3c+c^3a)\\geqslant(\\sqrt{3}+1)abc(a+b+c)$$\n\n2. 取 $k=3$，我们得到由 Vasile Cirtoaje 建立的知名不等式：\n对实数 $a,b,c$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 3(a^3b+b^3c+c^3a)$$\n\n3. 取 $k=-3$，得到下列不等式：\n对实数 $a,b,c$ 满足 $a^3b+b^3c+c^3a=0$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 6abc(a+b+c)$$",
+    "original_text_md": "例 5.3.10(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是实数，证明\n$$a^4+b^4+c^4+(\\sqrt{3}-1)abc(a+b+c)\\geqslant\\sqrt{3}(a^3b+b^3c+c^3a)$$\n证明 我们使用下列非负表达式\n$$E_{a,b,c}=\\sum(a^2-2b^2+c^2+kbc-kca)^2\\geqslant 0$$\n$$E_{a,b,c}=6\\sum a^4+(2k^2-6)\\sum a^2b^2+(6k-2k^2)\\sum a^2bc-6k\\sum a^3b$$\n令 $k=\\sqrt{3}$，则有\n$$6\\sum a^4+6(\\sqrt{3}-1)\\sum a^2bc-6\\sqrt{3}\\sum a^3b\\geqslant 0$$\n$$\\Leftrightarrow\\sum a^4+(\\sqrt{3}-1)abc\\sum a\\geqslant\\sqrt{3}\\sum a^3b$$\n注 1. 取 $k=-\\sqrt{3}$，则有下列不等式：\n对实数 $a,b,c$，证明\n$$a^4+b^4+c^4+\\sqrt{3}(a^3b+b^3c+c^3a)\\geqslant(\\sqrt{3}+1)abc(a+b+c)$$\n2. 取 $k=3$，我们得到由 Vasile Cirtoaje 建立的知名不等式：\n对实数 $a,b,c$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 3(a^3b+b^3c+c^3a)$$\n3. 取 $k=-3$，得到下列不等式：\n对实数 $a,b,c$ 满足 $a^3b+b^3c+c^3a=0$，证明\n$$(a^2+b^2+c^2)^2\\geqslant 6abc(a+b+c)$$",
+    "tags": [
+      "实数不等式",
+      "非负表达式",
+      "Vasile Cirtoaje"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

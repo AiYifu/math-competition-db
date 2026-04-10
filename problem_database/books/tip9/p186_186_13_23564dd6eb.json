@@ -1,0 +1,24 @@
+{
+  "uid": "p186_186_13_23564dd6eb",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "13",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    186
+  ],
+  "stem_md": "用反证法, 设有 $1 \\leqslant i < j \\leqslant n$ 使得 $A \\geqslant 2a_ia_j$. 不妨设 $i = 1$, $j = 2$, 于是有 $A + \\sum_{i=1}^{n} a_i^2 \\geqslant 2a_1a_2 + \\sum_{i=1}^{n} a_i^2 = (a_1 + a_2)^2 + a_3^2 + \\cdots + a_n^2$, 由柯西不等式, $(a_1 + a_2)^2 + a_3^2 + \\cdots + a_n^2 \\geqslant \\frac{1}{n-1} (\\sum_{i=1}^{n} a_i)^2$, 矛盾!",
+  "solution_md": "故对一切 $1 \\leqslant i < j \\leqslant n$, 有 $A < 2a_ia_j$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "用反证法, 设有 $1 \\leqslant i < j \\leqslant n$ 使得 $A \\geqslant 2a_ia_j$. 不妨设 $i = 1$, $j = 2$, 于是有 $A + \\sum_{i=1}^{n} a_i^2 \\geqslant 2a_1a_2 + \\sum_{i=1}^{n} a_i^2 = (a_1 + a_2)^2 + a_3^2 + \\cdots + a_n^2$, 由柯西不等式, $(a_1 + a_2)^2 + a_3^2 + \\cdots + a_n^2 \\geqslant \\frac{1}{n-1} (\\sum_{i=1}^{n} a_i)^2$, 矛盾! 故对一切 $1 \\leqslant i < j \\leqslant n$, 有 $A < 2a_ia_j$.",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024"
+}

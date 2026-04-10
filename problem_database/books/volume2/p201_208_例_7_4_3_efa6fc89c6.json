@@ -1,0 +1,31 @@
+{
+  "uid": "p201_208_例_7_4_3_efa6fc89c6",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例 7.4.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明\n$$\na^2 + b^2 + c^2 + 2abc + 3 \\geqslant (a + 1)(b + 1)(c + 1)\n$$",
+  "solution_md": "照例, 我们只考虑下列三种情况, 证明不等式成立即可.\n(1) 第一种情况 $a = b = c = t$, 此时不等式变成\n$$\n3t^2 + 2t^3 + 3 \\geqslant (t + 1)^3 \\Leftrightarrow (t + 2)(t - 1)^2 + 1 \\geqslant 0\n$$\n这显然成立, 等号成立的条件是 $a = b = c = 1$.\n(2) 第二种情况 $a = b = t, c = 0$, 此时不等式变成\n$$\n2t^2 + 3 \\geqslant t + 1 \\Leftrightarrow \\left( t - \\frac{1}{2} \\right)^2 + \\frac{7}{4} \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.\n(3) 第三种情况 $a = t, b = c = 0$, 此时不等式变成\n$$\nt^2 + 3 \\geqslant t + 1 \\Leftrightarrow \\left( t - \\frac{1}{2} \\right)^2 + \\frac{7}{4} \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是非负实数, 证明\n$$\na^2 + b^2 + c^2 + 2abc + 3 \\geqslant (a + 1)(b + 1)(c + 1)\n$$\n照例, 我们只考虑下列三种情况, 证明不等式成立即可.\n(1) 第一种情况 $a = b = c = t$, 此时不等式变成\n$$\n3t^2 + 2t^3 + 3 \\geqslant (t + 1)^3 \\Leftrightarrow (t + 2)(t - 1)^2 + 1 \\geqslant 0\n$$\n这显然成立, 等号成立的条件是 $a = b = c = 1$.\n(2) 第二种情况 $a = b = t, c = 0$, 此时不等式变成\n$$\n2t^2 + 3 \\geqslant t + 1 \\Leftrightarrow \\left( t - \\frac{1}{2} \\right)^2 + \\frac{7}{4} \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.\n(3) 第三种情况 $a = t, b = c = 0$, 此时不等式变成\n$$\nt^2 + 3 \\geqslant t + 1 \\Leftrightarrow \\left( t - \\frac{1}{2} \\right)^2 + \\frac{7}{4} \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.",
+  "tags": [
+    "不等式",
+    "例题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

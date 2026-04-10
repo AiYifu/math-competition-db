@@ -1,0 +1,23 @@
+{
+  "uid": "p209_209_7_566126681b",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "7",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "原不等式等价于 $\\sum_{\\text{cyc}}\\frac{1}{x^5+y^2+z^2}\\leqslant\\frac{3}{x^2+y^2+z^2}$. 利用 $xyz\\geqslant1$ 及柯西不等式得 $(x^5+y^2+z^2)\\cdot(yz+y^2+z^2)\\geqslant\\left(\\sum_{\\text{cyc}}x^2\\right)^2$. 而 $\\sum_{\\text{cyc}}(yz+y^2+z^2)\\leqslant\\sum_{\\text{cyc}}\\left(\\frac{y^2+z^2}{2}+y^2+z^2\\right)=3\\sum_{\\text{cyc}}x^2$. 代入即得结果.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "7. 原不等式等价于 $\\sum_{\\text{cyc}}\\frac{1}{x^5+y^2+z^2}\\leqslant\\frac{3}{x^2+y^2+z^2}$. 利用 $xyz\\geqslant1$ 及柯西不等式得 $(x^5+y^2+z^2)\\cdot(yz+y^2+z^2)\\geqslant\\left(\\sum_{\\text{cyc}}x^2\\right)^2$. 而 $\\sum_{\\text{cyc}}(yz+y^2+z^2)\\leqslant\\sum_{\\text{cyc}}\\left(\\frac{y^2+z^2}{2}+y^2+z^2\\right)=3\\sum_{\\text{cyc}}x^2$. 代入即得结果.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

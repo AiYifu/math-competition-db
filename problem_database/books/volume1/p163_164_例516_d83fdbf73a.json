@@ -1,0 +1,55 @@
+{
+  "uid": "p163_164_例516_d83fdbf73a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "例5.1.6",
+  "problem_type": "example",
+  "title": "例5.1.6",
+  "source_pages": [
+    163,
+    164
+  ],
+  "source_images": [],
+  "stem_md": "(Kunihiko Chikaya, Mathlinks) 设 $p,q,r$ 是实数，$x,y,z$ 是满足 $x^2+y^2+z^2-xy-yz-zx=3$ 的实数，求表达式\n$$(q-r)x + (r-p)y + (p-q)z$$\n的最大值。",
+  "solution_md": "由 Cauchy-Schwarz 不等式，我们有\n$$3(q-r)x + 3(r-p)y + 3(p-q)z$$\n$$= 3(q-r)x + 3(r-p)y + 3(p-q)z -$$\n$$(x+y+z)[(q-r)+(r-p)+(p-q)]$$\n$$= (q-r)(2x-y-z) + (r-p)(2y-x-z) + (p-q)(2z-x-y)$$\n$$\\leqslant \\sqrt{(q-r)^2+(r-p)^2+(p-q)^2} \\cdot$$\n$$\\sqrt{(2x-y-z)^2+(2y-x-z)^2+(2z-x-y)^2}$$\n$$= \\sqrt{2(p^2+q^2+r^2-pq-qr-rp) \\cdot 6(x^2+y^2+z^2-xy-yz-zx)}$$\n$$= 6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$\n\n所以，表达式 $(q-r)x+(r-p)y+(p-q)z$ 的最大值为\n$$6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$",
+  "answer_md": "$6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$",
+  "hints_md": "",
+  "original_text_md": "例 5.1.6(Kunihiko Chikaya, Mathlinks) 设 $p,q,r$ 是实数，$x,y,z$ 是满足 $x^2+y^2+z^2-xy-yz-zx=3$ 的实数，求表达式\n$$(q-r)x + (r-p)y + (p-q)z$$\n的最大值。\n\n解 由 Cauchy-Schwarz 不等式，我们有\n$$3(q-r)x + 3(r-p)y + 3(p-q)z$$\n$$= 3(q-r)x + 3(r-p)y + 3(p-q)z -$$\n$$(x+y+z)[(q-r)+(r-p)+(p-q)]$$\n$$= (q-r)(2x-y-z) + (r-p)(2y-x-z) + (p-q)(2z-x-y)$$\n$$\\leqslant \\sqrt{(q-r)^2+(r-p)^2+(p-q)^2} \\cdot$$\n$$\\sqrt{(2x-y-z)^2+(2y-x-z)^2+(2z-x-y)^2}$$\n$$= \\sqrt{2(p^2+q^2+r^2-pq-qr-rp) \\cdot 6(x^2+y^2+z^2-xy-yz-zx)}$$\n$$= 6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$\n\n所以，表达式 $(q-r)x+(r-p)y+(p-q)z$ 的最大值为\n$$6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$",
+  "tags": [
+    "例题",
+    "Cauchy-Schwarz不等式",
+    "实数",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "d83fdbf73a889c9b9f0e59d97110d1a6994bf7a6",
+  "raw_problem": {
+    "problem_id": "例5.1.6",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "例5.1.6",
+    "source_pages": [
+      163,
+      164
+    ],
+    "stem_md": "(Kunihiko Chikaya, Mathlinks) 设 $p,q,r$ 是实数，$x,y,z$ 是满足 $x^2+y^2+z^2-xy-yz-zx=3$ 的实数，求表达式\n$$(q-r)x + (r-p)y + (p-q)z$$\n的最大值。",
+    "solution_md": "由 Cauchy-Schwarz 不等式，我们有\n$$3(q-r)x + 3(r-p)y + 3(p-q)z$$\n$$= 3(q-r)x + 3(r-p)y + 3(p-q)z -$$\n$$(x+y+z)[(q-r)+(r-p)+(p-q)]$$\n$$= (q-r)(2x-y-z) + (r-p)(2y-x-z) + (p-q)(2z-x-y)$$\n$$\\leqslant \\sqrt{(q-r)^2+(r-p)^2+(p-q)^2} \\cdot$$\n$$\\sqrt{(2x-y-z)^2+(2y-x-z)^2+(2z-x-y)^2}$$\n$$= \\sqrt{2(p^2+q^2+r^2-pq-qr-rp) \\cdot 6(x^2+y^2+z^2-xy-yz-zx)}$$\n$$= 6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$\n\n所以，表达式 $(q-r)x+(r-p)y+(p-q)z$ 的最大值为\n$$6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$",
+    "answer_md": "$6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$",
+    "hints_md": "",
+    "original_text_md": "例 5.1.6(Kunihiko Chikaya, Mathlinks) 设 $p,q,r$ 是实数，$x,y,z$ 是满足 $x^2+y^2+z^2-xy-yz-zx=3$ 的实数，求表达式\n$$(q-r)x + (r-p)y + (p-q)z$$\n的最大值。\n\n解 由 Cauchy-Schwarz 不等式，我们有\n$$3(q-r)x + 3(r-p)y + 3(p-q)z$$\n$$= 3(q-r)x + 3(r-p)y + 3(p-q)z -$$\n$$(x+y+z)[(q-r)+(r-p)+(p-q)]$$\n$$= (q-r)(2x-y-z) + (r-p)(2y-x-z) + (p-q)(2z-x-y)$$\n$$\\leqslant \\sqrt{(q-r)^2+(r-p)^2+(p-q)^2} \\cdot$$\n$$\\sqrt{(2x-y-z)^2+(2y-x-z)^2+(2z-x-y)^2}$$\n$$= \\sqrt{2(p^2+q^2+r^2-pq-qr-rp) \\cdot 6(x^2+y^2+z^2-xy-yz-zx)}$$\n$$= 6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$\n\n所以，表达式 $(q-r)x+(r-p)y+(p-q)z$ 的最大值为\n$$6\\sqrt{p^2+q^2+r^2-pq-qr-rp}$$",
+    "tags": [
+      "例题",
+      "Cauchy-Schwarz不等式",
+      "实数",
+      "最大值"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

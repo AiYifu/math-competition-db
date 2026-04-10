@@ -1,0 +1,31 @@
+{
+  "uid": "p201_208_例_7_4_1_8268961f1b",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例 7.4.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明\n$$\na^3 + b^3 + c^3 + ab + bc + ca + 1 \\geqslant 2(a^2 + b^2 + c^2) + (-a + b + c)(a - b + c)(a + b - c)\n$$",
+  "solution_md": "由于这个不等式是三次对称非齐次, 所以, 我们只需考虑下列三种情况:\n(1) 第一种情况 $a = b = c = t$, 此时, 不等式变成\n$$\n2t^3 + 1 \\geqslant 3t^2\n$$\n这由 AM-GM 不等式可知, 显然成立. 等号成立的条件是 $a = b = c = 1$.\n(2) 第二种情况 $a = b = t, c = 0$, 此时, 不等式变成\n$$\n2t^3 + 1 \\geqslant 2t^2\n$$\n也是显然成立的. 等号成立的条件是 $a = b = 1, c = 0$ 或其轮换.\n(3) 第三种情况 $a = t, b = c = 0$, 此时, 不等式变成\n$$\nt^2 + 3 \\geqslant t + 1 \\Leftrightarrow \\left( t - \\frac{1}{2} \\right)^2 + \\frac{7}{4} \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是非负实数, 证明\n$$\na^3 + b^3 + c^3 + ab + bc + ca + 1 \\geqslant 2(a^2 + b^2 + c^2) + (-a + b + c)(a - b + c)(a + b - c)\n$$\n由于这个不等式是三次对称非齐次, 所以, 我们只需考虑下列三种情况:\n(1) 第一种情况 $a = b = c = t$, 此时, 不等式变成\n$$\n2t^3 + 1 \\geqslant 3t^2\n$$\n这由 AM-GM 不等式可知, 显然成立. 等号成立的条件是 $a = b = c = 1$.\n(2) 第二种情况 $a = b = t, c = 0$, 此时, 不等式变成\n$$\n2t^3 + 1 \\geqslant 2t^2\n$$\n也是显然成立的. 等号成立的条件是 $a = b = 1, c = 0$ 或其轮换.\n(3) 第三种情况 $a = t, b = c = 0$, 此时, 不等式变成\n$$\nt^2 + 3 \\geqslant t + 1 \\Leftrightarrow \\left( t - \\frac{1}{2} \\right)^2 + \\frac{7}{4} \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.",
+  "tags": [
+    "不等式",
+    "例题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

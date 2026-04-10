@@ -1,0 +1,25 @@
+{
+  "uid": "p009_010_证法九_8615603d07",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "证法九",
+  "problem_type": "proof",
+  "title": "证法九(倒向归纳法)",
+  "source_pages": [
+    9,
+    10
+  ],
+  "stem_md": "倒向归纳法,也称“留空回填”法. 基本思想是先对自然数的一个子列 $\\{n_m\\}$证明命题成立,然后再回过来证明$\\{n\\}\\{n_m\\}$相应的命题成立.\n首先证明当$n=2^m$($m$为正整数)时,平均值不等式成立.为此,对$m$用数学归纳法.",
+  "solution_md": "当$m=1$时,显然有$\\sqrt{a_1a_2}\\leqslant\\frac{a_1+a_2}{2}$.\n假设$m=k$时命题成立,则当$m=k+1$时,\n$2^{k+1}\\sqrt{a_1a_2\\cdots a_{2^k}a_{2^k+1}\\cdots a_{2^{k+1}}}$\n$=\\sqrt{2^k\\sqrt{a_1a_2\\cdots a_{2^k}}\\ 2^k\\sqrt{a_{2^k+1}\\cdots a_{2^{k+1}}}}$\n$\\leqslant\\frac{1}{2}(2^k\\sqrt{a_1a_2\\cdots a_{2^k}}+2^k\\sqrt{a_{2^k+1}\\cdots a_{2^{k+1}}})$\n$\\leqslant\\frac{1}{2}(\\frac{a_1+a_2+\\cdots+a_{2^k}}{2^k}+\\frac{a_{2^k+1}+\\cdots+a_{2^{k+1}}}{2^k})$\n$=\\frac{a_1+a_2+\\cdots+a_{2^k}+a_{2^k+1}+\\cdots+a_{2^{k+1}}}{2^{k+1}}$.\n所以对于具有$n=2^m$形式的正整数$n$,平均值不等式成立,即对无穷多个正整数$2,4,8,\\cdots,2^m,\\cdots$,平均值不等式成立.\n现假设$n=k+1$时,平均值不等式成立.\n当$n=k$时,$A_k=\\frac{a_1+a_2+\\cdots+a_k}{k}$,则由假设,得\n$k+1\\sqrt{a_1a_2\\cdots a_kA_k}\\leqslant\\frac{a_1+a_2+\\cdots+a_k+A_k}{k+1}=\\frac{kA_k+A_k}{k+1}=A_k$,\n所以$G_k\\leqslant A_k$,也就是说当$n=k$时命题也成立.\n综上可知,对一切正整数$n$,平均值不等式成立.不难看出,当且仅当所有的$a_i$相等时等号成立,故命题成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "证法九(倒向归纳法)\n倒向归纳法,也称“留空回填”法. 基本思想是先对自然数的一个子列 $\\{n_m\\}$证明命题成立,然后再回过来证明$\\{n\\}\\{n_m\\}$相应的命题成立.\n首先证明当$n=2^m$($m$为正整数)时,平均值不等式成立.为此,对$m$用数学归纳法.\n当$m=1$时,显然有$\\sqrt{a_1a_2}\\leqslant\\frac{a_1+a_2}{2}$.\n假设$m=k$时命题成立,则当$m=k+1$时,\n$2^{k+1}\\sqrt{a_1a_2\\cdots a_{2^k}a_{2^k+1}\\cdots a_{2^{k+1}}}$\n$=\\sqrt{2^k\\sqrt{a_1a_2\\cdots a_{2^k}}\\ 2^k\\sqrt{a_{2^k+1}\\cdots a_{2^{k+1}}}}$\n$\\leqslant\\frac{1}{2}(2^k\\sqrt{a_1a_2\\cdots a_{2^k}}+2^k\\sqrt{a_{2^k+1}\\cdots a_{2^{k+1}}})$\n$\\leqslant\\frac{1}{2}(\\frac{a_1+a_2+\\cdots+a_{2^k}}{2^k}+\\frac{a_{2^k+1}+\\cdots+a_{2^{k+1}}}{2^k})$\n$=\\frac{a_1+a_2+\\cdots+a_{2^k}+a_{2^k+1}+\\cdots+a_{2^{k+1}}}{2^{k+1}}$.\n所以对于具有$n=2^m$形式的正整数$n$,平均值不等式成立,即对无穷多个正整数$2,4,8,\\cdots,2^m,\\cdots$,平均值不等式成立.\n现假设$n=k+1$时,平均值不等式成立.\n当$n=k$时,$A_k=\\frac{a_1+a_2+\\cdots+a_k}{k}$,则由假设,得\n$k+1\\sqrt{a_1a_2\\cdots a_kA_k}\\leqslant\\frac{a_1+a_2+\\cdots+a_k+A_k}{k+1}=\\frac{kA_k+A_k}{k+1}=A_k$,\n所以$G_k\\leqslant A_k$,也就是说当$n=k$时命题也成立.\n综上可知,对一切正整数$n$,平均值不等式成立.不难看出,当且仅当所有的$a_i$相等时等号成立,故命题成立.",
+  "tags": [
+    "平均值不等式",
+    "数学归纳法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

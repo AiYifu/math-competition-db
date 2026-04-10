@@ -1,0 +1,24 @@
+{
+  "uid": "p202_202_19_81b0da1aff",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "19",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202
+  ],
+  "stem_md": "记 $a = BC$, $b = AC$, $c = AB$, $S = S_{\\triangle ABC}$, $S_0 = S_{\\triangle DEF}$. 由三角形平分线的性质, 得 $\\frac{AF}{b} = \\frac{BF}{a} = \\frac{AF + BF}{b + a} = \\frac{c}{a + b}$. 从而 $AF = \\frac{bc}{a + b}$, 同理可得 $AE = \\frac{bc}{a + c}$. 因此, $S_{\\triangle AEF} = \\frac{1}{2} AF \\cdot AE \\sin \\angle BAC = \\frac{1}{2} bc \\sin \\angle BAC \\cdot \\frac{bc}{(a + b)(a + c)} = \\frac{bcS}{(a + b)(a + c)}$. 同理可得 $S_{\\triangle BDF} = \\frac{acS}{(a + b)(b + c)}$, $S_{\\triangle CDE} = \\frac{abS}{(a + c)(b + c)}$. 由平均值不等式, 得 $S - S_0 = S_{\\triangle AEF} + S_{\\triangle BDF} + S_{\\triangle CDE} = \\left[\\frac{bc}{(a + b)(a + c)} + \\frac{ac}{(b + a)(b + c)} + \\frac{ab}{(c + a)(c + b)}\\right]S \\geq \\frac{6abcS}{(a + b)(b + c)(c + a)} = 3\\left[1 - \\frac{bc}{(a + b)(a + c)} - \\frac{ac}{(a + b)(c + b)} - \\frac{ab}{(a + c)(c + b)}\\right]S = 3(S - S_{\\triangle AEF} - S_{\\triangle BDF} - S_{\\triangle CDE}) = 3S_0$. 于是, $S_0 \\leq \\frac{1}{4}S$, 即命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "记 $a = BC$, $b = AC$, $c = AB$, $S = S_{\\triangle ABC}$, $S_0 = S_{\\triangle DEF}$. 由三角形平分线的性质, 得 $\\frac{AF}{b} = \\frac{BF}{a} = \\frac{AF + BF}{b + a} = \\frac{c}{a + b}$. 从而 $AF = \\frac{bc}{a + b}$, 同理可得 $AE = \\frac{bc}{a + c}$. 因此, $S_{\\triangle AEF} = \\frac{1}{2} AF \\cdot AE \\sin \\angle BAC = \\frac{1}{2} bc \\sin \\angle BAC \\cdot \\frac{bc}{(a + b)(a + c)} = \\frac{bcS}{(a + b)(a + c)}$. 同理可得 $S_{\\triangle BDF} = \\frac{acS}{(a + b)(b + c)}$, $S_{\\triangle CDE} = \\frac{abS}{(a + c)(b + c)}$. 由平均值不等式, 得 $S - S_0 = S_{\\triangle AEF} + S_{\\triangle BDF} + S_{\\triangle CDE} = \\left[\\frac{bc}{(a + b)(a + c)} + \\frac{ac}{(b + a)(b + c)} + \\frac{ab}{(c + a)(c + b)}\\right]S \\geq \\frac{6abcS}{(a + b)(b + c)(c + a)} = 3\\left[1 - \\frac{bc}{(a + b)(a + c)} - \\frac{ac}{(a + b)(c + b)} - \\frac{ab}{(a + c)(c + b)}\\right]S = 3(S - S_{\\triangle AEF} - S_{\\triangle BDF} - S_{\\triangle CDE}) = 3S_0$. 于是, $S_0 \\leq \\frac{1}{4}S$, 即命题成立.",
+  "tags": [
+    "几何",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

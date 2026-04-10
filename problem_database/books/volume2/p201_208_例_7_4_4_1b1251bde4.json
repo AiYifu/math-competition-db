@@ -1,0 +1,31 @@
+{
+  "uid": "p201_208_例_7_4_4_1b1251bde4",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例 7.4.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "stem_md": "设 $a, b, c, d$ 是非负实数, 证明\n$$\na^3 + b^3 + c^3 + abc + a^2 + b^2 + c^2 + a + b + c \\geqslant 2abc + a^2 + b^2 + c^2 + a + b + c\n$$",
+  "solution_md": "因为不等式是三次对称不等式, 所以, 我们只考虑下列情况:\n(1) 第一种情况 $a = b = c = t$, 此时不等式变成\n$$\nLHS - RHS = t^3 + 2 - 3t = (t + 2)(t - 1)^2 \\geqslant 0\n$$\n这显然成立, 等号成立的条件是 $a = b = c = 1$.\n(2) 第二种情况 $a = b = t, c = 0$, 此时不等式变成\n$$\nLHS - RHS = 2t^3 + 2 - t^2 - 2t = 2(t + 1)(t - 1)^2 + t^2 \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.\n(3) 第三种情况 $a = t, b = c = 0$, 此时不等式变成\n$$\nLHS - RHS = t^3 + 2 - t^2 - t = (t + 1)(t - 1)^2 + 1 \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.\n(4) 第四种情况 $a = b = c = d = 0$, 此时不等式变成\n$$\nLHS - RHS = 0 \\geqslant 0\n$$\n这显然成立, 等号成立的条件是 $a = b = c = d = 0$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c, d$ 是非负实数, 证明\n$$\na^3 + b^3 + c^3 + abc + a^2 + b^2 + c^2 + a + b + c \\geqslant 2abc + a^2 + b^2 + c^2 + a + b + c\n$$\n因为不等式是三次对称不等式, 所以, 我们只考虑下列情况:\n(1) 第一种情况 $a = b = c = t$, 此时不等式变成\n$$\nLHS - RHS = t^3 + 2 - 3t = (t + 2)(t - 1)^2 \\geqslant 0\n$$\n这显然成立, 等号成立的条件是 $a = b = c = 1$.\n(2) 第二种情况 $a = b = t, c = 0$, 此时不等式变成\n$$\nLHS - RHS = 2t^3 + 2 - t^2 - 2t = 2(t + 1)(t - 1)^2 + t^2 \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.\n(3) 第三种情况 $a = t, b = c = 0$, 此时不等式变成\n$$\nLHS - RHS = t^3 + 2 - t^2 - t = (t + 1)(t - 1)^2 + 1 \\geqslant 0\n$$\n这显然成立, 无等号成立的条件.\n(4) 第四种情况 $a = b = c = d = 0$, 此时不等式变成\n$$\nLHS - RHS = 0 \\geqslant 0\n$$\n这显然成立, 等号成立的条件是 $a = b = c = d = 0$.",
+  "tags": [
+    "不等式",
+    "例题"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

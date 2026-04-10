@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_4_e947ab9db4",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "4",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c, d \\in \\mathbf{R}_+$ 满足 $abcd = 1$, $a + b + c + d > \\frac{a}{b} + \\frac{b}{c} + \\frac{c}{d} + \\frac{d}{a}$. 求证: $a + b + c + d < \\frac{b}{a} + \\frac{c}{b} + \\frac{d}{c} + \\frac{a}{d}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c, d \\in \\mathbf{R}_+$ 满足 $abcd = 1$, $a + b + c + d > \\frac{a}{b} + \\frac{b}{c} + \\frac{c}{d} + \\frac{d}{a}$. 求证: $a + b + c + d < \\frac{b}{a} + \\frac{c}{b} + \\frac{d}{c} + \\frac{a}{d}$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

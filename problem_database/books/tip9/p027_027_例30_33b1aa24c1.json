@@ -1,0 +1,24 @@
+{
+  "uid": "p027_027_例30_33b1aa24c1",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例30",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    27
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 求证:\n$$(a^5 - a^2 + 3)(b^5 - b^2 + 3)(c^5 - c^2 + 3) \\geqslant (a + b + c)^3.$$",
+  "solution_md": "证明 对于 $x \\in \\mathbf{R}_+$, $x^2 - 1$ 与 $x^3 - 1$ 具有相同的符号, 所以\n$$(x^2 - 1)(x^3 - 1) \\geqslant 0,$$\n即\n$$x^5 - x^2 + 3 \\geqslant x^3 + 2.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是正实数, 求证:\n$$(a^5 - a^2 + 3)(b^5 - b^2 + 3)(c^5 - c^2 + 3) \\geqslant (a + b + c)^3.$$",
+  "tags": [
+    "不等式",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

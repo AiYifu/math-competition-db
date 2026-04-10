@@ -1,0 +1,25 @@
+{
+  "uid": "p053_054_例10_90e4abc518",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    53,
+    54
+  ],
+  "stem_md": "设 $a, b, c$ 为正实数，满足\n$a + b + c + 3 \\sqrt[3]{abc} \\geqslant k(\\sqrt{ab} + \\sqrt{bc} + \\sqrt{ca})$，\n求 $k$ 的最大值。",
+  "solution_md": "解 由于当 $a = b = c$ 时，由 $6 \\geqslant 3k$，得 $k \\leqslant 2$。下面证明\n$f(a, b, c) - f(a', b', c')$。因为\n$f(a, b, c) - f(a', b', c') = b + c - 2a^{\\frac{1}{2}}(b^{\\frac{1}{2}} + c^{\\frac{1}{2}} - 2A) - 2A$\n$= b + c - 2(\\sqrt{b} + \\sqrt{c} - \\sqrt{A})\\sqrt{A} + 2A$\n$= (\\sqrt{b} - \\sqrt{A})^2 + (\\sqrt{c} - \\sqrt{A})^2 \\geqslant 0$。\n从而 $f(a, b, c) \\geqslant 0$，故 $k$ 的最大值为 2。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例10 设 $a, b, c$ 为正实数，满足\n$a + b + c + 3 \\sqrt[3]{abc} \\geqslant k(\\sqrt{ab} + \\sqrt{bc} + \\sqrt{ca})$，\n求 $k$ 的最大值。\n解 由于当 $a = b = c$ 时，由 $6 \\geqslant 3k$，得 $k \\leqslant 2$。下面证明\n$f(a, b, c) - f(a', b', c')$。因为\n$f(a, b, c) - f(a', b', c') = b + c - 2a^{\\frac{1}{2}}(b^{\\frac{1}{2}} + c^{\\frac{1}{2}} - 2A) - 2A$\n$= b + c - 2(\\sqrt{b} + \\sqrt{c} - \\sqrt{A})\\sqrt{A} + 2A$\n$= (\\sqrt{b} - \\sqrt{A})^2 + (\\sqrt{c} - \\sqrt{A})^2 \\geqslant 0$。\n从而 $f(a, b, c) \\geqslant 0$，故 $k$ 的最大值为 2。",
+  "tags": [
+    "均值不等式",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

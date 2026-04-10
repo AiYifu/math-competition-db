@@ -1,0 +1,21 @@
+{
+  "uid": "p057_057_11_85450849bb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "1",
+  "section": "5",
+  "problem_id": "11",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "stem_md": "11. (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是正实数, 且满足 $a^2+b^2+c^2=3$, 证明\n$$\n\\frac{a^2\\sqrt{b+c}}{\\sqrt{a^2+bc}}+\\frac{b^2\\sqrt{c+a}}{\\sqrt{b^2+ca}}+\\frac{c^2\\sqrt{a+b}}{\\sqrt{c^2+ab}} \\leqslant 3\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "11. (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是正实数, 且满足 $a^2+b^2+c^2=3$, 证明\n$$\n\\frac{a^2\\sqrt{b+c}}{\\sqrt{a^2+bc}}+\\frac{b^2\\sqrt{c+a}}{\\sqrt{b^2+ca}}+\\frac{c^2\\sqrt{a+b}}{\\sqrt{c^2+ab}} \\leqslant 3\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0008"
+}

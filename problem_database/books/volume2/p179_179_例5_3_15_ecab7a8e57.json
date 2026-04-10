@@ -1,0 +1,24 @@
+{
+  "uid": "p179_179_例5_3_15_ecab7a8e57",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "3",
+  "problem_id": "例5.3.15",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    179
+  ],
+  "stem_md": "设 $a, b, c, d$ 是正实数, 且满足 $a+b+c+d=abc+bcd+cda+dab$, 证明\n$\\frac{a}{1+ab^{2}}+\\frac{b}{1+bc^{2}}+\\frac{c}{1+ca^{2}} \\geqslant \\frac{3\\sqrt[3]{abc}}{1+k^{3}}$",
+  "solution_md": "题设条件变形如下\n$a+b+c+d \\geqslant \\sqrt{\\frac{a^{2}+1}{2}}+\\sqrt{\\frac{b^{2}+1}{2}}+\\sqrt{\\frac{c^{2}+1}{2}}+\\sqrt{\\frac{d^{2}+1}{2}}$\n$\\Leftrightarrow a+b+c+d \\geqslant 4\\sqrt{ab+bc+ca}$\n由 Cauchy-Schwarz 不等式, 我们有\n$\\sum \\frac{a^{2}+1}{a+b} = \\sum \\frac{(a+\\frac{1}{a})(a+\\frac{1}{b})}{a+b+c+d}$\n$=a+b+c+d$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.15 设 $a, b, c, d$ 是正实数, 且满足 $a+b+c+d=abc+bcd+cda+dab$, 证明\n$\\frac{a}{1+ab^{2}}+\\frac{b}{1+bc^{2}}+\\frac{c}{1+ca^{2}} \\geqslant \\frac{3\\sqrt[3]{abc}}{1+k^{3}}$",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

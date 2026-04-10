@@ -1,0 +1,24 @@
+{
+  "uid": "p038_038_例23_f80602575e",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2 平均值不等式的应用",
+  "section": null,
+  "problem_id": "例23",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    38
+  ],
+  "stem_md": "已知 $a, b, c$ 为正实数. 证明:\n$$\n\\frac{a^{2} b^{2}}{a + b} + \\frac{b^{2} c^{2}}{b + c} + \\frac{c^{2} a^{2}}{c + a} \\geqslant abc\\left(\\frac{a}{a + b} + \\frac{b}{b + c} + \\frac{c}{c + a}\\right).\n$$",
+  "solution_md": "原式 $\\Leftrightarrow \\frac{ab}{c(a + b)} + \\frac{bc}{a(b + c)} + \\frac{ac}{b(c + a)} \\geqslant \\frac{a}{a + b} + \\frac{b}{b + c} + \\frac{c}{c + ab} + 3$.\n$$\n\\geqslant (ab + bc + ac)\\left(\\frac{1}{ac + bc} + \\frac{1}{ab + ac} + \\frac{1}{bc + ab}\\right).\n$$\n下面进行换元. 令\n$$\n\\left\\{\\begin{array}{l}\nx = ab + ac, \\\\\ny = bc + ba, \\Rightarrow \\left\\{\\begin{array}{l}\nac = \\frac{x + z - y}{2}, \\\\\nab = \\frac{x + y - z}{2}, \\Rightarrow ab + bc + ca = \\frac{x + y + z}{2},\n\\end{array}\\right. \\\\\nz = ca + cb\n\\end{array}\\right.\n$$\n$$\nbc = \\frac{y + z - x}{2}.\n$$\n由①、②得\n$$\n\\frac{A_{n}}{G_{n}} \\leqslant \\frac{n + 1}{2 \\cdot \\sqrt[n]{n!}}.\n$$\n从而, 命题成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "已知 $a, b, c$ 为正实数. 证明:\n$$\n\\frac{a^{2} b^{2}}{a + b} + \\frac{b^{2} c^{2}}{b + c} + \\frac{c^{2} a^{2}}{c + a} \\geqslant abc\\left(\\frac{a}{a + b} + \\frac{b}{b + c} + \\frac{c}{c + a}\\right).\n$$\n原式 $\\Leftrightarrow \\frac{ab}{c(a + b)} + \\frac{bc}{a(b + c)} + \\frac{ac}{b(c + a)} \\geqslant \\frac{a}{a + b} + \\frac{b}{b + c} + \\frac{c}{c + ab} + 3$.\n$$\n\\geqslant (ab + bc + ac)\\left(\\frac{1}{ac + bc} + \\frac{1}{ab + ac} + \\frac{1}{bc + ab}\\right).\n$$\n下面进行换元. 令\n$$\n\\left\\{\\begin{array}{l}\nx = ab + ac, \\\\\ny = bc + ba, \\Rightarrow \\left\\{\\begin{array}{l}\nac = \\frac{x + z - y}{2}, \\\\\nab = \\frac{x + y - z}{2}, \\Rightarrow ab + bc + ca = \\frac{x + y + z}{2},\n\\end{array}\\right. \\\\\nz = ca + cb\n\\end{array}\\right.\n$$\n$$\nbc = \\frac{y + z - x}{2}.\n$$\n由①、②得\n$$\n\\frac{A_{n}}{G_{n}} \\leqslant \\frac{n + 1}{2 \\cdot \\sqrt[n]{n!}}.\n$$\n从而, 命题成立.",
+  "tags": [
+    "不等式",
+    "换元法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005"
+}

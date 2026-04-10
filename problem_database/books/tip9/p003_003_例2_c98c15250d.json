@@ -1,0 +1,24 @@
+{
+  "uid": "p003_003_例2_c98c15250d",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "1.1",
+  "problem_id": "例2",
+  "problem_type": "example",
+  "title": "比较法",
+  "source_pages": [
+    3
+  ],
+  "stem_md": "实数 $x, y, z$ 满足 $xy + yz + zx = -1$, 求证: $x^2 + 5y^2 + 8z^2 \\geq 4$.",
+  "solution_md": "证明 因为\n$$x^2 + 5y^2 + 8z^2 - 4 = x^2 + 5y^2 + 8z^2 + 4(xy + yz + zx) = (x + 2y + 2z)^2 + (y - 2z)^2 \\geq 0,$$\n所以\n$$x^2 + 5y^2 + 8z^2 \\geq 4.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例2 实数 $x, y, z$ 满足 $xy + yz + zx = -1$, 求证: $x^2 + 5y^2 + 8z^2 \\geq 4$.\n证明 因为\n$$x^2 + 5y^2 + 8z^2 - 4 = x^2 + 5y^2 + 8z^2 + 4(xy + yz + zx) = (x + 2y + 2z)^2 + (y - 2z)^2 \\geq 0,$$\n所以\n$$x^2 + 5y^2 + 8z^2 \\geq 4.$$",
+  "tags": [
+    "不等式证明",
+    "比较法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

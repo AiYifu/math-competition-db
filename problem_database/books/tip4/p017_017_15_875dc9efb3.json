@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_15_875dc9efb3",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c$ 为正实数, 求证: $$\\left(1 + \\frac{a}{b}\\right)\\left(1 + \\frac{b}{c}\\right)\\left(1 + \\frac{c}{a}\\right) \\geqslant 2\\left(1 + \\frac{a + b + c}{\\sqrt[3]{abc}}\\right).$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 为正实数, 求证: $$\\left(1 + \\frac{a}{b}\\right)\\left(1 + \\frac{b}{c}\\right)\\left(1 + \\frac{c}{a}\\right) \\geqslant 2\\left(1 + \\frac{a + b + c}{\\sqrt[3]{abc}}\\right).$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

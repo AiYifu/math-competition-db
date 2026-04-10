@@ -1,0 +1,21 @@
+{
+  "uid": "p020_020_例1_1_4_e2ad329ec9",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    20
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明 \n$$ a^3 + b^3 + c^3 + 3abc \\geqslant ab(a + b) + bc(b + c) + ca(c + a) $$",
+  "solution_md": "证明及分析 作为标题, SOS 表示“平方和”, 因此, 第一步也是最重要的一步, 是把不等式表示成某些项的平方和的形式. \n下面两个表示都是已知的 \n$$ a^3 + b^3 + c^3 - 3abc = \\frac{1}{2}(a + b + c)[(a - b)^2 + (b - c)^2 + (c - a)^2] $$\n和 \n$$ (a + b - c)(a - b)^2 + (b + c - a)(b - c)^2 + (c + a - b)(c - a)^2 \\geqslant 0 $$\n可是, 这不是我们之前所希望的, $(a - b)^2, (b - c)^2, (c - a)^2$ 的系数并不总是非负. 这个古老经典的方法似乎出问题了, 是否有一个创新的想法, 来处理这个问题呢? 请稍后, 让我们来开动开动脑筋.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.4 设 $a, b, c$ 是非负实数, 证明 \n$$ a^3 + b^3 + c^3 + 3abc \\geqslant ab(a + b) + bc(b + c) + ca(c + a) $$\n证明及分析 作为标题, SOS 表示“平方和”, 因此, 第一步也是最重要的一步, 是把不等式表示成某些项的平方和的形式. \n下面两个表示都是已知的 \n$$ a^3 + b^3 + c^3 - 3abc = \\frac{1}{2}(a + b + c)[(a - b)^2 + (b - c)^2 + (c - a)^2] $$\n和 \n$$ (a + b - c)(a - b)^2 + (b + c - a)(b - c)^2 + (c + a - b)(c - a)^2 \\geqslant 0 $$\n可是, 这不是我们之前所希望的, $(a - b)^2, (b - c)^2, (c - a)^2$ 的系数并不总是非负. 这个古老经典的方法似乎出问题了, 是否有一个创新的想法, 来处理这个问题呢? 请稍后, 让我们来开动开动脑筋.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

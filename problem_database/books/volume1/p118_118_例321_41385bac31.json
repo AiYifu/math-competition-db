@@ -1,0 +1,53 @@
+{
+  "uid": "p118_118_例321_41385bac31",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.2",
+  "problem_id": "例3.2.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    118
+  ],
+  "source_images": [
+    "page-118.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$$",
+  "solution_md": "事实上，不等式与下面的著名的不等式是等价的，给定正实数 $a,b,c,d$，且 $abcd=1$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{(1+d)^2} \\geqslant 1 \\quad (*)$$\n\n实际上，对 $(*)$ 不等式，使用反证法，我们推出，如果四个正实数 $x,y,z,t$ 满足 $\\frac{1}{(1+x)^2}+\\frac{1}{(1+y)^2}+\\frac{1}{(1+z)^2}+\\frac{1}{(1+t)^2}=1$，则 $xyzt \\leqslant 1$。\n\n令 $a=\\frac{1}{1+x}, b=\\frac{1}{1+y}, c=\\frac{1}{1+z}, d=\\frac{1}{1+t}$，则有\n$$x=\\frac{1}{a}-1, y=\\frac{1}{b}-1, z=\\frac{1}{c}-1, t=\\frac{1}{d}-1$$\n\n所以\n$$\\left(\\frac{1}{a}-1\\right)\\left(\\frac{1}{b}-1\\right)\\left(\\frac{1}{c}-1\\right)\\left(\\frac{1}{d}-1\\right) \\geqslant 1$$\n\n这就意味着，$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$。\n\n类似地，由不等式 $(*)$，我们立即推出原不等式，所以，它们是等价的，这也是我们所期望的。",
+  "answer_md": "",
+  "hints_md": "来源：Vasile Cirtoaje, Old and New Inequalities",
+  "original_text_md": "例 3.2.1(Vasile Cirtoaje, Old and New Inequalities) 设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$$\n\n证明及分析 事实上，不等式与下面的著名的不等式是等价的，给定正实数 $a,b,c,d$，且 $abcd=1$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{(1+d)^2} \\geqslant 1 \\quad (*)$$\n\n实际上，对 $(*)$ 不等式，使用反证法，我们推出，如果四个正实数 $x,y,z,t$ 满足 $\\frac{1}{(1+x)^2}+\\frac{1}{(1+y)^2}+\\frac{1}{(1+z)^2}+\\frac{1}{(1+t)^2}=1$，则 $xyzt \\leqslant 1$。\n\n令 $a=\\frac{1}{1+x}, b=\\frac{1}{1+y}, c=\\frac{1}{1+z}, d=\\frac{1}{1+t}$，则有\n$$x=\\frac{1}{a}-1, y=\\frac{1}{b}-1, z=\\frac{1}{c}-1, t=\\frac{1}{d}-1$$\n\n所以\n$$\\left(\\frac{1}{a}-1\\right)\\left(\\frac{1}{b}-1\\right)\\left(\\frac{1}{c}-1\\right)\\left(\\frac{1}{d}-1\\right) \\geqslant 1$$\n\n这就意味着，$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$。\n\n类似地，由不等式 $(*)$，我们立即推出原不等式，所以，它们是等价的，这也是我们所期望的。",
+  "tags": [
+    "反证法",
+    "反转不等式",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "41385bac3151470ec534025215e22e13851ebeaa",
+  "raw_problem": {
+    "problem_id": "例3.2.1",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.2",
+    "title": null,
+    "source_pages": [
+      118
+    ],
+    "stem_md": "设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$$",
+    "solution_md": "事实上，不等式与下面的著名的不等式是等价的，给定正实数 $a,b,c,d$，且 $abcd=1$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{(1+d)^2} \\geqslant 1 \\quad (*)$$\n\n实际上，对 $(*)$ 不等式，使用反证法，我们推出，如果四个正实数 $x,y,z,t$ 满足 $\\frac{1}{(1+x)^2}+\\frac{1}{(1+y)^2}+\\frac{1}{(1+z)^2}+\\frac{1}{(1+t)^2}=1$，则 $xyzt \\leqslant 1$。\n\n令 $a=\\frac{1}{1+x}, b=\\frac{1}{1+y}, c=\\frac{1}{1+z}, d=\\frac{1}{1+t}$，则有\n$$x=\\frac{1}{a}-1, y=\\frac{1}{b}-1, z=\\frac{1}{c}-1, t=\\frac{1}{d}-1$$\n\n所以\n$$\\left(\\frac{1}{a}-1\\right)\\left(\\frac{1}{b}-1\\right)\\left(\\frac{1}{c}-1\\right)\\left(\\frac{1}{d}-1\\right) \\geqslant 1$$\n\n这就意味着，$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$。\n\n类似地，由不等式 $(*)$，我们立即推出原不等式，所以，它们是等价的，这也是我们所期望的。",
+    "answer_md": "",
+    "hints_md": "来源：Vasile Cirtoaje, Old and New Inequalities",
+    "original_text_md": "例 3.2.1(Vasile Cirtoaje, Old and New Inequalities) 设 $a,b,c,d$ 是正实数，满足 $a^2+b^2+c^2+d^2=1$，证明\n$$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$$\n\n证明及分析 事实上，不等式与下面的著名的不等式是等价的，给定正实数 $a,b,c,d$，且 $abcd=1$，则\n$$\\frac{1}{(1+a)^2}+\\frac{1}{(1+b)^2}+\\frac{1}{(1+c)^2}+\\frac{1}{(1+d)^2} \\geqslant 1 \\quad (*)$$\n\n实际上，对 $(*)$ 不等式，使用反证法，我们推出，如果四个正实数 $x,y,z,t$ 满足 $\\frac{1}{(1+x)^2}+\\frac{1}{(1+y)^2}+\\frac{1}{(1+z)^2}+\\frac{1}{(1+t)^2}=1$，则 $xyzt \\leqslant 1$。\n\n令 $a=\\frac{1}{1+x}, b=\\frac{1}{1+y}, c=\\frac{1}{1+z}, d=\\frac{1}{1+t}$，则有\n$$x=\\frac{1}{a}-1, y=\\frac{1}{b}-1, z=\\frac{1}{c}-1, t=\\frac{1}{d}-1$$\n\n所以\n$$\\left(\\frac{1}{a}-1\\right)\\left(\\frac{1}{b}-1\\right)\\left(\\frac{1}{c}-1\\right)\\left(\\frac{1}{d}-1\\right) \\geqslant 1$$\n\n这就意味着，$(1-a)(1-b)(1-c)(1-d) \\geqslant abcd$。\n\n类似地，由不等式 $(*)$，我们立即推出原不等式，所以，它们是等价的，这也是我们所期望的。",
+    "tags": [
+      "反证法",
+      "反转不等式",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

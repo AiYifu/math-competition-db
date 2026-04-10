@@ -1,0 +1,61 @@
+{
+  "uid": "p130_132_例3310_d3dbd05242",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章",
+  "section": "3.3",
+  "problem_id": "例3.3.10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    130,
+    131,
+    132
+  ],
+  "source_images": [
+    "page-130.jpg",
+    "page-131.jpg",
+    "page-132.jpg"
+  ],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足\n$$x_1^2+x_2^2+\\cdots+x_n^2=1$$\n求下列表达式\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)$$\n的最大值。",
+  "solution_md": "令 $k=1-\\frac{1}{\\sqrt{2}}$，我们来证明\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)\\leqslant k^2$$\n等号成立的条件是 $x_1=x_2=k$，$x_3=x_4=\\cdots=x_n=0$ 或其轮换。\n\n采用反证法。我们来证明其等价命题：\n如果实数 $y_1,y_2,\\cdots,y_n\\in[0,1]$，且满足 $y_1y_2\\cdots y_n=k^2$，则\n$$f(y_1,y_2,\\cdots,y_n)=(1-y_1)^2+(1-y_2)^2+\\cdots+(1-y_n)^2\\leqslant 1\\quad(1)$$\n\n首先，注意到，如果 $x,y\\in[0,1]$，且满足 $x+y+xy\\geqslant 1$，则\n$$(1-x)^2+(1-y)^2-(1-xy)^2=(x+y-1)^2-x^2y^2$$\n$$=-(x-1)(y-1)(x+y+xy-1)\\leqslant 0\\quad(2)$$\n$$\\Rightarrow(1-x)^2+(1-y)^2\\leqslant(1-xy)^2$$\n\n返回到不等式(1)，不失一般性，设 $y_1\\leqslant y_2\\leqslant\\cdots\\leqslant y_n$，由于 $y_i\\in[0,1]$，$\\forall i\\in\\{1,2,\\cdots,n\\}$，我们有，$y_1y_2y_3\\geqslant k^2$，$y_2y_3\\geqslant k^{\\frac{4}{3}}$，所以\n$$y_2+y_3+y_2y_3\\geqslant 2k^{\\frac{2}{3}}+k^{\\frac{4}{3}}\\approx 1.07\\geqslant 1$$\n$$\\Rightarrow y_2+y_k+y_2y_k\\geqslant 2k^{\\frac{2}{3}}+k^{\\frac{4}{3}}\\geqslant 1\\quad\\forall k\\in\\{3,4,\\cdots,n\\}$$\n\n根据(2)，我们有\n$$f(y_1,y_2,\\cdots,y_n)\\leqslant f(y_1,y_2y_3,1,y_4,\\cdots,y_n)$$\n\n且对 $n$ 个数 $y_1,y_2,\\cdots,y_n$ 的不等式转变为对 $n-1$ 个数 $y_1,y_2y_3,y_4,\\cdots,y_n$ 的不等式。由简单的归纳法（或重复先前描述的过程 $n-2$ 次），我们可以把不等式(1)转变成一个两个数 $\\alpha,\\beta$ 的简单问题，其中 $\\alpha\\beta=k^2$。在此情况下，我们有\n$$(1-\\alpha)^2+(1-\\beta)^2=2-2(\\alpha+\\beta)+\\alpha^2+\\beta^2=(\\alpha+\\beta-1)^2+1-2k^2$$\n$$=1+(\\alpha+\\beta-\\sqrt{2}k-1)(\\alpha+\\beta+\\sqrt{2}k-1)\\leqslant 1$$\n\n从而不等式得证，等号成立的条件是\n$$(y_1,y_2,\\cdots,y_n)\\sim(k,k,1,\\cdots,1)\\text{ 或 }(x_1,x_2,\\cdots,x_n)\\sim\\left(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}},0,\\cdots,0\\right)$$",
+  "answer_md": "最大值为 $\\left(1-\\frac{1}{\\sqrt{2}}\\right)^2$",
+  "hints_md": "Romania TST 2007",
+  "original_text_md": "例 3.3.10(Romania TST 2007) 设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足\n$$x_1^2+x_2^2+\\cdots+x_n^2=1$$\n求下列表达式\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)$$\n的最大值。\n解 令 $k=1-\\frac{1}{\\sqrt{2}}$，我们来证明\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)\\leqslant k^2$$\n等号成立的条件是 $x_1=x_2=k$，$x_3=x_4=\\cdots=x_n=0$ 或其轮换。\n采用反证法。我们来证明其等价命题：\n如果实数 $y_1,y_2,\\cdots,y_n\\in[0,1]$，且满足 $y_1y_2\\cdots y_n=k^2$，则\n$$f(y_1,y_2,\\cdots,y_n)=(1-y_1)^2+(1-y_2)^2+\\cdots+(1-y_n)^2\\leqslant 1\\quad(1)$$",
+  "tags": [
+    "最大值",
+    "反证法",
+    "归纳法",
+    "Romania TST"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015",
+  "raw_response_file": "raw/chunk-0015.response.txt",
+  "raw_api_file": "raw/chunk-0015.api.json",
+  "fingerprint": "d3dbd05242c14b3b3ce487470772646ea17405ef",
+  "raw_problem": {
+    "problem_id": "例3.3.10",
+    "problem_type": "example",
+    "chapter": "第3章",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      130,
+      131,
+      132
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足\n$$x_1^2+x_2^2+\\cdots+x_n^2=1$$\n求下列表达式\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)$$\n的最大值。",
+    "solution_md": "令 $k=1-\\frac{1}{\\sqrt{2}}$，我们来证明\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)\\leqslant k^2$$\n等号成立的条件是 $x_1=x_2=k$，$x_3=x_4=\\cdots=x_n=0$ 或其轮换。\n\n采用反证法。我们来证明其等价命题：\n如果实数 $y_1,y_2,\\cdots,y_n\\in[0,1]$，且满足 $y_1y_2\\cdots y_n=k^2$，则\n$$f(y_1,y_2,\\cdots,y_n)=(1-y_1)^2+(1-y_2)^2+\\cdots+(1-y_n)^2\\leqslant 1\\quad(1)$$\n\n首先，注意到，如果 $x,y\\in[0,1]$，且满足 $x+y+xy\\geqslant 1$，则\n$$(1-x)^2+(1-y)^2-(1-xy)^2=(x+y-1)^2-x^2y^2$$\n$$=-(x-1)(y-1)(x+y+xy-1)\\leqslant 0\\quad(2)$$\n$$\\Rightarrow(1-x)^2+(1-y)^2\\leqslant(1-xy)^2$$\n\n返回到不等式(1)，不失一般性，设 $y_1\\leqslant y_2\\leqslant\\cdots\\leqslant y_n$，由于 $y_i\\in[0,1]$，$\\forall i\\in\\{1,2,\\cdots,n\\}$，我们有，$y_1y_2y_3\\geqslant k^2$，$y_2y_3\\geqslant k^{\\frac{4}{3}}$，所以\n$$y_2+y_3+y_2y_3\\geqslant 2k^{\\frac{2}{3}}+k^{\\frac{4}{3}}\\approx 1.07\\geqslant 1$$\n$$\\Rightarrow y_2+y_k+y_2y_k\\geqslant 2k^{\\frac{2}{3}}+k^{\\frac{4}{3}}\\geqslant 1\\quad\\forall k\\in\\{3,4,\\cdots,n\\}$$\n\n根据(2)，我们有\n$$f(y_1,y_2,\\cdots,y_n)\\leqslant f(y_1,y_2y_3,1,y_4,\\cdots,y_n)$$\n\n且对 $n$ 个数 $y_1,y_2,\\cdots,y_n$ 的不等式转变为对 $n-1$ 个数 $y_1,y_2y_3,y_4,\\cdots,y_n$ 的不等式。由简单的归纳法（或重复先前描述的过程 $n-2$ 次），我们可以把不等式(1)转变成一个两个数 $\\alpha,\\beta$ 的简单问题，其中 $\\alpha\\beta=k^2$。在此情况下，我们有\n$$(1-\\alpha)^2+(1-\\beta)^2=2-2(\\alpha+\\beta)+\\alpha^2+\\beta^2=(\\alpha+\\beta-1)^2+1-2k^2$$\n$$=1+(\\alpha+\\beta-\\sqrt{2}k-1)(\\alpha+\\beta+\\sqrt{2}k-1)\\leqslant 1$$\n\n从而不等式得证，等号成立的条件是\n$$(y_1,y_2,\\cdots,y_n)\\sim(k,k,1,\\cdots,1)\\text{ 或 }(x_1,x_2,\\cdots,x_n)\\sim\\left(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}},0,\\cdots,0\\right)$$",
+    "answer_md": "最大值为 $\\left(1-\\frac{1}{\\sqrt{2}}\\right)^2$",
+    "hints_md": "Romania TST 2007",
+    "original_text_md": "例 3.3.10(Romania TST 2007) 设 $x_1,x_2,\\cdots,x_n$ 是非负实数，且满足\n$$x_1^2+x_2^2+\\cdots+x_n^2=1$$\n求下列表达式\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)$$\n的最大值。\n解 令 $k=1-\\frac{1}{\\sqrt{2}}$，我们来证明\n$$(1-x_1)(1-x_2)\\cdots(1-x_n)\\leqslant k^2$$\n等号成立的条件是 $x_1=x_2=k$，$x_3=x_4=\\cdots=x_n=0$ 或其轮换。\n采用反证法。我们来证明其等价命题：\n如果实数 $y_1,y_2,\\cdots,y_n\\in[0,1]$，且满足 $y_1y_2\\cdots y_n=k^2$，则\n$$f(y_1,y_2,\\cdots,y_n)=(1-y_1)^2+(1-y_2)^2+\\cdots+(1-y_n)^2\\leqslant 1\\quad(1)$$",
+    "tags": [
+      "最大值",
+      "反证法",
+      "归纳法",
+      "Romania TST"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

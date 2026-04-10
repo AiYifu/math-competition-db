@@ -1,0 +1,49 @@
+{
+  "uid": "p057_057_习题6_de534fd357",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第1章",
+  "section": "1.5 练习",
+  "problem_id": "习题6",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    57
+  ],
+  "source_images": [
+    "page-057.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{21(a^3+b^3+c^3)}{a^2+b^2+c^2}+\\frac{12(a^2b^2+b^2c^2+c^2a^2)}{a^3+b^3+c^3}\\geqslant 11(a+b+c)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "6.(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{21(a^3+b^3+c^3)}{a^2+b^2+c^2}+\\frac{12(a^2b^2+b^2c^2+c^2a^2)}{a^3+b^3+c^3}\\geqslant 11(a+b+c)$$",
+  "tags": [
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "de534fd35718d9e87b352eadf1b3cadff3a42f30",
+  "raw_problem": {
+    "problem_id": "习题6",
+    "problem_type": "exercise",
+    "chapter": "第1章",
+    "section": "1.5 练习",
+    "title": null,
+    "source_pages": [
+      57
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{21(a^3+b^3+c^3)}{a^2+b^2+c^2}+\\frac{12(a^2b^2+b^2c^2+c^2a^2)}{a^3+b^3+c^3}\\geqslant 11(a+b+c)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "6.(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{21(a^3+b^3+c^3)}{a^2+b^2+c^2}+\\frac{12(a^2b^2+b^2c^2+c^2a^2)}{a^3+b^3+c^3}\\geqslant 11(a+b+c)$$",
+    "tags": [
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

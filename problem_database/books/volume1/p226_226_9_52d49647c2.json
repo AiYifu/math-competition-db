@@ -1,0 +1,55 @@
+{
+  "uid": "p226_226_9_52d49647c2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "9",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "source_images": [
+    "page-226.jpg"
+  ],
+  "stem_md": "(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^3}{b^2}+\\frac{b^3}{c^2}+\\frac{c^3}{a^2}+\\frac{5}{3}(a+b+c)\\geqslant\\frac{8}{3}\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "9.(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^3}{b^2}+\\frac{b^3}{c^2}+\\frac{c^3}{a^2}+\\frac{5}{3}(a+b+c)\\geqslant\\frac{8}{3}\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)$$",
+  "tags": [
+    "inequality",
+    "cyclic",
+    "fractions",
+    "Nguyen Vu Tuan"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026",
+  "raw_response_file": "raw/chunk-0026.response.txt",
+  "raw_api_file": "raw/chunk-0026.api.json",
+  "fingerprint": "52d49647c206fffff3139d3494f4a8ef159cbf39",
+  "raw_problem": {
+    "problem_id": "9",
+    "problem_type": "exercise",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      226
+    ],
+    "stem_md": "(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^3}{b^2}+\\frac{b^3}{c^2}+\\frac{c^3}{a^2}+\\frac{5}{3}(a+b+c)\\geqslant\\frac{8}{3}\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "9.(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^3}{b^2}+\\frac{b^3}{c^2}+\\frac{c^3}{a^2}+\\frac{5}{3}(a+b+c)\\geqslant\\frac{8}{3}\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)$$",
+    "tags": [
+      "inequality",
+      "cyclic",
+      "fractions",
+      "Nguyen Vu Tuan"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

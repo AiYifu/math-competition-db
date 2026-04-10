@@ -1,0 +1,53 @@
+{
+  "uid": "p162_162_n变量推广_8db85a7930",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.1 系列问题A:巧妙的应用",
+  "problem_id": "n变量推广",
+  "problem_type": "remark",
+  "title": "关于n个变量的类似的不等式(译者)",
+  "source_pages": [
+    162
+  ],
+  "source_images": [
+    "page-162.jpg"
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=1$，证明\n$$\\sum_{1 \\leqslant i < j \\leqslant n} \\frac{1}{1-x_ix_j} \\leqslant \\frac{n^2}{2}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "关于 $n$ 个变量的类似的不等式(译者)\n\n设 $x_1, x_2, \\cdots, x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=1$，证明\n$$\\sum_{1 \\leqslant i < j \\leqslant n} \\frac{1}{1-x_ix_j} \\leqslant \\frac{n^2}{2}$$",
+  "tags": [
+    "注",
+    "n变量推广",
+    "译者注"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "8db85a7930c9143140c0debcde1948158a348ba2",
+  "raw_problem": {
+    "problem_id": "n变量推广",
+    "problem_type": "remark",
+    "chapter": "第5章",
+    "section": "5.1 系列问题A:巧妙的应用",
+    "title": "关于n个变量的类似的不等式(译者)",
+    "source_pages": [
+      162
+    ],
+    "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=1$，证明\n$$\\sum_{1 \\leqslant i < j \\leqslant n} \\frac{1}{1-x_ix_j} \\leqslant \\frac{n^2}{2}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "关于 $n$ 个变量的类似的不等式(译者)\n\n设 $x_1, x_2, \\cdots, x_n$ 是正实数，且满足 $x_1^2+x_2^2+\\cdots+x_n^2=1$，证明\n$$\\sum_{1 \\leqslant i < j \\leqslant n} \\frac{1}{1-x_ix_j} \\leqslant \\frac{n^2}{2}$$",
+    "tags": [
+      "注",
+      "n变量推广",
+      "译者注"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

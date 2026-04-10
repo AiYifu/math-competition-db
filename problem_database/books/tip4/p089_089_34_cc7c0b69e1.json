@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_34_cc7c0b69e1",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "34",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "设 $x$、$y$、$z$ 为互不相同的实数, 求 $\\left|\\frac{1+yz}{y-z} + \\frac{1+zx}{z-x} + \\frac{1+xy}{x-y}\\right|$ 的最小值.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x$、$y$、$z$ 为互不相同的实数, 求 $\\left|\\frac{1+yz}{y-z} + \\frac{1+zx}{z-x} + \\frac{1+xy}{x-y}\\right|$ 的最小值.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

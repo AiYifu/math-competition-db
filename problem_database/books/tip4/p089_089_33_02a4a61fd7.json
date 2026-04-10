@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_33_02a4a61fd7",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "33",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "求最大的实数 $\\lambda$, 使得当实系数多项式 $f(x) = x^{3} + ax^{2} + bx + c$ 的所有根都是非负实数时, 只要 $x \\geqslant 0$, 就有 $f(x) \\geqslant \\lambda (x-a)^{3}$, 并求等号成立的条件.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "求最大的实数 $\\lambda$, 使得当实系数多项式 $f(x) = x^{3} + ax^{2} + bx + c$ 的所有根都是非负实数时, 只要 $x \\geqslant 0$, 就有 $f(x) \\geqslant \\lambda (x-a)^{3}$, 并求等号成立的条件.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

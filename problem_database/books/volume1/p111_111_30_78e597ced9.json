@@ -1,0 +1,55 @@
+{
+  "uid": "p111_111_30_78e597ced9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "30",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    111
+  ],
+  "source_images": [
+    "page-111.jpg"
+  ],
+  "stem_md": "30. (Pham Kim Hung, Sang Tao Bat Dang Thuc) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明：\n\n(1) $(1+a^2)(1+b^2)(1+c^2)(1+d^2) \\geqslant (a+b+c+d)^2+4\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}-4\\right)$；\n\n(2) $(1+a^2)(1+b^2)(1+c^2)(1+d^2) \\geqslant (a+b+c+d)^2+6(a+b+c+d-4)$。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "30. (Pham Kim Hung,Sang Tao Bat Dang Thuc ) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明：\n\n(1)$(1 + a^2)(1 + b^2)(1 + c^2)(1 + d^2) \\geqslant (a+b+c+d)^2 + 4\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}-4\\right)$；\n\n(2)$(1+a^2)(1+b^2)(1+c^2)(1+d^2)\\geqslant (a+b+c+d)^2+6(a+b+c+d-4)$。",
+  "tags": [
+    "Pham Kim Hung",
+    "Sang Tao Bat Dang Thuc",
+    "abcd=1",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "78e597ced93f021430e652353523c0507c82e79c",
+  "raw_problem": {
+    "problem_id": "30",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      111
+    ],
+    "stem_md": "30. (Pham Kim Hung, Sang Tao Bat Dang Thuc) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明：\n\n(1) $(1+a^2)(1+b^2)(1+c^2)(1+d^2) \\geqslant (a+b+c+d)^2+4\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}-4\\right)$；\n\n(2) $(1+a^2)(1+b^2)(1+c^2)(1+d^2) \\geqslant (a+b+c+d)^2+6(a+b+c+d-4)$。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "30. (Pham Kim Hung,Sang Tao Bat Dang Thuc ) 设 $a,b,c,d$ 是正实数，且满足 $abcd=1$，证明：\n\n(1)$(1 + a^2)(1 + b^2)(1 + c^2)(1 + d^2) \\geqslant (a+b+c+d)^2 + 4\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}-4\\right)$；\n\n(2)$(1+a^2)(1+b^2)(1+c^2)(1+d^2)\\geqslant (a+b+c+d)^2+6(a+b+c+d-4)$。",
+    "tags": [
+      "Pham Kim Hung",
+      "Sang Tao Bat Dang Thuc",
+      "abcd=1",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

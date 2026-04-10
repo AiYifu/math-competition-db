@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_3_63177ed1ce",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "已知 $0 \\leqslant x, y, z \\leqslant 1$, 解方程: $$\\frac{x}{1 + y + zx} + \\frac{y}{1 + z + xy} + \\frac{z}{1 + x + yz} = \\frac{3}{x + y + z}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3 已知 $0 \\leqslant x, y, z \\leqslant 1$, 解方程: $$\\frac{x}{1 + y + zx} + \\frac{y}{1 + z + xy} + \\frac{z}{1 + x + yz} = \\frac{3}{x + y + z}.$$",
+  "tags": [
+    "方程求解"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

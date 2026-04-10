@@ -1,0 +1,58 @@
+{
+  "uid": "p075_076_例228_c7c945bea8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.2",
+  "problem_id": "例2.2.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    75,
+    76
+  ],
+  "source_images": [
+    "page-075.jpg",
+    "page-076.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，$k$ 是正常数 $1 \\leqslant k \\leqslant 2$，证明\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\geqslant 2^{3(k-1)}$$",
+  "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c$，记 $m=2^{3(k-1)},t=b+c$ 以及\n$$f(a,b,c)=ab+bc+ca-m(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)$$\n则\n$$(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k) \\leqslant [a^k+(b+c)^k]a^k(b+c)^k+a^kb^kc^k$$\n于是，我们有（因为 $a+b+c=1$，所以，由 AM-GM 不等式，有 $abc \\leqslant \\left(\\frac{a+b+c}{3}\\right)^3=\\frac{1}{3^3}$）\n$$f(a,b,c)-f(a,b+c,0) \\geqslant bc-ma^kb^kc^k$$\n$$\\geqslant bc[1-m(abc)^{k-1}]$$\n$$\\geqslant b\\left(1-\\frac{2^{3(k-1)}}{3^{3(k-1)}}\\right) \\geqslant 0$$\n而且\n$$f(a,b+c,0)=at[1-m(at)^{k-1}(a^k+t^k)]$$\n令 $\\alpha=2a,\\beta=2t$，则 $0 \\leqslant \\beta \\leqslant \\alpha \\leqslant 2$，且 $\\alpha+\\beta=2$. 对于 $1 \\leqslant k \\leqslant 2$，易证函数\n$$g(k)=\\alpha^k+\\beta^k+2(\\alpha\\beta)^{k-1}$$\n是变量 $k$ 的增函数（通过计算导数 $g'(k)$ 和 $g''(k)$），所以\n$$g(k) \\leqslant g(2)=4 \\quad \\forall k \\in [1,2]$$\n由 AM-GM 不等式，我们有\n$$(\\alpha\\beta)^{k-1}(\\alpha^k+\\beta^k) \\leqslant 2 \\Rightarrow (ab)^{k-1}(a^k+b^k) \\leqslant \\frac{1}{2^{3(k-1)}}=\\frac{1}{m}$$\n从而，不等式得证. 等号成立的条件是 $a=b=\\frac{1}{2},c=0$ 及其轮换.",
+  "answer_md": "",
+  "hints_md": "注 用类似的方法，我们可以证明下列不等式.\n\n设 $a,b,c \\geqslant 0,a+b+c=1$，常数 $k \\in [0,1]$，则\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\leqslant 2^{3(k-1)}$$\n\n对于 $k \\geqslant 2$，根据上面的证明，我们可以得到表达式\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)}$$\n在 $\\min\\{a,b,c\\}=0$ 时，达到最小值. 对于 $k=3$，我们得到一个著名的不等式（你可以从第一卷中找到）.\n\n设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\frac{ab+bc+ca}{a^3b^3+b^3c^3+c^3a^3} \\geqslant \\frac{a^3+b^3+c^3}{36}$$",
+  "original_text_md": "例 2.2.8(Pham Kim Hung, Mathematics & Youth Magazine) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，$k$ 是正常数 $1 \\leqslant k \\leqslant 2$，证明\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\geqslant 2^{3(k-1)}$$\n\n证明 不失一般性，设 $a \\geqslant b \\geqslant c$，记 $m=2^{3(k-1)},t=b+c$ 以及\n$$f(a,b,c)=ab+bc+ca-m(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)$$\n则\n$$(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k) \\leqslant [a^k+(b+c)^k]a^k(b+c)^k+a^kb^kc^k$$\n于是，我们有（因为 $a+b+c=1$，所以，由 AM-GM 不等式，有 $abc \\leqslant \\left(\\frac{a+b+c}{3}\\right)^3=\\frac{1}{3^3}$）\n$$f(a,b,c)-f(a,b+c,0) \\geqslant bc-ma^kb^kc^k$$\n$$\\geqslant bc[1-m(abc)^{k-1}]$$\n$$\\geqslant b\\left(1-\\frac{2^{3(k-1)}}{3^{3(k-1)}}\\right) \\geqslant 0$$\n而且\n$$f(a,b+c,0)=at[1-m(at)^{k-1}(a^k+t^k)]$$\n令 $\\alpha=2a,\\beta=2t$，则 $0 \\leqslant \\beta \\leqslant \\alpha \\leqslant 2$，且 $\\alpha+\\beta=2$. 对于 $1 \\leqslant k \\leqslant 2$，易证函数\n$$g(k)=\\alpha^k+\\beta^k+2(\\alpha\\beta)^{k-1}$$\n是变量 $k$ 的增函数（通过计算导数 $g'(k)$ 和 $g''(k)$），所以\n$$g(k) \\leqslant g(2)=4 \\quad \\forall k \\in [1,2]$$\n由 AM-GM 不等式，我们有\n$$(\\alpha\\beta)^{k-1}(\\alpha^k+\\beta^k) \\leqslant 2 \\Rightarrow (ab)^{k-1}(a^k+b^k) \\leqslant \\frac{1}{2^{3(k-1)}}=\\frac{1}{m}$$\n从而，不等式得证. 等号成立的条件是 $a=b=\\frac{1}{2},c=0$ 及其轮换.\n\n注 用类似的方法，我们可以证明下列不等式.\n\n设 $a,b,c \\geqslant 0,a+b+c=1$，常数 $k \\in [0,1]$，则\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\leqslant 2^{3(k-1)}$$\n\n对于 $k \\geqslant 2$，根据上面的证明，我们可以得到表达式\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)}$$\n在 $\\min\\{a,b,c\\}=0$ 时，达到最小值. 对于 $k=3$，我们得到一个著名的不等式（你可以从第一卷中找到）.\n\n设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\frac{ab+bc+ca}{a^3b^3+b^3c^3+c^3a^3} \\geqslant \\frac{a^3+b^3+c^3}{36}$$",
+  "tags": [
+    "整合变量法",
+    "AM-GM不等式",
+    "导数",
+    "三元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009",
+  "raw_response_file": "raw/chunk-0009.response.txt",
+  "raw_api_file": "raw/chunk-0009.api.json",
+  "fingerprint": "c7c945bea8297bb49de53d98575a899f751780b1",
+  "raw_problem": {
+    "problem_id": "例2.2.8",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.2",
+    "title": null,
+    "source_pages": [
+      75,
+      76
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，$k$ 是正常数 $1 \\leqslant k \\leqslant 2$，证明\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\geqslant 2^{3(k-1)}$$",
+    "solution_md": "不失一般性，设 $a \\geqslant b \\geqslant c$，记 $m=2^{3(k-1)},t=b+c$ 以及\n$$f(a,b,c)=ab+bc+ca-m(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)$$\n则\n$$(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k) \\leqslant [a^k+(b+c)^k]a^k(b+c)^k+a^kb^kc^k$$\n于是，我们有（因为 $a+b+c=1$，所以，由 AM-GM 不等式，有 $abc \\leqslant \\left(\\frac{a+b+c}{3}\\right)^3=\\frac{1}{3^3}$）\n$$f(a,b,c)-f(a,b+c,0) \\geqslant bc-ma^kb^kc^k$$\n$$\\geqslant bc[1-m(abc)^{k-1}]$$\n$$\\geqslant b\\left(1-\\frac{2^{3(k-1)}}{3^{3(k-1)}}\\right) \\geqslant 0$$\n而且\n$$f(a,b+c,0)=at[1-m(at)^{k-1}(a^k+t^k)]$$\n令 $\\alpha=2a,\\beta=2t$，则 $0 \\leqslant \\beta \\leqslant \\alpha \\leqslant 2$，且 $\\alpha+\\beta=2$. 对于 $1 \\leqslant k \\leqslant 2$，易证函数\n$$g(k)=\\alpha^k+\\beta^k+2(\\alpha\\beta)^{k-1}$$\n是变量 $k$ 的增函数（通过计算导数 $g'(k)$ 和 $g''(k)$），所以\n$$g(k) \\leqslant g(2)=4 \\quad \\forall k \\in [1,2]$$\n由 AM-GM 不等式，我们有\n$$(\\alpha\\beta)^{k-1}(\\alpha^k+\\beta^k) \\leqslant 2 \\Rightarrow (ab)^{k-1}(a^k+b^k) \\leqslant \\frac{1}{2^{3(k-1)}}=\\frac{1}{m}$$\n从而，不等式得证. 等号成立的条件是 $a=b=\\frac{1}{2},c=0$ 及其轮换.",
+    "answer_md": "",
+    "hints_md": "注 用类似的方法，我们可以证明下列不等式.\n\n设 $a,b,c \\geqslant 0,a+b+c=1$，常数 $k \\in [0,1]$，则\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\leqslant 2^{3(k-1)}$$\n\n对于 $k \\geqslant 2$，根据上面的证明，我们可以得到表达式\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)}$$\n在 $\\min\\{a,b,c\\}=0$ 时，达到最小值. 对于 $k=3$，我们得到一个著名的不等式（你可以从第一卷中找到）.\n\n设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\frac{ab+bc+ca}{a^3b^3+b^3c^3+c^3a^3} \\geqslant \\frac{a^3+b^3+c^3}{36}$$",
+    "original_text_md": "例 2.2.8(Pham Kim Hung, Mathematics & Youth Magazine) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=1$，$k$ 是正常数 $1 \\leqslant k \\leqslant 2$，证明\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\geqslant 2^{3(k-1)}$$\n\n证明 不失一般性，设 $a \\geqslant b \\geqslant c$，记 $m=2^{3(k-1)},t=b+c$ 以及\n$$f(a,b,c)=ab+bc+ca-m(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)$$\n则\n$$(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k) \\leqslant [a^k+(b+c)^k]a^k(b+c)^k+a^kb^kc^k$$\n于是，我们有（因为 $a+b+c=1$，所以，由 AM-GM 不等式，有 $abc \\leqslant \\left(\\frac{a+b+c}{3}\\right)^3=\\frac{1}{3^3}$）\n$$f(a,b,c)-f(a,b+c,0) \\geqslant bc-ma^kb^kc^k$$\n$$\\geqslant bc[1-m(abc)^{k-1}]$$\n$$\\geqslant b\\left(1-\\frac{2^{3(k-1)}}{3^{3(k-1)}}\\right) \\geqslant 0$$\n而且\n$$f(a,b+c,0)=at[1-m(at)^{k-1}(a^k+t^k)]$$\n令 $\\alpha=2a,\\beta=2t$，则 $0 \\leqslant \\beta \\leqslant \\alpha \\leqslant 2$，且 $\\alpha+\\beta=2$. 对于 $1 \\leqslant k \\leqslant 2$，易证函数\n$$g(k)=\\alpha^k+\\beta^k+2(\\alpha\\beta)^{k-1}$$\n是变量 $k$ 的增函数（通过计算导数 $g'(k)$ 和 $g''(k)$），所以\n$$g(k) \\leqslant g(2)=4 \\quad \\forall k \\in [1,2]$$\n由 AM-GM 不等式，我们有\n$$(\\alpha\\beta)^{k-1}(\\alpha^k+\\beta^k) \\leqslant 2 \\Rightarrow (ab)^{k-1}(a^k+b^k) \\leqslant \\frac{1}{2^{3(k-1)}}=\\frac{1}{m}$$\n从而，不等式得证. 等号成立的条件是 $a=b=\\frac{1}{2},c=0$ 及其轮换.\n\n注 用类似的方法，我们可以证明下列不等式.\n\n设 $a,b,c \\geqslant 0,a+b+c=1$，常数 $k \\in [0,1]$，则\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)} \\leqslant 2^{3(k-1)}$$\n\n对于 $k \\geqslant 2$，根据上面的证明，我们可以得到表达式\n$$\\frac{ab+bc+ca}{(a^k+b^k+c^k)(a^kb^k+b^kc^k+c^ka^k)}$$\n在 $\\min\\{a,b,c\\}=0$ 时，达到最小值. 对于 $k=3$，我们得到一个著名的不等式（你可以从第一卷中找到）.\n\n设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$\\frac{ab+bc+ca}{a^3b^3+b^3c^3+c^3a^3} \\geqslant \\frac{a^3+b^3+c^3}{36}$$",
+    "tags": [
+      "整合变量法",
+      "AM-GM不等式",
+      "导数",
+      "三元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

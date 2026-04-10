@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_13_f5bded4fbc",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "13",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b \\in \\mathbf{R}_+$, 求证: $\\sqrt{a} + 1 > \\sqrt{b}$ 成立的充要条件是对任意 $x > 1$, 有 $ax + \\frac{x}{x - 1} > b$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b \\in \\mathbf{R}_+$, 求证: $\\sqrt{a} + 1 > \\sqrt{b}$ 成立的充要条件是对任意 $x > 1$, 有 $ax + \\frac{x}{x - 1} > b$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

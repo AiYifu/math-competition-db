@@ -1,0 +1,25 @@
+{
+  "uid": "p194_194_例7_3_1_5e59a0e7f0",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7",
+  "section": "3",
+  "problem_id": "例7.3.1",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Algebraic Inequalities",
+  "source_pages": [
+    194
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数, 满足 $a_1+a_2+\\cdots+a_n=n$, 证明\n$$(n-1)(a_1^2+a_2^2+\\cdots+a_n^2)+na_1a_2\\cdots a_n \\geqslant n^2$$",
+  "solution_md": "考察下列函数\n$$f(a_1,a_2,\\cdots,a_n)=(n-1)(a_1^2+a_2^2+\\cdots+a_n^2)+na_1a_2\\cdots a_n$$\n我们有下列两个恒等式\n$$\\begin{aligned}f(a_1,a_2,\\cdots,a_n)-f\\left(\\frac{a_1+a_2}{2},\\frac{a_1+a_2}{2},a_3,\\cdots,a_n\\right)\\&=\\frac{n(a_1-a_2)^2}{4}\\left[\\frac{2(n-1)}{n}-a_3a_4\\cdots a_n\\right]\\\\f(a_1,a_2,\\cdots,a_n)-f(0,a_1+a_2,a_3,\\cdots,a_n)\\&=-na_1a_2\\left[\\frac{2(n-1)}{n}-a_3a_4\\cdots a_n\\right]\\end{aligned}$$\n其中出现了公共因子 $\\frac{2(n-1)}{n}-a_3a_4\\cdots a_n$, 真是奇怪, 不可想象. 我们立即可以推出, 下列两个不等式中\n$$\\left\\{\\begin{array}{l}f(a_1,a_2,\\cdots,a_n) \\geqslant f\\left(\\frac{a_1+a_2}{2},\\frac{a_1+a_2}{2},a_3,\\cdots,a_n\\right)\\\\f(a_1,a_2,\\cdots,a_n) \\geqslant f(0,a_1+a_2,a_3,\\cdots,a_n)\\end{array}\\right.$$至少有一个成立.\n换句话说, 我们有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant \\min\\left\\{f\\left(\\frac{a_1+a_2}{2},\\frac{a_1+a_2}{2},a_3,\\cdots,a_n\\right),f(0,a_1+a_2,a_3,\\cdots,a_n)\\right\\}$$\n由 UMV 定理, 我们只需证明不等式在 $n$ 个数 $a_1,a_2,\\cdots,a_n$ 中至少有一个等于 0, 或者它们全部都等于 1 时, 成立即可.\n如果 $a_1=a_2=\\cdots=a_n=1$, 则不等式显然成立. 如果 $a_n=0$, 则不等式变成\n$$(n-1)(a_1^2+a_2^2+\\cdots+a_{n-1}^2) \\geqslant n^2$$\n由 Cauchy-Schwarz 不等式, 这是显然成立的. 等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$ 或 $a_1=a_2=\\cdots=a_{n-1}=\\frac{n}{n-1},a_n=0$ 或其轮换.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.3.1(Vasile Cirtoaje, Algebraic Inequalities) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数, 满足 $a_1+a_2+\\cdots+a_n=n$, 证明\n$$(n-1)(a_1^2+a_2^2+\\cdots+a_n^2)+na_1a_2\\cdots a_n \\geqslant n^2$$\n证明 考察下列函数\n$$f(a_1,a_2,\\cdots,a_n)=(n-1)(a_1^2+a_2^2+\\cdots+a_n^2)+na_1a_2\\cdots a_n$$\n我们有下列两个恒等式\n$$\\begin{aligned}f(a_1,a_2,\\cdots,a_n)-f\\left(\\frac{a_1+a_2}{2},\\frac{a_1+a_2}{2},a_3,\\cdots,a_n\\right)\\&=\\frac{n(a_1-a_2)^2}{4}\\left[\\frac{2(n-1)}{n}-a_3a_4\\cdots a_n\\right]\\\\f(a_1,a_2,\\cdots,a_n)-f(0,a_1+a_2,a_3,\\cdots,a_n)\\&=-na_1a_2\\left[\\frac{2(n-1)}{n}-a_3a_4\\cdots a_n\\right]\\end{aligned}$$\n其中出现了公共因子 $\\frac{2(n-1)}{n}-a_3a_4\\cdots a_n$, 真是奇怪, 不可想象. 我们立即可以推出, 下列两个不等式中\n$$\\left\\{\\begin{array}{l}f(a_1,a_2,\\cdots,a_n) \\geqslant f\\left(\\frac{a_1+a_2}{2},\\frac{a_1+a_2}{2},a_3,\\cdots,a_n\\right)\\\\f(a_1,a_2,\\cdots,a_n) \\geqslant f(0,a_1+a_2,a_3,\\cdots,a_n)\\end{array}\\right.$$至少有一个成立.\n换句话说, 我们有\n$$f(a_1,a_2,\\cdots,a_n) \\geqslant \\min\\left\\{f\\left(\\frac{a_1+a_2}{2},\\frac{a_1+a_2}{2},a_3,\\cdots,a_n\\right),f(0,a_1+a_2,a_3,\\cdots,a_n)\\right\\}$$\n由 UMV 定理, 我们只需证明不等式在 $n$ 个数 $a_1,a_2,\\cdots,a_n$ 中至少有一个等于 0, 或者它们全部都等于 1 时, 成立即可.\n如果 $a_1=a_2=\\cdots=a_n=1$, 则不等式显然成立. 如果 $a_n=0$, 则不等式变成\n$$(n-1)(a_1^2+a_2^2+\\cdots+a_{n-1}^2) \\geqslant n^2$$\n由 Cauchy-Schwarz 不等式, 这是显然成立的. 等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$ 或 $a_1=a_2=\\cdots=a_{n-1}=\\frac{n}{n-1},a_n=0$ 或其轮换.",
+  "tags": [
+    "UMV定理",
+    "不等式证明",
+    "Cauchy-Schwarz不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

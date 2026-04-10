@@ -1,0 +1,32 @@
+{
+  "uid": "p137_144_例4_2_2_ba36c84177",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "4",
+  "section": "2",
+  "problem_id": "例4.2.2",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n (n \\geqslant 3)$ 是非负实数, 满足 $a_1 + a_2 + \\cdots + a_n = n$, 证明\n$$\n(n-1)^2(a_1^4 + a_2^4 + \\cdots + a_n^4 - n) \\geqslant (3n^2 - 3n + 1)(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$",
+  "solution_md": "证明及分析 一般问题应取下列形式\n$$\na_1^4 + a_2^4 + \\cdots + a_n^4 - n \\geqslant d_n(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n重要的步骤即计算出序列 $\\{d_n\\}$ 及其变化情况. 如果不等式对 $d_n$ 成立, 那么对所有 $d \\leqslant d_n$ 必须成立. 但对 $d \\geqslant d_n$ 并不总是成立, 所以, 序列 $\\{d_n\\}$ 必定是下降的. 容易检测 $d_2 \\leqslant 6$, 所以, 很自然地, 我们就把 $\\{d_n\\}$ 定义为\n$$\nd_2 = 6, d_n = \\frac{3n^2 - 3n + 1}{(n-1)^2} (n \\geqslant 2)\n$$\n第二步, 确定齐次函数. 这很容易确定, 取\n$$\nc = \\sqrt{d}, f(c, x) = x^4 - cx^3 = x^4 - dx^2\n$$\n我们来证明\n$$\n\\sum_{i=1}^n(a_i^4 - 1) \\geqslant d_n\\sum_{i=1}^n(a_i^2 - 1)\n$$\n\\Leftrightarrow (n^2 - 3n + 3)a^2 - 2(n^2 - n - 1)a + n^2 + n + 1 \\geqslant d_n\n$$\n令\n$$\nf(a) = (n^2 - 3n + 3)a^2 - 2(n^2 - n - 1)a + n^2 + n + 1\n$$\n其导数是\n$$\nF'(x) = \\frac{2(x^n - 1)}{x^n}\\left[\\frac{(x^n + 1)(n - 1)}{x^{n-1}} - n\\sqrt[n]{n - 1}\\right]\n$$\n所以, $F'(x) = 0$ 当且仅当 $x = 1$ 或 $x = \\sqrt[n]{n - 1}$, 即有\n$$\nF(x) \\geqslant \\min\\{F(1), \\lim_{x \\to +\\infty}F(x)\\} = 0\n$$\n不等式得证, 等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.2.2 设 $a_1, a_2, \\cdots, a_n (n \\geqslant 3)$ 是非负实数, 满足 $a_1 + a_2 + \\cdots + a_n = n$, 证明\n$$\n(n-1)^2(a_1^4 + a_2^4 + \\cdots + a_n^4 - n) \\geqslant (3n^2 - 3n + 1)(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n证明及分析 一般问题应取下列形式\n$$\na_1^4 + a_2^4 + \\cdots + a_n^4 - n \\geqslant d_n(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n重要的步骤即计算出序列 $\\{d_n\\}$ 及其变化情况. 如果不等式对 $d_n$ 成立, 那么对所有 $d \\leqslant d_n$ 必须成立. 但对 $d \\geqslant d_n$ 并不总是成立, 所以, 序列 $\\{d_n\\}$ 必定是下降的. 容易检测 $d_2 \\leqslant 6$, 所以, 很自然地, 我们就把 $\\{d_n\\}$ 定义为\n$$\nd_2 = 6, d_n = \\frac{3n^2 - 3n + 1}{(n-1)^2} (n \\geqslant 2)\n$$\n第二步, 确定齐次函数. 这很容易确定, 取\n$$\nc = \\sqrt{d}, f(c, x) = x^4 - cx^3 = x^4 - dx^2\n$$\n我们来证明\n$$\n\\sum_{i=1}^n(a_i^4 - 1) \\geqslant d_n\\sum_{i=1}^n(a_i^2 - 1)\n$$\n\\Leftrightarrow (n^2 - 3n + 3)a^2 - 2(n^2 - n - 1)a + n^2 + n + 1 \\geqslant d_n\n$$\n令\n$$\nf(a) = (n^2 - 3n + 3)a^2 - 2(n^2 - n - 1)a + n^2 + n + 1\n$$\n其导数是\n$$\nF'(x) = \\frac{2(x^n - 1)}{x^n}\\left[\\frac{(x^n + 1)(n - 1)}{x^{n-1}} - n\\sqrt[n]{n - 1}\\right]\n$$\n所以, $F'(x) = 0$ 当且仅当 $x = 1$ 或 $x = \\sqrt[n]{n - 1}$, 即有\n$$\nF(x) \\geqslant \\min\\{F(1), \\lim_{x \\to +\\infty}F(x)\\} = 0\n$$\n不等式得证, 等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "tags": [
+    "不等式",
+    "证明",
+    "序列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018"
+}

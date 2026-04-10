@@ -1,0 +1,26 @@
+{
+  "uid": "p091_092_例2_4_3_53e728ca76",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第2章",
+  "section": "2.4",
+  "problem_id": "例2.4.3",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    91,
+    92
+  ],
+  "stem_md": "设 $a, b, c$ 是某三角形的三边长, 证明 $2\\left(\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a}\\right) \\geqslant a + b + c + \\frac{b^2}{a} + \\frac{c^2}{b} + \\frac{a^2}{c}$",
+  "solution_md": "证明及分析 我们尝试从不等式中分离出 $a - b, b - c, c - a$ 这样的项, 自然不等式变成如下形式 $\\sum\\left(\\frac{a^2}{b} + b - 2a\\right) \\geqslant \\sum\\left(\\frac{a^2}{c} - \\frac{a^2}{b}\\right)$ $\\Leftrightarrow \\sum\\frac{(a - b)^2}{b} \\geqslant \\frac{(a - b)(b - c)(a - c)(a + b + c)}{abc}$ $\\Leftrightarrow \\sum ac(a - b)^2 \\geqslant (a - b)(b - c)(a - c)(a + b + c)$ 由这个形式, 我们可以假设 $a \\geqslant b \\geqslant c$, 从 $a, b, c$ 中同时减去 $t (0 \\leqslant t \\leqslant c)$, 很明显, 不等式左边是减少的, 我们希望右边不变, 但不是这样的. 那么, 这种情况应如何处理呢? 下面我们来考察在变换 $(a, b, c) \\to (a - t, b - t, c - t)$ 下, 不等式两边的变化情况. 不等式 (*) 的右边减少了 $P = 3t(a - b)(a - c)(b - c)$ 左边减少了 $S = t^2\\sum(a - b)^2 + \\sum t(a + c)(a - b)^2$ 这显然成立, 所以, (2) 成立. 根据这个结论, 我们只需证明在 $a = b + c$ 的条件下, (1) 成立即可. 这并不奇怪, 下面是这个结论的详细的原因. 假设 LHS$(a, b, c)$, RHS$(a, b, c)$ 分别表示 (1) 的左边和右边, 利用不等式 (2), 我们有 LHS$(a, b, c) - $LHS$(a - t, b - t, c - t) = S$ $\\geqslant P = $RHS$(a, b, c) - $RHS$(a - t, b - t, c - t)$ $\\Rightarrow $LHS$(a, b, c) - $RHS$(a, b, c)$ $\\geqslant $LHS$(a - t, b - t, c - t) - $RHS$(a - t, b - t, c - t)$ 因此, 如果不等式 (1) 对三个新变量 $a' = a - t, b' = b - t, c' = c - t$ 是成立的, 那么, 我们立即得到, 它对 $a, b, c$ 也是成立的. 根据 $a, b, c$ 是某三角形的三条边, 我们来选择一个有效的 $t$ 值, 注意到, $a \\leqslant b + c$, 那么, 一定存在一个数 $t$, 满足 $a' = b' + c'$ (或 $t = b + c - a$). 返回原问题, 在 $a = b + c$ 条件下, 不等式 (1) 变成 $(b + c)c^3 + b(b + c)(b - c)^2 + cb^3 \\geqslant 2bc(b + c)(b - c)$ $\\Leftrightarrow (b^2 - bc - c^2)^2 + 2bc^3 \\geqslant 0$ 这是显然成立的, 等号成立的条件是 $a = b = c$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.4.3 (Pham Kim Hung, Mathlinks) 设 $a, b, c$ 是某三角形的三边长, 证明 $2\\left(\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a}\\right) \\geqslant a + b + c + \\frac{b^2}{a} + \\frac{c^2}{b} + \\frac{a^2}{c}$ 证明及分析 我们尝试从不等式中分离出 $a - b, b - c, c - a$ 这样的项, 自然不等式变成如下形式 $\\sum\\left(\\frac{a^2}{b} + b - 2a\\right) \\geqslant \\sum\\left(\\frac{a^2}{c} - \\frac{a^2}{b}\\right)$ $\\Leftrightarrow \\sum\\frac{(a - b)^2}{b} \\geqslant \\frac{(a - b)(b - c)(a - c)(a + b + c)}{abc}$ $\\Leftrightarrow \\sum ac(a - b)^2 \\geqslant (a - b)(b - c)(a - c)(a + b + c)$ 由这个形式, 我们可以假设 $a \\geqslant b \\geqslant c$, 从 $a, b, c$ 中同时减去 $t (0 \\leqslant t \\leqslant c)$, 很明显, 不等式左边是减少的, 我们希望右边不变, 但不是这样的. 那么, 这种情况应如何处理呢? 下面我们来考察在变换 $(a, b, c) \\to (a - t, b - t, c - t)$ 下, 不等式两边的变化情况. 不等式 (*) 的右边减少了 $P = 3t(a - b)(a - c)(b - c)$ 左边减少了 $S = t^2\\sum(a - b)^2 + \\sum t(a + c)(a - b)^2$ 这显然成立, 所以, (2) 成立. 根据这个结论, 我们只需证明在 $a = b + c$ 的条件下, (1) 成立即可. 这并不奇怪, 下面是这个结论的详细的原因. 假设 LHS$(a, b, c)$, RHS$(a, b, c)$ 分别表示 (1) 的左边和右边, 利用不等式 (2), 我们有 LHS$(a, b, c) - $LHS$(a - t, b - t, c - t) = S$ $\\geqslant P = $RHS$(a, b, c) - $RHS$(a - t, b - t, c - t)$ $\\Rightarrow $LHS$(a, b, c) - $RHS$(a, b, c)$ $\\geqslant $LHS$(a - t, b - t, c - t) - $RHS$(a - t, b - t, c - t)$ 因此, 如果不等式 (1) 对三个新变量 $a' = a - t, b' = b - t, c' = c - t$ 是成立的, 那么, 我们立即得到, 它对 $a, b, c$ 也是成立的. 根据 $a, b, c$ 是某三角形的三条边, 我们来选择一个有效的 $t$ 值, 注意到, $a \\leqslant b + c$, 那么, 一定存在一个数 $t$, 满足 $a' = b' + c'$ (或 $t = b + c - a$). 返回原问题, 在 $a = b + c$ 条件下, 不等式 (1) 变成 $(b + c)c^3 + b(b + c)(b - c)^2 + cb^3 \\geqslant 2bc(b + c)(b - c)$ $\\Leftrightarrow (b^2 - bc - c^2)^2 + 2bc^3 \\geqslant 0$ 这是显然成立的, 等号成立的条件是 $a = b = c$.",
+  "tags": [
+    "不等式",
+    "证明",
+    "变换"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0012"
+}

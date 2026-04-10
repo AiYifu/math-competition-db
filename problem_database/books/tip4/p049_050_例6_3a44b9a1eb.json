@@ -1,0 +1,25 @@
+{
+  "uid": "p049_050_例6_3a44b9a1eb",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    49,
+    50
+  ],
+  "stem_md": "已知两两不同的正整数 $a, b, c, d, e, f, g, h, n$ 满足\n$n = ab + cd = ef + gh$.\n求 $n$ 的最小值。",
+  "solution_md": "若 $a, b, c, d, e, f, g, h$ 中没有一个等于 1，则\n$2n = ab + cd + ef + gh$\n$\\geqslant 4 \\sqrt[4]{abcdefgh}$\n$\\geqslant 4 \\sqrt[4]{2 \\times 3 \\times 4 \\times 5 \\times 6 \\times 7 \\times 8 \\times 9}$\n$= 4 \\sqrt[4]{2^7 \\times 3^4 \\times 5 \\times 7}$\n$= 4 \\times 4 \\times 3 \\times \\sqrt[4]{\\frac{35}{2}}$\n$> 4 \\times 4 \\times 3 \\times 2 = 96$.\n因为 $g \\geqslant 8$，所以，$2n \\geqslant 60$，$n \\geqslant 30$。\n如果 $g \\geqslant 9$，则 $2n \\geqslant 61$，$n \\geqslant 31$。\n假设 $n = 30$，则 $g = 8$。于是，$a, b, c, d, e, f, g, h$ 是集合 $\\{1, 2, 3, 4, 5, 6, 7, 8\\}$ 的一个排列，特别地，有一个数是 5，不妨设 $a = 5$。所以 $30 = ab + cd$，即 $cd$ 可以被 5 整除。矛盾。\n因此 $n \\geqslant 31$。又因为 $31 = 1 \\times 7 + 4 \\times 6 = 2 \\times 8 + 3 \\times 5$，因此 $n$ 的最小值为 31。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例6 已知两两不同的正整数 $a, b, c, d, e, f, g, h, n$ 满足\n$n = ab + cd = ef + gh$.\n求 $n$ 的最小值。\n解 若 $a, b, c, d, e, f, g, h$ 中没有一个等于 1，则\n$2n = ab + cd + ef + gh$\n$\\geqslant 4 \\sqrt[4]{abcdefgh}$\n$\\geqslant 4 \\sqrt[4]{2 \\times 3 \\times 4 \\times 5 \\times 6 \\times 7 \\times 8 \\times 9}$\n$= 4 \\sqrt[4]{2^7 \\times 3^4 \\times 5 \\times 7}$\n$= 4 \\times 4 \\times 3 \\times \\sqrt[4]{\\frac{35}{2}}$\n$> 4 \\times 4 \\times 3 \\times 2 = 96$.\n因为 $g \\geqslant 8$，所以，$2n \\geqslant 60$，$n \\geqslant 30$。\n如果 $g \\geqslant 9$，则 $2n \\geqslant 61$，$n \\geqslant 31$。\n假设 $n = 30$，则 $g = 8$。于是，$a, b, c, d, e, f, g, h$ 是集合 $\\{1, 2, 3, 4, 5, 6, 7, 8\\}$ 的一个排列，特别地，有一个数是 5，不妨设 $a = 5$。所以 $30 = ab + cd$，即 $cd$ 可以被 5 整除。矛盾。\n因此 $n \\geqslant 31$。又因为 $31 = 1 \\times 7 + 4 \\times 6 = 2 \\times 8 + 3 \\times 5$，因此 $n$ 的最小值为 31。",
+  "tags": [
+    "均值不等式",
+    "最小值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

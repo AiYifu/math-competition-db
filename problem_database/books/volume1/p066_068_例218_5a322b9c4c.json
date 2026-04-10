@@ -1,0 +1,59 @@
+{
+  "uid": "p066_068_例218_5a322b9c4c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.1",
+  "problem_id": "例2.1.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    66,
+    67,
+    68
+  ],
+  "source_images": [
+    "page-066.jpg",
+    "page-067.jpg",
+    "page-068.jpg"
+  ],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，且满足 $a_1+a_2+\\cdots+a_n=1$，证明\n$$a_1^4(1-a_1)+a_2^4(1-a_2)+\\cdots+a_n^4(1-a_n)\\leqslant\\frac{1}{12}$$",
+  "solution_md": "我们有意使用整合变量法使某些变量等于 $0$。那么，这个问题比较合适的变换的梯子是什么呢？片刻思考之后，你可能很容易找到它。不妨设 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$，变换\n$$(a_1,a_2,\\cdots,a_n)\\rightarrow(a_1,a_2+a_3+\\cdots+a_n,0,\\cdots,0)$$\n或许是个好想法。为了证明这个事实，我们必须证明（当 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$ 时）\n$$a_1^4(a_2+a_3+\\cdots+a_n)+\\cdots+a_{n-1}^4(a_1+a_2+\\cdots+a_{n-1}+a_n)$$\n$$\\leqslant a_n(a_1+a_2+\\cdots+a_{n-1})^4$$\n实际上，这个不等式可由下面两个不等式推出。\n\n第一个不等式\n$$\\left(\\sum_{i=1}^{n-1}a_i\\right)^4-\\sum_{i=1}^{n-1}a_i^4\\geqslant\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这可由展开 $\\left(\\sum_{i=1}^{n-1}a_i\\right)^4$ 直接证明。\n\n第二个不等式\n$$\\sum_{1\\leqslant i<j\\leqslant n}(a_i^4a_j+a_j^4a_i)\\leqslant 4a_n\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这个不等式是显然成立的，因为，$a_n\\geqslant a_i$，$\\forall i\\in\\{1,2,\\cdots,n\\}$。\n\n设 $x=a_1+a_2+\\cdots+a_{n-1}$，$y=a_n$，我们来证明\n$$x^4y+y^4x\\leqslant\\frac{1}{12}\\quad\\forall x,y\\geqslant 0,x+y=1$$\n记 $t=xy$，由 AM-GM 不等式，我们有\n$$x^4y+y^4x=t(x^3+y^3)=t(x+y)[(x+y)^2-3xy]$$\n$$=t(1-3t)=\\frac{1}{3}\\cdot 3t\\cdot(1-3t)\\leqslant\\frac{1}{3}\\cdot\\frac{1}{4}=\\frac{1}{12}$$\n等号成立的条件是 $(a_1,a_2,\\cdots,a_n)\\sim\\left(\\frac{3+\\sqrt{3}}{6},\\frac{3-\\sqrt{3}}{6},0,\\cdots,0\\right)$，证毕。",
+  "answer_md": "",
+  "hints_md": "Pham Kim Hung, Vasile Cirtoaje, Mathlinks",
+  "original_text_md": "例 2.1.8(Pham Kim Hung,Vasile Cirtoaje, Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数,且满足 $a_1+a_2+\\cdots+a_n=1$,证明\n$$a_1^4(1-a_1)+a_2^4(1-a_2)+\\cdots+a_n^4(1-a_n)\\leqslant\\frac{1}{12}$$\n证明及分析 我们有意使用整合变量法使某些变量等于 0.那么,这个问题比较合适的变换的梯子是什么呢?片刻思考之后,你可能很容易找到它.不妨设 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$,变换\n$$(a_1,a_2,\\cdots,a_n)\\rightarrow(a_1,a_2+a_3+\\cdots+a_n,0,\\cdots,0)$$\n或许是个好想法.为了证明这个事实,我们必须证明(当 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$ 时)\n$$a_1^4(a_2+a_3+\\cdots+a_n)+\\cdots+a_{n-1}^4(a_1+a_2+\\cdots+a_{n-1}+a_n)$$\n$$\\leqslant a_n(a_1+a_2+\\cdots+a_{n-1})^4$$\n实际上,这个不等式可由下面两个不等式推出.\n第一个不等式\n$$\\left(\\sum_{i=1}^{n-1}a_i\\right)^4-\\sum_{i=1}^{n-1}a_i^4\\geqslant\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这可由展开 $\\left(\\sum_{i=1}^{n-1}a_i\\right)^4$ 直接证明.\n第二个不等式\n$$\\sum_{1\\leqslant i<j\\leqslant n}(a_i^4a_j+a_j^4a_i)\\leqslant 4a_n\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这个不等式是显然成立的,因为,$a_n\\geqslant a_i$,$\\forall i\\in\\{1,2,\\cdots,n\\}$.\n设 $x=a_1+a_2+\\cdots+a_{n-1}$,$y=a_n$,我们来证明\n$$x^4y+y^4x\\leqslant\\frac{1}{12}\\quad\\forall x,y\\geqslant 0,x+y=1$$\n记 $t=xy$,由 AM-GM 不等式,我们有\n$$x^4y+y^4x=t(x^3+y^3)=t(x+y)[(x+y)^2-3xy]$$\n$$=t(1-3t)=\\frac{1}{3}\\cdot 3t\\cdot(1-3t)\\leqslant\\frac{1}{3}\\cdot\\frac{1}{4}=\\frac{1}{12}$$\n等号成立的条件是 $(a_1,a_2,\\cdots,a_n)\\sim\\left(\\frac{3+\\sqrt{3}}{6},\\frac{3-\\sqrt{3}}{6},0,\\cdots,0\\right)$,证毕.",
+  "tags": [
+    "整合变量法",
+    "AM-GM不等式",
+    "外围整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "5a322b9c4c6005072aa469666b7e55bcc07814f9",
+  "raw_problem": {
+    "problem_id": "例2.1.8",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.1",
+    "title": null,
+    "source_pages": [
+      66,
+      67,
+      68
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是非负实数，且满足 $a_1+a_2+\\cdots+a_n=1$，证明\n$$a_1^4(1-a_1)+a_2^4(1-a_2)+\\cdots+a_n^4(1-a_n)\\leqslant\\frac{1}{12}$$",
+    "solution_md": "我们有意使用整合变量法使某些变量等于 $0$。那么，这个问题比较合适的变换的梯子是什么呢？片刻思考之后，你可能很容易找到它。不妨设 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$，变换\n$$(a_1,a_2,\\cdots,a_n)\\rightarrow(a_1,a_2+a_3+\\cdots+a_n,0,\\cdots,0)$$\n或许是个好想法。为了证明这个事实，我们必须证明（当 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$ 时）\n$$a_1^4(a_2+a_3+\\cdots+a_n)+\\cdots+a_{n-1}^4(a_1+a_2+\\cdots+a_{n-1}+a_n)$$\n$$\\leqslant a_n(a_1+a_2+\\cdots+a_{n-1})^4$$\n实际上，这个不等式可由下面两个不等式推出。\n\n第一个不等式\n$$\\left(\\sum_{i=1}^{n-1}a_i\\right)^4-\\sum_{i=1}^{n-1}a_i^4\\geqslant\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这可由展开 $\\left(\\sum_{i=1}^{n-1}a_i\\right)^4$ 直接证明。\n\n第二个不等式\n$$\\sum_{1\\leqslant i<j\\leqslant n}(a_i^4a_j+a_j^4a_i)\\leqslant 4a_n\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这个不等式是显然成立的，因为，$a_n\\geqslant a_i$，$\\forall i\\in\\{1,2,\\cdots,n\\}$。\n\n设 $x=a_1+a_2+\\cdots+a_{n-1}$，$y=a_n$，我们来证明\n$$x^4y+y^4x\\leqslant\\frac{1}{12}\\quad\\forall x,y\\geqslant 0,x+y=1$$\n记 $t=xy$，由 AM-GM 不等式，我们有\n$$x^4y+y^4x=t(x^3+y^3)=t(x+y)[(x+y)^2-3xy]$$\n$$=t(1-3t)=\\frac{1}{3}\\cdot 3t\\cdot(1-3t)\\leqslant\\frac{1}{3}\\cdot\\frac{1}{4}=\\frac{1}{12}$$\n等号成立的条件是 $(a_1,a_2,\\cdots,a_n)\\sim\\left(\\frac{3+\\sqrt{3}}{6},\\frac{3-\\sqrt{3}}{6},0,\\cdots,0\\right)$，证毕。",
+    "answer_md": "",
+    "hints_md": "Pham Kim Hung, Vasile Cirtoaje, Mathlinks",
+    "original_text_md": "例 2.1.8(Pham Kim Hung,Vasile Cirtoaje, Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是非负实数,且满足 $a_1+a_2+\\cdots+a_n=1$,证明\n$$a_1^4(1-a_1)+a_2^4(1-a_2)+\\cdots+a_n^4(1-a_n)\\leqslant\\frac{1}{12}$$\n证明及分析 我们有意使用整合变量法使某些变量等于 0.那么,这个问题比较合适的变换的梯子是什么呢?片刻思考之后,你可能很容易找到它.不妨设 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$,变换\n$$(a_1,a_2,\\cdots,a_n)\\rightarrow(a_1,a_2+a_3+\\cdots+a_n,0,\\cdots,0)$$\n或许是个好想法.为了证明这个事实,我们必须证明(当 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$ 时)\n$$a_1^4(a_2+a_3+\\cdots+a_n)+\\cdots+a_{n-1}^4(a_1+a_2+\\cdots+a_{n-1}+a_n)$$\n$$\\leqslant a_n(a_1+a_2+\\cdots+a_{n-1})^4$$\n实际上,这个不等式可由下面两个不等式推出.\n第一个不等式\n$$\\left(\\sum_{i=1}^{n-1}a_i\\right)^4-\\sum_{i=1}^{n-1}a_i^4\\geqslant\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这可由展开 $\\left(\\sum_{i=1}^{n-1}a_i\\right)^4$ 直接证明.\n第二个不等式\n$$\\sum_{1\\leqslant i<j\\leqslant n}(a_i^4a_j+a_j^4a_i)\\leqslant 4a_n\\sum_{1\\leqslant i<j\\leqslant n}(a_i^3a_j+a_j^3a_i)$$\n这个不等式是显然成立的,因为,$a_n\\geqslant a_i$,$\\forall i\\in\\{1,2,\\cdots,n\\}$.\n设 $x=a_1+a_2+\\cdots+a_{n-1}$,$y=a_n$,我们来证明\n$$x^4y+y^4x\\leqslant\\frac{1}{12}\\quad\\forall x,y\\geqslant 0,x+y=1$$\n记 $t=xy$,由 AM-GM 不等式,我们有\n$$x^4y+y^4x=t(x^3+y^3)=t(x+y)[(x+y)^2-3xy]$$\n$$=t(1-3t)=\\frac{1}{3}\\cdot 3t\\cdot(1-3t)\\leqslant\\frac{1}{3}\\cdot\\frac{1}{4}=\\frac{1}{12}$$\n等号成立的条件是 $(a_1,a_2,\\cdots,a_n)\\sim\\left(\\frac{3+\\sqrt{3}}{6},\\frac{3-\\sqrt{3}}{6},0,\\cdots,0\\right)$,证毕.",
+    "tags": [
+      "整合变量法",
+      "AM-GM不等式",
+      "外围整合变量法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

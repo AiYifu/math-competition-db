@@ -1,0 +1,32 @@
+{
+  "uid": "p137_144_例4_2_3_8b78bf2e82",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "4",
+  "section": "2",
+  "problem_id": "例4.2.3",
+  "problem_type": "example",
+  "title": "Gabriel Dospinescu, Calin Popa, Old and New Inequalities",
+  "source_pages": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是正实数序列且 $a_1a_2\\cdots a_n = 1$, 证明\n$$\na_1^2 + a_2^2 + \\cdots + a_n^2 - n \\geqslant c_n(a_1 + a_2 + \\cdots + a_n - n)\n$$\n由 AM-GM 不等式, 有 $a_1 + a_2 + \\cdots + a_n - n \\geqslant 0$. 所以, 如果上面的不等式对 $c_n$ 成立, 那么对所有 $c \\leqslant c_n$ 必定成立. 因此, 构建一般序列 $c_n = \\frac{2n}{n-1}$.",
+  "solution_md": "证明及分析 考察不等式\n$$\na_1^2 + a_2^2 + \\cdots + a_n^2 - n \\geqslant c_n(a_1 + a_2 + \\cdots + a_n - n)\n$$\n由 AM-GM 不等式, 有 $a_1 + a_2 + \\cdots + a_n - n \\geqslant 0$. 所以, 如果上面的不等式对 $c_n$ 成立, 那么对所有 $c \\leqslant c_n$ 必定成立. 因此, 构建一般序列 $c_n = \\frac{2n}{n-1}$.\n当然只需考虑, 当 $c = c_n$ 时, 不等式变成\n$$\n(n-1)x^2 + \\frac{1}{x^{2(n-1)}} - n \\geqslant \\frac{2n}{n-1}, 则上述不等式变成\n$$\nF(x) = (n-1)x^2 + \\frac{1}{k + x^2} + \\cdots + \\frac{x_n}{c^2 + x^2} - n \\geqslant \\frac{n}{k + 1}\n$$\n其导数是\n$$\nF'(x) = \\frac{2(x^n - 1)}{x^n}\\left[\\frac{(x^n + 1)(n - 1)}{x^{n-1}} - n\\sqrt[n]{n - 1}\\right]\n$$\n所以, $F'(x) = 0$ 当且仅当 $x = 1$ 或 $x = \\sqrt[n]{n - 1}$, 即有\n$$\nF(x) \\geqslant \\min\\{F(1), \\lim_{x \\to +\\infty}F(x)\\} = 0\n$$\n不等式得证, 等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.2.3(Gabriel Dospinescu, Calin Popa, Old and New Inequalities) 设 $a_1, a_2, \\cdots, a_n$ 是正实数序列且 $a_1a_2\\cdots a_n = 1$, 证明\n$$\na_1^2 + a_2^2 + \\cdots + a_n^2 - n \\geqslant c_n(a_1 + a_2 + \\cdots + a_n - n)\n$$\n证明及分析 考察不等式\n$$\na_1^2 + a_2^2 + \\cdots + a_n^2 - n \\geqslant c_n(a_1 + a_2 + \\cdots + a_n - n)\n$$\n由 AM-GM 不等式, 有 $a_1 + a_2 + \\cdots + a_n - n \\geqslant 0$. 所以, 如果上面的不等式对 $c_n$ 成立, 那么对所有 $c \\leqslant c_n$ 必定成立. 因此, 构建一般序列 $c_n = \\frac{2n}{n-1}$.\n当然只需考虑, 当 $c = c_n$ 时, 不等式变成\n$$\n(n-1)x^2 + \\frac{1}{x^{2(n-1)}} - n \\geqslant \\frac{2n}{n-1}, 则上述不等式变成\n$$\nF(x) = (n-1)x^2 + \\frac{1}{k + x^2} + \\cdots + \\frac{x_n}{c^2 + x^2} - n \\geqslant \\frac{n}{k + 1}\n$$\n其导数是\n$$\nF'(x) = \\frac{2(x^n - 1)}{x^n}\\left[\\frac{(x^n + 1)(n - 1)}{x^{n-1}} - n\\sqrt[n]{n - 1}\\right]\n$$\n所以, $F'(x) = 0$ 当且仅当 $x = 1$ 或 $x = \\sqrt[n]{n - 1}$, 即有\n$$\nF(x) \\geqslant \\min\\{F(1), \\lim_{x \\to +\\infty}F(x)\\} = 0\n$$\n不等式得证, 等号成立的条件是 $a_1 = a_2 = \\cdots = a_n = 1$.",
+  "tags": [
+    "不等式",
+    "证明",
+    "序列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018"
+}

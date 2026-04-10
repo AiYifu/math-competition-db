@@ -1,0 +1,53 @@
+{
+  "uid": "p216_216_例778_b57d666111",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.7",
+  "problem_id": "例7.7.8",
+  "problem_type": "example",
+  "title": "Vo Quoc Ba Can, Mathlinks",
+  "source_pages": [
+    216
+  ],
+  "source_images": [
+    "page-216.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)^2\\geqslant 3\\left(\\frac{a^3}{b}+\\frac{b^3}{c}+\\frac{c^3}{a}\\right)$$",
+  "solution_md": "**证明** 设 $c=\\max\\{a,b,c\\}$，我们有\n\n$$\\sum\\frac{a^2}{b}-\\sum a=\\frac{(a+b)(a-b)^2}{ab}+\\frac{(b+c)(c-a)(c-b)}{ac}$$\n\n$$\\sum\\frac{a^3}{b}-\\sum a^2=\\frac{(a^2+ab+b^2)(a-b)^2}{ab}+\\frac{(b^2+bc+c^2)(c-a)(c-b)}{ac}$$\n\n不等式可以改写成如下形式\n\n$$\\left[\\left(\\sum\\frac{a^2}{b}\\right)^2-\\left(\\sum a\\right)^2\\right]-3\\left(\\sum\\frac{a^3}{b}-\\sum a^2\\right)-\\left[3\\sum a^2-(a+b+c)^2\\right]\\geqslant 0$$\n\n我们得到\n\n$$M=\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\right)\\cdot\\frac{a+b}{ab}-\\frac{3(a^2+b^2+ab)}{ab}-2$$\n\n$$N=\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\right)\\cdot\\frac{b+c}{ac}-\\frac{3(b^2+c^2+bc)}{ac}-2$$\n\n显然，$M\\geqslant 0$。因为\n\n$$abM\\geqslant 2(a+b+c)(a+b)-2ab-3(a^2+b^2+ab)$$\n\n$$=2ac+2bc-a^2-b^2-ab\\geqslant 0$$\n\n另外\n\n$$acN=a^2+\\frac{a^2c}{b}+\\frac{b^3}{c}+\\frac{bc^2}{a}+\\frac{c^3}{a}+ab-ac-b^2-2c^2-bc\\geqslant 0$$\n\n可由下列不等式相加得到\n\n$$\\frac{b^3}{2c}+\\frac{b^3}{2c}+\\frac{4c^2}{27}\\geqslant b^2$$\n\n$$a^2+\\frac{c^2}{4}\\geqslant ac$$\n\n$$\\frac{a^2c}{b}+\\frac{bc^2}{a}+\\frac{64c^3}{125a}\\geqslant\\frac{12}{5}c^2>\\left(1+\\frac{1}{4}+\\frac{4}{27}\\right)c^2$$\n\n$$\\frac{c^3}{4a}+ab\\geqslant 2\\sqrt{bc^3}>bc$$\n\n$$\\left(1-\\frac{64}{125}-\\frac{1}{4}\\right)\\frac{c^3}{a}\\geqslant 0$$\n\n不等式得证，等号成立的条件是 $a=b=c$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.7.8(Vo Quoc Ba Can,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)^2\\geqslant 3\\left(\\frac{a^3}{b}+\\frac{b^3}{c}+\\frac{c^3}{a}\\right)$$\n证明 设 $c=\\max\\{a,b,c\\}$...",
+  "tags": [
+    "SOS-Schur方法",
+    "平方不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "b57d66611175704bbcfcc499162a7ee773f31ca2",
+  "raw_problem": {
+    "problem_id": "例7.7.8",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.7",
+    "title": "Vo Quoc Ba Can, Mathlinks",
+    "source_pages": [
+      216
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n\n$$\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)^2\\geqslant 3\\left(\\frac{a^3}{b}+\\frac{b^3}{c}+\\frac{c^3}{a}\\right)$$",
+    "solution_md": "**证明** 设 $c=\\max\\{a,b,c\\}$，我们有\n\n$$\\sum\\frac{a^2}{b}-\\sum a=\\frac{(a+b)(a-b)^2}{ab}+\\frac{(b+c)(c-a)(c-b)}{ac}$$\n\n$$\\sum\\frac{a^3}{b}-\\sum a^2=\\frac{(a^2+ab+b^2)(a-b)^2}{ab}+\\frac{(b^2+bc+c^2)(c-a)(c-b)}{ac}$$\n\n不等式可以改写成如下形式\n\n$$\\left[\\left(\\sum\\frac{a^2}{b}\\right)^2-\\left(\\sum a\\right)^2\\right]-3\\left(\\sum\\frac{a^3}{b}-\\sum a^2\\right)-\\left[3\\sum a^2-(a+b+c)^2\\right]\\geqslant 0$$\n\n我们得到\n\n$$M=\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\right)\\cdot\\frac{a+b}{ab}-\\frac{3(a^2+b^2+ab)}{ab}-2$$\n\n$$N=\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+a+b+c\\right)\\cdot\\frac{b+c}{ac}-\\frac{3(b^2+c^2+bc)}{ac}-2$$\n\n显然，$M\\geqslant 0$。因为\n\n$$abM\\geqslant 2(a+b+c)(a+b)-2ab-3(a^2+b^2+ab)$$\n\n$$=2ac+2bc-a^2-b^2-ab\\geqslant 0$$\n\n另外\n\n$$acN=a^2+\\frac{a^2c}{b}+\\frac{b^3}{c}+\\frac{bc^2}{a}+\\frac{c^3}{a}+ab-ac-b^2-2c^2-bc\\geqslant 0$$\n\n可由下列不等式相加得到\n\n$$\\frac{b^3}{2c}+\\frac{b^3}{2c}+\\frac{4c^2}{27}\\geqslant b^2$$\n\n$$a^2+\\frac{c^2}{4}\\geqslant ac$$\n\n$$\\frac{a^2c}{b}+\\frac{bc^2}{a}+\\frac{64c^3}{125a}\\geqslant\\frac{12}{5}c^2>\\left(1+\\frac{1}{4}+\\frac{4}{27}\\right)c^2$$\n\n$$\\frac{c^3}{4a}+ab\\geqslant 2\\sqrt{bc^3}>bc$$\n\n$$\\left(1-\\frac{64}{125}-\\frac{1}{4}\\right)\\frac{c^3}{a}\\geqslant 0$$\n\n不等式得证，等号成立的条件是 $a=b=c$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.7.8(Vo Quoc Ba Can,Mathlinks) 设 $a,b,c$ 是非负实数，证明\n$$\\left(\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}\\right)^2\\geqslant 3\\left(\\frac{a^3}{b}+\\frac{b^3}{c}+\\frac{c^3}{a}\\right)$$\n证明 设 $c=\\max\\{a,b,c\\}$...",
+    "tags": [
+      "SOS-Schur方法",
+      "平方不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

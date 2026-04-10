@@ -1,0 +1,56 @@
+{
+  "uid": "p192_193_例722_0ad4e14e27",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.2 从一个简单的性质出发",
+  "problem_id": "例7.2.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    192,
+    193
+  ],
+  "source_images": [
+    "page-192.jpg",
+    "page-193.jpg"
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = \\frac{x_1^n + x_2^n + \\cdots + x_n^n}{x_1 x_2 \\cdots x_n}$$\n的最大值。",
+  "solution_md": "设 $S_i = \\sum_{j \\neq i} x_j^n$，$i \\in \\{1,2,\\cdots,n\\}$，容易推出\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\geqslant \\sum_{j=0}^{n-2} x_j^{n-1-j} \\quad (1)$$\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j} \\quad (2)$$\n\n注意到\n$$\\sum_{j=0}^{n-2} x_j^{n-1-j} \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j}$$\n\n于是，上面两个条件(1)(2)至少有一个必定成立。换句话说\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n所以，$f(x_1, x_2, \\cdots, x_n)$ 的最大值必定在 $(a_1, a_2, \\cdots, a_n)$，$a_i \\in \\{1,2\\}$，$i \\in \\{1,2,\\cdots,n\\}$ 达到。所以\n$$\\max f(x_1, x_2, \\cdots, x_n) = \\frac{2^n + n - 1}{2}$$",
+  "answer_md": "$\\max f = \\frac{2^n + n - 1}{2}$",
+  "hints_md": "",
+  "original_text_md": "**例 7.2.2** 设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = \\frac{x_1^n + x_2^n + \\cdots + x_n^n}{x_1 x_2 \\cdots x_n}$$\n的最大值。\n\n**解** 设 $S_i = \\sum_{j \\neq i} x_j^n$，$i \\in \\{1,2,\\cdots,n\\}$，容易推出\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\geqslant \\sum_{j=0}^{n-2} x_j^{n-1-j} \\quad (1)$$\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j} \\quad (2)$$\n\n注意到\n$$\\sum_{j=0}^{n-2} x_j^{n-1-j} \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j}$$\n\n于是，上面两个条件(1)(2)至少有一个必定成立。换句话说\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n所以，$f(x_1, x_2, \\cdots, x_n)$ 的最大值必定在 $(a_1, a_2, \\cdots, a_n)$，$a_i \\in \\{1,2\\}$，$i \\in \\{1,2,\\cdots,n\\}$ 达到。所以\n$$\\max f(x_1, x_2, \\cdots, x_n) = \\frac{2^n + n - 1}{2}$$",
+  "tags": [
+    "UMV方法",
+    "整合变量法",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "0ad4e14e27df9edd9ed26e6b294b819a76af94e9",
+  "raw_problem": {
+    "problem_id": "例7.2.2",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.2 从一个简单的性质出发",
+    "title": null,
+    "source_pages": [
+      192,
+      193
+    ],
+    "stem_md": "设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = \\frac{x_1^n + x_2^n + \\cdots + x_n^n}{x_1 x_2 \\cdots x_n}$$\n的最大值。",
+    "solution_md": "设 $S_i = \\sum_{j \\neq i} x_j^n$，$i \\in \\{1,2,\\cdots,n\\}$，容易推出\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\geqslant \\sum_{j=0}^{n-2} x_j^{n-1-j} \\quad (1)$$\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j} \\quad (2)$$\n\n注意到\n$$\\sum_{j=0}^{n-2} x_j^{n-1-j} \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j}$$\n\n于是，上面两个条件(1)(2)至少有一个必定成立。换句话说\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n所以，$f(x_1, x_2, \\cdots, x_n)$ 的最大值必定在 $(a_1, a_2, \\cdots, a_n)$，$a_i \\in \\{1,2\\}$，$i \\in \\{1,2,\\cdots,n\\}$ 达到。所以\n$$\\max f(x_1, x_2, \\cdots, x_n) = \\frac{2^n + n - 1}{2}$$",
+    "answer_md": "$\\max f = \\frac{2^n + n - 1}{2}$",
+    "hints_md": "",
+    "original_text_md": "**例 7.2.2** 设 $x_1, x_2, \\cdots, x_n \\in [1,2]$，求\n$$f(x_1, x_2, \\cdots, x_n) = \\frac{x_1^n + x_2^n + \\cdots + x_n^n}{x_1 x_2 \\cdots x_n}$$\n的最大值。\n\n**解** 设 $S_i = \\sum_{j \\neq i} x_j^n$，$i \\in \\{1,2,\\cdots,n\\}$，容易推出\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\geqslant \\sum_{j=0}^{n-2} x_j^{n-1-j} \\quad (1)$$\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n) \\Leftrightarrow S_i \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j} \\quad (2)$$\n\n注意到\n$$\\sum_{j=0}^{n-2} x_j^{n-1-j} \\leqslant \\sum_{j=0}^{n-2} 2^j x_j^{n-1-j}$$\n\n于是，上面两个条件(1)(2)至少有一个必定成立。换句话说\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\{f(x_1, x_2, \\cdots, x_{i-1}, 1, x_{i+1}, \\cdots, x_n),$$\n$$f(x_1, x_2, \\cdots, x_{i-1}, 2, x_{i+1}, \\cdots, x_n)\\}$$\n\n所以，$f(x_1, x_2, \\cdots, x_n)$ 的最大值必定在 $(a_1, a_2, \\cdots, a_n)$，$a_i \\in \\{1,2\\}$，$i \\in \\{1,2,\\cdots,n\\}$ 达到。所以\n$$\\max f(x_1, x_2, \\cdots, x_n) = \\frac{2^n + n - 1}{2}$$",
+    "tags": [
+      "UMV方法",
+      "整合变量法",
+      "最大值"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

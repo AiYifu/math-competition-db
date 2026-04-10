@@ -1,0 +1,27 @@
+{
+  "uid": "p129_130_例3_3_10_0a375478e3",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第3章",
+  "section": "3.3",
+  "problem_id": "例3.3.10",
+  "problem_type": "example",
+  "title": "例3.3.10(Romania TST 2007)",
+  "source_pages": [
+    129,
+    130
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是非负实数, 且满足 $x_1^2 + x_2^2 + \\cdots + x_n^2 = 1$ 求下列表达式 $(1 - x_1)(1 - x_2)\\cdots(1 - x_n)$ 的最大值.",
+  "solution_md": "令 $k = 1 - \\frac{1}{\\sqrt{2}}$, 我们来证明 $(1 - x_1)(1 - x_2)\\cdots(1 - x_n) \\leqslant k^2$ 等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$. 采用反证法. 我们来证明其等价命题: 如果实数 $y_1, y_2, \\cdots, y_n \\in [0, 1]$, 且满足 $y_1 y_2 \\cdots y_n = k^2$, 则 $f(y_1, y_2, \\cdots, y_n) \\leqslant f(y_1, y_2 y_3, 1, y_4, \\cdots, y_n)$ 且对 $n$ 个数 $y_1, y_2, \\cdots, y_n$ 的不等式转变为对 $n-1$ 个数 $y_1, y_2 y_3, y_4, \\cdots, y_n$ 的不等式. 由简单的归纳法 (或重复先前描述的过程 $n-2$ 次), 我们可以把不等式 (1) 转变成一个两个数 $\\alpha, \\beta$ 的简单问题, 其中 $\\alpha\\beta = k^2$. 在此情况下, 我们有 $(1 - \\alpha)^2 + (1 - \\beta)^2 = 2 - 2(\\alpha + \\beta) + \\alpha^2 + \\beta^2 = (\\alpha + \\beta - 1)^2 + 1 - 2k^2 = 1 + (\\alpha + \\beta - \\sqrt{2}k - 1)(\\alpha + \\beta + \\sqrt{2}k - 1) \\leqslant 1$ 从而不等式得证, 等号成立的条件是 $\\alpha = \\beta = k$. 根据 (2), 我们有 $f(y_1, y_2, \\cdots, y_n) \\leqslant f(y_1, y_2 y_3, 1, y_4, \\cdots, y_n)$ 且对 $n$ 个数 $y_1, y_2, \\cdots, y_n$ 的不等式转变为对 $n-1$ 个数 $y_1, y_2 y_3, y_4, \\cdots, y_n$ 的不等式. 由简单的归纳法 (或重复先前描述的过程 $n-2$ 次), 我们可以把不等式 (1) 转变成一个两个数 $\\alpha, \\beta$ 的简单问题, 其中 $\\alpha\\beta = k^2$. 在此情况下, 我们有 $(1 - \\alpha)^2 + (1 - \\beta)^2 = 2 - 2(\\alpha + \\beta) + \\alpha^2 + \\beta^2 = (\\alpha + \\beta - 1)^2 + 1 - 2k^2 = 1 + (\\alpha + \\beta - \\sqrt{2}k - 1)(\\alpha + \\beta + \\sqrt{2}k - 1) \\leqslant 1$ 从而不等式得证, 等号成立的条件是 $\\alpha = \\beta = k$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.3.10(Romania TST 2007) 设 $x_1, x_2, \\cdots, x_n$ 是非负实数, 且满足 $x_1^2 + x_2^2 + \\cdots + x_n^2 = 1$ 求下列表达式 $(1 - x_1)(1 - x_2)\\cdots(1 - x_n)$ 的最大值. 令 $k = 1 - \\frac{1}{\\sqrt{2}}$, 我们来证明 $(1 - x_1)(1 - x_2)\\cdots(1 - x_n) \\leqslant k^2$ 等号成立的条件是 $x_1 = x_2 = \\cdots = x_n = 1$. 采用反证法. 我们来证明其等价命题: 如果实数 $y_1, y_2, \\cdots, y_n \\in [0, 1]$, 且满足 $y_1 y_2 \\cdots y_n = k^2$, 则 $f(y_1, y_2, \\cdots, y_n) \\leqslant f(y_1, y_2 y_3, 1, y_4, \\cdots, y_n)$ 且对 $n$ 个数 $y_1, y_2, \\cdots, y_n$ 的不等式转变为对 $n-1$ 个数 $y_1, y_2 y_3, y_4, \\cdots, y_n$ 的不等式. 由简单的归纳法 (或重复先前描述的过程 $n-2$ 次), 我们可以把不等式 (1) 转变成一个两个数 $\\alpha, \\beta$ 的简单问题, 其中 $\\alpha\\beta = k^2$. 在此情况下, 我们有 $(1 - \\alpha)^2 + (1 - \\beta)^2 = 2 - 2(\\alpha + \\beta) + \\alpha^2 + \\beta^2 = (\\alpha + \\beta - 1)^2 + 1 - 2k^2 = 1 + (\\alpha + \\beta - \\sqrt{2}k - 1)(\\alpha + \\beta + \\sqrt{2}k - 1) \\leqslant 1$ 从而不等式得证, 等号成立的条件是 $\\alpha = \\beta = k$. 根据 (2), 我们有 $f(y_1, y_2, \\cdots, y_n) \\leqslant f(y_1, y_2 y_3, 1, y_4, \\cdots, y_n)$ 且对 $n$ 个数 $y_1, y_2, \\cdots, y_n$ 的不等式转变为对 $n-1$ 个数 $y_1, y_2 y_3, y_4, \\cdots, y_n$ 的不等式. 由简单的归纳法 (或重复先前描述的过程 $n-2$ 次), 我们可以把不等式 (1) 转变成一个两个数 $\\alpha, \\beta$ 的简单问题, 其中 $\\alpha\\beta = k^2$. 在此情况下, 我们有 $(1 - \\alpha)^2 + (1 - \\beta)^2 = 2 - 2(\\alpha + \\beta) + \\alpha^2 + \\beta^2 = (\\alpha + \\beta - 1)^2 + 1 - 2k^2 = 1 + (\\alpha + \\beta - \\sqrt{2}k - 1)(\\alpha + \\beta + \\sqrt{2}k - 1) \\leqslant 1$ 从而不等式得证, 等号成立的条件是 $\\alpha = \\beta = k$.",
+  "tags": [
+    "不等式",
+    "最大值",
+    "反证法",
+    "归纳法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0017"
+}

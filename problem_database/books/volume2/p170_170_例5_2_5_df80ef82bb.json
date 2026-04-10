@@ -1,0 +1,23 @@
+{
+  "uid": "p170_170_例5_2_5_df80ef82bb",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "5",
+  "section": "2",
+  "problem_id": "例5.2.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    170
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 证明\n\n$\\sqrt{\\frac{a^3}{a^3 + (b + c)^3}} + \\sqrt{\\frac{b^3}{b^3 + (c + a)^3}} + \\sqrt{\\frac{c^3}{c^3 + (a + b)^3}} \\geqslant 1$",
+  "solution_md": "我们来证明, 对所有正实数 $a, b, c$, 有\n\n$\\sqrt{\\frac{a^3}{a^3 + (b + c)^3}} \\geqslant \\frac{a^2}{a^2 + b^2 + c^2}$\n\n事实上, 这个不等式等价于\n\n$\\frac{a^3}{a^3 + (b + c)^3} \\geqslant \\frac{a^4}{(a^2 + b^2 + c^2)^2}$\n\n$\\Leftrightarrow 2a^2(b^2 + c^2) + (b^2 + c^2)^2 \\geqslant a(b + c)^3$\n\n于是, 不等式得证.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.2.5 设 $a, b, c$ 是正实数, 证明\n\n$\\sqrt{\\frac{a^3}{a^3 + (b + c)^3}} + \\sqrt{\\frac{b^3}{b^3 + (c + a)^3}} + \\sqrt{\\frac{c^3}{c^3 + (a + b)^3}} \\geqslant 1$\n\n证明 我们来证明, 对所有正实数 $a, b, c$, 有\n\n$\\sqrt{\\frac{a^3}{a^3 + (b + c)^3}} \\geqslant \\frac{a^2}{a^2 + b^2 + c^2}$\n\n事实上, 这个不等式等价于\n\n$\\frac{a^3}{a^3 + (b + c)^3} \\geqslant \\frac{a^4}{(a^2 + b^2 + c^2)^2}$\n\n$\\Leftrightarrow 2a^2(b^2 + c^2) + (b^2 + c^2)^2 \\geqslant a(b + c)^3$\n\n于是, 不等式得证.",
+  "tags": [
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

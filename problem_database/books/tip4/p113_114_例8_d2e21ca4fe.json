@@ -1,0 +1,24 @@
+{
+  "uid": "p113_114_例8_d2e21ca4fe",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    113,
+    114
+  ],
+  "stem_md": "设 $a_i \\in \\mathbf{R}_+ (i = 1, 2, \\cdots, n)$, 如果对任意 $x_i \\geqslant 0$, 求 $r_i (i = 1, 2, \\cdots, n)$.",
+  "solution_md": "解 令 $x_i = 0$, 则 $\\sum_{i=1}^{n} r_i a_i \\geqslant \\sqrt{\\sum_{i=1}^{n} a_i^2}$. 再令 $x_i = 2a_i$, 则 $\\sum_{i=1}^{n} r_i a_i \\leqslant \\sqrt{\\sum_{i=1}^{n} a_i^2}$. 于是 $\\sum_{i=1}^{n} r_i a_i = \\sqrt{\\sum_{i=1}^{n} a_i^2}$. 令 $x_i = r_i$, 则 $\\sum_{i=1}^{n} r_i (r_i - a_i) \\leqslant \\sqrt{\\sum_{i=1}^{n} r_i^2} - \\sqrt{\\sum_{i=1}^{n} a_i^2}$, 推出 $\\sum_{i=1}^{n} r_i^2 \\leqslant \\sqrt{\\sum_{i=1}^{n} r_i^2}$. 即 $\\sum_{i=1}^{n} r_i^2 \\leqslant 1$. 由柯西不等式, 得 $(\\sum_{i=1}^{n} r_i a_i)^2 \\leqslant (\\sum_{i=1}^{n} r_i^2)(\\sum_{i=1}^{n} a_i^2)$, 等号成立充要条件是 $r_i = \\lambda a_i$. 从而 $\\sum_{i=1}^{n} r_i^2 \\geqslant 1$, 于是 $\\sum_{i=1}^{n} r_i^2 = 1$, $\\lambda = \\frac{1}{\\sqrt{\\sum_{i=1}^{n} a_i^2}}$, $r_i = \\frac{a_i}{\\sqrt{\\sum_{i=1}^{n} a_i^2}}$. 经验证, $r_i = \\frac{a_i}{\\sqrt{\\sum_{i=1}^{n} a_i^2}} (i = 1, 2, \\cdots, n)$ 为所求.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a_i \\in \\mathbf{R}_+ (i = 1, 2, \\cdots, n)$, 如果对任意 $x_i \\geqslant 0$, 求 $r_i (i = 1, 2, \\cdots, n)$. 解 令 $x_i = 0$, 则 $\\sum_{i=1}^{n} r_i a_i \\geqslant \\sqrt{\\sum_{i=1}^{n} a_i^2}$. 再令 $x_i = 2a_i$, 则 $\\sum_{i=1}^{n} r_i a_i \\leqslant \\sqrt{\\sum_{i=1}^{n} a_i^2}$. 于是 $\\sum_{i=1}^{n} r_i a_i = \\sqrt{\\sum_{i=1}^{n} a_i^2}$. 令 $x_i = r_i$, 则 $\\sum_{i=1}^{n} r_i (r_i - a_i) \\leqslant \\sqrt{\\sum_{i=1}^{n} r_i^2} - \\sqrt{\\sum_{i=1}^{n} a_i^2}$, 推出 $\\sum_{i=1}^{n} r_i^2 \\leqslant \\sqrt{\\sum_{i=1}^{n} r_i^2}$. 即 $\\sum_{i=1}^{n} r_i^2 \\leqslant 1$. 由柯西不等式, 得 $(\\sum_{i=1}^{n} r_i a_i)^2 \\leqslant (\\sum_{i=1}^{n} r_i^2)(\\sum_{i=1}^{n} a_i^2)$, 等号成立充要条件是 $r_i = \\lambda a_i$. 从而 $\\sum_{i=1}^{n} r_i^2 \\geqslant 1$, 于是 $\\sum_{i=1}^{n} r_i^2 = 1$, $\\lambda = \\frac{1}{\\sqrt{\\sum_{i=1}^{n} a_i^2}}$, $r_i = \\frac{a_i}{\\sqrt{\\sum_{i=1}^{n} a_i^2}}$. 经验证, $r_i = \\frac{a_i}{\\sqrt{\\sum_{i=1}^{n} a_i^2}} (i = 1, 2, \\cdots, n)$ 为所求.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015"
+}

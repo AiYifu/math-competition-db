@@ -1,0 +1,25 @@
+{
+  "uid": "p225_226_6_1_5cb8a3c33e",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "6.1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    225,
+    226
+  ],
+  "stem_md": "6. (1) 当 $a \\leqslant 1$, $b \\leqslant 1$, $c \\leqslant 1$ 时, 我们来证左式 $\\geqslant 3 \\geqslant a + b + c + Q$. 这等价于 $ab + bc + ca \\leqslant 2 + abc$.",
+  "solution_md": "利用 $(1-a)(1-b) \\geqslant 0$, 得 $2 - a - b \\geqslant 1 - ab \\geqslant c(1 - ab)$, 故 $2 + abc \\geqslant a + b + c + abc - 1$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "6. (1) 当 $a \\leqslant 1$, $b \\leqslant 1$, $c \\leqslant 1$ 时, 我们来证左式 $\\geqslant 3 \\geqslant a + b + c + Q$. 这等价于 $ab + bc + ca \\leqslant 2 + abc$. 利用 $(1-a)(1-b) \\geqslant 0$, 得 $2 - a - b \\geqslant 1 - ab \\geqslant c(1 - ab)$, 故 $2 + abc \\geqslant a + b + c + abc - 1$.",
+  "tags": [
+    "不等式证明",
+    "代数不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0029"
+}

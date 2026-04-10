@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_2_175a6bec09",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "2",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c, d > 0$, 满足 $a^2 + b^2 + c^2 + d^2 = 1$. 求证: $$a + b + c + d + \\frac{1}{abcd} \\geqslant 18.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c, d > 0$, 满足 $a^2 + b^2 + c^2 + d^2 = 1$. 求证: $$a + b + c + d + \\frac{1}{abcd} \\geqslant 18.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

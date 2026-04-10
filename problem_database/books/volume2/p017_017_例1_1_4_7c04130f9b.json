@@ -1,0 +1,24 @@
+{
+  "uid": "p017_017_例1_1_4_7c04130f9b",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c$ 是非负实数, 证明 \n$$ a^3 + b^3 + c^3 + 3abc \\geqslant ab(a + b) + bc(b + c) + ca(c + a) $$",
+  "solution_md": "证明及分析 作为标题, SOS 表示“平方和”, 因此, 第一步也是最重要的一步, 是把不等式表示成某些项的平方和的形式.\n下面两个表示都是已知的\n$$ a^3 + b^3 + c^3 - 3abc = \\frac{1}{2}(a + b + c)\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right] $$\n和\n$$ (a + b - c)(a - b)^2 + (b + c - a)(b - c)^2 + (c + a - b)(c - a)^2 \\geqslant 0 $$\n结果是 $(c + a - b)(a - c)^2 \\geqslant (b - c)^2$. 最后, 我们可以推出\n$$ (a + b - c)(a - b)^2 + (b + c - a)(b - c)^2 + (c + a - b)(c - a)^2 \\geqslant 0 $$\n于是, 我们计算出\n$$ \\alpha = \\frac{1}{ab + bc + ca} - \\frac{2a}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\beta = \\frac{1}{ab + bc + ca} - \\frac{2b}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\gamma = \\frac{1}{ab + bc + ca} - \\frac{2c}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n所以, $\\beta(c - a)^2 + \\alpha(a - b)^2 \\geqslant 0$, 证毕.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.4 设 $a, b, c$ 是非负实数, 证明 \n$$ a^3 + b^3 + c^3 + 3abc \\geqslant ab(a + b) + bc(b + c) + ca(c + a) $$\n证明及分析 作为标题, SOS 表示“平方和”, 因此, 第一步也是最重要的一步, 是把不等式表示成某些项的平方和的形式.\n下面两个表示都是已知的\n$$ a^3 + b^3 + c^3 - 3abc = \\frac{1}{2}(a + b + c)\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right] $$\n和\n$$ (a + b - c)(a - b)^2 + (b + c - a)(b - c)^2 + (c + a - b)(c - a)^2 \\geqslant 0 $$\n结果是 $(c + a - b)(a - c)^2 \\geqslant (b - c)^2$. 最后, 我们可以推出\n$$ (a + b - c)(a - b)^2 + (b + c - a)(b - c)^2 + (c + a - b)(c - a)^2 \\geqslant 0 $$\n于是, 我们计算出\n$$ \\alpha = \\frac{1}{ab + bc + ca} - \\frac{2a}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\beta = \\frac{1}{ab + bc + ca} - \\frac{2b}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\gamma = \\frac{1}{ab + bc + ca} - \\frac{2c}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n所以, $\\beta(c - a)^2 + \\alpha(a - b)^2 \\geqslant 0$, 证毕.",
+  "tags": [
+    "不等式证明",
+    "SOS方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003"
+}

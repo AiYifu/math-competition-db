@@ -1,0 +1,54 @@
+{
+  "uid": "p069_070_例221_7d3dedbd3a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.2",
+  "problem_id": "例2.2.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    69,
+    70
+  ],
+  "source_images": [
+    "page-069.jpg",
+    "page-070.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=1$，证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{5}{2}$$",
+  "solution_md": "**证法 1**（中心整合变量法）不失一般性，设 $a\\geqslant b\\geqslant c$，选择实数 $t>0$，满足\n$$t^2+2tc=ab+bc+ca=1\\Rightarrow(t+c)^2=(a+c)(b+c)=1+c^2$$\n我们来证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{2}{t+c}+\\frac{1}{2t}$$\n实际上，上面的不等式等价于\n$$\\left(\\frac{1}{\\sqrt{a+c}}-\\frac{1}{\\sqrt{b+c}}\\right)^2\\geqslant\\frac{(\\sqrt{a+c}-\\sqrt{b+c})^2}{2t(a+b)}$$\n$$\\Leftrightarrow(a+c)(b+c)\\leqslant 2t(a+b)$$\n由于 $a\\geqslant t\\geqslant b\\geqslant c$，所以，上述不等式是显然成立的。最后，来证明\n$$\\frac{2}{t+c}+\\frac{1}{2t}\\geqslant\\frac{5}{2}$$\n由于 $2tc+t^2=1\\Rightarrow c=\\frac{1-t^2}{2t}$，所以，只需证明\n$$\\frac{2}{t+\\frac{1-t^2}{2t}}+\\frac{1}{2t}\\geqslant\\frac{5}{2}\\Leftrightarrow(1-t)(5t^2-4t+1)\\geqslant 0$$\n由于 $t\\leqslant 1$，这是显然成立的，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。证毕。\n\n**证明 2**（外围整合变量法）设 $a\\geqslant b\\geqslant c$，记\n$$f(a,b,c)=\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n我们来证明\n$$f(a,b,c)\\geqslant f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n注意到\n$$c[(a+b)^2+1]+(c-a-b)=2c-ab(a+b)\\geqslant 2c-(a+b)\\geqslant 0$$\n所以\n$$f(a,b,c)-f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n$$=\\frac{1}{a+c}+\\frac{1}{b+c}-(a+b)-\\frac{1}{a+b+\\frac{1}{a+b}}$$\n$$=\\frac{b(a+c)+ac}{a+c}+\\frac{a(b+c)+bc}{b+c}-(a+b)-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{ac}{a+c}+\\frac{bc}{b+c}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{c(ab+1)}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{c}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{ab(c-a-b)}{(c^2+1)[(a+b)^2+1]}\\geqslant 0$$\n令 $t=a+b+\\frac{1}{a+b}\\geqslant 2$，则\n$$f\\left(0,a+b,\\frac{1}{a+b}\\right)=t+\\frac{1}{t}=\\frac{5}{2}+\\frac{(2t-1)(t-2)}{2t}\\geqslant\\frac{5}{2}$$\n于是，$f(a,b,c)\\geqslant\\frac{5}{2}$，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。证毕。",
+  "answer_md": "",
+  "hints_md": "Ho Joo Lee, Berkeley Mathematics Circle",
+  "original_text_md": "例 2.2.1(Ho Joo Lee, Berkeley Mathematics Circle) 设 $a,b,c$ 是非负实数,且满足 $ab+bc+ca=1$,证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{5}{2}$$\n证法 1 (中心整合变量法)不失一般性,设 $a\\geqslant b\\geqslant c$,选择实数 $t>0$,满足\n$$t^2+2tc=ab+bc+ca=1\\Rightarrow(t+c)^2=(a+c)(b+c)=1+c^2$$\n我们来证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{2}{t+c}+\\frac{1}{2t}$$\n实际上,上面的不等式等价于\n$$\\left(\\frac{1}{\\sqrt{a+c}}-\\frac{1}{\\sqrt{b+c}}\\right)^2\\geqslant\\frac{(\\sqrt{a+c}-\\sqrt{b+c})^2}{2t(a+b)}$$\n$$\\Leftrightarrow(a+c)(b+c)\\leqslant 2t(a+b)$$\n由于 $a\\geqslant t\\geqslant b\\geqslant c$,所以,上述不等式是显然成立的.最后,来证明\n$$\\frac{2}{t+c}+\\frac{1}{2t}\\geqslant\\frac{5}{2}$$\n由于 $2tc+t^2=1\\Rightarrow c=\\frac{1-t^2}{2t}$,所以,只需证明\n$$\\frac{2}{t+\\frac{1-t^2}{2t}}+\\frac{1}{2t}\\geqslant\\frac{5}{2}\\Leftrightarrow(1-t)(5t^2-4t+1)\\geqslant 0$$\n由于 $t\\leqslant 1$,这是显然成立的,等号成立的条件是 $(a,b,c)\\sim(1,1,0)$.证毕.\n证明 2 (外围整合变量法)设 $a\\geqslant b\\geqslant c$,记\n$$f(a,b,c)=\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n我们来证明\n$$f(a,b,c)\\geqslant f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n注意到\n$$c[(a+b)^2+1]+(c-a-b)=2c-ab(a+b)\\geqslant 2c-(a+b)\\geqslant 0$$\n所以\n$$f(a,b,c)-f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n$$=\\frac{1}{a+c}+\\frac{1}{b+c}-(a+b)-\\frac{1}{a+b+\\frac{1}{a+b}}$$\n$$=\\frac{b(a+c)+ac}{a+c}+\\frac{a(b+c)+bc}{b+c}-(a+b)-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{ac}{a+c}+\\frac{bc}{b+c}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{c(ab+1)}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{c}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{ab(c-a-b)}{(c^2+1)[(a+b)^2+1]}\\geqslant 0$$\n令 $t=a+b+\\frac{1}{a+b}\\geqslant 2$,则\n$$f\\left(0,a+b,\\frac{1}{a+b}\\right)=t+\\frac{1}{t}=\\frac{5}{2}+\\frac{(2t-1)(t-2)}{2t}\\geqslant\\frac{5}{2}$$\n于是,$f(a,b,c)\\geqslant\\frac{5}{2}$,等号成立的条件是 $(a,b,c)\\sim(1,1,0)$.证毕.",
+  "tags": [
+    "中心整合变量法",
+    "外围整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "7d3dedbd3a3dd80eb25a3d69cc12332bd9e44986",
+  "raw_problem": {
+    "problem_id": "例2.2.1",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.2",
+    "title": null,
+    "source_pages": [
+      69,
+      70
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $ab+bc+ca=1$，证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{5}{2}$$",
+    "solution_md": "**证法 1**（中心整合变量法）不失一般性，设 $a\\geqslant b\\geqslant c$，选择实数 $t>0$，满足\n$$t^2+2tc=ab+bc+ca=1\\Rightarrow(t+c)^2=(a+c)(b+c)=1+c^2$$\n我们来证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{2}{t+c}+\\frac{1}{2t}$$\n实际上，上面的不等式等价于\n$$\\left(\\frac{1}{\\sqrt{a+c}}-\\frac{1}{\\sqrt{b+c}}\\right)^2\\geqslant\\frac{(\\sqrt{a+c}-\\sqrt{b+c})^2}{2t(a+b)}$$\n$$\\Leftrightarrow(a+c)(b+c)\\leqslant 2t(a+b)$$\n由于 $a\\geqslant t\\geqslant b\\geqslant c$，所以，上述不等式是显然成立的。最后，来证明\n$$\\frac{2}{t+c}+\\frac{1}{2t}\\geqslant\\frac{5}{2}$$\n由于 $2tc+t^2=1\\Rightarrow c=\\frac{1-t^2}{2t}$，所以，只需证明\n$$\\frac{2}{t+\\frac{1-t^2}{2t}}+\\frac{1}{2t}\\geqslant\\frac{5}{2}\\Leftrightarrow(1-t)(5t^2-4t+1)\\geqslant 0$$\n由于 $t\\leqslant 1$，这是显然成立的，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。证毕。\n\n**证明 2**（外围整合变量法）设 $a\\geqslant b\\geqslant c$，记\n$$f(a,b,c)=\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n我们来证明\n$$f(a,b,c)\\geqslant f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n注意到\n$$c[(a+b)^2+1]+(c-a-b)=2c-ab(a+b)\\geqslant 2c-(a+b)\\geqslant 0$$\n所以\n$$f(a,b,c)-f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n$$=\\frac{1}{a+c}+\\frac{1}{b+c}-(a+b)-\\frac{1}{a+b+\\frac{1}{a+b}}$$\n$$=\\frac{b(a+c)+ac}{a+c}+\\frac{a(b+c)+bc}{b+c}-(a+b)-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{ac}{a+c}+\\frac{bc}{b+c}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{c(ab+1)}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{c}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{ab(c-a-b)}{(c^2+1)[(a+b)^2+1]}\\geqslant 0$$\n令 $t=a+b+\\frac{1}{a+b}\\geqslant 2$，则\n$$f\\left(0,a+b,\\frac{1}{a+b}\\right)=t+\\frac{1}{t}=\\frac{5}{2}+\\frac{(2t-1)(t-2)}{2t}\\geqslant\\frac{5}{2}$$\n于是，$f(a,b,c)\\geqslant\\frac{5}{2}$，等号成立的条件是 $(a,b,c)\\sim(1,1,0)$。证毕。",
+    "answer_md": "",
+    "hints_md": "Ho Joo Lee, Berkeley Mathematics Circle",
+    "original_text_md": "例 2.2.1(Ho Joo Lee, Berkeley Mathematics Circle) 设 $a,b,c$ 是非负实数,且满足 $ab+bc+ca=1$,证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{5}{2}$$\n证法 1 (中心整合变量法)不失一般性,设 $a\\geqslant b\\geqslant c$,选择实数 $t>0$,满足\n$$t^2+2tc=ab+bc+ca=1\\Rightarrow(t+c)^2=(a+c)(b+c)=1+c^2$$\n我们来证明\n$$\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\geqslant\\frac{2}{t+c}+\\frac{1}{2t}$$\n实际上,上面的不等式等价于\n$$\\left(\\frac{1}{\\sqrt{a+c}}-\\frac{1}{\\sqrt{b+c}}\\right)^2\\geqslant\\frac{(\\sqrt{a+c}-\\sqrt{b+c})^2}{2t(a+b)}$$\n$$\\Leftrightarrow(a+c)(b+c)\\leqslant 2t(a+b)$$\n由于 $a\\geqslant t\\geqslant b\\geqslant c$,所以,上述不等式是显然成立的.最后,来证明\n$$\\frac{2}{t+c}+\\frac{1}{2t}\\geqslant\\frac{5}{2}$$\n由于 $2tc+t^2=1\\Rightarrow c=\\frac{1-t^2}{2t}$,所以,只需证明\n$$\\frac{2}{t+\\frac{1-t^2}{2t}}+\\frac{1}{2t}\\geqslant\\frac{5}{2}\\Leftrightarrow(1-t)(5t^2-4t+1)\\geqslant 0$$\n由于 $t\\leqslant 1$,这是显然成立的,等号成立的条件是 $(a,b,c)\\sim(1,1,0)$.证毕.\n证明 2 (外围整合变量法)设 $a\\geqslant b\\geqslant c$,记\n$$f(a,b,c)=\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}$$\n我们来证明\n$$f(a,b,c)\\geqslant f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n注意到\n$$c[(a+b)^2+1]+(c-a-b)=2c-ab(a+b)\\geqslant 2c-(a+b)\\geqslant 0$$\n所以\n$$f(a,b,c)-f\\left(0,a+b,\\frac{1}{a+b}\\right)$$\n$$=\\frac{1}{a+c}+\\frac{1}{b+c}-(a+b)-\\frac{1}{a+b+\\frac{1}{a+b}}$$\n$$=\\frac{b(a+c)+ac}{a+c}+\\frac{a(b+c)+bc}{b+c}-(a+b)-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{ac}{a+c}+\\frac{bc}{b+c}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{c(ab+1)}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{c}{c^2+1}-\\frac{a+b}{(a+b)^2+1}$$\n$$=\\frac{abc}{c^2+1}+\\frac{ab(c-a-b)}{(c^2+1)[(a+b)^2+1]}\\geqslant 0$$\n令 $t=a+b+\\frac{1}{a+b}\\geqslant 2$,则\n$$f\\left(0,a+b,\\frac{1}{a+b}\\right)=t+\\frac{1}{t}=\\frac{5}{2}+\\frac{(2t-1)(t-2)}{2t}\\geqslant\\frac{5}{2}$$\n于是,$f(a,b,c)\\geqslant\\frac{5}{2}$,等号成立的条件是 $(a,b,c)\\sim(1,1,0)$.证毕.",
+    "tags": [
+      "中心整合变量法",
+      "外围整合变量法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

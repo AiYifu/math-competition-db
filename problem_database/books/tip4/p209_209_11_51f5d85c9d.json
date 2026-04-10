@@ -1,0 +1,23 @@
+{
+  "uid": "p209_209_11_51f5d85c9d",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "11",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "由 $\\left(\\sum_{i=1}^{n}a_i^3\\right)^2\\leqslant\\sum_{i=1}^{n}a_i^2\\sum_{i=1}^{n}a_i^4\\leqslant\\sum_{i=1}^{n}a_i^2\\left(\\sum_{i=1}^{n}a_i^2\\right)^2=\\left(\\sum_{i=1}^{n}a_i^2\\right)^3$, 则 $\\left(\\sum_{i=1}^{n}a_i^3\\right)^{\\frac{1}{3}}\\leqslant\\left(\\sum_{i=1}^{n}a_i^2\\right)^{\\frac{1}{2}}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "11. 由 $\\left(\\sum_{i=1}^{n}a_i^3\\right)^2\\leqslant\\sum_{i=1}^{n}a_i^2\\sum_{i=1}^{n}a_i^4\\leqslant\\sum_{i=1}^{n}a_i^2\\left(\\sum_{i=1}^{n}a_i^2\\right)^2=\\left(\\sum_{i=1}^{n}a_i^2\\right)^3$, 则 $\\left(\\sum_{i=1}^{n}a_i^3\\right)^{\\frac{1}{3}}\\leqslant\\left(\\sum_{i=1}^{n}a_i^2\\right)^{\\frac{1}{2}}$.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

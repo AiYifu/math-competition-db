@@ -1,0 +1,21 @@
+{
+  "uid": "p202_202_3_ba51637341",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "3",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202
+  ],
+  "stem_md": "3. 利用 $y = -x^2 + x$ 在 $\\left(0, \\frac{1}{4}\\right)$ 上的单调性即可完成从 $k$ 到 $k + 1$ 的过渡.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "3. 利用 $y = -x^2 + x$ 在 $\\left(0, \\frac{1}{4}\\right)$ 上的单调性即可完成从 $k$ 到 $k + 1$ 的过渡.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026"
+}

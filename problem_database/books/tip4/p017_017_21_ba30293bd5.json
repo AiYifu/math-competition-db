@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_21_ba30293bd5",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $n$ 为给定的自然数, $n \\geqslant 3$, 对于 $n$ 个给定的实数 $a_1, a_2, \\cdots, a_n$, 记 $|a_i - a_j|$ ($1 \\leqslant i < j \\leqslant n$) 的最小值为 $m$, 求在 $a_1^2 + \\cdots + a_n^2 = 1$ 时, $m$ 的最大值.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $n$ 为给定的自然数, $n \\geqslant 3$, 对于 $n$ 个给定的实数 $a_1, a_2, \\cdots, a_n$, 记 $|a_i - a_j|$ ($1 \\leqslant i < j \\leqslant n$) 的最小值为 $m$, 求在 $a_1^2 + \\cdots + a_n^2 = 1$ 时, $m$ 的最大值.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

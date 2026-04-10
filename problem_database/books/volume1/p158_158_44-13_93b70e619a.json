@@ -1,0 +1,53 @@
+{
+  "uid": "p158_158_44-13_93b70e619a",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-13",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    158
+  ],
+  "source_images": [
+    "page-158.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ 是大于 $\\frac{n-1}{n}$ 的正实数，且满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{1+nx_1} + \\frac{1}{1+nx_2} + \\cdots + \\frac{1}{1+nx_n} + \\frac{1}{1+x_1+x_2+\\cdots+x_n} \\geqslant 1$$\n\n当变量 $x_1, x_2, \\cdots, x_n$ 不必大于 $\\frac{n-1}{n}$ 时，证明这个不等式。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "13.(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ 是大于 $\\frac{n-1}{n}$ 的正实数，且满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{1+nx_1} + \\frac{1}{1+nx_2} + \\cdots + \\frac{1}{1+nx_n} + \\frac{1}{1+x_1+x_2+\\cdots+x_n} \\geqslant 1$$\n\n当变量 $x_1, x_2, \\cdots, x_n$ 不必大于 $\\frac{n-1}{n}$ 时，证明这个不等式。",
+  "tags": [
+    "练习",
+    "正实数",
+    "分式不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "93b70e619ae5ec2f91bdc29fd6f56297932f71f8",
+  "raw_problem": {
+    "problem_id": "4.4-13",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      158
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ 是大于 $\\frac{n-1}{n}$ 的正实数，且满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{1+nx_1} + \\frac{1}{1+nx_2} + \\cdots + \\frac{1}{1+nx_n} + \\frac{1}{1+x_1+x_2+\\cdots+x_n} \\geqslant 1$$\n\n当变量 $x_1, x_2, \\cdots, x_n$ 不必大于 $\\frac{n-1}{n}$ 时，证明这个不等式。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "13.(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ 是大于 $\\frac{n-1}{n}$ 的正实数，且满足 $x_1x_2\\cdots x_n=1$，证明\n$$\\frac{1}{1+nx_1} + \\frac{1}{1+nx_2} + \\cdots + \\frac{1}{1+nx_n} + \\frac{1}{1+x_1+x_2+\\cdots+x_n} \\geqslant 1$$\n\n当变量 $x_1, x_2, \\cdots, x_n$ 不必大于 $\\frac{n-1}{n}$ 时，证明这个不等式。",
+    "tags": [
+      "练习",
+      "正实数",
+      "分式不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

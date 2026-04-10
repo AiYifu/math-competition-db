@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_31_e982bfdc83",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "31",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "对 $a_{i} \\in \\mathbf{R}_{+} (i = 1, 2, \\cdots, n)$, 求证: $\\sum_{k=1}^{n} \\sqrt[k]{a_{1} \\cdots a_{k}} \\leqslant \\mathrm{e} \\sum_{k=1}^{n} a_{k}$, 其中 $\\mathrm{e} = \\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^{n}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "对 $a_{i} \\in \\mathbf{R}_{+} (i = 1, 2, \\cdots, n)$, 求证: $\\sum_{k=1}^{n} \\sqrt[k]{a_{1} \\cdots a_{k}} \\leqslant \\mathrm{e} \\sum_{k=1}^{n} a_{k}$, 其中 $\\mathrm{e} = \\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^{n}$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

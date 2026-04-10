@@ -1,0 +1,24 @@
+{
+  "uid": "p186_186_14_77c14f0e2f",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "14",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    186
+  ],
+  "stem_md": "先证明 $a_k - a_{k+1} \\geqslant 0$, 可以用反证法. 假设存在某个 $a_k < a_{k+1}$, 则 $a_{k+1} \\leqslant a_k - a_{k+1} + a_{k+2} < a_{k+2}$, 序列 $\\{a_s \\mid s = k, k+1, \\cdots\\}$ 是严格单调递增的. 则 $\\sum_{s=k}^{n} a_s (n > k)$ 在 $n$ 趋向于无穷大时也趋向于无穷大, 矛盾! 故有 $a_k - a_{k+1} \\geqslant 0$, $k = 1, 2, \\cdots$. 令 $b_k = a_k - a_{k+1} \\geqslant 0$, $k = 1, 2, \\cdots$. $1 \\geqslant a_1 + a_2 + \\cdots + a_k = b_1 + 2b_2 + 3b_3 + \\cdots + kb_k + ka_{k+1} \\geqslant (1 + 2 + 3 + \\cdots + k)b_k = \\frac{k(k+1)}{2}b_k$. 所以 $b_k \\leqslant \\frac{2}{k(k+1)} < \\frac{2}{k^2}$, 因此 $0 \\leqslant a_k - a_{k+1} < \\frac{2}{k^2}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "先证明 $a_k - a_{k+1} \\geqslant 0$, 可以用反证法. 假设存在某个 $a_k < a_{k+1}$, 则 $a_{k+1} \\leqslant a_k - a_{k+1} + a_{k+2} < a_{k+2}$, 序列 $\\{a_s \\mid s = k, k+1, \\cdots\\}$ 是严格单调递增的. 则 $\\sum_{s=k}^{n} a_s (n > k)$ 在 $n$ 趋向于无穷大时也趋向于无穷大, 矛盾! 故有 $a_k - a_{k+1} \\geqslant 0$, $k = 1, 2, \\cdots$. 令 $b_k = a_k - a_{k+1} \\geqslant 0$, $k = 1, 2, \\cdots$. $1 \\geqslant a_1 + a_2 + \\cdots + a_k = b_1 + 2b_2 + 3b_3 + \\cdots + kb_k + ka_{k+1} \\geqslant (1 + 2 + 3 + \\cdots + k)b_k = \\frac{k(k+1)}{2}b_k$. 所以 $b_k \\leqslant \\frac{2}{k(k+1)} < \\frac{2}{k^2}$, 因此 $0 \\leqslant a_k - a_{k+1} < \\frac{2}{k^2}$.",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0024"
+}

@@ -1,0 +1,58 @@
+{
+  "uid": "p183_184_例548_d3898d20bb",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    183,
+    184
+  ],
+  "source_images": [
+    "page-183.jpg",
+    "page-184.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{(1+ab)^2}+\\frac{b^3}{(1+bc)^2}+\\frac{c^3}{(1+ca)^2}\\geqslant \\frac{3abc}{(1+\\sqrt[3]{a^2b^2c^2})^2}$$",
+  "solution_md": "存在正实数 $k,x,y,z$，满足 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kx}{z}$，则\n$$\\frac{k^3y^3}{x^3\\left(1+\\frac{k^2z}{x}\\right)^2}+\\frac{k^3z^3}{y^3\\left(1+\\frac{k^2x}{y}\\right)^2}+\\frac{k^3x^3}{z^3\\left(1+\\frac{k^2y}{z}\\right)^2}\\geqslant \\frac{3k^3}{(1+k^2)^2}$$\n$$\\Leftrightarrow \\frac{y^3}{x(x+k^2z)^2}+\\frac{z^3}{y(y+k^2x)^2}+\\frac{x^3}{z(z+k^2y)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n对上式左边应用 Cauchy-Schwarz 不等式，我们有\n$$\\text{LHS}=\\sum\\frac{y^4}{xy(x+k^2z)^2}\\geqslant \\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}$$\n所以，只需证明\n$$\\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\sum xy(x+k^2z)^2$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\left[\\sum x^3y+(k^4+2k^2)\\sum x^2yz\\right]$$\n这可由下面两个不等式推出\n$$(x^2+y^2+z^2)^2\\geqslant 3(x^3y+y^3z+z^3x)$$\n$$(x^2+y^2+z^2)^2\\geqslant 3xyz(x+y+z)$$",
+  "answer_md": "",
+  "hints_md": "译者",
+  "original_text_md": "例 5.4.8(译者) 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{(1+ab)^2}+\\frac{b^3}{(1+bc)^2}+\\frac{c^3}{(1+ca)^2}\\geqslant \\frac{3abc}{(1+\\sqrt[3]{a^2b^2c^2})^2}$$\n证明 存在正实数 $k,x,y,z$，满足 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kx}{z}$，则\n$$\\frac{k^3y^3}{x^3\\left(1+\\frac{k^2z}{x}\\right)^2}+\\frac{k^3z^3}{y^3\\left(1+\\frac{k^2x}{y}\\right)^2}+\\frac{k^3x^3}{z^3\\left(1+\\frac{k^2y}{z}\\right)^2}\\geqslant \\frac{3k^3}{(1+k^2)^2}$$\n$$\\Leftrightarrow \\frac{y^3}{x(x+k^2z)^2}+\\frac{z^3}{y(y+k^2x)^2}+\\frac{x^3}{z(z+k^2y)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n对上式左边应用 Cauchy-Schwarz 不等式，我们有\n$$\\text{LHS}=\\sum\\frac{y^4}{xy(x+k^2z)^2}\\geqslant \\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}$$\n所以，只需证明\n$$\\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\sum xy(x+k^2z)^2$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\left[\\sum x^3y+(k^4+2k^2)\\sum x^2yz\\right]$$\n这可由下面两个不等式推出\n$$(x^2+y^2+z^2)^2\\geqslant 3(x^3y+y^3z+z^3x)$$\n$$(x^2+y^2+z^2)^2\\geqslant 3xyz(x+y+z)$$",
+  "tags": [
+    "非齐次不等式",
+    "变量替换",
+    "Cauchy-Schwarz",
+    "正实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "d3898d20bb99c7fc649c6f53d506d11c330600da",
+  "raw_problem": {
+    "problem_id": "例5.4.8",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      183,
+      184
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{(1+ab)^2}+\\frac{b^3}{(1+bc)^2}+\\frac{c^3}{(1+ca)^2}\\geqslant \\frac{3abc}{(1+\\sqrt[3]{a^2b^2c^2})^2}$$",
+    "solution_md": "存在正实数 $k,x,y,z$，满足 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kx}{z}$，则\n$$\\frac{k^3y^3}{x^3\\left(1+\\frac{k^2z}{x}\\right)^2}+\\frac{k^3z^3}{y^3\\left(1+\\frac{k^2x}{y}\\right)^2}+\\frac{k^3x^3}{z^3\\left(1+\\frac{k^2y}{z}\\right)^2}\\geqslant \\frac{3k^3}{(1+k^2)^2}$$\n$$\\Leftrightarrow \\frac{y^3}{x(x+k^2z)^2}+\\frac{z^3}{y(y+k^2x)^2}+\\frac{x^3}{z(z+k^2y)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n对上式左边应用 Cauchy-Schwarz 不等式，我们有\n$$\\text{LHS}=\\sum\\frac{y^4}{xy(x+k^2z)^2}\\geqslant \\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}$$\n所以，只需证明\n$$\\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\sum xy(x+k^2z)^2$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\left[\\sum x^3y+(k^4+2k^2)\\sum x^2yz\\right]$$\n这可由下面两个不等式推出\n$$(x^2+y^2+z^2)^2\\geqslant 3(x^3y+y^3z+z^3x)$$\n$$(x^2+y^2+z^2)^2\\geqslant 3xyz(x+y+z)$$",
+    "answer_md": "",
+    "hints_md": "译者",
+    "original_text_md": "例 5.4.8(译者) 设 $a,b,c$ 是正实数，证明\n$$\\frac{a^3}{(1+ab)^2}+\\frac{b^3}{(1+bc)^2}+\\frac{c^3}{(1+ca)^2}\\geqslant \\frac{3abc}{(1+\\sqrt[3]{a^2b^2c^2})^2}$$\n证明 存在正实数 $k,x,y,z$，满足 $a=\\frac{ky}{x},b=\\frac{kz}{y},c=\\frac{kx}{z}$，则\n$$\\frac{k^3y^3}{x^3\\left(1+\\frac{k^2z}{x}\\right)^2}+\\frac{k^3z^3}{y^3\\left(1+\\frac{k^2x}{y}\\right)^2}+\\frac{k^3x^3}{z^3\\left(1+\\frac{k^2y}{z}\\right)^2}\\geqslant \\frac{3k^3}{(1+k^2)^2}$$\n$$\\Leftrightarrow \\frac{y^3}{x(x+k^2z)^2}+\\frac{z^3}{y(y+k^2x)^2}+\\frac{x^3}{z(z+k^2y)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n对上式左边应用 Cauchy-Schwarz 不等式，我们有\n$$\\text{LHS}=\\sum\\frac{y^4}{xy(x+k^2z)^2}\\geqslant \\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}$$\n所以，只需证明\n$$\\frac{(x^2+y^2+z^2)^2}{\\sum xy(x+k^2z)^2}\\geqslant \\frac{3}{(1+k^2)^2}$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\sum xy(x+k^2z)^2$$\n$$\\Leftrightarrow (x^2+y^2+z^2)^2(1+k^2)^2\\geqslant 3\\left[\\sum x^3y+(k^4+2k^2)\\sum x^2yz\\right]$$\n这可由下面两个不等式推出\n$$(x^2+y^2+z^2)^2\\geqslant 3(x^3y+y^3z+z^3x)$$\n$$(x^2+y^2+z^2)^2\\geqslant 3xyz(x+y+z)$$",
+    "tags": [
+      "非齐次不等式",
+      "变量替换",
+      "Cauchy-Schwarz",
+      "正实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

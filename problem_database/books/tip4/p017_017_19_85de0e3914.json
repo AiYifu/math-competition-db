@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_19_85de0e3914",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "19",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $a, b, c$ 为正实数, 满足 $a^2 + b^2 + c^2 = 1$. 求证: $$\\frac{ab}{c} + \\frac{bc}{a} + \\frac{ca}{b} \\geqslant \\sqrt{3}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 为正实数, 满足 $a^2 + b^2 + c^2 = 1$. 求证: $$\\frac{ab}{c} + \\frac{bc}{a} + \\frac{ca}{b} \\geqslant \\sqrt{3}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

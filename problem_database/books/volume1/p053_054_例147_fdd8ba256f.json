@@ -1,0 +1,54 @@
+{
+  "uid": "p053_054_例147_fdd8ba256f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例1.4.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    53,
+    54
+  ],
+  "source_images": [
+    "page-053.jpg",
+    "page-054.jpg"
+  ],
+  "stem_md": "设非负实数 $a,b,c$ 满足 $a+b+c=3$，证明\n$$\\frac{a^2+b}{a+b}+\\frac{b^2+c}{b+c}+\\frac{c^2+a}{c+a}\\geqslant3$$",
+  "solution_md": "根据下列恒等式\n$$\\sum\\frac{2a^2}{a+b}=\\sum a+\\sum\\frac{(a-b)^2}{2(a+b)}$$\n$$\\sum\\frac{2b}{a+b}=3+\\frac{\\sum(a-b)^3}{3(a+b)(b+c)(c+a)}$$\n\n则不等式表示为 SOS 形式如下\n$$\\sum a+\\sum\\frac{(a-b)^2}{2(a+b)}+3+\\sum\\frac{(a-b)^3}{3(a+b)(b+c)(c+a)}\\geqslant6$$\n\n或\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n\n其中\n$$S_a=3a+a^2+2b-2c$$\n$$S_b=3b+b^2+2c-2a$$\n$$S_c=3c+c^2+2a-2b$$\n\n注意到，如果 $a\\geqslant b\\geqslant c$，则\n$$\\sum\\frac{a^2+b}{a+b}-\\sum\\frac{a+b^2}{a+b}=\\frac{(a-b)(a-c)(c-b)}{(a+b)(b+c)(c+a)}\\leqslant0$$\n\n所以，我们仅需要考虑，原不等式在 $a\\geqslant b\\geqslant c$ 的情况下成立即可。此时，我们有 $S_a,S_c\\geqslant0$，此外\n$$S_a+3S_b=3a+a^2+2(b-c)+9b+3b^2+6(c-a)$$\n$$\\geqslant a^2+3b^2+9b-3a=-a(b+c)+2b^2+3b(a+b+c)>0$$\n\n(1) 如果 $a\\leqslant2$，则\n$$2S_c+3S_b=6c+2c^2+5b+4b^2-2a\\geqslant0$$\n\n于是\n$$\\sum S_a(b-c)^2\\geqslant(S_a+3S_b)(b-c)^2+\\left(S_c+\\frac{3}{2}S_b\\right)(a-b)^2\\geqslant0$$\n\n(2) 如果 $a\\geqslant2$，则 $c\\leqslant b\\leqslant1$，另外\n$$\\frac{c}{b+c}+\\frac{a}{a+c}\\geqslant\\frac{c}{c+a}+\\frac{a}{a+c}=1$$\n$$\\frac{a^2+b}{a+b}+\\frac{b}{b+c}\\geqslant\\frac{4+b}{2+b}+\\frac{b}{2}=\\frac{2}{2+b}+\\frac{2+b}{2}\\geqslant2$$\n$$\\Rightarrow\\frac{a^2+b}{a+b}+\\frac{b^2+c}{b+c}+\\frac{c^2+a}{c+a}\\geqslant3$$\n\n综上所述，原不等式得证。等号成立的条件是 $a=b=c$。\n\n注 注意到，对所有实数，我们有\n$$\\frac{a^2+b}{a+b}\\geqslant\\frac{a+b}{1+b}$$\n\n所以，下列不等式强于本题的不等式。\n\n设 $a,b,c$ 是非负实数，且 $a+b+c=3$，证明\n$$\\frac{a+b}{b+1}+\\frac{b+c}{c+1}+\\frac{c+a}{a+1}\\geqslant3$$\n\n这个问题的详细解答，请查看第 6 章的开放文档。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.4.7 设非负实数 $a,b,c$ 满足 $a+b+c=3$，证明\n$$\\frac{a^2+b}{a+b}+\\frac{b^2+c}{b+c}+\\frac{c^2+a}{c+a}\\geqslant3$$\n证明 根据下列恒等式...",
+  "tags": [
+    "SOS方法",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0006",
+  "raw_response_file": "raw/chunk-0006.response.txt",
+  "raw_api_file": "raw/chunk-0006.api.json",
+  "fingerprint": "fdd8ba256f6cdc7993675472fdf3bcf187ccb26e",
+  "raw_problem": {
+    "problem_id": "例1.4.7",
+    "problem_type": "example",
+    "chapter": null,
+    "section": null,
+    "title": null,
+    "source_pages": [
+      53,
+      54
+    ],
+    "stem_md": "设非负实数 $a,b,c$ 满足 $a+b+c=3$，证明\n$$\\frac{a^2+b}{a+b}+\\frac{b^2+c}{b+c}+\\frac{c^2+a}{c+a}\\geqslant3$$",
+    "solution_md": "根据下列恒等式\n$$\\sum\\frac{2a^2}{a+b}=\\sum a+\\sum\\frac{(a-b)^2}{2(a+b)}$$\n$$\\sum\\frac{2b}{a+b}=3+\\frac{\\sum(a-b)^3}{3(a+b)(b+c)(c+a)}$$\n\n则不等式表示为 SOS 形式如下\n$$\\sum a+\\sum\\frac{(a-b)^2}{2(a+b)}+3+\\sum\\frac{(a-b)^3}{3(a+b)(b+c)(c+a)}\\geqslant6$$\n\n或\n$$S_a(b-c)^2+S_b(c-a)^2+S_c(a-b)^2\\geqslant0$$\n\n其中\n$$S_a=3a+a^2+2b-2c$$\n$$S_b=3b+b^2+2c-2a$$\n$$S_c=3c+c^2+2a-2b$$\n\n注意到，如果 $a\\geqslant b\\geqslant c$，则\n$$\\sum\\frac{a^2+b}{a+b}-\\sum\\frac{a+b^2}{a+b}=\\frac{(a-b)(a-c)(c-b)}{(a+b)(b+c)(c+a)}\\leqslant0$$\n\n所以，我们仅需要考虑，原不等式在 $a\\geqslant b\\geqslant c$ 的情况下成立即可。此时，我们有 $S_a,S_c\\geqslant0$，此外\n$$S_a+3S_b=3a+a^2+2(b-c)+9b+3b^2+6(c-a)$$\n$$\\geqslant a^2+3b^2+9b-3a=-a(b+c)+2b^2+3b(a+b+c)>0$$\n\n(1) 如果 $a\\leqslant2$，则\n$$2S_c+3S_b=6c+2c^2+5b+4b^2-2a\\geqslant0$$\n\n于是\n$$\\sum S_a(b-c)^2\\geqslant(S_a+3S_b)(b-c)^2+\\left(S_c+\\frac{3}{2}S_b\\right)(a-b)^2\\geqslant0$$\n\n(2) 如果 $a\\geqslant2$，则 $c\\leqslant b\\leqslant1$，另外\n$$\\frac{c}{b+c}+\\frac{a}{a+c}\\geqslant\\frac{c}{c+a}+\\frac{a}{a+c}=1$$\n$$\\frac{a^2+b}{a+b}+\\frac{b}{b+c}\\geqslant\\frac{4+b}{2+b}+\\frac{b}{2}=\\frac{2}{2+b}+\\frac{2+b}{2}\\geqslant2$$\n$$\\Rightarrow\\frac{a^2+b}{a+b}+\\frac{b^2+c}{b+c}+\\frac{c^2+a}{c+a}\\geqslant3$$\n\n综上所述，原不等式得证。等号成立的条件是 $a=b=c$。\n\n注 注意到，对所有实数，我们有\n$$\\frac{a^2+b}{a+b}\\geqslant\\frac{a+b}{1+b}$$\n\n所以，下列不等式强于本题的不等式。\n\n设 $a,b,c$ 是非负实数，且 $a+b+c=3$，证明\n$$\\frac{a+b}{b+1}+\\frac{b+c}{c+1}+\\frac{c+a}{a+1}\\geqslant3$$\n\n这个问题的详细解答，请查看第 6 章的开放文档。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.4.7 设非负实数 $a,b,c$ 满足 $a+b+c=3$，证明\n$$\\frac{a^2+b}{a+b}+\\frac{b^2+c}{b+c}+\\frac{c^2+a}{c+a}\\geqslant3$$\n证明 根据下列恒等式...",
+    "tags": [
+      "SOS方法",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

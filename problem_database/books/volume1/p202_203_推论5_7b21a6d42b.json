@@ -1,0 +1,56 @@
+{
+  "uid": "p202_203_推论5_7b21a6d42b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.4",
+  "problem_id": "推论5",
+  "problem_type": "theorem",
+  "title": null,
+  "source_pages": [
+    202,
+    203
+  ],
+  "source_images": [
+    "page-202.jpg",
+    "page-203.jpg"
+  ],
+  "stem_md": "考虑下列对称非齐次表达式\n$$F(a,b,c)=m\\sum a^3+n\\sum a^2(b+c)+pabc+q\\sum a^2+r\\sum ab+s\\sum a+t$$\n\n对 $u=a+b+c$，证明不等式 $F(a,b,c)\\geqslant 0$ 成立，当且仅当\n$$F\\left(\\frac{u}{3},\\frac{u}{3},\\frac{u}{3}\\right)\\geqslant 0$$\n$$F\\left(\\frac{u}{2},\\frac{u}{2},0\\right)\\geqslant 0$$\n$$F(u,0,0)\\geqslant 0$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "这是定理的直接推论，是关于三变量不等式最简单、最容易的应用。",
+  "original_text_md": "推论 5 考虑下列对称非齐次表达式\n$$F(a,b,c)=m\\sum a^3+n\\sum a^2(b+c)+pabc+q\\sum a^2+r\\sum ab+s\\sum a+t$$\n对 $u=a+b+c$，证明不等式 $F(a,b,c)\\geqslant 0$ 成立，当且仅当\n$$F\\left(\\frac{u}{3},\\frac{u}{3},\\frac{u}{3}\\right)\\geqslant 0$$\n$$F\\left(\\frac{u}{2},\\frac{u}{2},0\\right)\\geqslant 0$$\n$$F(u,0,0)\\geqslant 0$$",
+  "tags": [
+    "三变量不等式",
+    "非齐次表达式",
+    "推论"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023",
+  "raw_response_file": "raw/chunk-0023.response.txt",
+  "raw_api_file": "raw/chunk-0023.api.json",
+  "fingerprint": "7b21a6d42b139701bd9c9cd280adb686bd960a47",
+  "raw_problem": {
+    "problem_id": "推论5",
+    "problem_type": "theorem",
+    "chapter": "7",
+    "section": "7.4",
+    "title": null,
+    "source_pages": [
+      202,
+      203
+    ],
+    "stem_md": "考虑下列对称非齐次表达式\n$$F(a,b,c)=m\\sum a^3+n\\sum a^2(b+c)+pabc+q\\sum a^2+r\\sum ab+s\\sum a+t$$\n\n对 $u=a+b+c$，证明不等式 $F(a,b,c)\\geqslant 0$ 成立，当且仅当\n$$F\\left(\\frac{u}{3},\\frac{u}{3},\\frac{u}{3}\\right)\\geqslant 0$$\n$$F\\left(\\frac{u}{2},\\frac{u}{2},0\\right)\\geqslant 0$$\n$$F(u,0,0)\\geqslant 0$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "这是定理的直接推论，是关于三变量不等式最简单、最容易的应用。",
+    "original_text_md": "推论 5 考虑下列对称非齐次表达式\n$$F(a,b,c)=m\\sum a^3+n\\sum a^2(b+c)+pabc+q\\sum a^2+r\\sum ab+s\\sum a+t$$\n对 $u=a+b+c$，证明不等式 $F(a,b,c)\\geqslant 0$ 成立，当且仅当\n$$F\\left(\\frac{u}{3},\\frac{u}{3},\\frac{u}{3}\\right)\\geqslant 0$$\n$$F\\left(\\frac{u}{2},\\frac{u}{2},0\\right)\\geqslant 0$$\n$$F(u,0,0)\\geqslant 0$$",
+    "tags": [
+      "三变量不等式",
+      "非齐次表达式",
+      "推论"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

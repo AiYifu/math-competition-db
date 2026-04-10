@@ -1,0 +1,24 @@
+{
+  "uid": "p028_028_例31_11aee9c40f",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例31",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    28
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是正实数, $\\alpha > \\beta > 0$, 则\n$$\\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\beta\\right)^{\\frac{1}{\\beta}} \\leqslant \\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\alpha\\right)^{\\frac{1}{\\alpha}}.$$",
+  "solution_md": "证明 在⑥中(赫尔德不等式), 令 $x^i = 1, i = 1, 2, \\cdots, n$, 有\n$$\\sum_{i=1}^n y_i \\leqslant n^{\\frac{1}{p}} \\left(\\sum_{i=1}^n x_i^p\\right)^{\\frac{1}{q}},$$\n其中 $\\frac{1}{p} + \\frac{1}{q} = 1$, 得 $\\frac{1}{n} \\sum_{i=1}^n a_i^\\beta \\leqslant \\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\alpha\\right)^{\\frac{\\beta}{\\alpha}}$, 于是\n$$\\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\beta\\right)^{\\frac{1}{\\beta}} \\leqslant \\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\alpha\\right)^{\\frac{1}{\\alpha}}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a_1, a_2, \\cdots, a_n$ 是正实数, $\\alpha > \\beta > 0$, 则\n$$\\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\beta\\right)^{\\frac{1}{\\beta}} \\leqslant \\left(\\frac{1}{n} \\sum_{i=1}^n a_i^\\alpha\\right)^{\\frac{1}{\\alpha}}.$$",
+  "tags": [
+    "不等式",
+    "赫尔德不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p226_226_9_8e01be463e",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "9",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    226
+  ],
+  "stem_md": "9. (Nguyen Vu Tuan, CPR) 设 $a, b, c$ 是非负实数, 证明\n$$\n\\frac{a^3}{b^2} + \\frac{b^3}{c^2} + \\frac{c^3}{a^2} + \\frac{5}{3}(a+b+c) \\geqslant \\frac{8}{3}\\left(\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a}\\right)\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "9. (Nguyen Vu Tuan, CPR) 设 $a, b, c$ 是非负实数, 证明\n$$\n\\frac{a^3}{b^2} + \\frac{b^3}{c^2} + \\frac{c^3}{a^2} + \\frac{5}{3}(a+b+c) \\geqslant \\frac{8}{3}\\left(\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a}\\right)\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

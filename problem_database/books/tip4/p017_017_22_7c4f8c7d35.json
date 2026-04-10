@@ -1,0 +1,21 @@
+{
+  "uid": "p017_017_22_7c4f8c7d35",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "22",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    17
+  ],
+  "stem_md": "设 $x, y \\in \\mathbf{R}_+$, $x + y^{2016} > 1$, 求证: $$x^{2016} + y > 1 - \\frac{1}{100}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $x, y \\in \\mathbf{R}_+$, $x + y^{2016} > 1$, 求证: $$x^{2016} + y > 1 - \\frac{1}{100}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0003"
+}

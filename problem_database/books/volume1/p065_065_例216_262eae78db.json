@@ -1,0 +1,51 @@
+{
+  "uid": "p065_065_例216_262eae78db",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.1",
+  "problem_id": "例2.1.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    65
+  ],
+  "source_images": [
+    "page-065.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，其和为 $2$，证明\n$$ab(a+b)+bc(b+c)+ca(c+a)\\leqslant 2$$",
+  "solution_md": "依据条件 $a+b+c=2$，我们选择变换\n$$(a,b,c)\\rightarrow(a+c,b,0)$$\n设\n$$f(a,b,c)=ab(a+b)+bc(b+c)+ca(c+a)$$\n则\n$$f(a,b,c)-f(a+c,b,0)=ac(a+c-2b)$$\n不失一般性，假设 $b=\\max\\{a,b,c\\}$，则我们有\n$$f(a,b,c)\\leqslant f(a+c,b,0)$$\n最后，由 AM-GM 不等式，有\n$$f(a+c,b,0)=(a+c)\\cdot b\\cdot(a+c+b)=2b(a+c)\\leqslant\\frac{(b+a+c)^2}{2}=2$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.1.6 设 $a,b,c$ 是非负实数,其和为 2,证明\n$$ab(a+b)+bc(b+c)+ca(c+a)\\leqslant 2$$\n证明及分析 依据条件 $a+b+c=2$,我们选择变换\n$$(a,b,c)\\rightarrow(a+c,b,0)$$\n设\n$$f(a,b,c)=ab(a+b)+bc(b+c)+ca(c+a)$$\n则\n$$f(a,b,c)-f(a+c,b,0)=ac(a+c-2b)$$\n不失一般性,假设 $b=\\max\\{a,b,c\\}$,则我们有\n$$f(a,b,c)\\leqslant f(a+c,b,0)$$\n最后,由 AM-GM 不等式,有\n$$f(a+c,b,0)=(a+c)\\cdot b\\cdot(a+c+b)=2b(a+c)\\leqslant\\frac{(b+a+c)^2}{2}=2$$",
+  "tags": [
+    "整合变量法",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "262eae78dbcf9bd842d6c13f3999218d53fd900e",
+  "raw_problem": {
+    "problem_id": "例2.1.6",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.1",
+    "title": null,
+    "source_pages": [
+      65
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，其和为 $2$，证明\n$$ab(a+b)+bc(b+c)+ca(c+a)\\leqslant 2$$",
+    "solution_md": "依据条件 $a+b+c=2$，我们选择变换\n$$(a,b,c)\\rightarrow(a+c,b,0)$$\n设\n$$f(a,b,c)=ab(a+b)+bc(b+c)+ca(c+a)$$\n则\n$$f(a,b,c)-f(a+c,b,0)=ac(a+c-2b)$$\n不失一般性，假设 $b=\\max\\{a,b,c\\}$，则我们有\n$$f(a,b,c)\\leqslant f(a+c,b,0)$$\n最后，由 AM-GM 不等式，有\n$$f(a+c,b,0)=(a+c)\\cdot b\\cdot(a+c+b)=2b(a+c)\\leqslant\\frac{(b+a+c)^2}{2}=2$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.1.6 设 $a,b,c$ 是非负实数,其和为 2,证明\n$$ab(a+b)+bc(b+c)+ca(c+a)\\leqslant 2$$\n证明及分析 依据条件 $a+b+c=2$,我们选择变换\n$$(a,b,c)\\rightarrow(a+c,b,0)$$\n设\n$$f(a,b,c)=ab(a+b)+bc(b+c)+ca(c+a)$$\n则\n$$f(a,b,c)-f(a+c,b,0)=ac(a+c-2b)$$\n不失一般性,假设 $b=\\max\\{a,b,c\\}$,则我们有\n$$f(a,b,c)\\leqslant f(a+c,b,0)$$\n最后,由 AM-GM 不等式,有\n$$f(a+c,b,0)=(a+c)\\cdot b\\cdot(a+c+b)=2b(a+c)\\leqslant\\frac{(b+a+c)^2}{2}=2$$",
+    "tags": [
+      "整合变量法",
+      "AM-GM不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

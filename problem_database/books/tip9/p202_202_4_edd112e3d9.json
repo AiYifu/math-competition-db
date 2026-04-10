@@ -1,0 +1,21 @@
+{
+  "uid": "p202_202_4_edd112e3d9",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "4",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    202
+  ],
+  "stem_md": "4. 由 $a_n > 0$, $\\operatorname{arccot} a_{n + 1} + \\operatorname{arccot} a_{n + 2} \\in (0, \\pi)$, $\\cot x$ 在 $(0, \\pi)$ 上是减函数, 故只须证明: $\\cot(\\operatorname{arccot} a_n) \\geqslant \\cot(\\operatorname{arccot} a_{n + 1} + \\operatorname{arccot} a_{n + 2})$, 即证 $(a_{n + 1} + a_{n + 2})a_n \\geqslant a_{n + 1} \\cdot a_{n + 2} - 1$. 而 $a_{n + 2} = a_{n + 1} + a_n$, 故只要证明: $a_na_{n + 2} - a_{n + 1}^2 \\geqslant -1$. 用数学归纳法, 容易验证 $a_na_{n + 2} - a_{n + 1}^2 = (-1)^{n + 1}$. 因此原不等式成立, 易见等号成立当且仅当 $n$ 为偶数.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "4. 由 $a_n > 0$, $\\operatorname{arccot} a_{n + 1} + \\operatorname{arccot} a_{n + 2} \\in (0, \\pi)$, $\\cot x$ 在 $(0, \\pi)$ 上是减函数, 故只须证明: $\\cot(\\operatorname{arccot} a_n) \\geqslant \\cot(\\operatorname{arccot} a_{n + 1} + \\operatorname{arccot} a_{n + 2})$, 即证 $(a_{n + 1} + a_{n + 2})a_n \\geqslant a_{n + 1} \\cdot a_{n + 2} - 1$. 而 $a_{n + 2} = a_{n + 1} + a_n$, 故只要证明: $a_na_{n + 2} - a_{n + 1}^2 \\geqslant -1$. 用数学归纳法, 容易验证 $a_na_{n + 2} - a_{n + 1}^2 = (-1)^{n + 1}$. 因此原不等式成立, 易见等号成立当且仅当 $n$ 为偶数.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0026"
+}

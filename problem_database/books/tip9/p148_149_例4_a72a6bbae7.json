@@ -1,0 +1,25 @@
+{
+  "uid": "p148_149_例4_a72a6bbae7",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "10.1",
+  "problem_id": "例4",
+  "problem_type": "example",
+  "title": "设正整数 $n\\geqslant2, x_{1}, x_{2}, \\cdots, x_{n}\\in[0, 1]$, 求证",
+  "source_pages": [
+    148,
+    149
+  ],
+  "stem_md": "设正整数 $n\\geqslant2, x_{1}, x_{2}, \\cdots, x_{n}\\in[0, 1]$, 求证: 存在某个 $i, 1\\leqslant i\\leqslant n-1$, 使得不等式\n\n$x_{i}(1-x_{i+1})\\geqslant\\frac{1}{4}x_{1}(1-x_{n})$",
+  "solution_md": "证明 令 $m=\\min\\{x_{1}, x_{2}, \\cdots, x_{n}\\}$, 且设 $x_{r}=m, 0\\leqslant m\\leqslant1$, 分两种情况讨论:\n\n(1) 如果 $x_{2}\\leqslant\\frac{1}{2}(m+1)$, 取 $i=1$, 就有\n\n$x_{1}(1-x_{2})\\geqslant x_{1}\\left(1-\\frac{1+m}{2}\\right)=\\frac{1}{2}x_{1}(1-m)\\geqslant\\frac{1}{4}x_{1}(1-x_{n})$ (利用了 $m\\leqslant x_{n}\\leqslant1$)\n\n$\\geqslant\\frac{1}{4}x_{1}(1-x_{n}).$\n\n(2) 如果 $x_{2}>\\frac{1}{2}(m+1)$, 则有以下两种可能:\n\n(i) $x_{1}=m, x_{2}>\\frac{1}{2}(1+m), \\cdots, x_{n}>\\frac{1}{2}(1+m)$, 设 $x_{k}$ 是 $x_{2}, x_{3}, \\cdots, x_{n}$ 中的最小值. 取 $i=k-1$, 就有\n\n$x_{k-1}(1-x_{k})\\geqslant x_{1}(1-x_{n})\\geqslant\\frac{1}{4}x_{1}(1-x_{n}),$\n\n其中第一个不等号利用了 $x_{k-1}\\geqslant x_{1}$ 及 $1-x_{k}\\geqslant1-x_{n}$.\n\n(ii) 存在某个 $t, 3\\leqslant t\\leqslant n$, 使得 $x_{t}=m\\leqslant\\frac{1}{2}(1+m)$. 于是一定存在某个正整数 $i, 2\\leqslant i\\leqslant n-1$, 满足:\n\n$x_{i}>\\frac{1}{2}(1+m), x_{i+1}\\leqslant\\frac{1}{2}(1+m).$\n\n$x_{1}+x_{2}+x_{3}+x_{4}\\geqslant y_{1}+y_{2},$\n\n要证明:\n\n$x_{1}x_{2}x_{3}x_{4}\\geqslant y_{1}y_{2}.$\n\n证明 保持 $y_{1}+y_{2}$ 不变, 将 $y_{1}$ 调大至 $y_{1}, y_{2}$ 相等, 且相等于 $\\frac{y_{1}+y_{2}}{2}$, 则 $y_{1}y_{2}$ 在此过程中增大, 因此我们只需对 $y_{1}=y_{2}=y$ 的情况作出证明.\n\n即已知\n\n$y\\geqslant x_{4}\\geqslant x_{3}\\geqslant x_{2}\\geqslant x_{1}\\geqslant2,$\n\n$x_{1}+x_{2}+x_{3}+x_{4}\\geqslant2y,$\n\n要证明:\n\n$x_{1}x_{2}x_{3}x_{4}\\geqslant y^{2}.$\n\n下面分三种情况讨论:\n\n(1) $y\\leqslant4$, 显然 $x_{1}x_{2}x_{3}x_{4}\\geqslant2^{4}\\geqslant y^{2}.$\n\n(2) $4<y\\leqslant6$. 保持 $x_{1}+x_{4}, x_{2}+x_{3}$ 不变, 将 $x_{1}, x_{2}$ 调整为 2, 接着保持 $x_{3}+x_{4}$ 不变, 再将 $x_{3}$ 调整为 2.\n\n由于 $x_{1}x_{2}x_{3}x_{4}$ 在调整过程中减小, 故只需证明:\n\n$2^{3}\\cdot x_{4}\\geqslant y^{2}.$\n\n故只需证明 $8(2y-6)\\geqslant y^{2}$, 即 $(y-4)(y-12)\\leqslant0$.\n\n由于 $4<y\\leqslant6$, 上式显然成立.\n\n(3) $y>6$. 保持和 $x_{1}+x_{4}, x_{2}+x_{3}$ 不变, 分情况作调整:\n\n(i) 如果这两个和都 $\\geqslant y+2$, 则将 $x_{4}, x_{3}$ 调整为 $y$, 此时结论显然成立.\n\n(ii) 如果两个和中只有 1 个 $\\geqslant y+2$. 不妨设 $x_{1}+x_{4}\\geqslant y+2$, 则将 $x_{4}$ 调整为 $y$, 保持 $x_{1}+x_{4}$ 不变, 将 $x_{2}, x_{3}$ 调整为 2, 此时结论成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例4 设正整数 $n\\geqslant2, x_{1}, x_{2}, \\cdots, x_{n}\\in[0, 1]$, 求证: 存在某个 $i, 1\\leqslant i\\leqslant n-1$, 使得不等式\n\n$x_{i}(1-x_{i+1})\\geqslant\\frac{1}{4}x_{1}(1-x_{n})$\n\n证明 令 $m=\\min\\{x_{1}, x_{2}, \\cdots, x_{n}\\}$, 且设 $x_{r}=m, 0\\leqslant m\\leqslant1$, 分两种情况讨论:\n\n(1) 如果 $x_{2}\\leqslant\\frac{1}{2}(m+1)$, 取 $i=1$, 就有\n\n$x_{1}(1-x_{2})\\geqslant x_{1}\\left(1-\\frac{1+m}{2}\\right)=\\frac{1}{2}x_{1}(1-m)\\geqslant\\frac{1}{4}x_{1}(1-x_{n})$ (利用了 $m\\leqslant x_{n}\\leqslant1$)\n\n$\\geqslant\\frac{1}{4}x_{1}(1-x_{n}).$\n\n(2) 如果 $x_{2}>\\frac{1}{2}(m+1)$, 则有以下两种可能:\n\n(i) $x_{1}=m, x_{2}>\\frac{1}{2}(1+m), \\cdots, x_{n}>\\frac{1}{2}(1+m)$, 设 $x_{k}$ 是 $x_{2}, x_{3}, \\cdots, x_{n}$ 中的最小值. 取 $i=k-1$, 就有\n\n$x_{k-1}(1-x_{k})\\geqslant x_{1}(1-x_{n})\\geqslant\\frac{1}{4}x_{1}(1-x_{n}),$\n\n其中第一个不等号利用了 $x_{k-1}\\geqslant x_{1}$ 及 $1-x_{k}\\geqslant1-x_{n}$.\n\n(ii) 存在某个 $t, 3\\leqslant t\\leqslant n$, 使得 $x_{t}=m\\leqslant\\frac{1}{2}(1+m)$. 于是一定存在某个正整数 $i, 2\\leqslant i\\leqslant n-1$, 满足:\n\n$x_{i}>\\frac{1}{2}(1+m), x_{i+1}\\leqslant\\frac{1}{2}(1+m).$\n\n$x_{1}+x_{2}+x_{3}+x_{4}\\geqslant y_{1}+y_{2},$\n\n要证明:\n\n$x_{1}x_{2}x_{3}x_{4}\\geqslant y_{1}y_{2}.$\n\n证明 保持 $y_{1}+y_{2}$ 不变, 将 $y_{1}$ 调大至 $y_{1}, y_{2}$ 相等, 且相等于 $\\frac{y_{1}+y_{2}}{2}$, 则 $y_{1}y_{2}$ 在此过程中增大, 因此我们只需对 $y_{1}=y_{2}=y$ 的情况作出证明.\n\n即已知\n\n$y\\geqslant x_{4}\\geqslant x_{3}\\geqslant x_{2}\\geqslant x_{1}\\geqslant2,$\n\n$x_{1}+x_{2}+x_{3}+x_{4}\\geqslant2y,$\n\n要证明:\n\n$x_{1}x_{2}x_{3}x_{4}\\geqslant y^{2}.$\n\n下面分三种情况讨论:\n\n(1) $y\\leqslant4$, 显然 $x_{1}x_{2}x_{3}x_{4}\\geqslant2^{4}\\geqslant y^{2}.$\n\n(2) $4<y\\leqslant6$. 保持 $x_{1}+x_{4}, x_{2}+x_{3}$ 不变, 将 $x_{1}, x_{2}$ 调整为 2, 接着保持 $x_{3}+x_{4}$ 不变, 再将 $x_{3}$ 调整为 2.\n\n由于 $x_{1}x_{2}x_{3}x_{4}$ 在调整过程中减小, 故只需证明:\n\n$2^{3}\\cdot x_{4}\\geqslant y^{2}.$\n\n故只需证明 $8(2y-6)\\geqslant y^{2}$, 即 $(y-4)(y-12)\\leqslant0$.\n\n由于 $4<y\\leqslant6$, 上式显然成立.\n\n(3) $y>6$. 保持和 $x_{1}+x_{4}, x_{2}+x_{3}$ 不变, 分情况作调整:\n\n(i) 如果这两个和都 $\\geqslant y+2$, 则将 $x_{4}, x_{3}$ 调整为 $y$, 此时结论显然成立.\n\n(ii) 如果两个和中只有 1 个 $\\geqslant y+2$. 不妨设 $x_{1}+x_{4}\\geqslant y+2$, 则将 $x_{4}$ 调整为 $y$, 保持 $x_{1}+x_{4}$ 不变, 将 $x_{2}, x_{3}$ 调整为 2, 此时结论成立.",
+  "tags": [
+    "不等式",
+    "证明方法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019"
+}

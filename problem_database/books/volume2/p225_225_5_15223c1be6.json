@@ -1,0 +1,21 @@
+{
+  "uid": "p225_225_5_15223c1be6",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7.9",
+  "section": "其他例子",
+  "problem_id": "5",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    225
+  ],
+  "stem_md": "5. (Nguyen Trung Kien, CPR) 设 $a, b, c$ 是正实数, 证明:\n(1) $\\frac{a^3}{b} + \\frac{b^3}{c} + \\frac{c^3}{a} \\geqslant \\sqrt{3(a^4+b^4+c^4)}$;\n(2) $\\frac{a^4}{b} + \\frac{b^4}{c} + \\frac{c^4}{a} \\geqslant \\sqrt{3(a^6+b^6+c^6)}$;\n(3) 证明下列不等式不成立\n$$\n\\frac{a^5}{b} + \\frac{b^5}{c} + \\frac{c^5}{a} \\geqslant \\sqrt{3(a^8+b^8+c^8)}\n$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "5. (Nguyen Trung Kien, CPR) 设 $a, b, c$ 是正实数, 证明:\n(1) $\\frac{a^3}{b} + \\frac{b^3}{c} + \\frac{c^3}{a} \\geqslant \\sqrt{3(a^4+b^4+c^4)}$;\n(2) $\\frac{a^4}{b} + \\frac{b^4}{c} + \\frac{c^4}{a} \\geqslant \\sqrt{3(a^6+b^6+c^6)}$;\n(3) 证明下列不等式不成立\n$$\n\\frac{a^5}{b} + \\frac{b^5}{c} + \\frac{c^5}{a} \\geqslant \\sqrt{3(a^8+b^8+c^8)}\n$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0029"
+}

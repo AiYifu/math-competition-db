@@ -1,0 +1,25 @@
+{
+  "uid": "p193_194_17_035a5895db",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "17",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193,
+    194
+  ],
+  "stem_md": "构造数列 $x_n = 2C_n - D_n$，$y_n = D_n - C_n$，$n \\in \\mathbf{N}_+$。则 $x_{n+1} - x_n = 2(C_{n+1} - C_n) - (D_{n+1} - D_n)$\n$= 2(a_{n+1} - b_{n+1})^2 - (a_{n+1} - b_{n+1})^2 - n(b_{n+1}^2 - b_n^2)$\n$+ 2(b_{n+1} - b_n)(a_1 + a_2 + \\cdots + a_n)$\n$= (a_{n+1} - b_{n+1})^2 - n(b_{n+1}^2 - b_n^2) + 2nb_n(b_{n+1} - b_n)$\n$= [(n + 1)b_{n+1} - nb_n - b_{n+1}]^2 - n(b_{n+1}^2 - b_n^2) + 2n(b_{n+1} - b_n)$\n$= (n^2 - n)(b_{n+1} - b_n)^2 \\geqslant 0$，又 $y_1 = D_1 - C_1 = 0$，故对一切 $n \\in \\mathbf{N}_+$，$y_n \\geqslant 0$。\n综上所述，$C_n \\leqslant D_n \\leqslant 2C_n$。",
+  "solution_md": "构造数列 $x_n = 2C_n - D_n$，$y_n = D_n - C_n$，$n \\in \\mathbf{N}_+$。则 $x_{n+1} - x_n = 2(C_{n+1} - C_n) - (D_{n+1} - D_n)$\n$= 2(a_{n+1} - b_{n+1})^2 - (a_{n+1} - b_{n+1})^2 - n(b_{n+1}^2 - b_n^2)$\n$+ 2(b_{n+1} - b_n)(a_1 + a_2 + \\cdots + a_n)$\n$= (a_{n+1} - b_{n+1})^2 - n(b_{n+1}^2 - b_n^2) + 2nb_n(b_{n+1} - b_n)$\n$= [(n + 1)b_{n+1} - nb_n - b_{n+1}]^2 - n(b_{n+1}^2 - b_n^2) + 2n(b_{n+1} - b_n)$\n$= (n^2 - n)(b_{n+1} - b_n)^2 \\geqslant 0$，又 $y_1 = D_1 - C_1 = 0$，故对一切 $n \\in \\mathbf{N}_+$，$y_n \\geqslant 0$。\n综上所述，$C_n \\leqslant D_n \\leqslant 2C_n$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "构造数列 $x_n = 2C_n - D_n$，$y_n = D_n - C_n$，$n \\in \\mathbf{N}_+$。则 $x_{n+1} - x_n = 2(C_{n+1} - C_n) - (D_{n+1} - D_n)$\n$= 2(a_{n+1} - b_{n+1})^2 - (a_{n+1} - b_{n+1})^2 - n(b_{n+1}^2 - b_n^2)$\n$+ 2(b_{n+1} - b_n)(a_1 + a_2 + \\cdots + a_n)$\n$= (a_{n+1} - b_{n+1})^2 - n(b_{n+1}^2 - b_n^2) + 2nb_n(b_{n+1} - b_n)$\n$= [(n + 1)b_{n+1} - nb_n - b_{n+1}]^2 - n(b_{n+1}^2 - b_n^2) + 2n(b_{n+1} - b_n)$\n$= (n^2 - n)(b_{n+1} - b_n)^2 \\geqslant 0$，又 $y_1 = D_1 - C_1 = 0$，故对一切 $n \\in \\mathbf{N}_+$，$y_n \\geqslant 0$。\n综上所述，$C_n \\leqslant D_n \\leqslant 2C_n$。",
+  "tags": [
+    "不等式",
+    "数列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

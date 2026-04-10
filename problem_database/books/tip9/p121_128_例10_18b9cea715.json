@@ -1,0 +1,31 @@
+{
+  "uid": "p121_128_例10_18b9cea715",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128
+  ],
+  "stem_md": "已知数列 $\\{r_n\\}$ 满足: $r_1 = 2$, $r_n = r_1 r_2 \\cdots r_{n-1} + 1$ ($n=2,3,\\cdots$). 证明 由 $\\{r_n\\}$ 的定义不难发现 $\\frac{1}{r_1} < 1$, 正整数 $a_1 \\geqslant 2 = r_1$, 所以 $\\frac{1}{a_1} \\leqslant \\frac{1}{r_1}$. 正整数 $a_1, a_2, \\cdots, a_n$ 满足 $\\sum_{k=1}^{n} \\frac{1}{a_k} < 1$. 求证: $\\sum_{i=1}^{n} \\frac{1}{r_i} \\leqslant \\sum_{i=1}^{n} \\frac{1}{a_i}$.",
+  "solution_md": "不妨设 $a_1 \\leqslant a_2 \\leqslant \\cdots \\leqslant a_n$. 那么, 由归纳假设, $x_2 + x_3 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_{k+1}}{f_{k+2}}$. 当 $\\frac{1}{a_1} < 1$ 时, 正整数 $a_1 \\geqslant 2 = r_1$, 所以 $\\frac{1}{a_1} \\leqslant \\frac{1}{r_1}$. 正整数 $a_1, a_2, \\cdots, a_n$ 满足 $\\sum_{k=1}^{n} \\frac{1}{a_k} < 1$. 求证: $\\sum_{i=1}^{n} \\frac{1}{r_i} \\leqslant \\sum_{i=1}^{n} \\frac{1}{a_i}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "已知数列 $\\{r_n\\}$ 满足: $r_1 = 2$, $r_n = r_1 r_2 \\cdots r_{n-1} + 1$ ($n=2,3,\\cdots$). 证明 由 $\\{r_n\\}$ 的定义不难发现 $\\frac{1}{r_1} < 1$, 正整数 $a_1 \\geqslant 2 = r_1$, 所以 $\\frac{1}{a_1} \\leqslant \\frac{1}{r_1}$. 正整数 $a_1, a_2, \\cdots, a_n$ 满足 $\\sum_{k=1}^{n} \\frac{1}{a_k} < 1$. 求证: $\\sum_{i=1}^{n} \\frac{1}{r_i} \\leqslant \\sum_{i=1}^{n} \\frac{1}{a_i}$. 不妨设 $a_1 \\leqslant a_2 \\leqslant \\cdots \\leqslant a_n$. 那么, 由归纳假设, $x_2 + x_3 + \\cdots + x_{k+2} < \\frac{f_1}{f_2} + \\frac{f_2}{f_3} + \\cdots + \\frac{f_{k+1}}{f_{k+2}}$. 当 $\\frac{1}{a_1} < 1$ 时, 正整数 $a_1 \\geqslant 2 = r_1$, 所以 $\\frac{1}{a_1} \\leqslant \\frac{1}{r_1}$. 正整数 $a_1, a_2, \\cdots, a_n$ 满足 $\\sum_{k=1}^{n} \\frac{1}{a_k} < 1$. 求证: $\\sum_{i=1}^{n} \\frac{1}{r_i} \\leqslant \\sum_{i=1}^{n} \\frac{1}{a_i}$.",
+  "tags": [
+    "数学归纳法",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0016"
+}

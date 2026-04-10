@@ -1,0 +1,56 @@
+{
+  "uid": "p182_183_例547_9c74957c8c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    182,
+    183
+  ],
+  "source_images": [
+    "page-182.jpg",
+    "page-183.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是实数，证明\n$$3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$",
+  "solution_md": "首先证明，对所有实数 $x,y$，则\n$$(x^2+1)(y^2+1)\\geqslant \\frac{8\\sqrt{3}}{9}(x+y)\\quad (*)$$\n事实上，设 $x=\\frac{p}{\\sqrt{3}},y=\\frac{q}{\\sqrt{3}}$，则上面的不等式变成\n$$\\left(\\frac{p^2}{3}+1\\right)\\left(\\frac{q^2}{3}+1\\right)\\geqslant \\frac{8\\sqrt{3}}{9}\\cdot\\frac{(p+q)}{\\sqrt{3}}\\Leftrightarrow (p^2+3)(q^2+3)\\geqslant 8(p+q)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$(p^2+3)(q^2+3)=(p^2+1+1+1)(1+q^2+1+1)\\geqslant (p+q+2)^2\\geqslant 8(p+q)$$\n所以，$(*)$ 成立。应用 $(*)$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^9\\cdot 3\\sqrt{3}(a+b)(b+c)(c+a)$$\n利用知名的不等式 $\\sqrt[3]{\\frac{(a+b)(b+c)(c+a)}{8}}\\geqslant \\sqrt{\\frac{ab+bc+ca}{3}}$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^{12}\\sqrt{(ab+bc+ca)^3}$$\n$$\\Rightarrow 3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$",
+  "answer_md": "",
+  "hints_md": "Albanian Eagle, Mathlinks",
+  "original_text_md": "例 5.4.7(Albanian Eagle,Mathlinks) 设 $a,b,c$ 是实数，证明\n$$3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$\n证明 首先证明，对所有实数 $x,y$，则\n$$(x^2+1)(y^2+1)\\geqslant \\frac{8\\sqrt{3}}{9}(x+y)\\quad (*)$$\n事实上，设 $x=\\frac{p}{\\sqrt{3}},y=\\frac{q}{\\sqrt{3}}$，则上面的不等式变成\n$$\\left(\\frac{p^2}{3}+1\\right)\\left(\\frac{q^2}{3}+1\\right)\\geqslant \\frac{8\\sqrt{3}}{9}\\cdot\\frac{(p+q)}{\\sqrt{3}}\\Leftrightarrow (p^2+3)(q^2+3)\\geqslant 8(p+q)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$(p^2+3)(q^2+3)=(p^2+1+1+1)(1+q^2+1+1)\\geqslant (p+q+2)^2\\geqslant 8(p+q)$$\n所以，$(*)$ 成立。应用 $(*)$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^9\\cdot 3\\sqrt{3}(a+b)(b+c)(c+a)$$\n利用知名的不等式 $\\sqrt[3]{\\frac{(a+b)(b+c)(c+a)}{8}}\\geqslant \\sqrt{\\frac{ab+bc+ca}{3}}$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^{12}\\sqrt{(ab+bc+ca)^3}$$\n$$\\Rightarrow 3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$",
+  "tags": [
+    "非齐次不等式",
+    "Cauchy-Schwarz",
+    "实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "9c74957c8c46bd669ea5d20f03f06872891b5762",
+  "raw_problem": {
+    "problem_id": "例5.4.7",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      182,
+      183
+    ],
+    "stem_md": "设 $a,b,c$ 是实数，证明\n$$3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$",
+    "solution_md": "首先证明，对所有实数 $x,y$，则\n$$(x^2+1)(y^2+1)\\geqslant \\frac{8\\sqrt{3}}{9}(x+y)\\quad (*)$$\n事实上，设 $x=\\frac{p}{\\sqrt{3}},y=\\frac{q}{\\sqrt{3}}$，则上面的不等式变成\n$$\\left(\\frac{p^2}{3}+1\\right)\\left(\\frac{q^2}{3}+1\\right)\\geqslant \\frac{8\\sqrt{3}}{9}\\cdot\\frac{(p+q)}{\\sqrt{3}}\\Leftrightarrow (p^2+3)(q^2+3)\\geqslant 8(p+q)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$(p^2+3)(q^2+3)=(p^2+1+1+1)(1+q^2+1+1)\\geqslant (p+q+2)^2\\geqslant 8(p+q)$$\n所以，$(*)$ 成立。应用 $(*)$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^9\\cdot 3\\sqrt{3}(a+b)(b+c)(c+a)$$\n利用知名的不等式 $\\sqrt[3]{\\frac{(a+b)(b+c)(c+a)}{8}}\\geqslant \\sqrt{\\frac{ab+bc+ca}{3}}$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^{12}\\sqrt{(ab+bc+ca)^3}$$\n$$\\Rightarrow 3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$",
+    "answer_md": "",
+    "hints_md": "Albanian Eagle, Mathlinks",
+    "original_text_md": "例 5.4.7(Albanian Eagle,Mathlinks) 设 $a,b,c$ 是实数，证明\n$$3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$\n证明 首先证明，对所有实数 $x,y$，则\n$$(x^2+1)(y^2+1)\\geqslant \\frac{8\\sqrt{3}}{9}(x+y)\\quad (*)$$\n事实上，设 $x=\\frac{p}{\\sqrt{3}},y=\\frac{q}{\\sqrt{3}}$，则上面的不等式变成\n$$\\left(\\frac{p^2}{3}+1\\right)\\left(\\frac{q^2}{3}+1\\right)\\geqslant \\frac{8\\sqrt{3}}{9}\\cdot\\frac{(p+q)}{\\sqrt{3}}\\Leftrightarrow (p^2+3)(q^2+3)\\geqslant 8(p+q)$$\n由 Cauchy-Schwarz 不等式，我们有\n$$(p^2+3)(q^2+3)=(p^2+1+1+1)(1+q^2+1+1)\\geqslant (p+q+2)^2\\geqslant 8(p+q)$$\n所以，$(*)$ 成立。应用 $(*)$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^9\\cdot 3\\sqrt{3}(a+b)(b+c)(c+a)$$\n利用知名的不等式 $\\sqrt[3]{\\frac{(a+b)(b+c)(c+a)}{8}}\\geqslant \\sqrt{\\frac{ab+bc+ca}{3}}$，我们有\n$$3^6(a^2+1)(b^2+1)(c^2+1)\\geqslant 2^{12}\\sqrt{(ab+bc+ca)^3}$$\n$$\\Rightarrow 3\\sqrt[3]{(a^2+1)(b^2+1)(c^2+1)}\\geqslant 4\\sqrt[4]{ab+bc+ca}$$",
+    "tags": [
+      "非齐次不等式",
+      "Cauchy-Schwarz",
+      "实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

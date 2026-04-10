@@ -1,0 +1,23 @@
+{
+  "uid": "p220_220_21_f196dd17df",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    220
+  ],
+  "stem_md": "21. 由柯西不等式得 $\\left|\\sum_{i=1}^{n}a_{i}\\right|\\leqslant\\sum_{i=1}^{n}|a_{i}|+\\left|\\sum_{i=1}^{n}a_{i}\\right|=1$, 即 $\\sum_{i=1}^{n}a_{i}^{2}\\geqslant\\frac{1}{4n}$, 当 $a_{1}=\\cdots=a_{n}=\\frac{1}{2n}$ 时, 等式成立. 另一方面, $1=\\sum_{i=1}^{n}|a_{i}+i|\\cdot\\sum_{i=1}^{n}(a_{i}-i)=\\sqrt{\\left(\\sum_{i=1}^{n}a_{i}\\right)^{2}-\\frac{n^{2}(n+1)^{2}}{4}}+\\frac{n^{2}(n+1)^{2}}{4\\sqrt{\\left(\\sum_{i=1}^{n}a_{i}\\right)^{2}-\\frac{n^{2}(n+1)^{2}}{4}}}=n(n+1)$, 且当 $a_{i}=\\cdots=a_{n}=0$ 时, 等式成立. 故 $\\sum_{i=1}^{n}a_{i}^{2}$ 的最大值为 $\\frac{1}{2}$, 最小值为 $\\frac{1}{4n}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "21. 由柯西不等式得 $\\left|\\sum_{i=1}^{n}a_{i}\\right|\\leqslant\\sum_{i=1}^{n}|a_{i}|+\\left|\\sum_{i=1}^{n}a_{i}\\right|=1$, 即 $\\sum_{i=1}^{n}a_{i}^{2}\\geqslant\\frac{1}{4n}$, 当 $a_{1}=\\cdots=a_{n}=\\frac{1}{2n}$ 时, 等式成立. 另一方面, $1=\\sum_{i=1}^{n}|a_{i}+i|\\cdot\\sum_{i=1}^{n}(a_{i}-i)=\\sqrt{\\left(\\sum_{i=1}^{n}a_{i}\\right)^{2}-\\frac{n^{2}(n+1)^{2}}{4}}+\\frac{n^{2}(n+1)^{2}}{4\\sqrt{\\left(\\sum_{i=1}^{n}a_{i}\\right)^{2}-\\frac{n^{2}(n+1)^{2}}{4}}}=n(n+1)$, 且当 $a_{i}=\\cdots=a_{n}=0$ 时, 等式成立. 故 $\\sum_{i=1}^{n}a_{i}^{2}$ 的最大值为 $\\frac{1}{2}$, 最小值为 $\\frac{1}{4n}$.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0028"
+}

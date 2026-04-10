@@ -1,0 +1,55 @@
+{
+  "uid": "p198_198_例734_33e8af2464",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.3 不确定整合变量法",
+  "problem_id": "例7.3.4",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    198
+  ],
+  "source_images": [
+    "page-198.jpg"
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，求最好的正常数 $k = k_n$，使得下列不等式成立\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right) \\leqslant n + k_n(x_1 x_2 \\cdots x_n - 1)$$",
+  "solution_md": "设\n$$A = x_3 x_4 \\cdots x_n, B = \\sum_{i=3}^{n} \\prod_{j=3, j \\neq i}^{n} x_j$$\n$$f(x_1, x_2, \\cdots, x_n) = \\prod_{i=1}^{n} x_i \\left(\\sum_{i=1}^{n} \\frac{1}{x_i}\\right) - k_n\\left(\\prod_{i=1}^{n} x_i - 1\\right) - n$$\n$$= (x_1 + x_2)A + x_1 x_2(B - k_n A) - k_n + n$$\n\n则不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right)$ 成立，当且仅当 $B \\geqslant k_n A$。另外，不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n)$ 成立，当且仅当 $B \\leqslant k_n A$。两个不等式 $B \\geqslant k_n A$ 和 $B \\leqslant k_n A$ 至少有一个必定成立。所以，我们有\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，函数 $f$ 当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1 x_2 \\cdots x_n = 0$ 时，达到最大值。\n\n当 $x_1 = x_2 = \\cdots = x_n$ 时，由AM-GM不等式，很容易得到不等式 $f \\leqslant 0$，当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。所以，最好（最大值）可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。",
+  "answer_md": "$k_n = n - \\left(\\frac{n}{n-1}\\right)^{n-1}$",
+  "hints_md": "注 前一个例子（例7.3.3）是本题的一个特例（$n=4$的情况）。另外，注意到，对所有的 $n \\in \\mathbb{N}$，有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1 + \\frac{1}{n-1}\\right)^{n-1} < e$$\n\n所以，我们推出如下不等式：\n设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，证明\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} + e\\right) \\leqslant n x_1 x_2 \\cdots x_n + e$$",
+  "original_text_md": "**例 7.3.4** 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，求最好的正常数 $k = k_n$，使得下列不等式成立\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right) \\leqslant n + k_n(x_1 x_2 \\cdots x_n - 1)$$\n\n**解** 设\n$$A = x_3 x_4 \\cdots x_n, B = \\sum_{i=3}^{n} \\prod_{j=3, j \\neq i}^{n} x_j$$\n$$f(x_1, x_2, \\cdots, x_n) = \\prod_{i=1}^{n} x_i \\left(\\sum_{i=1}^{n} \\frac{1}{x_i}\\right) - k_n\\left(\\prod_{i=1}^{n} x_i - 1\\right) - n$$\n$$= (x_1 + x_2)A + x_1 x_2(B - k_n A) - k_n + n$$\n\n则不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right)$ 成立，当且仅当 $B \\geqslant k_n A$。另外，不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n)$ 成立，当且仅当 $B \\leqslant k_n A$。两个不等式 $B \\geqslant k_n A$ 和 $B \\leqslant k_n A$ 至少有一个必定成立。所以，我们有\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，函数 $f$ 当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1 x_2 \\cdots x_n = 0$ 时，达到最大值。\n\n当 $x_1 = x_2 = \\cdots = x_n$ 时，由AM-GM不等式，很容易得到不等式 $f \\leqslant 0$，当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。所以，最好（最大值）可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。\n\n**注** 前一个例子（例7.3.3）是本题的一个特例（$n=4$的情况）。另外，注意到，对所有的 $n \\in \\mathbb{N}$，有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1 + \\frac{1}{n-1}\\right)^{n-1} < e$$\n\n所以，我们推出如下不等式：\n设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，证明\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} + e\\right) \\leqslant n x_1 x_2 \\cdots x_n + e$$",
+  "tags": [
+    "UMV方法",
+    "AM-GM不等式",
+    "最佳常数",
+    "自然常数e"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "33e8af246414c4be8b91317eb65d43dcc2d212bc",
+  "raw_problem": {
+    "problem_id": "例7.3.4",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.3 不确定整合变量法",
+    "title": null,
+    "source_pages": [
+      198
+    ],
+    "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，求最好的正常数 $k = k_n$，使得下列不等式成立\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right) \\leqslant n + k_n(x_1 x_2 \\cdots x_n - 1)$$",
+    "solution_md": "设\n$$A = x_3 x_4 \\cdots x_n, B = \\sum_{i=3}^{n} \\prod_{j=3, j \\neq i}^{n} x_j$$\n$$f(x_1, x_2, \\cdots, x_n) = \\prod_{i=1}^{n} x_i \\left(\\sum_{i=1}^{n} \\frac{1}{x_i}\\right) - k_n\\left(\\prod_{i=1}^{n} x_i - 1\\right) - n$$\n$$= (x_1 + x_2)A + x_1 x_2(B - k_n A) - k_n + n$$\n\n则不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right)$ 成立，当且仅当 $B \\geqslant k_n A$。另外，不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n)$ 成立，当且仅当 $B \\leqslant k_n A$。两个不等式 $B \\geqslant k_n A$ 和 $B \\leqslant k_n A$ 至少有一个必定成立。所以，我们有\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，函数 $f$ 当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1 x_2 \\cdots x_n = 0$ 时，达到最大值。\n\n当 $x_1 = x_2 = \\cdots = x_n$ 时，由AM-GM不等式，很容易得到不等式 $f \\leqslant 0$，当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。所以，最好（最大值）可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。",
+    "answer_md": "$k_n = n - \\left(\\frac{n}{n-1}\\right)^{n-1}$",
+    "hints_md": "注 前一个例子（例7.3.3）是本题的一个特例（$n=4$的情况）。另外，注意到，对所有的 $n \\in \\mathbb{N}$，有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1 + \\frac{1}{n-1}\\right)^{n-1} < e$$\n\n所以，我们推出如下不等式：\n设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，证明\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} + e\\right) \\leqslant n x_1 x_2 \\cdots x_n + e$$",
+    "original_text_md": "**例 7.3.4** 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，求最好的正常数 $k = k_n$，使得下列不等式成立\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n}\\right) \\leqslant n + k_n(x_1 x_2 \\cdots x_n - 1)$$\n\n**解** 设\n$$A = x_3 x_4 \\cdots x_n, B = \\sum_{i=3}^{n} \\prod_{j=3, j \\neq i}^{n} x_j$$\n$$f(x_1, x_2, \\cdots, x_n) = \\prod_{i=1}^{n} x_i \\left(\\sum_{i=1}^{n} \\frac{1}{x_i}\\right) - k_n\\left(\\prod_{i=1}^{n} x_i - 1\\right) - n$$\n$$= (x_1 + x_2)A + x_1 x_2(B - k_n A) - k_n + n$$\n\n则不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right)$ 成立，当且仅当 $B \\geqslant k_n A$。另外，不等式 $f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n)$ 成立，当且仅当 $B \\leqslant k_n A$。两个不等式 $B \\geqslant k_n A$ 和 $B \\leqslant k_n A$ 至少有一个必定成立。所以，我们有\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n根据UMV定理，函数 $f$ 当且仅当 $x_1 = x_2 = \\cdots = x_n$ 或 $x_1 x_2 \\cdots x_n = 0$ 时，达到最大值。\n\n当 $x_1 = x_2 = \\cdots = x_n$ 时，由AM-GM不等式，很容易得到不等式 $f \\leqslant 0$，当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。所以，最好（最大值）可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$。\n\n**注** 前一个例子（例7.3.3）是本题的一个特例（$n=4$的情况）。另外，注意到，对所有的 $n \\in \\mathbb{N}$，有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1 + \\frac{1}{n-1}\\right)^{n-1} < e$$\n\n所以，我们推出如下不等式：\n设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，证明\n$$x_1 x_2 \\cdots x_n\\left(\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} + e\\right) \\leqslant n x_1 x_2 \\cdots x_n + e$$",
+    "tags": [
+      "UMV方法",
+      "AM-GM不等式",
+      "最佳常数",
+      "自然常数e"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

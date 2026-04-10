@@ -1,0 +1,21 @@
+{
+  "uid": "p113_113_4_aa3aef215e",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "习题 7",
+  "section": null,
+  "problem_id": "4",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    113
+  ],
+  "stem_md": "设 $a 、 b 、 c$ 是正实数, 求证: $$\\frac{(2a + b + c)^2}{2a^2 + (b + c)^2} + \\frac{(a + 2b + c)^2}{2b^2 + (a + c)^2} + \\frac{(a + b + 2c)^2}{2c^2 + (b + a)^2} \\leqslant 8.$$ (2003 年美国数学奥林匹克)",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a 、 b 、 c$ 是正实数, 求证: $$\\frac{(2a + b + c)^2}{2a^2 + (b + c)^2} + \\frac{(a + 2b + c)^2}{2b^2 + (a + c)^2} + \\frac{(a + b + 2c)^2}{2c^2 + (b + a)^2} \\leqslant 8.$$ (2003 年美国数学奥林匹克)",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015"
+}

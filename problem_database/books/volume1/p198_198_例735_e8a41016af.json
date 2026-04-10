@@ -1,0 +1,55 @@
+{
+  "uid": "p198_198_例735_e8a41016af",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第7章 读者发表的文章",
+  "section": "7.3 不确定整合变量法",
+  "problem_id": "例7.3.5",
+  "problem_type": "example",
+  "title": "Dinh Ngoc An, CPR",
+  "source_pages": [
+    198
+  ],
+  "source_images": [
+    "page-198.jpg"
+  ],
+  "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，$k$ 是任意一个正常数，求下列表达式\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$$\n的最大值。",
+  "solution_md": "容易推出\n$$S_{1,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1} x_{i_2} \\cdots x_{i_p} \\leqslant C_n^p$$\n\n所以，对所有 $k \\leqslant 1$，下列不等式成立\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k \\leqslant C_n^p$$\n\n对于 $k \\geqslant 1$，令\n$$A = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-2} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-2}})^k, B = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-1} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-1}})^k$$\n\n考察函数 $f(x_1, x_2, \\cdots, x_n) = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$，我们来证明\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n事实上，不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right) \\quad (1)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - \\left(\\frac{x_1+x_2}{2}\\right)^{2k} A - 2\\left(\\frac{x_1+x_2}{2}\\right)^k B \\leqslant 0$$\n或者\n$$\\frac{\\left(\\frac{x_1+x_2}{2}\\right)^{2k} - x_1^k x_2^k}{x_1^k + x_2^k - 2\\left(\\frac{x_1+x_2}{2}\\right)^k} \\geqslant \\frac{B}{A}$$\n\n不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n) \\quad (2)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - (x_1+x_2)^k B \\leqslant 0$$\n或者\n$$\\text{上式} \\Leftrightarrow \\frac{x_1^k x_2^k}{(x_1+x_2)^k - (x_1^k + x_2^k)} \\leqslant \\frac{B}{A}$$\n\n根据AM-GM不等式，我们有（因为 $k \\geqslant 1$）\n$$x_1^k + x_2^k \\geqslant 2\\left(\\frac{x_1+x_2}{2}\\right)^{2k} \\geqslant 2x_1^k x_2^k$$\n\n所以",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "**例 7.3.5(Dinh Ngoc An, CPR)** 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，$k$ 是任意一个正常数，求下列表达式\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$$\n的最大值。\n\n**解** 容易推出\n$$S_{1,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1} x_{i_2} \\cdots x_{i_p} \\leqslant C_n^p$$\n\n所以，对所有 $k \\leqslant 1$，下列不等式成立\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k \\leqslant C_n^p$$\n\n对于 $k \\geqslant 1$，令\n$$A = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-2} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-2}})^k, B = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-1} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-1}})^k$$\n\n考察函数 $f(x_1, x_2, \\cdots, x_n) = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$，我们来证明\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n事实上，不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right) \\quad (1)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - \\left(\\frac{x_1+x_2}{2}\\right)^{2k} A - 2\\left(\\frac{x_1+x_2}{2}\\right)^k B \\leqslant 0$$\n或者\n$$\\frac{\\left(\\frac{x_1+x_2}{2}\\right)^{2k} - x_1^k x_2^k}{x_1^k + x_2^k - 2\\left(\\frac{x_1+x_2}{2}\\right)^k} \\geqslant \\frac{B}{A}$$\n\n不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n) \\quad (2)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - (x_1+x_2)^k B \\leqslant 0$$\n或者\n$$\\text{上式} \\Leftrightarrow \\frac{x_1^k x_2^k}{(x_1+x_2)^k - (x_1^k + x_2^k)} \\leqslant \\frac{B}{A}$$\n\n根据AM-GM不等式，我们有（因为 $k \\geqslant 1$）\n$$x_1^k + x_2^k \\geqslant 2\\left(\\frac{x_1+x_2}{2}\\right)^{2k} \\geqslant 2x_1^k x_2^k$$\n\n所以",
+  "tags": [
+    "UMV方法",
+    "AM-GM不等式",
+    "对称和",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0022",
+  "raw_response_file": "raw/chunk-0022.response.txt",
+  "raw_api_file": "raw/chunk-0022.api.json",
+  "fingerprint": "e8a41016af6b773b907164df7753f0cbd00a051a",
+  "raw_problem": {
+    "problem_id": "例7.3.5",
+    "problem_type": "example",
+    "chapter": "第7章 读者发表的文章",
+    "section": "7.3 不确定整合变量法",
+    "title": "Dinh Ngoc An, CPR",
+    "source_pages": [
+      198
+    ],
+    "stem_md": "设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，$k$ 是任意一个正常数，求下列表达式\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$$\n的最大值。",
+    "solution_md": "容易推出\n$$S_{1,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1} x_{i_2} \\cdots x_{i_p} \\leqslant C_n^p$$\n\n所以，对所有 $k \\leqslant 1$，下列不等式成立\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k \\leqslant C_n^p$$\n\n对于 $k \\geqslant 1$，令\n$$A = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-2} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-2}})^k, B = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-1} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-1}})^k$$\n\n考察函数 $f(x_1, x_2, \\cdots, x_n) = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$，我们来证明\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n事实上，不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right) \\quad (1)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - \\left(\\frac{x_1+x_2}{2}\\right)^{2k} A - 2\\left(\\frac{x_1+x_2}{2}\\right)^k B \\leqslant 0$$\n或者\n$$\\frac{\\left(\\frac{x_1+x_2}{2}\\right)^{2k} - x_1^k x_2^k}{x_1^k + x_2^k - 2\\left(\\frac{x_1+x_2}{2}\\right)^k} \\geqslant \\frac{B}{A}$$\n\n不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n) \\quad (2)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - (x_1+x_2)^k B \\leqslant 0$$\n或者\n$$\\text{上式} \\Leftrightarrow \\frac{x_1^k x_2^k}{(x_1+x_2)^k - (x_1^k + x_2^k)} \\leqslant \\frac{B}{A}$$\n\n根据AM-GM不等式，我们有（因为 $k \\geqslant 1$）\n$$x_1^k + x_2^k \\geqslant 2\\left(\\frac{x_1+x_2}{2}\\right)^{2k} \\geqslant 2x_1^k x_2^k$$\n\n所以",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "**例 7.3.5(Dinh Ngoc An, CPR)** 设 $x_1, x_2, \\cdots, x_n$ 是非负实数，其和为 $n$，$k$ 是任意一个正常数，求下列表达式\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$$\n的最大值。\n\n**解** 容易推出\n$$S_{1,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1} x_{i_2} \\cdots x_{i_p} \\leqslant C_n^p$$\n\n所以，对所有 $k \\leqslant 1$，下列不等式成立\n$$S_{k,p} = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k \\leqslant C_n^p$$\n\n对于 $k \\geqslant 1$，令\n$$A = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-2} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-2}})^k, B = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-1} \\leqslant n} (x_{i_1} x_{i_2} \\cdots x_{i_{p-1}})^k$$\n\n考察函数 $f(x_1, x_2, \\cdots, x_n) = \\sum_{1 \\leqslant i_1 < i_2 < \\cdots < i_p \\leqslant n} x_{i_1}^k x_{i_2}^k \\cdots x_{i_p}^k$，我们来证明\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right), f(0, x_1+x_2, x_3, \\cdots, x_n)\\right\\}$$\n\n事实上，不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f\\left(\\frac{x_1+x_2}{2}, \\frac{x_1+x_2}{2}, x_3, \\cdots, x_n\\right) \\quad (1)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - \\left(\\frac{x_1+x_2}{2}\\right)^{2k} A - 2\\left(\\frac{x_1+x_2}{2}\\right)^k B \\leqslant 0$$\n或者\n$$\\frac{\\left(\\frac{x_1+x_2}{2}\\right)^{2k} - x_1^k x_2^k}{x_1^k + x_2^k - 2\\left(\\frac{x_1+x_2}{2}\\right)^k} \\geqslant \\frac{B}{A}$$\n\n不等式\n$$f(x_1, x_2, \\cdots, x_n) \\leqslant f(0, x_1+x_2, x_3, \\cdots, x_n) \\quad (2)$$\n成立，当且仅当\n$$x_1^k x_2^k A + (x_1^k + x_2^k)B - (x_1+x_2)^k B \\leqslant 0$$\n或者\n$$\\text{上式} \\Leftrightarrow \\frac{x_1^k x_2^k}{(x_1+x_2)^k - (x_1^k + x_2^k)} \\leqslant \\frac{B}{A}$$\n\n根据AM-GM不等式，我们有（因为 $k \\geqslant 1$）\n$$x_1^k + x_2^k \\geqslant 2\\left(\\frac{x_1+x_2}{2}\\right)^{2k} \\geqslant 2x_1^k x_2^k$$\n\n所以",
+    "tags": [
+      "UMV方法",
+      "AM-GM不等式",
+      "对称和",
+      "最大值"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

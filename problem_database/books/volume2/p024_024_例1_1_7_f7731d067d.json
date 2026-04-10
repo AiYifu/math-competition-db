@@ -1,0 +1,21 @@
+{
+  "uid": "p024_024_例1_1_7_f7731d067d",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "第1章",
+  "section": "1.1 起步",
+  "problem_id": "例1.1.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    24
+  ],
+  "stem_md": "设正实数 $x, y, z$ 满足 $xyz \\geqslant 1$, 证明 \n$$ \\frac{x^5 - x^2}{x^5 + y^2 + z^2} + \\frac{y^5 - y^2}{y^5 + z^2 + x^2} + \\frac{z^5 - z^2}{z^5 + x^2 + y^2} \\geqslant 0 $$",
+  "solution_md": "证明 注意到, $y^2 + z^2 \\geqslant 2yz$, 则只需证明 \n$$ \\sum \\frac{2c^2 - a(b + c) + a(c - a)}{2c^2 + (b + c)^2} \\geqslant 0 $$\n设 $a = x^2, b = y^2, c = z^2$, 则只需证明 \n$$ \\sum \\frac{a^2 + b^2 + c^2}{ab + bc + ca} + \\frac{8abc}{(a + b)(b + c)(c + a)} \\geqslant 2 $$\n于是, 我们计算出 \n$$ \\alpha = \\frac{1}{ab + bc + ca} - \\frac{2a}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\gamma = \\frac{1}{ab + bc + ca} - \\frac{2c}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\beta = \\frac{1}{ab + bc + ca} - \\frac{2b}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n但是 $\\alpha$ 并不总是非负的 (因为如果 $\\alpha$ 非负, 不等式得证), 于是, 在最后一步, 我们尝试整合“大的非负项 $\\beta(c - a)^2$” 和“小的负项 $\\alpha(a - b)^2$”, 这就是说, 只需证明 $\\beta(c - a)^2 + \\alpha(a - b)^2 \\geqslant 0$, 证毕.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.1.7 (Hoo Jo Lee, IMO 2005) 设正实数 $x, y, z$ 满足 $xyz \\geqslant 1$, 证明 \n$$ \\frac{x^5 - x^2}{x^5 + y^2 + z^2} + \\frac{y^5 - y^2}{y^5 + z^2 + x^2} + \\frac{z^5 - z^2}{z^5 + x^2 + y^2} \\geqslant 0 $$\n证明 注意到, $y^2 + z^2 \\geqslant 2yz$, 则只需证明 \n$$ \\sum \\frac{2c^2 - a(b + c) + a(c - a)}{2c^2 + (b + c)^2} \\geqslant 0 $$\n设 $a = x^2, b = y^2, c = z^2$, 则只需证明 \n$$ \\sum \\frac{a^2 + b^2 + c^2}{ab + bc + ca} + \\frac{8abc}{(a + b)(b + c)(c + a)} \\geqslant 2 $$\n于是, 我们计算出 \n$$ \\alpha = \\frac{1}{ab + bc + ca} - \\frac{2a}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\gamma = \\frac{1}{ab + bc + ca} - \\frac{2c}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n$$ \\beta = \\frac{1}{ab + bc + ca} - \\frac{2b}{(a + b)(b + c)(c + a)} \\geqslant 0 $$\n但是 $\\alpha$ 并不总是非负的 (因为如果 $\\alpha$ 非负, 不等式得证), 于是, 在最后一步, 我们尝试整合“大的非负项 $\\beta(c - a)^2$” 和“小的负项 $\\alpha(a - b)^2$”, 这就是说, 只需证明 $\\beta(c - a)^2 + \\alpha(a - b)^2 \\geqslant 0$, 证毕.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0001"
+}

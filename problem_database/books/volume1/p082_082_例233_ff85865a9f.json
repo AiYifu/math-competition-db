@@ -1,0 +1,53 @@
+{
+  "uid": "p082_082_例233_ff85865a9f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2.3",
+  "section": null,
+  "problem_id": "例2.3.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    82
+  ],
+  "source_images": [
+    "page-082.jpg"
+  ],
+  "stem_md": "设 $x,y,z,t$ 是满足 $x+y+z+t=4$ 的非负实数，证明\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125+131xyzt$$",
+  "solution_md": "考虑下列表达式\n$$f(x,y,z,t)=(1+3x)(1+3y)(1+3z)(1+3t)-131xyzt$$\n不失一般性，设 $x \\geqslant y \\geqslant z \\geqslant t$，则\n$$f(x,y,z,t)-f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)=-\\frac{1}{4}\\left[9(1+3y)(1+3t)-131yt\\right](x-z)^2$$\n注意到，$y+t \\leqslant 2$，于是，$yt \\leqslant 1$。所以\n$$9+27(y+t) \\geqslant 54\\sqrt{yt} \\geqslant 54yt \\geqslant 50yt \\Rightarrow 9(1+3y)(1+3t) \\geqslant 131yt$$\n因此，我们有\n$$f(x,y,z,t) \\leqslant f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)$$\n由 SMV 定理可知，只需证明原不等式在 $x=y=z=a \\geqslant 1 \\geqslant t=4-3z$ 的条件下成立即可。此时，不等式变成\n$$(1+3a)^3[1+3(4-3a)] \\leqslant 125+131a^3(4-3a)$$\n$$\\Leftrightarrow 150a^4-416a^3+270a^2+108a-112 \\leqslant 0$$\n$$\\Leftrightarrow (a-1)^2(3a-4)(50a+28) \\leqslant 0$$\n这是显然成立的，等号成立的条件是 $x=y=z=t=1$ 和 $x=y=z=\\frac{4}{3},t=0$ 或其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.3.3(Pham Kim Hung, Mathlinks) 设 $x,y,z,t$ 是满足 $x+y+z+t=4$ 的非负实数,证明\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125+131xyzt$$\n证明 考虑下列表达式\n$$f(x,y,z,t)=(1+3x)(1+3y)(1+3z)(1+3t)-131xyzt$$\n不失一般性,设 $x \\geqslant y \\geqslant z \\geqslant t$,则\n$$f(x,y,z,t)-f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)=-\\frac{1}{4}\\left[9(1+3y)(1+3t)-131yt\\right](x-z)^2$$\n注意到,$y+t \\leqslant 2$,于是,$yt \\leqslant 1$.所以\n$$9+27(y+t) \\geqslant 54\\sqrt{yt} \\geqslant 54yt \\geqslant 50yt \\Rightarrow 9(1+3y)(1+3t) \\geqslant 131yt$$\n因此,我们有\n$$f(x,y,z,t) \\leqslant f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)$$\n由 SMV 定理可知,只需证明原不等式在 $x=y=z=a \\geqslant 1 \\geqslant t=4-3z$ 的条件下成立即可.此时,不等式变成\n$$(1+3a)^3[1+3(4-3a)] \\leqslant 125+131a^3(4-3a)$$\n$$\\Leftrightarrow 150a^4-416a^3+270a^2+108a-112 \\leqslant 0$$\n$$\\Leftrightarrow (a-1)^2(3a-4)(50a+28) \\leqslant 0$$\n这是显然成立的,等号成立的条件是 $x=y=z=t=1$ 和 $x=y=z=\\frac{4}{3},t=0$ 或其轮换.",
+  "tags": [
+    "SMV定理",
+    "四元不等式",
+    "对称不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0010",
+  "raw_response_file": "raw/chunk-0010.response.txt",
+  "raw_api_file": "raw/chunk-0010.api.json",
+  "fingerprint": "ff85865a9fcf12471a971829b775787afca62ada",
+  "raw_problem": {
+    "problem_id": "例2.3.3",
+    "problem_type": "example",
+    "chapter": "2.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      82
+    ],
+    "stem_md": "设 $x,y,z,t$ 是满足 $x+y+z+t=4$ 的非负实数，证明\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125+131xyzt$$",
+    "solution_md": "考虑下列表达式\n$$f(x,y,z,t)=(1+3x)(1+3y)(1+3z)(1+3t)-131xyzt$$\n不失一般性，设 $x \\geqslant y \\geqslant z \\geqslant t$，则\n$$f(x,y,z,t)-f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)=-\\frac{1}{4}\\left[9(1+3y)(1+3t)-131yt\\right](x-z)^2$$\n注意到，$y+t \\leqslant 2$，于是，$yt \\leqslant 1$。所以\n$$9+27(y+t) \\geqslant 54\\sqrt{yt} \\geqslant 54yt \\geqslant 50yt \\Rightarrow 9(1+3y)(1+3t) \\geqslant 131yt$$\n因此，我们有\n$$f(x,y,z,t) \\leqslant f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)$$\n由 SMV 定理可知，只需证明原不等式在 $x=y=z=a \\geqslant 1 \\geqslant t=4-3z$ 的条件下成立即可。此时，不等式变成\n$$(1+3a)^3[1+3(4-3a)] \\leqslant 125+131a^3(4-3a)$$\n$$\\Leftrightarrow 150a^4-416a^3+270a^2+108a-112 \\leqslant 0$$\n$$\\Leftrightarrow (a-1)^2(3a-4)(50a+28) \\leqslant 0$$\n这是显然成立的，等号成立的条件是 $x=y=z=t=1$ 和 $x=y=z=\\frac{4}{3},t=0$ 或其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.3.3(Pham Kim Hung, Mathlinks) 设 $x,y,z,t$ 是满足 $x+y+z+t=4$ 的非负实数,证明\n$$(1+3x)(1+3y)(1+3z)(1+3t) \\leqslant 125+131xyzt$$\n证明 考虑下列表达式\n$$f(x,y,z,t)=(1+3x)(1+3y)(1+3z)(1+3t)-131xyzt$$\n不失一般性,设 $x \\geqslant y \\geqslant z \\geqslant t$,则\n$$f(x,y,z,t)-f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)=-\\frac{1}{4}\\left[9(1+3y)(1+3t)-131yt\\right](x-z)^2$$\n注意到,$y+t \\leqslant 2$,于是,$yt \\leqslant 1$.所以\n$$9+27(y+t) \\geqslant 54\\sqrt{yt} \\geqslant 54yt \\geqslant 50yt \\Rightarrow 9(1+3y)(1+3t) \\geqslant 131yt$$\n因此,我们有\n$$f(x,y,z,t) \\leqslant f\\left(\\frac{x+z}{2},y,\\frac{x+z}{2},t\\right)$$\n由 SMV 定理可知,只需证明原不等式在 $x=y=z=a \\geqslant 1 \\geqslant t=4-3z$ 的条件下成立即可.此时,不等式变成\n$$(1+3a)^3[1+3(4-3a)] \\leqslant 125+131a^3(4-3a)$$\n$$\\Leftrightarrow 150a^4-416a^3+270a^2+108a-112 \\leqslant 0$$\n$$\\Leftrightarrow (a-1)^2(3a-4)(50a+28) \\leqslant 0$$\n这是显然成立的,等号成立的条件是 $x=y=z=t=1$ 和 $x=y=z=\\frac{4}{3},t=0$ 或其轮换.",
+    "tags": [
+      "SMV定理",
+      "四元不等式",
+      "对称不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

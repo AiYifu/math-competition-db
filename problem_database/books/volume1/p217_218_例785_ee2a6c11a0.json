@@ -1,0 +1,56 @@
+{
+  "uid": "p217_218_例785_ee2a6c11a0",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    217,
+    218
+  ],
+  "source_images": [
+    "page-217.jpg",
+    "page-218.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+\\frac{3(a^3b+b^3c+c^3a)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 4$$",
+  "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，照例，我们把不等式写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{ab+bc+ca}+\\frac{3ab}{a^2b^2+b^2c^2+c^2a^2}-\\frac{(4ab+7ac+7bc)(c-a)(c-b)}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n$$N=\\frac{1}{ab+bc+ca}+\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}+\\frac{(4ab+7ac+7bc)(a-b)^2}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n接下来，我们来证明，$M,N\\geqslant 0$。事实上，由假设条件 $c=\\min\\{a,b,c\\}$，因为\n$$(a^2b^2+b^2c^2+c^2a^2)+3ab(ab+bc+ca)-(4ab+7ac+7bc)(c-a)(c-b)$$\n$$=c^2(a-b)^2+c^2(7a^2+7b^2+10ab-7ac-7bc)\\geqslant 0$$\n所以，$M\\geqslant 0$。\n\n如果 $a\\geqslant b$，由于 $\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 0$，所以，$N\\geqslant 0$；如果 $a\\leqslant b$，则 $N\\geqslant 0$ 等价于\n$$A=(a^2b^2+b^2c^2+c^2a^2)+3(ab+ac-b^2)(ab+bc+ca)+$$\n$$(4ab+7ac+7bc)(a-b)^2$$\n$$=ab(2a-b)^2+c^2(a^2+b^2)+3a^2bc+$$\n$$c(a+b)(7a^2+4b^2+3ac-11ab)$$\n由于 $3a^2bc\\geqslant\\frac{3c(a+b)a^2}{2}$，则\n$$A\\geqslant ab(2a-b)^2+\\frac{3c(a+b)a^2}{2}+c(a+b)(7a^2+4b^2+3ac-11ab)$$\n$$=ab(2a-b)^2+c(a+b)\\left[\\left(\\frac{11}{4}a-2b\\right)^2+\\frac{15}{16}a^2\\right]\\geqslant 0$$\n所以，原不等式得证；等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,2,0)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.5(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+\\frac{3(a^3b+b^3c+c^3a)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 4$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，照例，我们把不等式写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{ab+bc+ca}+\\frac{3ab}{a^2b^2+b^2c^2+c^2a^2}-\\frac{(4ab+7ac+7bc)(c-a)(c-b)}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n$$N=\\frac{1}{ab+bc+ca}+\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}+\\frac{(4ab+7ac+7bc)(a-b)^2}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n接下来，我们来证明，$M,N\\geqslant 0$。事实上，由假设条件 $c=\\min\\{a,b,c\\}$，因为\n$$(a^2b^2+b^2c^2+c^2a^2)+3ab(ab+bc+ca)-(4ab+7ac+7bc)(c-a)(c-b)$$\n$$=c^2(a-b)^2+c^2(7a^2+7b^2+10ab-7ac-7bc)\\geqslant 0$$\n所以，$M\\geqslant 0$。\n\n如果 $a\\geqslant b$，由于 $\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 0$，所以，$N\\geqslant 0$；如果 $a\\leqslant b$，则 $N\\geqslant 0$ 等价于\n$$A=(a^2b^2+b^2c^2+c^2a^2)+3(ab+ac-b^2)(ab+bc+ca)+$$\n$$(4ab+7ac+7bc)(a-b)^2$$\n$$=ab(2a-b)^2+c^2(a^2+b^2)+3a^2bc+$$\n$$c(a+b)(7a^2+4b^2+3ac-11ab)$$\n由于 $3a^2bc\\geqslant\\frac{3c(a+b)a^2}{2}$，则\n$$A\\geqslant ab(2a-b)^2+\\frac{3c(a+b)a^2}{2}+c(a+b)(7a^2+4b^2+3ac-11ab)$$\n$$=ab(2a-b)^2+c(a+b)\\left[\\left(\\frac{11}{4}a-2b\\right)^2+\\frac{15}{16}a^2\\right]\\geqslant 0$$\n所以，原不等式得证；等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,2,0)$。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "ee2a6c11a062d83b4fcacf28fd992d9544f58085",
+  "raw_problem": {
+    "problem_id": "例7.8.5",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      217,
+      218
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+\\frac{3(a^3b+b^3c+c^3a)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 4$$",
+    "solution_md": "不失一般性，设 $c=\\min\\{a,b,c\\}$，照例，我们把不等式写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{ab+bc+ca}+\\frac{3ab}{a^2b^2+b^2c^2+c^2a^2}-\\frac{(4ab+7ac+7bc)(c-a)(c-b)}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n$$N=\\frac{1}{ab+bc+ca}+\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}+\\frac{(4ab+7ac+7bc)(a-b)^2}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n接下来，我们来证明，$M,N\\geqslant 0$。事实上，由假设条件 $c=\\min\\{a,b,c\\}$，因为\n$$(a^2b^2+b^2c^2+c^2a^2)+3ab(ab+bc+ca)-(4ab+7ac+7bc)(c-a)(c-b)$$\n$$=c^2(a-b)^2+c^2(7a^2+7b^2+10ab-7ac-7bc)\\geqslant 0$$\n所以，$M\\geqslant 0$。\n\n如果 $a\\geqslant b$，由于 $\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 0$，所以，$N\\geqslant 0$；如果 $a\\leqslant b$，则 $N\\geqslant 0$ 等价于\n$$A=(a^2b^2+b^2c^2+c^2a^2)+3(ab+ac-b^2)(ab+bc+ca)+$$\n$$(4ab+7ac+7bc)(a-b)^2$$\n$$=ab(2a-b)^2+c^2(a^2+b^2)+3a^2bc+$$\n$$c(a+b)(7a^2+4b^2+3ac-11ab)$$\n由于 $3a^2bc\\geqslant\\frac{3c(a+b)a^2}{2}$，则\n$$A\\geqslant ab(2a-b)^2+\\frac{3c(a+b)a^2}{2}+c(a+b)(7a^2+4b^2+3ac-11ab)$$\n$$=ab(2a-b)^2+c(a+b)\\left[\\left(\\frac{11}{4}a-2b\\right)^2+\\frac{15}{16}a^2\\right]\\geqslant 0$$\n所以，原不等式得证；等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,2,0)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.5(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2+b^2+c^2}{ab+bc+ca}+\\frac{3(a^3b+b^3c+c^3a)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 4$$\n证明 不失一般性，设 $c=\\min\\{a,b,c\\}$，照例，我们把不等式写成\n$$M(a-b)^2+N(c-a)(c-b)\\geqslant 0$$\n其中\n$$M=\\frac{1}{ab+bc+ca}+\\frac{3ab}{a^2b^2+b^2c^2+c^2a^2}-\\frac{(4ab+7ac+7bc)(c-a)(c-b)}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n$$N=\\frac{1}{ab+bc+ca}+\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}+\\frac{(4ab+7ac+7bc)(a-b)^2}{(a^2b^2+b^2c^2+c^2a^2)(ab+bc+ca)}$$\n接下来，我们来证明，$M,N\\geqslant 0$。事实上，由假设条件 $c=\\min\\{a,b,c\\}$，因为\n$$(a^2b^2+b^2c^2+c^2a^2)+3ab(ab+bc+ca)-(4ab+7ac+7bc)(c-a)(c-b)$$\n$$=c^2(a-b)^2+c^2(7a^2+7b^2+10ab-7ac-7bc)\\geqslant 0$$\n所以，$M\\geqslant 0$。\n\n如果 $a\\geqslant b$，由于 $\\frac{3(ab+ac-b^2)}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 0$，所以，$N\\geqslant 0$；如果 $a\\leqslant b$，则 $N\\geqslant 0$ 等价于\n$$A=(a^2b^2+b^2c^2+c^2a^2)+3(ab+ac-b^2)(ab+bc+ca)+$$\n$$(4ab+7ac+7bc)(a-b)^2$$\n$$=ab(2a-b)^2+c^2(a^2+b^2)+3a^2bc+$$\n$$c(a+b)(7a^2+4b^2+3ac-11ab)$$\n由于 $3a^2bc\\geqslant\\frac{3c(a+b)a^2}{2}$，则\n$$A\\geqslant ab(2a-b)^2+\\frac{3c(a+b)a^2}{2}+c(a+b)(7a^2+4b^2+3ac-11ab)$$\n$$=ab(2a-b)^2+c(a+b)\\left[\\left(\\frac{11}{4}a-2b\\right)^2+\\frac{15}{16}a^2\\right]\\geqslant 0$$\n所以，原不等式得证；等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,2,0)$。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

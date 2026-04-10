@@ -1,0 +1,56 @@
+{
+  "uid": "p176_177_例_538_10630f0e23",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    176,
+    177
+  ],
+  "source_images": [
+    "page-176.jpg",
+    "page-177.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是某三角形三边长，$x,y,z$ 是实数，证明不等式\n$$(ya^2+zb^2+xc^2)(za^2+xb^2+yc^2)\\geqslant(xy+yz+zx)(a^2b^2+b^2c^2+c^2a^2)$$",
+  "solution_md": "不等式等价于\n$$\\sum x^2b^2c^2\\geqslant\\sum yza^2(b^2+c^2-a^2)\\Leftrightarrow\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{yz(b^2+c^2-a^2)}{b^2c^2}$$\n因为，$a,b,c$ 是三角形三边长，因此，有余弦定理\n$$\\cos A=\\frac{b^2+c^2-a^2}{2bc},\\cos B=\\frac{a^2+c^2-b^2}{2ca},\\cos C=\\frac{a^2+b^2-c^2}{2ab}$$\n只需证明\n$$\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{2yz\\cos A}{bc}$$\n$$\\Leftrightarrow\\left(\\frac{x}{a}-\\frac{y}{b}\\cos C-\\frac{z}{c}\\cos B\\right)^2+\\left(\\frac{y}{b}\\sin C-\\frac{z}{c}\\sin B\\right)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $\\frac{x}{a^2}=\\frac{y}{b^2}=\\frac{z}{c^2}$。",
+  "answer_md": "",
+  "hints_md": "注 令 $x=\\frac{1}{b},y=\\frac{1}{c},z=\\frac{1}{a}$，则我们得到 IMO1986 的一个不等式\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+  "original_text_md": "例 5.3.8 设 $a,b,c$ 是某三角形三边长，$x,y,z$ 是实数，证明不等式\n$$(ya^2+zb^2+xc^2)(za^2+xb^2+yc^2)\\geqslant(xy+yz+zx)(a^2b^2+b^2c^2+c^2a^2)$$\n证明 不等式等价于\n$$\\sum x^2b^2c^2\\geqslant\\sum yza^2(b^2+c^2-a^2)\\Leftrightarrow\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{yz(b^2+c^2-a^2)}{b^2c^2}$$\n因为，$a,b,c$ 是三角形三边长，因此，有余弦定理\n$$\\cos A=\\frac{b^2+c^2-a^2}{2bc},\\cos B=\\frac{a^2+c^2-b^2}{2ca},\\cos C=\\frac{a^2+b^2-c^2}{2ab}$$\n只需证明\n$$\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{2yz\\cos A}{bc}$$\n$$\\Leftrightarrow\\left(\\frac{x}{a}-\\frac{y}{b}\\cos C-\\frac{z}{c}\\cos B\\right)^2+\\left(\\frac{y}{b}\\sin C-\\frac{z}{c}\\sin B\\right)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $\\frac{x}{a^2}=\\frac{y}{b^2}=\\frac{z}{c^2}$。\n注 令 $x=\\frac{1}{b},y=\\frac{1}{c},z=\\frac{1}{a}$，则我们得到 IMO1986 的一个不等式\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+  "tags": [
+    "三角形不等式",
+    "余弦定理",
+    "IMO1986"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "10630f0e23e8664b57bd5f38b9bd62c187c8dff6",
+  "raw_problem": {
+    "problem_id": "例 5.3.8",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      176,
+      177
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形三边长，$x,y,z$ 是实数，证明不等式\n$$(ya^2+zb^2+xc^2)(za^2+xb^2+yc^2)\\geqslant(xy+yz+zx)(a^2b^2+b^2c^2+c^2a^2)$$",
+    "solution_md": "不等式等价于\n$$\\sum x^2b^2c^2\\geqslant\\sum yza^2(b^2+c^2-a^2)\\Leftrightarrow\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{yz(b^2+c^2-a^2)}{b^2c^2}$$\n因为，$a,b,c$ 是三角形三边长，因此，有余弦定理\n$$\\cos A=\\frac{b^2+c^2-a^2}{2bc},\\cos B=\\frac{a^2+c^2-b^2}{2ca},\\cos C=\\frac{a^2+b^2-c^2}{2ab}$$\n只需证明\n$$\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{2yz\\cos A}{bc}$$\n$$\\Leftrightarrow\\left(\\frac{x}{a}-\\frac{y}{b}\\cos C-\\frac{z}{c}\\cos B\\right)^2+\\left(\\frac{y}{b}\\sin C-\\frac{z}{c}\\sin B\\right)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $\\frac{x}{a^2}=\\frac{y}{b^2}=\\frac{z}{c^2}$。",
+    "answer_md": "",
+    "hints_md": "注 令 $x=\\frac{1}{b},y=\\frac{1}{c},z=\\frac{1}{a}$，则我们得到 IMO1986 的一个不等式\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+    "original_text_md": "例 5.3.8 设 $a,b,c$ 是某三角形三边长，$x,y,z$ 是实数，证明不等式\n$$(ya^2+zb^2+xc^2)(za^2+xb^2+yc^2)\\geqslant(xy+yz+zx)(a^2b^2+b^2c^2+c^2a^2)$$\n证明 不等式等价于\n$$\\sum x^2b^2c^2\\geqslant\\sum yza^2(b^2+c^2-a^2)\\Leftrightarrow\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{yz(b^2+c^2-a^2)}{b^2c^2}$$\n因为，$a,b,c$ 是三角形三边长，因此，有余弦定理\n$$\\cos A=\\frac{b^2+c^2-a^2}{2bc},\\cos B=\\frac{a^2+c^2-b^2}{2ca},\\cos C=\\frac{a^2+b^2-c^2}{2ab}$$\n只需证明\n$$\\sum\\frac{x^2}{a^2}\\geqslant\\sum\\frac{2yz\\cos A}{bc}$$\n$$\\Leftrightarrow\\left(\\frac{x}{a}-\\frac{y}{b}\\cos C-\\frac{z}{c}\\cos B\\right)^2+\\left(\\frac{y}{b}\\sin C-\\frac{z}{c}\\sin B\\right)^2\\geqslant 0$$\n显然成立，等号成立的条件是 $\\frac{x}{a^2}=\\frac{y}{b^2}=\\frac{z}{c^2}$。\n注 令 $x=\\frac{1}{b},y=\\frac{1}{c},z=\\frac{1}{a}$，则我们得到 IMO1986 的一个不等式\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+    "tags": [
+      "三角形不等式",
+      "余弦定理",
+      "IMO1986"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

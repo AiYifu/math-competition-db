@@ -1,0 +1,25 @@
+{
+  "uid": "p055_056_例12_f4d8cead80",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    55,
+    56
+  ],
+  "stem_md": "设 $a_i \\in \\mathbf{R}$，$1 \\leqslant i \\leqslant 2016$。满足 $9a_i > 11a_{i+1}^2$，$1 \\leqslant i \\leqslant 2015$。\n求 $(a_1 - a_2^2)(a_2 - a_3^2)\\cdots(a_{2015} - a_{2016}^2)(a_{2016} - a_1^2)$ 的最大值。",
+  "solution_md": "解 令 $S = (a_1 - a_2^2)(a_2 - a_3^2)\\cdots(a_{2015} - a_{2016}^2)(a_{2016} - a_1^2)$。由假设，$a_i - a_{i+1}^2 > 0$，则 $S \\leqslant 0$。\n以下考虑 $a_{2016} - a_1^2 > 0$ 的情况。约定 $a_{2017} = a_1$。由平均值不等式得\n$S_{2016}^{\\frac{1}{2016}} \\leqslant \\frac{1}{2016} \\sum_{i=1}^{2016} (a_i - a_{i+1}^2)$\n$= \\frac{1}{2016} \\left(\\sum_{i=1}^{2016} a_i - \\sum_{i=1}^{2016} a_i^2\\right)$\n$= \\frac{1}{2016} \\left(\\sum_{i=1}^{2016} a_i - \\sum_{i=1}^{2016} a_i^2\\right)$\n$= \\frac{1}{2016} \\cdot 2016 \\cdot \\frac{1}{4} = \\frac{1}{4}$。\n当 $a_1 = a_2 = \\cdots = a_{2016} = \\frac{1}{2}$ 时，上述不等式等号成立，且有 $9a_i > 11a_{i+1}^2$，$1 \\leqslant i \\leqslant 2015$，此时，$S = \\frac{1}{4^{2016}}$。\n故，所求最大值为 $\\frac{1}{4^{2016}}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例12 设 $a_i \\in \\mathbf{R}$，$1 \\leqslant i \\leqslant 2016$。满足 $9a_i > 11a_{i+1}^2$，$1 \\leqslant i \\leqslant 2015$。\n求 $(a_1 - a_2^2)(a_2 - a_3^2)\\cdots(a_{2015} - a_{2016}^2)(a_{2016} - a_1^2)$ 的最大值。\n解 令 $S = (a_1 - a_2^2)(a_2 - a_3^2)\\cdots(a_{2015} - a_{2016}^2)(a_{2016} - a_1^2)$。由假设，$a_i - a_{i+1}^2 > 0$，则 $S \\leqslant 0$。\n以下考虑 $a_{2016} - a_1^2 > 0$ 的情况。约定 $a_{2017} = a_1$。由平均值不等式得\n$S_{2016}^{\\frac{1}{2016}} \\leqslant \\frac{1}{2016} \\sum_{i=1}^{2016} (a_i - a_{i+1}^2)$\n$= \\frac{1}{2016} \\left(\\sum_{i=1}^{2016} a_i - \\sum_{i=1}^{2016} a_i^2\\right)$\n$= \\frac{1}{2016} \\left(\\sum_{i=1}^{2016} a_i - \\sum_{i=1}^{2016} a_i^2\\right)$\n$= \\frac{1}{2016} \\cdot 2016 \\cdot \\frac{1}{4} = \\frac{1}{4}$。\n当 $a_1 = a_2 = \\cdots = a_{2016} = \\frac{1}{2}$ 时，上述不等式等号成立，且有 $9a_i > 11a_{i+1}^2$，$1 \\leqslant i \\leqslant 2015$，此时，$S = \\frac{1}{4^{2016}}$。\n故，所求最大值为 $\\frac{1}{4^{2016}}$。",
+  "tags": [
+    "均值不等式",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

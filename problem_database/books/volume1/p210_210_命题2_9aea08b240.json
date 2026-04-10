@@ -1,0 +1,53 @@
+{
+  "uid": "p210_210_命题2_9aea08b240",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.6",
+  "problem_id": "命题2",
+  "problem_type": "theorem",
+  "title": "SOS-Schur表示存在性命题",
+  "source_pages": [
+    210
+  ],
+  "source_images": [
+    "page-210.jpg"
+  ],
+  "stem_md": "满足 $F(a,a,a)=0$ 的每一个对称多项式 $F(a,b,c)$，都有一个SOS-Schur表示(注意其表示形式不是唯一的)。",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "命题2 满足 $F(a,a,a)=0$ 的每一个对称多项式 $F(a,b,c)$，都有一个SOS-Schur表示(注意其表示形式不是唯一的)。",
+  "tags": [
+    "SOS-Schur",
+    "对称多项式",
+    "存在性定理"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0024",
+  "raw_response_file": "raw/chunk-0024.response.txt",
+  "raw_api_file": "raw/chunk-0024.api.json",
+  "fingerprint": "9aea08b240c0bc69cab4f1f026367c3ebff08c5f",
+  "raw_problem": {
+    "problem_id": "命题2",
+    "problem_type": "theorem",
+    "chapter": "7",
+    "section": "7.6",
+    "title": "SOS-Schur表示存在性命题",
+    "source_pages": [
+      210
+    ],
+    "stem_md": "满足 $F(a,a,a)=0$ 的每一个对称多项式 $F(a,b,c)$，都有一个SOS-Schur表示(注意其表示形式不是唯一的)。",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "命题2 满足 $F(a,a,a)=0$ 的每一个对称多项式 $F(a,b,c)$，都有一个SOS-Schur表示(注意其表示形式不是唯一的)。",
+    "tags": [
+      "SOS-Schur",
+      "对称多项式",
+      "存在性定理"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

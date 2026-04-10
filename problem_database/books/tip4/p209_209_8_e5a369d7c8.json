@@ -1,0 +1,23 @@
+{
+  "uid": "p209_209_8_e5a369d7c8",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "8",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    209
+  ],
+  "stem_md": "由柯西不等式知 $(b^2+c+c^2+a+a^2+b)\\cdot\\left(\\frac{a^4}{b^2+c}+\\frac{b^4}{c^2+a}+\\frac{c^4}{a^2+b}\\right)\\geqslant(a^2+b^2+c^2)^2$. 故 $\\frac{a^4}{b^2+c}+\\frac{b^4}{c^2+a}+\\frac{c^4}{a^2+b}\\geqslant\\frac{(a^2+b^2+c^2)^2}{a^2+b^2+c^2+3}$. 令 $a^2+b^2+c^2=x$. 易证 $x\\geqslant3$. 故 $\\frac{x^2}{3+x}\\geqslant\\frac{3}{2}\\Leftrightarrow2x^2\\geqslant9+3x\\Leftrightarrow2x^2-3x-9\\geqslant0\\Leftrightarrow(2x+3)(x-3)\\geqslant0$. 显然成立. 于是, $\\frac{a^4}{b^2+c}+\\frac{b^4}{c^2+a}+\\frac{c^4}{a^2+b}\\geqslant\\frac{3}{2}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "8. 由柯西不等式知 $(b^2+c+c^2+a+a^2+b)\\cdot\\left(\\frac{a^4}{b^2+c}+\\frac{b^4}{c^2+a}+\\frac{c^4}{a^2+b}\\right)\\geqslant(a^2+b^2+c^2)^2$. 故 $\\frac{a^4}{b^2+c}+\\frac{b^4}{c^2+a}+\\frac{c^4}{a^2+b}\\geqslant\\frac{(a^2+b^2+c^2)^2}{a^2+b^2+c^2+3}$. 令 $a^2+b^2+c^2=x$. 易证 $x\\geqslant3$. 故 $\\frac{x^2}{3+x}\\geqslant\\frac{3}{2}\\Leftrightarrow2x^2\\geqslant9+3x\\Leftrightarrow2x^2-3x-9\\geqslant0\\Leftrightarrow(2x+3)(x-3)\\geqslant0$. 显然成立. 于是, $\\frac{a^4}{b^2+c}+\\frac{b^4}{c^2+a}+\\frac{c^4}{a^2+b}\\geqslant\\frac{3}{2}$.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

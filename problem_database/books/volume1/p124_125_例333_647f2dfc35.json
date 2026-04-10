@@ -1,0 +1,58 @@
+{
+  "uid": "p124_125_例333_647f2dfc35",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    124,
+    125
+  ],
+  "source_images": [
+    "page-124.jpg",
+    "page-125.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=3$，证明\n$$(3-ab)(3-bc)(3-ca) \\geqslant 8$$",
+  "solution_md": "我们只需证明，如果 $a,b,c \\geqslant 0$，且 $(3-ab)(3-bc)(3-ca)=8$，则\n$$a^2+b^2+c^2 \\geqslant 3$$\n\n令 $x=3-ab, y=3-bc, z=3-ca$，则有\n$$xyz=8$$\n$$a^2+b^2+c^2=\\frac{(3-x)(3-y)}{3-z}+\\frac{(3-y)(3-z)}{3-x}+\\frac{(3-z)(3-x)}{3-y}$$\n\n由 AM-GM 不等式，易证\n$$\\sum\\frac{(3-x)(3-y)}{3-z} \\geqslant \\sqrt{3\\sum(3-x)^2}$$\n\n所以，为证明 $a^2+b^2+c^2 \\geqslant 3$，只需证明\n$$\\sum(3-x)^2 \\geqslant 3 \\Leftrightarrow \\sum x^2+24 \\geqslant 6\\sum x$$\n\n设 $f(x,y,z)=\\sum x^2-6\\sum x+24$\n\n不失一般性，假设 $x \\geqslant y \\geqslant z$，由于 $xyz=8$，由此可见，$xy \\geqslant 4$，所以\n$$f(x,y,z)-f(\\sqrt{xy},\\sqrt{xy},z)=(x-y)^2-6(\\sqrt{x}-\\sqrt{y})^2$$\n$$=(\\sqrt{x}-\\sqrt{y})^2[(\\sqrt{x}+\\sqrt{y})^2-6] \\geqslant 0$$\n\n令 $t=\\frac{\\sqrt{xy}}{2}$，则 $z=\\frac{8}{xy}=\\frac{8}{4t^2}=\\frac{2}{t^2}$，我们有\n$$f(\\sqrt{xy},\\sqrt{xy},z)=f\\left(2t,2t,\\frac{2}{t^2}\\right)=8t^2+\\frac{4}{t^4}-24t-\\frac{12}{t^2}+24$$\n$$=\\frac{4(2t^4-2t^3+2t+1)(t-1)^2}{t^4} \\geqslant 0$$\n\n所以，$f(x,y,z) \\geqslant 0$，不等式得证。等号成立的条件是 $a=b=c=1$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 3.3.3 设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=3$，证明\n$$(3-ab)(3-bc)(3-ca) \\geqslant 8$$\n\n证明 我们只需证明，如果 $a,b,c \\geqslant 0$，且 $(3-ab)(3-bc)(3-ca)=8$，则\n$$a^2+b^2+c^2 \\geqslant 3$$\n\n令 $x=3-ab, y=3-bc, z=3-ca$，则有\n$$xyz=8$$\n$$a^2+b^2+c^2=\\frac{(3-x)(3-y)}{3-z}+\\frac{(3-y)(3-z)}{3-x}+\\frac{(3-z)(3-x)}{3-y}$$\n\n由 AM-GM 不等式，易证\n$$\\sum\\frac{(3-x)(3-y)}{3-z} \\geqslant \\sqrt{3\\sum(3-x)^2}$$\n\n所以，为证明 $a^2+b^2+c^2 \\geqslant 3$，只需证明\n$$\\sum(3-x)^2 \\geqslant 3 \\Leftrightarrow \\sum x^2+24 \\geqslant 6\\sum x$$\n\n设 $f(x,y,z)=\\sum x^2-6\\sum x+24$\n\n不失一般性，假设 $x \\geqslant y \\geqslant z$，由于 $xyz=8$，由此可见，$xy \\geqslant 4$，所以\n$$f(x,y,z)-f(\\sqrt{xy},\\sqrt{xy},z)=(x-y)^2-6(\\sqrt{x}-\\sqrt{y})^2$$\n$$=(\\sqrt{x}-\\sqrt{y})^2[(\\sqrt{x}+\\sqrt{y})^2-6] \\geqslant 0$$\n\n令 $t=\\frac{\\sqrt{xy}}{2}$，则 $z=\\frac{8}{xy}=\\frac{8}{4t^2}=\\frac{2}{t^2}$，我们有\n$$f(\\sqrt{xy},\\sqrt{xy},z)=f\\left(2t,2t,\\frac{2}{t^2}\\right)=8t^2+\\frac{4}{t^4}-24t-\\frac{12}{t^2}+24$$\n$$=\\frac{4(2t^4-2t^3+2t+1)(t-1)^2}{t^4} \\geqslant 0$$\n\n所以，$f(x,y,z) \\geqslant 0$，不等式得证。等号成立的条件是 $a=b=c=1$。",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "AM-GM不等式",
+    "三元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "647f2dfc357b2e258999118250c2e095187de2e5",
+  "raw_problem": {
+    "problem_id": "例3.3.3",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      124,
+      125
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=3$，证明\n$$(3-ab)(3-bc)(3-ca) \\geqslant 8$$",
+    "solution_md": "我们只需证明，如果 $a,b,c \\geqslant 0$，且 $(3-ab)(3-bc)(3-ca)=8$，则\n$$a^2+b^2+c^2 \\geqslant 3$$\n\n令 $x=3-ab, y=3-bc, z=3-ca$，则有\n$$xyz=8$$\n$$a^2+b^2+c^2=\\frac{(3-x)(3-y)}{3-z}+\\frac{(3-y)(3-z)}{3-x}+\\frac{(3-z)(3-x)}{3-y}$$\n\n由 AM-GM 不等式，易证\n$$\\sum\\frac{(3-x)(3-y)}{3-z} \\geqslant \\sqrt{3\\sum(3-x)^2}$$\n\n所以，为证明 $a^2+b^2+c^2 \\geqslant 3$，只需证明\n$$\\sum(3-x)^2 \\geqslant 3 \\Leftrightarrow \\sum x^2+24 \\geqslant 6\\sum x$$\n\n设 $f(x,y,z)=\\sum x^2-6\\sum x+24$\n\n不失一般性，假设 $x \\geqslant y \\geqslant z$，由于 $xyz=8$，由此可见，$xy \\geqslant 4$，所以\n$$f(x,y,z)-f(\\sqrt{xy},\\sqrt{xy},z)=(x-y)^2-6(\\sqrt{x}-\\sqrt{y})^2$$\n$$=(\\sqrt{x}-\\sqrt{y})^2[(\\sqrt{x}+\\sqrt{y})^2-6] \\geqslant 0$$\n\n令 $t=\\frac{\\sqrt{xy}}{2}$，则 $z=\\frac{8}{xy}=\\frac{8}{4t^2}=\\frac{2}{t^2}$，我们有\n$$f(\\sqrt{xy},\\sqrt{xy},z)=f\\left(2t,2t,\\frac{2}{t^2}\\right)=8t^2+\\frac{4}{t^4}-24t-\\frac{12}{t^2}+24$$\n$$=\\frac{4(2t^4-2t^3+2t+1)(t-1)^2}{t^4} \\geqslant 0$$\n\n所以，$f(x,y,z) \\geqslant 0$，不等式得证。等号成立的条件是 $a=b=c=1$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 3.3.3 设 $a,b,c$ 是正实数，且满足 $a^2+b^2+c^2=3$，证明\n$$(3-ab)(3-bc)(3-ca) \\geqslant 8$$\n\n证明 我们只需证明，如果 $a,b,c \\geqslant 0$，且 $(3-ab)(3-bc)(3-ca)=8$，则\n$$a^2+b^2+c^2 \\geqslant 3$$\n\n令 $x=3-ab, y=3-bc, z=3-ca$，则有\n$$xyz=8$$\n$$a^2+b^2+c^2=\\frac{(3-x)(3-y)}{3-z}+\\frac{(3-y)(3-z)}{3-x}+\\frac{(3-z)(3-x)}{3-y}$$\n\n由 AM-GM 不等式，易证\n$$\\sum\\frac{(3-x)(3-y)}{3-z} \\geqslant \\sqrt{3\\sum(3-x)^2}$$\n\n所以，为证明 $a^2+b^2+c^2 \\geqslant 3$，只需证明\n$$\\sum(3-x)^2 \\geqslant 3 \\Leftrightarrow \\sum x^2+24 \\geqslant 6\\sum x$$\n\n设 $f(x,y,z)=\\sum x^2-6\\sum x+24$\n\n不失一般性，假设 $x \\geqslant y \\geqslant z$，由于 $xyz=8$，由此可见，$xy \\geqslant 4$，所以\n$$f(x,y,z)-f(\\sqrt{xy},\\sqrt{xy},z)=(x-y)^2-6(\\sqrt{x}-\\sqrt{y})^2$$\n$$=(\\sqrt{x}-\\sqrt{y})^2[(\\sqrt{x}+\\sqrt{y})^2-6] \\geqslant 0$$\n\n令 $t=\\frac{\\sqrt{xy}}{2}$，则 $z=\\frac{8}{xy}=\\frac{8}{4t^2}=\\frac{2}{t^2}$，我们有\n$$f(\\sqrt{xy},\\sqrt{xy},z)=f\\left(2t,2t,\\frac{2}{t^2}\\right)=8t^2+\\frac{4}{t^4}-24t-\\frac{12}{t^2}+24$$\n$$=\\frac{4(2t^4-2t^3+2t+1)(t-1)^2}{t^4} \\geqslant 0$$\n\n所以，$f(x,y,z) \\geqslant 0$，不等式得证。等号成立的条件是 $a=b=c=1$。",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "AM-GM不等式",
+      "三元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

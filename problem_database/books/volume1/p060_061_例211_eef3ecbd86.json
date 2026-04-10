@@ -1,0 +1,56 @@
+{
+  "uid": "p060_061_例211_eef3ecbd86",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第2章 整合变量法",
+  "section": "2.1 起步",
+  "problem_id": "例2.1.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    60,
+    61
+  ],
+  "source_images": [
+    "page-060.jpg",
+    "page-061.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是正实数，证明\n$$a+b+c\\geqslant 3\\sqrt[3]{abc}$$",
+  "solution_md": "我们都知道，这是一个三变量著名的 AM-GM 不等式，而且我也知道许多的证明方法。这也是介绍整合变量方法的一个典型的非常简单的例子。第一步，我们假设 $abc=1$，把不等式规范化，这样，不等式就变成\n$$f(a,b,c)=a+b+c\\geqslant 3,\\text{ 如果 }abc=1$$\n\n我们尝试整合变量。特别地，我们来整合变量 $a$ 和 $b$（我们使用几何平均等于一个变量 $t$，这就是整合变量法的主要思想）。在条件 $abc=1$ 下，令 $t=\\sqrt{ab}$，并注意到\n$$a+b\\geqslant 2\\sqrt{ab}=2t$$\n\n我们有（因为 $t^2c=1$）\n$$a+b+c\\geqslant 2t+c=2t+\\frac{1}{t^2}$$\n\n余下的证明非常简单。因为\n$$2t+\\frac{1}{t^2}-3=\\frac{(2t+1)(t-1)^2}{t^2}\\geqslant 0$$\n\n所以\n$$a+b+c\\geqslant 2t+\\frac{1}{t^2}\\geqslant 3$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.1.1 设 $a,b,c$ 是正实数，证明\n$$a+b+c\\geqslant 3\\sqrt[3]{abc}$$\n\n证明及分析 我们都知道，这是一个三变量著名的 AM-GM 不等式...\n\n我们尝试整合变量。特别地，我们来整合变量 $a$ 和 $b$...\n\n我们有（因为 $t^2c=1$）\n$$a+b+c\\geqslant 2t+c=2t+\\frac{1}{t^2}$$\n\n余下的证明非常简单...",
+  "tags": [
+    "整合变量法",
+    "AM-GM不等式",
+    "规范化"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007",
+  "raw_response_file": "raw/chunk-0007.response.txt",
+  "raw_api_file": "raw/chunk-0007.api.json",
+  "fingerprint": "eef3ecbd8699ec9946e404db3516ff3017945452",
+  "raw_problem": {
+    "problem_id": "例2.1.1",
+    "problem_type": "example",
+    "chapter": "第2章 整合变量法",
+    "section": "2.1 起步",
+    "title": null,
+    "source_pages": [
+      60,
+      61
+    ],
+    "stem_md": "设 $a,b,c$ 是正实数，证明\n$$a+b+c\\geqslant 3\\sqrt[3]{abc}$$",
+    "solution_md": "我们都知道，这是一个三变量著名的 AM-GM 不等式，而且我也知道许多的证明方法。这也是介绍整合变量方法的一个典型的非常简单的例子。第一步，我们假设 $abc=1$，把不等式规范化，这样，不等式就变成\n$$f(a,b,c)=a+b+c\\geqslant 3,\\text{ 如果 }abc=1$$\n\n我们尝试整合变量。特别地，我们来整合变量 $a$ 和 $b$（我们使用几何平均等于一个变量 $t$，这就是整合变量法的主要思想）。在条件 $abc=1$ 下，令 $t=\\sqrt{ab}$，并注意到\n$$a+b\\geqslant 2\\sqrt{ab}=2t$$\n\n我们有（因为 $t^2c=1$）\n$$a+b+c\\geqslant 2t+c=2t+\\frac{1}{t^2}$$\n\n余下的证明非常简单。因为\n$$2t+\\frac{1}{t^2}-3=\\frac{(2t+1)(t-1)^2}{t^2}\\geqslant 0$$\n\n所以\n$$a+b+c\\geqslant 2t+\\frac{1}{t^2}\\geqslant 3$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.1.1 设 $a,b,c$ 是正实数，证明\n$$a+b+c\\geqslant 3\\sqrt[3]{abc}$$\n\n证明及分析 我们都知道，这是一个三变量著名的 AM-GM 不等式...\n\n我们尝试整合变量。特别地，我们来整合变量 $a$ 和 $b$...\n\n我们有（因为 $t^2c=1$）\n$$a+b+c\\geqslant 2t+c=2t+\\frac{1}{t^2}$$\n\n余下的证明非常简单...",
+    "tags": [
+      "整合变量法",
+      "AM-GM不等式",
+      "规范化"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

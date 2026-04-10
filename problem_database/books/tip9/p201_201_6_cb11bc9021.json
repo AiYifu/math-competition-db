@@ -1,0 +1,21 @@
+{
+  "uid": "p201_201_6_cb11bc9021",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    201
+  ],
+  "stem_md": "6. 因为\n$$\frac{1}{x} + \frac{4}{3}x - \\frac{x^2 + 13}{6} = \\frac{(6 - x)(x - 1)^2}{6x} \\geqslant 0,$$\n所以\n$$\\frac{1}{x} + \\frac{4}{3}x \\geqslant \\frac{x^2 + 13}{6}.$$",
+  "solution_md": "于是 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{4}{3}(a + b + c) \\geqslant \\frac{1}{6}(a^2 + 13 + b^2 + 13 + c^2 + 13) = 7$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "6. 因为\n$$\\frac{1}{x} + \\frac{4}{3}x - \\frac{x^2 + 13}{6} = \\frac{(6 - x)(x - 1)^2}{6x} \\geqslant 0,$$\n所以\n$$\\frac{1}{x} + \\frac{4}{3}x \\geqslant \\frac{x^2 + 13}{6}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026"
+}

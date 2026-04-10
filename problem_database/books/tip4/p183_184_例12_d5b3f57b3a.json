@@ -1,0 +1,25 @@
+{
+  "uid": "p183_184_例12_d5b3f57b3a",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4 柯西不等式的应用",
+  "section": null,
+  "problem_id": "例12",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    183,
+    184
+  ],
+  "stem_md": "给定整数 $n \\geqslant 2$ 和正实数 $a$, 正实数 $x_1, x_2, \\cdots, x_n$ 满足 $x_1 = x_2 = \\cdots = x_n = 1$ 时, 有 $\\sum_{i=1}^{n} \\frac{1}{a + S - x_i} = 1$, 此时 $M = 1$. 求最小的实数 $M = M(n, a)$, 使得 $\\sum_{i=1}^{n} \\frac{y_i}{a + S - x_i} \\leqslant M$.",
+  "solution_md": "解 首先考虑 $a \\geqslant 1$ 的情况, 令 $z_i = \\frac{y_i}{(a - 1)z_i + 1}$, $i = 1, 2, \\cdots, n$, 有 $\\sum_{i=1}^{n} z_i = 1$.\n故\n$$\\sum_{i=1}^{n} \\frac{y_i}{a + S - x_i} = \\sum_{i=1}^{n} \\frac{y_i}{(a - 1)z_i + 1}$$\n$$= \\frac{1}{a - 1}\\left[1 - \\frac{1}{a - 1 + n}\\right]$$\n$$= \\frac{n}{a - 1 + n}.$$\n当 $a = 1$ 时,\n$$\\sum_{i=1}^{n} \\frac{y_i}{a + S - x_i} = \\sum_{i=1}^{n} \\frac{y_i}{1 - x_i} = n^2.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例12 给定整数 $n \\geqslant 2$ 和正实数 $a$, 正实数 $x_1, x_2, \\cdots, x_n$ 满足 $x_1 = x_2 = \\cdots = x_n = 1$ 时, 有 $\\sum_{i=1}^{n} \\frac{1}{a + S - x_i} = 1$, 此时 $M = 1$. 求最小的实数 $M = M(n, a)$, 使得 $\\sum_{i=1}^{n} \\frac{y_i}{a + S - x_i} \\leqslant M$.\n解 首先考虑 $a \\geqslant 1$ 的情况, 令 $z_i = \\frac{y_i}{(a - 1)z_i + 1}$, $i = 1, 2, \\cdots, n$, 有 $\\sum_{i=1}^{n} z_i = 1$.\n故\n$$\\sum_{i=1}^{n} \\frac{y_i}{a + S - x_i} = \\sum_{i=1}^{n} \\frac{y_i}{(a - 1)z_i + 1}$$\n$$= \\frac{1}{a - 1}\\left[1 - \\frac{1}{a - 1 + n}\\right]$$\n$$= \\frac{n}{a - 1 + n}.$$\n当 $a = 1$ 时,\n$$\\sum_{i=1}^{n} \\frac{y_i}{a + S - x_i} = \\sum_{i=1}^{n} \\frac{y_i}{1 - x_i} = n^2.$$",
+  "tags": [
+    "柯西不等式",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

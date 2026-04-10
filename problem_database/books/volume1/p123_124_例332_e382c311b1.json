@@ -1,0 +1,58 @@
+{
+  "uid": "p123_124_例332_e382c311b1",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "3",
+  "section": "3.3",
+  "problem_id": "例3.3.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    123,
+    124
+  ],
+  "source_images": [
+    "page-123.jpg",
+    "page-124.jpg"
+  ],
+  "stem_md": "设 $x,y,z$ 是某三角形的三边长，且满足 $\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=3$，求下列表达式\n$$p=\\sqrt{x+y-z}+\\sqrt{y+z-x}+\\sqrt{z+x-y}$$\n的最小值。",
+  "solution_md": "设 $a=\\sqrt{y+z-x}, b=\\sqrt{z+x-y}, c=\\sqrt{x+y-z}$，则\n$$2x=b^2+c^2, 2y=c^2+a^2, 2z=a^2+b^2$$\n\n题设条件变成\n$$\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$$\n\n另外，$p=a+b+c$。为求出 $p$ 的最小值，我们考虑其反转问题。\n\n假设 $a+b+c=1$，求下列表达式的最小值\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2}$$\n\n这个问题使我们想到了下列结果\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2} \\geqslant \\frac{10}{(a+b+c)^2}$$\n\n所以，如果 $\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$，则我们有\n$$\\frac{3}{2} \\geqslant \\frac{10}{(a+b+c)^2} \\Leftrightarrow a+b+c \\geqslant 2\\sqrt{\\frac{5}{3}}$$",
+  "answer_md": "$2\\sqrt{\\frac{5}{3}}$",
+  "hints_md": "来源：Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 3.3.2(Pham Kim Hung, Mathlinks) 设 $x,y,z$ 是某三角形的三边长，且满足 $\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=3$，求下列表达式\n$$p=\\sqrt{x+y-z}+\\sqrt{y+z-x}+\\sqrt{z+x-y}$$\n的最小值。\n\n解 设 $a=\\sqrt{y+z-x}, b=\\sqrt{z+x-y}, c=\\sqrt{x+y-z}$，则\n$$2x=b^2+c^2, 2y=c^2+a^2, 2z=a^2+b^2$$\n\n题设条件变成\n$$\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$$\n\n另外，$p=a+b+c$。为求出 $p$ 的最小值，我们考虑其反转问题。\n\n假设 $a+b+c=1$，求下列表达式的最小值\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2}$$\n\n这个问题使我们想到了下列结果\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2} \\geqslant \\frac{10}{(a+b+c)^2}$$\n\n所以，如果 $\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$，则我们有\n$$\\frac{3}{2} \\geqslant \\frac{10}{(a+b+c)^2} \\Leftrightarrow a+b+c \\geqslant 2\\sqrt{\\frac{5}{3}}$$",
+  "tags": [
+    "典型应用",
+    "反证法",
+    "最小值",
+    "三角形不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0014",
+  "raw_response_file": "raw/chunk-0014.response.txt",
+  "raw_api_file": "raw/chunk-0014.api.json",
+  "fingerprint": "e382c311b13ea430b19dafac5204c466b2317af6",
+  "raw_problem": {
+    "problem_id": "例3.3.2",
+    "problem_type": "example",
+    "chapter": "3",
+    "section": "3.3",
+    "title": null,
+    "source_pages": [
+      123,
+      124
+    ],
+    "stem_md": "设 $x,y,z$ 是某三角形的三边长，且满足 $\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=3$，求下列表达式\n$$p=\\sqrt{x+y-z}+\\sqrt{y+z-x}+\\sqrt{z+x-y}$$\n的最小值。",
+    "solution_md": "设 $a=\\sqrt{y+z-x}, b=\\sqrt{z+x-y}, c=\\sqrt{x+y-z}$，则\n$$2x=b^2+c^2, 2y=c^2+a^2, 2z=a^2+b^2$$\n\n题设条件变成\n$$\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$$\n\n另外，$p=a+b+c$。为求出 $p$ 的最小值，我们考虑其反转问题。\n\n假设 $a+b+c=1$，求下列表达式的最小值\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2}$$\n\n这个问题使我们想到了下列结果\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2} \\geqslant \\frac{10}{(a+b+c)^2}$$\n\n所以，如果 $\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$，则我们有\n$$\\frac{3}{2} \\geqslant \\frac{10}{(a+b+c)^2} \\Leftrightarrow a+b+c \\geqslant 2\\sqrt{\\frac{5}{3}}$$",
+    "answer_md": "$2\\sqrt{\\frac{5}{3}}$",
+    "hints_md": "来源：Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 3.3.2(Pham Kim Hung, Mathlinks) 设 $x,y,z$ 是某三角形的三边长，且满足 $\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=3$，求下列表达式\n$$p=\\sqrt{x+y-z}+\\sqrt{y+z-x}+\\sqrt{z+x-y}$$\n的最小值。\n\n解 设 $a=\\sqrt{y+z-x}, b=\\sqrt{z+x-y}, c=\\sqrt{x+y-z}$，则\n$$2x=b^2+c^2, 2y=c^2+a^2, 2z=a^2+b^2$$\n\n题设条件变成\n$$\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$$\n\n另外，$p=a+b+c$。为求出 $p$ 的最小值，我们考虑其反转问题。\n\n假设 $a+b+c=1$，求下列表达式的最小值\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2}$$\n\n这个问题使我们想到了下列结果\n$$\\frac{1}{b^2+c^2}+\\frac{1}{c^2+a^2}+\\frac{1}{a^2+b^2} \\geqslant \\frac{10}{(a+b+c)^2}$$\n\n所以，如果 $\\frac{2}{b^2+c^2}+\\frac{2}{c^2+a^2}+\\frac{2}{a^2+b^2}=3$，则我们有\n$$\\frac{3}{2} \\geqslant \\frac{10}{(a+b+c)^2} \\Leftrightarrow a+b+c \\geqslant 2\\sqrt{\\frac{5}{3}}$$",
+    "tags": [
+      "典型应用",
+      "反证法",
+      "最小值",
+      "三角形不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

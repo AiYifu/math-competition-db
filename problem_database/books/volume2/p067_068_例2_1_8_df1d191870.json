@@ -1,0 +1,25 @@
+{
+  "uid": "p067_068_例2_1_8_df1d191870",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "2",
+  "section": "1",
+  "problem_id": "例2.1.8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    67,
+    68
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n$ 是非负实数, 且满足 $a_1+a_2+\\cdots+a_n=1$, 证明\n$$a_1^4(1-a_1)+a_2^4(1-a_2)+\\cdots+a_n^4(1-a_n)\\leqslant\\frac{1}{12}$$",
+  "solution_md": "证明及分析 我们有意使用整合变量法使某些变量等于 0. 那么, 这个问题比较合适的变换的梯子是什么呢? 片刻思考之后, 你可能很容易找到它. 不妨设 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$, 变换\n$$(a_1, a_2, \\cdots, a_n)\\to(a_1, a_2+a_3+\\cdots+a_n, 0, \\cdots, 0)$$\n或许是个好想法. 为了证明这个事实, 我们必须证明 (当 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$ 时)\n$$a_1^4(a_2+a_3+\\cdots+a_n)+\\cdots+a_{n-1}^4(a_1+a_2+\\cdots+a_{n-1}+a_n)$$\n$$\\leqslant a_n\\left(a_1+a_2+\\cdots+a_{n-1}\\right)^4$$\n等号成立的条件是 $(a_1, a_2, \\cdots, a_n)\\sim\\left(\\frac{3+\\sqrt{3}}{6}, \\frac{3-\\sqrt{3}}{6}, 0, \\cdots, 0\\right)$, 证毕.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.1.8 (Pham Kim Hung, Vasile Cirtoaje, Mathlinks) 设 $a_1, a_2, \\cdots, a_n$ 是非负实数, 且满足 $a_1+a_2+\\cdots+a_n=1$, 证明\n$$a_1^4(1-a_1)+a_2^4(1-a_2)+\\cdots+a_n^4(1-a_n)\\leqslant\\frac{1}{12}$$\n证明及分析 我们有意使用整合变量法使某些变量等于 0. 那么, 这个问题比较合适的变换的梯子是什么呢? 片刻思考之后, 你可能很容易找到它. 不妨设 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$, 变换\n$$(a_1, a_2, \\cdots, a_n)\\to(a_1, a_2+a_3+\\cdots+a_n, 0, \\cdots, 0)$$\n或许是个好想法. 为了证明这个事实, 我们必须证明 (当 $a_1\\leqslant a_2\\leqslant\\cdots\\leqslant a_n$ 时)\n$$a_1^4(a_2+a_3+\\cdots+a_n)+\\cdots+a_{n-1}^4(a_1+a_2+\\cdots+a_{n-1}+a_n)$$\n$$\\leqslant a_n\\left(a_1+a_2+\\cdots+a_{n-1}\\right)^4$$\n等号成立的条件是 $(a_1, a_2, \\cdots, a_n)\\sim\\left(\\frac{3+\\sqrt{3}}{6}, \\frac{3-\\sqrt{3}}{6}, 0, \\cdots, 0\\right)$, 证毕.",
+  "tags": [
+    "不等式",
+    "整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

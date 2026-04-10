@@ -1,0 +1,32 @@
+{
+  "uid": "p137_144_例4_2_1_430fa209d3",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "4",
+  "section": "2",
+  "problem_id": "例4.2.1",
+  "problem_type": "example",
+  "title": "Vasile Cirtoaje, Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "stem_md": "设 $a_1, a_2, \\cdots, a_n (n \\geqslant 4)$ 是非负实数, 其和为 $n$, 证明\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{3}{n}(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$",
+  "solution_md": "证明及分析 对这个问题构建一个好的一般问题还是相当简单的. 实际上, 对于某个序列 $\\{d_n\\}$ (或增或减) 一般问题的形式为\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant d_n(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n首先, 我们推出序列 $\\{d_n\\}$ 必须是下降的. 因为, 如果不等式对 $d_n$ 成立, 那么它对所有 $d \\leqslant d_n$ 也应成立. 另外, 根据原问题, $d_n$ 必须大于或等于 $\\frac{3}{n}$, 为确定序列 $\\{d_n\\}$ 的确切的值及其变化情况, 我们可以使用传统的方法: 令 $n-1$ 个变量相等, 在此情况下, 假设 $a_1 = a_2 = \\cdots = a_{n-1} = s, a_n = n - (n-1)s$, 则不等式变成\n$$\n\\frac{n-1}{s} + \\frac{1}{n-(n-1)s} - n \\geqslant d_n\\{(n-1)s^2 + [n-(n-1)s]^2 - n\\}\n$$\n\\Leftrightarrow \\frac{n(n-1)(s-1)^2}{s[n-(n-1)s]} \\geqslant n(n-1)(s-1)^2d_n\n$$\n\\Leftrightarrow d_n \\leqslant \\frac{1}{s[n-(n-1)s]}\n$$\n那么 $d_n$ 最好可能 (最大值) 的值是\n$$\n\\min_{0<s<\\frac{n}{n-1}}\\left\\{\\frac{1}{s[n-(n-1)s]}\\right\\} = \\frac{4(n-1)}{n^2}\n$$\n所以, 我们就选择 $d_n = \\frac{4(n-1)}{n^2}$, 并证明\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant d(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n函数 $f(c, x)$ 是齐次的, 且序列 $\\{c_n\\}$ 是增加的, 满足 GI 定理的条件, 所以, 我们只需证明 (*) 在 $c = c_n, a_1 = a_2 = \\cdots = a_{n-1} = s$ 的条件下成立即可, 这我们已经证明了. 由 GI 定理立得结论. 在原不等式中, 等号成立的条件是\n$$\na_1 = a_2 = \\cdots = a_n = 1\n$$\n等号成立的条件是 $a_1 = a_2 = \\cdots = a_{n-1} = \\frac{n}{2(n-1)}, a_n = \\frac{n}{2}$.\n注 本题更强的不等式\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{4(n-1)}{n^2}(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 4.2.1(Vasile Cirtoaje, Pham Kim Hung, Mathlinks) 设 $a_1, a_2, \\cdots, a_n (n \\geqslant 4)$ 是非负实数, 其和为 $n$, 证明\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{3}{n}(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n证明及分析 对这个问题构建一个好的一般问题还是相当简单的. 实际上, 对于某个序列 $\\{d_n\\}$ (或增或减) 一般问题的形式为\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant d_n(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n首先, 我们推出序列 $\\{d_n\\}$ 必须是下降的. 因为, 如果不等式对 $d_n$ 成立, 那么它对所有 $d \\leqslant d_n$ 也应成立. 另外, 根据原问题, $d_n$ 必须大于或等于 $\\frac{3}{n}$, 为确定序列 $\\{d_n\\}$ 的确切的值及其变化情况, 我们可以使用传统的方法: 令 $n-1$ 个变量相等, 在此情况下, 假设 $a_1 = a_2 = \\cdots = a_{n-1} = s, a_n = n - (n-1)s$, 则不等式变成\n$$\n\\frac{n-1}{s} + \\frac{1}{n-(n-1)s} - n \\geqslant d_n\\{(n-1)s^2 + [n-(n-1)s]^2 - n\\}\n$$\n\\Leftrightarrow \\frac{n(n-1)(s-1)^2}{s[n-(n-1)s]} \\geqslant n(n-1)(s-1)^2d_n\n$$\n\\Leftrightarrow d_n \\leqslant \\frac{1}{s[n-(n-1)s]}\n$$\n那么 $d_n$ 最好可能 (最大值) 的值是\n$$\n\\min_{0<s<\\frac{n}{n-1}}\\left\\{\\frac{1}{s[n-(n-1)s]}\\right\\} = \\frac{4(n-1)}{n^2}\n$$\n所以, 我们就选择 $d_n = \\frac{4(n-1)}{n^2}$, 并证明\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant d(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$\n函数 $f(c, x)$ 是齐次的, 且序列 $\\{c_n\\}$ 是增加的, 满足 GI 定理的条件, 所以, 我们只需证明 (*) 在 $c = c_n, a_1 = a_2 = \\cdots = a_{n-1} = s$ 的条件下成立即可, 这我们已经证明了. 由 GI 定理立得结论. 在原不等式中, 等号成立的条件是\n$$\na_1 = a_2 = \\cdots = a_n = 1\n$$\n等号成立的条件是 $a_1 = a_2 = \\cdots = a_{n-1} = \\frac{n}{2(n-1)}, a_n = \\frac{n}{2}$.\n注 本题更强的不等式\n$$\n\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} - n \\geqslant \\frac{4(n-1)}{n^2}(a_1^2 + a_2^2 + \\cdots + a_n^2 - n)\n$$",
+  "tags": [
+    "不等式",
+    "证明",
+    "序列"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0018"
+}

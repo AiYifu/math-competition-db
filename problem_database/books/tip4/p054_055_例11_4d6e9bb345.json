@@ -1,0 +1,25 @@
+{
+  "uid": "p054_055_例11_4d6e9bb345",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例11",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    54,
+    55
+  ],
+  "stem_md": "对 $a, b, c \\in \\mathbf{R}_+$，求\n$\\frac{(a + b)^2 + (a + b + 4c)^2}{abc}$\n的最小值。",
+  "solution_md": "解 由平均值不等式，得\n$(a + b)^2 + (a + b + 4c)^2 = (a + b)^2 + [(a + 2c) + (b + 2c)]^2$\n$\\geqslant (2\\sqrt{ab})^2 + (2\\sqrt{2ac} + 2\\sqrt{2bc})^2$\n$= 4ab + 8ac + 8bc + 16c\\sqrt{ab}$，\n于是\n$\\frac{(a + b)^2 + (a + b + 4c)^2}{abc}$\n$\\geqslant \\frac{4ab + 8ac + 8bc + 16c\\sqrt{ab}}{abc}$\n$= \\left(\\frac{4}{c} + \\frac{8}{b} + \\frac{8}{a} + \\frac{16}{\\sqrt{ab}}\\right)(a + b + c)$\n$= \\left(\\frac{4}{c} + \\frac{8}{b} + \\frac{8}{a} + \\frac{16}{\\sqrt{ab}}\\right) \\cdot 2016 \\cdot \\frac{1}{4} = \\frac{1}{4}$。\n当 $a_1 = a_2 = \\cdots = a_{2016} = \\frac{1}{2}$ 时，上述不等式等号成立，且有 $9a_i > 11a_{i+1}^2$，$1 \\leqslant i \\leqslant 2015$，此时，$S = \\frac{1}{4^{2016}}$。\n故，所求最大值为 $\\frac{1}{4^{2016}}$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例11 对 $a, b, c \\in \\mathbf{R}_+$，求\n$\\frac{(a + b)^2 + (a + b + 4c)^2}{abc}$\n的最小值。\n解 由平均值不等式，得\n$(a + b)^2 + (a + b + 4c)^2 = (a + b)^2 + [(a + 2c) + (b + 2c)]^2$\n$\\geqslant (2\\sqrt{ab})^2 + (2\\sqrt{2ac} + 2\\sqrt{2bc})^2$\n$= 4ab + 8ac + 8bc + 16c\\sqrt{ab}$，\n于是\n$\\frac{(a + b)^2 + (a + b + 4c)^2}{abc}$\n$\\geqslant \\frac{4ab + 8ac + 8bc + 16c\\sqrt{ab}}{abc}$\n$= \\left(\\frac{4}{c} + \\frac{8}{b} + \\frac{8}{a} + \\frac{16}{\\sqrt{ab}}\\right)(a + b + c)$\n$= \\left(\\frac{4}{c} + \\frac{8}{b} + \\frac{8}{a} + \\frac{16}{\\sqrt{ab}}\\right) \\cdot 2016 \\cdot \\frac{1}{4} = \\frac{1}{4}$。\n当 $a_1 = a_2 = \\cdots = a_{2016} = \\frac{1}{2}$ 时，上述不等式等号成立，且有 $9a_i > 11a_{i+1}^2$，$1 \\leqslant i \\leqslant 2015$，此时，$S = \\frac{1}{4^{2016}}$。\n故，所求最大值为 $\\frac{1}{4^{2016}}$。",
+  "tags": [
+    "均值不等式",
+    "最小值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0007"
+}

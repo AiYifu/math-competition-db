@@ -1,0 +1,25 @@
+{
+  "uid": "p154_154_例9_bae1262bde",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "4",
+  "problem_id": "例9",
+  "problem_type": "example",
+  "title": "一些非“对称”不等式的处理方法",
+  "source_pages": [
+    154
+  ],
+  "stem_md": "设 $a \\leqslant b < c$ 是直角三角形 $ABC$ 的三边长, 求最大的常数 $M$, 使得 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\geqslant \\frac{M}{a + b + c}$ 恒成立.",
+  "solution_md": "解析 当 $a = b = \\frac{\\sqrt{2}}{2}c$, 即 $\\triangle ABC$ 为等腰直角三角形时, 有\n$M \\leqslant 2 + 3\\sqrt{2}$.\n下面证明\n$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\geqslant \\frac{2 + 3\\sqrt{2}}{a + b + c}$,\n即\n$a^2(b + c) + b^2(c + a) + c^2(a + b) \\geqslant (2 + 3\\sqrt{2})abc$\n恒成立.\n上式左端 $= c(a^2 + b^2) + \\left(a^2b + b \\cdot \\frac{c^2}{2}\\right) + \\left(ab^2 + a \\cdot \\frac{c^2}{2}\\right) + \\frac{1}{2}c^2(a + b)$\n$\\geqslant 2abc + \\sqrt{2}abc + \\sqrt{2}abc + \\frac{1}{2}c \\cdot \\sqrt{a^2 + b^2} \\cdot (a + b)$\n$\\geqslant 2abc + 2\\sqrt{2}abc + \\frac{1}{2}c \\cdot \\sqrt{2ab} \\cdot 2\\sqrt{ab}$\n$= (2 + 3\\sqrt{2})abc$.\n故\n$M_{\\max} = 2 + 3\\sqrt{2}$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a \\leqslant b < c$ 是直角三角形 $ABC$ 的三边长, 求最大的常数 $M$, 使得 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\geqslant \\frac{M}{a + b + c}$ 恒成立.\n解析 当 $a = b = \\frac{\\sqrt{2}}{2}c$, 即 $\\triangle ABC$ 为等腰直角三角形时, 有\n$M \\leqslant 2 + 3\\sqrt{2}$.\n下面证明\n$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\geqslant \\frac{2 + 3\\sqrt{2}}{a + b + c}$,\n即\n$a^2(b + c) + b^2(c + a) + c^2(a + b) \\geqslant (2 + 3\\sqrt{2})abc$\n恒成立.\n上式左端 $= c(a^2 + b^2) + \\left(a^2b + b \\cdot \\frac{c^2}{2}\\right) + \\left(ab^2 + a \\cdot \\frac{c^2}{2}\\right) + \\frac{1}{2}c^2(a + b)$\n$\\geqslant 2abc + \\sqrt{2}abc + \\sqrt{2}abc + \\frac{1}{2}c \\cdot \\sqrt{a^2 + b^2} \\cdot (a + b)$\n$\\geqslant 2abc + 2\\sqrt{2}abc + \\frac{1}{2}c \\cdot \\sqrt{2ab} \\cdot 2\\sqrt{ab}$\n$= (2 + 3\\sqrt{2})abc$.\n故\n$M_{\\max} = 2 + 3\\sqrt{2}$.",
+  "tags": [
+    "不等式",
+    "直角三角形",
+    "等腰直角三角形"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020"
+}

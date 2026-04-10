@@ -1,0 +1,53 @@
+{
+  "uid": "p096_096_例252_a06ad955af",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.2",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    96
+  ],
+  "source_images": [
+    "page-096.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$",
+  "solution_md": "我们知道，这是著名的 Schur 不等式，那么，如何用全导数来处理呢？很容易，实际上，不等式两边取全导数，我们有\n$$3(a^2+b^2+c^2)+3(ab+bc+ca)\\geqslant 2(a^2+b^2+c^2)+4(ab+bc+ca)$$\n$$\\Leftrightarrow a^2+b^2+c^2\\geqslant ab+bc+ca$$\n\n这是明显成立的。所以，我们可以假设 $abc=0$，来证明原不等式。不妨设 $c=0$，不等式变成\n$$a^3+b^3\\geqslant ab(a+b)$$\n\n这也是很明显成立的。等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,1,0)$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.2 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$\n证明及分析 我们知道，这是著名的 Schur 不等式，那么，如何用全导数来处理呢？",
+  "tags": [
+    "全导数",
+    "Schur不等式",
+    "非负实数"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "a06ad955af2c06cbd44803efe904337c0b3cd59e",
+  "raw_problem": {
+    "problem_id": "例2.5.2",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      96
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$",
+    "solution_md": "我们知道，这是著名的 Schur 不等式，那么，如何用全导数来处理呢？很容易，实际上，不等式两边取全导数，我们有\n$$3(a^2+b^2+c^2)+3(ab+bc+ca)\\geqslant 2(a^2+b^2+c^2)+4(ab+bc+ca)$$\n$$\\Leftrightarrow a^2+b^2+c^2\\geqslant ab+bc+ca$$\n\n这是明显成立的。所以，我们可以假设 $abc=0$，来证明原不等式。不妨设 $c=0$，不等式变成\n$$a^3+b^3\\geqslant ab(a+b)$$\n\n这也是很明显成立的。等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,1,0)$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.2 设 $a,b,c$ 是非负实数，证明\n$$a^3+b^3+c^3+3abc\\geqslant ab(a+b)+bc(b+c)+ca(c+a)$$\n证明及分析 我们知道，这是著名的 Schur 不等式，那么，如何用全导数来处理呢？",
+    "tags": [
+      "全导数",
+      "Schur不等式",
+      "非负实数"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

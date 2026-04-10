@@ -1,0 +1,53 @@
+{
+  "uid": "p110_110_21_07039e12ba",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "21",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "21. (Le Trung Kien, CPR) $k$ 取何值时，下列不等式\n$$k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\right) \\leqslant \\frac{(a-b)^2+(b-c)^2+(c-a)^2}{ab+bc+ca}$$\n对所有非负实数 $a,b,c$ 都成立？",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "21. (Le Trung Kien,CPR)$k$ 取何值时，下列不等式\n$$k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\right)\\leqslant\\frac{(a-b)^2+(b-c)^2+(c-a)^2}{ab+bc+ca}$$\n对所有非负实数 $a,b,c$ 都成立？",
+  "tags": [
+    "Le Trung Kien",
+    "CPR",
+    "求参数范围"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "07039e12ba41233aefb88b27340db9a64d3e04ae",
+  "raw_problem": {
+    "problem_id": "21",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "21. (Le Trung Kien, CPR) $k$ 取何值时，下列不等式\n$$k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\right) \\leqslant \\frac{(a-b)^2+(b-c)^2+(c-a)^2}{ab+bc+ca}$$\n对所有非负实数 $a,b,c$ 都成立？",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "21. (Le Trung Kien,CPR)$k$ 取何值时，下列不等式\n$$k\\left(\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a}-\\frac{3}{2}\\right)\\leqslant\\frac{(a-b)^2+(b-c)^2+(c-a)^2}{ab+bc+ca}$$\n对所有非负实数 $a,b,c$ 都成立？",
+    "tags": [
+      "Le Trung Kien",
+      "CPR",
+      "求参数范围"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

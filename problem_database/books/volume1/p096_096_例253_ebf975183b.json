@@ -1,0 +1,53 @@
+{
+  "uid": "p096_096_例253_ebf975183b",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.3",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    96
+  ],
+  "source_images": [
+    "page-096.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2b+b^2c+c^2a+abc\\leqslant 4$$",
+  "solution_md": "将不等式齐次化，等价于\n$$a^2b+b^2c+c^2a+abc\\leqslant \\frac{4}{27}(a+b+c)^3$$\n\n不等式两边取全导数，得到下列不等式\n$$\\sum a^2+3\\sum ab\\leqslant \\frac{4}{3}(a+b+c)^2\\Leftrightarrow \\sum ab\\leqslant \\sum a^2$$\n\n这是显然成立。因此，只需在 $c=0$ 的条件下，证明原不等式即可。即\n$$a^2b\\leqslant 3\\quad(a+b=3)$$\n\n这是显然成立的。等号成立的条件是 $a=b=c$ 或 $a=2,b=1,c=0$ 及其轮换。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 2.5.3 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2b+b^2c+c^2a+abc\\leqslant 4$$\n证明 将不等式齐次化，等价于\n$$a^2b+b^2c+c^2a+abc\\leqslant \\frac{4}{27}(a+b+c)^3$$",
+  "tags": [
+    "全导数",
+    "条件不等式",
+    "齐次化"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "ebf975183b6f4ebf5e694af8566424e5769d9a9a",
+  "raw_problem": {
+    "problem_id": "例2.5.3",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      96
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2b+b^2c+c^2a+abc\\leqslant 4$$",
+    "solution_md": "将不等式齐次化，等价于\n$$a^2b+b^2c+c^2a+abc\\leqslant \\frac{4}{27}(a+b+c)^3$$\n\n不等式两边取全导数，得到下列不等式\n$$\\sum a^2+3\\sum ab\\leqslant \\frac{4}{3}(a+b+c)^2\\Leftrightarrow \\sum ab\\leqslant \\sum a^2$$\n\n这是显然成立。因此，只需在 $c=0$ 的条件下，证明原不等式即可。即\n$$a^2b\\leqslant 3\\quad(a+b=3)$$\n\n这是显然成立的。等号成立的条件是 $a=b=c$ 或 $a=2,b=1,c=0$ 及其轮换。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 2.5.3 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，证明\n$$a^2b+b^2c+c^2a+abc\\leqslant 4$$\n证明 将不等式齐次化，等价于\n$$a^2b+b^2c+c^2a+abc\\leqslant \\frac{4}{27}(a+b+c)^3$$",
+    "tags": [
+      "全导数",
+      "条件不等式",
+      "齐次化"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

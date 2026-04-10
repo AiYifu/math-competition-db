@@ -1,0 +1,21 @@
+{
+  "uid": "p193_193_16_77e20f341c",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "16",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193
+  ],
+  "stem_md": "由平均值不等式, 得 $\\frac{x_{2}}{x_{1}}=\\frac{x_{2}}{x_{3}}\\cdot\\frac{x_{3}}{x_{1}}\\leqslant\\frac{1}{2}\\left[\\left(\\frac{x_{2}}{x_{3}}\\right)^{2}+\\left(\\frac{x_{3}}{x_{1}}\\right)^{2}\\right]$, $\\frac{x_{3}}{x_{2}}=\\frac{x_{3}}{x_{1}}\\cdot\\frac{x_{1}}{x_{2}}\\leqslant\\frac{1}{2}\\left[\\left(\\frac{x_{3}}{x_{1}}\\right)^{2}+\\left(\\frac{x_{1}}{x_{2}}\\right)^{2}\\right]$, $\\frac{x_{1}}{x_{3}}=\\frac{x_{1}}{x_{2}}\\cdot\\frac{x_{2}}{x_{3}}\\leqslant\\frac{1}{2}\\left[\\left(\\frac{x_{1}}{x_{2}}\\right)^{2}+\\left(\\frac{x_{2}}{x_{3}}\\right)^{2}\\right]$. 将它们相加, 便得到命题成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "16. 由平均值不等式, 得 $\\frac{x_{2}}{x_{1}}=\\frac{x_{2}}{x_{3}}\\cdot\\frac{x_{3}}{x_{1}}\\leqslant\\frac{1}{2}\\left[\\left(\\frac{x_{2}}{x_{3}}\\right)^{2}+\\left(\\frac{x_{3}}{x_{1}}\\right)^{2}\\right]$, $\\frac{x_{3}}{x_{2}}=\\frac{x_{3}}{x_{1}}\\cdot\\frac{x_{1}}{x_{2}}\\leqslant\\frac{1}{2}\\left[\\left(\\frac{x_{3}}{x_{1}}\\right)^{2}+\\left(\\frac{x_{1}}{x_{2}}\\right)^{2}\\right]$, $\\frac{x_{1}}{x_{3}}=\\frac{x_{1}}{x_{2}}\\cdot\\frac{x_{2}}{x_{3}}\\leqslant\\frac{1}{2}\\left[\\left(\\frac{x_{1}}{x_{2}}\\right)^{2}+\\left(\\frac{x_{2}}{x_{3}}\\right)^{2}\\right]$. 将它们相加, 便得到命题成立.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0025"
+}

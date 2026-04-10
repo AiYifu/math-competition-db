@@ -1,0 +1,25 @@
+{
+  "uid": "p011_012_例12_e181d2c23b",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例12",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    11,
+    12
+  ],
+  "stem_md": "若 $x, y \\in \\mathbf{R}$，$y \\geqslant 0$，且 $y(y + 1) \\leqslant (x + 1)^2$，求证：$y(y - 1) \\leqslant x^2$.",
+  "solution_md": "证明 若 $0 \\leqslant y \\leqslant 1$，则 $y(y - 1) \\leqslant 0 \\leqslant x^2$.\n若 $y > 1$，由题设知 $y(y + 1) \\leqslant (x + 1)^2$，\n$$y \\leqslant \\sqrt{(x + 1)^2 + \\frac{1}{4}} - \\frac{1}{2}.$$要证明 $y(y - 1) \\leqslant x^2$，即只需证明\n$$\\sqrt{(x + 1)^2 + \\frac{1}{4}} - \\frac{1}{2} \\leqslant \\sqrt{x^2 + \\frac{1}{4}} + \\frac{1}{2}$$\n$$\\Leftrightarrow (x + 1)^2 + \\frac{1}{4} \\leqslant x^2 + \\frac{1}{4} + 2\\sqrt{x^2 + \\frac{1}{4}} + 1$$\n$$\\Leftrightarrow 2x \\leqslant 2\\sqrt{x^2 + \\frac{1}{4}}.$$最后这个不等式是显然的，从而原不等式得证。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例12 若 $x, y \\in \\mathbf{R}$，$y \\geqslant 0$，且 $y(y + 1) \\leqslant (x + 1)^2$，求证：$y(y - 1) \\leqslant x^2$.\n证明 若 $0 \\leqslant y \\leqslant 1$，则 $y(y - 1) \\leqslant 0 \\leqslant x^2$.\n若 $y > 1$，由题设知 $y(y + 1) \\leqslant (x + 1)^2$，\n$$y \\leqslant \\sqrt{(x + 1)^2 + \\frac{1}{4}} - \\frac{1}{2}.$$要证明 $y(y - 1) \\leqslant x^2$，即只需证明\n$$\\sqrt{(x + 1)^2 + \\frac{1}{4}} - \\frac{1}{2} \\leqslant \\sqrt{x^2 + \\frac{1}{4}} + \\frac{1}{2}$$\n$$\\Leftrightarrow (x + 1)^2 + \\frac{1}{4} \\leqslant x^2 + \\frac{1}{4} + 2\\sqrt{x^2 + \\frac{1}{4}} + 1$$\n$$\\Leftrightarrow 2x \\leqslant 2\\sqrt{x^2 + \\frac{1}{4}}.$$最后这个不等式是显然的，从而原不等式得证。",
+  "tags": [
+    "不等式",
+    "证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0002"
+}

@@ -1,0 +1,26 @@
+{
+  "uid": "p033_034_例38_2942fbebb5",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1.9",
+  "section": "琴生(Jensen)不等式",
+  "problem_id": "例38",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    33,
+    34
+  ],
+  "stem_md": "在三角形 $ABC$ 中, 求证: $\\cos A + \\cos B + \\cos C \\leqslant \\frac{3}{2}$.",
+  "solution_md": "不妨设 $A \\leqslant B \\leqslant C$, 则 $0 < A \\leqslant B < \\frac{\\pi}{2}$. 因为 $f(x) = \\cos x$ 在 $\\left[0, \\frac{\\pi}{2}\\right]$ 上是向上凸的函数, 所以\n$$\\cos A + \\cos B \\leqslant 2 \\cos \\frac{A + B}{2} = 2 \\sin \\frac{C}{2},$$\n故只需证\n$$2 \\sin \\frac{C}{2} + \\cos C \\leqslant \\frac{3}{2},$$\n即\n$$-\\frac{1}{2} \\left(2 \\sin \\frac{C}{2} - 1\\right)^2 \\leqslant 0,$$\n从而命题得证.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例38 在三角形 $ABC$ 中, 求证: $\\cos A + \\cos B + \\cos C \\leqslant \\frac{3}{2}$. 证明 不妨设 $A \\leqslant B \\leqslant C$, 则 $0 < A \\leqslant B < \\frac{\\pi}{2}$. 因为 $f(x) = \\cos x$ 在 $\\left[0, \\frac{\\pi}{2}\\right]$ 上是向上凸的函数, 所以\n$$\\cos A + \\cos B \\leqslant 2 \\cos \\frac{A + B}{2} = 2 \\sin \\frac{C}{2},$$\n故只需证\n$$2 \\sin \\frac{C}{2} + \\cos C \\leqslant \\frac{3}{2},$$\n即\n$$-\\frac{1}{2} \\left(2 \\sin \\frac{C}{2} - 1\\right)^2 \\leqslant 0,$$\n从而命题得证.",
+  "tags": [
+    "三角形",
+    "不等式",
+    "琴生不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005"
+}

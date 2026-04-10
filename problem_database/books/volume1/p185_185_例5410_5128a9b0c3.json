@@ -1,0 +1,55 @@
+{
+  "uid": "p185_185_例5410_5128a9b0c3",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第5章",
+  "section": "5.4",
+  "problem_id": "例5.4.10",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    185
+  ],
+  "source_images": [
+    "page-185.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$\\frac{(1+a^3)(1+b^3)(1+c^3)(1+d^3)}{(1+a^2)(1+b^2)(1+c^2)(1+d^2)}\\geqslant \\frac{1+abcd}{2}$$",
+  "solution_md": "对于非负实数 $x$，我们有\n$$(1+x^3)(1+x)\\geqslant (1+x^2)^2\\Rightarrow \\left(\\frac{1+x^3}{1+x^2}\\right)^2\\geqslant \\frac{1+x^3}{1+x}$$\n$$2(x^2-x+1)^2-(x^4+1)=(x-1)^4\\geqslant 0\\Rightarrow \\left(\\frac{1+x^3}{1+x}\\right)^2\\geqslant \\frac{1+x^4}{2}$$\n于是，我们得到\n$$\\frac{1+x^3}{1+x^2}\\geqslant \\sqrt[4]{\\frac{1+x^4}{2}}$$\n由 Hölder 不等式，我们有\n$$\\prod\\frac{1+a^3}{1+a^2}\\geqslant \\prod\\sqrt[4]{\\frac{1+a^4}{2}}\\geqslant \\frac{1+abcd}{2}$$\n不等式得证。等号成立的条件是 $a=b=c=d=1$ 或 $a=b=c=d=0$。",
+  "answer_md": "",
+  "hints_md": "Vasile Cirtoaje, Algebraic Inequalities",
+  "original_text_md": "例 5.4.10(Vasile Cirtoaje,Algebraic Inequalities) 设 $a,b,c,d$ 是非负实数，证明\n$$\\frac{(1+a^3)(1+b^3)(1+c^3)(1+d^3)}{(1+a^2)(1+b^2)(1+c^2)(1+d^2)}\\geqslant \\frac{1+abcd}{2}$$\n证明 对于非负实数 $x$，我们有\n$$(1+x^3)(1+x)\\geqslant (1+x^2)^2\\Rightarrow \\left(\\frac{1+x^3}{1+x^2}\\right)^2\\geqslant \\frac{1+x^3}{1+x}$$\n$$2(x^2-x+1)^2-(x^4+1)=(x-1)^4\\geqslant 0\\Rightarrow \\left(\\frac{1+x^3}{1+x}\\right)^2\\geqslant \\frac{1+x^4}{2}$$\n于是，我们得到\n$$\\frac{1+x^3}{1+x^2}\\geqslant \\sqrt[4]{\\frac{1+x^4}{2}}$$\n由 Hölder 不等式，我们有\n$$\\prod\\frac{1+a^3}{1+a^2}\\geqslant \\prod\\sqrt[4]{\\frac{1+a^4}{2}}\\geqslant \\frac{1+abcd}{2}$$\n不等式得证。等号成立的条件是 $a=b=c=d=1$ 或 $a=b=c=d=0$。",
+  "tags": [
+    "非齐次不等式",
+    "Hölder不等式",
+    "非负实数",
+    "四元"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0021",
+  "raw_response_file": "raw/chunk-0021.response.txt",
+  "raw_api_file": "raw/chunk-0021.api.json",
+  "fingerprint": "5128a9b0c39237a491f19674d24a2bcc7025440f",
+  "raw_problem": {
+    "problem_id": "例5.4.10",
+    "problem_type": "example",
+    "chapter": "第5章",
+    "section": "5.4",
+    "title": null,
+    "source_pages": [
+      185
+    ],
+    "stem_md": "设 $a,b,c,d$ 是非负实数，证明\n$$\\frac{(1+a^3)(1+b^3)(1+c^3)(1+d^3)}{(1+a^2)(1+b^2)(1+c^2)(1+d^2)}\\geqslant \\frac{1+abcd}{2}$$",
+    "solution_md": "对于非负实数 $x$，我们有\n$$(1+x^3)(1+x)\\geqslant (1+x^2)^2\\Rightarrow \\left(\\frac{1+x^3}{1+x^2}\\right)^2\\geqslant \\frac{1+x^3}{1+x}$$\n$$2(x^2-x+1)^2-(x^4+1)=(x-1)^4\\geqslant 0\\Rightarrow \\left(\\frac{1+x^3}{1+x}\\right)^2\\geqslant \\frac{1+x^4}{2}$$\n于是，我们得到\n$$\\frac{1+x^3}{1+x^2}\\geqslant \\sqrt[4]{\\frac{1+x^4}{2}}$$\n由 Hölder 不等式，我们有\n$$\\prod\\frac{1+a^3}{1+a^2}\\geqslant \\prod\\sqrt[4]{\\frac{1+a^4}{2}}\\geqslant \\frac{1+abcd}{2}$$\n不等式得证。等号成立的条件是 $a=b=c=d=1$ 或 $a=b=c=d=0$。",
+    "answer_md": "",
+    "hints_md": "Vasile Cirtoaje, Algebraic Inequalities",
+    "original_text_md": "例 5.4.10(Vasile Cirtoaje,Algebraic Inequalities) 设 $a,b,c,d$ 是非负实数，证明\n$$\\frac{(1+a^3)(1+b^3)(1+c^3)(1+d^3)}{(1+a^2)(1+b^2)(1+c^2)(1+d^2)}\\geqslant \\frac{1+abcd}{2}$$\n证明 对于非负实数 $x$，我们有\n$$(1+x^3)(1+x)\\geqslant (1+x^2)^2\\Rightarrow \\left(\\frac{1+x^3}{1+x^2}\\right)^2\\geqslant \\frac{1+x^3}{1+x}$$\n$$2(x^2-x+1)^2-(x^4+1)=(x-1)^4\\geqslant 0\\Rightarrow \\left(\\frac{1+x^3}{1+x}\\right)^2\\geqslant \\frac{1+x^4}{2}$$\n于是，我们得到\n$$\\frac{1+x^3}{1+x^2}\\geqslant \\sqrt[4]{\\frac{1+x^4}{2}}$$\n由 Hölder 不等式，我们有\n$$\\prod\\frac{1+a^3}{1+a^2}\\geqslant \\prod\\sqrt[4]{\\frac{1+a^4}{2}}\\geqslant \\frac{1+abcd}{2}$$\n不等式得证。等号成立的条件是 $a=b=c=d=1$ 或 $a=b=c=d=0$。",
+    "tags": [
+      "非齐次不等式",
+      "Hölder不等式",
+      "非负实数",
+      "四元"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p066_066_例8_c540e2a42e",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "2",
+  "section": "平均值不等式的应用",
+  "problem_id": "例8",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    66
+  ],
+  "stem_md": "设 $P$ 为 $\\triangle ABC$ 内部或边界上一点, 点 $P$ 到三边的距离分别为 $PD, PE, PF$. 求证: \n$$\nPA + PB + PC \\geqslant 2(PD + PE + PF).\n$$\n证明 设 $PA = x, PB = y, PC = z, PD = p, PE = q, PF = r$, 其中 $D, E, F$ 为点 $P$ 在三边上的射影. 则 $C, D, P, E$ 四点共圆, 得\n$$\nBF \\geqslant h = a\\sin B + f\\sin F.\n$$\n由于 $AB // DE, BC // EF, AF // CD$, \n$$\n\\angle A = \\angle D, \\angle B = \\angle E, \\angle C = \\angle F.\n$$\n所以\n$$\n2R_{A} = \\frac{BF}{\\sin A} \\geqslant a \\frac{\\sin B}{\\sin A} + f \\frac{\\sin F}{\\sin A}.\n$$\n同理可得\n$$\n2R_{C} = \\frac{BD}{\\sin C} \\geqslant b \\frac{\\sin B}{\\sin C} + c \\frac{\\sin D}{\\sin C},\n$$\n$$\n2R_{E} = \\frac{DF}{\\sin E} \\geqslant d \\frac{\\sin D}{\\sin E} + e \\frac{\\sin F}{\\sin E},\n$$\n所以\n$$\n2(R_{A} + R_{C} + R_{E}) \\geqslant a + b + c = \\frac{p}{2}.\n$$\n等号成立当且仅当 $\\triangle ABC$ 为正三角形, 且 $P$ 为 $\\triangle ABC$ 的中心.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $P$ 为 $\\triangle ABC$ 内部或边界上一点, 点 $P$ 到三边的距离分别为 $PD, PE, PF$. 求证: \n$$\nPA + PB + PC \\geqslant 2(PD + PE + PF).\n$$\n证明 设 $PA = x, PB = y, PC = z, PD = p, PE = q, PF = r$, 其中 $D, E, F$ 为点 $P$ 在三边上的射影. 则 $C, D, P, E$ 四点共圆, 得\n$$\nBF \\geqslant h = a\\sin B + f\\sin F.\n$$\n由于 $AB // DE, BC // EF, AF // CD$, \n$$\n\\angle A = \\angle D, \\angle B = \\angle E, \\angle C = \\angle F.\n$$\n所以\n$$\n2R_{A} = \\frac{BF}{\\sin A} \\geqslant a \\frac{\\sin B}{\\sin A} + f \\frac{\\sin F}{\\sin A}.\n$$\n同理可得\n$$\n2R_{C} = \\frac{BD}{\\sin C} \\geqslant b \\frac{\\sin B}{\\sin C} + c \\frac{\\sin D}{\\sin C},\n$$\n$$\n2R_{E} = \\frac{DF}{\\sin E} \\geqslant d \\frac{\\sin D}{\\sin E} + e \\frac{\\sin F}{\\sin E},\n$$\n所以\n$$\n2(R_{A} + R_{C} + R_{E}) \\geqslant a + b + c = \\frac{p}{2}.\n$$\n等号成立当且仅当 $\\triangle ABC$ 为正三角形, 且 $P$ 为 $\\triangle ABC$ 的中心.",
+  "tags": [
+    "均值不等式",
+    "三角形"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0009"
+}

@@ -1,0 +1,24 @@
+{
+  "uid": "p170_170_24_eb61a124ee",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "24",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    170
+  ],
+  "stem_md": "由条件可知, $\\sum_{i=1}^{n}x_i\\sqrt{x_1^2+x_2^2+\\cdots+x_i^2} \\geqslant \\sum_{i=1}^{n}x_i\\cdot\\frac{x_1+x_2+\\cdots+x_i}{\\sqrt{i}} = \\sum_{i=1}^{n}\\sum_{j=1}^{i}\\frac{x_ix_j}{\\sqrt{i}} \\geqslant \\frac{1}{\\sqrt{n}}\\sum_{i=1}^{n}\\sum_{j=1}^{i}x_ix_j = \\frac{1}{2\\sqrt{n}}\\sum_{1\\leqslant i<j\\leqslant n}2x_ix_j = \\frac{1}{2\\sqrt{n}}(\\sum_{i=1}^{n}x_i^2+(\\sum_{k=1}^{n}x_k)^2)$",
+  "solution_md": "由条件可知, $\\sum_{i=1}^{n}x_i\\sqrt{x_1^2+x_2^2+\\cdots+x_i^2} \\geqslant \\sum_{i=1}^{n}x_i\\cdot\\frac{x_1+x_2+\\cdots+x_i}{\\sqrt{i}} = \\sum_{i=1}^{n}\\sum_{j=1}^{i}\\frac{x_ix_j}{\\sqrt{i}} \\geqslant \\frac{1}{\\sqrt{n}}\\sum_{i=1}^{n}\\sum_{j=1}^{i}x_ix_j = \\frac{1}{2\\sqrt{n}}\\sum_{1\\leqslant i<j\\leqslant n}2x_ix_j = \\frac{1}{2\\sqrt{n}}(\\sum_{i=1}^{n}x_i^2+(\\sum_{k=1}^{n}x_k)^2)$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "24. 由条件可知, $\\sum_{i=1}^{n}x_i\\sqrt{x_1^2+x_2^2+\\cdots+x_i^2} \\geqslant \\sum_{i=1}^{n}x_i\\cdot\\frac{x_1+x_2+\\cdots+x_i}{\\sqrt{i}} = \\sum_{i=1}^{n}\\sum_{j=1}^{i}\\frac{x_ix_j}{\\sqrt{i}} \\geqslant \\frac{1}{\\sqrt{n}}\\sum_{i=1}^{n}\\sum_{j=1}^{i}x_ix_j = \\frac{1}{2\\sqrt{n}}\\sum_{1\\leqslant i<j\\leqslant n}2x_ix_j = \\frac{1}{2\\sqrt{n}}(\\sum_{i=1}^{n}x_i^2+(\\sum_{k=1}^{n}x_k)^2)$",
+  "tags": [
+    "不等式",
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0022"
+}

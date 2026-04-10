@@ -1,0 +1,25 @@
+{
+  "uid": "p158_158_例13_8522e0d4f3",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "10",
+  "section": "4",
+  "problem_id": "例13",
+  "problem_type": "example",
+  "title": "一些非“对称”不等式的处理方法",
+  "source_pages": [
+    158
+  ],
+  "stem_md": "给定整数 $n \\geqslant 2$, 以及正数 $a < b$. 设实数 $x_1, x_2, \\cdots, x_n \\in [a, b]$. 求\n$\\frac{x_1^2}{x_2} + \\frac{x_2^2}{x_3} + \\cdots + \\frac{x_{n-1}^2}{x_n} + \\frac{x_n^2}{x_1}$\n的最大值. (2016 年中国数学奥林匹克)",
+  "solution_md": "解析 引理 1: 设 $a \\leqslant u \\leqslant v \\leqslant b$, 则 $\\frac{v}{u} + \\frac{u}{v} \\leqslant \\frac{b}{a} + \\frac{a}{b}$, 所以 $f\\left(\\frac{v}{u}\\right) \\leqslant f\\left(\\frac{b}{a}\\right)$. 由此可证得引理 1.\n引理 2 的证明: 一方面, 我们有\n$\\frac{u^2}{v} + \\frac{v^2}{u} - u - v \\leqslant \\frac{a^2}{b} + \\frac{b^2}{a} - a - b$.\n另一方面, 我们有\n$\\left(\\frac{a^2}{b} + \\frac{b^2}{a} - a - b\\right) - \\left(\\frac{u^2}{v} + \\frac{v^2}{u} - u - v\\right) = (u - a)\\left(\\frac{v - a}{v} + \\frac{v^3 - au^2}{auv}\\right) \\geqslant 0$.\n于是\n$\\frac{a^2}{v} + \\frac{v^2}{a} - a - v \\leqslant \\frac{a^2}{b} + \\frac{b^2}{a} - a - b$.\n下面证明原问题. 设 $x_1, x_2, \\cdots, x_n$ 为 $a, a, b, a, b, \\cdots, a, b$, 则上述不等式的等号成立. 所以此时所求最大值为 $\\frac{a^2 - ab + b^2}{ab}$.\n情形 1: $n = 2m$ 为偶数. 则由④得:\n$\\frac{\\sum_{i=1}^{n} x_i^2}{\\sum_{i=1}^{n} x_{i+1}} \\leqslant \\frac{m(a^2 + b^2)}{ab((m + 1)a + mb)}$ (这里 $m = \\frac{n - 1}{2}$).\n再由③可得:\n$(a + b)U \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)V - (a + b)(U - V)$.\n于是\n$U - V \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right) - (a + b)$.\n若取 $x_1, x_2, \\cdots, x_n$ 为 $a, a, b, a, b, \\cdots, a, b$, 则上述不等式的等号成立. 所以此时所求最大值为 $\\frac{m(a^3 + b^3) + a^2b}{ab((m + 1)a + mb)}$ (这里 $m = \\frac{n - 1}{2}$).\n情形 2: $n = 2m + 1$ 为奇数. 记\n$U = \\sum_{i=1}^{m} \\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)y_{m+1} - am\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)y_{m+1} - a(U - V)$.\n则由④得:\n$(a + b)U \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)V - (a + b)(U - V)$.\n于是\n$U - V \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right) - (a + b)$.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "给定整数 $n \\geqslant 2$, 以及正数 $a < b$. 设实数 $x_1, x_2, \\cdots, x_n \\in [a, b]$. 求\n$\\frac{x_1^2}{x_2} + \\frac{x_2^2}{x_3} + \\cdots + \\frac{x_{n-1}^2}{x_n} + \\frac{x_n^2}{x_1}$\n的最大值. (2016 年中国数学奥林匹克)\n解析 引理 1: 设 $a \\leqslant u \\leqslant v \\leqslant b$, 则 $\\frac{v}{u} + \\frac{u}{v} \\leqslant \\frac{b}{a} + \\frac{a}{b}$, 所以 $f\\left(\\frac{v}{u}\\right) \\leqslant f\\left(\\frac{b}{a}\\right)$. 由此可证得引理 1.\n引理 2 的证明: 一方面, 我们有\n$\\frac{u^2}{v} + \\frac{v^2}{u} - u - v \\leqslant \\frac{a^2}{b} + \\frac{b^2}{a} - a - b$.\n另一方面, 我们有\n$\\left(\\frac{a^2}{b} + \\frac{b^2}{a} - a - b\\right) - \\left(\\frac{u^2}{v} + \\frac{v^2}{u} - u - v\\right) = (u - a)\\left(\\frac{v - a}{v} + \\frac{v^3 - au^2}{auv}\\right) \\geqslant 0$.\n于是\n$\\frac{a^2}{v} + \\frac{v^2}{a} - a - v \\leqslant \\frac{a^2}{b} + \\frac{b^2}{a} - a - b$.\n下面证明原问题. 设 $x_1, x_2, \\cdots, x_n$ 为 $a, a, b, a, b, \\cdots, a, b$, 则上述不等式的等号成立. 所以此时所求最大值为 $\\frac{a^2 - ab + b^2}{ab}$.\n情形 1: $n = 2m$ 为偶数. 则由④得:\n$\\frac{\\sum_{i=1}^{n} x_i^2}{\\sum_{i=1}^{n} x_{i+1}} \\leqslant \\frac{m(a^2 + b^2)}{ab((m + 1)a + mb)}$ (这里 $m = \\frac{n - 1}{2}$).\n再由③可得:\n$(a + b)U \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)V - (a + b)(U - V)$.\n于是\n$U - V \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right) - (a + b)$.\n若取 $x_1, x_2, \\cdots, x_n$ 为 $a, a, b, a, b, \\cdots, a, b$, 则上述不等式的等号成立. 所以此时所求最大值为 $\\frac{m(a^3 + b^3) + a^2b}{ab((m + 1)a + mb)}$ (这里 $m = \\frac{n - 1}{2}$).\n情形 2: $n = 2m + 1$ 为奇数. 记\n$U = \\sum_{i=1}^{m} \\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)y_{m+1} - am\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)y_{m+1} - a(U - V)$.\n则由④得:\n$(a + b)U \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right)V - (a + b)(U - V)$.\n于是\n$U - V \\leqslant m\\left(\\frac{a^2}{b} + \\frac{b^2}{a}\\right) - (a + b)$.",
+  "tags": [
+    "不等式",
+    "实数",
+    "最大值"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020"
+}

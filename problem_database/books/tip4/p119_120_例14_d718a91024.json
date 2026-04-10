@@ -1,0 +1,24 @@
+{
+  "uid": "p119_120_例14_d718a91024",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "例14",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    119,
+    120
+  ],
+  "stem_md": "设 $a, b, c$ 是三角形的三边长, 求证: $a^2b(a - b) + b^2c(b - c) + c^2a(c - a) \\geqslant 0$.",
+  "solution_md": "证明 显然存在正数 $x, y, z$ 使得 $a = y + z$, $b = z + x$, $c = x + y$. 由于 $a^2b(a - b) + b^2c(b - c) + c^2a(c - a) = (y + z)(z + x)(x + y)(y - z) + (z + x)(x + y)(y + z)(z - x) + (x + y)(y + z)(z + x)(x - y) = 2x(y - z)y^2 + 2y(z - x)z^2 + 2z(x - y)x^2$. 原不等式等价于 $xyz(x + y + z) \\leqslant xy^3 + yz^3 + zx^3$. 由柯西不等式, 得 $(x + y + z) \\leqslant \\left(\\frac{x^2}{y} + \\frac{y^2}{z} + \\frac{z^2}{x}\\right)^{\\frac{1}{2}}(x + y + z)^{\\frac{1}{2}}$, 考虑证明一个更强的结论: $(x_1 + x_2)(y_1 + y_2) \\geqslant \\left(\\sqrt{x_1y_1} + \\sqrt{x_2y_2}\\right)^2 = (\\sqrt{u_1^2 + z_1^2} + 2\\sqrt{u_1^2 + z_2^2} + (u_2^2 + z_2^2)) \\geqslant (u_1 + u_2)^2 + (z_1 + z_2)^2$. 于是原不等式成立, 且当 $x_1 = x_2$, $y_1 = y_2$, $z_1 = z_2$ 时等号成立.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是三角形的三边长, 求证: $a^2b(a - b) + b^2c(b - c) + c^2a(c - a) \\geqslant 0$. 证明 显然存在正数 $x, y, z$ 使得 $a = y + z$, $b = z + x$, $c = x + y$. 由于 $a^2b(a - b) + b^2c(b - c) + c^2a(c - a) = (y + z)(z + x)(x + y)(y - z) + (z + x)(x + y)(y + z)(z - x) + (x + y)(y + z)(z + x)(x - y) = 2x(y - z)y^2 + 2y(z - x)z^2 + 2z(x - y)x^2$. 原不等式等价于 $xyz(x + y + z) \\leqslant xy^3 + yz^3 + zx^3$. 由柯西不等式, 得 $(x + y + z) \\leqslant \\left(\\frac{x^2}{y} + \\frac{y^2}{z} + \\frac{z^2}{x}\\right)^{\\frac{1}{2}}(x + y + z)^{\\frac{1}{2}}$, 考虑证明一个更强的结论: $(x_1 + x_2)(y_1 + y_2) \\geqslant \\left(\\sqrt{x_1y_1} + \\sqrt{x_2y_2}\\right)^2 = (\\sqrt{u_1^2 + z_1^2} + 2\\sqrt{u_1^2 + z_2^2} + (u_2^2 + z_2^2)) \\geqslant (u_1 + u_2)^2 + (z_1 + z_2)^2$. 于是原不等式成立, 且当 $x_1 = x_2$, $y_1 = y_2$, $z_1 = z_2$ 时等号成立.",
+  "tags": [
+    "柯西不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0015"
+}

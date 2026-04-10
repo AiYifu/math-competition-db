@@ -1,0 +1,21 @@
+{
+  "uid": "p113_113_1_a8cadbcc05",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "习题 7",
+  "section": null,
+  "problem_id": "1",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    113
+  ],
+  "stem_md": "已知 $x 、 y 、 z$ 是实数, 求证: $$\\frac{xyz}{(1+5x)(4x+3y)(5y+6z)(z+18)} \\leqslant \\frac{1}{5120}.$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "已知 $x 、 y 、 z$ 是实数, 求证: $$\\frac{xyz}{(1+5x)(4x+3y)(5y+6z)(z+18)} \\leqslant \\frac{1}{5120}.$$",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0015"
+}

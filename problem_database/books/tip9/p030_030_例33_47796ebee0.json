@@ -1,0 +1,25 @@
+{
+  "uid": "p030_030_例33_47796ebee0",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1",
+  "section": "证明不等式的基本方法",
+  "problem_id": "例33",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    30
+  ],
+  "stem_md": "设 $a, b, c$ 是正实数, 且满足 $abc = 1$. 求证:\n$$\\frac{1}{a^3(b + c)} + \\frac{1}{b^3(c + a)} + \\frac{1}{c^3(a + b)} \\geqslant \\frac{3}{2}.$$",
+  "solution_md": "证明 不妨设 $a \\leqslant b \\leqslant c$, 则\n$$ab \\leqslant ac \\leqslant bc, \\frac{bc}{a(b + c)} \\geqslant \\frac{ca}{b(c + a)} \\geqslant \\frac{ab}{c(a + b)},$$\n以及\n$$\\frac{bc}{a(b + c)} \\cdot bc + \\frac{ca}{b(c + a)} \\cdot ca + \\frac{ab}{c(a + b)} \\cdot ab$$\n$$\\geqslant \\frac{bc}{a(b + c)} \\cdot ca + \\frac{ca}{b(c + a)} \\cdot ab + \\frac{ab}{c(a + b)} \\cdot bc,$$\n把上面两个不等式相加, 便得\n$$a^2b + b^2c + c^2a = xy + yz + zx$$\n$$= (x + y) \\cdot \\frac{xy}{x + y} + (z + x) \\cdot \\frac{zx}{z + x} + (y + z) \\cdot \\frac{yz}{y + z}$$\n$$\\geqslant (c + a) \\cdot \\frac{ab}{a + b} + (b + c) \\cdot \\frac{ca}{c + a} + (a + b) \\cdot \\frac{bc}{b + c}$$\n$$= \\frac{bc(a + b)}{b + c} + \\frac{ca(b + c)}{c + a} + \\frac{ab(c + a)}{a + b},$$\n于是由排序不等式可得\n$$\\frac{a + b}{b + c} + \\frac{b + c}{c + a} + \\frac{c + a}{a + b} \\geqslant \\frac{3(a + b + c)^2}{ab + bc + ca}$$\n$$\\geqslant \\frac{3(a + b + c)^2}{(a + b + c)(a + b + c)} = 3,$$\n设 $(x, y, z)$ 是 $(a, b, c)$ 的某个排列, 使得 $x \\geqslant y \\geqslant z$, 则\n$$x + y \\geqslant z + x \\geqslant y + z, \\frac{xy}{x + y} \\geqslant \\frac{zx}{z + x} \\geqslant \\frac{yz}{y + z},$$\n$$x^2 \\leqslant y - y^2 \\Leftrightarrow (x - y)(1 - x - y) \\leqslant 0,$$\n所以, 由切比雪夫不等式, 可得\n$$\\frac{1 - 2x}{\\sqrt{x(1 - x)}} + \\frac{1 - 2y}{\\sqrt{y(1 - y)}} + \\frac{1 - 2z}{\\sqrt{z(1 - z)}} \\geqslant \\frac{4}{27}.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "设 $a, b, c$ 是正实数, 且满足 $abc = 1$. 求证:\n$$\\frac{1}{a^3(b + c)} + \\frac{1}{b^3(c + a)} + \\frac{1}{c^3(a + b)} \\geqslant \\frac{3}{2}.$$",
+  "tags": [
+    "不等式",
+    "正实数",
+    "切比雪夫不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0004"
+}

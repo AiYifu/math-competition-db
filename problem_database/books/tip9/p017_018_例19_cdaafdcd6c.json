@@ -1,0 +1,26 @@
+{
+  "uid": "p017_018_例19_cdaafdcd6c",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "null",
+  "section": "null",
+  "problem_id": "例19",
+  "problem_type": "example",
+  "title": "null",
+  "source_pages": [
+    17,
+    18
+  ],
+  "stem_md": "求函数 $f_n(x_1, x_2, \\cdots, x_n) = \\frac{x_1}{(1 + x_1 + \\cdots + x_n)^2} + \\frac{x_2}{(1 + x_2 + \\cdots + x_n)^2} + \\cdots + \\frac{x_n}{(1 + x_n)^2}$ 的最大值 $m_n$ (其中 $x_i \\geqslant 0$). 用 $m_{n-1}$ 表示 $m_n$, 并求 $\\lim_{n \\to \\infty} m_n$.",
+  "solution_md": "分析 $f_n$ 的每一项分母都很复杂, 自然应先作代换将其简化.\n解 令 $a_i = \\frac{1}{1 + x_i + \\cdots + x_n}$, $1 \\leqslant i \\leqslant n$, 并约定 $a_{n+1} = 1$. 则\n$1 + x_i + x_{i+1} + \\cdots + x_n = \\frac{1}{a_i}$.\n又\n$1 + x_{i+1} + x_{i+2} + \\cdots + x_n = \\frac{1}{a_{i+1}}$,\n故\n$x_i = \\frac{1}{a_i} - \\frac{1}{a_{i+1}}$.\n因此\n$f_n = \\sum_{i=1}^{n} a_i^2 \\left( \\frac{1}{a_i} - \\frac{1}{a_{i+1}} \\right) = \\sum_{i=1}^{n} \\left( a_i - \\frac{a_i^2}{a_{i+1}} \\right)$\n为求 $f_n$ 之最大值, 构造下列不等式:\n$\\left\\{\\begin{array}{l}\\frac{a_1^2}{a_2} + \\lambda_1^2 a_2 \\geqslant 2 \\lambda_1 a_1, \\\\\\frac{a_2^2}{a_3} + \\lambda_2^2 a_3 \\geqslant 2 \\lambda_2 a_2, \\\\\\cdots \\\\\\frac{a_n^2}{1} + \\lambda_n^2 \\geqslant 2 \\lambda_n a_n.\\end{array}\\right.$\n其中 $\\lambda_1, \\lambda_2, \\cdots, \\lambda_n$ 为参数, $\\lambda_i \\geqslant 0$.\n将①中 $n$ 个不等式相加, 只须使\n$\\left\\{\\begin{array}{l}2 \\lambda_1 = 1, \\\\2 \\lambda_2 = 1 + \\lambda_1^2, \\\\\\cdots \\\\2 \\lambda_n = 1 + \\lambda_{n-1}^2.\\end{array}\\right.$\n即有 $f_n \\leqslant \\lambda_n^2$.\n注意到 $\\lambda_i \\geqslant \\lambda_{i-1}$, 且 $0 \\leqslant \\lambda_i \\leqslant 1$, 故 $\\lim_{n \\to \\infty} \\lambda_n$ 存在, 易见它的值为 1.",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 19 求函数 $f_n(x_1, x_2, \\cdots, x_n) = \\frac{x_1}{(1 + x_1 + \\cdots + x_n)^2} + \\frac{x_2}{(1 + x_2 + \\cdots + x_n)^2} + \\cdots + \\frac{x_n}{(1 + x_n)^2}$ 的最大值 $m_n$ (其中 $x_i \\geqslant 0$). 用 $m_{n-1}$ 表示 $m_n$, 并求 $\\lim_{n \\to \\infty} m_n$.\n分析 $f_n$ 的每一项分母都很复杂, 自然应先作代换将其简化.\n解 令 $a_i = \\frac{1}{1 + x_i + \\cdots + x_n}$, $1 \\leqslant i \\leqslant n$, 并约定 $a_{n+1} = 1$. 则\n$1 + x_i + x_{i+1} + \\cdots + x_n = \\frac{1}{a_i}$.\n又\n$1 + x_{i+1} + x_{i+2} + \\cdots + x_n = \\frac{1}{a_{i+1}}$,\n故\n$x_i = \\frac{1}{a_i} - \\frac{1}{a_{i+1}}$.\n因此\n$f_n = \\sum_{i=1}^{n} a_i^2 \\left( \\frac{1}{a_i} - \\frac{1}{a_{i+1}} \\right) = \\sum_{i=1}^{n} \\left( a_i - \\frac{a_i^2}{a_{i+1}} \\right)$\n为求 $f_n$ 之最大值, 构造下列不等式:\n$\\left\\{\\begin{array}{l}\\frac{a_1^2}{a_2} + \\lambda_1^2 a_2 \\geqslant 2 \\lambda_1 a_1, \\\\\\frac{a_2^2}{a_3} + \\lambda_2^2 a_3 \\geqslant 2 \\lambda_2 a_2, \\\\\\cdots \\\\\\frac{a_n^2}{1} + \\lambda_n^2 \\geqslant 2 \\lambda_n a_n.\\end{array}\\right.$\n其中 $\\lambda_1, \\lambda_2, \\cdots, \\lambda_n$ 为参数, $\\lambda_i \\geqslant 0$.\n将①中 $n$ 个不等式相加, 只须使\n$\\left\\{\\begin{array}{l}2 \\lambda_1 = 1, \\\\2 \\lambda_2 = 1 + \\lambda_1^2, \\\\\\cdots \\\\2 \\lambda_n = 1 + \\lambda_{n-1}^2.\\end{array}\\right.$\n即有 $f_n \\leqslant \\lambda_n^2$.\n注意到 $\\lambda_i \\geqslant \\lambda_{i-1}$, 且 $0 \\leqslant \\lambda_i \\leqslant 1$, 故 $\\lim_{n \\to \\infty} \\lambda_n$ 存在, 易见它的值为 1.",
+  "tags": [
+    "不等式",
+    "函数",
+    "极限"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0003"
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "p210_210_4_68a52f8c65",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "4",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    210
+  ],
+  "stem_md": "4. 当 $a, b, c, d$ 中有 1 个为 0 时, 不妨设 $d = 0$, 则只须证明: $abc \\leqslant \\frac{1}{2}(ab + bc + ca)$. 由于 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + a + b + c \\geqslant 6$, 有 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\geqslant 2$, 故上式成立.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "4. 当 $a, b, c, d$ 中有 1 个为 0 时, 不妨设 $d = 0$, 则只须证明: $abc \\leqslant \\frac{1}{2}(ab + bc + ca)$. 由于 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + a + b + c \\geqslant 6$, 有 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\geqslant 2$, 故上式成立.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0027"
+}

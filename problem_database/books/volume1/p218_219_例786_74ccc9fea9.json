@@ -1,0 +1,58 @@
+{
+  "uid": "p218_219_例786_74ccc9fea9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "7",
+  "section": "7.8",
+  "problem_id": "例7.8.6",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    218,
+    219
+  ],
+  "source_images": [
+    "page-218.jpg",
+    "page-219.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{3\\sqrt{3}}{2}-1$，证明\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+\\frac{k(a^2b+b^2c+c^2a)}{ab^2+bc^2+ca^2}\\geqslant 3+k$$",
+  "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式如下\n$$f(a,b,c)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(c-a)(c-b)}{a^2b^2}=\\frac{c^2(b^2+a^2-c^2)}{a^2b^2(c+a)(b+c)}$$\n$$N=\\frac{1}{(a+b)(b+c)}+\\frac{k(a-b)}{ab^2+bc^2+ca^2}+\\frac{(a-b)^2}{a^2b^2}$$\n\n很明显，$M\\geqslant 0$。不等式 $N\\geqslant 0$ 等价于（去分母之后）\n$$A=ab^2+bc^2+ca^2+k(a^2-b^2)(b+c)+$$\n$$\\left(b+\\frac{c^2}{a}+\\frac{ca}{b}\\right)\\left(1+\\frac{b}{a}+\\frac{c}{a}+\\frac{c}{b}\\right)(a-b)^2\\geqslant 0$$\n显然\n$$A\\geqslant ab^2+ca^2+k(a^2-b^2)(b+c)+(b+\\frac{b^2}{a}+\\frac{bc}{a}+\\frac{ca}{b}+2c)$$\n$$=\\left[ab^2+ka^2b-kb^3+\\left(b+\\frac{b^2}{a}\\right)(a-b)^2\\right]+$$\n$$\\left[ca^2+kca^2-kb^2c+c\\left(\\frac{b}{a}+\\frac{a}{b}+2\\right)(a-b)^2\\right]$$\n$$=\\frac{b}{a}\\left[(k+1)a^3+b^3-(k+1)ab^2\\right]+$$\n$$\\frac{c}{ab}\\left[a^4+(k+1)a^3b-2a^2b^2-kab^3+b^4\\right]$$\n注意到，如果 $a\\geqslant b$，则显然有 $N\\geqslant 0$；所以，我们可以假设 $a\\leqslant b$，对于 $k=\\frac{3\\sqrt{3}}{2}-1$ 和 $t\\geqslant 1$，容易利用导数求出 $f(t)=t^3-(k+1)t^2+k+1$，当 $t=\\sqrt{3}$ 时，达到最小值，且 $f(\\sqrt{3})=0$；另外，$t^4-kt^3-2t^2+(k+1)t+1>0(t\\geqslant 1)$，所以，我们都得到 $A\\geqslant 0\\Rightarrow N\\geqslant 0$。因此，不等式得证，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,\\sqrt{3},0)$。\n\n注 由于 $\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}$，所以，我们都得到\n\n设 $a,b,c$ 是正实数，证明：$k=\\frac{3\\sqrt{3}}{2}-1$ 是下列不等式\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+k\\cdot\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 3+k$$\n成立的最好的常数。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.8.6(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{3\\sqrt{3}}{2}-1$，证明\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+\\frac{k(a^2b+b^2c+c^2a)}{ab^2+bc^2+ca^2}\\geqslant 3+k$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式如下\n$$f(a,b,c)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(c-a)(c-b)}{a^2b^2}=\\frac{c^2(b^2+a^2-c^2)}{a^2b^2(c+a)(b+c)}$$\n$$N=\\frac{1}{(a+b)(b+c)}+\\frac{k(a-b)}{ab^2+bc^2+ca^2}+\\frac{(a-b)^2}{a^2b^2}$$\n\n很明显，$M\\geqslant 0$。不等式 $N\\geqslant 0$ 等价于（去分母之后）\n$$A=ab^2+bc^2+ca^2+k(a^2-b^2)(b+c)+$$\n$$\\left(b+\\frac{c^2}{a}+\\frac{ca}{b}\\right)\\left(1+\\frac{b}{a}+\\frac{c}{a}+\\frac{c}{b}\\right)(a-b)^2\\geqslant 0$$\n显然\n$$A\\geqslant ab^2+ca^2+k(a^2-b^2)(b+c)+(b+\\frac{b^2}{a}+\\frac{bc}{a}+\\frac{ca}{b}+2c)$$\n$$=\\left[ab^2+ka^2b-kb^3+\\left(b+\\frac{b^2}{a}\\right)(a-b)^2\\right]+$$\n$$\\left[ca^2+kca^2-kb^2c+c\\left(\\frac{b}{a}+\\frac{a}{b}+2\\right)(a-b)^2\\right]$$\n$$=\\frac{b}{a}\\left[(k+1)a^3+b^3-(k+1)ab^2\\right]+$$\n$$\\frac{c}{ab}\\left[a^4+(k+1)a^3b-2a^2b^2-kab^3+b^4\\right]$$\n注意到，如果 $a\\geqslant b$，则显然有 $N\\geqslant 0$；所以，我们可以假设 $a\\leqslant b$，对于 $k=\\frac{3\\sqrt{3}}{2}-1$ 和 $t\\geqslant 1$，容易利用导数求出 $f(t)=t^3-(k+1)t^2+k+1$，当 $t=\\sqrt{3}$ 时，达到最小值，且 $f(\\sqrt{3})=0$；另外，$t^4-kt^3-2t^2+(k+1)t+1>0(t\\geqslant 1)$，所以，我们都得到 $A\\geqslant 0\\Rightarrow N\\geqslant 0$。因此，不等式得证，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,\\sqrt{3},0)$。\n\n注 由于 $\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}$，所以，我们都得到\n\n设 $a,b,c$ 是正实数，证明：$k=\\frac{3\\sqrt{3}}{2}-1$ 是下列不等式\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+k\\cdot\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 3+k$$\n成立的最好的常数。",
+  "tags": [
+    "SOS-Schur",
+    "非负实数",
+    "最佳常数",
+    "循环不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025",
+  "raw_response_file": "raw/chunk-0025.response.txt",
+  "raw_api_file": "raw/chunk-0025.api.json",
+  "fingerprint": "74ccc9fea9c091a98295cfae04a33d8f090e758f",
+  "raw_problem": {
+    "problem_id": "例7.8.6",
+    "problem_type": "example",
+    "chapter": "7",
+    "section": "7.8",
+    "title": null,
+    "source_pages": [
+      218,
+      219
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，$k=\\frac{3\\sqrt{3}}{2}-1$，证明\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+\\frac{k(a^2b+b^2c+c^2a)}{ab^2+bc^2+ca^2}\\geqslant 3+k$$",
+    "solution_md": "设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式如下\n$$f(a,b,c)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(c-a)(c-b)}{a^2b^2}=\\frac{c^2(b^2+a^2-c^2)}{a^2b^2(c+a)(b+c)}$$\n$$N=\\frac{1}{(a+b)(b+c)}+\\frac{k(a-b)}{ab^2+bc^2+ca^2}+\\frac{(a-b)^2}{a^2b^2}$$\n\n很明显，$M\\geqslant 0$。不等式 $N\\geqslant 0$ 等价于（去分母之后）\n$$A=ab^2+bc^2+ca^2+k(a^2-b^2)(b+c)+$$\n$$\\left(b+\\frac{c^2}{a}+\\frac{ca}{b}\\right)\\left(1+\\frac{b}{a}+\\frac{c}{a}+\\frac{c}{b}\\right)(a-b)^2\\geqslant 0$$\n显然\n$$A\\geqslant ab^2+ca^2+k(a^2-b^2)(b+c)+(b+\\frac{b^2}{a}+\\frac{bc}{a}+\\frac{ca}{b}+2c)$$\n$$=\\left[ab^2+ka^2b-kb^3+\\left(b+\\frac{b^2}{a}\\right)(a-b)^2\\right]+$$\n$$\\left[ca^2+kca^2-kb^2c+c\\left(\\frac{b}{a}+\\frac{a}{b}+2\\right)(a-b)^2\\right]$$\n$$=\\frac{b}{a}\\left[(k+1)a^3+b^3-(k+1)ab^2\\right]+$$\n$$\\frac{c}{ab}\\left[a^4+(k+1)a^3b-2a^2b^2-kab^3+b^4\\right]$$\n注意到，如果 $a\\geqslant b$，则显然有 $N\\geqslant 0$；所以，我们可以假设 $a\\leqslant b$，对于 $k=\\frac{3\\sqrt{3}}{2}-1$ 和 $t\\geqslant 1$，容易利用导数求出 $f(t)=t^3-(k+1)t^2+k+1$，当 $t=\\sqrt{3}$ 时，达到最小值，且 $f(\\sqrt{3})=0$；另外，$t^4-kt^3-2t^2+(k+1)t+1>0(t\\geqslant 1)$，所以，我们都得到 $A\\geqslant 0\\Rightarrow N\\geqslant 0$。因此，不等式得证，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,\\sqrt{3},0)$。\n\n注 由于 $\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}$，所以，我们都得到\n\n设 $a,b,c$ 是正实数，证明：$k=\\frac{3\\sqrt{3}}{2}-1$ 是下列不等式\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+k\\cdot\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 3+k$$\n成立的最好的常数。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 7.8.6(Nguyen Vu Tuan,CPR) 设 $a,b,c$ 是非负实数，$k=\\frac{3\\sqrt{3}}{2}-1$，证明\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+\\frac{k(a^2b+b^2c+c^2a)}{ab^2+bc^2+ca^2}\\geqslant 3+k$$\n证明 设 $c=\\min\\{a,b,c\\}$，不等式写成 SOS-Schur 形式如下\n$$f(a,b,c)=M(a-b)^2+N(c-a)(c-b)$$\n其中\n$$M=\\frac{1}{(a+c)(b+c)}-\\frac{(c-a)(c-b)}{a^2b^2}=\\frac{c^2(b^2+a^2-c^2)}{a^2b^2(c+a)(b+c)}$$\n$$N=\\frac{1}{(a+b)(b+c)}+\\frac{k(a-b)}{ab^2+bc^2+ca^2}+\\frac{(a-b)^2}{a^2b^2}$$\n\n很明显，$M\\geqslant 0$。不等式 $N\\geqslant 0$ 等价于（去分母之后）\n$$A=ab^2+bc^2+ca^2+k(a^2-b^2)(b+c)+$$\n$$\\left(b+\\frac{c^2}{a}+\\frac{ca}{b}\\right)\\left(1+\\frac{b}{a}+\\frac{c}{a}+\\frac{c}{b}\\right)(a-b)^2\\geqslant 0$$\n显然\n$$A\\geqslant ab^2+ca^2+k(a^2-b^2)(b+c)+(b+\\frac{b^2}{a}+\\frac{bc}{a}+\\frac{ca}{b}+2c)$$\n$$=\\left[ab^2+ka^2b-kb^3+\\left(b+\\frac{b^2}{a}\\right)(a-b)^2\\right]+$$\n$$\\left[ca^2+kca^2-kb^2c+c\\left(\\frac{b}{a}+\\frac{a}{b}+2\\right)(a-b)^2\\right]$$\n$$=\\frac{b}{a}\\left[(k+1)a^3+b^3-(k+1)ab^2\\right]+$$\n$$\\frac{c}{ab}\\left[a^4+(k+1)a^3b-2a^2b^2-kab^3+b^4\\right]$$\n注意到，如果 $a\\geqslant b$，则显然有 $N\\geqslant 0$；所以，我们可以假设 $a\\leqslant b$，对于 $k=\\frac{3\\sqrt{3}}{2}-1$ 和 $t\\geqslant 1$，容易利用导数求出 $f(t)=t^3-(k+1)t^2+k+1$，当 $t=\\sqrt{3}$ 时，达到最小值，且 $f(\\sqrt{3})=0$；另外，$t^4-kt^3-2t^2+(k+1)t+1>0(t\\geqslant 1)$，所以，我们都得到 $A\\geqslant 0\\Rightarrow N\\geqslant 0$。因此，不等式得证，等号成立的条件是 $a=b=c$ 或 $(a,b,c)\\sim(1,\\sqrt{3},0)$。\n\n注 由于 $\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant\\frac{a^2b+b^2c+c^2a}{ab^2+bc^2+ca^2}$，所以，我们都得到\n\n设 $a,b,c$ 是正实数，证明：$k=\\frac{3\\sqrt{3}}{2}-1$ 是下列不等式\n$$\\frac{a+b}{b+c}+\\frac{b+c}{c+a}+\\frac{c+a}{a+b}+k\\cdot\\frac{a^3b+b^3c+c^3a}{a^2b^2+b^2c^2+c^2a^2}\\geqslant 3+k$$\n成立的最好的常数。",
+    "tags": [
+      "SOS-Schur",
+      "非负实数",
+      "最佳常数",
+      "循环不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

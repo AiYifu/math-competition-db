@@ -1,0 +1,49 @@
+{
+  "uid": "p066_066_例217_bae9ca4671",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.1",
+  "problem_id": "例2.1.7",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    66
+  ],
+  "source_images": [
+    "page-066.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant 2$$",
+  "solution_md": "在这个问题中，梯子是什么呢？出乎意料，假设 $a\\geqslant b\\geqslant c$，我们可以选择梯子 $(a,b,c)\\rightarrow(a,b,0)$。事实上，如果 $a\\geqslant b\\geqslant c$，则\n$$b^2-bc+c^2\\leqslant b^2$$\n$$a^2-ac+c^2\\leqslant a^2$$\n因此\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant\\frac{a^2}{b^2}+\\frac{b^2}{a^2}\\geqslant 2$$",
+  "answer_md": "",
+  "hints_md": "Pham Kim Hung, Mathlinks",
+  "original_text_md": "例 2.1.7(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数,证明\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant 2$$\n证明 在这个问题中,梯子是什么呢?出乎意料,假设 $a\\geqslant b\\geqslant c$,我们可以选择梯子 $(a,b,c)\\rightarrow(a,b,0)$.事实上,如果 $a\\geqslant b\\geqslant c$,则\n$$b^2-bc+c^2\\leqslant b^2$$\n$$a^2-ac+c^2\\leqslant a^2$$\n因此\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant\\frac{a^2}{b^2}+\\frac{b^2}{a^2}\\geqslant 2$$",
+  "tags": [
+    "整合变量法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0008",
+  "raw_response_file": "raw/chunk-0008.response.txt",
+  "raw_api_file": "raw/chunk-0008.api.json",
+  "fingerprint": "bae9ca46715572dda51be7695f5f1c7211dbba55",
+  "raw_problem": {
+    "problem_id": "例2.1.7",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.1",
+    "title": null,
+    "source_pages": [
+      66
+    ],
+    "stem_md": "设 $a,b,c$ 是非负实数，证明\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant 2$$",
+    "solution_md": "在这个问题中，梯子是什么呢？出乎意料，假设 $a\\geqslant b\\geqslant c$，我们可以选择梯子 $(a,b,c)\\rightarrow(a,b,0)$。事实上，如果 $a\\geqslant b\\geqslant c$，则\n$$b^2-bc+c^2\\leqslant b^2$$\n$$a^2-ac+c^2\\leqslant a^2$$\n因此\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant\\frac{a^2}{b^2}+\\frac{b^2}{a^2}\\geqslant 2$$",
+    "answer_md": "",
+    "hints_md": "Pham Kim Hung, Mathlinks",
+    "original_text_md": "例 2.1.7(Pham Kim Hung, Mathlinks) 设 $a,b,c$ 是非负实数,证明\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant 2$$\n证明 在这个问题中,梯子是什么呢?出乎意料,假设 $a\\geqslant b\\geqslant c$,我们可以选择梯子 $(a,b,c)\\rightarrow(a,b,0)$.事实上,如果 $a\\geqslant b\\geqslant c$,则\n$$b^2-bc+c^2\\leqslant b^2$$\n$$a^2-ac+c^2\\leqslant a^2$$\n因此\n$$\\frac{a^2}{b^2-bc+c^2}+\\frac{b^2}{c^2-ca+a^2}+\\frac{c^2}{a^2-ab+b^2}\\geqslant\\frac{a^2}{b^2}+\\frac{b^2}{a^2}\\geqslant 2$$",
+    "tags": [
+      "整合变量法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

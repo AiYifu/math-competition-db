@@ -1,0 +1,21 @@
+{
+  "uid": "p193_193_17_5a09d63da1",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "17",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    193
+  ],
+  "stem_md": "由于 $1+a=2-b-c=1-b+1-c\\geqslant2\\sqrt{(1-b)(1-c)}$, 同理可得 $1+b\\geqslant2\\sqrt{(1-a)(1-c)}$, $1+c\\geqslant2\\sqrt{(1-a)(1-b)}$. 将以上三式相乘便可以.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "17. 由于 $1+a=2-b-c=1-b+1-c\\geqslant2\\sqrt{(1-b)(1-c)}$, 同理可得 $1+b\\geqslant2\\sqrt{(1-a)(1-c)}$, $1+c\\geqslant2\\sqrt{(1-a)(1-b)}$. 将以上三式相乘便可以.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0025"
+}

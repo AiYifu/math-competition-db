@@ -1,0 +1,53 @@
+{
+  "uid": "p158_158_44-14_dd61cd852c",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-14",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    158
+  ],
+  "source_images": [
+    "page-158.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_{2n}$ 是非负实数，满足 $a_1+a_2+\\cdots+a_{2n}=2n-1$ 且 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{2n}$，证明\n$$(a_1^2+a_2^2)(a_3^2+a_4^2)\\cdots(a_{2n-1}^2+a_{2n}^2) \\leqslant 2^{n-1}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "14.(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_{2n}$ 是非负实数，满足 $a_1+a_2+\\cdots+a_{2n}=2n-1$ 且 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{2n}$，证明\n$$(a_1^2+a_2^2)(a_3^2+a_4^2)\\cdots(a_{2n-1}^2+a_{2n}^2) \\leqslant 2^{n-1}$$",
+  "tags": [
+    "练习",
+    "非负实数",
+    "乘积不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "dd61cd852cf410068e71f82580df5f7e9fb3c26d",
+  "raw_problem": {
+    "problem_id": "4.4-14",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      158
+    ],
+    "stem_md": "(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_{2n}$ 是非负实数，满足 $a_1+a_2+\\cdots+a_{2n}=2n-1$ 且 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{2n}$，证明\n$$(a_1^2+a_2^2)(a_3^2+a_4^2)\\cdots(a_{2n-1}^2+a_{2n}^2) \\leqslant 2^{n-1}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "14.(Pham Kim Hung, Volume I) 设 $a_1, a_2, \\cdots, a_{2n}$ 是非负实数，满足 $a_1+a_2+\\cdots+a_{2n}=2n-1$ 且 $a_1 \\geqslant a_2 \\geqslant \\cdots \\geqslant a_{2n}$，证明\n$$(a_1^2+a_2^2)(a_3^2+a_4^2)\\cdots(a_{2n-1}^2+a_{2n}^2) \\leqslant 2^{n-1}$$",
+    "tags": [
+      "练习",
+      "非负实数",
+      "乘积不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

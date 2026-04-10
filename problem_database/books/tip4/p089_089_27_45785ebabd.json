@@ -1,0 +1,21 @@
+{
+  "uid": "p089_089_27_45785ebabd",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": null,
+  "section": null,
+  "problem_id": "27",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    89
+  ],
+  "stem_md": "对每个正整数 $n$, 求证: $\\sum_{j=1}^{n} \\frac{2j+1}{j^{2}} > n\\left[(n+1)^{\\frac{2}{n}} - 1\\right]$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "对每个正整数 $n$, 求证: $\\sum_{j=1}^{n} \\frac{2j+1}{j^{2}} > n\\left[(n+1)^{\\frac{2}{n}} - 1\\right]$.",
+  "tags": [],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0012"
+}

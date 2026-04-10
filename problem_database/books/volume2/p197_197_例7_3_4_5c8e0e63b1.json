@@ -1,0 +1,25 @@
+{
+  "uid": "p197_197_例7_3_4_5c8e0e63b1",
+  "book_title": "不等式的秘密 第2卷",
+  "chapter": "7",
+  "section": "3",
+  "problem_id": "例7.3.4",
+  "problem_type": "example",
+  "title": "Pham Kim Hung, Mathlinks",
+  "source_pages": [
+    197
+  ],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是非负实数, 且满足 $x_1+x_2+\\cdots+x_n=n$, 求下列表达式\n$$x_1^kx_2^kA + (x_1^k+x_2^k)B - (x_1+x_2)^kB \\leqslant 0$$成立, 当且仅当\n$$A = x_3x_4\\cdots x_n, B = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-2} \\leqslant n} x_{i_1}x_{i_2}\\cdots x_{i_p} - k_n(x_1x_2\\cdots x_n-1)$$",
+  "solution_md": "根据 UMV 定理, 我们得到\n$$\\begin{aligned}f(x_1,x_2,\\cdots,x_n) &\\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2},\\frac{x_1+x_2}{2},x_3,\\cdots,x_n\\right),f(0,x_1+x_2,x_3,\\cdots,x_n)\\right\\}\\\\&= (x_1+x_2)A + x_1x_2(B-k_nA) - k_n + n\\end{aligned}$$\n所以, 对所有 $k \\geqslant 1$, 下列不等式成立\n$$x_1x_2\\cdots x_n\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+e\\right) \\leqslant nx_1x_2\\cdots x_n + e$$\n或者\n$$x_1^kx_2^kA + (x_1^k+x_2^k)B - (x_1+x_2)^kB \\geqslant \\frac{B}{A}$$\n根据 AM-GM 不等式, 我们有\n$$\\begin{aligned}(ab)^k + (bc)^k + (cd)^k + (da)^k + (ac)^k + (bd)^k &\\leqslant \\max\\left\\{6,2^{2k},3\\left(\\frac{4}{3}\\right)^{2k}\\right\\}\\end{aligned}$$\n对于 $n=4,k=3$ 和 2, 我们有下列不等式\n$$ab+bc+cd+da+ac+bd \\geqslant 24(a^2b^2c^2+d^2a^2b^2+c^2d^2a^2+d^2a^2b^2)$$\n成立, 当且仅当 $a=b=c=d=\\frac{1}{4}$ 或四个数 $a,b,c,d$ 中有一个为 0 时达到. 如果 $a=b=c=d=\\frac{1}{4}$, 则不等式显然成立; 另外, 如果 $d=0$, 则不等式变成\n$$x_1^kx_2^kA + (x_1^k+x_2^k)B - (x_1+x_2)^kB \\leqslant 0$$\n所以, 不等式 (1) 和 (2) 至少有一个必成立. 换句话说\n$$f(x_1,x_2,\\cdots,x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2},\\frac{x_1+x_2}{2},x_3,\\cdots,x_n\\right),f(0,x_1+x_2,x_3,\\cdots,x_n)\\right\\}$$\n根据 UMV 定理, 函数 $f$ 当且仅当 $x_1=x_2=\\cdots=x_n$ 时, 由 AM-GM 不等式, 很容易得到不等式 $f \\leqslant 0$, 当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 最好(最大值) 可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 对所有的 $n \\in \\mathbf{N}$, 有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1+\\frac{1}{n-1}\\right)^{n-1} < e$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 7.3.4(Pham Kim Hung, Mathlinks) 设 $x_1,x_2,\\cdots,x_n$ 是非负实数, 且满足 $x_1+x_2+\\cdots+x_n=n$, 求下列表达式\n$$x_1^kx_2^kA + (x_1^k+x_2^k)B - (x_1+x_2)^kB \\leqslant 0$$成立, 当且仅当\n$$A = x_3x_4\\cdots x_n, B = \\sum_{3 \\leqslant i_1 < i_2 < \\cdots < i_{p-2} \\leqslant n} x_{i_1}x_{i_2}\\cdots x_{i_p} - k_n(x_1x_2\\cdots x_n-1)$$\n根据 UMV 定理, 我们得到\n$$\\begin{aligned}f(x_1,x_2,\\cdots,x_n) &\\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2},\\frac{x_1+x_2}{2},x_3,\\cdots,x_n\\right),f(0,x_1+x_2,x_3,\\cdots,x_n)\\right\\}\\\\&= (x_1+x_2)A + x_1x_2(B-k_nA) - k_n + n\\end{aligned}$$\n所以, 对所有 $k \\geqslant 1$, 下列不等式成立\n$$x_1x_2\\cdots x_n\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}+e\\right) \\leqslant nx_1x_2\\cdots x_n + e$$\n或者\n$$x_1^kx_2^kA + (x_1^k+x_2^k)B - (x_1+x_2)^kB \\geqslant \\frac{B}{A}$$\n根据 AM-GM 不等式, 我们有\n$$\\begin{aligned}(ab)^k + (bc)^k + (cd)^k + (da)^k + (ac)^k + (bd)^k &\\leqslant \\max\\left\\{6,2^{2k},3\\left(\\frac{4}{3}\\right)^{2k}\\right\\}\\end{aligned}$$\n对于 $n=4,k=3$ 和 2, 我们有下列不等式\n$$ab+bc+cd+da+ac+bd \\geqslant 24(a^2b^2c^2+d^2a^2b^2+c^2d^2a^2+d^2a^2b^2)$$\n成立, 当且仅当 $a=b=c=d=\\frac{1}{4}$ 或四个数 $a,b,c,d$ 中有一个为 0 时达到. 如果 $a=b=c=d=\\frac{1}{4}$, 则不等式显然成立; 另外, 如果 $d=0$, 则不等式变成\n$$x_1^kx_2^kA + (x_1^k+x_2^k)B - (x_1+x_2)^kB \\leqslant 0$$\n所以, 不等式 (1) 和 (2) 至少有一个必成立. 换句话说\n$$f(x_1,x_2,\\cdots,x_n) \\leqslant \\max\\left\\{f\\left(\\frac{x_1+x_2}{2},\\frac{x_1+x_2}{2},x_3,\\cdots,x_n\\right),f(0,x_1+x_2,x_3,\\cdots,x_n)\\right\\}$$\n根据 UMV 定理, 函数 $f$ 当且仅当 $x_1=x_2=\\cdots=x_n$ 时, 由 AM-GM 不等式, 很容易得到不等式 $f \\leqslant 0$, 当且仅当 $k_n \\leqslant n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 最好(最大值) 可能的正实常数 $k_n$ 是 $n - \\left(\\frac{n}{n-1}\\right)^{n-1}$. 所以, 对所有的 $n \\in \\mathbf{N}$, 有\n$$\\left(\\frac{n}{n-1}\\right)^{n-1} = \\left(1+\\frac{1}{n-1}\\right)^{n-1} < e$$",
+  "tags": [
+    "UMV定理",
+    "不等式证明",
+    "AM-GM不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0025"
+}

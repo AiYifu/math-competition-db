@@ -1,0 +1,53 @@
+{
+  "uid": "p174_174_例_534_643214f1e2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5.3 系列问题 C:难以置信的恒等式",
+  "section": null,
+  "problem_id": "例 5.3.4",
+  "problem_type": "example",
+  "title": "IMO 1983",
+  "source_pages": [
+    174
+  ],
+  "source_images": [
+    "page-174.jpg"
+  ],
+  "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+  "solution_md": "设 $a=\\max\\{a,b,c\\}$，则\n$$\\begin{aligned}&a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\\\=&a(b+c-a)(b-c)^2+b(a+b-c)(a-b)(a-c)\\geqslant 0\\end{aligned}$$\n这显然是成立的。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.3.4(IMO 1983) 设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$\n证明 设 $a=\\max\\{a,b,c\\}$，则\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)$$\n$$=a(b+c-a)(b-c)^2+b(a+b-c)(a-b)(a-c)\\geqslant 0$$\n这显然是成立的。",
+  "tags": [
+    "IMO",
+    "三角形不等式",
+    "排序法"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0020",
+  "raw_response_file": "raw/chunk-0020.response.txt",
+  "raw_api_file": "raw/chunk-0020.api.json",
+  "fingerprint": "643214f1e2ec90f139ad910ebc8dc0366b21fac1",
+  "raw_problem": {
+    "problem_id": "例 5.3.4",
+    "problem_type": "example",
+    "chapter": "5.3 系列问题 C:难以置信的恒等式",
+    "section": null,
+    "title": "IMO 1983",
+    "source_pages": [
+      174
+    ],
+    "stem_md": "设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$",
+    "solution_md": "设 $a=\\max\\{a,b,c\\}$，则\n$$\\begin{aligned}&a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\\\=&a(b+c-a)(b-c)^2+b(a+b-c)(a-b)(a-c)\\geqslant 0\\end{aligned}$$\n这显然是成立的。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.3.4(IMO 1983) 设 $a,b,c$ 是某三角形的三边长，证明\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)\\geqslant 0$$\n证明 设 $a=\\max\\{a,b,c\\}$，则\n$$a^2b(a-b)+b^2c(b-c)+c^2a(c-a)$$\n$$=a(b+c-a)(b-c)^2+b(a+b-c)(a-b)(a-c)\\geqslant 0$$\n这显然是成立的。",
+    "tags": [
+      "IMO",
+      "三角形不等式",
+      "排序法"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "p106_106_7_12f1fa74ad",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "7",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    106
+  ],
+  "stem_md": "已知 $a, b, c \\in \\mathbf{R}_{+}$, 求证: (1) $\\sqrt[3]{\\frac{a}{b + c}} + \\sqrt[3]{\\frac{b}{c + a}} + \\sqrt[3]{\\frac{c}{a + b}} > \\frac{3}{2}$; (2) $\\sqrt[3]{\\frac{a^{2}}{(b + c)^{2}}} + \\sqrt[3]{\\frac{b^{2}}{(c + a)^{2}}} + \\sqrt[3]{\\frac{c^{2}}{(a + b)^{2}}} \\geqslant \\frac{3}{\\sqrt[3]{4}}$.",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "7 已知 $a, b, c \\in \\mathbf{R}_{+}$, 求证: (1) $\\sqrt[3]{\\frac{a}{b + c}} + \\sqrt[3]{\\frac{b}{c + a}} + \\sqrt[3]{\\frac{c}{a + b}} > \\frac{3}{2}$; (2) $\\sqrt[3]{\\frac{a^{2}}{(b + c)^{2}}} + \\sqrt[3]{\\frac{b^{2}}{(c + a)^{2}}} + \\sqrt[3]{\\frac{c^{2}}{(a + b)^{2}}} \\geqslant \\frac{3}{\\sqrt[3]{4}}$.",
+  "tags": [
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0014"
+}

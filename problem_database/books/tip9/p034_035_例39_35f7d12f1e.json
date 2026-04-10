@@ -1,0 +1,26 @@
+{
+  "uid": "p034_035_例39_35f7d12f1e",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": "1.9",
+  "section": "琴生(Jensen)不等式",
+  "problem_id": "例39",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    34,
+    35
+  ],
+  "stem_md": "设 $a, b, x, y, z$ 都是正实数, 满足 $x + y + z = 1$, 求证:\n$$\\left(a + \\frac{b}{x}\\right)\\left(a + \\frac{b}{y}\\right)\\left(a + \\frac{b}{z}\\right) \\geqslant (a + 3b)^3.$$",
+  "solution_md": "证明 令 $f(x) = \\ln\\left(a + \\frac{b}{x}\\right)$, $x \\in (0, +\\infty)$, 则 $f''(x) = \\frac{2abx + b^2}{(ax^2 + bx)^2} > 0$, 故 $f(x)$ 是向下凸的函数, 于是由琴生不等式得\n$$f(x) + f(y) + f(z) \\geqslant 3f\\left(\\frac{x + y + z}{3}\\right),$$\n即\n$$\\ln\\left(a + \\frac{b}{x}\\right) + \\ln\\left(a + \\frac{b}{y}\\right) + \\ln\\left(a + \\frac{b}{z}\\right) \\geqslant 3\\ln\\left(a + \\frac{3b}{x + y + z}\\right),$$\n所以\n$$\\left(a + \\frac{b}{x}\\right)\\left(a + \\frac{b}{y}\\right)\\left(a + \\frac{b}{z}\\right) \\geqslant (a + 3b)^3.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例39 设 $a, b, x, y, z$ 都是正实数, 满足 $x + y + z = 1$, 求证:\n$$\\left(a + \\frac{b}{x}\\right)\\left(a + \\frac{b}{y}\\right)\\left(a + \\frac{b}{z}\\right) \\geqslant (a + 3b)^3.$$ 证明 令 $f(x) = \\ln\\left(a + \\frac{b}{x}\\right)$, $x \\in (0, +\\infty)$, 则 $f''(x) = \\frac{2abx + b^2}{(ax^2 + bx)^2} > 0$, 故 $f(x)$ 是向下凸的函数, 于是由琴生不等式得\n$$f(x) + f(y) + f(z) \\geqslant 3f\\left(\\frac{x + y + z}{3}\\right),$$\n即\n$$\\ln\\left(a + \\frac{b}{x}\\right) + \\ln\\left(a + \\frac{b}{y}\\right) + \\ln\\left(a + \\frac{b}{z}\\right) \\geqslant 3\\ln\\left(a + \\frac{3b}{x + y + z}\\right),$$\n所以\n$$\\left(a + \\frac{b}{x}\\right)\\left(a + \\frac{b}{y}\\right)\\left(a + \\frac{b}{z}\\right) \\geqslant (a + 3b)^3.$$",
+  "tags": [
+    "正实数",
+    "不等式",
+    "琴生不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0005"
+}

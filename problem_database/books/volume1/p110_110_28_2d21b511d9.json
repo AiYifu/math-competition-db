@@ -1,0 +1,55 @@
+{
+  "uid": "p110_110_28_2d21b511d9",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "28",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "28. (Le Trung Kien, CPR) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}+\\sqrt{d}) \\geqslant 4+abc+bcd+cda+dab$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "28. (Le Trung Kien,CPR) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}+\\sqrt{d})\\geqslant 4+abc+bcd+cda+dab$$",
+  "tags": [
+    "Le Trung Kien",
+    "CPR",
+    "a+b+c+d=4",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "2d21b511d977e5fc43bd8328dadbdef20412aa0a",
+  "raw_problem": {
+    "problem_id": "28",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "28. (Le Trung Kien, CPR) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}+\\sqrt{d}) \\geqslant 4+abc+bcd+cda+dab$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "28. (Le Trung Kien,CPR) 设 $a,b,c,d$ 是非负实数，且满足 $a+b+c+d=4$，证明\n$$2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}+\\sqrt{d})\\geqslant 4+abc+bcd+cda+dab$$",
+    "tags": [
+      "Le Trung Kien",
+      "CPR",
+      "a+b+c+d=4",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

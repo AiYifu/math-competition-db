@@ -1,0 +1,61 @@
+{
+  "uid": "p092_094_例251_0e43b2fc59",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "2",
+  "section": "2.5",
+  "problem_id": "例2.5.1",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    92,
+    93,
+    94
+  ],
+  "source_images": [
+    "page-092.jpg",
+    "page-093.jpg",
+    "page-094.jpg"
+  ],
+  "stem_md": "（Pham Kim Hung, Algebraic Inequalities）设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，求 $k$ 的值使得下列不等式\n$$a^4+b^4+c^4-3abc\\geqslant k(a-b)(b-c)(c-a)$$\n成立。",
+  "solution_md": "如果 $c=0$，则 $a+b=3$，根据 AM-GM 不等式，有\n$$\\text{LHS}=a^4+b^4=(a^2-b^2)^2+2a^2b^2\\geqslant 2\\sqrt{2}|ab(a^2-b^2)|=6\\sqrt{2}|ab(a-b)|$$\n\n所以，我们有 $-6\\sqrt{2}\\leqslant k\\leqslant 6\\sqrt{2}$。对于每一个 $k$ 值，等号成立的条件是\n$$(a,b,c)\\sim\\left(\\frac{3(3-\\sqrt{5})}{2},\\frac{3(\\sqrt{5}-1)}{2},0\\right)$$\n\n余下的要证明，原不等式对 $k\\in[-6\\sqrt{2},6\\sqrt{2}]$ 是成立的。显然，我们只需证明 $k=6\\sqrt{2}$ 时，原不等式成立即可，即\n$$a^4+b^4+c^4-3abc\\geqslant 6\\sqrt{2}(a-b)(b-c)(c-a)$$\n$$\\Leftrightarrow a^4+b^4+c^4-abc(a+b+c)\\geqslant 2\\sqrt{2}(a-b)(b-c)(c-a)(a+b+c)$$\n\n注意到，上面的不等式是齐次的，所以，我们可以忽略条件 $a+b+c=3$，尝试使用整合全部变量法。所有变量 $a,b,c$ 同时减去 $0\\leqslant t\\leqslant\\min\\{a,b,c\\}$，不等式两边都是减少的，但我们可以比较两边减少的值。事实上，考虑函数\n$$f(t)=\\sum(a+t)^4-(a+b+c+3t)\\prod(a+t)-k(a-b)(b-c)(c-a)(a+b+c+3t)$$\n$$=A+Bt+Ct^2$$\n\n其中\n$$A=\\sum a^4-abc\\sum a-k(a-b)(b-c)(c-a)(a+b+c)$$\n$$B=4\\sum a^3-\\sum a\\sum ab-3abc-k(a-b)(b-c)(c-a)$$\n$$C=5\\sum a^2-5\\sum ab$$\n\n显然，$C\\geqslant 0$。设 $c=\\min\\{a,b,c\\}$，我们来证明 $B\\geqslant 0$，即\n$$4(a^3+b^3+c^3)-(a+b+c)(ab+bc+ca)-3abc$$\n$$\\geqslant 6\\sqrt{2}(a-b)(b-c)(c-a)$$\n$$\\Leftrightarrow \\sum(2a+2b+c)(a-b)^2\\geqslant 6\\sqrt{2}(a-b)(b-c)(c-a)$$\n\n使用整合全部变量法，我们只需证明 $c=0$ 的情况，即\n$$4(a^3+b^3)-ab(a+b)\\geqslant 6\\sqrt{2}ab(b-a)$$\n$$\\Leftrightarrow a^3+4b^3+(6\\sqrt{2}-1)a^2b\\geqslant (6\\sqrt{2}+1)ab^2$$\n\n由 AM-GM 不等式，有\n$$4b^3+(6\\sqrt{2}-1)a^2b\\geqslant 4\\sqrt{6\\sqrt{2}-1}ab^2\\geqslant (6\\sqrt{2}+1)ab^2$$\n\n所以，我们有 $B,C\\geqslant 0$，从而 $f(t)\\geqslant f(0)$。记\n$$F(a,b,c)=a^4+b^4+c^4-abc(a+b+c)-k(a-b)(b-c)(c-a)(a+b+c)$$\n\n则有，$F(a,b,c)\\geqslant F(a-t,b-t,c-t)$（$0\\leqslant t\\leqslant c$），这表明，只需在 $c=0$ 的情况下，证明原不等式成立即可。这我们已经证明了。",
+  "answer_md": "$k\\in[-6\\sqrt{2},6\\sqrt{2}]$",
+  "hints_md": "",
+  "original_text_md": "例 2.5.1(Pham Kim Hung, Algebraic Inequalities) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，求 $k$ 的值使得下列不等式\n$$a^4+b^4+c^4-3abc\\geqslant k(a-b)(b-c)(c-a)$$\n成立。",
+  "tags": [
+    "全导数",
+    "整合全部变量法",
+    "求参数范围",
+    "Pham Kim Hung"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0011",
+  "raw_response_file": "raw/chunk-0011.response.txt",
+  "raw_api_file": "raw/chunk-0011.api.json",
+  "fingerprint": "0e43b2fc59513cca5d66790d5b83a0a859dad9cc",
+  "raw_problem": {
+    "problem_id": "例2.5.1",
+    "problem_type": "example",
+    "chapter": "2",
+    "section": "2.5",
+    "title": null,
+    "source_pages": [
+      92,
+      93,
+      94
+    ],
+    "stem_md": "（Pham Kim Hung, Algebraic Inequalities）设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，求 $k$ 的值使得下列不等式\n$$a^4+b^4+c^4-3abc\\geqslant k(a-b)(b-c)(c-a)$$\n成立。",
+    "solution_md": "如果 $c=0$，则 $a+b=3$，根据 AM-GM 不等式，有\n$$\\text{LHS}=a^4+b^4=(a^2-b^2)^2+2a^2b^2\\geqslant 2\\sqrt{2}|ab(a^2-b^2)|=6\\sqrt{2}|ab(a-b)|$$\n\n所以，我们有 $-6\\sqrt{2}\\leqslant k\\leqslant 6\\sqrt{2}$。对于每一个 $k$ 值，等号成立的条件是\n$$(a,b,c)\\sim\\left(\\frac{3(3-\\sqrt{5})}{2},\\frac{3(\\sqrt{5}-1)}{2},0\\right)$$\n\n余下的要证明，原不等式对 $k\\in[-6\\sqrt{2},6\\sqrt{2}]$ 是成立的。显然，我们只需证明 $k=6\\sqrt{2}$ 时，原不等式成立即可，即\n$$a^4+b^4+c^4-3abc\\geqslant 6\\sqrt{2}(a-b)(b-c)(c-a)$$\n$$\\Leftrightarrow a^4+b^4+c^4-abc(a+b+c)\\geqslant 2\\sqrt{2}(a-b)(b-c)(c-a)(a+b+c)$$\n\n注意到，上面的不等式是齐次的，所以，我们可以忽略条件 $a+b+c=3$，尝试使用整合全部变量法。所有变量 $a,b,c$ 同时减去 $0\\leqslant t\\leqslant\\min\\{a,b,c\\}$，不等式两边都是减少的，但我们可以比较两边减少的值。事实上，考虑函数\n$$f(t)=\\sum(a+t)^4-(a+b+c+3t)\\prod(a+t)-k(a-b)(b-c)(c-a)(a+b+c+3t)$$\n$$=A+Bt+Ct^2$$\n\n其中\n$$A=\\sum a^4-abc\\sum a-k(a-b)(b-c)(c-a)(a+b+c)$$\n$$B=4\\sum a^3-\\sum a\\sum ab-3abc-k(a-b)(b-c)(c-a)$$\n$$C=5\\sum a^2-5\\sum ab$$\n\n显然，$C\\geqslant 0$。设 $c=\\min\\{a,b,c\\}$，我们来证明 $B\\geqslant 0$，即\n$$4(a^3+b^3+c^3)-(a+b+c)(ab+bc+ca)-3abc$$\n$$\\geqslant 6\\sqrt{2}(a-b)(b-c)(c-a)$$\n$$\\Leftrightarrow \\sum(2a+2b+c)(a-b)^2\\geqslant 6\\sqrt{2}(a-b)(b-c)(c-a)$$\n\n使用整合全部变量法，我们只需证明 $c=0$ 的情况，即\n$$4(a^3+b^3)-ab(a+b)\\geqslant 6\\sqrt{2}ab(b-a)$$\n$$\\Leftrightarrow a^3+4b^3+(6\\sqrt{2}-1)a^2b\\geqslant (6\\sqrt{2}+1)ab^2$$\n\n由 AM-GM 不等式，有\n$$4b^3+(6\\sqrt{2}-1)a^2b\\geqslant 4\\sqrt{6\\sqrt{2}-1}ab^2\\geqslant (6\\sqrt{2}+1)ab^2$$\n\n所以，我们有 $B,C\\geqslant 0$，从而 $f(t)\\geqslant f(0)$。记\n$$F(a,b,c)=a^4+b^4+c^4-abc(a+b+c)-k(a-b)(b-c)(c-a)(a+b+c)$$\n\n则有，$F(a,b,c)\\geqslant F(a-t,b-t,c-t)$（$0\\leqslant t\\leqslant c$），这表明，只需在 $c=0$ 的情况下，证明原不等式成立即可。这我们已经证明了。",
+    "answer_md": "$k\\in[-6\\sqrt{2},6\\sqrt{2}]$",
+    "hints_md": "",
+    "original_text_md": "例 2.5.1(Pham Kim Hung, Algebraic Inequalities) 设 $a,b,c$ 是非负实数，且满足 $a+b+c=3$，求 $k$ 的值使得下列不等式\n$$a^4+b^4+c^4-3abc\\geqslant k(a-b)(b-c)(c-a)$$\n成立。",
+    "tags": [
+      "全导数",
+      "整合全部变量法",
+      "求参数范围",
+      "Pham Kim Hung"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

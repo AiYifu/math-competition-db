@@ -1,0 +1,55 @@
+{
+  "uid": "p111_111_32_70c7f8fc36",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "32",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    111
+  ],
+  "source_images": [
+    "page-111.jpg"
+  ],
+  "stem_md": "32. (Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=1$，证明\n$$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d} \\geqslant \\frac{63}{2(1+47abcd)}$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "32. (Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=1$，证明\n$$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}\\geqslant\\frac{63}{2(1+47abcd)}$$",
+  "tags": [
+    "Pham Kim Hung",
+    "Mathlinks",
+    "a+b+c+d=1",
+    "四元不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "70c7f8fc36a3917c686802dbdd52ece2145344cf",
+  "raw_problem": {
+    "problem_id": "32",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      111
+    ],
+    "stem_md": "32. (Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=1$，证明\n$$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d} \\geqslant \\frac{63}{2(1+47abcd)}$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "32. (Pham Kim Hung, Mathlinks) 设 $a,b,c,d$ 是正实数，且满足 $a+b+c+d=1$，证明\n$$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}\\geqslant\\frac{63}{2(1+47abcd)}$$",
+    "tags": [
+      "Pham Kim Hung",
+      "Mathlinks",
+      "a+b+c+d=1",
+      "四元不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

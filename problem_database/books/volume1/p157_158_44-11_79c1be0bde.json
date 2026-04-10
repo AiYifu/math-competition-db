@@ -1,0 +1,56 @@
+{
+  "uid": "p157_158_44-11_79c1be0bde",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第4章",
+  "section": "4.4 练习",
+  "problem_id": "4.4-11",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    157,
+    158
+  ],
+  "source_images": [
+    "page-157.jpg",
+    "page-158.jpg"
+  ],
+  "stem_md": "(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ ($n \\geqslant 3$) 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$x_1^3+x_2^3+\\cdots+x_n^3 + \\frac{(n+1)^2(n+5)}{1+x_1^2+x_2^2+\\cdots+x_n^2} \\geqslant n^2+7n+5$$",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "11.(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ ($n \\geqslant 3$) 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$x_1^3+x_2^3+\\cdots+x_n^3 + \\frac{(n+1)^2(n+5)}{1+x_1^2+x_2^2+\\cdots+x_n^2} \\geqslant n^2+7n+5$$",
+  "tags": [
+    "练习",
+    "非负实数",
+    "立方和不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0018",
+  "raw_response_file": "raw/chunk-0018.response.txt",
+  "raw_api_file": "raw/chunk-0018.api.json",
+  "fingerprint": "79c1be0bdef565338ba89397f89b434e864b16ff",
+  "raw_problem": {
+    "problem_id": "4.4-11",
+    "problem_type": "exercise",
+    "chapter": "第4章",
+    "section": "4.4 练习",
+    "title": null,
+    "source_pages": [
+      157,
+      158
+    ],
+    "stem_md": "(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ ($n \\geqslant 3$) 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$x_1^3+x_2^3+\\cdots+x_n^3 + \\frac{(n+1)^2(n+5)}{1+x_1^2+x_2^2+\\cdots+x_n^2} \\geqslant n^2+7n+5$$",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "11.(Pham Kim Hung, Mathlinks) 设 $x_1, x_2, \\cdots, x_n$ ($n \\geqslant 3$) 是非负实数，且满足 $x_1+x_2+\\cdots+x_n=n$，证明\n$$x_1^3+x_2^3+\\cdots+x_n^3 + \\frac{(n+1)^2(n+5)}{1+x_1^2+x_2^2+\\cdots+x_n^2} \\geqslant n^2+7n+5$$",
+    "tags": [
+      "练习",
+      "非负实数",
+      "立方和不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

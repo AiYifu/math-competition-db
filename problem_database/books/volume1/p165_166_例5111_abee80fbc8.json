@@ -1,0 +1,56 @@
+{
+  "uid": "p165_166_例5111_abee80fbc8",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "5",
+  "section": "5.1",
+  "problem_id": "例5.1.11",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    165,
+    166
+  ],
+  "source_images": [
+    "page-165.jpg",
+    "page-166.jpg"
+  ],
+  "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $\\frac{1}{1+x_1^2}+\\frac{1}{1+x_2^2}+\\cdots+\\frac{1}{1+x_n^2}=1$，证明不等式\n$$x_1+x_2+\\cdots+x_n\\geqslant(n-1)\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}\\right)$$",
+  "solution_md": "对每一个 $i\\in\\{1,2,\\cdots,n\\}$，令 $a_i=\\frac{1}{1+x_i^2}$，则 $x_i=\\sqrt{\\frac{1-a_i}{a_i}}$，且 $a_1+a_2+\\cdots+a_n=1$，因此，不等式变成如下形式\n$$\\sum_{i=1}^n\\sqrt{\\frac{1-a_i}{a_i}}\\geqslant(n-1)\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(\\sqrt{\\frac{1-a_i}{a_i}}+\\sqrt{\\frac{a_i}{1-a_i}}\\right)\\geqslant n\\sum_{i=1}^n\\frac{a_i}{1-a_i}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n对两个序列 $\\{a_i\\},\\left\\{\\frac{1}{\\sqrt{a_i(1-a_i)}}\\right\\}$，应用 Chebyshev 不等式，有\n$$\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}=\\sum_{i=1}^na_i\\cdot\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n不等式得证。如果 $n=2$，不等式化为等式。如果 $n\\geqslant3$，则等号成立的充要条件是 $a_1=a_2=\\cdots=a_n$。",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 5.1.11(Vojtech Jarnik,Crux) 设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $\\frac{1}{1+x_1^2}+\\frac{1}{1+x_2^2}+\\cdots+\\frac{1}{1+x_n^2}=1$，证明不等式\n$$x_1+x_2+\\cdots+x_n\\geqslant(n-1)\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}\\right)$$\n证明 对每一个 $i\\in\\{1,2,\\cdots,n\\}$，令 $a_i=\\frac{1}{1+x_i^2}$，则 $x_i=\\sqrt{\\frac{1-a_i}{a_i}}$，且 $a_1+a_2+\\cdots+a_n=1$，因此，不等式变成如下形式\n$$\\sum_{i=1}^n\\sqrt{\\frac{1-a_i}{a_i}}\\geqslant(n-1)\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(\\sqrt{\\frac{1-a_i}{a_i}}+\\sqrt{\\frac{a_i}{1-a_i}}\\right)\\geqslant n\\sum_{i=1}^n\\frac{a_i}{1-a_i}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n对两个序列 $\\{a_i\\},\\left\\{\\frac{1}{\\sqrt{a_i(1-a_i)}}\\right\\}$，应用 Chebyshev 不等式，有\n$$\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}=\\sum_{i=1}^na_i\\cdot\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n不等式得证。如果 $n=2$，不等式化为等式。如果 $n\\geqslant3$，则等号成立的充要条件是 $a_1=a_2=\\cdots=a_n$。",
+  "tags": [
+    "Chebyshev不等式",
+    "n变量不等式",
+    "条件不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0019",
+  "raw_response_file": "raw/chunk-0019.response.txt",
+  "raw_api_file": "raw/chunk-0019.api.json",
+  "fingerprint": "abee80fbc81813bbcd046de8c1b1b3b212e9bc3e",
+  "raw_problem": {
+    "problem_id": "例5.1.11",
+    "problem_type": "example",
+    "chapter": "5",
+    "section": "5.1",
+    "title": null,
+    "source_pages": [
+      165,
+      166
+    ],
+    "stem_md": "设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $\\frac{1}{1+x_1^2}+\\frac{1}{1+x_2^2}+\\cdots+\\frac{1}{1+x_n^2}=1$，证明不等式\n$$x_1+x_2+\\cdots+x_n\\geqslant(n-1)\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}\\right)$$",
+    "solution_md": "对每一个 $i\\in\\{1,2,\\cdots,n\\}$，令 $a_i=\\frac{1}{1+x_i^2}$，则 $x_i=\\sqrt{\\frac{1-a_i}{a_i}}$，且 $a_1+a_2+\\cdots+a_n=1$，因此，不等式变成如下形式\n$$\\sum_{i=1}^n\\sqrt{\\frac{1-a_i}{a_i}}\\geqslant(n-1)\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(\\sqrt{\\frac{1-a_i}{a_i}}+\\sqrt{\\frac{a_i}{1-a_i}}\\right)\\geqslant n\\sum_{i=1}^n\\frac{a_i}{1-a_i}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n对两个序列 $\\{a_i\\},\\left\\{\\frac{1}{\\sqrt{a_i(1-a_i)}}\\right\\}$，应用 Chebyshev 不等式，有\n$$\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}=\\sum_{i=1}^na_i\\cdot\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n不等式得证。如果 $n=2$，不等式化为等式。如果 $n\\geqslant3$，则等号成立的充要条件是 $a_1=a_2=\\cdots=a_n$。",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 5.1.11(Vojtech Jarnik,Crux) 设 $x_1,x_2,\\cdots,x_n$ 是正实数，且满足 $\\frac{1}{1+x_1^2}+\\frac{1}{1+x_2^2}+\\cdots+\\frac{1}{1+x_n^2}=1$，证明不等式\n$$x_1+x_2+\\cdots+x_n\\geqslant(n-1)\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\cdots+\\frac{1}{x_n}\\right)$$\n证明 对每一个 $i\\in\\{1,2,\\cdots,n\\}$，令 $a_i=\\frac{1}{1+x_i^2}$，则 $x_i=\\sqrt{\\frac{1-a_i}{a_i}}$，且 $a_1+a_2+\\cdots+a_n=1$，因此，不等式变成如下形式\n$$\\sum_{i=1}^n\\sqrt{\\frac{1-a_i}{a_i}}\\geqslant(n-1)\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\left(\\sqrt{\\frac{1-a_i}{a_i}}+\\sqrt{\\frac{a_i}{1-a_i}}\\right)\\geqslant n\\sum_{i=1}^n\\frac{a_i}{1-a_i}$$\n$$\\Leftrightarrow\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n对两个序列 $\\{a_i\\},\\left\\{\\frac{1}{\\sqrt{a_i(1-a_i)}}\\right\\}$，应用 Chebyshev 不等式，有\n$$\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}=\\sum_{i=1}^na_i\\cdot\\sum_{i=1}^n\\frac{1}{\\sqrt{a_i(1-a_i)}}\\geqslant n\\sum_{i=1}^n\\sqrt{\\frac{a_i}{1-a_i}}$$\n不等式得证。如果 $n=2$，不等式化为等式。如果 $n\\geqslant3$，则等号成立的充要条件是 $a_1=a_2=\\cdots=a_n$。",
+    "tags": [
+      "Chebyshev不等式",
+      "n变量不等式",
+      "条件不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

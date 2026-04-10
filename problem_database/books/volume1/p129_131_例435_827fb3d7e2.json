@@ -1,0 +1,55 @@
+{
+  "uid": "p129_131_例435_827fb3d7e2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "4",
+  "section": "4.3",
+  "problem_id": "例4.3.5",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    129,
+    130,
+    131
+  ],
+  "source_images": [],
+  "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1^2+a_2^2+\\cdots+a_n^2=n$，$k=\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}+\\frac{2\\sqrt{n-1}}{n}$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+k(a_1+a_2+\\cdots+a_n)\\geqslant n(k+1)$$",
+  "solution_md": "令\n$$d_n=\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}+\\frac{2\\sqrt{n-1}}{n}, c_n=\\frac{1}{d_n}$$\n则不等式变成\n$$g(a_1)+g(a_2)+\\cdots+g(a_n)\\geqslant ng(1)$$\n其中 $g(x)=\\frac{1}{x}+d_nx$。换句话说，我们要证明\n$$f(c,a_1)+f(c,a_2)+\\cdots+f(c,a_n)\\geqslant nf(c,1)\\quad \\forall c\\leqslant c_n=\\frac{1}{\\sqrt{d_n}}$$\n其中 $f(c,x)=\\frac{c}{x}+\\frac{x}{c}$。由于 $f(c,x)$ 是齐次函数，序列 $\\{c_n\\}$ 是减少的（因为序列 $\\{d_n\\}$ 是减少的），所以，由 GI 定理可知，只需在 $a_1=a_2=\\cdots=a_{n-1}=x, a_n=\\sqrt{n-(n-1)x^2}$ 的条件下，证明不等式成立即可。此时，不等式变成\n$$\\frac{n-1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}+k[(n-1)x+\\sqrt{n-(n-1)x^2}]\\geqslant n(k+1)$$\n注意到\n$$\\frac{n-1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}-n$$\n$$=(n-1)(1-x)\\cdot$$\n$$\\frac{[\\sqrt{n-(n-1)x^2}-x][\\sqrt{n-(n-1)x^2}+x+1]}{x\\sqrt{n-(n-1)x^2}(\\sqrt{n-(n-1)x^2}+1)}$$\n$$(n-1)x+\\sqrt{n-(n-1)x^2}-n=(n-1)(x-1)\\cdot\\frac{\\sqrt{n-(n-1)x^2}-x}{\\sqrt{n-(n-1)x^2}+1}$$\n最后，我们要证明\n$$d_n\\geqslant \\frac{\\sqrt{n-(n-1)x^2}+x+1}{x\\sqrt{n-(n-1)x^2}}$$\n由 AM-GM 不等式，有\n$$x\\sqrt{n-(n-1)x^2}=\\frac{1}{\\sqrt{n-1}}\\cdot\\sqrt{n-1}x\\cdot\\sqrt{n-(n-1)x^2}$$\n$$\\leqslant \\frac{n}{2\\sqrt{n-1}}$$\n由 Hölder 不等式，有\n$$\\left(\\frac{1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}\\right)^2\\cdot[(n-1)x^2+n-(n-1)x^2]\\geqslant (\\sqrt[3]{n-1}+1)^3$$\n$$\\Rightarrow \\frac{1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}\\geqslant \\sqrt{\\frac{(\\sqrt[3]{n-1}+1)^3}{n}}=\\sqrt{1+\\frac{3\\sqrt[3]{n-1}+3\\sqrt[3]{(n-1)^2}}{(\\sqrt[3]{n-1})^3+1}}$$\n$$=\\sqrt{1+\\frac{3\\sqrt[3]{n-1}}{\\sqrt[3]{(n-1)^2}-\\sqrt[3]{n-1}+1}}\\geqslant \\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}$$\n由上述之结论，我们很容易推出\n$$\\frac{1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}+\\frac{1}{x\\sqrt{n-(n-1)x^2}}\\geqslant \\frac{2\\sqrt{n-1}}{n}+\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}\\geqslant d_n$$\n不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+  "answer_md": "",
+  "hints_md": "注 当 $n=3$ 时，得到如下不等式：\n设正实数 $a,b,c$ 满足 $a^2+b^2+c^2=3$，证明\n$$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+29(a+b+c)\\geqslant 6\\sqrt{29}$$\n当 $n=4$ 时，得到下列不等式：\n设正实数 $a,b,c,d$ 满足 $a^2+b^2+c^2+d^2=4$，证明\n$$2\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}\\right)+\\sqrt{30}(a+b+c+d)\\geqslant 8+4\\sqrt{30}$$\n从前面的证明可得到一个非常强的不等式：\n设 $a_1,a_2,\\cdots,a_k$ 是正实数，且满足 $a_1^2+a_2^2+\\cdots+a_k^2=k$，$k$ 是自然数，$k\\in\\{1,2,\\cdots,20\\}$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_k}+2(a_1+a_2+\\cdots+a_k)\\geqslant 3k$$",
+  "original_text_md": "例 4.3.5(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1^2+a_2^2+\\cdots+a_n^2=n$，$k=\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}+\\frac{2\\sqrt{n-1}}{n}$，证明...",
+  "tags": [
+    "GI定理",
+    "AM-GM不等式",
+    "Hölder不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0017",
+  "raw_response_file": "raw/chunk-0017.response.txt",
+  "raw_api_file": "raw/chunk-0017.api.json",
+  "fingerprint": "827fb3d7e28c7b353b7b7bb439e7ff2b6845549c",
+  "raw_problem": {
+    "problem_id": "例4.3.5",
+    "problem_type": "example",
+    "chapter": "4",
+    "section": "4.3",
+    "title": null,
+    "source_pages": [
+      129,
+      130,
+      131
+    ],
+    "stem_md": "设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1^2+a_2^2+\\cdots+a_n^2=n$，$k=\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}+\\frac{2\\sqrt{n-1}}{n}$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+k(a_1+a_2+\\cdots+a_n)\\geqslant n(k+1)$$",
+    "solution_md": "令\n$$d_n=\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}+\\frac{2\\sqrt{n-1}}{n}, c_n=\\frac{1}{d_n}$$\n则不等式变成\n$$g(a_1)+g(a_2)+\\cdots+g(a_n)\\geqslant ng(1)$$\n其中 $g(x)=\\frac{1}{x}+d_nx$。换句话说，我们要证明\n$$f(c,a_1)+f(c,a_2)+\\cdots+f(c,a_n)\\geqslant nf(c,1)\\quad \\forall c\\leqslant c_n=\\frac{1}{\\sqrt{d_n}}$$\n其中 $f(c,x)=\\frac{c}{x}+\\frac{x}{c}$。由于 $f(c,x)$ 是齐次函数，序列 $\\{c_n\\}$ 是减少的（因为序列 $\\{d_n\\}$ 是减少的），所以，由 GI 定理可知，只需在 $a_1=a_2=\\cdots=a_{n-1}=x, a_n=\\sqrt{n-(n-1)x^2}$ 的条件下，证明不等式成立即可。此时，不等式变成\n$$\\frac{n-1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}+k[(n-1)x+\\sqrt{n-(n-1)x^2}]\\geqslant n(k+1)$$\n注意到\n$$\\frac{n-1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}-n$$\n$$=(n-1)(1-x)\\cdot$$\n$$\\frac{[\\sqrt{n-(n-1)x^2}-x][\\sqrt{n-(n-1)x^2}+x+1]}{x\\sqrt{n-(n-1)x^2}(\\sqrt{n-(n-1)x^2}+1)}$$\n$$(n-1)x+\\sqrt{n-(n-1)x^2}-n=(n-1)(x-1)\\cdot\\frac{\\sqrt{n-(n-1)x^2}-x}{\\sqrt{n-(n-1)x^2}+1}$$\n最后，我们要证明\n$$d_n\\geqslant \\frac{\\sqrt{n-(n-1)x^2}+x+1}{x\\sqrt{n-(n-1)x^2}}$$\n由 AM-GM 不等式，有\n$$x\\sqrt{n-(n-1)x^2}=\\frac{1}{\\sqrt{n-1}}\\cdot\\sqrt{n-1}x\\cdot\\sqrt{n-(n-1)x^2}$$\n$$\\leqslant \\frac{n}{2\\sqrt{n-1}}$$\n由 Hölder 不等式，有\n$$\\left(\\frac{1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}\\right)^2\\cdot[(n-1)x^2+n-(n-1)x^2]\\geqslant (\\sqrt[3]{n-1}+1)^3$$\n$$\\Rightarrow \\frac{1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}\\geqslant \\sqrt{\\frac{(\\sqrt[3]{n-1}+1)^3}{n}}=\\sqrt{1+\\frac{3\\sqrt[3]{n-1}+3\\sqrt[3]{(n-1)^2}}{(\\sqrt[3]{n-1})^3+1}}$$\n$$=\\sqrt{1+\\frac{3\\sqrt[3]{n-1}}{\\sqrt[3]{(n-1)^2}-\\sqrt[3]{n-1}+1}}\\geqslant \\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}$$\n由上述之结论，我们很容易推出\n$$\\frac{1}{x}+\\frac{1}{\\sqrt{n-(n-1)x^2}}+\\frac{1}{x\\sqrt{n-(n-1)x^2}}\\geqslant \\frac{2\\sqrt{n-1}}{n}+\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}\\geqslant d_n$$\n不等式得证，等号成立的条件是 $a_1=a_2=\\cdots=a_n=1$。",
+    "answer_md": "",
+    "hints_md": "注 当 $n=3$ 时，得到如下不等式：\n设正实数 $a,b,c$ 满足 $a^2+b^2+c^2=3$，证明\n$$\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+29(a+b+c)\\geqslant 6\\sqrt{29}$$\n当 $n=4$ 时，得到下列不等式：\n设正实数 $a,b,c,d$ 满足 $a^2+b^2+c^2+d^2=4$，证明\n$$2\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}\\right)+\\sqrt{30}(a+b+c+d)\\geqslant 8+4\\sqrt{30}$$\n从前面的证明可得到一个非常强的不等式：\n设 $a_1,a_2,\\cdots,a_k$ 是正实数，且满足 $a_1^2+a_2^2+\\cdots+a_k^2=k$，$k$ 是自然数，$k\\in\\{1,2,\\cdots,20\\}$，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots\\frac{1}{a_k}+2(a_1+a_2+\\cdots+a_k)\\geqslant 3k$$",
+    "original_text_md": "例 4.3.5(Pham Kim Hung,Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是正实数，且满足 $a_1^2+a_2^2+\\cdots+a_n^2=n$，$k=\\sqrt{1+\\frac{3}{\\sqrt[3]{n-1}}}+\\frac{2\\sqrt{n-1}}{n}$，证明...",
+    "tags": [
+      "GI定理",
+      "AM-GM不等式",
+      "Hölder不等式"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}

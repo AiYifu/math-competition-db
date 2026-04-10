@@ -1,0 +1,55 @@
+{
+  "uid": "p110_110_25_0946bfb46f",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "第3章 反证法",
+  "section": null,
+  "problem_id": "25",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    110
+  ],
+  "source_images": [
+    "page-110.jpg"
+  ],
+  "stem_md": "25. (Pham Kim Hung, Vasile Cirtoaje, Mathematics Reflection) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3 \\geqslant k\\left(\\frac{b}{a}+\\frac{c}{b}+\\frac{a}{c}-3\\right)$$\n其中 $k=1-\\frac{2}{(2\\sqrt{2}-1)\\sqrt{5+4\\sqrt{2}}+1}$，等号成立的条件是什么？",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "25. (Pham Kim Hung, Vasile Cirtoaje, Mathematics Reflection) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3\\geqslant k\\left(\\frac{b}{a}+\\frac{c}{b}+\\frac{a}{c}-3\\right)$$\n其中 $k=1-\\frac{2}{(2\\sqrt{2}-1)\\sqrt{5+4\\sqrt{2}}+1}$，等号成立的条件是什么？",
+  "tags": [
+    "Pham Kim Hung",
+    "Vasile Cirtoaje",
+    "Mathematics Reflection",
+    "三角形三边"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0013",
+  "raw_response_file": "raw/chunk-0013.response.txt",
+  "raw_api_file": "raw/chunk-0013.api.json",
+  "fingerprint": "0946bfb46ff20e0b7f8ce53e61bdf4a3888d0c68",
+  "raw_problem": {
+    "problem_id": "25",
+    "problem_type": "exercise",
+    "chapter": "第3章 反证法",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      110
+    ],
+    "stem_md": "25. (Pham Kim Hung, Vasile Cirtoaje, Mathematics Reflection) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3 \\geqslant k\\left(\\frac{b}{a}+\\frac{c}{b}+\\frac{a}{c}-3\\right)$$\n其中 $k=1-\\frac{2}{(2\\sqrt{2}-1)\\sqrt{5+4\\sqrt{2}}+1}$，等号成立的条件是什么？",
+    "solution_md": "",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "25. (Pham Kim Hung, Vasile Cirtoaje, Mathematics Reflection) 设 $a,b,c$ 是某三角形的三边长，证明\n$$\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3\\geqslant k\\left(\\frac{b}{a}+\\frac{c}{b}+\\frac{a}{c}-3\\right)$$\n其中 $k=1-\\frac{2}{(2\\sqrt{2}-1)\\sqrt{5+4\\sqrt{2}}+1}$，等号成立的条件是什么？",
+    "tags": [
+      "Pham Kim Hung",
+      "Vasile Cirtoaje",
+      "Mathematics Reflection",
+      "三角形三边"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

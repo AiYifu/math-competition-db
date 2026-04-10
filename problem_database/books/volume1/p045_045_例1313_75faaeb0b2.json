@@ -1,0 +1,55 @@
+{
+  "uid": "p045_045_例1313_75faaeb0b2",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "1.3",
+  "section": null,
+  "problem_id": "例1.3.13",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    45
+  ],
+  "source_images": [
+    "page-045.jpg"
+  ],
+  "stem_md": "（Pham Kim Hung, Mathlinks）设 $a_1,a_2,\\cdots,a_n$ 是和为 $n$ 的正实数，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}\\geqslant n+2\\sqrt{2}$$",
+  "solution_md": "注意到\n$$\\sum_{i=1}^n\\frac{1}{a_i}-n=\\sum_{i=1}^n\\frac{1}{a_i}-\\frac{n^2}{\\sum_{i=1}^na_i}=\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}$$\n于是，不等式可以变为\n$$\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant2\\sqrt{2}-\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}$$\n$$\\Leftrightarrow\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant\\sum_{i<j}\\frac{2\\sqrt{2}\\,(a_i-a_j)^2}{n(a_1^2+a_2^2+\\cdots+a_n^2)}$$\n$$\\Leftrightarrow\\sum_{i<j}S_{ij}(a_i-a_j)^2\\geqslant0$$\n其中 $S_{ij}(1\\leqslant i<j\\leqslant n)$，由下式确定\n$$S_{ij}=\\frac{1}{a_ia_j}-\\frac{2\\sqrt{2}}{a_1^2+a_2^2+\\cdots+a_n^2}$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例 1.3.13(Pham Kim Hung, Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是和为 $n$ 的正实数，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}\\geqslant n+2\\sqrt{2}$$\n证明 注意到\n$$\\sum_{i=1}^n\\frac{1}{a_i}-n=\\sum_{i=1}^n\\frac{1}{a_i}-\\frac{n^2}{\\sum_{i=1}^na_i}=\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}$$\n于是，不等式可以变为\n$$\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant2\\sqrt{2}-\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}$$\n$$\\Leftrightarrow\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant\\sum_{i<j}\\frac{2\\sqrt{2}\\,(a_i-a_j)^2}{n(a_1^2+a_2^2+\\cdots+a_n^2)}$$\n$$\\Leftrightarrow\\sum_{i<j}S_{ij}(a_i-a_j)^2\\geqslant0$$\n其中 $S_{ij}(1\\leqslant i<j\\leqslant n)$，由下式确定\n$$S_{ij}=\\frac{1}{a_ia_j}-\\frac{2\\sqrt{2}}{a_1^2+a_2^2+\\cdots+a_n^2}$$",
+  "tags": [
+    "SOS方法",
+    "正实数",
+    "n元不等式",
+    "Pham Kim Hung"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0005",
+  "raw_response_file": "raw/chunk-0005.response.txt",
+  "raw_api_file": "raw/chunk-0005.api.json",
+  "fingerprint": "75faaeb0b207829cef2a6e7a977d60856badf609",
+  "raw_problem": {
+    "problem_id": "例1.3.13",
+    "problem_type": "example",
+    "chapter": "1.3",
+    "section": null,
+    "title": null,
+    "source_pages": [
+      45
+    ],
+    "stem_md": "（Pham Kim Hung, Mathlinks）设 $a_1,a_2,\\cdots,a_n$ 是和为 $n$ 的正实数，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}\\geqslant n+2\\sqrt{2}$$",
+    "solution_md": "注意到\n$$\\sum_{i=1}^n\\frac{1}{a_i}-n=\\sum_{i=1}^n\\frac{1}{a_i}-\\frac{n^2}{\\sum_{i=1}^na_i}=\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}$$\n于是，不等式可以变为\n$$\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant2\\sqrt{2}-\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}$$\n$$\\Leftrightarrow\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant\\sum_{i<j}\\frac{2\\sqrt{2}\\,(a_i-a_j)^2}{n(a_1^2+a_2^2+\\cdots+a_n^2)}$$\n$$\\Leftrightarrow\\sum_{i<j}S_{ij}(a_i-a_j)^2\\geqslant0$$\n其中 $S_{ij}(1\\leqslant i<j\\leqslant n)$，由下式确定\n$$S_{ij}=\\frac{1}{a_ia_j}-\\frac{2\\sqrt{2}}{a_1^2+a_2^2+\\cdots+a_n^2}$$",
+    "answer_md": "",
+    "hints_md": "",
+    "original_text_md": "例 1.3.13(Pham Kim Hung, Mathlinks) 设 $a_1,a_2,\\cdots,a_n$ 是和为 $n$ 的正实数，证明\n$$\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}+\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}\\geqslant n+2\\sqrt{2}$$\n证明 注意到\n$$\\sum_{i=1}^n\\frac{1}{a_i}-n=\\sum_{i=1}^n\\frac{1}{a_i}-\\frac{n^2}{\\sum_{i=1}^na_i}=\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}$$\n于是，不等式可以变为\n$$\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant2\\sqrt{2}-\\frac{2\\sqrt{2}\\,n}{a_1^2+a_2^2+\\cdots+a_n^2}$$\n$$\\Leftrightarrow\\frac{1}{n}\\sum_{i<j}\\frac{(a_i-a_j)^2}{a_ia_j}\\geqslant\\sum_{i<j}\\frac{2\\sqrt{2}\\,(a_i-a_j)^2}{n(a_1^2+a_2^2+\\cdots+a_n^2)}$$\n$$\\Leftrightarrow\\sum_{i<j}S_{ij}(a_i-a_j)^2\\geqslant0$$\n其中 $S_{ij}(1\\leqslant i<j\\leqslant n)$，由下式确定\n$$S_{ij}=\\frac{1}{a_ia_j}-\\frac{2\\sqrt{2}}{a_1^2+a_2^2+\\cdots+a_n^2}$$",
+    "tags": [
+      "SOS方法",
+      "正实数",
+      "n元不等式",
+      "Pham Kim Hung"
+    ],
+    "confidence": "high",
+    "is_incomplete": true
+  }
+}

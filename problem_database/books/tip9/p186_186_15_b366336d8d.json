@@ -1,0 +1,24 @@
+{
+  "uid": "p186_186_15_b366336d8d",
+  "book_title": "小蓝本高中卷9 不等式的解题与技巧",
+  "chapter": null,
+  "section": null,
+  "problem_id": "15",
+  "problem_type": "exercise",
+  "title": null,
+  "source_pages": [
+    186
+  ],
+  "stem_md": "反设 $ab > 0$, 不妨设 $a > 0$, 则 $b > 0$. 分三种情况讨论: (1) 若 $c > 0$, $x^4 + ax^3 + bx + c = 0$ 的根均为负根, 与 $x^2$ 前系数为 0 矛盾. (2) 若 $c < 0$, 四个实根乘积为 $c < 0$, 正根为 1 个或 3 个, 其余为负根, 再分别讨论: (i) 如果有 3 个正根 $x_2, x_3, x_4$, 负根为 $x_1$, 则 $x_1 + x_2 + x_3 + x_4 = -a < 0$, 故 $-x_1 > -x_1 - a = x_2 + x_3 + x_4$. 由于 $x^2$ 前系数为 0, 应当有 $x_1(x_2 + x_3 + x_4) - \\left(\\frac{x_2x_3}{x_4} + \\frac{x_3x_4}{x_2} + \\frac{x_4x_2}{x_3}\\right)$, 矛盾!",
+  "solution_md": "",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "反设 $ab > 0$, 不妨设 $a > 0$, 则 $b > 0$. 分三种情况讨论: (1) 若 $c > 0$, $x^4 + ax^3 + bx + c = 0$ 的根均为负根, 与 $x^2$ 前系数为 0 矛盾. (2) 若 $c < 0$, 四个实根乘积为 $c < 0$, 正根为 1 个或 3 个, 其余为负根, 再分别讨论: (i) 如果有 3 个正根 $x_2, x_3, x_4$, 负根为 $x_1$, 则 $x_1 + x_2 + x_3 + x_4 = -a < 0$, 故 $-x_1 > -x_1 - a = x_2 + x_3 + x_4$. 由于 $x^2$ 前系数为 0, 应当有 $x_1(x_2 + x_3 + x_4) - \\left(\\frac{x_2x_3}{x_4} + \\frac{x_3x_4}{x_2} + \\frac{x_4x_2}{x_3}\\right)$, 矛盾!",
+  "tags": [
+    "反证法",
+    "不等式"
+  ],
+  "confidence": "high",
+  "is_incomplete": true,
+  "chunk_id": "chunk-0024"
+}

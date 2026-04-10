@@ -1,0 +1,25 @@
+{
+  "uid": "p181_182_例11_cd37984f90",
+  "book_title": "小蓝本高中卷4 均值不等式与柯西不等式",
+  "chapter": "4 柯西不等式的应用",
+  "section": null,
+  "problem_id": "例11",
+  "problem_type": "example",
+  "title": null,
+  "source_pages": [
+    181,
+    182
+  ],
+  "stem_md": "设正整数 $n \\geqslant 2$. 求常数 $C(n)$ 的最大值, 使得对于所有满足 $x_i \\in (0, 1)$ ($i = 1, 2, \\cdots, n$), 且 $(1 - x_i)(1 - x_j) \\geqslant \\frac{1}{4}(1 \\leqslant i < j \\leqslant n)$ 的实数 $x_1, x_2, \\cdots, x_n$, 均有 $\\sum_{i=1}^{n} x_i \\geqslant C(n) \\sum_{1 \\leqslant i < j \\leqslant n} (2x_ix_j + \\sqrt{x_ix_j})$.",
+  "solution_md": "解 首先, 取 $x_i = \\frac{1}{2}$ ($i = 1, 2, \\cdots, n$). 代入式①有\n$$\\frac{n}{2} \\geqslant C(n)C_n^2\\left(\\frac{1}{2} + \\frac{1}{2}\\right).$$\n于是, $C(n) \\leqslant \\frac{1}{n - 1}$.\n下面证明: $C(n) = \\frac{1}{n - 1}$ 满足条件.\n由 $1 - x_i + 1 - x_j \\geqslant 2\\sqrt{(1 - x_i)(1 - x_j)} \\geqslant 1$ ($1 \\leqslant i < j \\leqslant n$), 得 $x_i + x_j \\leqslant 1$.\n取和得 $(n - 1)\\sum_{k=1}^{n} x_k \\leqslant C_n^2$, 即 $\\sum_{k=1}^{n} x_k \\leqslant \\frac{n}{2}$.\n故\n$$\\frac{1}{n - 1}\\sum_{1 \\leqslant i < j \\leqslant n} (2x_ix_j + \\sqrt{x_ix_j})$$\n$$= \\frac{1}{n - 1}\\left[\\left(\\sum_{k=1}^{n} x_k\\right)^2 - \\sum_{k=1}^{n} x_k^2 + \\sum_{1 \\leqslant i < j \\leqslant n} \\sqrt{x_ix_j}\\right]$$\n$$\\leqslant \\frac{1}{n - 1}\\left[\\frac{n - 1}{n}\\left(\\sum_{k=1}^{n} x_k\\right)^2 + \\frac{n - 1}{2}\\sum_{k=1}^{n} x_k\\right]$$\n$$= \\frac{1}{n}\\left(\\sum_{k=1}^{n} x_k\\right)^2 + \\frac{1}{2}\\sum_{k=1}^{n} x_k.$$",
+  "answer_md": "",
+  "hints_md": "",
+  "original_text_md": "例11 设正整数 $n \\geqslant 2$. 求常数 $C(n)$ 的最大值, 使得对于所有满足 $x_i \\in (0, 1)$ ($i = 1, 2, \\cdots, n$), 且 $(1 - x_i)(1 - x_j) \\geqslant \\frac{1}{4}(1 \\leqslant i < j \\leqslant n)$ 的实数 $x_1, x_2, \\cdots, x_n$, 均有 $\\sum_{i=1}^{n} x_i \\geqslant C(n) \\sum_{1 \\leqslant i < j \\leqslant n} (2x_ix_j + \\sqrt{x_ix_j})$.\n解 首先, 取 $x_i = \\frac{1}{2}$ ($i = 1, 2, \\cdots, n$). 代入式①有\n$$\\frac{n}{2} \\geqslant C(n)C_n^2\\left(\\frac{1}{2} + \\frac{1}{2}\\right).$$\n于是, $C(n) \\leqslant \\frac{1}{n - 1}$.\n下面证明: $C(n) = \\frac{1}{n - 1}$ 满足条件.\n由 $1 - x_i + 1 - x_j \\geqslant 2\\sqrt{(1 - x_i)(1 - x_j)} \\geqslant 1$ ($1 \\leqslant i < j \\leqslant n$), 得 $x_i + x_j \\leqslant 1$.\n取和得 $(n - 1)\\sum_{k=1}^{n} x_k \\leqslant C_n^2$, 即 $\\sum_{k=1}^{n} x_k \\leqslant \\frac{n}{2}$.\n故\n$$\\frac{1}{n - 1}\\sum_{1 \\leqslant i < j \\leqslant n} (2x_ix_j + \\sqrt{x_ix_j})$$\n$$= \\frac{1}{n - 1}\\left[\\left(\\sum_{k=1}^{n} x_k\\right)^2 - \\sum_{k=1}^{n} x_k^2 + \\sum_{1 \\leqslant i < j \\leqslant n} \\sqrt{x_ix_j}\\right]$$\n$$\\leqslant \\frac{1}{n - 1}\\left[\\frac{n - 1}{n}\\left(\\sum_{k=1}^{n} x_k\\right)^2 + \\frac{n - 1}{2}\\sum_{k=1}^{n} x_k\\right]$$\n$$= \\frac{1}{n}\\left(\\sum_{k=1}^{n} x_k\\right)^2 + \\frac{1}{2}\\sum_{k=1}^{n} x_k.$$",
+  "tags": [
+    "柯西不等式",
+    "不等式证明"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0023"
+}

@@ -1,0 +1,63 @@
+{
+  "uid": "p229_231_附录-例84_7b59ee2946",
+  "book_title": "不等式的秘密 第1卷 第2版",
+  "chapter": "附录",
+  "section": null,
+  "problem_id": "附录-例8.4",
+  "problem_type": "example",
+  "title": "《不等式的秘密》例8.4的正确解答",
+  "source_pages": [
+    229,
+    230,
+    231
+  ],
+  "source_images": [
+    "page-229.jpg",
+    "page-230.jpg",
+    "page-231.jpg"
+  ],
+  "stem_md": "设 $a,b,c,d>0$，且 $a+b+c+d=4$，证明\n$$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$",
+  "solution_md": "令\n$$f(x)=\\frac{1}{x^2}-x^2+4x-4\\quad(0<x<4)$$\n\n注意到\n$$f(x)=\\frac{(x-1)^2(1+\\sqrt{2}-x)(x+\\sqrt{2}-1)}{x^2}$$\n\n可知：$0<x\\leqslant 1+\\sqrt{2}$ 时，$f(x)\\geqslant 0$；$1+\\sqrt{2}<x<4$ 时，$f(x)<0$。\n\n**情形(1)**\n$$a,b,c,d\\leqslant 1+\\sqrt{2}$$\n则 $f(a),f(b),f(c),f(d)\\geqslant 0$\n\n故 $f(a)+f(b)+f(c)+f(d)\\geqslant 0$\n\n由 $a+b+c+d=4$\n\n得 $$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$\n\n**情形(2)**：$a,b,c,d$ 中有一个（只能有一个），不妨设为 $a$，满足\n$$1+\\sqrt{2}<a<4$$\n\n则 $b+c+d=4-a<3-\\sqrt{2}$\n\n由 $$\\sqrt{\\frac{\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}}{3}}\\geqslant\\frac{\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}}{3}\\geqslant\\frac{3}{b+c+d}$$\n\n故 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>\\frac{27}{(3-\\sqrt{2})^2}>10$$\n\n若 $1+\\sqrt{2}<a\\leqslant 3$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=2(a-1)(a-3)+10\\leqslant 10$$\n\n此时不等式成立。\n\n若 $3<a<4$，则\n$$0<b+c+d=4-a<1$$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=16+2a(a-4)<16$$\n\n而 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>27$$\n\n故此时不等式成立。\n\n故我们证明了不等式对满足条件的所有正数 $a,b,c,d$ 均成立。",
+  "answer_md": "",
+  "hints_md": "《不等式的秘密》([越] 范建雄著，隋振林译，哈尔滨工业大学出版社，2012)一书104页例8.4，著者的解答有误，并且不必要地使用导数，兹给出该题之正确解答，并乐于看到更简洁的初等证明。",
+  "original_text_md": "《不等式的秘密》([越] 范建雄著，隋振林译，哈尔滨工业大学出版社，2012)一书104页例8.4，著者的解答有误，并且不必要地使用导数，兹给出该题之正确解答，并乐于看到更简洁的初等证明。\n\n设 $a,b,c,d>0$，且 $a+b+c+d=4$，证明\n$$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$\n\n**证明** 令\n$$f(x)=\\frac{1}{x^2}-x^2+4x-4\\quad(0<x<4)$$\n\n注意到\n$$f(x)=\\frac{(x-1)^2(1+\\sqrt{2}-x)(x+\\sqrt{2}-1)}{x^2}$$\n\n可知：$0<x\\leqslant 1+\\sqrt{2}$ 时，$f(x)\\geqslant 0$；$1+\\sqrt{2}<x<4$ 时，$f(x)<0$。\n\n**情形(1)**\n$$a,b,c,d\\leqslant 1+\\sqrt{2}$$\n则 $f(a),f(b),f(c),f(d)\\geqslant 0$\n\n故 $f(a)+f(b)+f(c)+f(d)\\geqslant 0$\n\n由 $a+b+c+d=4$\n\n得 $$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$\n\n**情形(2)**：$a,b,c,d$ 中有一个（只能有一个），不妨设为 $a$，满足\n$$1+\\sqrt{2}<a<4$$\n\n则 $b+c+d=4-a<3-\\sqrt{2}$\n\n由 $$\\sqrt{\\frac{\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}}{3}}\\geqslant\\frac{\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}}{3}\\geqslant\\frac{3}{b+c+d}$$\n\n故 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>\\frac{27}{(3-\\sqrt{2})^2}>10$$\n\n若 $1+\\sqrt{2}<a\\leqslant 3$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=2(a-1)(a-3)+10\\leqslant 10$$\n\n此时不等式成立。\n\n若 $3<a<4$，则\n$$0<b+c+d=4-a<1$$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=16+2a(a-4)<16$$\n\n而 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>27$$\n\n故此时不等式成立。\n\n故我们证明了不等式对满足条件的所有正数 $a,b,c,d$ 均成立。",
+  "tags": [
+    "inequality",
+    "four variables",
+    "symmetric",
+    "correction",
+    "example 8.4"
+  ],
+  "confidence": "high",
+  "is_incomplete": false,
+  "chunk_id": "chunk-0026",
+  "raw_response_file": "raw/chunk-0026.response.txt",
+  "raw_api_file": "raw/chunk-0026.api.json",
+  "fingerprint": "7b59ee294622795a91f72dd5cfc71a493de45bd4",
+  "raw_problem": {
+    "problem_id": "附录-例8.4",
+    "problem_type": "example",
+    "chapter": "附录",
+    "section": null,
+    "title": "《不等式的秘密》例8.4的正确解答",
+    "source_pages": [
+      229,
+      230,
+      231
+    ],
+    "stem_md": "设 $a,b,c,d>0$，且 $a+b+c+d=4$，证明\n$$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$",
+    "solution_md": "令\n$$f(x)=\\frac{1}{x^2}-x^2+4x-4\\quad(0<x<4)$$\n\n注意到\n$$f(x)=\\frac{(x-1)^2(1+\\sqrt{2}-x)(x+\\sqrt{2}-1)}{x^2}$$\n\n可知：$0<x\\leqslant 1+\\sqrt{2}$ 时，$f(x)\\geqslant 0$；$1+\\sqrt{2}<x<4$ 时，$f(x)<0$。\n\n**情形(1)**\n$$a,b,c,d\\leqslant 1+\\sqrt{2}$$\n则 $f(a),f(b),f(c),f(d)\\geqslant 0$\n\n故 $f(a)+f(b)+f(c)+f(d)\\geqslant 0$\n\n由 $a+b+c+d=4$\n\n得 $$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$\n\n**情形(2)**：$a,b,c,d$ 中有一个（只能有一个），不妨设为 $a$，满足\n$$1+\\sqrt{2}<a<4$$\n\n则 $b+c+d=4-a<3-\\sqrt{2}$\n\n由 $$\\sqrt{\\frac{\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}}{3}}\\geqslant\\frac{\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}}{3}\\geqslant\\frac{3}{b+c+d}$$\n\n故 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>\\frac{27}{(3-\\sqrt{2})^2}>10$$\n\n若 $1+\\sqrt{2}<a\\leqslant 3$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=2(a-1)(a-3)+10\\leqslant 10$$\n\n此时不等式成立。\n\n若 $3<a<4$，则\n$$0<b+c+d=4-a<1$$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=16+2a(a-4)<16$$\n\n而 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>27$$\n\n故此时不等式成立。\n\n故我们证明了不等式对满足条件的所有正数 $a,b,c,d$ 均成立。",
+    "answer_md": "",
+    "hints_md": "《不等式的秘密》([越] 范建雄著，隋振林译，哈尔滨工业大学出版社，2012)一书104页例8.4，著者的解答有误，并且不必要地使用导数，兹给出该题之正确解答，并乐于看到更简洁的初等证明。",
+    "original_text_md": "《不等式的秘密》([越] 范建雄著，隋振林译，哈尔滨工业大学出版社，2012)一书104页例8.4，著者的解答有误，并且不必要地使用导数，兹给出该题之正确解答，并乐于看到更简洁的初等证明。\n\n设 $a,b,c,d>0$，且 $a+b+c+d=4$，证明\n$$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$\n\n**证明** 令\n$$f(x)=\\frac{1}{x^2}-x^2+4x-4\\quad(0<x<4)$$\n\n注意到\n$$f(x)=\\frac{(x-1)^2(1+\\sqrt{2}-x)(x+\\sqrt{2}-1)}{x^2}$$\n\n可知：$0<x\\leqslant 1+\\sqrt{2}$ 时，$f(x)\\geqslant 0$；$1+\\sqrt{2}<x<4$ 时，$f(x)<0$。\n\n**情形(1)**\n$$a,b,c,d\\leqslant 1+\\sqrt{2}$$\n则 $f(a),f(b),f(c),f(d)\\geqslant 0$\n\n故 $f(a)+f(b)+f(c)+f(d)\\geqslant 0$\n\n由 $a+b+c+d=4$\n\n得 $$\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant a^2+b^2+c^2+d^2$$\n\n**情形(2)**：$a,b,c,d$ 中有一个（只能有一个），不妨设为 $a$，满足\n$$1+\\sqrt{2}<a<4$$\n\n则 $b+c+d=4-a<3-\\sqrt{2}$\n\n由 $$\\sqrt{\\frac{\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}}{3}}\\geqslant\\frac{\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}}{3}\\geqslant\\frac{3}{b+c+d}$$\n\n故 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>\\frac{27}{(3-\\sqrt{2})^2}>10$$\n\n若 $1+\\sqrt{2}<a\\leqslant 3$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=2(a-1)(a-3)+10\\leqslant 10$$\n\n此时不等式成立。\n\n若 $3<a<4$，则\n$$0<b+c+d=4-a<1$$\n\n则 $$a^2+b^2+c^2+d^2<a^2+(b+c+d)^2=a^2+(4-a)^2=16+2a(a-4)<16$$\n\n而 $$\\frac{1}{b^2}+\\frac{1}{c^2}+\\frac{1}{d^2}\\geqslant\\frac{27}{(b+c+d)^2}>27$$\n\n故此时不等式成立。\n\n故我们证明了不等式对满足条件的所有正数 $a,b,c,d$ 均成立。",
+    "tags": [
+      "inequality",
+      "four variables",
+      "symmetric",
+      "correction",
+      "example 8.4"
+    ],
+    "confidence": "high",
+    "is_incomplete": false
+  }
+}
