@@ -8,6 +8,7 @@ import json
 from embeddings import SiliconFlowEmbeddings
 from vector_store import VectorStore
 from bm25_index import BM25Index
+from reranker import CrossEncoderReranker
 
 class HybridSearcher:
     """混合检索器：向量检索 + BM25稀疏检索 + 融合排序"""
@@ -18,7 +19,9 @@ class HybridSearcher:
         index_dir: Path = Path("./data/indices/faiss"),
         bm25_dir: Path = Path("./data/indices/bm25"),
         vector_weight: float = 0.7,
-        bm25_weight: float = 0.3
+        bm25_weight: float = 0.3,
+        reranker_model: str = "BAAI/bge-reranker-v2-m3",
+        use_reranker: bool = False
     ):
         self.api_key = api_key
         self.index_dir = index_dir
@@ -29,6 +32,12 @@ class HybridSearcher:
         self.embedder = SiliconFlowEmbeddings(api_key=api_key)
         self.vector_store = VectorStore()
         self.bm25_index = BM25Index()
+        
+        # 初始化Cross Encoder Reranker（可选）
+        self.reranker = None
+        if use_reranker:
+            self.reranker = CrossEncoderReranker(model_name=reranker_model)
+            print(f"Cross Encoder Reranker已加载: {reranker_model}")
         
         # 加载已有索引
         if (index_dir / "index.faiss").exists():
@@ -43,7 +52,8 @@ class HybridSearcher:
         query: str,
         top_k: int = 5,
         exact_match_threshold: float = 0.99,
-        use_hybrid: bool = True
+        use_hybrid: bool = True,
+        use_rerank: bool = False
     ) -> List[Dict]:
         """
         执行混合检索
@@ -53,15 +63,16 @@ class HybridSearcher:
             top_k: 返回结果数量
             exact_match_threshold: 精确匹配阈值
             use_hybrid: 是否使用混合检索（向量+BM25）
+            use_rerank: 是否使用Cross Encoder重排序
             
         Returns:
             检索结果列表
         """
         start_time = time.time()
         
-        # Step 1: 向量检索
+        # Step 1: 向量检索（召回Top-40）
         query_emb = await self.embedder.embed_single(query)
-        recall_k = max(top_k * 8, 40)  # 召回更多用于融合
+        recall_k = 40
         vector_ids, vector_scores = self.vector_store.search(query_emb, k=recall_k)
         
         # 检查精确匹配
@@ -69,7 +80,7 @@ class HybridSearcher:
         if vector_scores and vector_scores[0] >= exact_match_threshold:
             exact_match = True
         
-        # Step 2: BM25检索（如果使用混合检索）
+        # Step 2: BM25检索（召回Top-40）
         if use_hybrid and self.bm25_index.N > 0:
             bm25_results = self.bm25_index.search(query, top_k=recall_k)
         else:
@@ -80,23 +91,57 @@ class HybridSearcher:
             fused_results = self._reciprocal_rank_fusion(
                 list(zip(vector_ids, vector_scores)),
                 bm25_results,
-                top_k=top_k
+                top_k=max(top_k, 20)  # 至少返回Top-20用于重排序
             )
         else:
             # 仅使用向量结果
             fused_results = [
                 {"uid": uid, "score": score, "match_type": "semantic"}
-                for uid, score in zip(vector_ids[:top_k], vector_scores[:top_k])
+                for uid, score in zip(vector_ids[:max(top_k, 20)], vector_scores[:max(top_k, 20)])
             ]
+        
+        # Step 4: （可选）Cross Encoder重排序Top-20
+        if use_rerank and self.reranker and fused_results:
+            rerank_k = min(20, len(fused_results))
+            candidates = fused_results[:rerank_k]
+            
+            # 获取文档内容
+            candidate_texts = []
+            valid_candidates = []
+            for item in candidates:
+                doc_text = self._get_document_text(item["uid"])
+                if doc_text:
+                    candidate_texts.append(doc_text)
+                    valid_candidates.append(item)
+            
+            if candidate_texts:
+                # 使用Cross Encoder重排序
+                rerank_scores = self.reranker.rerank(query, candidate_texts)
+                
+                # 更新分数并重新排序
+                for i, (item, score) in enumerate(zip(valid_candidates, rerank_scores)):
+                    item["rerank_score"] = score
+                    item["original_score"] = item["score"]
+                    item["score"] = score  # 使用重排序分数作为主要分数
+                
+                # 按重排序分数降序排序
+                reranked = sorted(valid_candidates, key=lambda x: x["score"], reverse=True)
+                
+                # 保留未重排序的结果
+                fused_results = reranked + fused_results[rerank_k:]
+        
+        # 只返回Top-k结果
+        final_results = fused_results[:top_k]
         
         query_time = (time.time() - start_time) * 1000
         
         return {
-            "results": fused_results,
+            "results": final_results,
             "exact_match": exact_match,
             "query_time_ms": query_time,
             "vector_results": len(vector_ids),
-            "bm25_results": len(bm25_results)
+            "bm25_results": len(bm25_results),
+            "reranked": use_rerank and self.reranker is not None
         }
     
     def _reciprocal_rank_fusion(
@@ -210,6 +255,22 @@ class HybridSearcher:
     def get_document(self, uid: str) -> Optional[Dict]:
         """根据ID获取文档元数据"""
         return self.vector_store.metadata.get(uid)
+    
+    def _get_document_text(self, uid: str) -> Optional[str]:
+        """
+        根据ID获取文档内容文本
+        
+        Args:
+            uid: 文档唯一标识
+            
+        Returns:
+            文档内容文本，如果不存在则返回None
+        """
+        metadata = self.vector_store.metadata.get(uid)
+        if metadata:
+            # 优先使用stem字段
+            return metadata.get("stem", None)
+        return None
     
     def get_stats(self) -> Dict:
         """获取索引统计信息"""
