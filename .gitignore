@@ -17,9 +17,9 @@ logs/
 .cache/
 
 # Large data files (>100MB, GitHub limit)
-problem_database/datasets/aops_hf.json
 竞赛helper/datasets/aops_hf.json
 竞赛helper/datasets/aops_hf/
+竞赛helper/datasets/aops_hf_problems/
 
 # PDF books and images
 竞赛helper/data/

@@ -1,0 +1,6 @@
+{
+  "total": 80661,
+  "batches": 81,
+  "files_per_batch": 1000,
+  "source": "https://huggingface.co/datasets/AI-MO/aops"
+}

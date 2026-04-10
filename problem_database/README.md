@@ -17,8 +17,11 @@ problem_database/
 │   ├── cmo.json    # CMO problems (8)
 │   └── all_aops.json
 ├── datasets/       # Large datasets
-│   ├── aops_hf.json         # 80,661 problems (344MB)
-│   └── olympiadbench.json   # 7,430 problems (16MB)
+│   ├── aops_hf_split/      # 80,661 problems (81 batch files)
+│   │   ├── batch_0000/problems.json
+│   │   ├── batch_0001/problems.json
+│   │   └── ... (81 batches total)
+│   └── olympiadbench.json   # 7,430 problems
 └── index.json
 ```
 
