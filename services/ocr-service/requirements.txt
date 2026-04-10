@@ -1,0 +1,5 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pix2text
+python-multipart
+pydantic>=2.0.0
